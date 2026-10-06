@@ -26,11 +26,11 @@ export default function RevisionSheetPage() {
       number: st.number,
       titleEn: st.titleEn,
       titleSi: st.titleSi,
-      summaryEn: 'Core syllabus short notes',
-      summarySi: 'විෂය නිර්දේශයේ මූලික කෙටි සටහන්',
+      summaryEn: st.summaryEn || 'Core syllabus short notes',
+      summarySi: st.summarySi || 'විෂය නිර්දේශයේ මූලික කෙටි සටහන්',
       blocks: st.blocks
     }));
-    glossary = [];
+    glossary = generalData.glossary || [];
   }
 
   const handlePrint = () => {

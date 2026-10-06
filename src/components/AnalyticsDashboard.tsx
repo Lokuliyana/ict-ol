@@ -36,14 +36,10 @@ export function AnalyticsDashboard() {
 
   // Past Paper Coverage Matrix (Years 2020 to 2025)
   const years = [2020, 2021, 2022, 2023, 2024, 2025];
-  const coverageMap: Record<number, boolean> = {
-    2020: !!(state.pastPaperAnswers['pp-2020-p1-q2'] || state.pastPaperAnswers['pp-2020-p2-q1i'] || state.pastPaperAnswers['pp-2020-p1-q37']),
-    2021: !!(state.pastPaperAnswers['pp-2021-p1-q1'] || state.pastPaperAnswers['pp-2021-p2-q1i'] || state.pastPaperAnswers['pp-2021-p1-q6']),
-    2022: !!state.pastPaperAnswers['pp-2022-p1-q7'],
-    2023: false,
-    2024: false,
-    2025: false
-  };
+  const coverageMap: Record<number, boolean> = {};
+  years.forEach(yr => {
+    coverageMap[yr] = Object.keys(state.pastPaperAnswers).some(id => id.includes(String(yr)));
+  });
 
   // Medium Balance Calculation
   const totalInteractions = state.mediumTracker.dual + state.mediumTracker.en + state.mediumTracker.si;

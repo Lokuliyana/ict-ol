@@ -1,6 +1,9 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { LESSON_01_DATA } from '@/data/lesson01Data';
+import { ALL_LESSONS_DATA } from '@/data/allLessonsData';
+import { PAST_PAPER_QUESTIONS } from '@/data/pastPapersData';
 
 export type LanguageMode = 'dual' | 'en' | 'si';
 
@@ -142,20 +145,31 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
   };
 
   const getLessonMastery = (lessonId: string) => {
-    // Dynamic mastery calculation based on readings and quizzes
+    let blockIds: string[] = [];
+    let questionIds: string[] = [];
+
     if (lessonId === 'g10-u1') {
-      const totalBlocks = 12;
-      const readCount = state.completedBlocks.length;
-      const readRatio = Math.min(1, readCount / totalBlocks);
-
-      const answeredPP = Object.keys(state.pastPaperAnswers).length;
-      const correctPP = Object.values(state.pastPaperAnswers).filter(a => a.isCorrect).length;
-      const ppRatio = answeredPP > 0 ? (correctPP / answeredPP) : 0.5;
-
-      const mastery = Math.round((readRatio * 0.4 + ppRatio * 0.6) * 100);
-      return Math.min(100, Math.max(10, mastery));
+      LESSON_01_DATA.subtopics.forEach(st => st.blocks.forEach(b => blockIds.push(b.id)));
+      questionIds = PAST_PAPER_QUESTIONS.map(q => q.id);
+    } else if (ALL_LESSONS_DATA[lessonId]) {
+      const data = ALL_LESSONS_DATA[lessonId];
+      data.subtopics.forEach(st => st.blocks.forEach(b => blockIds.push(b.id)));
+      questionIds = data.pastPaperQuestions.map(q => q.id);
     }
-    return 65;
+
+    if (blockIds.length === 0) return 0;
+
+    const readBlocksCount = blockIds.filter(id => state.completedBlocks.includes(id)).length;
+    const readRatio = readBlocksCount / blockIds.length;
+
+    const answeredQuestions = questionIds.filter(id => state.pastPaperAnswers[id]);
+    const correctQuestions = answeredQuestions.filter(id => state.pastPaperAnswers[id]?.isCorrect);
+    const quizRatio = questionIds.length > 0 
+      ? (answeredQuestions.length > 0 ? (correctQuestions.length / questionIds.length) : 0)
+      : 1;
+
+    const score = Math.round((readRatio * 0.5 + quizRatio * 0.5) * 100);
+    return Math.min(100, Math.max(0, score));
   };
 
   return (

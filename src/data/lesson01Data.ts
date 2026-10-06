@@ -17,9 +17,9 @@ export interface SubTopic {
     id: string;
     titleEn: string;
     titleSi: string;
-    contentEn: string;
-    contentSi: string;
-    isInteractiveWidget?: 'nic-decoder' | 'system-diagram' | 'timeline-slider';
+    contentEn?: string;
+    contentSi?: string;
+    isInteractiveWidget?: 'nic-decoder' | 'system-diagram' | 'timeline-slider' | 'number-converter' | 'logic-gate';
   }[];
   tableData?: {
     headers: { en: string; si: string }[];

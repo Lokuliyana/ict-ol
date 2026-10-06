@@ -6,6 +6,8 @@ import { SubTopic, GlossaryTerm } from '@/data/lesson01Data';
 import { NICDecoder } from './NICDecoder';
 import { SystemDiagram } from './SystemDiagram';
 import { TimelineExplorer } from './TimelineExplorer';
+import { NumberBaseConverter } from './NumberBaseConverter';
+import { LogicGateSimulator } from './LogicGateSimulator';
 import { KeyTermsModal } from './KeyTermsModal';
 import { 
   CheckCircle, 
@@ -241,6 +243,8 @@ export function DualCanvas({ subtopics, glossary }: DualCanvasProps) {
                     {ex.isInteractiveWidget === 'nic-decoder' && <NICDecoder />}
                     {ex.isInteractiveWidget === 'system-diagram' && <SystemDiagram />}
                     {ex.isInteractiveWidget === 'timeline-slider' && <TimelineExplorer />}
+                    {ex.isInteractiveWidget === 'number-converter' && <NumberBaseConverter />}
+                    {ex.isInteractiveWidget === 'logic-gate' && <LogicGateSimulator />}
 
                     {/* Standard Static Example */}
                     {!ex.isInteractiveWidget && (

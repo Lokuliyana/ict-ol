@@ -223,5 +223,100 @@ export const PAST_PAPER_QUESTIONS: PastPaperQuestion[] = [
     correctOptionId: "3",
     explanationEn: "Statement A is FALSE (Vacuum tubes in 1st Gen; Transistors in 2nd Gen). Statement B is TRUE (FORTRAN/COBOL in 2nd Gen, high level languages in 3rd Gen). Statement C is TRUE (GUI OS appeared in 4th Gen). Therefore, B and C only is correct.",
     explanationSi: "A ප්‍රකාශය අසත්‍යයි (පළමු පරම්පරාවේ ශූන්‍ය පයිප්ප භාවිත විය, ට්‍රාන්සිස්ටර පැමිණියේ දෙවන පරම්පරාවේදී). B සහ C ප්‍රකාශ සත්‍ය වේ. එබැවින් නිවැරදි පිළිතුර (3) වේ."
+  },
+  {
+    id: "pp-2023-p1-q1",
+    year: 2023,
+    paperType: "Paper I",
+    questionNumber: "Q01",
+    topicId: "1.2",
+    subtopicTitleEn: "1.2 Information Systems - Input & Output",
+    subtopicTitleSi: "1.2 තොරතුරු පද්ධති - ආදානය සහ ප්‍රතිදානය",
+    type: "mcq",
+    badgeText: "2023 O/L Paper I - Q01",
+    questionEn: "1. Which of the following correctly pairs an input device and an output device of an Automated Teller Machine (ATM)?",
+    questionSi: "1. ස්වයංක්‍රීය ටෙලර් යන්ත්‍රයක (ATM) ආදාන උපාංගයක් සහ ප්‍රතිදාන උපාංගයක් නිවැරදිව යුගලනය කර ඇති පිළිතුර කුමක්ද?",
+    options: [
+      { id: "1", en: "(1) PIN keypad and Touchscreen / Monitor", si: "(1) PIN යතුරුපුවරුව සහ ස්පර්ශ තිරය / මොනිටරය" },
+      { id: "2", en: "(2) Cash dispenser and Receipt printer", si: "(2) මුදල් නිකුත් කිරීමේ ඒකකය සහ රිසිට්පත් මුද්‍රණ යන්ත්‍රය" },
+      { id: "3", en: "(3) Card reader and Barcode scanner", si: "(3) කාඩ්පත් කියවනය සහ තීරුකේත කියවනය" },
+      { id: "4", en: "(4) Receipt printer and Cash dispenser", si: "(4) රිසිට්පත් මුද්‍රණ යන්ත්‍රය සහ මුදල් නිකුත් කිරීමේ ඒකකය" }
+    ],
+    correctOptionId: "1",
+    explanationEn: "The keypad is an Input device for entering the PIN and requested sum; the screen/display is an Output device displaying account information.",
+    explanationSi: "PIN යතුරුපුවරුව යනු පරිශීලක රහස් අංකය ලබාදෙන ආදාන උපාංගයක් වන අතර, තිරය මඟින් ශේෂය හා උපදෙස් පෙන්වන ප්‍රතිදාන උපාංගයකි."
+  },
+  {
+    id: "pp-2024-p1-q2",
+    year: 2024,
+    paperType: "Paper I",
+    questionNumber: "Q02",
+    topicId: "1.3",
+    subtopicTitleEn: "1.3 Quality Information - Timeliness",
+    subtopicTitleSi: "1.3 ගුණාත්මක තොරතුරු - කාලීන බව",
+    type: "mcq",
+    badgeText: "2024 O/L Paper I - Q02",
+    questionEn: "2. A weather forecast received before heading out on a fishing journey is an example of which characteristic of quality information?",
+    questionSi: "2. ධීවර ගමනක් යාමට පෙර කාලගුණ අනාවැකියක් ලැබීම ගුණාත්මක තොරතුරක කුමන ලක්ෂණයට උදාහරණයක් වේ ද?",
+    options: [
+      { id: "1", en: "(1) Timeliness (කාලීන බව)", si: "(1) කාලීන බව (Timeliness)" },
+      { id: "2", en: "(2) Completeness (සම්පූර්ණ බව)", si: "(2) සම්පූර්ණ බව (Completeness)" },
+      { id: "3", en: "(3) Cost effectiveness (පිරිවැය ඵලදායීතාව)", si: "(3) පිරිවැය ඵලදායීතාව (Cost effectiveness)" },
+      { id: "4", en: "(4) Irrelevance (අනදාළ බව)", si: "(4) අනදාළ බව" }
+    ],
+    correctOptionId: "1",
+    explanationEn: "Timeliness means information is available when decisions need to be made, like receiving storm alerts before launching boats.",
+    explanationSi: "තීරණ ගැනීමට නියමිත වේලාවට තොරතුරු ලැබීම කාලීන බව (Timeliness) නම් වේ."
+  },
+  {
+    id: "pp-2025-p1-q1",
+    year: 2025,
+    paperType: "Paper I",
+    questionNumber: "Q01",
+    topicId: "1.1",
+    subtopicTitleEn: "1.1 Data vs Information",
+    subtopicTitleSi: "1.1 දත්ත සහ තොරතුරු",
+    type: "mcq",
+    badgeText: "2025 O/L Paper I - Q01",
+    questionEn: "1. In a hospital laboratory, a machine reads patient blood samples and prints a comprehensive Diagnostic Blood Profile report. What do the raw sensor voltage readings represent?",
+    questionSi: "1. රෝහල් රසායනාගාරයක යන්ත්‍රයක් රෝගීන්ගේ රුධිර සාම්පල පරීක්ෂා කර සම්පූර්ණ රෝග විනිශ්චය වාර්තාවක් නිකුත් කරයි. එහිදී ලැබෙන අමු සංවේදක විද්‍යුත් කියවීම් නියෝජනය කරන්නේ කුමක් ද?",
+    options: [
+      { id: "1", en: "(1) Data (දත්ත)", si: "(1) දත්ත (Data)" },
+      { id: "2", en: "(2) Information (තොරතුරු)", si: "(2) තොරතුරු (Information)" },
+      { id: "3", en: "(3) Knowledge (දැනුම)", si: "(3) දැනුම (Knowledge)" },
+      { id: "4", en: "(4) Wisdom (ප්‍රඥාව)", si: "(4) ප්‍රඥාව" }
+    ],
+    correctOptionId: "1",
+    explanationEn: "Unprocessed sensor readings without context are raw data; once interpreted and formatted into medical profiles, they become information.",
+    explanationSi: "සකස් නොකළ අමු සංවේදක කියවීම් දත්ත (Data) වන අතර, ඒවා විශ්ලේෂණය කර නිකුත් කරන වාර්තාව තොරතුරු වේ."
+  },
+  {
+    id: "pp-2025-p2-q1",
+    year: 2025,
+    paperType: "Paper II",
+    questionNumber: "Q01",
+    topicId: "1.2",
+    subtopicTitleEn: "1.2 Smart School Information System",
+    subtopicTitleSi: "1.2 ස්මාර්ට් පාසල් තොරතුරු පද්ධතිය",
+    type: "structured",
+    badgeText: "2025 O/L Paper II - Q01",
+    contextEn: "A school installs a modern Digital Student Attendance & Progress System where students scan their RFID student cards at the gate. The system sends an instant SMS to the parent and generates weekly class attendance analytics.",
+    contextSi: "පාසලක් විසින් RFID ශිෂ්‍ය කාඩ්පත් ගේට්ටුවේදී ස්කෑන් කරන නවීන ඩිජිටල් ශිෂ්‍ය පැමිණීමේ පද්ධතියක් ස්ථාපනය කර ඇත. එමගින් දෙමාපියන්ට ක්ෂණික SMS පණිවිඩයක් යැවෙන අතර සතිපතා පැමිණීමේ ප්‍රස්තාර වාර්තා සකසයි.",
+    questionEn: "State:\n(a) One input device in this system\n(b) One output of this system\n(c) One secondary storage medium used to preserve student attendance logs.",
+    questionSi: "පහත දෑ නම් කරන්න:\n(a) මෙම පද්ධතියේ එක් ආදාන උපාංගයක්\n(b) මෙම පද්ධතියේ එක් ප්‍රතිදානයක්\n(c) ශිෂ්‍ය පැමිණීමේ ලඝු සටහන් සුරක්ෂිතව තබාගැනීමට යොදාගන්නා ද්විතීයික ආචයන මාධ්‍යයක්.",
+    sampleAnswerEn: "(a) RFID Card Reader / Scanner\n(b) SMS notification to parents / Weekly attendance analytics report\n(c) Hard Disk Drive (HDD) / Solid State Drive (SSD) / Cloud Database Storage",
+    sampleAnswerSi: "(a) RFID කාඩ්පත් කියවනය (RFID Card Reader)\n(b) දෙමාපියන්ට ලැබෙන SMS පණිවිඩය / සතිපතා පැමිණීමේ ප්‍රස්තාර වාර්තාව\n(c) දෘඩ තැටිය (Hard Disk) / SSD / වලාකුළු දත්ත සමුදාය (Cloud Storage)",
+    markingRubricEn: [
+      "1 mark for valid input device (RFID reader)",
+      "1 mark for valid output (SMS / Analytics graph / Report)",
+      "1 mark for valid storage medium (HDD / SSD / Server DB)"
+    ],
+    markingRubricSi: [
+      "ආදාන උපාංගය සඳහා ලකුණු 1",
+      "ප්‍රතිදානය සඳහා ලකුණු 1",
+      "ආචයන මාධ්‍යය සඳහා ලකුණු 1"
+    ],
+    explanationEn: "RFID scanner provides input, SMS and printed reports are outputs, and database hard disk stores long-term logs.",
+    explanationSi: "RFID කියවනය ආදානය සපයයි, SMS සහ මුද්‍රිත වාර්තා ප්‍රතිදාන වන අතර දෘඩ තැටිය දිගුකාලීන වාර්තා ආචයනය කරයි."
   }
 ];

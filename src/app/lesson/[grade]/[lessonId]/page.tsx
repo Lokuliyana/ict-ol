@@ -57,12 +57,13 @@ export default function LessonPage() {
       number: st.number,
       titleEn: st.titleEn,
       titleSi: st.titleSi,
-      summaryEn: 'Core concepts and examination competencies',
-      summarySi: 'මූලික සංකල්ප හා විභාග නිපුණතා',
+      summaryEn: st.summaryEn || 'Core concepts and examination competencies',
+      summarySi: st.summarySi || 'මූලික සංකල්ප හා විභාග නිපුණතා',
       blocks: st.blocks,
+      examples: st.examples,
       checkpointQuiz: st.checkpointQuiz
     }));
-    glossary = [];
+    glossary = generalData.glossary || [];
     pastPapers = generalData.pastPaperQuestions.map(q => ({
       id: q.id,
       year: q.year,
