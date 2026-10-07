@@ -255,14 +255,14 @@ export function DualCanvas({ subtopics, glossary }: DualCanvasProps) {
                         </div>
                         <div className={`grid gap-4 ${mode === 'dual' ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1'}`}>
                           {mode !== 'si' && (
-                            <p className="text-xs text-slate-700 dark:text-slate-300 leading-relaxed">
+                            <pre className="text-xs text-slate-700 dark:text-slate-300 font-mono whitespace-pre-wrap overflow-x-auto leading-relaxed">
                               {ex.contentEn}
-                            </p>
+                            </pre>
                           )}
                           {mode !== 'en' && (
-                            <p className="text-xs text-slate-700 dark:text-slate-300 font-sinhala leading-loose">
+                            <pre className="text-xs text-slate-700 dark:text-slate-300 font-mono whitespace-pre-wrap overflow-x-auto leading-relaxed">
                               {ex.contentSi}
-                            </p>
+                            </pre>
                           )}
                         </div>
                       </div>

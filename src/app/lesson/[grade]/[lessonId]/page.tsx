@@ -61,6 +61,7 @@ export default function LessonPage() {
       summarySi: st.summarySi || 'මූලික සංකල්ප හා විභාග නිපුණතා',
       blocks: st.blocks,
       examples: st.examples,
+      tableData: st.tableData,
       checkpointQuiz: st.checkpointQuiz
     }));
     glossary = generalData.glossary || [];

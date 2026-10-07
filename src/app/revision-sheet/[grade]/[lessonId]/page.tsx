@@ -28,7 +28,8 @@ export default function RevisionSheetPage() {
       titleSi: st.titleSi,
       summaryEn: st.summaryEn || 'Core syllabus short notes',
       summarySi: st.summarySi || 'විෂය නිර්දේශයේ මූලික කෙටි සටහන්',
-      blocks: st.blocks
+      blocks: st.blocks,
+      tableData: st.tableData
     }));
     glossary = generalData.glossary || [];
   }
