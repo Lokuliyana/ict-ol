@@ -57,25 +57,43 @@ export const CURRICULUM_DATA: LessonMeta[] = [
     id: 'g10-u3',
     grade: '10',
     unitNumber: 3,
-    titleEn: 'Data Representation & Logic Gates',
-    titleSi: 'දත්ත නිරූපණය සහ ලොජික් ද්වාර',
-    shortDescEn: 'Number systems, base conversions, ASCII, Unicode, BCD, RGB Hex colors, storage units, basic and derived logic gates, truth tables, and IC pin layouts.',
-    shortDescSi: 'සංඛ්‍යා පද්ධති, පාද පරිවර්තන, ASCII, යුනිකෝඩ්, BCD, RGB ෂඩ්දශම වර්ණ, ආචයන ධාරිතාව, මූලික හා ව්‍යුත්පන්න ලොජික් ද්වාර සහ සත්‍යතා වගු.',
+    titleEn: 'Data Representation in Computer Systems',
+    titleSi: 'පරිගණක පද්ධති තුළ දත්ත නිරූපණය',
+    shortDescEn: 'Number systems (Decimal, Binary, Octal, Hexadecimal), base conversions, character encoding (ASCII, Unicode, BCD), RGB Hex color codes, and digital storage units.',
+    shortDescSi: 'සංඛ්‍යා පද්ධති (දශමය, ද්වීමය, අෂ්ටමය, ෂඩ්දශමය), පාද පරිවර්තන, අක්ෂර කේතන පද්ධති (ASCII, යුනිකෝඩ්, BCD), RGB ෂඩ්දශම වර්ණ කේත සහ ධාරිතා ඒකක.',
     icon: '/assets/clay/thumb-theory-openbook.svg',
     badgeColor: 'bg-cyan-500',
-    totalSubtopics: 12,
-    totalPastPapers: 32,
+    totalSubtopics: 7,
+    totalPastPapers: 18,
     keyCompetencies: [
       { en: 'Converts accurately between Decimal, Binary, Octal, and Hexadecimal systems', si: 'දශමය, ද්වීමය, අෂ්ටමය සහ ෂඩ්දශමය පද්ධති අතර නිවැරදිව පරිවර්තනය කරයි' },
       { en: 'Analyzes character encoding systems: ASCII, Unicode, and BCD', si: 'අක්ෂර කේතන පද්ධති (ASCII, Unicode, BCD) විශ්ලේෂණය කරයි' },
-      { en: 'Constructs truth tables and schematics for basic and combinational logic gates', si: 'මූලික හා සංයුක්ත ලොජික් ද්වාර සඳහා සත්‍යතා වගු සහ පරිපථ සැලසුම් කරයි' },
-      { en: 'Maps pin layouts for 7400-series TTL Integrated Circuits', si: '7400 කාණ්ඩයේ අනුකලිත පරිපථ (IC) කෙවෙනි සැකස්ම හඳුනා ගනී' }
+      { en: 'Calculates digital storage capacity requirements and byte conversions', si: 'ඩිජිටල් දත්ත ආචයන ධාරිතා සහ බයිට් පරිවර්තන ගණනය කරයි' },
+      { en: 'Determines RGB color components from 24-bit hexadecimal color representations', si: '24-bit ෂඩ්දශම වර්ණ කේත මගින් RGB වර්ණ සංරචක ගණනය කරයි' }
     ]
   },
   {
     id: 'g10-u4',
     grade: '10',
     unitNumber: 4,
+    titleEn: 'Fundamental Logic Gates & Boolean Logic',
+    titleSi: 'මූලික ලොජික් ද්වාර සහ බූලීය තර්කනය',
+    shortDescEn: 'Basic gates (AND, OR, NOT), derived gates (NAND, NOR, XOR, XNOR), truth tables, combinational logic circuits, Boolean expressions, and TTL 7400-series IC pinouts.',
+    shortDescSi: 'මූලික ලොජික් ද්වාර (AND, OR, NOT), ව්‍යුත්පන්න ද්වාර (NAND, NOR, XOR, XNOR), සත්‍යතා වගු, සංයුක්ත ලොජික් පරිපථ, බූලීය ප්‍රකාශන සහ 7400 ශ්‍රේණියේ IC කෙවෙනි.',
+    icon: '/assets/clay/thumb-revision-screen.svg',
+    badgeColor: 'bg-violet-500',
+    totalSubtopics: 5,
+    totalPastPapers: 14,
+    keyCompetencies: [
+      { en: 'Constructs truth tables and schematics for basic and derived logic gates', si: 'මූලික හා ව්‍යුත්පන්න ලොජික් ද්වාර සඳහා සත්‍යතා වගු සහ පරිපථ සැලසුම් කරයි' },
+      { en: 'Evaluates combinational logic circuits using Boolean expressions', si: 'බූලීය ප්‍රකාශන ආශ්‍රයෙන් සංයුක්ත ලොජික් පරිපථ ඇගයීමට ලක් කරයි' },
+      { en: 'Maps pin layouts for 7400-series TTL Integrated Circuits', si: '7400 කාණ්ඩයේ අනුකලිත පරිපථ (IC) කෙවෙනි සැකස්ම හඳුනා ගනී' }
+    ]
+  },
+  {
+    id: 'g10-u5',
+    grade: '10',
+    unitNumber: 5,
     titleEn: 'Operating Systems',
     titleSi: 'මෙහෙයුම් පද්ධති',
     shortDescEn: 'Hardware, firmware, booting, OS functions (Process, Memory, File management), CLI vs GUI interfaces, file structures, and utility software.',
@@ -91,9 +109,9 @@ export const CURRICULUM_DATA: LessonMeta[] = [
     ]
   },
   {
-    id: 'g10-u5',
+    id: 'g10-u6',
     grade: '10',
-    unitNumber: 5,
+    unitNumber: 6,
     titleEn: 'Word Processing',
     titleSi: 'වචන සකසුම්',
     shortDescEn: 'Document formatting, styles, tables, headers/footers, mail merge, proofreading, and word processor advantages.',
@@ -109,9 +127,9 @@ export const CURRICULUM_DATA: LessonMeta[] = [
     ]
   },
   {
-    id: 'g10-u6',
+    id: 'g10-u7',
     grade: '10',
-    unitNumber: 6,
+    unitNumber: 7,
     titleEn: 'Electronic Spreadsheets',
     titleSi: 'ඉලෙක්ට්‍රොනික පැතුරුම්පත්',
     shortDescEn: 'Cell referencing (Relative, Absolute), Formulas, Functions (SUM, AVERAGE, MIN, MAX, COUNT, IF), and Chart generation.',
@@ -127,9 +145,9 @@ export const CURRICULUM_DATA: LessonMeta[] = [
     ]
   },
   {
-    id: 'g10-u7',
+    id: 'g10-u8',
     grade: '10',
-    unitNumber: 7,
+    unitNumber: 8,
     titleEn: 'Electronic Presentations',
     titleSi: 'ඉලෙක්ට්‍රොනික සමර්පණ',
     shortDescEn: 'Slide design, master slides, transitions, custom animations, multimedia embedding, delivery views, and handout export.',
@@ -144,9 +162,9 @@ export const CURRICULUM_DATA: LessonMeta[] = [
     ]
   },
   {
-    id: 'g10-u8',
+    id: 'g10-u9',
     grade: '10',
-    unitNumber: 8,
+    unitNumber: 9,
     titleEn: 'Database Management',
     titleSi: 'දත්ත සමුදා කළමනාකරණය',
     shortDescEn: 'Data hierarchy, Relational databases, Tables, Fields, Records, Primary & Foreign keys, Cardinality (1:1, 1:N, M:N), Queries, and Reports.',

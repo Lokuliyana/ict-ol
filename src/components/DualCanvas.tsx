@@ -9,6 +9,8 @@ import { TimelineExplorer } from './TimelineExplorer';
 import { NumberBaseConverter } from './NumberBaseConverter';
 import { LogicGateSimulator } from './LogicGateSimulator';
 import { KeyTermsModal } from './KeyTermsModal';
+import confetti from 'canvas-confetti';
+import { sound } from '@/utils/soundEffects';
 import { 
   CheckCircle, 
   CheckCircle2, 
@@ -61,6 +63,19 @@ export function DualCanvas({ subtopics, glossary }: DualCanvasProps) {
   const handleQuizSelect = (quizId: string, optionId: string, correctOptionId: string) => {
     setQuizAnswers(prev => ({ ...prev, [quizId]: optionId }));
     const isCorrect = optionId === correctOptionId;
+    if (isCorrect) {
+      sound.playSuccessDing();
+      try {
+        confetti({
+          particleCount: 40,
+          spread: 60,
+          origin: { y: 0.7 },
+          colors: ['#4f46e5', '#10b981', '#06b6d4'],
+        });
+      } catch {}
+    } else {
+      sound.playBuzzer();
+    }
     setQuizResults(prev => ({ ...prev, [quizId]: isCorrect }));
     recordCheckpointAttempt(quizId, isCorrect);
   };

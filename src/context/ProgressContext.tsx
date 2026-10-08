@@ -1,17 +1,20 @@
 'use client';
 
-import React, { createContext, useContext, useState, useEffect } from 'react';
-import { LESSON_01_DATA } from '@/data/lesson01Data';
-import { ALL_LESSONS_DATA } from '@/data/allLessonsData';
-import { PAST_PAPER_QUESTIONS } from '@/data/pastPapersData';
+import React, { createContext, useContext, useEffect, useMemo } from 'react';
+import { useGameStore } from '@/lib/store';
+import { LanguageMode, GradeLevel, NodeProgress } from '@/types/store';
 
-export type LanguageMode = 'dual' | 'en' | 'si';
+export type { LanguageMode };
 
 export interface ProgressState {
   languageMode: LanguageMode;
+  userGrade: '10' | '11';
+  onboardingCompleted: boolean;
   colorMode: 'light' | 'dark';
   completedBlocks: string[];
   completedCheckpoints: Record<string, boolean>;
+  completedStations: Record<string, boolean>;
+  questStars: Record<string, number>;
   pastPaperAnswers: Record<string, { answer: string; isCorrect: boolean; time: string }>;
   points: number;
   streak: number;
@@ -20,171 +23,101 @@ export interface ProgressState {
     en: number;
     si: number;
   };
+  // Extended fields for gamification
+  hearts: number;
+  lastHeartLossTime: number | null;
+  nextHeartRechargeInSeconds: number;
+  xp: number;
+  grade: GradeLevel;
+  language: 'en' | 'si';
+  activeNodeId: string;
+  completedNodes: Record<string, NodeProgress>;
+  unlockedUnits: string[];
+  badges: string[];
 }
 
-interface ProgressContextType {
+export interface ProgressContextType {
   state: ProgressState;
   setLanguageMode: (mode: LanguageMode) => void;
+  setUserGrade: (grade: '10' | '11') => void;
+  setOnboardingCompleted: (completed: boolean) => void;
   toggleColorMode: () => void;
   markBlockRead: (blockId: string) => void;
+  markStationComplete: (stationKey: string, stars?: number) => void;
   recordCheckpointAttempt: (checkpointId: string, isCorrect: boolean) => void;
   recordPastPaperAttempt: (questionId: string, answer: string, isCorrect: boolean) => void;
   resetProgress: () => void;
   getLessonMastery: (lessonId: string) => number;
+  // Extended methods
+  deductHeart?: () => boolean;
+  restoreHearts?: (amount?: number) => void;
+  refillHearts?: () => void;
+  completeNode?: (nodeId: string, accuracy: number) => { stars: number; xpAwarded: number };
+  setActiveNode?: (nodeId: string) => void;
 }
-
-const STORAGE_KEY = 'ict_ol_progress_v1';
-
-const defaultState: ProgressState = {
-  languageMode: 'dual',
-  colorMode: 'light',
-  completedBlocks: ['b1-1', 'b1-2'],
-  completedCheckpoints: {},
-  pastPaperAnswers: {},
-  points: 120,
-  streak: 3,
-  mediumTracker: {
-    dual: 14,
-    en: 8,
-    si: 10
-  }
-};
 
 const ProgressContext = createContext<ProgressContextType | null>(null);
 
 export function ProgressProvider({ children }: { children: React.ReactNode }) {
-  const [state, setState] = useState<ProgressState>(defaultState);
-  const [isLoaded, setIsLoaded] = useState(false);
+  const store = useGameStore();
 
+  // Reconcile hearts on mount and periodically
   useEffect(() => {
-    try {
-      const stored = localStorage.getItem(STORAGE_KEY);
-      if (stored) {
-        setState(JSON.parse(stored));
-      }
-    } catch {
-      // ignore
-    }
-    setIsLoaded(true);
-  }, []);
+    store.reconcileHearts();
+    const interval = setInterval(() => {
+      store.reconcileHearts();
+    }, 15000); // 15-second background sweep
+    return () => clearInterval(interval);
+  }, [store]);
 
-  useEffect(() => {
-    if (!isLoaded) return;
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-    } catch {
-      // ignore
-    }
+  const contextValue = useMemo<ProgressContextType>(() => {
+    const state: ProgressState = {
+      languageMode: store.languageMode || (store.language === 'si' ? 'si' : 'en'),
+      userGrade: store.grade,
+      onboardingCompleted: store.onboardingCompleted,
+      colorMode: store.colorMode,
+      completedBlocks: store.completedBlocks,
+      completedCheckpoints: store.completedCheckpoints,
+      completedStations: store.completedStations,
+      questStars: store.questStars,
+      pastPaperAnswers: store.pastPaperAnswers,
+      points: store.xp,
+      streak: store.streak,
+      mediumTracker: store.mediumTracker,
+      hearts: store.hearts,
+      lastHeartLossTime: store.lastHeartLossTime,
+      nextHeartRechargeInSeconds: store.nextHeartRechargeInSeconds,
+      xp: store.xp,
+      grade: store.grade,
+      language: store.language,
+      activeNodeId: store.activeNodeId,
+      completedNodes: store.completedNodes,
+      unlockedUnits: store.unlockedUnits,
+      badges: store.badges,
+    };
 
-    // Toggle html dark class
-    if (state.colorMode === 'dark') {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [state, isLoaded]);
-
-  const setLanguageMode = (mode: LanguageMode) => {
-    setState(prev => ({
-      ...prev,
-      languageMode: mode,
-      mediumTracker: {
-        ...prev.mediumTracker,
-        [mode]: prev.mediumTracker[mode] + 1
-      }
-    }));
-  };
-
-  const toggleColorMode = () => {
-    setState(prev => ({
-      ...prev,
-      colorMode: prev.colorMode === 'light' ? 'dark' : 'light'
-    }));
-  };
-
-  const markBlockRead = (blockId: string) => {
-    setState(prev => {
-      if (prev.completedBlocks.includes(blockId)) return prev;
-      return {
-        ...prev,
-        completedBlocks: [...prev.completedBlocks, blockId],
-        points: prev.points + 5
-      };
-    });
-  };
-
-  const recordCheckpointAttempt = (checkpointId: string, isCorrect: boolean) => {
-    setState(prev => ({
-      ...prev,
-      completedCheckpoints: {
-        ...prev.completedCheckpoints,
-        [checkpointId]: isCorrect
-      },
-      points: isCorrect ? prev.points + 10 : prev.points + 2
-    }));
-  };
-
-  const recordPastPaperAttempt = (questionId: string, answer: string, isCorrect: boolean) => {
-    setState(prev => ({
-      ...prev,
-      pastPaperAnswers: {
-        ...prev.pastPaperAnswers,
-        [questionId]: {
-          answer,
-          isCorrect,
-          time: new Date().toISOString()
-        }
-      },
-      points: isCorrect ? prev.points + 15 : prev.points + 3
-    }));
-  };
-
-  const resetProgress = () => {
-    setState(defaultState);
-    localStorage.removeItem(STORAGE_KEY);
-  };
-
-  const getLessonMastery = (lessonId: string) => {
-    let blockIds: string[] = [];
-    let questionIds: string[] = [];
-
-    if (lessonId === 'g10-u1') {
-      LESSON_01_DATA.subtopics.forEach(st => st.blocks.forEach(b => blockIds.push(b.id)));
-      questionIds = PAST_PAPER_QUESTIONS.map(q => q.id);
-    } else if (ALL_LESSONS_DATA[lessonId]) {
-      const data = ALL_LESSONS_DATA[lessonId];
-      data.subtopics.forEach(st => st.blocks.forEach(b => blockIds.push(b.id)));
-      questionIds = data.pastPaperQuestions.map(q => q.id);
-    }
-
-    if (blockIds.length === 0) return 0;
-
-    const readBlocksCount = blockIds.filter(id => state.completedBlocks.includes(id)).length;
-    const readRatio = readBlocksCount / blockIds.length;
-
-    const answeredQuestions = questionIds.filter(id => state.pastPaperAnswers[id]);
-    const correctQuestions = answeredQuestions.filter(id => state.pastPaperAnswers[id]?.isCorrect);
-    const quizRatio = questionIds.length > 0 
-      ? (answeredQuestions.length > 0 ? (correctQuestions.length / questionIds.length) : 0)
-      : 1;
-
-    const score = Math.round((readRatio * 0.5 + quizRatio * 0.5) * 100);
-    return Math.min(100, Math.max(0, score));
-  };
+    return {
+      state,
+      setLanguageMode: store.setLanguageMode,
+      setUserGrade: store.setUserGrade,
+      setOnboardingCompleted: store.setOnboardingCompleted,
+      toggleColorMode: store.toggleColorMode,
+      markBlockRead: store.markBlockRead,
+      markStationComplete: store.markStationComplete,
+      recordCheckpointAttempt: store.recordCheckpointAttempt,
+      recordPastPaperAttempt: store.recordPastPaperAttempt,
+      resetProgress: store.resetProgress,
+      getLessonMastery: store.getLessonMastery,
+      deductHeart: store.deductHeart,
+      restoreHearts: store.restoreHearts,
+      refillHearts: store.refillHearts,
+      completeNode: store.completeNode,
+      setActiveNode: store.setActiveNode,
+    };
+  }, [store]);
 
   return (
-    <ProgressContext.Provider
-      value={{
-        state,
-        setLanguageMode,
-        toggleColorMode,
-        markBlockRead,
-        recordCheckpointAttempt,
-        recordPastPaperAttempt,
-        resetProgress,
-        getLessonMastery
-      }}
-    >
+    <ProgressContext.Provider value={contextValue}>
       {children}
     </ProgressContext.Provider>
   );

@@ -1,10 +1,11 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { ProgressProvider } from '@/context/ProgressContext';
+import { AppShell } from '@/components/navigation/AppShell';
 
 export const metadata: Metadata = {
-  title: 'O/L ICT Master Prep | Dual-Medium Sinhala & English Platform',
-  description: 'Product-grade dual-medium learning platform for Sri Lankan G.C.E. O/L Grade 10 & 11 ICT curriculum with side-by-side synchronized notes, interactive widgets, and 2020-2025 past papers.',
+  title: 'O/L ICT Master Prep | Gamified Sri Lankan O/L ICT Platform',
+  description: 'Production-grade dual-medium gamified micro-learning web application for Sri Lankan G.C.E. O/L Grade 10 & 11 ICT curriculum with Duolingo quest progression and 2020-2025 past papers.',
 };
 
 export default function RootLayout({
@@ -24,7 +25,9 @@ export default function RootLayout({
       </head>
       <body className="antialiased selection:bg-indigo-500 selection:text-white">
         <ProgressProvider>
-          {children}
+          <AppShell>
+            {children}
+          </AppShell>
         </ProgressProvider>
       </body>
     </html>

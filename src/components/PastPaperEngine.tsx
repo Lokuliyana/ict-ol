@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import { useProgress } from '@/context/ProgressContext';
 import { PastPaperQuestion } from '@/data/pastPapersData';
+import confetti from 'canvas-confetti';
+import { sound } from '@/utils/soundEffects';
 import { 
   CheckCircle2, 
   XCircle, 
@@ -14,7 +16,8 @@ import {
   Layers, 
   Send,
   HelpCircle,
-  FileText
+  FileText,
+  Sparkles
 } from 'lucide-react';
 
 interface PastPaperEngineProps {
@@ -46,10 +49,24 @@ export function PastPaperEngine({ questions }: PastPaperEngineProps) {
 
   const handleMCQSelect = (q: PastPaperQuestion, optionId: string) => {
     const isCorrect = optionId === q.correctOptionId;
+    if (isCorrect) {
+      sound.playSuccessDing();
+      try {
+        confetti({
+          particleCount: 50,
+          spread: 60,
+          origin: { y: 0.7 },
+          colors: ['#4f46e5', '#10b981', '#f59e0b'],
+        });
+      } catch {}
+    } else {
+      sound.playBuzzer();
+    }
     recordPastPaperAttempt(q.id, optionId, isCorrect);
   };
 
   const toggleReveal = (id: string) => {
+    sound.playClick(650);
     setRevealedAnswers(prev => ({
       ...prev,
       [id]: !prev[id]
@@ -65,7 +82,7 @@ export function PastPaperEngine({ questions }: PastPaperEngineProps) {
           <div>
             <h3 className="text-base font-extrabold text-slate-900 dark:text-white flex items-center gap-2">
               <FileText className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
-              <span>Past Paper Interactive Practice Engine (2020 – 2025)</span>
+              <span>Past Paper Practice Engine (2020 – 2025)</span>
             </h3>
             <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5 font-sinhala">
               අ.පො.ස. සාමාන්‍ය පෙළ පසුගිය විභාග ප්‍රශ්න පත්‍ර (බහුවරණ හා ව්‍යුහගත රචනා)
@@ -73,7 +90,7 @@ export function PastPaperEngine({ questions }: PastPaperEngineProps) {
           </div>
 
           {/* Filters */}
-          <div className="flex flex-wrap items-center gap-2.5 text-xs">
+          <div className="flex flex-wrap items-center gap-2 text-xs">
             {/* Topic Filter */}
             <div className="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 px-3 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700">
               <Layers className="w-3.5 h-3.5 text-slate-500" />
@@ -128,14 +145,14 @@ export function PastPaperEngine({ questions }: PastPaperEngineProps) {
             No past paper questions match the selected filter criteria.
           </div>
         ) : (
-          filtered.map((q, idx) => {
+          filtered.map((q) => {
             const userAttempt = state.pastPaperAnswers[q.id];
             const isRevealed = revealedAnswers[q.id];
 
             return (
               <div
                 key={q.id}
-                className="clay-card p-5 sm:p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 transition-all space-y-4"
+                className="clay-card p-5 sm:p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 transition-all space-y-4 shadow-sm"
               >
                 {/* Question Header & Badges */}
                 <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-slate-100 dark:border-slate-800">
@@ -212,9 +229,9 @@ export function PastPaperEngine({ questions }: PastPaperEngineProps) {
                       let btnStyle = 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-850 text-slate-800 dark:text-slate-200';
                       if (userAttempt) {
                         if (isCorrect) {
-                          btnStyle = 'border-emerald-500 bg-emerald-50/80 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-100 ring-1 ring-emerald-500';
+                          btnStyle = 'border-emerald-500 bg-emerald-50/90 dark:bg-emerald-950/50 text-emerald-900 dark:text-emerald-100 ring-2 ring-emerald-500 font-bold';
                         } else if (isSelected) {
-                          btnStyle = 'border-rose-400 bg-rose-50/80 dark:bg-rose-950/40 text-rose-900 dark:text-rose-100';
+                          btnStyle = 'border-rose-400 bg-rose-50/90 dark:bg-rose-950/50 text-rose-900 dark:text-rose-100';
                         }
                       }
 
@@ -222,7 +239,7 @@ export function PastPaperEngine({ questions }: PastPaperEngineProps) {
                         <button
                           key={opt.id}
                           onClick={() => handleMCQSelect(q, opt.id)}
-                          className={`w-full text-left p-3.5 rounded-xl border transition-all flex items-start justify-between gap-3 ${btnStyle} hover:border-indigo-400`}
+                          className={`w-full text-left p-3.5 rounded-2xl border transition-all flex items-start justify-between gap-3 ${btnStyle} hover:border-indigo-400 active:scale-[0.99]`}
                         >
                           <div className={`grid gap-2 flex-1 ${mode === 'dual' ? 'grid-cols-1 sm:grid-cols-2' : 'grid-cols-1'}`}>
                             {mode !== 'si' && (
@@ -238,7 +255,7 @@ export function PastPaperEngine({ questions }: PastPaperEngineProps) {
                           </div>
                           
                           <div className={`w-4 h-4 rounded-full border shrink-0 mt-0.5 flex items-center justify-center ${
-                            isSelected ? 'border-indigo-600 bg-indigo-600 text-white' : 'border-slate-300'
+                            isSelected ? 'border-indigo-600 bg-indigo-600 text-white' : 'border-slate-300 dark:border-slate-600'
                           }`}>
                             {isSelected && <div className="w-1.5 h-1.5 bg-white rounded-full" />}
                           </div>
@@ -256,7 +273,7 @@ export function PastPaperEngine({ questions }: PastPaperEngineProps) {
                         rows={3}
                         value={studentNotes[q.id] || ''}
                         onChange={(e) => setStudentNotes({ ...studentNotes, [q.id]: e.target.value })}
-                        placeholder="Type your answer here to practice before revealing the model marking scheme..."
+                        placeholder="Type your answer here before revealing the model marking scheme..."
                         className="w-full p-3.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-xs sm:text-sm text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 leading-relaxed"
                       />
                     </div>
@@ -267,14 +284,14 @@ export function PastPaperEngine({ questions }: PastPaperEngineProps) {
                           recordPastPaperAttempt(q.id, studentNotes[q.id] || 'attempted', true);
                           toggleReveal(q.id);
                         }}
-                        className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold shadow-sm transition-all"
+                        className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold shadow-md shadow-indigo-600/30 transition-all active:scale-95"
                       >
                         {isRevealed ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
                         <span>{isRevealed ? 'Hide Model Answer' : 'Reveal Model Answer & Rubric'}</span>
                       </button>
 
                       <span className="text-[11px] text-slate-400">
-                        Past Paper Marking Scheme Verbatim
+                        Official Marking Scheme Verbatim
                       </span>
                     </div>
 
@@ -313,7 +330,7 @@ export function PastPaperEngine({ questions }: PastPaperEngineProps) {
                   </div>
                 )}
 
-                {/* Explanation Rationale (Shown after attempt or reveal) */}
+                {/* Explanation Rationale (Shown ONLY after user attempt or reveal) */}
                 {(userAttempt || isRevealed) && (
                   <div className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200/80 dark:border-slate-750 text-xs space-y-1">
                     <span className="font-bold text-indigo-600 dark:text-indigo-400 block">
@@ -333,3 +350,4 @@ export function PastPaperEngine({ questions }: PastPaperEngineProps) {
     </div>
   );
 }
+

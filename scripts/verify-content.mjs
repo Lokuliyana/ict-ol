@@ -20,10 +20,10 @@ function assert(condition, message) {
 console.log("=== RUNNING RIGOROUS ICT O/L PLATFORM VERIFICATION ===");
 
 // 1. Curriculum test
-assert(CURRICULUM_DATA.length === 14, `Curriculum has exactly 14 units (found ${CURRICULUM_DATA.length})`);
+assert(CURRICULUM_DATA.length === 15, `Curriculum has exactly 15 units (found ${CURRICULUM_DATA.length})`);
 const g10Lessons = CURRICULUM_DATA.filter(l => l.grade === '10');
 const g11Lessons = CURRICULUM_DATA.filter(l => l.grade === '11');
-assert(g10Lessons.length === 8, `Grade 10 has exactly 8 units`);
+assert(g10Lessons.length === 9, `Grade 10 has exactly 9 units`);
 assert(g11Lessons.length === 6, `Grade 11 has exactly 6 units`);
 
 // 2. Full Coverage Test: EVERY curriculum unit must have dedicated dual-medium lesson data
