@@ -100,7 +100,7 @@ export const CURRICULUM_DATA: LessonMeta[] = [
     shortDescSi: 'දෘඩාංග, ස්ථීරාංග, Booting ක්‍රියාවලිය, මෙහෙයුම් පද්ධති කාර්යයන්, CLI හා GUI අතුරුමුහුණත්, ගොනු පද්ධති සහ උපයෝගිතා මෘදුකාංග.',
     icon: '/assets/clay/banner-admin-station.svg',
     badgeColor: 'bg-teal-500',
-    totalSubtopics: 2,
+    totalSubtopics: 5,
     totalPastPapers: 12,
     keyCompetencies: [
       { en: 'Explains the computer booting sequence and firmware execution', si: 'පරිගණකය පණගැන්වීමේ (Booting) පියවර හා ස්ථීරාංග කාර්යභාරය විස්තර කරයි' },
@@ -154,7 +154,7 @@ export const CURRICULUM_DATA: LessonMeta[] = [
     shortDescSi: 'කදා සැලසුම්, ප්‍රධාන කදාව (Slide Master), සංක්‍රාන්ති, සජීවීකරණ, බහුමාධ්‍ය ඇතුළත් කිරීම සහ සමර්පණ ඉදිරිපත් කිරීම.',
     icon: '/assets/clay/thumb-revision-screen.svg',
     badgeColor: 'bg-orange-500',
-    totalSubtopics: 7,
+    totalSubtopics: 6,
     totalPastPapers: 6,
     keyCompetencies: [
       { en: 'Designs dynamic slides utilizing master slide templates', si: 'ප්‍රධාන කදාව (Master Slide) මගින් ආකර්ශනීය සැකිලි සකස් කරයි' },

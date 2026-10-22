@@ -30,10 +30,27 @@ interface ItemRow {
   taxValBroken: number;
 }
 
-export function LaserGridAnchors() {
-  const [isAnchorLocked, setIsAnchorLocked] = useState<boolean>(false);
+export interface LaserGridAnchorsProps {
+  hideInternalTabs?: boolean;
+  defaultSubMode?: 'relative' | 'absolute' | 'mixed_col' | 'mixed_row' | string;
+}
+
+export function LaserGridAnchors({
+  hideInternalTabs = false,
+  defaultSubMode = 'relative',
+}: LaserGridAnchorsProps = {}) {
+  const validModes: Array<'relative' | 'absolute' | 'mixed_col' | 'mixed_row'> = [
+    'relative',
+    'absolute',
+    'mixed_col',
+    'mixed_row',
+  ];
+  const initialMode = validModes.includes(defaultSubMode as any)
+    ? (defaultSubMode as 'relative' | 'absolute' | 'mixed_col' | 'mixed_row')
+    : 'relative';
+  const [isAnchorLocked, setIsAnchorLocked] = useState<boolean>(initialMode !== 'relative');
   const [fillRowIndex, setFillRowIndex] = useState<number>(1); // 1 = only row 2 filled, 2 = row 2&3, 3 = all rows filled
-  const [activeReferenceMode, setActiveReferenceMode] = useState<'relative' | 'absolute' | 'mixed_col' | 'mixed_row'>('relative');
+  const [activeReferenceMode, setActiveReferenceMode] = useState<'relative' | 'absolute' | 'mixed_col' | 'mixed_row'>(initialMode);
 
   const VAT_RATE = 0.15; // 15% in cell H1
 
@@ -129,48 +146,64 @@ export function LaserGridAnchors() {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 p-5 rounded-2xl bg-slate-900/90 border border-emerald-500/30 backdrop-blur-md shadow-xl">
-        <div className="space-y-1">
-          <div className="flex items-center gap-2">
-            <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
-              STATION 03 • සෛල යොමු කිරීම්
-            </span>
-            <span className="text-xs font-semibold text-slate-400">
-              Relative (A1) vs. Absolute ($A$1) Cell Referencing
-            </span>
+      {!hideInternalTabs && (
+        <div data-testid="laser-grid-header" className="flex flex-col md:flex-row md:items-center justify-between gap-4 p-5 rounded-2xl bg-slate-900/90 border border-emerald-500/30 backdrop-blur-md shadow-xl">
+          <div className="space-y-1">
+            <div className="flex items-center gap-2">
+              <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
+                STATION 03 • සෛල යොමු කිරීම්
+              </span>
+              <span className="text-xs font-semibold text-slate-400">
+                Relative (A1) vs. Absolute ($A$1) Cell Referencing
+              </span>
+            </div>
+            <h2 className="text-xl font-black text-white tracking-tight flex items-center gap-2">
+              <Anchor className="w-5 h-5 text-emerald-400" />
+              The Laser Grid & Anchor Weights (සාපේක්ෂ හා නිරපේක්ෂ සෛල යොමු)
+            </h2>
+            <p className="text-xs text-slate-300">
+              Observe how relative references flex like rubber bands when copied, while absolute dollar signs (<code>$</code>) anchor coordinates permanently.
+            </p>
           </div>
-          <h2 className="text-xl font-black text-white tracking-tight flex items-center gap-2">
-            <Anchor className="w-5 h-5 text-emerald-400" />
-            The Laser Grid & Anchor Weights (සාපේක්ෂ හා නිරපේක්ෂ සෛල යොමු)
-          </h2>
-          <p className="text-xs text-slate-300">
-            Observe how relative references flex like rubber bands when copied, while absolute dollar signs (<code>$</code>) anchor coordinates permanently.
-          </p>
-        </div>
 
-        {/* F4 Quick Cycle Button */}
-        <div className="flex items-center gap-2">
-          <button
-            onClick={handleCycleF4}
-            className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-mono text-xs font-bold flex items-center gap-2 border border-slate-700 shadow-md"
-          >
-            <span className="bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-500/40">F4</span>
-            <span>Cycle: {activeReferenceMode === 'relative' ? 'H1' : activeReferenceMode === 'absolute' ? '$H$1' : activeReferenceMode === 'mixed_row' ? 'H$1' : '$H1'}</span>
-          </button>
+          {/* F4 Quick Cycle Button */}
+          <div className="flex items-center gap-2">
+            <button
+              onClick={handleCycleF4}
+              className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-mono text-xs font-bold flex items-center gap-2 border border-slate-700 shadow-md"
+            >
+              <span className="bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded border border-emerald-500/40">F4</span>
+              <span>Cycle: {activeReferenceMode === 'relative' ? 'H1' : activeReferenceMode === 'absolute' ? '$H$1' : activeReferenceMode === 'mixed_row' ? 'H$1' : '$H1'}</span>
+            </button>
+          </div>
         </div>
-      </div>
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         {/* Left: Main Spreadsheet Table Grid */}
         <div className="lg:col-span-8 space-y-4">
           <div className="p-5 rounded-2xl bg-slate-950 border-2 border-slate-800 shadow-2xl space-y-4">
             {/* Top Table Bezel & Isolated Tax Box (H1) */}
-            <div className="flex items-center justify-between bg-slate-900 p-3 rounded-xl border border-slate-800">
-              <div className="flex items-center gap-2 text-xs font-mono">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between bg-slate-900 p-3 rounded-xl border border-slate-800 gap-2">
+              <div className="flex items-center gap-2 text-xs font-mono flex-wrap">
                 <span className="text-slate-400">Formula Bar:</span>
                 <span className="bg-slate-950 px-2 py-0.5 rounded text-emerald-300 font-bold border border-slate-800">
                   {isAnchorLocked ? '= D2 * $H$1' : '= D2 * H1'}
                 </span>
+                {/* O/L Common Formula quick test chips (#35) */}
+                <div className="flex items-center gap-1.5 ml-2">
+                  <span className="text-[10px] text-slate-500 font-sans">Chips:</span>
+                  {['=SUM(D2:D4)', '=AVERAGE(B2:B4)', '=COUNT(A2:A4)', '=MAX(C2:C4)'].map((chip) => (
+                    <button
+                      key={chip}
+                      type="button"
+                      onClick={() => sound.playClick(600)}
+                      className="px-2 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-cyan-300 text-[10px] font-mono border border-slate-700 transition-colors"
+                    >
+                      {chip}
+                    </button>
+                  ))}
+                </div>
               </div>
 
               {/* Isolated VAT Box H1 */}

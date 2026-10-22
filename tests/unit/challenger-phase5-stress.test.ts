@@ -5,8 +5,11 @@
  */
 
 import { expect, TestSuiteRunner } from '../e2e/harness';
-import { UNIFIED_PAST_PAPERS, filterPastPapers, UnifiedPastPaperQuestion } from '../../src/data/unifiedPastPapers';
+import { UNIFIED_PAST_PAPERS, filterPastPapers, ALL_CURRICULUM_QUESTIONS, getAllCurriculumQuestions, UnifiedPastPaperQuestion } from '../../src/data/unifiedPastPapers';
 import { useGameStore } from '../../src/lib/store';
+import { getLessonQuestions, MASTER_QUESTION_BANKS } from '../../src/data/questionBanks';
+import { ALL_LESSONS_DATA } from '../../src/data/allLessonsData';
+import { CURRICULUM_DATA } from '../../src/data/curriculum';
 
 export const phase5ChallengerSuite = new TestSuiteRunner('Challenger 2: Phase 5 Exam Engine & Boss Arena Empirical Suite');
 
@@ -14,11 +17,21 @@ export const phase5ChallengerSuite = new TestSuiteRunner('Challenger 2: Phase 5 
 // 1. UNIFIED PAST PAPERS DATASET & SCHEMA INTEGRITY
 // ============================================================================
 
-phase5ChallengerSuite.addTest('Tier 1', 'Dataset Count: Exactly 168 authentic past paper questions loaded', () => {
-  expect(UNIFIED_PAST_PAPERS.length).toBe(168);
+phase5ChallengerSuite.addTest('Tier 1', 'Curriculum Dataset Integrity: ALL_CURRICULUM_QUESTIONS loads 1073 items with valid object reflection', () => {
+  expect(Array.isArray(ALL_CURRICULUM_QUESTIONS)).toBe(true);
+  expect(ALL_CURRICULUM_QUESTIONS.length).toBe(1073);
+  expect(getAllCurriculumQuestions().length).toBe(1073);
+  // Verify standard reflection does not throw proxy invariant errors
+  expect(Object.keys(ALL_CURRICULUM_QUESTIONS).length).toBe(1073);
+  expect(Object.entries(ALL_CURRICULUM_QUESTIONS).length).toBe(1073);
+  expect(Object.values(ALL_CURRICULUM_QUESTIONS).length).toBe(1073);
 }, 'Dataset Integrity');
 
-phase5ChallengerSuite.addTest('Tier 1', 'Dataset Uniqueness: All 168 question IDs are strictly unique', () => {
+phase5ChallengerSuite.addTest('Tier 1', 'Dataset Count: Exactly 169 authentic past paper questions loaded', () => {
+  expect(UNIFIED_PAST_PAPERS.length).toBe(169);
+}, 'Dataset Integrity');
+
+phase5ChallengerSuite.addTest('Tier 1', 'Dataset Uniqueness: All 169 question IDs are strictly unique', () => {
   const ids = new Set<string>();
   const duplicateIds: string[] = [];
 
@@ -30,7 +43,7 @@ phase5ChallengerSuite.addTest('Tier 1', 'Dataset Uniqueness: All 168 question ID
   }
 
   expect(duplicateIds.length).toBe(0);
-  expect(ids.size).toBe(168);
+  expect(ids.size).toBe(169);
 }, 'Dataset Integrity');
 
 phase5ChallengerSuite.addTest('Tier 1', 'Dataset Schema: All 168 questions have valid years within 2020-2025', () => {
@@ -131,7 +144,7 @@ phase5ChallengerSuite.addTest('Tier 2', 'Filter Edge Cases: Filtering by each in
     totalFilteredCount += res.length;
   }
 
-  expect(totalFilteredCount).toBe(168);
+  expect(totalFilteredCount).toBe(169);
 }, 'Filter Edge Cases');
 
 phase5ChallengerSuite.addTest('Tier 2', 'Filter Edge Cases: Out-of-bounds or invalid years return 0 results gracefully without throwing', () => {
@@ -149,7 +162,7 @@ phase5ChallengerSuite.addTest('Tier 2', 'Filter Edge Cases: Paper Type filtering
 
   expect(p1.length > 0).toBe(true);
   expect(p2.length > 0).toBe(true);
-  expect(p1.length + p2.length).toBe(168);
+  expect(p1.length + p2.length).toBe(169);
 
   for (const q of p1) {
     expect(q.paperType).toBe('Paper I');
@@ -169,7 +182,7 @@ phase5ChallengerSuite.addTest('Tier 2', 'Filter Edge Cases: Grade filtering part
 
   expect(g10.length > 0).toBe(true);
   expect(g11.length > 0).toBe(true);
-  expect(g10.length + g11.length).toBe(168);
+  expect(g10.length + g11.length).toBe(169);
 
   for (const q of g10) {
     expect(q.grade).toBe('10');
@@ -195,7 +208,7 @@ phase5ChallengerSuite.addTest('Tier 2', 'Filter Edge Cases: Unit filtering isola
 
 phase5ChallengerSuite.addTest('Tier 2', 'Filter Edge Cases: Empty and all filters return full 168 questions set', () => {
   const emptyFilters = filterPastPapers({});
-  expect(emptyFilters.length).toBe(168);
+  expect(emptyFilters.length).toBe(169);
 
   const allFilters = filterPastPapers({
     year: 'all',
@@ -203,7 +216,7 @@ phase5ChallengerSuite.addTest('Tier 2', 'Filter Edge Cases: Empty and all filter
     grade: 'all',
     unitId: 'all',
   });
-  expect(allFilters.length).toBe(168);
+  expect(allFilters.length).toBe(169);
 }, 'Filter Edge Cases');
 
 phase5ChallengerSuite.addTest('Tier 2', 'Filter Edge Cases: Combined multi-criteria intersection strictly satisfies all filters', () => {
@@ -233,7 +246,7 @@ phase5ChallengerSuite.addTest('Tier 2', 'Filter Edge Cases: Search query filter 
 
   // Empty whitespace query does not filter
   const emptyQuery = filterPastPapers({ searchQuery: '    ' });
-  expect(emptyQuery.length).toBe(168);
+  expect(emptyQuery.length).toBe(169);
 
   // Non-matching query returns 0
   const noMatch = filterPastPapers({ searchQuery: 'xyzzy_nonexistent_query_token_12345' });
@@ -459,6 +472,165 @@ phase5ChallengerSuite.addTest('Tier 2', 'Boss Arena Badge: Unlocking multiple di
   // Clean up
   useGameStore.setState({ badges: initialBadges, xp: initialXp });
 }, 'Boss Arena Badge');
+
+// ============================================================================
+// 6. UNIT 9 QUESTION BANK FALLBACK & MOBILE SIDEBAR DRAWER
+// ============================================================================
+
+phase5ChallengerSuite.addTest('Tier 1', 'Unit 9 Question Bank: getLessonQuestions("g10-u9") returns authentic non-empty questions', () => {
+  const u9Questions = getLessonQuestions('g10-u9');
+  expect(Array.isArray(u9Questions)).toBe(true);
+  expect(u9Questions.length > 0).toBe(true);
+
+  for (const q of u9Questions) {
+    expect(typeof q.id).toBe('string');
+    expect(q.id.length > 0).toBe(true);
+    expect(q.lessonId).toBe('g10-u9');
+    expect(typeof q.promptEn).toBe('string');
+    expect(q.promptEn.trim().length > 0).toBe(true);
+    expect(typeof q.promptSi).toBe('string');
+    expect(q.promptSi.trim().length > 0).toBe(true);
+    expect(Array.isArray(q.options)).toBe(true);
+    expect(q.options.length >= 4).toBe(true);
+    expect(typeof q.correctOptionId).toBe('string');
+    expect(typeof q.explanationEn).toBe('string');
+    expect(typeof q.explanationSi).toBe('string');
+  }
+}, 'Unit 9 Fallback');
+
+phase5ChallengerSuite.addTest('Tier 2', 'Unit 9 Question Bank: Fallback to UNIFIED_PAST_PAPERS contains valid Grade 10 Unit 9 MCQs', () => {
+  const u9PastPapers = UNIFIED_PAST_PAPERS.filter((q) => q.unitId === 'g10-u9');
+  expect(u9PastPapers.length > 0).toBe(true);
+
+  const u9Mcqs = u9PastPapers.filter((q) => q.type === 'mcq');
+  expect(u9Mcqs.length > 0).toBe(true);
+
+  for (const q of u9Mcqs) {
+    expect(q.unitId).toBe('g10-u9');
+    expect(Array.isArray(q.options)).toBe(true);
+    expect(q.options!.length >= 4).toBe(true);
+    expect(typeof q.correctOptionId).toBe('string');
+  }
+}, 'Unit 9 Fallback');
+
+phase5ChallengerSuite.addTest('Tier 2', 'Unit 9 Cascade Fallback: Clean fallback cascade to subtopics and UNIFIED_PAST_PAPERS when direct bank is absent', () => {
+  // Test Tier 2 fallback: when master bank is missing, cascades to ALL_LESSONS_DATA subtopics
+  const mockUnitId = 'mock-cascade-subtopic-unit';
+  ALL_LESSONS_DATA[mockUnitId] = {
+    ...ALL_LESSONS_DATA['g10-u9'],
+    id: mockUnitId,
+  };
+
+  const subtopicFallbackQs = getLessonQuestions(mockUnitId);
+  expect(subtopicFallbackQs.length > 0).toBe(true);
+  for (const q of subtopicFallbackQs) {
+    expect(q.lessonId).toBe(mockUnitId);
+    expect(q.options.length >= 4).toBe(true);
+    const correctOpt = q.options.find((o) => o.id === q.correctOptionId);
+    expect(correctOpt !== undefined).toBe(true);
+    expect(q.correctKey).toBe(correctOpt!.key);
+  }
+
+  // Test Tier 3 fallback: when both master bank and subtopics are empty, cascades to UNIFIED_PAST_PAPERS
+  const mockUnitId2 = 'mock-cascade-pastpaper-unit';
+  ALL_LESSONS_DATA[mockUnitId2] = {
+    ...ALL_LESSONS_DATA['g10-u9'],
+    id: mockUnitId2,
+    subtopics: [],
+  };
+
+  UNIFIED_PAST_PAPERS.push({
+    id: 'mock-u9-cascade-mcq',
+    year: 2025,
+    paperType: 'Paper I',
+    grade: '10',
+    unitId: mockUnitId2,
+    unitNumber: 9,
+    unitTitleEn: 'Mock Unit 9',
+    unitTitleSi: 'නියැදි ඒකකය 09',
+    type: 'mcq',
+    badgeText: '2025 Mock Q1',
+    questionEn: 'What is a primary key?',
+    questionSi: 'ප්‍රාථමික යතුරක් යනු කුමක්ද?',
+    options: [
+      { id: 'opt1', en: 'Unique identifier', si: 'අනන්‍ය හඳුනාගැනීම' },
+      { id: 'opt2', en: 'Secondary key', si: 'ද්විතීයික යතුර' },
+      { id: 'opt3', en: 'Composite key', si: 'සංයුක්ත යතුර' },
+      { id: 'opt4', en: 'Candidate key', si: 'අපේක්ෂක යතුර' },
+    ],
+    correctOptionId: 'opt1',
+    explanationEn: 'Primary key uniquely identifies each record.',
+    explanationSi: 'ප්‍රාථමික යතුරක් සෑම ලේඛනයක්ම අනන්‍යව හඳුනාගනී.',
+  });
+
+  const pastPaperFallbackQs = getLessonQuestions(mockUnitId2);
+  expect(pastPaperFallbackQs.length).toBe(1);
+  expect(pastPaperFallbackQs[0].id).toBe('mock-u9-cascade-mcq');
+  expect(pastPaperFallbackQs[0].correctKey).toBe('A');
+  expect(pastPaperFallbackQs[0].correctOptionId).toBe('opt1');
+
+  // Clean up
+  delete ALL_LESSONS_DATA[mockUnitId];
+  delete ALL_LESSONS_DATA[mockUnitId2];
+  const ppIdx = UNIFIED_PAST_PAPERS.findIndex((q) => q.id === 'mock-u9-cascade-mcq');
+  if (ppIdx >= 0) UNIFIED_PAST_PAPERS.splice(ppIdx, 1);
+}, 'Unit 9 Cascade Fallback');
+
+phase5ChallengerSuite.addTest('Tier 1', 'Stage 5 End Page: Grade 10 Unit 9 navigation resolves next curriculum unit as Grade 11 Unit 1', () => {
+  const g10Lessons = CURRICULUM_DATA.filter((l) => l.grade === '10');
+  const u9Index = g10Lessons.findIndex((l) => l.id === 'g10-u9');
+  const nextInGrade = u9Index >= 0 && u9Index < g10Lessons.length - 1 ? g10Lessons[u9Index + 1] : null;
+
+  const fullCurriculumIndex = CURRICULUM_DATA.findIndex((l) => l.id === 'g10-u9');
+  const nextCurriculumLesson = fullCurriculumIndex >= 0 && fullCurriculumIndex < CURRICULUM_DATA.length - 1 ? CURRICULUM_DATA[fullCurriculumIndex + 1] : null;
+  const effectiveNextLesson = nextInGrade || nextCurriculumLesson;
+
+  // Unit 9 is the last unit of Grade 10, so nextInGrade is null, and nextCurriculumLesson transitions to Grade 11 Unit 1
+  expect(nextInGrade).toBe(null);
+  expect(effectiveNextLesson !== null).toBe(true);
+  expect(effectiveNextLesson!.id).toBe('g11-u1');
+  expect(effectiveNextLesson!.grade).toBe('11');
+  expect(effectiveNextLesson!.unitNumber).toBe(1);
+}, 'Stage 5 End Page');
+
+phase5ChallengerSuite.addTest('Tier 1', 'Stage 5 End Page: Grade 11 Unit 6 terminal syllabus unit correctly resolves to null (Syllabus Map CTA)', () => {
+  const g11Lessons = CURRICULUM_DATA.filter((l) => l.grade === '11');
+  const u6Index = g11Lessons.findIndex((l) => l.id === 'g11-u6');
+  const nextInGrade = u6Index >= 0 && u6Index < g11Lessons.length - 1 ? g11Lessons[u6Index + 1] : null;
+
+  const fullCurriculumIndex = CURRICULUM_DATA.findIndex((l) => l.id === 'g11-u6');
+  const nextCurriculumLesson = fullCurriculumIndex >= 0 && fullCurriculumIndex < CURRICULUM_DATA.length - 1 ? CURRICULUM_DATA[fullCurriculumIndex + 1] : null;
+  const effectiveNextLesson = nextInGrade || nextCurriculumLesson;
+
+  // Grade 11 Unit 6 is the final unit of the entire O/L curriculum, so effectiveNextLesson must be null
+  expect(nextInGrade).toBe(null);
+  expect(nextCurriculumLesson).toBe(null);
+  expect(effectiveNextLesson).toBe(null);
+}, 'Stage 5 End Page');
+
+phase5ChallengerSuite.addTest('Tier 2', 'Mobile Sidebar Drawer: State machine correctly toggles isMobileDrawerOpen without side effects', () => {
+  const store = useGameStore.getState();
+  const initialOpen = store.isMobileDrawerOpen;
+
+  // Open drawer
+  store.setMobileDrawerOpen(true);
+  expect(useGameStore.getState().isMobileDrawerOpen).toBe(true);
+
+  // Toggle drawer
+  store.toggleMobileDrawer();
+  expect(useGameStore.getState().isMobileDrawerOpen).toBe(false);
+
+  // Toggle drawer back
+  store.toggleMobileDrawer();
+  expect(useGameStore.getState().isMobileDrawerOpen).toBe(true);
+
+  // Close drawer
+  store.setMobileDrawerOpen(false);
+  expect(useGameStore.getState().isMobileDrawerOpen).toBe(false);
+
+  // Restore
+  store.setMobileDrawerOpen(initialOpen);
+}, 'Mobile Drawer');
 
 // ============================================================================
 // RUNNER ENTRYPOINT

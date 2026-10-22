@@ -5,6 +5,17 @@ class SoundEngine {
   private ctx: AudioContext | null = null;
   private isMuted: boolean = false;
 
+  constructor() {
+    if (typeof window !== 'undefined') {
+      try {
+        const saved = localStorage.getItem('ict_audio_muted');
+        if (saved !== null) {
+          this.isMuted = saved === 'true';
+        }
+      } catch {}
+    }
+  }
+
   private initCtx() {
     if (typeof window === 'undefined') return null;
     if (!this.ctx) {
@@ -21,9 +32,23 @@ class SoundEngine {
 
   public setMuted(muted: boolean) {
     this.isMuted = muted;
+    if (typeof window !== 'undefined') {
+      try {
+        localStorage.setItem('ict_audio_muted', String(muted));
+      } catch {}
+    }
+  }
+
+  public toggleMute(): boolean {
+    this.setMuted(!this.isMuted);
+    return this.isMuted;
   }
 
   public getMuted(): boolean {
+    return this.isMuted;
+  }
+
+  public isAudioMuted(): boolean {
     return this.isMuted;
   }
 
@@ -229,6 +254,18 @@ class SoundEngine {
 
   public playVictory() {
     this.playVictoryFanfare();
+  }
+
+  public playFanfare() {
+    this.playVictoryFanfare();
+  }
+
+  public playTada() {
+    this.playVictoryFanfare();
+  }
+
+  public playPop() {
+    this.playClick(800, 0.03);
   }
 }
 

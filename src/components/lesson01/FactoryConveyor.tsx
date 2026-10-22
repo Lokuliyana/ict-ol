@@ -50,8 +50,25 @@ const STUDENT_MARKS = [
   { name: 'Sandun', sinhala: 'සඳුන්', term1: 58, term2: 64, term3: 61 },
 ];
 
-export function FactoryConveyor() {
-  const [activeTab, setActiveTab] = useState<'classifier' | 'processor' | 'nic' | 'system'>('classifier');
+export interface FactoryConveyorProps {
+  hideInternalTabs?: boolean;
+  defaultSubMode?: 'classifier' | 'processor' | 'nic' | 'system' | string | number;
+}
+
+export function FactoryConveyor({
+  hideInternalTabs = false,
+  defaultSubMode = 'classifier',
+}: FactoryConveyorProps = {}) {
+  const validTabs: Array<'classifier' | 'processor' | 'nic' | 'system'> = [
+    'classifier',
+    'processor',
+    'nic',
+    'system',
+  ];
+  const initialTab = validTabs.includes(defaultSubMode as any)
+    ? (defaultSubMode as 'classifier' | 'processor' | 'nic' | 'system')
+    : 'classifier';
+  const [activeTab, setActiveTab] = useState<'classifier' | 'processor' | 'nic' | 'system'>(initialTab);
   
   // Classifier state
   const [queueIndex, setQueueIndex] = useState(0);
@@ -142,67 +159,69 @@ export function FactoryConveyor() {
   return (
     <div className="space-y-6">
       {/* Sub-station Navigation Switcher */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
-        <button
-          onClick={() => {
-            sound.playClick();
-            setActiveTab('classifier');
-          }}
-          className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 ${
-            activeTab === 'classifier'
-              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
-              : 'bg-white/80 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100'
-          }`}
-        >
-          <Boxes className="w-4 h-4" />
-          <span>1. Swipe-to-Classify</span>
-        </button>
+      {!hideInternalTabs && (
+        <div data-testid="factory-conveyor-tabs" className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
+          <button
+            onClick={() => {
+              sound.playClick();
+              setActiveTab('classifier');
+            }}
+            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 ${
+              activeTab === 'classifier'
+                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                : 'bg-white/80 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100'
+            }`}
+          >
+            <Boxes className="w-4 h-4" />
+            <span>1. Swipe-to-Classify</span>
+          </button>
 
-        <button
-          onClick={() => {
-            sound.playClick();
-            setActiveTab('processor');
-          }}
-          className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 ${
-            activeTab === 'processor'
-              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
-              : 'bg-white/80 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100'
-          }`}
-        >
-          <Cpu className="w-4 h-4" />
-          <span>2. Term-Test Processor</span>
-        </button>
+          <button
+            onClick={() => {
+              sound.playClick();
+              setActiveTab('processor');
+            }}
+            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 ${
+              activeTab === 'processor'
+                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                : 'bg-white/80 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100'
+            }`}
+          >
+            <Cpu className="w-4 h-4" />
+            <span>2. Term-Test Processor</span>
+          </button>
 
-        <button
-          onClick={() => {
-            sound.playClick();
-            setActiveTab('nic');
-          }}
-          className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 ${
-            activeTab === 'nic'
-              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
-              : 'bg-white/80 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100'
-          }`}
-        >
-          <FileSpreadsheet className="w-4 h-4" />
-          <span>3. NIC Number Dissector</span>
-        </button>
+          <button
+            onClick={() => {
+              sound.playClick();
+              setActiveTab('nic');
+            }}
+            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 ${
+              activeTab === 'nic'
+                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                : 'bg-white/80 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100'
+            }`}
+          >
+            <FileSpreadsheet className="w-4 h-4" />
+            <span>3. NIC Number Dissector</span>
+          </button>
 
-        <button
-          onClick={() => {
-            sound.playClick();
-            setActiveTab('system');
-          }}
-          className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 ${
-            activeTab === 'system'
-              ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
-              : 'bg-white/80 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100'
-          }`}
-        >
-          <Layers className="w-4 h-4" />
-          <span>4. 2021 Exam System Matcher</span>
-        </button>
-      </div>
+          <button
+            onClick={() => {
+              sound.playClick();
+              setActiveTab('system');
+            }}
+            className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shrink-0 ${
+              activeTab === 'system'
+                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                : 'bg-white/80 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100'
+            }`}
+          >
+            <Layers className="w-4 h-4" />
+            <span>4. 2021 Exam System Matcher</span>
+          </button>
+        </div>
+      )}
 
       {/* ========================================================================= */}
       {/* 1. SWIPE-TO-CLASSIFY CONVEYOR */}

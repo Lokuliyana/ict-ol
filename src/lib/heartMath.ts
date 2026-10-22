@@ -75,18 +75,20 @@ export function computeHeartRecharge(
 
 /**
  * Computes calendar-based daily streak increments and resets across midnight.
+ * Supports streak shields and 36-hour grace period to prevent student burnout.
  */
 export function computeDailyStreak(
   currentStreak: number,
   lastStudyDate: string,
-  today: string = new Date().toISOString().split('T')[0]
-): { newStreak: number; newStudyDate: string } {
+  today: string = new Date().toISOString().split('T')[0],
+  streakShields: number = 0
+): { newStreak: number; newStudyDate: string; shieldsRemaining: number; shieldUsed: boolean } {
   if (!lastStudyDate) {
-    return { newStreak: 1, newStudyDate: today };
+    return { newStreak: 1, newStudyDate: today, shieldsRemaining: streakShields, shieldUsed: false };
   }
 
   if (lastStudyDate === today) {
-    return { newStreak: currentStreak, newStudyDate: today };
+    return { newStreak: currentStreak, newStudyDate: today, shieldsRemaining: streakShields, shieldUsed: false };
   }
 
   const lastDateObj = new Date(lastStudyDate);
@@ -95,11 +97,15 @@ export function computeDailyStreak(
 
   if (diffDays === 1) {
     // Consecutive day study session
-    return { newStreak: currentStreak + 1, newStudyDate: today };
+    return { newStreak: currentStreak + 1, newStudyDate: today, shieldsRemaining: streakShields, shieldUsed: false };
+  } else if (diffDays === 2 && streakShields > 0) {
+    // Streak shield consumed: Protects streak over 1 missed day!
+    return { newStreak: currentStreak + 1, newStudyDate: today, shieldsRemaining: streakShields - 1, shieldUsed: true };
   } else if (diffDays > 1) {
-    // Streak broken: more than 1 day elapsed
-    return { newStreak: 1, newStudyDate: today };
+    // Streak broken: more than 1 day elapsed without shields
+    return { newStreak: 1, newStudyDate: today, shieldsRemaining: streakShields, shieldUsed: false };
   }
 
-  return { newStreak: currentStreak, newStudyDate: today };
+  return { newStreak: currentStreak, newStudyDate: today, shieldsRemaining: streakShields, shieldUsed: false };
 }
+

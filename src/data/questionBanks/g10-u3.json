@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "g10-u3-q1",
+    "lessonId": "g10-u3",
+    "questionNumber": 1,
+    "promptEn": "What is the base (radix) and the set of valid digits used in the Decimal Number System?",
+    "promptSi": "දශමය සංඛ්‍යා පද්ධතියේ (Decimal Number System) පදනම (Base) සහ භාවිත වන තනි අංක කුලකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Base 2: {0, 1}",
+        "si": "පාදය 2: {0, 1}"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Base 8: {0, 1, 2, 3, 4, 5, 6, 7}",
+        "si": "පාදය 8: {0, 1, 2, 3, 4, 5, 6, 7}"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Base 10: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}",
+        "si": "පාදය 10: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Base 16: {0–9, A–F}",
+        "si": "පාදය 16: {0–9, A–F}"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "The Decimal System is Base 10. It uses 10 distinct digits from 0 through 9.",
+    "explanationSi": "දශමය සංඛ්‍යා පද්ධතියේ පදනම 10 වන අතර, එහි 0 සිට 9 දක්වා වූ වෙනස් අංක 10 ක් භාවිත වේ.",
+    "syllabusRef": "G10-U3.1"
+  },
+  {
+    "id": "g10-u3-q2",
+    "lessonId": "g10-u3",
+    "questionNumber": 2,
+    "promptEn": "Which number system forms the fundamental basis of digital computer memory and processing circuits?",
+    "promptSi": "අංකිත පරිගණක මතක සහ සැකසුම් පරිපථවල මූලික පදනම වන්නේ කුමන සංඛ්‍යා පද්ධතියද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Decimal System",
+        "si": "දශමය පද්ධතිය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Binary System",
+        "si": "ද්විමය පද්ධතිය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Octal System",
+        "si": "අෂ්ටමය පද්ධතිය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hexadecimal System",
+        "si": "ෂඩ්දශමය පද්ධතිය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Computers use the Binary System (Base 2) consisting of '0' (OFF / Low voltage) and '1' (ON / High voltage) to represent data electronically.",
+    "explanationSi": "පරිගණක ඉලෙක්ට්‍රොනිකව දත්ත නිරූපණය කිරීමට '0' (අක්‍රිය/අඩු වෝල්ටීයතාව) සහ '1' (සක්‍රිය/ඉහළ වෝල්ටීයතාව) පමණක් ඇති ද්විමය පද්ධතිය (පදනම 2) භාවිත කරයි.",
+    "syllabusRef": "G10-U3.2"
+  },
+  {
+    "id": "g10-u3-q3",
+    "lessonId": "g10-u3",
+    "questionNumber": 3,
+    "promptEn": "What is the set of valid symbols used in the Hexadecimal Number System?",
+    "promptSi": "ෂඩ්දශමය සංඛ්‍යා පද්ධතියේ (Hexadecimal Number System) භාවිත වන සංකේත කුලකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}",
+        "si": "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, A, B, C, D, E}",
+        "si": "{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, A, B, C, D, E}"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}",
+        "si": "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "{A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P}",
+        "si": "{A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P}"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Hexadecimal (Base 16) uses 16 symbols: digits 0–9 for values 0–9, and uppercase letters A–F representing values 10–15 (A=10, B=11, C=12, D=13, E=14, F=15).",
+    "explanationSi": "ෂඩ්දශමය පද්ධතිය (පදනම 16) 0-9 දක්වා ඉලක්කම් 10 ක් සහ 10-15 දක්වා අගයන් නිරූපණයට A-F අකුරු 6 ක් (A=10, B=11, C=12, D=13, E=14, F=15) භාවිත කරයි.",
+    "syllabusRef": "G10-U3.3"
+  },
+  {
+    "id": "g10-u3-q4",
+    "lessonId": "g10-u3",
+    "questionNumber": 4,
+    "promptEn": "In a binary integer, what do the terms MSB and LSB stand for?",
+    "promptSi": "ද්විමය පූර්ණ සංඛ්‍යාවක MSB සහ LSB යන්නෙන් අදහස් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Most Significant Bit & Least Significant Bit",
+        "si": "වැඩිම අගයක් සහිත බිටුව සහ අඩුම අගයක් සහිත බිටුව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Main System Bit & Local System Bit",
+        "si": "ප්‍රධාන පද්ධති බිටුව සහ දේශීය පද්ධති බිටුව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Memory Storage Bit & Logical Storage Bit",
+        "si": "මතක ආචයන බිටුව සහ තාර්කික ආචයන බිටුව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Maximum Symbol Bit & Minimum Symbol Bit",
+        "si": "උපරිම සංකේත බිටුව සහ අවම සංකේත බිටුව"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "MSB is the leftmost bit with the highest positional value ($2^{n-1}$), and LSB is the rightmost bit with the lowest positional value ($2^0 = 1$).",
+    "explanationSi": "MSB යනු ඉහළම ස්ථානීය අගය සහිත වම්පසම ඇති බිටුවයි. LSB යනු අඩුම ස්ථානීය අගය (1) සහිත දකුණුපසම ඇති බිටුවයි.",
+    "syllabusRef": "G10-U3.4"
+  },
+  {
+    "id": "g10-u3-q5",
+    "lessonId": "g10-u3",
+    "questionNumber": 5,
+    "promptEn": "What are the positional values (weights) of the first three positions to the left of the radix point in an Octal number?",
+    "promptSi": "අෂ්ටමය සංඛ්‍යාවක තිතට වම්පසින් ඇති පළමු ස්ථාන තුනේ ස්ථානීය අගයන් (Positional values) පිළිවෙළින් මොනවාද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$8^1, 8^2, 8^3$ (8, 64, 512)",
+        "si": "$8^1, 8^2, 8^3$ (8, 64, 512)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$8^0, 8^1, 8^2$ (1, 8, 64)",
+        "si": "$8^0, 8^1, 8^2$ (1, 8, 64)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$10^0, 10^1, 10^2$ (1, 10, 100)",
+        "si": "$10^0, 10^1, 10^2$ (1, 10, 100)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$2^0, 2^1, 2^2$ (1, 2, 4)",
+        "si": "$2^0, 2^1, 2^2$ (1, 2, 4)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The powers of base 8 starting from the rightmost integer column are $8^0 = 1$, $8^1 = 8$, $8^2 = 64$.",
+    "explanationSi": "අෂ්ටමය පද්ධතියේ දකුණේ සිට වමට ස්ථානීය අගයන් වන්නේ $8^0 = 1$, $8^1 = 8$, සහ $8^2 = 64$ වේ.",
+    "syllabusRef": "G10-U3.5"
+  },
+  {
+    "id": "g10-u3-q6",
+    "lessonId": "g10-u3",
+    "questionNumber": 6,
+    "promptEn": "Which of the following is NOT a valid number in the Octal Number System?",
+    "promptSi": "පහත සඳහන් සංඛ්‍යා අතරින් අෂ්ටමය සංඛ්‍යා පද්ධතියේ (Octal System) පැවැතිය නොහැකි සංඛ්‍යාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$705_8$",
+        "si": "$705_8$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$164_8$",
+        "si": "$164_8$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$382_8$",
+        "si": "$382_8$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$510_8$",
+        "si": "$510_8$"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "The Octal system only contains digits 0 through 7. The number $382_8$ contains the digit '8', which is invalid in base 8.",
+    "explanationSi": "අෂ්ටමය පද්ධතියේ ඇත්තේ 0 සිට 7 දක්වා ඉලක්කම් පමණි. $382_8$ සංඛ්‍යාවේ '8' ඉලක්කම ඇති බැවින් එය අෂ්ටමය සංඛ්‍යාවක් විය නොහැක.",
+    "syllabusRef": "G10-U3.6"
+  },
+  {
+    "id": "g10-u3-q7",
+    "lessonId": "g10-u3",
+    "questionNumber": 7,
+    "promptEn": "What is the decimal value of the hexadecimal letter 'E'?",
+    "promptSi": "ෂඩ්දශමය 'E' අක්ෂරයේ දශමය අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "12",
+        "si": "12"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "13",
+        "si": "13"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "14",
+        "si": "14"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "15",
+        "si": "15"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "In Hexadecimal: A=10, B=11, C=12, D=13, E=14, F=15.",
+    "explanationSi": "ෂඩ්දශමය පද්ධතියේ: A=10, B=11, C=12, D=13, E=14, සහ E=14 වේ.",
+    "syllabusRef": "G10-U3.7"
+  },
+  {
+    "id": "g10-u3-q8",
+    "lessonId": "g10-u3",
+    "questionNumber": 8,
+    "promptEn": "What is the weight (positional value) of the 4th bit position (from right to left) in a binary number?",
+    "promptSi": "ද්විමය සංඛ්‍යාවක දකුණේ සිට වමට 4 වන බිටු ස්ථානයේ ස්ථානීය අගය (Weight) කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$2^4 = 16$",
+        "si": "$2^4 = 16$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$2^3 = 8$",
+        "si": "$2^3 = 8$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$2^2 = 4$",
+        "si": "$2^2 = 4$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$2^1 = 2$",
+        "si": "$2^1 = 2$"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Bit positions from right start at index 0: 1st bit = $2^0 (1)$, 2nd bit = $2^1 (2)$, 3rd bit = $2^2 (4)$, 4th bit = $2^3 (8)$.",
+    "explanationSi": "දකුණේ සිට බිටු ස්ථාන $2^0$ වෙතින් ආරම්භ වේ: 1 වන බිටුව = $2^0 (1)$, 2 වන බිටුව = $2^1 (2)$, 3 වන බිටුව = $2^2 (4)$, 4 වන බිටුව = $2^3 (8)$ වේ.",
+    "syllabusRef": "G10-U3.8"
+  },
+  {
+    "id": "g10-u3-q9",
+    "lessonId": "g10-u3",
+    "questionNumber": 9,
+    "promptEn": "Why do computer scientists frequently use Hexadecimal notation instead of pure Binary?",
+    "promptSi": "පරිගණක විද්‍යාඥයන් පිරිසිදු ද්විමය සංඛ්‍යා වෙනුවට ෂඩ්දශමය (Hexadecimal) සංඛ්‍යා නිතර භාවිත කරන්නේ ඇයි?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Computers process Hexadecimal faster than Binary",
+        "si": "පරිගණකය ද්විමයට වඩා වේගයෙන් ෂඩ්දශමය සකසයි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Hexadecimal represents long binary strings in a compact, human-readable format (1 hex digit = 4 bits)",
+        "si": "දිගු ද්විමය වැල් මිනිසාට පහසුවෙන් කියවිය හැකි සංයුක්ත ආකෘතියකින් නිරූපණය කරයි (ෂඩ්දශම අංක 1 = බිටු 4)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Hexadecimal can store decimal numbers with floating points accurately",
+        "si": "ඉපිලෙන තිත් සහිත දශම සංඛ්‍යා නිවැරදිව ගබඩා කළ හැක"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hexadecimal uses less computer memory than Binary",
+        "si": "ද්විමයට වඩා අඩු පරිගණක මතකයක් භාවිත කරයි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "One Hexadecimal digit corresponds exactly to a 4-bit binary nibble (e.g., $1111_2 = \text{F}_{16}$), making long binary memory addresses easier to read and write.",
+    "explanationSi": "එක් ෂඩ්දශමය සංඛ්‍යාවක් බිටු 4 ක ද්විමය කාණ්ඩයකට ($1111_2 = \text{F}_{16}$) සමාන වන බැවින් දිගු ද්විමය කේත කෙටියෙන් හා පහසුවෙන් කියවීමට හැකි වේ.",
+    "syllabusRef": "G10-U3.9"
+  },
+  {
+    "id": "g10-u3-q10",
+    "lessonId": "g10-u3",
+    "questionNumber": 10,
+    "promptEn": "What is the maximum number of unique values that can be represented using 8 bits (1 byte)?",
+    "promptSi": "බිටු 8 ක් (බයිට 1 ක්) භාවිතයෙන් නිරූපණය කළ හැකි උපරිම වෙනස් අගයන් ගණන කීයද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "128",
+        "si": "128"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "255",
+        "si": "255"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "256",
+        "si": "256"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "512",
+        "si": "512"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "For $n$ bits, total combinations $= 2^n$. For 8 bits: $2^8 = 256$ unique combinations (ranging from 0 to 255).",
+    "explanationSi": "බිටු $n$ ගණනකින් $2^n$ සංයෝජන සංඛ්‍යාවක් සෑදිය හැක. බිටු 8 ක් සඳහා $2^8 = 256$ ක් වේ (0 සිට 255 දක්වා).",
+    "syllabusRef": "G10-U3.10"
+  },
+  {
+    "id": "g10-u3-q11",
+    "lessonId": "g10-u3",
+    "questionNumber": 11,
+    "promptEn": "What is the maximum decimal value that can be represented using a 4-bit unsigned binary number?",
+    "promptSi": "බිටු 4 ක ලකුණු නොතැබූ ද්විමය සංඛ්‍යාවකින් නිරූපණය කළ හැකි උපරිම දශමය අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "16",
+        "si": "16"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "15",
+        "si": "15"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "14",
+        "si": "14"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "8",
+        "si": "8"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "4 bits can represent $2^4 = 16$ values. The maximum value is $1111_2 = 8 + 4 + 2 + 1 = 15$.",
+    "explanationSi": "බිටු 4 කින් වෙනස් අගයන් $2^4 = 16$ ක් සෑදිය හැක. උපරිම අගය වන්නේ $1111_2 = 8 + 4 + 2 + 1 = 15$ වේ.",
+    "syllabusRef": "G10-U3.11"
+  },
+  {
+    "id": "g10-u3-q12",
+    "lessonId": "g10-u3",
+    "questionNumber": 12,
+    "promptEn": "What is a 4-bit binary group commonly referred to as in computer terminology?",
+    "promptSi": "පරිගණක විද්‍යාවේදී බිටු 4 ක ද්විමය කාණ්ඩයක් හඳුන්වන විශේෂ නාමය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Word",
+        "si": "වචනය (Word)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Nibble",
+        "si": "නිබලය (Nibble)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Byte",
+        "si": "බයිටය (Byte)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Double Word",
+        "si": "ද්විත්ව වචනය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A 4-bit group is called a Nibble (half of an 8-bit Byte).",
+    "explanationSi": "බිටු 4 ක එකතුවක් නිබල් (Nibble) ලෙස හැඳින්වේ (බයිට භාගයකි).",
+    "syllabusRef": "G10-U3.12"
+  },
+  {
+    "id": "g10-u3-q13",
+    "lessonId": "g10-u3",
+    "questionNumber": 13,
+    "promptEn": "Which number system uses base powers of $16^0, 16^1, 16^2$ for integer column evaluation?",
+    "promptSi": "පූර්ණ සංඛ්‍යා තීරු අගයන් සඳහා $16^0, 16^1, 16^2$ බලයන් භාවිත කරන සංඛ්‍යා පද්ධතිය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Binary",
+        "si": "ද්විමය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Decimal",
+        "si": "දශමය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Octal",
+        "si": "අෂ්ටමය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hexadecimal",
+        "si": "ෂඩ්දශමය"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "Hexadecimal uses base 16 positional weights: $16^0=1, 16^1=16, 16^2=256$.",
+    "explanationSi": "ෂඩ්දශමය පද්ධතිය පදනම 16 හි ස්ථානීය අගයන් ($16^0=1, 16^1=16, 16^2=256$) භාවිත කරයි.",
+    "syllabusRef": "G10-U3.13"
+  },
+  {
+    "id": "g10-u3-q14",
+    "lessonId": "g10-u3",
+    "questionNumber": 14,
+    "promptEn": "What is the primary difference between a Positional Number System and a Non-Positional Number System?",
+    "promptSi": "ස්ථානීය සංඛ්‍යා පද්ධතියක් (Positional System) සහ ස්ථානීය නොවන සංඛ්‍යා පද්ධතියක් අතර ප්‍රධාන වෙනස කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Positional systems use zero, while non-positional systems do not",
+        "si": "ස්ථානීය පද්ධති ශුන්‍යය භාවිත කරන අතර අස්ථානීය පද්ධති භාවිත නොකරයි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "In positional systems, the value of a digit depends on its position in the number",
+        "si": "in non-positional systems (like Roman numerals), digits have fixed values / ස්ථානීය පද්ධතිවල සංඛ්‍යාංකයක අගය එහි පිහිටීම මත රඳා පවතින අතර අස්ථානීය පද්ධතිවල (රෝම ඉලක්කම් වැනි) ස්ථාවර අගයක් ගනී"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Positional systems cannot represent negative numbers",
+        "si": "ස්ථානීය පද්ධතිවල සෘණ සංඛ්‍යා නිරූපණය කළ නොහැක"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Non-positional systems are used by electronic computers",
+        "si": "ඉලෙක්ට්‍රොනික පරිගණක මගින් අස්ථානීය පද්ධති භාවිත කරයි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In positional systems (Binary, Decimal, Hex), a digit's weight depends on its place ($10^0, 10^1$). Non-positional systems like Roman numerals (I, V, X, C) have fixed face values regardless of location.",
+    "explanationSi": "ස්ථානීය පද්ධතිවල ඉලක්කමක අගය පිහිටි ස්ථානය මත වෙනස් වේ. රෝම ඉලක්කම් වැනි ස්ථානීය නොවන පද්ධතිවල සංකේතයට ස්ථාවර අගයක් පවතී.",
+    "syllabusRef": "G10-U3.14"
+  },
+  {
+    "id": "g10-u3-q15",
+    "lessonId": "g10-u3",
+    "questionNumber": 15,
+    "promptEn": "In the binary number $101100_2$, what is the positional weight of the most significant bit (MSB)?",
+    "promptSi": "$101100_2$ ද්විමය සංඛ්‍යාවේ වඩාත්ම අර්ථවත් බිටුවේ (MSB) ස්ථානීය අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "16",
+        "si": "16"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "32",
+        "si": "32"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "64",
+        "si": "64"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "8",
+        "si": "8"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "$101100_2$ has 6 bits. The MSB is at index 5 (from right 0): $2^5 = 32$.",
+    "explanationSi": "$101100_2$ හි බිටු 6 ක් ඇත. වම්පසම ඇති MSB බිටුවේ ස්ථානීය අගය $2^5 = 32$ වේ.",
+    "syllabusRef": "G10-U3.15"
+  },
+  {
+    "id": "g10-u3-q16",
+    "lessonId": "g10-u3",
+    "questionNumber": 16,
+    "promptEn": "What is the binary equivalent of the decimal number $25_{10}$?",
+    "promptSi": "$25_{10}$ දශමය සංඛ්‍යාවට සමාන ද්විමය සංඛ්‍යාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$11001_2$",
+        "si": "$11001_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$10101_2$",
+        "si": "$10101_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$11100_2$",
+        "si": "$11100_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$10011_2$",
+        "si": "$10011_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Successive division by 2:",
+    "explanationSi": "2 න් බෙදීමේ ශේෂයන් යට සිට ඉහළට ලියූ විට: $11001_2$ ලැබේ ($16 + 8 + 1 = 25_{10}$).",
+    "syllabusRef": "G10-U3.16"
+  },
+  {
+    "id": "g10-u3-q17",
+    "lessonId": "g10-u3",
+    "questionNumber": 17,
+    "promptEn": "What is the decimal value of the binary number $10110_2$?",
+    "promptSi": "$10110_2$ ද්විමය සංඛ්‍යාවේ දශමය අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "18",
+        "si": "18"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "22",
+        "si": "22"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "26",
+        "si": "26"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "30",
+        "si": "30"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "$(1 \times 2^4) + (0 \times 2^3) + (1 \times 2^2) + (1 \times 2^1) + (0 \times 2^0) = 16 + 0 + 4 + 2 + 0 = 22_{10}$.",
+    "explanationSi": "ස්ථානීය අගයන් එකතු කළ විට: $16 + 0 + 4 + 2 + 0 = 22_{10}$ වේ.",
+    "syllabusRef": "G10-U3.17"
+  },
+  {
+    "id": "g10-u3-q18",
+    "lessonId": "g10-u3",
+    "questionNumber": 18,
+    "promptEn": "What is the octal equivalent of the decimal number $83_{10}$?",
+    "promptSi": "$83_{10}$ දශමය සංඛ්‍යාවට සමාන අෂ්ටමය (Octal) සංඛ්‍යාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$123_8$",
+        "si": "$123_8$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$103_8$",
+        "si": "$103_8$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$117_8$",
+        "si": "$117_8$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$143_8$",
+        "si": "$143_8$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Successive division by 8:",
+    "explanationSi": "8 න් බෙදූ විට ශේෂයන් යට සිට ඉහළට: $123_8$ වේ.",
+    "syllabusRef": "G10-U3.18"
+  },
+  {
+    "id": "g10-u3-q19",
+    "lessonId": "g10-u3",
+    "questionNumber": 19,
+    "promptEn": "What is the decimal equivalent of the octal number $57_8$?",
+    "promptSi": "$57_8$ අෂ්ටමය සංඛ්‍යාවට සමාන දශමය (Decimal) අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "47",
+        "si": "47"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "57",
+        "si": "57"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "41",
+        "si": "41"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "51",
+        "si": "51"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$(5 \times 8^1) + (7 \times 8^0) = (5 \times 8) + (7 \times 1) = 40 + 7 = 47_{10}$.",
+    "explanationSi": "ස්ථානීය අගයන් ගුණ කර එකතු කළ විට: $(5 \times 8) + (7 \times 1) = 40 + 7 = 47_{10}$ වේ.",
+    "syllabusRef": "G10-U3.19"
+  },
+  {
+    "id": "g10-u3-q20",
+    "lessonId": "g10-u3",
+    "questionNumber": 20,
+    "promptEn": "Convert the hexadecimal number $2\text{F}_{16}$ to its decimal equivalent.",
+    "promptSi": "$2\text{F}_{16}$ ෂඩ්දශමය සංඛ්‍යාව දශමය අගයකට පරිවර්තනය කරන්න.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "47",
+        "si": "47"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "45",
+        "si": "45"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "32",
+        "si": "32"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "62",
+        "si": "62"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$(2 \times 16^1) + (\text{F} \times 16^0) = (2 \times 16) + (15 \times 1) = 32 + 15 = 47_{10}$.",
+    "explanationSi": "$(2 \times 16) + (15 \times 1) = 32 + 15 = 47_{10}$ වේ.",
+    "syllabusRef": "G10-U3.20"
+  },
+  {
+    "id": "g10-u3-q21",
+    "lessonId": "g10-u3",
+    "questionNumber": 21,
+    "promptEn": "What is the binary representation of the octal number $63_8$?",
+    "promptSi": "$63_8$ අෂ්ටමය සංඛ්‍යාවේ ද්විමය (Binary) නිරූපණය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$110011_2$",
+        "si": "$110011_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$101011_2$",
+        "si": "$101011_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$111001_2$",
+        "si": "$111001_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$110110_2$",
+        "si": "$110110_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Convert each octal digit into 3 binary bits:",
+    "explanationSi": "සෑම අෂ්ටමය ඉලක්කමක්ම බිටු 3 ක ද්විමය කණ්ඩයකට හරවන්න: $6",
+    "syllabusRef": "G10-U3.21"
+  },
+  {
+    "id": "g10-u3-q22",
+    "lessonId": "g10-u3",
+    "questionNumber": 22,
+    "promptEn": "What is the octal equivalent of the binary number $101110_2$?",
+    "promptSi": "$101110_2$ ද්විමය සංඛ්‍යාවට සමාන අෂ්ටමය සංඛ්‍යාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$56_8$",
+        "si": "$56_8$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$2E_8$",
+        "si": "$2E_8$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$46_8$",
+        "si": "$46_8$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$54_8$",
+        "si": "$54_8$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Group binary bits into sets of 3 from right to left:",
+    "explanationSi": "දකුණේ සිට බිටු 3 බැගින් කාණ්ඩ කරන්න: $(101)_2 = 5$, $(110)_2 = 6 \\implies 56_8$.",
+    "syllabusRef": "G10-U3.22"
+  },
+  {
+    "id": "g10-u3-q23",
+    "lessonId": "g10-u3",
+    "questionNumber": 23,
+    "promptEn": "Convert the binary number $11011011_2$ to Hexadecimal.",
+    "promptSi": "$11011011_2$ ද්විමය සංඛ්‍යාව ෂඩ්දශමය (Hexadecimal) සංඛ්‍යාවකට පරිවර්තනය කරන්න.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$\text{DB}_{16}$",
+        "si": "$\text{DB}_{16}$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$\text{C11}_{16}$",
+        "si": "$\text{C11}_{16}$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$\text{B13}_{16}$",
+        "si": "$\text{B13}_{16}$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$\text{E11}_{16}$",
+        "si": "$\text{E11}_{16}$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Group binary bits into sets of 4 from right:",
+    "explanationSi": "බිටු 4 බැගින් කාණ්ඩ කළ විට: $(1101)_2 = 13 = \text{D}$ සහ $(1011)_2 = 11 = \text{B} \\implies \text{DB}_{16}$.",
+    "syllabusRef": "G10-U3.23"
+  },
+  {
+    "id": "g10-u3-q24",
+    "lessonId": "g10-u3",
+    "questionNumber": 24,
+    "promptEn": "What is the binary equivalent of the hexadecimal number $4\text{C}_{16}$?",
+    "promptSi": "$4\text{C}_{16}$ ෂඩ්දශමය සංඛ්‍යාවට සමාන ද්විමය සංඛ්‍යාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$01001100_2$",
+        "si": "$01001100_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$01001011_2$",
+        "si": "$01001011_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$01011100_2$",
+        "si": "$01011100_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$00111100_2$",
+        "si": "$00111100_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Convert each hex digit to 4 binary bits:",
+    "explanationSi": "සෑම ෂඩ්දශමය සංකේතයක්ම බිටු 4 කින් ලිවූ විට: $4",
+    "syllabusRef": "G10-U3.24"
+  },
+  {
+    "id": "g10-u3-q25",
+    "lessonId": "g10-u3",
+    "questionNumber": 25,
+    "promptEn": "Convert the hexadecimal number $\text{1A}_16$ directly into Octal.",
+    "promptSi": "$\text{1A}_{16}$ ෂඩ්දශමය සංඛ්‍යාව කෙළින්ම අෂ්ටමය (Octal) සංඛ්‍යාවකට පරිවර්තනය කරන්න.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$32_8$",
+        "si": "$32_8$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$26_8$",
+        "si": "$26_8$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$34_8$",
+        "si": "$34_8$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$110_8$",
+        "si": "$110_8$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "1. Convert Hex to Binary: $1",
+    "explanationSi": "1. ද්විමය බවට: $00011010_2$. 2. දකුණේ සිට බිටු 3 බැගින් කාණ්ඩ කළ විට: $011",
+    "syllabusRef": "G10-U3.25"
+  },
+  {
+    "id": "g10-u3-q26",
+    "lessonId": "g10-u3",
+    "questionNumber": 26,
+    "promptEn": "What is the decimal value of the binary fraction $0.101_2$?",
+    "promptSi": "$0.101_2$ ද්විමය භාග සංඛ්‍යාවේ දශමය අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "0.625",
+        "si": "0.625"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "0.525",
+        "si": "0.525"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "0.375",
+        "si": "0.375"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "0.750",
+        "si": "0.750"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Positions after point have weights $2^{-1} (0.5), 2^{-2} (0.25), 2^{-3} (0.125)$.",
+    "explanationSi": "තිතට දකුණින් අගයන්: $(1 \times 0.5) + (0 \times 0.25) + (1 \times 0.125) = 0.625_{10}$.",
+    "syllabusRef": "G10-U3.26"
+  },
+  {
+    "id": "g10-u3-q27",
+    "lessonId": "g10-u3",
+    "questionNumber": 27,
+    "promptEn": "What is the hexadecimal representation of the decimal number $250_{10}$?",
+    "promptSi": "$250_{10}$ දශමය සංඛ්‍යාවේ ෂඩ්දශමය (Hexadecimal) නිරූපණය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$\text{FA}_{16}$",
+        "si": "$\text{FA}_{16}$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$\text{FB}_{16}$",
+        "si": "$\text{FB}_{16}$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$\text{E10}_{16}$",
+        "si": "$\text{E10}_{16}$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$\text{AF}_{16}$",
+        "si": "$\text{AF}_{16}$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$250 \\div 16 = 15 \text{ r } 10$.",
+    "explanationSi": "16 න් බෙදූ විට ශේෂයන් $15 (\text{F})$ සහ $10 (\text{A})$ වේ $\\implies \text{FA}_{16}$.",
+    "syllabusRef": "G10-U3.27"
+  },
+  {
+    "id": "g10-u3-q28",
+    "lessonId": "g10-u3",
+    "questionNumber": 28,
+    "promptEn": "Convert octal $175_8$ into binary.",
+    "promptSi": "$175_8$ අෂ්ටමය සංඛ්‍යාව ද්විමය සංඛ්‍යාවකට පරිවර්තනය කරන්න.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$001111101_2$",
+        "si": "$001111101_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$1111101_2$",
+        "si": "$1111101_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$001111110_2$",
+        "si": "$001111110_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$1011101_2$",
+        "si": "$1011101_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$1",
+    "explanationSi": "සෑම ඉලක්කමකටම බිටු 3 ක් යෙදූ විට: $1",
+    "syllabusRef": "G10-U3.28"
+  },
+  {
+    "id": "g10-u3-q29",
+    "lessonId": "g10-u3",
+    "questionNumber": 29,
+    "promptEn": "What is the decimal value of the hexadecimal number $100_{16}$?",
+    "promptSi": "$100_{16}$ ෂඩ්දශමය සංඛ්‍යාවේ දශමය අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "100",
+        "si": "100"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "256",
+        "si": "256"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "512",
+        "si": "512"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "1024",
+        "si": "1024"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "$(1 \times 16^2) + (0 \times 16^1) + (0 \times 16^0) = 256 + 0 + 0 = 256_{10}$.",
+    "explanationSi": "$(1 \times 16^2) + 0 + 0 = 256_{10}$.",
+    "syllabusRef": "G10-U3.29"
+  },
+  {
+    "id": "g10-u3-q30",
+    "lessonId": "g10-u3",
+    "questionNumber": 30,
+    "promptEn": "Which binary number is equivalent to decimal $100_{10}$?",
+    "promptSi": "$100_{10}$ දශමය සංඛ්‍යාවට සමාන ද්විමය සංඛ්‍යාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$1100100_2$",
+        "si": "$1100100_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$1101000_2$",
+        "si": "$1101000_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$1010100_2$",
+        "si": "$1010100_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$1110000_2$",
+        "si": "$1110000_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$64 + 32 + 4 = 100 \\implies 2^6 (64) + 2^5 (32) + 2^2 (4) \\implies 1100100_2$.",
+    "explanationSi": "$64 + 32 + 4 = 100 \\implies 1100100_2$ වේ.",
+    "syllabusRef": "G10-U3.30"
+  },
+  {
+    "id": "g10-u3-q31",
+    "lessonId": "g10-u3",
+    "questionNumber": 31,
+    "promptEn": "What is the sum of binary addition $1011_2 + 0101_2$?",
+    "promptSi": "$1011_2 + 0101_2$ ද්විමය එකතු කිරීමේ පිළිතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$10000_2$",
+        "si": "$10000_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$11110_2$",
+        "si": "$11110_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$10001_2$",
+        "si": "$10001_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$11000_2$",
+        "si": "$11000_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$1011_2 (11_{10}) + 0101_2 (5_{10}) = 16_{10} = 10000_2$.",
+    "explanationSi": "දශම අගයන් ලෙස $11 + 5 = 16_{10} \\implies 10000_2$ වේ.",
+    "syllabusRef": "G10-U3.31"
+  },
+  {
+    "id": "g10-u3-q32",
+    "lessonId": "g10-u3",
+    "questionNumber": 32,
+    "promptEn": "What is the result of binary subtraction $1100_2 - 0111_2$?",
+    "promptSi": "$1100_2 - 0111_2$ ද්විමය අඩු කිරීමේ පිළිතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$0101_2$",
+        "si": "$0101_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$0011_2$",
+        "si": "$0011_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$0110_2$",
+        "si": "$0110_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$1001_2$",
+        "si": "$1001_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$1100_2 (12_{10}) - 0111_2 (7_{10}) = 5_{10} = 0101_2$.",
+    "explanationSi": "දශම අගයන් ලෙස $12 - 7 = 5_{10} \\implies 0101_2$ වේ.",
+    "syllabusRef": "G10-U3.32"
+  },
+  {
+    "id": "g10-u3-q33",
+    "lessonId": "g10-u3",
+    "questionNumber": 33,
+    "promptEn": "How is the 1's Complement of a binary number obtained?",
+    "promptSi": "ද්විමය සංඛ්‍යාවක 1 හි පූරකය (1's Complement) ලබා ගන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "By adding 1 to the binary number",
+        "si": "ද්විමය සංඛ්‍යාවට 1ක් එකතු කිරීමෙන්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "By inverting every bit (changing 0 to 1 and 1 to 0)",
+        "si": "සෑම බිටුවක්ම ප්‍රතිලෝම කිරීමෙන් (0 $\\rightarrow$ 1 සහ 1 $\\rightarrow$ 0)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "By shifting all bits one position to the left",
+        "si": "සියලු බිටු එක් ස්ථානයක් වමට මාරු කිරීමෙන්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "By subtracting 1 from the binary number",
+        "si": "ද්විමය සංඛ්‍යාවෙන් 1ක් අඩු කිරීමෙන්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "1's complement is obtained by toggling/inverting all bits: $0",
+    "explanationSi": "සංඛ්‍යාවේ ඇති සෑම 0 ක්ම 1 බවටත්, සෑම 1 ක්ම 0 බවටත් අනිලෝමනය (Invert) කිරීමෙන් 1 හි පූරකය ලැබේ.",
+    "syllabusRef": "G10-U3.33"
+  },
+  {
+    "id": "g10-u3-q34",
+    "lessonId": "g10-u3",
+    "questionNumber": 34,
+    "promptEn": "What is the 1's Complement of the 8-bit binary number $01011010_2$?",
+    "promptSi": "$01011010_2$ බිටු 8 ක ද්විමය සංඛ්‍යාවේ 1 හි පූරකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$10100101_2$",
+        "si": "$10100101_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$10100110_2$",
+        "si": "$10100110_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$01011011_2$",
+        "si": "$01011011_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$11111111_2$",
+        "si": "$11111111_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Invert each bit: $0",
+    "explanationSi": "බිටු අනිලෝමනය කළ විට: $10100101_2$ ලැබේ.",
+    "syllabusRef": "G10-U3.34"
+  },
+  {
+    "id": "g10-u3-q35",
+    "lessonId": "g10-u3",
+    "questionNumber": 35,
+    "promptEn": "How is the 2's Complement of a binary number calculated?",
+    "promptSi": "ද්විමය සංඛ්‍යාවක 2 හි පූරකය (2's Complement) ගණනය කරන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Add 1 to the 1's Complement of the binary number",
+        "si": "ද්විමය සංඛ්‍යාවේ 1හි අනුපූරකයට 1ක් එකතු කිරීමෙන්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Subtract 1 from the 1's Complement",
+        "si": "1හි අනුපූරකයෙන් 1ක් අඩු කිරීමෙන්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Multiply the 1's Complement by 2",
+        "si": "1හි අනුපූරකය 2න් ගුණ කිරීමෙන්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Invert only the Most Significant Bit",
+        "si": "වැඩිම අගය සහිත බිටුව (MSB) පමණක් ප්‍රතිලෝම කිරීමෙන්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$\text{2's Complement} = \text{1's Complement} + 1$.",
+    "explanationSi": "2 හි පූරකය සොයා ගැනීමට 1 හි පූරකයට 1 ක් එකතු කරනු ලැබේ (2's Complement = 1's Complement + 1).",
+    "syllabusRef": "G10-U3.35"
+  },
+  {
+    "id": "g10-u3-q36",
+    "lessonId": "g10-u3",
+    "questionNumber": 36,
+    "promptEn": "What is the 2's Complement of the 8-bit binary number $00110100_2$?",
+    "promptSi": "$00110100_2$ බිටු 8 ද්විමය සංඛ්‍යාවේ 2 හි පූරකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$11001100_2$",
+        "si": "$11001100_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$11001011_2$",
+        "si": "$11001011_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$11001101_2$",
+        "si": "$11001101_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$00110101_2$",
+        "si": "$00110101_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "1. 1's complement of $00110100 = 11001011_2$.",
+    "explanationSi": "1. 1 හි පූරකය = $11001011$.",
+    "syllabusRef": "G10-U3.36"
+  },
+  {
+    "id": "g10-u3-q37",
+    "lessonId": "g10-u3",
+    "questionNumber": 37,
+    "promptEn": "In signed binary arithmetic (2's complement representation), what does an MSB (leftmost bit) of '1' indicate?",
+    "promptSi": "2 හි පූරක ලකුණු කළ ද්විමය සංඛ්‍යා නිරූපණයේදී (Signed binary), වම්පසම ඇති බිටුව (MSB) '1' වීමෙන් අදහස් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The number is Positive (+)",
+        "si": "සංඛ්‍යාව ධන (+) වේ"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The number is Negative (-)",
+        "si": "සංඛ්‍යාව සෘණ (-) වේ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The number is Fractional",
+        "si": "සංඛ්‍යාව භාගික වේ"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "An Overflow error occurred",
+        "si": "පිටාර ගැලීමේ දෝෂයක් (Overflow) සිදුවී ඇත"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In signed binary representation, the MSB acts as the sign bit: '0' denotes Positive (+), and '1' denotes Negative (-).",
+    "explanationSi": "ලකුණු කළ ද්විමය ක්‍රමයේදී MSB බිටුව '0' නම් ධන (+) සංඛ්‍යාවක්ද, '1' නම් ඍණ (-) සංඛ්‍යාවක්ද නිරූපණය වේ.",
+    "syllabusRef": "G10-U3.37"
+  },
+  {
+    "id": "g10-u3-q38",
+    "lessonId": "g10-u3",
+    "questionNumber": 38,
+    "promptEn": "What decimal negative number is represented by the 8-bit 2's complement code $11111101_2$?",
+    "promptSi": "$11111101_2$ බිටු 8 ක 2 හි පූරක ද්විමය කේතයෙන් නිරූපණය වන දශමය ඍණ සංඛ්‍යාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "3",
+        "si": "3"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "2",
+        "si": "2"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "5",
+        "si": "5"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "1",
+        "si": "1"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "1. Since MSB is '1', it is negative.",
+    "explanationSi": "1. MSB = '1' බැවින් ඍණ අගයකි.",
+    "syllabusRef": "G10-U3.38"
+  },
+  {
+    "id": "g10-u3-q39",
+    "lessonId": "g10-u3",
+    "questionNumber": 39,
+    "promptEn": "What is the 8-bit 2's complement representation of decimal $-10_{10}$?",
+    "promptSi": "දශමය $-10_{10}$ හි බිටු 8 ක 2 හි පූරක (2's Complement) නිරූපණය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$11110110_2$",
+        "si": "$11110110_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$11110101_2$",
+        "si": "$11110101_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$10001010_2$",
+        "si": "$10001010_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$11111010_2$",
+        "si": "$11111010_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "1. $+10_{10}$ in 8-bit binary $= 00001010_2$.",
+    "explanationSi": "1. $+10 \\implies 00001010_2$.",
+    "syllabusRef": "G10-U3.39"
+  },
+  {
+    "id": "g10-u3-q40",
+    "lessonId": "g10-u3",
+    "questionNumber": 40,
+    "promptEn": "Why do digital computer processors (ALUs) use 2's Complement for performing subtraction operations?",
+    "promptSi": "පරිගණක ප්‍රොසෙසර (ALU) අඩු කිරීමේ මෙහෙයුම් සඳහා 2 හි පූරකය (2's Complement) භාවිත කරන්නේ ඇයි?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "It allows subtraction to be performed using simple adder hardware circuits ($A - B = A + (-B)$)",
+        "si": "අඩු කිරීමේ මෙහෙයුම ද සරල එකතු කිරීමේ පරිපථ භාවිතයෙන් සිදු කිරීමට ඉඩ සලසයි ($A - B = A + (-B)$)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$)",
+        "si": "අඩු කිරීමේ මෙහෙයුම ද සරල එකතු කිරීමේ පරිපථ භාවිතයෙන් සිදු කිරීමට ඉඩ සලසයි ($A - B = A + (-B)$)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "It eliminates the need for binary multiplication",
+        "si": "ද්විමය ගුණ කිරීමේ අවශ්‍යතාව නැති කරයි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "It prevents binary division by zero errors",
+        "si": "බිංදුවෙන් බෙදීමේ දෝෂ වළක්වයි"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "2's complement allows subtraction to be executed as addition ($A - B = A + \text{2's Comp}(B)$), simplifying CPU hardware design by using the same adder circuits.",
+    "explanationSi": "2 හි පූරකය මගින් අඩු කිරීම්, එකතු කිරීමේ පරිපථ භාවිතයෙන්ම සිදු කිරීමට ($A - B = A + (-B)$) හැකියාව ලැබෙන බැවින් පරිගණක හාඩ්වෙයාර් නිර්මාණය සරල වේ.",
+    "syllabusRef": "G10-U3.40"
+  },
+  {
+    "id": "g10-u3-q41",
+    "lessonId": "g10-u3",
+    "questionNumber": 41,
+    "promptEn": "What range of signed integer values can be represented using an 8-bit 2's complement format?",
+    "promptSi": "බිටු 8 ක 2 හි පූරක ලකුණු කළ ක්‍රමයෙන් නිරූපණය කළ හැකි පූර්ණ සංඛ්‍යා පරාසය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "128 to +127",
+        "si": "128 සිට +127 දක්වා"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "127 to +128",
+        "si": "127 සිට +128 දක්වා"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "0 to +255",
+        "si": "0 සිට +255 දක්වා"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "256 to +255",
+        "si": "256 සිට +255 දක්වා"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Range for $n$-bit 2's complement is $-2^{n-1}$ to $+(2^{n-1} - 1)$. For $n=8$: $-2^7 (-128)$ to $+(2^7 - 1) (+127)$.",
+    "explanationSi": "බිටු $n$ සඳහා පරාසය $-2^{n-1}$ සිට $+(2^{n-1} - 1)$ වේ. බිටු 8 සඳහා: $-128$ සිට $+127$ දක්වා වේ.",
+    "syllabusRef": "G10-U3.41"
+  },
+  {
+    "id": "g10-u3-q42",
+    "lessonId": "g10-u3",
+    "questionNumber": 42,
+    "promptEn": "What is the sum of $111_2 + 111_2$ in binary?",
+    "promptSi": "$111_2 + 111_2$ ද්විමය එකතු කිරීමේ පිළිතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$1110_2$",
+        "si": "$1110_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$1100_2$",
+        "si": "$1100_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$1010_2$",
+        "si": "$1010_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$1111_2$",
+        "si": "$1111_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$111_2 (7_{10}) + 111_2 (7_{10}) = 14_{10} = 1110_2$.",
+    "explanationSi": "$7_{10} + 7_{10} = 14_{10} \\implies 1110_2$ වේ.",
+    "syllabusRef": "G10-U3.42"
+  },
+  {
+    "id": "g10-u3-q43",
+    "lessonId": "g10-u3",
+    "questionNumber": 43,
+    "promptEn": "What does the acronym BCD stand for in computer data representation?",
+    "promptSi": "පරිගණක දත්ත නිරූපණයේදී BCD යන්නෙහි සම්පූර්ණ නම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Binary Coded Decimal",
+        "si": "ද්විමය කේතනය කළ දශමය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Basic Computer Data",
+        "si": "මූලික පරිගණක දත්ත"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Bit Coded Digit",
+        "si": "බිටු කේත කළ සංඛ්‍යාංකය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Binary Control Device",
+        "si": "ද්විමය පාලන උපාංගය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "BCD stands for Binary Coded Decimal. It encodes each decimal digit (0–9) individually into a 4-bit binary code.",
+    "explanationSi": "BCD යනු Binary Coded Decimal යන්නයි. මෙහිදී සෑම දශමය ඉලක්කමක්ම (0-9) බිටු 4 ක ද්විමය කේතයකින් වෙන වෙනම නිරූපණය කරයි.",
+    "syllabusRef": "G10-U3.43"
+  },
+  {
+    "id": "g10-u3-q44",
+    "lessonId": "g10-u3",
+    "questionNumber": 44,
+    "promptEn": "How is the decimal number $59_{10}$ represented in Binary Coded Decimal (BCD)?",
+    "promptSi": "$59_{10}$ දශමය සංඛ්‍යාව BCD (Binary Coded Decimal) ක්‍රමයෙන් නිරූපණය කරන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$01011001_2$",
+        "si": "$01011001_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$111011_2$",
+        "si": "$111011_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$01011000_2$",
+        "si": "$01011000_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$00111001_2$",
+        "si": "$00111001_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Convert each digit to 4 bits separately: $5",
+    "explanationSi": "තනි තනිව බිටු 4 කට හරවන්න: $5",
+    "syllabusRef": "G10-U3.44"
+  },
+  {
+    "id": "g10-u3-q45",
+    "lessonId": "g10-u3",
+    "questionNumber": 45,
+    "promptEn": "What does the acronym ASCII stand for?",
+    "promptSi": "පරිගණක අක්ෂර කේතනයේදී ASCII යන්නෙහි සම්පූර්ණ දීර්ඝ නමය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "American Standard Code for Information Interchange",
+        "si": "තොරතුරු හුවමාරුව සඳහා වූ ඇමරිකානු සම්මත කේතය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Australian System Code for Internet Integration",
+        "si": "අන්තර්ජාල ඒකාබද්ධතාව සඳහා ඕස්ට්‍රේලියානු පද්ධති කේතය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Automated Standard Computer Interface Interchange",
+        "si": "ස්වයංක්‍රීය සම්මත පරිගණක අතුරුමුහුණත් හුවමාරුව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "American Scientific Code for Information Processing",
+        "si": "තොරතුරු සැකසීම සඳහා ඇමරිකානු විද්‍යාත්මක කේතය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "ASCII stands for American Standard Code for Information Interchange.",
+    "explanationSi": "ASCII යනු American Standard Code for Information Interchange යන්නයි.",
+    "syllabusRef": "G10-U3.45"
+  },
+  {
+    "id": "g10-u3-q46",
+    "lessonId": "g10-u3",
+    "questionNumber": 46,
+    "promptEn": "How many unique characters can be represented using standard 7-bit ASCII code?",
+    "promptSi": "සම්මත බිටු 7 ASCII කේතන ක්‍රමය මගින් වෙනස් අක්ෂර කීයක් නිරූපණය කළ හැකිද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "128",
+        "si": "128"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "256",
+        "si": "256"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "64",
+        "si": "64"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "512",
+        "si": "512"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$2^7 = 128$ unique characters (values 0 to 127), including uppercase, lowercase, numbers, punctuation, and control codes.",
+    "explanationSi": "$2^7 = 128$ වෙනස් අක්ෂර ගණනක් (0 සිට 127 දක්වා අගයන්) නිරූපණය කළ හැක.",
+    "syllabusRef": "G10-U3.46"
+  },
+  {
+    "id": "g10-u3-q47",
+    "lessonId": "g10-u3",
+    "questionNumber": 47,
+    "promptEn": "Extended ASCII uses 8 bits per character. How many unique characters can Extended ASCII represent?",
+    "promptSi": "දීර්ඝ කළ (Extended) බිටු 8 ASCII කේතනය මගින් නිරූපණය කළ හැකි වෙනස් අක්ෂර සංඛ්‍යාව කීයද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "256",
+        "si": "256"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "128",
+        "si": "128"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "512",
+        "si": "512"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "1024",
+        "si": "1024"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$2^8 = 256$ characters (values 0 to 255).",
+    "explanationSi": "බිටු 8 ක් භාවිත වන බැවින් $2^8 = 256$ අක්ෂර සංඛ්‍යාවක් නිරූපණය කළ හැක.",
+    "syllabusRef": "G10-U3.47"
+  },
+  {
+    "id": "g10-u3-q48",
+    "lessonId": "g10-u3",
+    "questionNumber": 48,
+    "promptEn": "If the ASCII decimal code for uppercase letter 'A' is 65, what is the ASCII decimal code for uppercase letter 'F'?",
+    "promptSi": "ASCII ක්‍රමයේ 'A' ඉංග්‍රීසි කැපිටල් අක්ෂරයේ දශම අගය 65 නම්, 'F' අක්ෂරයේ ASCII දශම අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "70",
+        "si": "70"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "69",
+        "si": "69"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "71",
+        "si": "71"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "68",
+        "si": "68"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "ASCII values are sequential: A=65, B=66, C=67, D=68, E=69, F=70.",
+    "explanationSi": "අක්ෂර පිළිවෙළින් වැඩි වේ: A=65, B=66, C=67, D=68, E=69, F=70.",
+    "syllabusRef": "G10-U3.48"
+  },
+  {
+    "id": "g10-u3-q49",
+    "lessonId": "g10-u3",
+    "questionNumber": 49,
+    "promptEn": "If ASCII code for 'A' is 65 ($01000001_2$), what is the 8-bit binary ASCII code for lowercase 'a' (decimal 97)?",
+    "promptSi": "ASCII හි 'A' අක්ෂරය 65 නම්, 'a' (Simple a) අක්ෂරයේ ASCII දශම අගය 97 වේ. එහි බිටු 8 ද්විමය කේතය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$01100001_2$",
+        "si": "$01100001_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$01000001_2$",
+        "si": "$01000001_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$01100010_2$",
+        "si": "$01100010_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$01110001_2$",
+        "si": "$01110001_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$97_{10} = 64 + 32 + 1 = 01100001_2$. Notice that lowercase letters differ from uppercase by changing bit 5 (weight 32) from 0 to 1.",
+    "explanationSi": "$97_{10} = 64 + 32 + 1 = 01100001_2$ වේ (කැපිටල් හා සිම්පල් අක්ෂර අතර වෙනස 32 කින් වැඩි වීමයි).",
+    "syllabusRef": "G10-U3.49"
+  },
+  {
+    "id": "g10-u3-q50",
+    "lessonId": "g10-u3",
+    "questionNumber": 50,
+    "promptEn": "What is the main limitation of ASCII and Extended ASCII coding systems in global computing?",
+    "promptSi": "ගෝලීය පරිගණකකරණයේදී ASCII සහ Extended ASCII කේතන පද්ධතිවල පවතින ප්‍රධාන සීමාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "They cannot represent numbers",
+        "si": "ඒවාට සංඛ්‍යා නිරූපණය කළ නොහැක"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "They can only represent English",
+        "si": "Western characters and cannot encode non-English scripts like Sinhala, Tamil, or Chinese / ඒවාට ඉංග්‍රීසි / බටහිර අක්ෂර පමණක් නිරූපණය කළ හැකි අතර සිංහල, දෙමළ, චීන වැනි භාෂා කේතනය කළ නොහැක"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "They take up too much memory space compared to Unicode",
+        "si": "යුනිකෝඩ් වලට වඩා වැඩි මතක ඉඩක් ගනී"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "They are not supported by modern microprocessors",
+        "si": "නවීන ක්ෂුද්‍ර සකසන මගින් සහාය නොදක්වයි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "ASCII (max 256 symbols) cannot accommodate characters from non-Latin international languages such as Sinhala (සිංහල), Tamil (தமிழ்), Arabic, or Chinese.",
+    "explanationSi": "ASCII (උපරිම අක්ෂර 256) මගින් සිංහල, දෙමළ, චීන වැනි ලෝකයේ අනෙකුත් ප්‍රාදේශීය භාෂාවල අක්ෂර නිරූපණය කිරීමට නොහැකි වීම ප්‍රධාන සීමාවයි.",
+    "syllabusRef": "G10-U3.50"
+  },
+  {
+    "id": "g10-u3-q51",
+    "lessonId": "g10-u3",
+    "questionNumber": 51,
+    "promptEn": "Which modern coding system was specifically developed to unify character encoding for all written languages worldwide (including Sinhala & Tamil)?",
+    "promptSi": "සිංහල සහ දෙමළ ඇතුළුව ලෝකයේ සියලුම ලිඛිත භාෂාවල අක්ෂර නිරූපණය සඳහා විශේෂයෙන් නිර්මාණය කරන ලද නූතන සම්මත කේතන පද්ධතිය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Unicode",
+        "si": "යුනිකෝඩ්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "BCD",
+        "si": "BCD"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "ASCII",
+        "si": "ASCII"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "EBCDIC",
+        "si": "EBCDIC"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Unicode is a universal international character encoding standard (using 16-bit UTF-16 or 32-bit UTF-32) that provides a unique number for every character across all global languages.",
+    "explanationSi": "යුනිකෝඩ් (Unicode) යනු සිංහල, දෙමළ, චීන ආදී ලෝකයේ සියලුම භාෂාවල අක්ෂර සඳහා අනන්‍ය කේත අගයන් ලබා දෙන ගෝලීය අක්ෂර කේතන සම්මතයයි.",
+    "syllabusRef": "G10-U3.51"
+  },
+  {
+    "id": "g10-u3-q52",
+    "lessonId": "g10-u3",
+    "questionNumber": 52,
+    "promptEn": "How many unique character positions can be represented using 16-bit Unicode (UTF-16)?",
+    "promptSi": "බිටු 16 යුනිකෝඩ් (UTF-16) කේතන ක්‍රමයක් මගින් වෙනස් අක්ෂර සංකේත කීයක් නිරූපණය කළ හැකිද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "65,536",
+        "si": "65,536"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "256",
+        "si": "256"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "1,024",
+        "si": "1,024"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "32,768",
+        "si": "32,768"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$2^{16} = 65,536$ unique code points.",
+    "explanationSi": "$2^{16} = 65,536$ ක් වූ විශාල අක්ෂර සංඛ්‍යාවක් නිරූපණය කළ හැක.",
+    "syllabusRef": "G10-U3.52"
+  },
+  {
+    "id": "g10-u3-q53",
+    "lessonId": "g10-u3",
+    "questionNumber": 53,
+    "promptEn": "What does the acronym EBCDIC stand for?",
+    "promptSi": "අතීත IBM ප්‍රධාන පරිගණකවල භාවිත වූ EBCDIC යන්නෙහි සම්පූර්ණ නම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Extended Binary Coded Decimal Interchange Code",
+        "si": "විස්තෘත ද්විමය කේතනය කළ දශම හුවමාරු කේතය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Electronic Basic Computer Data Integration Code",
+        "si": "ඉලෙක්ට්‍රොනික මූලික පරිගණක දත්ත ඒකාබද්ධතා කේතය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "External Binary Control Data Interchange Code",
+        "si": "බාහිර ද්විමය පාලන දත්ත හුවමාරු කේතය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Extended Bit Coded Digit Integration Code",
+        "si": "විස්තෘත බිටු කේත කළ සංඛ්‍යාංක ඒකාබද්ධතා කේතය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "EBCDIC stands for Extended Binary Coded Decimal Interchange Code (an 8-bit character encoding system developed by IBM).",
+    "explanationSi": "EBCDIC යනු Extended Binary Coded Decimal Interchange Code යන්නයි (IBM ආයතනය විසින් සාදන ලද බිටු 8 කේතන පද්ධතියකි).",
+    "syllabusRef": "G10-U3.53"
+  },
+  {
+    "id": "g10-u3-q54",
+    "lessonId": "g10-u3",
+    "questionNumber": 54,
+    "promptEn": "If ASCII code for digit '0' is decimal 48 ($00110000_2$), what is the ASCII decimal code for digit '7'?",
+    "promptSi": "ASCII හි '0' ඉලක්කමේ දශම අගය 48 නම්, '7' ඉලක්කමේ ASCII දශම අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "55",
+        "si": "55"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "57",
+        "si": "57"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "54",
+        "si": "54"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "56",
+        "si": "56"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Digit ASCII codes are sequential: '0'=48, '1'=49, '2'=50, '3'=51, '4'=52, '5'=53, '6'=54, '7'=55.",
+    "explanationSi": "$48 + 7 = 55$ වේ.",
+    "syllabusRef": "G10-U3.54"
+  },
+  {
+    "id": "g10-u3-q55",
+    "lessonId": "g10-u3",
+    "questionNumber": 55,
+    "promptEn": "What is the main advantage of Unicode over traditional ASCII when developing web applications for Sri Lanka?",
+    "promptSi": "ශ්‍රී ලංකාව සඳහා වෙබ් යෙදුම් නිර්මාණය කිරීමේදී සාම්ප්‍රදායික ASCII කේතනයට වඩා යුනිකෝඩ් (Unicode) භාවිත කිරීමේ ප්‍රධාන වාසිය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "It allows seamless multilingual display of Sinhala, Tamil, and English text on the same webpage without changing fonts",
+        "si": "ෆොන්ට් මාරු නොකර එකම වෙබ් පිටුවක සිංහල, දෙමළ සහ ඉංග්‍රීසි පෙළ එකවර සුමටව පෙන්වීමට ඉඩ සලසයි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "It compresses file size by 50%",
+        "si": "ගොනු ප්‍රමාණය 50% කින් සම්පීඩනය කරයි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "It encrypts network traffic automatically",
+        "si": "ජාල ගමනාගමනය ස්වයංක්‍රීයව සංකේතනය කරයි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "It speeds up database processing times",
+        "si": "දත්ත සමුදා සැකසුම් වේගය වැඩි කරයි"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Unicode encodes Sinhala, Tamil, and English characters in standard unified tables, enabling cross-platform display across all operating systems without installing font patches.",
+    "explanationSi": "විශේෂ ෆොන්ට් වෙනස් කිරීම් නැතිව සිංහල, දෙමළ සහ ඉංග්‍රීසි යන භාෂා ත්‍රිත්වයෙන්ම එකම වෙබ් පිටුවක නිවැරදිව තොරතුරු ප්‍රදර්ශනය කිරීමට යුනිකෝඩ් මගින් හැකියාව ලැබේ.",
+    "syllabusRef": "G10-U3.55"
+  },
+  {
+    "id": "g10-u3-q56",
+    "lessonId": "g10-u3",
+    "questionNumber": 56,
+    "promptEn": "How many bits are used in standard BCD to represent a single decimal digit?",
+    "promptSi": "සම්මත BCD කේතන ක්‍රමයේදී එක් දශමය ඉලක්කමක් නිරූපණය කිරීමට බිටු කීයක් භාවිත වේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "4 bits",
+        "si": "බිටු 4"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "7 bits",
+        "si": "බිටු 7"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "8 bits",
+        "si": "බිටු 8"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "16 bits",
+        "si": "බිටු 16"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "BCD uses a 4-bit nibble for each decimal digit 0–9.",
+    "explanationSi": "BCD මගින් සෑම දශම ඉලක්කමක්ම බිටු 4 ක ද්විමය කණ්ඩයකින් නිරූපණය කරයි.",
+    "syllabusRef": "G10-U3.56"
+  },
+  {
+    "id": "g10-u3-q57",
+    "lessonId": "g10-u3",
+    "questionNumber": 57,
+    "promptEn": "What is the 8-bit binary ASCII representation of uppercase letter 'C' if 'A' is 65 ($01000001_2$)?",
+    "promptSi": "ASCII හි 'A' = 65 නම්, 'C' අක්ෂරයේ බිටු 8 ASCII ද්විමය කේතය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$01000011_2$",
+        "si": "$01000011_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$01000010_2$",
+        "si": "$01000010_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$01000100_2$",
+        "si": "$01000100_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$01100011_2$",
+        "si": "$01100011_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "'A'=65, 'B'=66, 'C'=67. $67_{10} = 64 + 2 + 1 = 01000011_2$.",
+    "explanationSi": "'C' හි දශම අගය $67_{10}$ වේ. එය ද්විමය කළ විට $01000011_2$ ලැබේ.",
+    "syllabusRef": "G10-U3.57"
+  },
+  {
+    "id": "g10-u3-q58",
+    "lessonId": "g10-u3",
+    "questionNumber": 58,
+    "promptEn": "Which character coding system is natively supported by UTF-8, UTF-16, and UTF-32 standards?",
+    "promptSi": "UTF-8, UTF-16, සහ UTF-32 යන ප්‍රමිති මගින් නිරූපණය කරනු ලබන අක්ෂර කේතන පද්ධතිය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Unicode",
+        "si": "යුනිකෝඩ්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "ASCII",
+        "si": "ASCII"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "EBCDIC",
+        "si": "EBCDIC"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "BCD",
+        "si": "BCD"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "UTF-8, UTF-16, and UTF-32 are different variable-width encodings of the Unicode standard.",
+    "explanationSi": "UTF-8, UTF-16, UTF-32 යනු යුනිකෝඩ් (Unicode) සම්මතයේ විවිධ බිටු ප්‍රමාණවලින් යුත් අක්ෂර කේතන ආකෘතීන් වේ.",
+    "syllabusRef": "G10-U3.58"
+  },
+  {
+    "id": "g10-u3-q59",
+    "lessonId": "g10-u3",
+    "questionNumber": 59,
+    "promptEn": "In BCD encoding, which of the following 4-bit binary combinations is INVALID?",
+    "promptSi": "BCD කේතනයට අනුව පහත සඳහන් බිටු 4 ක ද්විමය කාණ්ඩ අතරින් නීති විරෝධී (INVALID) වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$1010_2$",
+        "si": "$1010_2$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$1001_2$",
+        "si": "$1001_2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$0111_2$",
+        "si": "$0111_2$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$0000_2$",
+        "si": "$0000_2$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "BCD only encodes decimal digits 0 to 9 ($0000_2$ to $1001_2$). Values 10 to 15 ($1010_2$ to $1111_2$) are invalid BCD digits.",
+    "explanationSi": "BCD මගින් නිරූපණය කරන්නේ 0-9 දක්වා දශම ඉලක්කම් පමණි ($0000_2$ සිට $1001_2$). 10-15 දක්වා අගයන් ($1010_2$ සිට $1111_2$) BCD හි භාවිත කළ නොහැක.",
+    "syllabusRef": "G10-U3.59"
+  },
+  {
+    "id": "g10-u3-q60",
+    "lessonId": "g10-u3",
+    "questionNumber": 60,
+    "promptEn": "What is the total memory size required to store the ASCII encoded text string \"G10 ICT\" (7 characters including space) in bytes?",
+    "promptSi": "\"G10 ICT\" යන හිස්තැනක් සහිත අක්ෂර 7 කින් යුත් ASCII කේතන පෙළ පරිගණක මතකයේ ගබඩා කිරීමට අවශ්‍ය මුළු මතක ප්‍රමාණය බයිට (Bytes) කීයද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "7 Bytes",
+        "si": "බයිට 7"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "14 Bytes",
+        "si": "බයිට 14"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "56 Bytes",
+        "si": "බයිට 56"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "1 Byte",
+        "si": "බයිට 1"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Each ASCII character takes 1 Byte (8 bits). 7 characters $\times 1 \text{ Byte} = 7 \text{ Bytes}$.",
+    "explanationSi": "ASCII හි එක් අක්ෂරයකට බයිට 1 ක් (බිටු 8 ක්) වැය වේ. අක්ෂර 7 සඳහා බයිට 7 ක් (7 Bytes) අවශ්‍ය වේ.",
+    "syllabusRef": "G10-U3.60"
+  }
+]

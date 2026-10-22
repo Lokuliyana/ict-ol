@@ -14,6 +14,7 @@ import {
   Cpu
 } from 'lucide-react';
 import { sound } from '@/utils/soundEffects';
+import { triggerHaptic } from '@/utils/haptics';
 
 const BITS_DATA = [
   { power: 7, weight: 128, label: '2⁷' },
@@ -33,14 +34,36 @@ const CHALLENGES = [
   { target: 255, text: 'Maximum 8-Bit Byte: Synthesize 255₁₀ (All switches ON)', hint: '128+64+32+16+8+4+2+1 = 255 (11111111₂)' },
 ];
 
-export function BitSwitchboard() {
+export interface BitSwitchboardProps {
+  hideInternalTabs?: boolean;
+  defaultSubMode?: number | string;
+}
+
+export function BitSwitchboard({
+  hideInternalTabs = false,
+  defaultSubMode,
+}: BitSwitchboardProps = {}) {
+  const parsedChallengeIdx =
+    typeof defaultSubMode === 'number'
+      ? Math.max(0, Math.min(CHALLENGES.length - 1, defaultSubMode))
+      : typeof defaultSubMode === 'string' && !isNaN(Number(defaultSubMode)) && defaultSubMode !== ''
+      ? Math.max(0, Math.min(CHALLENGES.length - 1, Number(defaultSubMode)))
+      : 0;
   const [switches, setSwitches] = useState<boolean[]>([false, false, false, false, false, false, false, false]);
-  const [challengeIdx, setChallengeIdx] = useState(0);
+  const [challengeIdx, setChallengeIdx] = useState(parsedChallengeIdx);
   const [hoveredBit, setHoveredBit] = useState<number | null>(null);
 
-  // Compute Decimal Value
+  // Compute Decimal Value & Nibbles (Suggestion #31)
   const decimalTotal = switches.reduce((acc, state, idx) => {
     return acc + (state ? BITS_DATA[idx].weight : 0);
+  }, 0);
+
+  const highNibbleTotal = switches.slice(0, 4).reduce((acc, state, idx) => {
+    return acc + (state ? BITS_DATA[idx].weight : 0);
+  }, 0);
+
+  const lowNibbleTotal = switches.slice(4, 8).reduce((acc, state, idx) => {
+    return acc + (state ? BITS_DATA[idx + 4].weight : 0);
   }, 0);
 
   const curChallenge = CHALLENGES[challengeIdx];
@@ -53,6 +76,7 @@ export function BitSwitchboard() {
 
   const toggleSwitch = (index: number) => {
     sound.playClick(switches[index] ? 350 : 850);
+    triggerHaptic('medium');
     const newSwitches = [...switches];
     newSwitches[index] = !newSwitches[index];
     setSwitches(newSwitches);
@@ -60,58 +84,64 @@ export function BitSwitchboard() {
     const newDec = newSwitches.reduce((acc, s, idx) => acc + (s ? BITS_DATA[idx].weight : 0), 0);
     if (newDec === curChallenge.target) {
       sound.playSuccessDing();
+      triggerHaptic('success');
     }
   };
 
   const resetSwitches = () => {
     sound.playClick();
+    triggerHaptic('light');
     setSwitches([false, false, false, false, false, false, false, false]);
   };
 
   return (
     <div className="space-y-6">
       {/* Station Header */}
-      <div className="flex items-center justify-between flex-wrap gap-3">
-        <div className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-xl bg-cyan-600/30 border border-cyan-400/40 flex items-center justify-center text-cyan-400">
-            <Zap className="w-5 h-5" />
+      {!hideInternalTabs && (
+        <div data-testid="bit-switchboard-header" className="flex items-center justify-between flex-wrap gap-3">
+          <div className="flex items-center gap-2">
+            <div className="w-9 h-9 rounded-xl bg-cyan-600/30 border border-cyan-400/40 flex items-center justify-center text-cyan-400">
+              <Zap className="w-5 h-5" />
+            </div>
+            <div>
+              <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2">
+                Station 1: The Binary Switchboard
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-600 dark:text-cyan-400 border border-cyan-500/30 font-mono">
+                  Voltage & Bit Weights
+                </span>
+              </h3>
+              <p className="text-xs text-slate-500 dark:text-slate-400 font-sinhala">
+                විද්‍යුත් වෝල්ටීයතා මට්ටම් (0V / +5V), බිටු ස්ථානීය අගයන් (Powers of 2) හා MSB / LSB සංකල්පය
+              </p>
+            </div>
           </div>
-          <div>
-            <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2">
-              Station 1: The Binary Switchboard
-              <span className="text-[10px] px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-600 dark:text-cyan-400 border border-cyan-500/30 font-mono">
-                Voltage & Bit Weights
-              </span>
-            </h3>
-            <p className="text-xs text-slate-500 dark:text-slate-400 font-sinhala">
-              විද්‍යුත් වෝල්ටීයතා මට්ටම් (0V / +5V), බිටු ස්ථානීය අගයන් (Powers of 2) හා MSB / LSB සංකල්පය
-            </p>
-          </div>
-        </div>
 
-        {/* Challenge Stepper */}
-        <div className="flex items-center gap-2">
-          <span className="text-xs text-slate-400 font-mono">Target {challengeIdx + 1}/{CHALLENGES.length}:</span>
-          <div className="flex gap-1">
-            {CHALLENGES.map((_, i) => (
-              <button
-                key={i}
-                onClick={() => {
-                  sound.playClick();
-                  setChallengeIdx(i);
-                }}
-                className={`w-6 h-6 rounded-lg text-xs font-mono font-bold transition-all ${
-                  challengeIdx === i
-                    ? 'bg-cyan-600 text-white shadow-md'
-                    : 'bg-slate-200 dark:bg-slate-800 text-slate-600 dark:text-slate-400'
-                }`}
-              >
-                {i + 1}
-              </button>
-            ))}
+          {/* Challenge Stepper (Thumb Target >= 48px #32) */}
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="text-xs text-slate-400 font-mono">Target {challengeIdx + 1}/{CHALLENGES.length}:</span>
+            <div className="flex gap-1.5 flex-wrap">
+              {CHALLENGES.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => {
+                    sound.playClick();
+                    triggerHaptic('light');
+                    setChallengeIdx(i);
+                  }}
+                  className={`min-h-[48px] min-w-[48px] rounded-2xl text-xs font-mono font-black transition-all flex items-center justify-center cursor-pointer ${
+                    challengeIdx === i
+                      ? 'bg-cyan-500 text-slate-950 shadow-lg shadow-cyan-500/30 scale-105 ring-2 ring-cyan-300'
+                      : 'bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-300 dark:hover:bg-slate-700'
+                  }`}
+                  aria-label={`Select challenge ${i + 1}`}
+                >
+                  #{i + 1}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         {/* ========================================================================= */}
@@ -140,63 +170,125 @@ export function BitSwitchboard() {
             </button>
           </div>
 
-          {/* 8 Lever Switch Modules */}
-          <div className="grid grid-cols-4 sm:grid-cols-8 gap-2.5 my-2">
-            {BITS_DATA.map((bit, idx) => {
-              const isOn = switches[idx];
-              const isMSB = idx === msbIndex;
-              const isLSB = idx === lsbIndex;
-
-              return (
-                <div
-                  key={bit.weight}
-                  onMouseEnter={() => setHoveredBit(idx)}
-                  onMouseLeave={() => setHoveredBit(null)}
-                  className={`p-3 rounded-2xl border text-center transition-all flex flex-col justify-between relative ${
-                    isOn
-                      ? 'bg-gradient-to-b from-cyan-950/80 to-slate-900 border-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.3)]'
-                      : 'bg-slate-900/80 border-slate-800 text-slate-500'
-                  }`}
-                >
-                  {/* Bit Weight Badge */}
-                  <div className="space-y-0.5">
-                    <span className="text-[10px] font-mono text-slate-400">{bit.label}</span>
-                    <div className="font-mono text-xs sm:text-sm font-black text-white">{bit.weight}</div>
-                  </div>
-
-                  {/* Switch Lever Button */}
-                  <button
-                    onClick={() => toggleSwitch(idx)}
-                    className={`my-3 py-3 rounded-xl border font-mono font-black text-sm transition-all shadow-md ${
-                      isOn
-                        ? 'bg-cyan-500 text-slate-950 border-cyan-300 shadow-cyan-500/50 scale-105'
-                        : 'bg-slate-800 text-slate-400 border-slate-700 hover:border-slate-600'
-                    }`}
-                  >
-                    {isOn ? '1' : '0'}
-                  </button>
-
-                  {/* Voltage State Indicator */}
-                  <div className="text-[9px] font-mono">
-                    <span className={isOn ? 'text-emerald-400 font-bold' : 'text-slate-600'}>
-                      {isOn ? '+5V (ON)' : '0V (OFF)'}
-                    </span>
-                  </div>
-
-                  {/* MSB / LSB Indicators */}
-                  {isMSB && (
-                    <div className="absolute -top-2.5 left-1/2 -translate-x-1/2 px-1.5 py-0.2 rounded bg-amber-400 text-slate-950 text-[8px] font-mono font-black uppercase shadow">
-                      MSB
-                    </div>
-                  )}
-                  {isLSB && (
-                    <div className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 px-1.5 py-0.2 rounded bg-cyan-400 text-slate-950 text-[8px] font-mono font-black uppercase shadow">
-                      LSB
-                    </div>
-                  )}
+          {/* 8 Lever Switch Modules with High / Low Nibble Split (Suggestion #31) */}
+          <div className="space-y-4 my-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {/* HIGH NIBBLE (Bits 7..4) */}
+              <div className="p-3 bg-slate-900/60 rounded-3xl border border-indigo-900/50 space-y-2">
+                <div className="flex items-center justify-between px-2 text-[11px] font-mono font-bold text-indigo-400">
+                  <span>HIGH NIBBLE (Bits 7–4)</span>
+                  <span className="text-white bg-indigo-950/80 px-2 py-0.5 rounded-full border border-indigo-800">
+                    {highNibbleTotal}₁₀
+                  </span>
                 </div>
-              );
-            })}
+                <div className="grid grid-cols-4 gap-2">
+                  {BITS_DATA.slice(0, 4).map((bit, localIdx) => {
+                    const idx = localIdx;
+                    const isOn = switches[idx];
+                    const isMSB = idx === msbIndex;
+
+                    return (
+                      <div
+                        key={bit.weight}
+                        onMouseEnter={() => setHoveredBit(idx)}
+                        onMouseLeave={() => setHoveredBit(null)}
+                        className={`p-2.5 rounded-2xl border text-center transition-all flex flex-col justify-between relative ${
+                          isOn
+                            ? 'bg-gradient-to-b from-cyan-950/80 to-slate-900 border-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.3)]'
+                            : 'bg-slate-900/80 border-slate-800 text-slate-500'
+                        }`}
+                      >
+                        <div className="space-y-0.5">
+                          <span className="text-[10px] font-mono text-slate-400">{bit.label}</span>
+                          <div className="font-mono text-xs font-black text-white">{bit.weight}</div>
+                        </div>
+
+                        <button
+                          onClick={() => toggleSwitch(idx)}
+                          className={`my-2 py-3 rounded-xl border font-mono font-black text-sm transition-all shadow-md min-h-[48px] ${
+                            isOn
+                              ? 'bg-cyan-500 text-slate-950 border-cyan-300 shadow-cyan-500/50 scale-105'
+                              : 'bg-slate-800 text-slate-400 border-slate-700 hover:border-slate-600'
+                          }`}
+                        >
+                          {isOn ? '1' : '0'}
+                        </button>
+
+                        <div className="text-[9px] font-mono">
+                          <span className={isOn ? 'text-emerald-400 font-bold' : 'text-slate-600'}>
+                            {isOn ? 'ON' : 'OFF'}
+                          </span>
+                        </div>
+
+                        {isMSB && (
+                          <div className="absolute -top-2 left-1/2 -translate-x-1/2 px-1.5 py-0.2 rounded bg-amber-400 text-slate-950 text-[8px] font-mono font-black uppercase shadow">
+                            MSB
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* LOW NIBBLE (Bits 3..0) */}
+              <div className="p-3 bg-slate-900/60 rounded-3xl border border-cyan-900/50 space-y-2">
+                <div className="flex items-center justify-between px-2 text-[11px] font-mono font-bold text-cyan-400">
+                  <span>LOW NIBBLE (Bits 3–0)</span>
+                  <span className="text-white bg-cyan-950/80 px-2 py-0.5 rounded-full border border-cyan-800">
+                    {lowNibbleTotal}₁₀
+                  </span>
+                </div>
+                <div className="grid grid-cols-4 gap-2">
+                  {BITS_DATA.slice(4, 8).map((bit, localIdx) => {
+                    const idx = localIdx + 4;
+                    const isOn = switches[idx];
+                    const isLSB = idx === lsbIndex;
+
+                    return (
+                      <div
+                        key={bit.weight}
+                        onMouseEnter={() => setHoveredBit(idx)}
+                        onMouseLeave={() => setHoveredBit(null)}
+                        className={`p-2.5 rounded-2xl border text-center transition-all flex flex-col justify-between relative ${
+                          isOn
+                            ? 'bg-gradient-to-b from-cyan-950/80 to-slate-900 border-cyan-400 shadow-[0_0_15px_rgba(6,182,212,0.3)]'
+                            : 'bg-slate-900/80 border-slate-800 text-slate-500'
+                        }`}
+                      >
+                        <div className="space-y-0.5">
+                          <span className="text-[10px] font-mono text-slate-400">{bit.label}</span>
+                          <div className="font-mono text-xs font-black text-white">{bit.weight}</div>
+                        </div>
+
+                        <button
+                          onClick={() => toggleSwitch(idx)}
+                          className={`my-2 py-3 rounded-xl border font-mono font-black text-sm transition-all shadow-md min-h-[48px] ${
+                            isOn
+                              ? 'bg-cyan-500 text-slate-950 border-cyan-300 shadow-cyan-500/50 scale-105'
+                              : 'bg-slate-800 text-slate-400 border-slate-700 hover:border-slate-600'
+                          }`}
+                        >
+                          {isOn ? '1' : '0'}
+                        </button>
+
+                        <div className="text-[9px] font-mono">
+                          <span className={isOn ? 'text-emerald-400 font-bold' : 'text-slate-600'}>
+                            {isOn ? 'ON' : 'OFF'}
+                          </span>
+                        </div>
+
+                        {isLSB && (
+                          <div className="absolute -top-2 left-1/2 -translate-x-1/2 px-1.5 py-0.2 rounded bg-cyan-400 text-slate-950 text-[8px] font-mono font-black uppercase shadow">
+                            LSB
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Radar Details on Hover */}

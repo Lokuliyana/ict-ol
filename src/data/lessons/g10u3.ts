@@ -2,3249 +2,1950 @@
 import { GeneralLessonData } from '../allLessonsData';
 
 export const G10_U3_DATA: GeneralLessonData = {
-  "id": "g10-u3",
-  "grade": "10",
-  "unitNumber": 3,
-  "titleEn": "Data Representation & Logic Gates",
-  "titleSi": "දත්ත නිරූපණය සහ ලොජික් ද්වාර",
-  "subtopics": [
-    {
-      "id": "g10-u3-st-1",
-      "number": "3.1",
-      "titleEn": "Computer Data Representation",
-      "titleSi": "පරිගණකයේ දත්ත නිරූපණය",
-      "summaryEn": "Computer Data Representation concepts, definitions, and examination competencies.",
-      "summarySi": "පරිගණකයේ දත්ත නිරූපණය සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
-      "blocks": [
-        {
-          "id": "b-g10-u3-1-1",
-          "en": "Key Concepts & Voltage Signals:\nComputer represents data in two signal states. There are two Voltage levels for these two symbols. One is named as the high voltage level and the other is named as low voltage level. '0' and '1' digits respectively represent these low and high voltage levels in a circuit. Thus, '1' and '0' status are equal to the 'On' and 'Off' states of an electronic circuit. Any data in the world can be represented on the computer using these two digits.",
-          "si": "මූලික සංකල්ප සහ වෝල්ටීයතා සංඥා:\nපරිගණකයක දත්ත නිරූපණය කරන්නේ සංඥා අවස්ථා දෙකකිනි. මෙම සංකේත දෙක සඳහා වෝල්ටීයතා මට්ටම් දෙකක් පවතී. එකක් ඉහළ වෝල්ටීයතා මට්ටම ලෙසත් අනෙක පහළ වෝල්ටීයතා මට්ටම ලෙසත් හැඳින්වේ. විද්‍යුත් පරිපථයක මෙම පහළ සහ ඉහළ වෝල්ටීයතා මට්ටම් පිළිවෙළින් '0' සහ '1' ඉලක්කම් මගින් නිරූපණය කෙරේ. මෙසේ '1' සහ '0' අවස්ථා විද්‍යුත් පරිපථයක 'ස්විචය වැසූ (On)' සහ 'ස්විචය විවෘත (Off)' අවස්ථාවලට සමාන වේ. ලොව ඕනෑම දත්තයක් මෙම ඉලක්කම් දෙක භාවිතයෙන් පරිගණකයේ නිරූපණය කළ හැක.\"\n\n---",
-          "highlightTerm": "Key Concepts & Voltage Signals"
-        }
-      ],
-      "checkpointQuiz": {
-        "id": "q-g10-u3-1",
-        "questionEn": "Which of the following is the most accurate concept regarding Computer Data Representation?",
-        "questionSi": "පරිගණකයේ දත්ත නිරූපණය පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
-        "options": [
-          {
-            "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Computer Data Representation",
-            "si": "පරිගණකයේ දත්ත නිරූපණය පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
-          },
-          {
-            "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
-          },
-          {
-            "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
-          },
-          {
-            "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
-          }
-        ],
-        "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Computer Data Representation.",
-        "explanationSi": "1 වන වරණය මගින් පරිගණකයේ දත්ත නිරූපණය පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
+  id: 'g10-u3',
+  grade: '10',
+  unitNumber: 3,
+  titleEn: 'Data Representation in Computer Systems',
+  titleSi: 'පරිගණක පද්ධති තුළ දත්ත නිරූපණය',
+  subtopics: [
+  {
+    "id": "g10-u3-st-1",
+    "number": "3.1",
+    "titleEn": "Computer Data Representation",
+    "titleSi": "පරිගණකයේ දත්ත නිරූපණය",
+    "summaryEn": "Representation of data using two electrical voltage levels (Logic 0 and 1) corresponding to Off and On circuit states.",
+    "summarySi": "විද්‍යුත් පරිපථවල විවෘත (Off) සහ වැසූ (On) අවස්ථාවලට අනුරූප වෝල්ටීයතා මට්ටම් දෙකක් (ලොජික් 0 සහ 1) මගින් දත්ත නිරූපණය කිරීම.",
+    "blocks": [
+      {
+        "id": "b-g10-u3-1-1",
+        "en": "Key Concepts & Voltage Signals:\nComputers represent all data using two discrete voltage states in electronic circuits:\n* **Logic 0 (LOW):** Low voltage level (0V / Ground / Switch Open / OFF).\n* **Logic 1 (HIGH):** High voltage level (+5V or +3.3V / VCC / Switch Closed / ON).\n* **Universal Encoding:** All text, numbers, graphics, audio, and video in the digital world are encoded as sequences of these binary digits (bits).",
+        "si": "මූලික සංකල්ප සහ වෝල්ටීයතා සංඥා:\nපරිගණක සියලු දත්ත නිරූපණය කරන්නේ ඉලෙක්ට්‍රොනික පරිපථවල පවතින වෝල්ටීයතා මට්ටම් දෙකක් මඟිනි:\n* **ලොජික් 0 (LOW):** පහළ වෝල්ටීයතා මට්ටම (0V / භූගත / ස්විචය විවෘත / OFF).\n* **ලොජික් 1 (HIGH):** ඉහළ වෝල්ටීයතා මට්ටම (+5V හෝ +3.3V / VCC / ස්විචය වැසූ / ON).\n* **විශ්ව කේතනය:** ඩිජිටල් ලෝකයේ සියලුම පෙළ, සංඛ්‍යා, පින්තූර, හඬ සහ වීඩියෝ දත්ත අවසානයේ නිරූපණය වන්නේ මෙම ද්විමය සංකේත (බිටු) එකතුවෙනි.",
+        "highlightTerm": "Voltage Signals & Binary Logic"
+      },
+      {
+        "id": "b-g10-u3-1-2",
+        "en": "Why Digital Computers Use Binary Architecture:\n* **Bistable Reliability:** Semiconductor transistors operate most reliably as high-speed two-state (ON/OFF) electronic switches.\n* **Noise Immunity:** Distinguishing between two widely separated voltage levels (0V vs 5V) is immune to electrical interference and voltage fluctuations.\n* **Alignment with Boolean Logic:** Two-valued binary math directly matches George Boole's Boolean logic (True/False), enabling straightforward logic circuit design.",
+        "si": "පරිගණක සඳහා ද්විමය පද්ධතිය භාවිත කිරීමට හේතු:\n* **ද්වි-ස්ථාවර විශ්වාසනීයත්වය:** ට්‍රාන්සිස්ටර වැනි අර්ධ සන්නායක වඩාත්ම විශ්වාසදායක ලෙස ක්‍රියා කරන්නේ ද්වි-ස්ථාවර (ON/OFF) ස්විචයන් ලෙසිනි.\n* **විද්‍යුත් ඝෝෂාවලට ඔරොත්තු දීම:** වෝල්ටීයතා මට්ටම් දෙකක් (0V සහ 5V) අතර වෙනස හඳුනා ගැනීම විද්‍යුත් බාධා සහ උච්චාවචනයන් හමුවේ ඉතා ස්ථායී වේ.\n* **බූලීය තර්කනය සමඟ ගැළපීම:** ජෝර්ජ් බූල්ගේ ද්වි-අගය බූලීය තර්කනය (සත්‍ය/අසත්‍ය) සමඟ ද්විමය පද්ධතිය සෘජුවම ගැළපෙන බැවින් පරිපථ නිර්මාණය සරල වේ.",
+        "highlightTerm": "Why Computers Use Binary Architecture"
       }
-    },
-    {
-      "id": "g10-u3-st-2",
-      "number": "3.1.3",
-      "titleEn": "RGB to Hexadecimal Color Representation & Conversion",
-      "titleSi": "RGB සහ ෂඩ්දශමය jළන kිරූපණය හා පරිවර්තනය",
-      "summaryEn": "RGB to Hexadecimal Color Representation & Conversion concepts, definitions, and examination competencies.",
-      "summarySi": "RGB සහ ෂඩ්දශමය jළන kිරූපණය හා පරිවර්තනය සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
-      "blocks": [
+    ],
+    "examples": [
+      {
+        "id": "ex-widget-3.1",
+        "titleEn": "Interactive 8-Bit Binary Switchboard",
+        "titleSi": "අන්තර්ක්‍රියාකාරී 8-බිටු ද්විමය ස්විච පුවරුව",
+        "isInteractiveWidget": "binary-weight"
+      }
+    ],
+    "checkpointQuiz": {
+      "id": "q-g10-u3-1",
+      "questionEn": "Why do modern digital computers use binary digits (0 and 1) instead of the decimal system for internal processing?",
+      "questionSi": "නූතන අංකිත පරිගණක අභ්‍යන්තර සැකසුම් සඳහා දශම පද්ධතිය වෙනුවට ද්විමය සංඛ්‍යා (0 සහ 1) භාවිත කරන්නේ ඇයි?",
+      "options": [
         {
-          "id": "b-g10-u3-2-1",
-          "en": "Fundamental Concept & Structure:\nIn computer graphics and web design, any colour can be made with the combination of different degrees of Red, Green and Blue (RGB). The value of each primary colour ranges from 0 to 255 in decimal. In computer systems, these colour values are indicated in hexadecimal numbers starting with '#' or '&H' symbol. The hexadecimal code consists of six characters (`#RRGGBB`), where the first two digits represent Red, the middle two represent Green, and the last two represent Blue.",
-          "si": "මූලික සංකල්පය සහ ව්‍යුහය:\nපරිගණක ප්‍රස්තාරික සහ වෙබ් අඩවි නිර්මාණයේ දී රතු (Red), කොළ (Green) සහ නිල් (Blue) යන මූලික වර්ණවල එකතුවෙන් ඕනෑම වර්ණයක් සාදා ගත හැක. මෙහි එක් එක් මූලික වර්ණයෙහි අගය දශමය සංඛ්‍යාවලින් 0 සිට 255 දක්වා පරාසයක පවතී. පරිගණක පද්ධති තුළ මෙම වර්ණ අගයන් '#' හෝ '&H' (ampersand) සංකේතයෙන් ආරම්භ වන ෂඩ්දශමය සංඛ්‍යාවලින් දක්වනු ලබයි. මෙම ෂඩ්දශමය කේතය අක්ෂර 6 කින් (`#RRGGBB`) සමන්විත වන අතර, පළමු අක්ෂර දෙකෙන් රතු ද, මැද අක්ෂර දෙකෙන් කොළ ද, අවසාන අක්ෂර දෙකෙන් නිල් ද නිරූපණය කෙරේ.",
-          "highlightTerm": "Fundamental Concept & Structure"
+          "id": "1",
+          "en": "Electronic circuits operate most reliably with two stable voltage levels (high and low)",
+          "si": "විද්‍යුත් පරිපථ ස්ථායී වෝල්ටීයතා මට්ටම් දෙකකින් (ඉහළ සහ පහළ) වඩාත්ම විශ්වාසදායක ලෙස ක්‍රියා කරන බැවින්"
         },
         {
-          "id": "b-g10-u3-2-2",
-          "en": "#### Step-by-Step Conversion Example: Dark Purple (තද දම් පාට)",
-          "si": "#### Step-by-Step Conversion Example: Dark Purple (තද දම් පාට)",
-          "highlightTerm": "Step-by-Step Conversion Example: Dark Purple"
+          "id": "2",
+          "en": "Binary numbers require less physical storage space than any other system",
+          "si": "ද්විමය සංඛ්‍යාවලට වෙනත් ඕනෑම පද්ධතියකට වඩා අඩු භෞතික මතක ඉඩක් අවශ්‍ය වන බැවින්"
         },
         {
-          "id": "b-g10-u3-2-3",
-          "en": "Decimal RGB Values:** Red = 135, Green = 31, Blue = 120 $\rightarrow$ `RGB (135, 31, 120)`",
-          "si": "Decimal RGB Values:** Red = 135, Green = 31, Blue = 120 $\rightarrow$ `RGB (135, 31, 120)`",
-          "highlightTerm": "Decimal RGB Values:** Red = 135, Green = 31, Blue = 120 $\rightarrow$ `RGB (135, 31, 120)`"
+          "id": "3",
+          "en": "Computer displays cannot render numbers other than 0 and 1",
+          "si": "පරිගණක තිරවලට 0 සහ 1 හැර වෙනත් අංක පෙන්විය නොහැකි බැවින්"
         },
         {
-          "id": "b-g10-u3-2-4",
-          "en": "Converting Each RGB Value to Hexadecimal:**\n1. **Red ($135_{10}$):** $135 \\div 16 = 8$ with remainder $7 \rightarrow 87_{16}$\n2. **Green ($31_{10}$):** $31 \\div 16 = 1$ with remainder $15 \text{ (F)} \rightarrow 1F_{16}$\n3. **Blue ($120_{10}$):** $120 \\div 16 = 7$ with remainder $8 \rightarrow 78_{16}$",
-          "si": "Converting Each RGB Value to Hexadecimal:**\n1. **Red ($135_{10}$):** $135 \\div 16 = 8$ with remainder $7 \rightarrow 87_{16}$\n2. **Green ($31_{10}$):** $31 \\div 16 = 1$ with remainder $15 \text{ (F)} \rightarrow 1F_{16}$\n3. **Blue ($120_{10}$):** $120 \\div 16 = 7$ with remainder $8 \rightarrow 78_{16}$",
-          "highlightTerm": "Converting Each RGB Value to Hexadecimal"
-        },
-        {
-          "id": "b-g10-u3-2-5",
-          "en": "Combined Hexadecimal Colour Code:** `#871F78` or `&H871F78`",
-          "si": "Combined Hexadecimal Colour Code:** `#871F78` or `&H871F78`",
-          "highlightTerm": "Combined Hexadecimal Colour Code:** `#871F78` or `&H871F78`"
-        },
-        {
-          "id": "b-g10-u3-2-6",
-          "en": "#### Textbook Table 3.13: RGB and Hexadecimal Colour Equivalences (පෙළපොතේ 3.13 වගුව)",
-          "si": "#### Textbook Table 3.13: RGB and Hexadecimal Colour Equivalences (පෙළපොතේ 3.13 වගුව)",
-          "highlightTerm": "Textbook Table 3.13: RGB and Hexadecimal Colour Equivalences"
+          "id": "4",
+          "en": "Microprocessors can only handle up to 2 programs at the same time",
+          "si": "ක්ෂුද්‍ර ප්‍රොසෙසරයකට එකවර හැසිරවිය හැක්කේ වැඩසටහන් 2ක් පමණක් වන බැවින්"
         }
       ],
-      "tableData": {
-        "headers": [
-          {
-            "en": "Name of Colour",
-            "si": "වර්ණයේ නම"
+      "correctOptionId": "1",
+      "explanationEn": "Transistors function as bistable switches (ON/OFF), corresponding reliably to 2 voltage states (+5V/0V) immune to electrical noise.",
+      "explanationSi": "ට්‍රාන්සිස්ටර ද්වි-ස්ථාවර ස්විච ලෙස ක්‍රියා කරන අතර විද්‍යුත් ඝෝෂා හමුවේ වෝල්ටීයතා මට්ටම් 2ක් (ඉහළ/පහළ) නිරවද්‍යව හඳුනාගත හැක."
+    }
+  },
+  {
+    "id": "g10-u3-st-2",
+    "number": "3.2",
+    "titleEn": "Number Systems & Radix Definitions",
+    "titleSi": "සංඛ්‍යා පද්ධති සහ පාදයේ අර්ථ දැක්වීම්",
+    "summaryEn": "Mathematical properties of positional number systems: Unit, Number, Radix/Base, and the 4 main systems (Decimal, Binary, Octal, Hexadecimal).",
+    "summarySi": "ස්ථානීය සංඛ්‍යා පද්ධතිවල ගණිතමය ගුණ: ඒකකය, සංඛ්‍යාව, පාදය සහ පරිගණකයේ භාවිත වන ප්‍රධාන සංඛ්‍යා පද්ධති 4 (දශමය, ද්විමය, අෂ්ටමය, ෂඩ්දශමය).",
+    "blocks": [
+      {
+        "id": "b-g10-u3-2-1",
+        "en": "Fundamental Definitions: Unit, Number & Base (Radix):\n* **Unit (ඒකකය):** The smallest individual count or quantity used to build quantities.\n* **Number (සංඛ්‍යාව):** A mathematical representation composed of one or more digits that expresses quantity or value.\n* **Base / Radix (පාදය):** The total count of distinct symbols or digits available in a positional number system. In any number system of base b, valid digits range from 0 to b - 1, and the positional weight of the n-th digit position (starting at 0 from the right) is bⁿ.",
+        "si": "මූලික අර්ථ දැක්වීම්: ඒකකය, සංඛ්‍යාව සහ පාදය (Radix):\n* **ඒකකය (Unit):** ප්‍රමාණයක් මැනීමට ගන්නා මූලික කුඩාම ප්‍රමාණයයි.\n* **සංඛ්‍යාව (Number):** එක් සංකේතයකින් හෝ සංකේත කිහිපයකින් සමන්විත ප්‍රමාණයක් හෝ අගයක් දක්වන ගණිතමය නිරූපණයකි.\n* **පාදය (Base / Radix):** කිසියම් ස්ථානීය සංඛ්‍යා පද්ධතියක් තුළ භාවිත වන වෙනස් තනි අංක හෝ සංකේතවල මුළු එකතුවයි. b පාදය සහිත ඕනෑම සංඛ්‍යා පද්ධතියක අඩංගු අංක 0 සිට b - 1 දක්වා වන අතර, දකුණේ සිට n වන ස්ථානයේ ස්ථානීය අගය bⁿ වේ.",
+        "highlightTerm": "Unit, Number & Base (Radix)"
+      },
+      {
+        "id": "b-g10-u3-2-2",
+        "en": "The 4 Main Number Systems in Computing:\n1. **Decimal (Base 10):** Uses digits {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}. Human standard counting system.\n2. **Binary (Base 2):** Uses digits {0, 1}. Native language of digital hardware and circuits.\n3. **Octal (Base 8):** Uses digits {0, 1, 2, 3, 4, 5, 6, 7}. Compact shorthand for 3-bit binary groups.\n4. **Hexadecimal (Base 16):** Uses 16 symbols: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}. Letters represent decimal values 10 through 15: A=10, B=11, C=12, D=13, E=14, F=15. Compact shorthand for 4-bit binary nibbles.",
+        "si": "පරිගණක විද්‍යාවේ භාවිත වන ප්‍රධාන සංඛ්‍යා පද්ධති 4:\n1. **දශමය පද්ධතිය (පාදය 10):** {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} යන අංක භාවිත කරයි. මිනිසාගේ සම්මත ගණන් කිරීමේ ක්‍රමයයි.\n2. **ද්විමය පද්ධතිය (පාදය 2):** {0, 1} යන අංක පමණක් භාවිත කරයි. පරිගණක දෘඩාංගවල ස්වභාවික භාෂාවයි.\n3. **අෂ්ටමය පද්ධතිය (පාදය 8):** {0, 1, 2, 3, 4, 5, 6, 7} යන අංක භාවිත කරයි. බිටු 3ක ද්විමය කාණ්ඩ සංක්ෂිප්තව ලිවීමට යොදා ගනී.\n4. **ෂඩ්දශමය පද්ධතිය (පාදය 16):** සංකේත 16ක් භාවිත කරයි: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}. මෙහි A=10, B=11, C=12, D=13, E=14, F=15 වේ. බිටු 4ක ද්විමය කාණ්ඩ (Nibble) සංක්ෂිප්තව ලිවීමට යොදා ගනී.",
+        "highlightTerm": "4 Main Number Systems"
+      }
+    ],
+    "tableData": {
+      "headers": [
+        {
+          "en": "Number System",
+          "si": "සංඛ්‍යා පද්ධතිය"
+        },
+        {
+          "en": "Base (Radix)",
+          "si": "පාදය"
+        },
+        {
+          "en": "Valid Digits / Symbols",
+          "si": "වලංගු අංක / සංකේත"
+        },
+        {
+          "en": "Positional Weights (from right)",
+          "si": "ස්ථානීය අගයන් (දකුණේ සිට)"
+        },
+        {
+          "en": "Example Representation",
+          "si": "උදාහරණ අංකය"
+        }
+      ],
+      "rows": [
+        {
+          "col1": {
+            "en": "Binary (ද්විමය)",
+            "si": "ද්විමය"
           },
-          {
-            "en": "Colour",
-            "si": "වර්ණය"
+          "col2": {
+            "en": "2",
+            "si": "2"
           },
-          {
-            "en": "Hexadecimal Value",
-            "si": "ෂඩ්දශමය අගය"
+          "col3": {
+            "en": "{0, 1}",
+            "si": "{0, 1}"
           },
-          {
-            "en": "R",
-            "si": "Red"
+          "col4": {
+            "en": "2⁰=1, 2¹=2, 2²=4, 2³=8, 2⁴=16",
+            "si": "1, 2, 4, 8, 16, 32..."
           },
-          {
-            "en": "G",
-            "si": "Green"
+          "col5": {
+            "en": "101101₂",
+            "si": "101101₂"
+          }
+        },
+        {
+          "col1": {
+            "en": "Octal (අෂ්ටමය)",
+            "si": "අෂ්ටමය"
           },
-          {
+          "col2": {
+            "en": "8",
+            "si": "8"
+          },
+          "col3": {
+            "en": "{0, 1, 2, 3, 4, 5, 6, 7}",
+            "si": "{0, 1, 2, 3, 4, 5, 6, 7}"
+          },
+          "col4": {
+            "en": "8⁰=1, 8¹=8, 8²=64, 8³=512",
+            "si": "1, 8, 64, 512..."
+          },
+          "col5": {
+            "en": "753₈",
+            "si": "753₈"
+          }
+        },
+        {
+          "col1": {
+            "en": "Decimal (දශමය)",
+            "si": "දශමය"
+          },
+          "col2": {
+            "en": "10",
+            "si": "10"
+          },
+          "col3": {
+            "en": "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}",
+            "si": "{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}"
+          },
+          "col4": {
+            "en": "10⁰=1, 10¹=10, 10²=100, 10³=1000",
+            "si": "1, 10, 100, 1000..."
+          },
+          "col5": {
+            "en": "2024₁₀",
+            "si": "2024₁₀"
+          }
+        },
+        {
+          "col1": {
+            "en": "Hexadecimal (ෂඩ්දශමය)",
+            "si": "ෂඩ්දශමය"
+          },
+          "col2": {
+            "en": "16",
+            "si": "16"
+          },
+          "col3": {
+            "en": "{0–9, A, B, C, D, E, F}",
+            "si": "{0–9, A, B, C, D, E, F}"
+          },
+          "col4": {
+            "en": "16⁰=1, 16¹=16, 16²=256, 16³=4096",
+            "si": "1, 16, 256, 4096..."
+          },
+          "col5": {
+            "en": "2FA₁₆ or &H2FA",
+            "si": "2FA₁₆ හෝ #2FA"
+          }
+        }
+      ]
+    },
+    "checkpointQuiz": {
+      "id": "q-g10-u3-2",
+      "questionEn": "Which of the following numbers is INVALID according to its specified number system base?",
+      "questionSi": "පහත සඳහන් සංඛ්‍යාවලින් එහි පාදයට අනුව වලංගු නොවන අංකය කුමක්ද?",
+      "options": [
+        {
+          "id": "1",
+          "en": "108₈",
+          "si": "108₈"
+        },
+        {
+          "id": "2",
+          "en": "1011₂",
+          "si": "1011₂"
+        },
+        {
+          "id": "3",
+          "en": "987₁₀",
+          "si": "987₁₀"
+        },
+        {
+          "id": "4",
+          "en": "A2F₁₆",
+          "si": "A2F₁₆"
+        }
+      ],
+      "correctOptionId": "1",
+      "explanationEn": "In the Octal system (Base 8), valid digits are only 0 to 7. Digit 8 does not exist in base 8.",
+      "explanationSi": "අෂ්ටම සංඛ්‍යා පද්ධතියේ (පාදය 8) වලංගු වන්නේ 0 සිට 7 දක්වා අංක පමණි. 8 යන ඉලක්කම අෂ්ටම පද්ධතිය තුළ වලංගු නොවේ."
+    }
+  },
+  {
+    "id": "g10-u3-st-3",
+    "number": "3.3",
+    "titleEn": "Most and Least Significant Values",
+    "titleSi": "වැඩිම හා අඩුම වැදගත්කමක් ඇති අගයන් (MSD/LSD, MSB/LSB)",
+    "summaryEn": "Identifying Most Significant Digit (MSD) vs Least Significant Digit (LSD) and Most Significant Bit (MSB) vs Least Significant Bit (LSB).",
+    "summarySi": "වැඩිම වැදගත්කමක් ඇති සංඛ්‍යාංකය (MSD) සහ අඩුම වැදගත්කමක් ඇති සංඛ්‍යාංකය (LSD) මෙන්ම MSB සහ LSB හඳුනා ගැනීම.",
+    "blocks": [
+      {
+        "id": "b-g10-u3-3-1",
+        "en": "MSD and LSD (General Positional Numbers):\n* **Most Significant Digit (MSD):** The non-zero digit with the highest positional weight (the leftmost non-zero digit of an integer).\n* **Least Significant Digit (LSD):** The digit with the lowest positional weight (the rightmost digit, representing weight b⁰ = 1 in an integer).\n* **Example in Decimal:** In the number 7845₁₀:\n  - MSD is 7 (positional value 7 × 10³ = 7000).\n  - LSD is 5 (positional value 5 × 10⁰ = 5).\n* **Example in Octal:** In 625₈, MSD is 6 (6 × 8² = 384₁₀) and LSD is 5 (5 × 8⁰ = 5).\n* **Example in Hexadecimal:** In F2A₁₆, MSD is F (15 × 16² = 3840₁₀) and LSD is A (10 × 16⁰ = 10).",
+        "si": "MSD සහ LSD (පොදු ස්ථානීය සංඛ්‍යා සඳහා):\n* **වැඩිම වැදගත්කමක් ඇති සංඛ්‍යාංකය (MSD):** සංඛ්‍යාවක වැඩිම ස්ථානීය අගයක් හිමි ශුන්‍ය නොවන සංඛ්‍යාංකයයි (පූර්ණ සංඛ්‍යාවක වම්පස කෙළවරේම පිහිටි ශුන්‍ය නොවන ඉලක්කම).\n* **අඩුම වැදගත්කමක් ඇති සංඛ්‍යාංකය (LSD):** සංඛ්‍යාවක අඩුම ස්ථානීය අගයක් හිමි සංඛ්‍යාංකයයි (පූර්ණ සංඛ්‍යාවක දකුණුපස කෙළවරේම පිහිටි ඉලක්කම, ස්ථානීය අගය b⁰ = 1).\n* **දශමය උදාහරණය:** 7845₁₀ සංඛ්‍යාවේ:\n  - MSD යනු 7 වේ (ස්ථානීය අගය 7 × 10³ = 7000).\n  - LSD යනු 5 වේ (ස්ථානීය අගය 5 × 10⁰ = 5).\n* **අෂ්ටම උදාහරණය:** 625₈ හි MSD යනු 6 වන අතර LSD යනු 5 වේ.\n* **ෂඩ්දශම උදාහරණය:** F2A₁₆ හි MSD යනු F වන අතර LSD යනු A වේ.",
+        "highlightTerm": "MSD and LSD"
+      },
+      {
+        "id": "b-g10-u3-3-2",
+        "en": "MSB and LSB (Binary Numbers Specifically):\n* **Most Significant Bit (MSB):** The leftmost bit in a binary number with the highest power of 2 (2ⁿ⁻¹ for an n-bit number). In signed binary numbers, the MSB represents the sign bit (0 = positive, 1 = negative).\n* **Least Significant Bit (LSB):** The rightmost bit in a binary number with positional weight 2⁰ = 1. The LSB uniquely dictates whether an integer is even (LSB = 0) or odd (LSB = 1).\n* **Example:** In the 8-bit binary byte 10110101₂:\n  - MSB is the leftmost bit 1 (value 1 × 2⁷ = 128).\n  - LSB is the rightmost bit 1 (value 1 × 2⁰ = 1).",
+        "si": "MSB සහ LSB (ද්විමය සංඛ්‍යා සඳහා විශේෂිතයි):\n* **වැඩිම වැදගත්කමක් ඇති බිටුව (MSB):** ද්විමය සංඛ්‍යාවක වම්පස කෙළවරේම ඇති බිටුවයි; එයට ඉහළම 2 හි බලය (2ⁿ⁻¹) හිමි වේ. ලකුණ සහිත ද්විමය සංඛ්‍යාවලදී MSB මගින් ධන (0) හෝ සෘණ (1) ලකුණ නිරූපණය කරයි.\n* **අඩුම වැදගත්කමක් ඇති බිටුව (LSB):** ද්විමය සංඛ්‍යාවක දකුණුපස කෙළවරේම ඇති බිටුවයි; ස්ථානීය අගය 2⁰ = 1 වේ. ද්විමය සංඛ්‍යාවක් ඉරට්ටේද (LSB = 0) ඔත්තේ සංඛ්‍යාවක්ද (LSB = 1) යන්න තීරණය වන්නේ LSB මගිනි.\n* **උදාහරණය:** 10110101₂ යන බිටු 8 බයිටය තුළ:\n  - MSB යනු වම් කෙළවරේ 1 වේ (ස්ථානීය අගය 1 × 2⁷ = 128).\n  - LSB යනු දකුණු කෙළවරේ 1 වේ (ස්ථානීය අගය 1 × 2⁰ = 1).",
+        "highlightTerm": "MSB and LSB"
+      }
+    ],
+    "checkpointQuiz": {
+      "id": "q-g10-u3-3",
+      "questionEn": "What are the Most Significant Bit (MSB) and Least Significant Bit (LSB) of the binary number 10110010₂ respectively?",
+      "questionSi": "10110010₂ ද්විමය සංඛ්‍යාවේ වැඩිම වැදගත්කමක් ඇති බිටුව (MSB) සහ අඩුම වැදගත්කමක් ඇති බිටුව (LSB) පිළිවෙළින් මොනවාද?",
+      "options": [
+        {
+          "id": "1",
+          "en": "MSB = 1, LSB = 0",
+          "si": "MSB = 1, LSB = 0"
+        },
+        {
+          "id": "2",
+          "en": "MSB = 0, LSB = 1",
+          "si": "MSB = 0, LSB = 1"
+        },
+        {
+          "id": "3",
+          "en": "MSB = 1, LSB = 1",
+          "si": "MSB = 1, LSB = 1"
+        },
+        {
+          "id": "4",
+          "en": "MSB = 0, LSB = 0",
+          "si": "MSB = 0, LSB = 0"
+        }
+      ],
+      "correctOptionId": "1",
+      "explanationEn": "MSB is the leftmost bit (1), representing weight 2⁷ = 128. LSB is the rightmost bit (0), representing weight 2⁰ = 1.",
+      "explanationSi": "MSB යනු වම් කෙළවරේම පිහිටි බිටුව (1) වන අතර LSB යනු දකුණු කෙළවරේම පිහිටි බිටුව (0) වේ."
+    }
+  },
+  {
+    "id": "g10-u3-st-4",
+    "number": "3.4",
+    "titleEn": "Number System Conversions",
+    "titleSi": "සංඛ්‍යා පද්ධති අතර පරිවර්තනය",
+    "summaryEn": "Exhaustive algorithms for converting between Decimal, Binary, Octal, and Hexadecimal systems, including direct 3-bit and 4-bit grouping.",
+    "summarySi": "දශමය, ද්විමය, අෂ්ටමය සහ ෂඩ්දශමය පද්ධති අතර සියලුම පරිවර්තන නීති, අනුක්‍රමික බෙදීම, ස්ථානීය අගයන් ගුණ කිරීම සහ බිටු 3/4 කාණ්ඩ කිරීම.",
+    "blocks": [
+      {
+        "id": "b-g10-u3-4-1",
+        "en": "Decimal to Other Bases (Successive Division Method):\nTo convert a decimal integer to Binary (Base 2), Octal (Base 8), or Hexadecimal (Base 16):\n1. Divide the decimal number repeatedly by the target base (2, 8, or 16) until the quotient reaches 0.\n2. Record the integer remainder at each division step.\n3. The final answer is obtained by reading the remainders in REVERSE ORDER from bottom to top (the last remainder is the MSB/MSD, and the first remainder is the LSB/LSD).\n* Example (47₁₀ → Binary): 47 ÷ 2 = 23 r 1; 23 ÷ 2 = 11 r 1; 11 ÷ 2 = 5 r 1; 5 ÷ 2 = 2 r 1; 2 ÷ 2 = 1 r 0; 1 ÷ 2 = 0 r 1. Reading bottom-to-top gives 101111₂.\n* Example (158₁₀ → Hex): 158 ÷ 16 = 9 r 14 (E); 9 ÷ 16 = 0 r 9. Reading bottom-to-top gives 9E₁₆.",
+        "si": "දශමය සංඛ්‍යා වෙනත් පාදවලට හැරවීම (අනුක්‍රමික බෙදීමේ ක්‍රමය):\nදශමය පූර්ණ සංඛ්‍යාවක් ද්විමය (පාදය 2), අෂ්ටමය (පාදය 8), හෝ ෂඩ්දශමය (පාදය 16) බවට පත් කිරීමට:\n1. ලැබෙන ලබ්ධිය 0 වන තෙක් අදාළ දශමය සංඛ්‍යාව ඉලක්ක පාදයෙන් (2, 8, හෝ 16) අඛණ්ඩව බෙදන්න.\n2. සෑම පියවරකදීම ලැබෙන පූර්ණ සංඛ්‍යාත්මක ශේෂයන් සටහන් කරගන්න.\n3. අවසාන පිළිතුර ලබා ගැනීමට ශේෂයන් යට සිට ඉහළට (අග සිට මුලට) පිළිවෙළින් ලියන්න (අවසාන ශේෂය MSB/MSD වන අතර පළමු ශේෂය LSB/LSD වේ).\n* උදාහරණය (47₁₀ → ද්විමය): 47 ÷ 2 = 23 ශේෂය 1; 23 ÷ 2 = 11 ශේෂය 1; 11 ÷ 2 = 5 ශේෂය 1; 5 ÷ 2 = 2 ශේෂය 1; 2 ÷ 2 = 1 ශේෂය 0; 1 ÷ 2 = 0 ශේෂය 1. යට සිට ඉහළට කියවූ විට: 101111₂ වේ.\n* උදාහරණය (158₁₀ → ෂඩ්දශම): 158 ÷ 16 = 9 ශේෂය 14 (E); 9 ÷ 16 = 0 ශේෂය 9. යට සිට ඉහළට: 9E₁₆ වේ.",
+        "highlightTerm": "Decimal to Other Bases (Successive Division)"
+      },
+      {
+        "id": "b-g10-u3-4-2",
+        "en": "Other Bases to Decimal (Positional Weight Summation):\nTo convert a number from any base b to Decimal (Base 10):\n1. Identify the positional power bⁿ of each digit, starting with index 0 at the rightmost position (b⁰, b¹, b², ...).\n2. Multiply each digit value by its corresponding positional weight (dₙ × bⁿ). For hexadecimal, replace letters with their decimal values: A=10, B=11, C=12, D=13, E=14, F=15.\n3. Sum all the products together.\n* Example (11010₂ → Decimal): (1 × 2⁴) + (1 × 2³) + (0 × 2²) + (1 × 2¹) + (0 × 2⁰) = 16 + 8 + 0 + 2 + 0 = 26₁₀.\n* Example (75₈ → Decimal): (7 × 8¹) + (5 × 8⁰) = 56 + 5 = 61₁₀.\n* Example (2F₁₆ → Decimal): (2 × 16¹) + (15 × 16⁰) = 32 + 15 = 47₁₀.",
+        "si": "වෙනත් පාද දශමය බවට හැරවීම (ස්ථානීය අගයන් ගුණ කිරීමේ ක්‍රමය):\nඕනෑම b පාදයක සංඛ්‍යාවක් දශමය (පාදය 10) බවට හැරවීමට:\n1. දකුණේ සිට වමට දර්ශකය 0 න් ආරම්භ කර එක් එක් ස්ථානයට අදාළ පාදයේ බලය (b⁰, b¹, b², ...) හඳුනා ගන්න.\n2. සෑම සංඛ්‍යාංකයක්ම එහි ස්ථානීය අගයෙන් ගුණ කරන්න (dₙ × bⁿ). ෂඩ්දශම අකුරු සඳහා අදාළ දශම අගය (A=10, B=11, C=12, D=13, E=14, F=15) ආදේශ කරන්න.\n3. සියලු ගුණිතයන් එකතු කරන්න.\n* උදාහරණය (11010₂ → දශමය): (1 × 16) + (1 × 8) + (0 × 4) + (1 × 2) + (0 × 1) = 16 + 8 + 0 + 2 + 0 = 26₁₀.\n* උදාහරණය (75₈ → දශමය): (7 × 8) + (5 × 1) = 56 + 5 = 61₁₀.\n* උදාහරණය (2F₁₆ → දශමය): (2 × 16) + (15 × 1) = 32 + 15 = 47₁₀.",
+        "highlightTerm": "Other Bases to Decimal (Positional Weight)"
+      },
+      {
+        "id": "b-g10-u3-4-3",
+        "en": "Direct Binary, Octal & Hexadecimal Grouping Shortcuts:\n* Binary to Octal (3-Bit Grouping): Since 2³ = 8, group binary bits into triplets from RIGHT TO LEFT. If the leftmost group has fewer than 3 bits, pad with leading zeros. Convert each 3-bit group to its octal digit (values 0–7).\n  - Example: 1101110₂ → (001)(101)(110)₂ = 1 5 6₈ = 156₈.\n* Octal to Binary: Expand each octal digit into exactly 3 binary bits.\n  - Example: 47₈ = (100)(111)₂ = 100111₂.\n* Binary to Hexadecimal (4-Bit Grouping): Since 2⁴ = 16, group binary bits into nibbles (4 bits) from RIGHT TO LEFT. Convert each 4-bit group to its hex digit (0–9, A–F).\n  - Example: 10111110₂ → (1011)(1110)₂ = B E₁₆ = BE₁₆.\n* Hexadecimal to Binary: Expand each hex digit into exactly 4 binary bits.\n  - Example: 3C₁₆ = (0011)(1100)₂ = 111100₂.\n* Octal to Hexadecimal Shortcut: Convert Octal to Binary (3 bits each), then regroup that binary string into 4-bit clusters from the right.\n  - Example: 73₈ → (111)(011)₂ = 111011₂ → (0011)(1011)₂ = 3B₁₆.",
+        "si": "ද්විමය, අෂ්ටමය සහ ෂඩ්දශමය සෘජු කාණ්ඩ කිරීමේ කෙටි ක්‍රම:\n* ද්විමය සිට අෂ්ටමයට (බිටු 3 කාණ්ඩ): 2³ = 8 වන බැවින්, දකුණේ සිට වමට බිටු 3 බැගින් කාණ්ඩ කරන්න. වම් කෙළවරේ බිටු 3 සම්පූර්ණ නැතිනම් ඉදිරියට ශූන්‍ය යොදන්න. එක් එක් බිටු 3 කාණ්ඩයට අදාළ අෂ්ටම ඉලක්කම ලියන්න.\n  - උදාහරණය: 1101110₂ → (001)(101)(110)₂ = 1 5 6₈ = 156₈.\n* අෂ්ටම සිට ද්විමයට: සෑම අෂ්ටම ඉලක්කමක් සඳහාම හරියටම බිටු 3ක ද්විමය අගය ලියන්න.\n  - උදාහරණය: 47₈ = (100)(111)₂ = 100111₂.\n* ද්විමය සිට ෂඩ්දශමයට (බිටු 4 කාණ්ඩ): 2⁴ = 16 වන බැවින්, දකුණේ සිට වමට බිටු 4 බැගින් කාණ්ඩ කර අදාළ ෂඩ්දශම සංකේතය (0-9, A-F) ලියන්න.\n  - උදාහරණය: 10111110₂ → (1011)(1110)₂ = B E₁₆ = BE₁₆.\n* ෂඩ්දශම සිට ද්විමයට: සෑම ෂඩ්දශම සංකේතයක් සඳහාම හරියටම බිටු 4ක ද්විමය අගය ලියන්න.\n  - උදාහරණය: 3C₁₆ = (0011)(1100)₂ = 111100₂.\n* අෂ්ටම සිට ෂඩ්දශමයට කෙටි ක්‍රමය: අෂ්ටම සංඛ්‍යාව පළමුව ද්විමය බවට පත් කර (බිටු 3 බැගින්), එම ද්විමය පෙළ දකුණේ සිට බිටු 4 බැගින් නැවත කාණ්ඩ කරන්න.\n  - උදාහරණය: 73₈ → (111)(011)₂ = 111011₂ → (0011)(1011)₂ = 3B₁₆.",
+        "highlightTerm": "Direct 3-Bit & 4-Bit Grouping Shortcuts"
+      }
+    ],
+    "tableData": {
+      "headers": [
+        {
+          "en": "Decimal (දශමය)",
+          "si": "දශමය"
+        },
+        {
+          "en": "Binary 4-bit (ද්විමය)",
+          "si": "ද්විමය (බිටු 4)"
+        },
+        {
+          "en": "Octal (අෂ්ටමය)",
+          "si": "අෂ්ටමය"
+        },
+        {
+          "en": "Hexadecimal (ෂඩ්දශමය)",
+          "si": "ෂඩ්දශමය"
+        }
+      ],
+      "rows": [
+        {
+          "col1": {
+            "en": "0",
+            "si": "0"
+          },
+          "col2": {
+            "en": "0000",
+            "si": "0000"
+          },
+          "col3": {
+            "en": "0",
+            "si": "0"
+          },
+          "col4": {
+            "en": "0",
+            "si": "0"
+          }
+        },
+        {
+          "col1": {
+            "en": "1",
+            "si": "1"
+          },
+          "col2": {
+            "en": "0001",
+            "si": "0001"
+          },
+          "col3": {
+            "en": "1",
+            "si": "1"
+          },
+          "col4": {
+            "en": "1",
+            "si": "1"
+          }
+        },
+        {
+          "col1": {
+            "en": "2",
+            "si": "2"
+          },
+          "col2": {
+            "en": "0010",
+            "si": "0010"
+          },
+          "col3": {
+            "en": "2",
+            "si": "2"
+          },
+          "col4": {
+            "en": "2",
+            "si": "2"
+          }
+        },
+        {
+          "col1": {
+            "en": "3",
+            "si": "3"
+          },
+          "col2": {
+            "en": "0011",
+            "si": "0011"
+          },
+          "col3": {
+            "en": "3",
+            "si": "3"
+          },
+          "col4": {
+            "en": "3",
+            "si": "3"
+          }
+        },
+        {
+          "col1": {
+            "en": "4",
+            "si": "4"
+          },
+          "col2": {
+            "en": "0100",
+            "si": "0100"
+          },
+          "col3": {
+            "en": "4",
+            "si": "4"
+          },
+          "col4": {
+            "en": "4",
+            "si": "4"
+          }
+        },
+        {
+          "col1": {
+            "en": "5",
+            "si": "5"
+          },
+          "col2": {
+            "en": "0101",
+            "si": "0101"
+          },
+          "col3": {
+            "en": "5",
+            "si": "5"
+          },
+          "col4": {
+            "en": "5",
+            "si": "5"
+          }
+        },
+        {
+          "col1": {
+            "en": "6",
+            "si": "6"
+          },
+          "col2": {
+            "en": "0110",
+            "si": "0110"
+          },
+          "col3": {
+            "en": "6",
+            "si": "6"
+          },
+          "col4": {
+            "en": "6",
+            "si": "6"
+          }
+        },
+        {
+          "col1": {
+            "en": "7",
+            "si": "7"
+          },
+          "col2": {
+            "en": "0111",
+            "si": "0111"
+          },
+          "col3": {
+            "en": "7",
+            "si": "7"
+          },
+          "col4": {
+            "en": "7",
+            "si": "7"
+          }
+        },
+        {
+          "col1": {
+            "en": "8",
+            "si": "8"
+          },
+          "col2": {
+            "en": "1000",
+            "si": "1000"
+          },
+          "col3": {
+            "en": "10",
+            "si": "10"
+          },
+          "col4": {
+            "en": "8",
+            "si": "8"
+          }
+        },
+        {
+          "col1": {
+            "en": "9",
+            "si": "9"
+          },
+          "col2": {
+            "en": "1001",
+            "si": "1001"
+          },
+          "col3": {
+            "en": "11",
+            "si": "11"
+          },
+          "col4": {
+            "en": "9",
+            "si": "9"
+          }
+        },
+        {
+          "col1": {
+            "en": "10",
+            "si": "10"
+          },
+          "col2": {
+            "en": "1010",
+            "si": "1010"
+          },
+          "col3": {
+            "en": "12",
+            "si": "12"
+          },
+          "col4": {
+            "en": "A",
+            "si": "A"
+          }
+        },
+        {
+          "col1": {
+            "en": "11",
+            "si": "11"
+          },
+          "col2": {
+            "en": "1011",
+            "si": "1011"
+          },
+          "col3": {
+            "en": "13",
+            "si": "13"
+          },
+          "col4": {
             "en": "B",
-            "si": "Blue"
-          },
-          {
-            "en": "Step-by-Step Calculation",
-            "si": "ගණනය කිරීම් පියවර"
+            "si": "B"
           }
-        ],
-        "rows": [
-          {
-            "col0": {
-              "en": "Dark Purple (තද දම්)",
-              "si": "Dark Purple (තද දම්)"
-            },
-            "col1": {
-              "en": "🟣",
-              "si": "🟣"
-            },
-            "col2": {
-              "en": "#871F78 / &H871F78",
-              "si": "#871F78 / &H871F78"
-            },
-            "col3": {
-              "en": "135",
-              "si": ""
-            },
-            "col4": {
-              "en": "31",
-              "si": ""
-            },
-            "col5": {
-              "en": "120",
-              "si": ""
-            },
-            "col6": {
-              "en": "$135 \rightarrow 87_{16}, 31 \rightarrow 1F_{16}, 120 \rightarrow 78_{16}$",
-              "si": "$135 \rightarrow 87_{16}, 31 \rightarrow 1F_{16}, 120 \rightarrow 78_{16}$"
-            }
+        },
+        {
+          "col1": {
+            "en": "12",
+            "si": "12"
           },
-          {
-            "col0": {
-              "en": "Light Pink (ළා රෝස)",
-              "si": "Light Pink (ළා රෝස)"
-            },
-            "col1": {
-              "en": "🌸",
-              "si": "🌸"
-            },
-            "col2": {
-              "en": "#FFB6C1",
-              "si": "#FFB6C1"
-            },
-            "col3": {
-              "en": "255",
-              "si": ""
-            },
-            "col4": {
-              "en": "182",
-              "si": ""
-            },
-            "col5": {
-              "en": "193",
-              "si": ""
-            },
-            "col6": {
-              "en": "$255 \rightarrow FF_{16}, 182 \rightarrow B6_{16}, 193 \rightarrow C1_{16}$",
-              "si": "$255 \rightarrow FF_{16}, 182 \rightarrow B6_{16}, 193 \rightarrow C1_{16}$"
-            }
+          "col2": {
+            "en": "1100",
+            "si": "1100"
           },
-          {
-            "col0": {
-              "en": "Sky Blue (අහස් නිල්)",
-              "si": "Sky Blue (අහස් නිල්)"
-            },
-            "col1": {
-              "en": "🟦",
-              "si": "🟦"
-            },
-            "col2": {
-              "en": "#3299CC",
-              "si": "#3299CC"
-            },
-            "col3": {
-              "en": "50",
-              "si": ""
-            },
-            "col4": {
-              "en": "153",
-              "si": ""
-            },
-            "col5": {
-              "en": "204",
-              "si": ""
-            },
-            "col6": {
-              "en": "$50 \rightarrow 32_{16}, 153 \rightarrow 99_{16}, 204 \rightarrow CC_{16}$",
-              "si": "$50 \rightarrow 32_{16}, 153 \rightarrow 99_{16}, 204 \rightarrow CC_{16}$"
-            }
+          "col3": {
+            "en": "14",
+            "si": "14"
           },
-          {
-            "col0": {
-              "en": "Pure Green (තනි කොළ)",
-              "si": "Pure Green (තනි කොළ)"
-            },
-            "col1": {
-              "en": "🟢",
-              "si": "🟢"
-            },
-            "col2": {
-              "en": "#00FF00",
-              "si": "#00FF00"
-            },
-            "col3": {
-              "en": "0",
-              "si": ""
-            },
-            "col4": {
-              "en": "255",
-              "si": ""
-            },
-            "col5": {
-              "en": "0",
-              "si": ""
-            },
-            "col6": {
-              "en": "$0 \rightarrow 00_{16}, 255 \rightarrow FF_{16}, 0 \rightarrow 00_{16}$",
-              "si": "$0 \rightarrow 00_{16}, 255 \rightarrow FF_{16}, 0 \rightarrow 00_{16}$"
-            }
-          },
-          {
-            "col0": {
-              "en": "Pure Yellow (තනි කහ)",
-              "si": "Pure Yellow (තනි කහ)"
-            },
-            "col1": {
-              "en": "🟡",
-              "si": "🟡"
-            },
-            "col2": {
-              "en": "#FFEE00",
-              "si": "#FFEE00"
-            },
-            "col3": {
-              "en": "255",
-              "si": ""
-            },
-            "col4": {
-              "en": "238",
-              "si": ""
-            },
-            "col5": {
-              "en": "0",
-              "si": ""
-            },
-            "col6": {
-              "en": "$255 \rightarrow FF_{16}, 238 \rightarrow EE_{16}, 0 \rightarrow 00_{16}$",
-              "si": "$255 \rightarrow FF_{16}, 238 \rightarrow EE_{16}, 0 \rightarrow 00_{16}$"
-            }
+          "col4": {
+            "en": "C",
+            "si": "C"
           }
-        ]
-      },
-      "checkpointQuiz": {
-        "id": "q-g10-u3-2",
-        "questionEn": "Which of the following is the most accurate concept regarding RGB to Hexadecimal Color Representation & Conversion?",
-        "questionSi": "RGB සහ ෂඩ්දශමය jළන kිරූපණය හා පරිවර්තනය පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
-        "options": [
-          {
-            "id": "1",
-            "en": "Key official syllabus competency and textbook definition of RGB to Hexadecimal Color Representation & Conversion",
-            "si": "RGB සහ ෂඩ්දශමය jළන kිරූපණය හා පරිවර්තනය පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
+        },
+        {
+          "col1": {
+            "en": "13",
+            "si": "13"
           },
-          {
-            "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
+          "col2": {
+            "en": "1101",
+            "si": "1101"
           },
-          {
-            "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
+          "col3": {
+            "en": "15",
+            "si": "15"
           },
-          {
-            "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
+          "col4": {
+            "en": "D",
+            "si": "D"
           }
-        ],
-        "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for RGB to Hexadecimal Color Representation & Conversion.",
-        "explanationSi": "1 වන වරණය මගින් RGB සහ ෂඩ්දශමය jළන kිරූපණය හා පරිවර්තනය පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
-      }
+        },
+        {
+          "col1": {
+            "en": "14",
+            "si": "14"
+          },
+          "col2": {
+            "en": "1110",
+            "si": "1110"
+          },
+          "col3": {
+            "en": "16",
+            "si": "16"
+          },
+          "col4": {
+            "en": "E",
+            "si": "E"
+          }
+        },
+        {
+          "col1": {
+            "en": "15",
+            "si": "15"
+          },
+          "col2": {
+            "en": "1111",
+            "si": "1111"
+          },
+          "col3": {
+            "en": "17",
+            "si": "17"
+          },
+          "col4": {
+            "en": "F",
+            "si": "F"
+          }
+        }
+      ]
     },
-    {
-      "id": "g10-u3-st-3",
-      "number": "3.2",
-      "titleEn": "Number Systems",
-      "titleSi": "සංඛ්‍යා පද්ධති",
-      "summaryEn": "Number Systems concepts, definitions, and examination competencies.",
-      "summarySi": "සංඛ්‍යා පද්ධති සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
-      "blocks": [
-        {
-          "id": "b-g10-u3-3-1",
-          "en": "#### Fundamental Definitions: Unit, Number, Base/Radix (මූලික අර්ථ දැක්වීම්: ඒකකය, සංඛ්‍යාව, mdoh/Radix)",
-          "si": "#### Fundamental Definitions: Unit, Number, Base/Radix (මූලික අර්ථ දැක්වීම්: ඒකකය, සංඛ්‍යාව, mdoh/Radix)",
-          "highlightTerm": "Fundamental Definitions: Unit, Number, Base/Radix"
-        },
-        {
-          "id": "b-g10-u3-3-2",
-          "en": "Unit:\nUnit is a single object. For instance, a mango, a Rupee, and a day can be considered a unit.",
-          "si": "ඒකකය:\nඒකකයක් යනු තනි වස්තුවකි. උදාහරණයක් ලෙස අඹ ගෙඩියක්, රුපියලක් සහ දිනයක් ඒකකයක් ලෙස සැලකිය හැක.",
-          "highlightTerm": "Unit"
-        },
-        {
-          "id": "b-g10-u3-3-3",
-          "en": "Number:\nA number is a symbol which represents a unit or quantity.",
-          "si": "සංඛ්‍යාව:\nසංඛ්‍යාවක් යනු ඒකකයක් හෝ ප්‍රමාණයක් නිරූපණය කරන සංකේතයකි.",
-          "highlightTerm": "Number"
-        },
-        {
-          "id": "b-g10-u3-3-4",
-          "en": "Base / Radix:\nA number of symbols used in a number system is called the base/radix. The base of any number system is indicated in decimal numbers.",
-          "si": "පද පද්ධතියේ mdoh / Radix:\nසංඛ්‍යා පද්ධතියක භාවිත වන සංකේත ගණන එහි mdoh (Base / Radix) ලෙස හැඳින්වේ. ඕනෑම සංඛ්‍යා පද්ධතියක mdoh දක්වනු ලබන්නේ දශමය සංඛ්‍යාවලිනි.",
-          "highlightTerm": "Base / Radix"
-        },
-        {
-          "id": "b-g10-u3-3-5",
-          "en": "#### The 4 Main Number Systems Used in Computers (පරිගණකයේ භාවිත වන ප්‍රධාන සංඛ්‍යා පද්ධති 4)",
-          "si": "#### The 4 Main Number Systems Used in Computers (පරිගණකයේ භාවිත වන ප්‍රධාන සංඛ්‍යා පද්ධති 4)",
-          "highlightTerm": "The 4 Main Number Systems Used in Computers"
-        },
-        {
-          "id": "b-g10-u3-3-6",
-          "en": "Hexadecimal Letter Equivalences:\nIn the hexadecimal number system, ten digits are used from 0 to 9 and for the other 6 digits, A, B, C, D, E and F symbols are used. Here, A, B, C, D, E and F are used to represent 10, 11, 12, 13, 14 and 15.",
-          "si": "ෂඩ්දශමය අක්ෂර අගයන්:\nෂඩ්දශමය සංඛ්‍යා පද්ධතියේ දී 0 සිට 9 දක්වා ඉලක්කම් 10 ක් ද, ඉතිරි ඉලක්කම් 6 සඳහා A, B, C, D, E සහ F සංකේත ද භාවිත කෙරේ. මෙහි දී A, B, C, D, E සහ F පිළිවෙළින් 10, 11, 12, 13, 14 සහ 15 නිරූපණය කිරීමට යොදා ගැනේ.\"\n\n---",
-          "highlightTerm": "Hexadecimal Letter Equivalences"
-        }
-      ],
-      "tableData": {
-        "headers": [
-          {
-            "en": "Number System",
-            "si": "සංඛ්‍යා පද්ධතිය"
-          },
-          {
-            "en": "Base Value",
-            "si": "mdoh"
-          },
-          {
-            "en": "Digits and Alphabetic Characters Used",
-            "si": "භාවිත වන ඉලක්කම් හා සංකේත"
-          }
-        ],
-        "rows": [
-          {
-            "col0": {
-              "en": "Binary (ද්විමය)",
-              "si": "Binary (ද්විමය)"
-            },
-            "col1": {
-              "en": "2",
-              "si": ""
-            },
-            "col2": {
-              "en": "`0, 1`",
-              "si": "`0, 1`"
-            }
-          },
-          {
-            "col0": {
-              "en": "Octal (අෂ්ටමය)",
-              "si": "Octal (අෂ්ටමය)"
-            },
-            "col1": {
-              "en": "8",
-              "si": ""
-            },
-            "col2": {
-              "en": "`0, 1, 2, 3, 4, 5, 6, 7`",
-              "si": "`0, 1, 2, 3, 4, 5, 6, 7`"
-            }
-          },
-          {
-            "col0": {
-              "en": "Decimal (දශමය)",
-              "si": "Decimal (දශමය)"
-            },
-            "col1": {
-              "en": "10",
-              "si": ""
-            },
-            "col2": {
-              "en": "`0, 1, 2, 3, 4, 5, 6, 7, 8, 9`",
-              "si": "`0, 1, 2, 3, 4, 5, 6, 7, 8, 9`"
-            }
-          },
-          {
-            "col0": {
-              "en": "Hexadecimal (ෂඩ්දශමය)",
-              "si": "Hexadecimal (ෂඩ්දශමය)"
-            },
-            "col1": {
-              "en": "16",
-              "si": ""
-            },
-            "col2": {
-              "en": "`0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F`",
-              "si": "`0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F`"
-            }
-          }
-        ]
-      },
-      "checkpointQuiz": {
-        "id": "q-g10-u3-3",
-        "questionEn": "Which of the following is the most accurate concept regarding Number Systems?",
-        "questionSi": "සංඛ්‍යා පද්ධති පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
-        "options": [
-          {
-            "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Number Systems",
-            "si": "සංඛ්‍යා පද්ධති පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
-          },
-          {
-            "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
-          },
-          {
-            "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
-          },
-          {
-            "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
-          }
-        ],
-        "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Number Systems.",
-        "explanationSi": "1 වන වරණය මගින් සංඛ්‍යා පද්ධති පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
+    "examples": [
+      {
+        "id": "ex-widget-3.4",
+        "titleEn": "Interactive Binary Switchboard",
+        "titleSi": "අන්තර්ක්‍රියාකාරී ද්විමය ස්විච පුවරුව",
+        "isInteractiveWidget": "binary-weight"
       }
-    },
-    {
-      "id": "g10-u3-st-4",
-      "number": "3.3",
-      "titleEn": "Most and Least Significant Values",
-      "titleSi": "වැඩිම හා අඩුම රිසි/ෆෙසිසි සංඛ්‍යාංක හා බිටු",
-      "summaryEn": "Most and Least Significant Values concepts, definitions, and examination competencies.",
-      "summarySi": "වැඩිම හා අඩුම රිසි/ෆෙසිසි සංඛ්‍යාංක හා බිටු සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
-      "blocks": [
+    ],
+    "checkpointQuiz": {
+      "id": "q-g10-u3-4",
+      "questionEn": "What is the hexadecimal equivalent of the octal number 73₈?",
+      "questionSi": "73₈ අෂ්ටම සංඛ්‍යාවේ ෂඩ්දශම සමාන අගය කුමක්ද?",
+      "options": [
         {
-          "id": "b-g10-u3-4-1",
-          "en": "Most Significant Digit:\nWhen a whole number is read from left to right, the number in the right most end is the least significant positional value and the number in the left most end which is not 0 is the most significant positional value. In decimal numbers, the value in the right extreme after the decimal point which is not 0 becomes the least significant positional value and the number in the left extreme of the decimal point which is not 0 becomes the most significant positional value.",
-          "si": "MSD) and Least Significant Digit (LSD:\nපූර්ණ සංඛ්‍යාවක් ජ්වමේ සිට දකුණට කියවීමේ දී දකුණු කෙළවරේම පිහිටි අගය අඩුම ෆෙසිසි සංඛ්‍යාංකය (LSD) වන අතර ජ්වම් කෙළවරින්ම පිහිටි ශූන්‍ය නොවන අගය වැඩිම ෆෙසිසි සංඛ්‍යාංකය (MSD) වේ. දශම සංඛ්‍යාවල දී දශම තිතට දකුණු පසින් ඈතින්ම පිහිටි ශූන්‍ය නොවන අගය අඩුම ෆෙසිසි සංඛ්‍යාංකය වන අතර දශම තිතට ජ්වම් පසින් ඈතින්ම පිහිටි ශූන්‍ය නොවන අගය වැඩිම ෆෙසිසි සංඛ්‍යාංකය වේ.",
-          "highlightTerm": "Most Significant Digit"
+          "id": "1",
+          "en": "3B₁₆",
+          "si": "3B₁₆"
         },
         {
-          "id": "b-g10-u3-4-2",
-          "en": "Most Significant Bit:\nOnly the Binary Number System is used to find the most significant bit (MSB) and the least significant bit (LSB). In a whole number, read from left to right, the value in the right extreme is the least significant bit and the value in the left extreme which is not 0 is the most significant bit. In binary decimal numbers, the value in the right extreme of the decimal point which is not 0 is the least significant bit and the value in the left extreme of the decimal point which is not 0 is the most significant bit.",
-          "si": "MSB) and Least Significant Bit (LSB:\nවැඩිම (MSB) හා අඩුම (LSB) ෆෙසිසි බිටුව තීරණය කිරීමේ දී ද්විමය සංඛ්‍යා පද්ධතිය සඳහා පමණක් භාවිත කෙරේ. පූර්ණ ද්විමය සංඛ්‍යාවක ජ්වමේ සිට දකුණට කියවීමේ දී දකුණු කෙළවරේම පිහිටි අගය අඩුම ෆෙසිසි බිටුව (LSB) වන අතර ජ්වම් කෙළවරින්ම පිහිටි ශූන්‍ය නොවන අගය වැඩිම ෆෙසිසි බිටුව (MSB) වේ.\"\n\n---",
-          "highlightTerm": "Most Significant Bit"
+          "id": "2",
+          "en": "59₁₆",
+          "si": "59₁₆"
+        },
+        {
+          "id": "3",
+          "en": "4F₁₆",
+          "si": "4F₁₆"
+        },
+        {
+          "id": "4",
+          "en": "73₁₆",
+          "si": "73₁₆"
         }
       ],
-      "checkpointQuiz": {
-        "id": "q-g10-u3-4",
-        "questionEn": "Which of the following is the most accurate concept regarding Most and Least Significant Values?",
-        "questionSi": "වැඩිම හා අඩුම රිසි/ෆෙසිසි සංඛ්‍යාංක හා බිටු පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
-        "options": [
-          {
-            "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Most and Least Significant Values",
-            "si": "වැඩිම හා අඩුම රිසි/ෆෙසිසි සංඛ්‍යාංක හා බිටු පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
-          },
-          {
-            "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
-          },
-          {
-            "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
-          },
-          {
-            "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
-          }
-        ],
-        "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Most and Least Significant Values.",
-        "explanationSi": "1 වන වරණය මගින් වැඩිම හා අඩුම රිසි/ෆෙසිසි සංඛ්‍යාංක හා බිටු පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
-      }
-    },
-    {
-      "id": "g10-u3-st-5",
-      "number": "3.4",
-      "titleEn": "& 3.5 Number System Conversions",
-      "titleSi": "සංඛ්‍යා පද්ධති අතර පරිවර්තනය",
-      "summaryEn": "& 3.5 Number System Conversions concepts, definitions, and examination competencies.",
-      "summarySi": "සංඛ්‍යා පද්ධති අතර පරිවර්තනය සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
-      "blocks": [
-        {
-          "id": "b-g10-u3-5-1",
-          "en": "Conversion Rules & Methods:\nDivide the given decimal number by the target base (2, 8, or 16) until the quotient is 0. Write down all the remainders from bottom to top to form the converted number.",
-          "si": "පරිවර්තන නීති සහ ක්‍රම:\nලැබෙන ලබ්ධිය ශූන්‍ය වන තෙක් ලබා දී ඇති දශමය සංඛ්‍යාව අදාළ mdොහයෙන් (2, 8, හෝ 16) බෙදා ලැබෙන ශේෂයන් යට සිට ඉහළට (අග සිට මුලට) සටහන් කරන්න.\"\n\n2. **Binary / Octal / Hexadecimal to Decimal (වෙනත් mdොහ දශමය සංඛ්‍යාවලට හැරවීම):**\n   * **[English Medium Text]:** \"Multiply each digit by its corresponding positional weight ($2^n, 8^n, 16^n$) and sum all the values together.\"\n   * **[Sinhala Medium Text]:** \"එක් එක් සංඛ්‍යාංකය එහි ස්ථානීය nr සාධකයෙන් ($2^n, 8^n, 16^n$) ගුණ කර ලැබෙන අගයන් සියල්ල එකතු කරන්න.\"\n\n3. **Binary to Octal & Octal to Binary (ද්විමය හා අෂ්ටමය අතර පරිවර්තනය - 3 Bits):**\n   * **[English Medium Text]:** \"Since $8 = 2^3$, three binary bits represent one octal digit. Group binary bits into clusters of 3 from right to left (add leading 0s if necessary) and convert each cluster to an octal digit.\"\n   * **[Sinhala Medium Text]: $8 = 2^3$ වන බැවින් අෂ්ටමය සංඛ්‍යාංකයක් නිරූපණයට ද්විමය බිටු 3 ක් භාවිත වේ. දකුණේ සිට ජ්වමට බිටු 3 බැගින් කාණ්ඩ කර (අවශ්‍ය නම් 0 යොදා) එකී කාණ්ඩ අෂ්ටමය සංඛ්‍යාංක බවට පත් කරන්න.\"\n\n4. **Binary to Hexadecimal & Hexadecimal to Binary (ද්විමය හා ෂඩ්දශමය අතර පරිවර්තනය - 4 Bits):**\n   * **[English Medium Text]:** \"Since $16 = 2^4$, four binary bits represent one hexadecimal digit. Group binary bits into clusters of 4 from right to left and convert each cluster to a hexadecimal character (0-9, A-F).\"\n   * **[Sinhala Medium Text]: $16 = 2^4$ වන බැවින් ෂඩ්දශමය සංඛ්‍යාංකයක් නිරූපණයට ද්විමය බිටු 4 ක් භාවිත වේ. දකුණේ සිට ජ්වමට බිටු 4 බැගින් කාණ්ඩ කර අදාළ ෂඩ්දශමය සංකේතය (0-9, A-F) ලියන්න.\"\n\n5. **Octal to Hexadecimal & Hexadecimal to Octal (අෂ්ටමය හා ෂඩ්දශමය අතර පරිවර්තනය):**\n   * **[English Medium Text]:** \"Convert the starting number to binary first (3 bits per octal digit or 4 bits per hexadecimal digit), then regroup into 4-bit clusters (for hex) or 3-bit clusters (for octal).\"\n   * **[Sinhala Medium Text]:** \"පළමුව ලබා දී ඇති සංඛ්‍යාව ද්විමය බවට පත් කර (අෂ්ටමය සඳහා බිටු 3 බැගින් / ෂඩ්දශමය සඳහා බිටු 4 බැගින්), පසුව නැවත බිටු 4 බැගින් (ෂඩ්දශමය සඳහා) හෝ බිටු 3 බැගින් (අෂ්ටමය සඳහා) කාණ්ඩ කරන්න.\"\n\n---",
-          "highlightTerm": "Conversion Rules & Methods"
-        }
-      ],
-      "examples": [
-        {
-          "id": "ex-widget-3.5",
-          "titleEn": "Interactive Tool",
-          "titleSi": "අන්තර්ක්‍රියාකාරී මෙවලම",
-          "isInteractiveWidget": "number-converter"
-        }
-      ],
-      "checkpointQuiz": {
-        "id": "q-g10-u3-5",
-        "questionEn": "Which of the following is the most accurate concept regarding & 3.5 Number System Conversions?",
-        "questionSi": "සංඛ්‍යා පද්ධති අතර පරිවර්තනය පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
-        "options": [
-          {
-            "id": "1",
-            "en": "Key official syllabus competency and textbook definition of & 3.5 Number System Conversions",
-            "si": "සංඛ්‍යා පද්ධති අතර පරිවර්තනය පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
-          },
-          {
-            "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
-          },
-          {
-            "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
-          },
-          {
-            "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
-          }
-        ],
-        "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for & 3.5 Number System Conversions.",
-        "explanationSi": "1 වන වරණය මගින් සංඛ්‍යා පද්ධති අතර පරිවර්තනය පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
-      }
-    },
-    {
-      "id": "g10-u3-st-6",
-      "number": "3.6",
-      "titleEn": "Data Storage Capacity & Capacity Conversions",
-      "titleSi": "දත්ත ආචයන ධාරිතාව සහ ධාරිතා පරිවර්තන",
-      "summaryEn": "Data Storage Capacity & Capacity Conversions concepts, definitions, and examination competencies.",
-      "summarySi": "දත්ත ආචයන ධාරිතාව සහ ධාරිතා පරිවර්තන සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
-      "blocks": [
-        {
-          "id": "b-g10-u3-6-1",
-          "en": "#### Fundamental Capacity Units & Exact Mathematical Formulas (මූලික ධාරිතා ඒකක සහ ගණිතමය සූත්‍ර)",
-          "si": "#### Fundamental Capacity Units & Exact Mathematical Formulas (මූලික ධාරිතා ඒකක සහ ගණිතමය සූත්‍ර)",
-          "highlightTerm": "Fundamental Capacity Units & Exact Mathematical Formulas"
-        },
-        {
-          "id": "b-g10-u3-6-2",
-          "en": "Bit (බිටුව):** Smallest binary storage unit (`0` or `1`).",
-          "si": "Bit (බිටුව):** Smallest binary storage unit (`0` or `1`).",
-          "highlightTerm": "Bit"
-        },
-        {
-          "id": "b-g10-u3-6-3",
-          "en": "Nibble (නිබලය):** $4 \text{ Bits} = \frac{1}{2} \text{ Byte}$",
-          "si": "Nibble (නිබලය):** $4 \text{ Bits} = \frac{1}{2} \text{ Byte}$",
-          "highlightTerm": "Nibble (නිබලය):** $4 \text{ Bits} = \frac{1}{2} \text{ Byte}$"
-        },
-        {
-          "id": "b-g10-u3-6-4",
-          "en": "Byte (බයිටය):** $8 \text{ Bits}$",
-          "si": "Byte (බයිටය):** $8 \text{ Bits}$",
-          "highlightTerm": "Byte (බයිටය):** $8 \text{ Bits}$"
-        },
-        {
-          "id": "b-g10-u3-6-5",
-          "en": "Kilobyte (KB):** $1024 \text{ Bytes} = 2^{10} \text{ Bytes}$",
-          "si": "Kilobyte (KB):** $1024 \text{ Bytes} = 2^{10} \text{ Bytes}$",
-          "highlightTerm": "Kilobyte (KB):** $1024 \text{ Bytes} = 2^{10} \text{ Bytes}$"
-        },
-        {
-          "id": "b-g10-u3-6-6",
-          "en": "Megabyte (MB):** $1024 \text{ KB} = 1024 \times 1024 \text{ Bytes} = 1,048,576 \text{ Bytes} = 2^{20} \text{ Bytes}$",
-          "si": "Megabyte (MB):** $1024 \text{ KB} = 1024 \times 1024 \text{ Bytes} = 1,048,576 \text{ Bytes} = 2^{20} \text{ Bytes}$",
-          "highlightTerm": "Megabyte (MB):** $1024 \text{ KB} = 1024 \times 1024 \text{ Bytes} = 1,048,576 \text{ Bytes} = 2^{20} \text{ Bytes}$"
-        },
-        {
-          "id": "b-g10-u3-6-7",
-          "en": "Gigabyte (GB):** $1024 \text{ MB} = 1024 \times 1024 \text{ KB} = 1024 \times 1024 \times 1024 \text{ Bytes} = 1,073,741,824 \text{ Bytes} = 2^{30} \text{ Bytes}$",
-          "si": "Gigabyte (GB):** $1024 \text{ MB} = 1024 \times 1024 \text{ KB} = 1024 \times 1024 \times 1024 \text{ Bytes} = 1,073,741,824 \text{ Bytes} = 2^{30} \text{ Bytes}$",
-          "highlightTerm": "Gigabyte (GB):** $1024 \text{ MB} = 1024 \times 1024 \text{ KB} = 1024 \times 1024 \times 1024 \text{ Bytes} = 1,073,741,824 \text{ Bytes} = 2^{30} \text{ Bytes}$"
-        },
-        {
-          "id": "b-g10-u3-6-8",
-          "en": "Terabyte (TB):** $1024 \text{ GB} = 1024 \times 1024 \times 1024 \times 1024 \text{ Bytes} = 1,099,511,627,776 \text{ Bytes} = 2^{40} \text{ Bytes}$",
-          "si": "Terabyte (TB):** $1024 \text{ GB} = 1024 \times 1024 \times 1024 \times 1024 \text{ Bytes} = 1,099,511,627,776 \text{ Bytes} = 2^{40} \text{ Bytes}$",
-          "highlightTerm": "Terabyte (TB):** $1024 \text{ GB} = 1024 \times 1024 \times 1024 \times 1024 \text{ Bytes} = 1,099,511,627,776 \text{ Bytes} = 2^{40} \text{ Bytes}$"
-        },
-        {
-          "id": "b-g10-u3-6-9",
-          "en": "Petabyte (PB):** $1024 \text{ TB} = 2^{50} \text{ Bytes}$",
-          "si": "Petabyte (PB):** $1024 \text{ TB} = 2^{50} \text{ Bytes}$",
-          "highlightTerm": "Petabyte (PB):** $1024 \text{ TB} = 2^{50} \text{ Bytes}$"
-        },
-        {
-          "id": "b-g10-u3-6-10",
-          "en": "#### Step-by-Step Capacity Conversion Examples (නියමිත ධාරිතා පරිවර්තන උදාහරණ)\n1. **Converting Gigabytes (GB) to Bytes (e.g., 4 GB in Bytes):**\n* $1 \text{ GB} = 1024 \times 1024 \times 1024 \text{ Bytes} = 2^{30} \text{ Bytes}$\n* $4 \text{ GB} = 4 \times (1024 \times 1024 \times 1024) \text{ Bytes} = 4 \times 2^{30} \text{ Bytes} = 4,294,967,296 \text{ Bytes}$\n2. **Converting Terabytes (TB) to Kilobytes (KB) (e.g., 1 TB in KB - 2023 O/L Exam):**\n* $1 \text{ TB} = 1024 \text{ GB}$\n* $1024 \text{ GB} = 1024 \times 1024 \text{ MB}$\n* $1024 \times 1024 \text{ MB} = 1024 \times 1024 \times 1024 \text{ KB}$\n* Therefore, $1 \text{ TB} = 1024 \times 1024 \times 1024 \text{ KB}$\n3. **Converting Megabytes (MB) to Bytes (e.g., 256 MB in Bytes):**\n* $256 \text{ MB} = 256 \times 1024 \times 1024 \text{ Bytes} = 2^8 \times 2^{20} \text{ Bytes} = 2^{28} \text{ Bytes}$",
-          "si": "#### Step-by-Step Capacity Conversion Examples (නියමිත ධාරිතා පරිවර්තන උදාහරණ)\n1. **Converting Gigabytes (GB) to Bytes (e.g., 4 GB in Bytes):**\n* $1 \text{ GB} = 1024 \times 1024 \times 1024 \text{ Bytes} = 2^{30} \text{ Bytes}$\n* $4 \text{ GB} = 4 \times (1024 \times 1024 \times 1024) \text{ Bytes} = 4 \times 2^{30} \text{ Bytes} = 4,294,967,296 \text{ Bytes}$\n2. **Converting Terabytes (TB) to Kilobytes (KB) (e.g., 1 TB in KB - 2023 O/L Exam):**\n* $1 \text{ TB} = 1024 \text{ GB}$\n* $1024 \text{ GB} = 1024 \times 1024 \text{ MB}$\n* $1024 \times 1024 \text{ MB} = 1024 \times 1024 \times 1024 \text{ KB}$\n* Therefore, $1 \text{ TB} = 1024 \times 1024 \times 1024 \text{ KB}$\n3. **Converting Megabytes (MB) to Bytes (e.g., 256 MB in Bytes):**\n* $256 \text{ MB} = 256 \times 1024 \times 1024 \text{ Bytes} = 2^8 \times 2^{20} \text{ Bytes} = 2^{28} \text{ Bytes}$",
-          "highlightTerm": "Step-by-Step Capacity Conversion Examples"
-        },
-        {
-          "id": "b-g10-u3-6-11",
-          "en": "#### Textbook Table 3.14: Storage Units, Exact Bytes & Text Page Equivalences (පෙළපොතේ 3.14 වගුව)",
-          "si": "#### Textbook Table 3.14: Storage Units, Exact Bytes & Text Page Equivalences (පෙළපොතේ 3.14 වගුව)",
-          "highlightTerm": "Textbook Table 3.14: Storage Units, Exact Bytes & Text Page Equivalences"
-        }
-      ],
-      "tableData": {
-        "headers": [
-          {
-            "en": "Name",
-            "si": "නම"
-          },
-          {
-            "en": "Abbreviation",
-            "si": "සංක්ෂිප්තය"
-          },
-          {
-            "en": "Approximate Bytes",
-            "si": "ආසන්න nhsg"
-          },
-          {
-            "en": "Exact Bytes",
-            "si": "නිවැරදි nhsg"
-          },
-          {
-            "en": "Approximate Text Pages",
-            "si": "ආසන්න A4 පිටු"
-          }
-        ],
-        "rows": [
-          {
-            "col0": {
-              "en": "Byte",
-              "si": "Byte"
-            },
-            "col1": {
-              "en": "B",
-              "si": "B"
-            },
-            "col2": {
-              "en": "One (එකක්)",
-              "si": "එකක්"
-            },
-            "col3": {
-              "en": "$1$",
-              "si": "$1$"
-            },
-            "col4": {
-              "en": "1 character",
-              "si": "character"
-            }
-          },
-          {
-            "col0": {
-              "en": "Kilobyte",
-              "si": "Kilobyte"
-            },
-            "col1": {
-              "en": "KB",
-              "si": "KB"
-            },
-            "col2": {
-              "en": "One Thousand (දහසක්)",
-              "si": "දහසක්"
-            },
-            "col3": {
-              "en": "$1,024 = 2^{10}$",
-              "si": "$1,024 = 2^{10}$"
-            },
-            "col4": {
-              "en": "$\frac{1}{2}$ A4 page",
-              "si": "$\frac{1}{2}$ A4 page"
-            }
-          },
-          {
-            "col0": {
-              "en": "Megabyte",
-              "si": "Megabyte"
-            },
-            "col1": {
-              "en": "MB",
-              "si": "MB"
-            },
-            "col2": {
-              "en": "One Million (මිලියනයක්)",
-              "si": "මිලියනයක්"
-            },
-            "col3": {
-              "en": "$1,048,576 = 2^{20}$",
-              "si": "$1,048,576 = 2^{20}$"
-            },
-            "col4": {
-              "en": "500 A4 pages",
-              "si": "A4 pages"
-            }
-          },
-          {
-            "col0": {
-              "en": "Gigabyte",
-              "si": "Gigabyte"
-            },
-            "col1": {
-              "en": "GB",
-              "si": "GB"
-            },
-            "col2": {
-              "en": "One Billion (බිලියනයක්)",
-              "si": "බිලියනයක්"
-            },
-            "col3": {
-              "en": "$1,073,741,824 = 2^{30}$",
-              "si": "$1,073,741,824 = 2^{30}$"
-            },
-            "col4": {
-              "en": "500,000 A4 pages",
-              "si": ",000 A4 pages"
-            }
-          },
-          {
-            "col0": {
-              "en": "Terabyte",
-              "si": "Terabyte"
-            },
-            "col1": {
-              "en": "TB",
-              "si": "TB"
-            },
-            "col2": {
-              "en": "One Trillion (ට්‍රිලියනයක්)",
-              "si": "ට්‍රිලියනයක්"
-            },
-            "col3": {
-              "en": "$1,099,511,627,776 = 2^{40}$",
-              "si": "$1,099,511,627,776 = 2^{40}$"
-            },
-            "col4": {
-              "en": "500,000,000 A4 pages",
-              "si": ",000,000 A4 pages"
-            }
-          }
-        ]
-      },
-      "checkpointQuiz": {
-        "id": "q-g10-u3-6",
-        "questionEn": "Which of the following is the most accurate concept regarding Data Storage Capacity & Capacity Conversions?",
-        "questionSi": "දත්ත ආචයන ධාරිතාව සහ ධාරිතා පරිවර්තන පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
-        "options": [
-          {
-            "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Data Storage Capacity & Capacity Conversions",
-            "si": "දත්ත ආචයන ධාරිතාව සහ ධාරිතා පරිවර්තන පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
-          },
-          {
-            "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
-          },
-          {
-            "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
-          },
-          {
-            "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
-          }
-        ],
-        "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Data Storage Capacity & Capacity Conversions.",
-        "explanationSi": "1 වන වරණය මගින් දත්ත ආචයන ධාරිතාව සහ ධාරිතා පරිවර්තන පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
-      }
-    },
-    {
-      "id": "g10-u3-st-7",
-      "number": "3.7",
-      "titleEn": "Coding Systems in Computers",
-      "titleSi": "පරිගණකවල භාවිත වන කේත ක්‍රම",
-      "summaryEn": "Coding Systems in Computers concepts, definitions, and examination competencies.",
-      "summarySi": "පරිගණකවල භාවිත වන කේත ක්‍රම සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
-      "blocks": [
-        {
-          "id": "b-g10-u3-7-1",
-          "en": "#### Comparison of Computer Coding Schemes (කේත ක්‍රම සසඳා බැලීම)",
-          "si": "#### Comparison of Computer Coding Schemes (කේත ක්‍රම සසඳා බැලීම)",
-          "highlightTerm": "Comparison of Computer Coding Schemes"
-        }
-      ],
-      "tableData": {
-        "headers": [
-          {
-            "en": "Code System",
-            "si": "කේත ක්‍රමය"
-          },
-          {
-            "en": "Full Name",
-            "si": "සම්පූර්ණ නමය"
-          },
-          {
-            "en": "Number of Bits Used",
-            "si": "භාවිත වන බිටු ගණන"
-          },
-          {
-            "en": "Total Representable Symbols",
-            "si": "නිරූපණය කළ හැකි සංකේත ගණන"
-          },
-          {
-            "en": "Key Features & Applications",
-            "si": "ප්‍රධාන ලක්ෂණ සහ යෙදීම්"
-          }
-        ],
-        "rows": [
-          {
-            "col0": {
-              "en": "BCD",
-              "si": "BCD"
-            },
-            "col1": {
-              "en": "Binary Coded Decimal",
-              "si": "Binary Coded Decimal"
-            },
-            "col2": {
-              "en": "4 Bits",
-              "si": "Bits"
-            },
-            "col3": {
-              "en": "$2^4 = 16$ symbols",
-              "si": "$2^4 = 16$ symbols"
-            },
-            "col4": {
-              "en": "Used in early computing; represents decimal digits 0 to 9.",
-              "si": "Used in early computing; represents decimal digits 0 to 9."
-            }
-          },
-          {
-            "col0": {
-              "en": "ASCII",
-              "si": "ASCII"
-            },
-            "col1": {
-              "en": "American Standard Code for Information Interchange",
-              "si": "American Standard Code for Information Interchange"
-            },
-            "col2": {
-              "en": "7 Bits",
-              "si": "Bits"
-            },
-            "col3": {
-              "en": "$2^7 = 128$ characters",
-              "si": "$2^7 = 128$ characters"
-            },
-            "col4": {
-              "en": "Approved by ANSI; represents English text and control characters.",
-              "si": "Approved by ANSI; represents English text and control characters."
-            }
-          },
-          {
-            "col0": {
-              "en": "EBCDIC",
-              "si": "EBCDIC"
-            },
-            "col1": {
-              "en": "Extended Binary Coded Decimal Interchange Code",
-              "si": "Extended Binary Coded Decimal Interchange Code"
-            },
-            "col2": {
-              "en": "8 Bits",
-              "si": "Bits"
-            },
-            "col3": {
-              "en": "$2^8 = 256$ characters",
-              "si": "$2^8 = 256$ characters"
-            },
-            "col4": {
-              "en": "Used primarily in IBM Mainframe computers.",
-              "si": "Used primarily in IBM Mainframe computers."
-            }
-          },
-          {
-            "col0": {
-              "en": "Unicode",
-              "si": "Unicode"
-            },
-            "col1": {
-              "en": "Universal Character Encoding",
-              "si": "Universal Character Encoding"
-            },
-            "col2": {
-              "en": "16 Bits",
-              "si": "Bits"
-            },
-            "col3": {
-              "en": "$2^{16} = 65,536$ symbols",
-              "si": "$2^{16} = 65,536$ symbols"
-            },
-            "col4": {
-              "en": "Initiated by ISO & Unicode Consortium; represents all international languages (Sinhala, Tamil, Chinese, Japanese) and emojis.",
-              "si": "Initiated by ISO & Unicode Consortium; represents all international languages (Sinhala, Tamil, Chinese, Japanese) and emojis."
-            }
-          }
-        ]
-      },
-      "checkpointQuiz": {
-        "id": "q-g10-u3-7",
-        "questionEn": "Which of the following is the most accurate concept regarding Coding Systems in Computers?",
-        "questionSi": "පරිගණකවල භාවිත වන කේත ක්‍රම පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
-        "options": [
-          {
-            "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Coding Systems in Computers",
-            "si": "පරිගණකවල භාවිත වන කේත ක්‍රම පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
-          },
-          {
-            "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
-          },
-          {
-            "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
-          },
-          {
-            "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
-          }
-        ],
-        "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Coding Systems in Computers.",
-        "explanationSi": "1 වන වරණය මගින් පරිගණකවල භාවිත වන කේත ක්‍රම පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
-      }
-    },
-    {
-      "id": "g10-u3-st-8",
-      "number": "4.1",
-      "titleEn": "Concept of Logic Gates & Signals",
-      "titleSi": "ලොජික් ද්වාර සංකල්පය සහ සංඥා",
-      "summaryEn": "Concept of Logic Gates & Signals concepts, definitions, and examination competencies.",
-      "summarySi": "ලොජික් ද්වාර සංකල්පය සහ සංඥා සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
-      "blocks": [
-        {
-          "id": "b-g10-u3-8-1",
-          "en": "Core Definitions & Hardware Concepts:\nA logic gate is an elementary building block of a digital circuit. Most logic gates have two inputs and one output. At any given moment, every terminal is in one of the two binary conditions, low (0) or high (1), represented by different voltage levels. The function of devices such as the computer, calculator, washing machine, microwave oven, mobile phone, modern televisions, digital clock, air conditioner etc is based on the function of logic gates.",
-          "si": "මූලික අර්ථ දැක්වීම් සහ දෘඩාංග සංකල්ප:\nද්විමය සංඛ්‍යා අනුසාරයෙන් යම් යම් තර්ක තත්ත්ව ගොඩනැඟීමටත් ඒ අනුව යම් යම් තීරණ ගැනීමටත් හැකි වන පරිපථ තර්කන පරිපථ (Logic Circuits) ලෙස හැඳින්වේ. පරිගණකය යනු සංකීර්ණ සංඛ්‍යාංක පරිපථ රාශියක එකතුවකි. මෙම ඉලෙක්ට්‍රොනික පරිපථ නිර්මාණය කර ඇත්තේ ලොජික් ද්වාර (Logic Gates) නමැති මූලික තර්කන පරිපථ රාශියක් අවශ්‍ය පරිදි එකිනෙකට සම්බන්ධ කිරීමෙනි. පරිගණකය, ගණක යන්ත්‍රය, රෙදි සෝදන යන්ත්‍රය, මයික්‍රෝවේව් උඳුන, ජංගම දුරකථනය, නූතන රූපවාහිනිය, සංඛ්‍යාංක ඔරලෝසුව, වායු සමීකරණය ආදී උපකරණවල ක්‍රියාකාරිත්වය සිදුවන්නේ ලොජික් ද්වාරවල ක්‍රියාකාරිත්වය පදනම් කරගෙන ය.",
-          "highlightTerm": "Core Definitions & Hardware Concepts"
-        },
-        {
-          "id": "b-g10-u3-8-2",
-          "en": "Physical Construction & Integrated Circuits:\nThere are a number of technologies used to build logic gates. Diodes, Transistors, Resistors etc are used to construct logic circuits. Today logic circuits are built combining a number of logic gates into a single chip. This chip is called Integrated Circuit (IC). The modern microprocessor chip contains millions of logic gates.",
-          "si": "භෞතික නිපැයුම සහ අනුකලිත පරිපථ - IC:\nලොජික් ද්වාර නිර්මාණය කිරීම සඳහා විවිධ තාක්ෂණයන් භාවිත කෙරේ. ඩයෝඩ (Diodes), ට්‍රාන්සිස්ටර (Transistors), රෙසිස්ටර (Resistors) ආදිය ලොජික් පරිපථ ගොඩනැඟීමට යොදා ගැනේ. වර්තමානයේ දී ලොජික් ද්වාර විශාල ප්‍රමාණයක් එකතු කර තනි චිපයක් (Chip) ලෙස ලොජික් පරිපථ තනා ඇත. මෙම චිප අනුකලිත පරිපථ (Integrated Circuit - IC) ලෙස හැඳින්වේ. නූතන ක්ෂුද්‍ර ප්‍රොසෙසර චිපයක ලොජික් ද්වාර මිලියන ගණනක් අඩංගු වේ.\"\n\n---",
-          "highlightTerm": "Physical Construction & Integrated Circuits"
-        }
-      ],
-      "checkpointQuiz": {
-        "id": "q-g10-u3-8",
-        "questionEn": "Which of the following is the most accurate concept regarding Concept of Logic Gates & Signals?",
-        "questionSi": "ලොජික් ද්වාර සංකල්පය සහ සංඥා පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
-        "options": [
-          {
-            "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Concept of Logic Gates & Signals",
-            "si": "ලොජික් ද්වාර සංකල්පය සහ සංඥා පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
-          },
-          {
-            "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
-          },
-          {
-            "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
-          },
-          {
-            "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
-          }
-        ],
-        "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Concept of Logic Gates & Signals.",
-        "explanationSi": "1 වන වරණය මගින් ලොජික් ද්වාර සංකල්පය සහ සංඥා පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
-      }
-    },
-    {
-      "id": "g10-u3-st-9",
-      "number": "4.2",
-      "titleEn": "Basic Logic Gates",
-      "titleSi": "මූලික ලොජික් ද්වාර",
-      "summaryEn": "Basic Logic Gates concepts, definitions, and examination competencies.",
-      "summarySi": "මූලික ලොජික් ද්වාර සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
-      "blocks": [
-        {
-          "id": "b-g10-u3-9-1",
-          "en": "The three primary basic logic gates are **AND**, **OR**, and **NOT**.",
-          "si": "The three primary basic logic gates are **AND**, **OR**, and **NOT**.",
-          "highlightTerm": "The three primary basic logic gates are **AND**, **OR**, and **NOT"
-        },
-        {
-          "id": "b-g10-u3-9-2",
-          "en": "#### 4.2.1 AND Gate (සහ ද්වාරය)",
-          "si": "#### 4.2.1 AND Gate (සහ ද්වාරය)",
-          "highlightTerm": "AND Gate"
-        },
-        {
-          "id": "b-g10-u3-9-3",
-          "en": "Definition & Rule:\nAn AND gate gives a high output (1) only if all its inputs are high (1). If any input is low (0), the output is low (0).",
-          "si": "අර්ථ දැක්වීම සහ නීතිය:\nAND ද්වාරයක සියලුම ආදාන ඉහළ (1) මට්ටමේ පවතින විට පමණක් ප්‍රතිදානය ඉහළ (1) මට්ටමේ පවතී. ඕනෑම එක් ආදානයක් හෝ පහළ (0) මට්ටමේ පවතී නම් ප්‍රතිදානය පහළ (0) මට්ටමේ පවතී.",
-          "highlightTerm": "Definition & Rule"
-        },
-        {
-          "id": "b-g10-u3-9-4",
-          "en": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = A \\cdot B \\quad \\text{or} \\quad Q = AB$$",
-          "si": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = A \\cdot B \\quad \\text{or} \\quad Q = AB$$",
-          "highlightTerm": "Boolean Expression"
-        },
-        {
-          "id": "b-g10-u3-9-5",
-          "en": "Electronic Switch Circuit Diagram (විද්‍යුත් ස්විච පරිපථ සටහන - Series Switches):**\n* *Circuit Rule:* The bulb lights ON (1) ONLY when BOTH Switch A AND Switch B are closed (1).",
-          "si": "Electronic Switch Circuit Diagram (විද්‍යුත් ස්විච පරිපථ සටහන - Series Switches):**\n* *Circuit Rule:* The bulb lights ON (1) ONLY when BOTH Switch A AND Switch B are closed (1).",
-          "highlightTerm": "Electronic Switch Circuit Diagram"
-        },
-        {
-          "id": "b-g10-u3-9-6",
-          "en": "Logic Symbol (ලොජික් සංකේතය):",
-          "si": "Logic Symbol (ලොජික් සංකේතය):",
-          "highlightTerm": "Logic Symbol"
-        },
-        {
-          "id": "b-g10-u3-9-7",
-          "en": "Truth Table (සත්‍යතා වගුව):",
-          "si": "Truth Table (සත්‍යතා වගුව):",
-          "highlightTerm": "Truth Table"
-        },
-        {
-          "id": "b-g10-u3-9-8",
-          "en": "#### 4.2.2 OR Gate (හෝ ද්වාරය)",
-          "si": "#### 4.2.2 OR Gate (හෝ ද්වාරය)",
-          "highlightTerm": "OR Gate"
-        },
-        {
-          "id": "b-g10-u3-9-9",
-          "en": "Definition & Rule:\nAn OR gate gives a high output (1) if one or more of its inputs are high (1). The output is low (0) only if all inputs are low (0).",
-          "si": "අර්ථ දැක්වීම සහ නීතිය:\nOR ද්වාරයක ආදාන එකක් හෝ ඊට වැඩි ගණනක් ඉහළ (1) මට්ටමේ පවතින විට ප්‍රතිදානය ඉහළ (1) වේ. සියලුම ආදාන පහළ (0) මට්ටමේ පවතින විට පමණක් ප්‍රතිදානය පහළ (0) වේ.",
-          "highlightTerm": "Definition & Rule"
-        },
-        {
-          "id": "b-g10-u3-9-10",
-          "en": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = A + B$$",
-          "si": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = A + B$$",
-          "highlightTerm": "Boolean Expression"
-        },
-        {
-          "id": "b-g10-u3-9-11",
-          "en": "Electronic Switch Circuit Diagram (විද්‍යුත් ස්විච පරිපථ සටහන - Parallel Switches):**\n* *Circuit Rule:* The bulb lights ON (1) if EITHER Switch A OR Switch B (or both) is closed (1).",
-          "si": "Electronic Switch Circuit Diagram (විද්‍යුත් ස්විච පරිපථ සටහන - Parallel Switches):**\n* *Circuit Rule:* The bulb lights ON (1) if EITHER Switch A OR Switch B (or both) is closed (1).",
-          "highlightTerm": "Electronic Switch Circuit Diagram"
-        },
-        {
-          "id": "b-g10-u3-9-12",
-          "en": "Logic Symbol (ලොජික් සංකේතය):",
-          "si": "Logic Symbol (ලොජික් සංකේතය):",
-          "highlightTerm": "Logic Symbol"
-        },
-        {
-          "id": "b-g10-u3-9-13",
-          "en": "Truth Table (සත්‍යතා වගුව):",
-          "si": "Truth Table (සත්‍යතා වගුව):",
-          "highlightTerm": "Truth Table"
-        },
-        {
-          "id": "b-g10-u3-9-14",
-          "en": "#### 4.2.3 NOT Gate / Inverter (නොවන ද්වාරය / ප්‍රතිලෝමකය)",
-          "si": "#### 4.2.3 NOT Gate / Inverter (නොවන ද්වාරය / ප්‍රතිලෝමකය)",
-          "highlightTerm": "NOT Gate / Inverter"
-        },
-        {
-          "id": "b-g10-u3-9-15",
-          "en": "Definition & Rule:\nA NOT gate has only one input and one output. It reverses (inverts) the logic state. If the input is 0, the output is 1. If the input is 1, the output is 0.",
-          "si": "අර්ථ දැක්වීම සහ නීතිය:\nNOT ද්වාරය සඳහා පවතින්නේ එක් ආදානයක් සහ එක් ප්‍රතිදානයක් පමණි. එය ආදාන සංඥාව ප්‍රතිලෝම කරයි. ආදානය 0 වන විට ප්‍රතිදානය 1 වන අතර ආදානය 1 වන විට ප්‍රතිදානය 0 වේ.",
-          "highlightTerm": "Definition & Rule"
-        },
-        {
-          "id": "b-g10-u3-9-16",
-          "en": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = \\bar{A} \\quad \\text{or} \\quad Q = A'$$",
-          "si": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = \\bar{A} \\quad \\text{or} \\quad Q = A'$$",
-          "highlightTerm": "Boolean Expression"
-        },
-        {
-          "id": "b-g10-u3-9-17",
-          "en": "Electronic Switch Circuit Diagram (විද්‍යුත් ස්විච පරිපථ සටහන - Inverter Bypass Switch):**\n* *Circuit Rule:* When Switch A is Open (0), current flows through Bulb Q (1). When Switch A is Pressed/Closed (1), short-circuit bypasses the bulb, turning Bulb Q OFF (0).",
-          "si": "Electronic Switch Circuit Diagram (විද්‍යුත් ස්විච පරිපථ සටහන - Inverter Bypass Switch):**\n* *Circuit Rule:* When Switch A is Open (0), current flows through Bulb Q (1). When Switch A is Pressed/Closed (1), short-circuit bypasses the bulb, turning Bulb Q OFF (0).",
-          "highlightTerm": "Electronic Switch Circuit Diagram"
-        },
-        {
-          "id": "b-g10-u3-9-18",
-          "en": "Logic Symbol (ලොජික් සංකේතය):",
-          "si": "Logic Symbol (ලොජික් සංකේතය):",
-          "highlightTerm": "Logic Symbol"
-        },
-        {
-          "id": "b-g10-u3-9-19",
-          "en": "Truth Table (සත්‍යතා වගුව):",
-          "si": "Truth Table (සත්‍යතා වගුව):",
-          "highlightTerm": "Truth Table"
-        }
-      ],
-      "examples": [
-        {
-          "id": "ex-widget-4.2",
-          "titleEn": "Interactive Tool",
-          "titleSi": "අන්තර්ක්‍රියාකාරී මෙවලම",
-          "isInteractiveWidget": "logic-gate"
-        },
-        {
-          "id": "ex-4-2-1",
-          "titleEn": "Schematic / Code Diagram 1",
-          "titleSi": "පරිපථ / කේත සටහන 1",
-          "contentEn": "+---[ Switch A ]---[ Switch B ]---( Bulb Q )---+\n  |                                              |\n  +-----------------( Battery )------------------+",
-          "contentSi": "+---[ Switch A ]---[ Switch B ]---( Bulb Q )---+\n  |                                              |\n  +-----------------( Battery )------------------+"
-        },
-        {
-          "id": "ex-4-2-2",
-          "titleEn": "Schematic / Code Diagram 2",
-          "titleSi": "පරිපථ / කේත සටහන 2",
-          "contentEn": "A ---|        |  )--- Q = A · B\n  B ---| /",
-          "contentSi": "A ---|        |  )--- Q = A · B\n  B ---| /"
-        },
-        {
-          "id": "ex-4-2-3",
-          "titleEn": "Schematic / Code Diagram 3",
-          "titleSi": "පරිපථ / කේත සටහන 3",
-          "contentEn": "+-------+---[ Switch A ]---+-------( Bulb Q )---+\n  |       |                  |                    |\n  |       +---[ Switch B ]---+                    |\n  |                                               |\n  +--------------------( Battery )----------------+",
-          "contentSi": "+-------+---[ Switch A ]---+-------( Bulb Q )---+\n  |       |                  |                    |\n  |       +---[ Switch B ]---+                    |\n  |                                               |\n  +--------------------( Battery )----------------+"
-        },
-        {
-          "id": "ex-4-2-4",
-          "titleEn": "Schematic / Code Diagram 4",
-          "titleSi": "පරිපථ / කේත සටහන 4",
-          "contentEn": "A ---\\         ) )--- Q = A + B\n  B ---/ /",
-          "contentSi": "A ---\\         ) )--- Q = A + B\n  B ---/ /"
-        },
-        {
-          "id": "ex-4-2-5",
-          "titleEn": "Schematic / Code Diagram 5",
-          "titleSi": "පරිපථ / කේත සටහන 5",
-          "contentEn": "+---------------+----( Bulb Q )----+\n  |               |                  |\n  |        [ Push Switch A ]         |\n  |               |                  |\n  +-------( Battery )----------------+",
-          "contentSi": "+---------------+----( Bulb Q )----+\n  |               |                  |\n  |        [ Push Switch A ]         |\n  |               |                  |\n  +-------( Battery )----------------+"
-        },
-        {
-          "id": "ex-4-2-6",
-          "titleEn": "Schematic / Code Diagram 6",
-          "titleSi": "පරිපථ / කේත සටහන 6",
-          "contentEn": "A --->|o--- Q = A'",
-          "contentSi": "A --->|o--- Q = A'"
-        }
-      ],
-      "tableData": {
-        "headers": [],
-        "rows": [
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {},
-          {}
-        ]
-      },
-      "checkpointQuiz": {
-        "id": "q-g10-u3-9",
-        "questionEn": "Which of the following is the most accurate concept regarding Basic Logic Gates?",
-        "questionSi": "මූලික ලොජික් ද්වාර පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
-        "options": [
-          {
-            "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Basic Logic Gates",
-            "si": "මූලික ලොජික් ද්වාර පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
-          },
-          {
-            "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
-          },
-          {
-            "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
-          },
-          {
-            "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
-          }
-        ],
-        "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Basic Logic Gates.",
-        "explanationSi": "1 වන වරණය මගින් මූලික ලොජික් ද්වාර පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
-      }
-    },
-    {
-      "id": "g10-u3-st-10",
-      "number": "4.3",
-      "titleEn": "Combinational / Derived Logic Gates",
-      "titleSi": "සංයුක්ත / ව්‍යුත්පන්න ලොජික් ද්වාර",
-      "summaryEn": "Combinational / Derived Logic Gates concepts, definitions, and examination competencies.",
-      "summarySi": "සංයුක්ත / ව්‍යුත්පන්න ලොජික් ද්වාර සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
-      "blocks": [
-        {
-          "id": "b-g10-u3-10-1",
-          "en": "Derived gates combine basic logic gates. **NAND** and **NOR** are known as **Universal Gates** because any digital logic circuit can be constructed using only NAND gates or only NOR gates.",
-          "si": "Derived gates combine basic logic gates. **NAND** and **NOR** are known as **Universal Gates** because any digital logic circuit can be constructed using only NAND gates or only NOR gates.",
-          "highlightTerm": "Derived gates combine basic logic gates. **NAND** and **NOR** are known as **Universal Gates** because any digital logic circuit can be constructed using only NAND gates or only NOR gates"
-        },
-        {
-          "id": "b-g10-u3-10-2",
-          "en": "#### 4.3.1 NOR Gate (නැත-හෝ / NOR ද්වාරය)",
-          "si": "#### 4.3.1 NOR Gate (නැත-හෝ / NOR ද්වාරය)",
-          "highlightTerm": "NOR Gate"
-        },
-        {
-          "id": "b-g10-u3-10-3",
-          "en": "Definition & Rule:\nNOR gate is a combination of an OR gate followed by a NOT gate. It produces a high output (1) only if all inputs are low (0).",
-          "si": "අර්ථ දැක්වීම සහ නීතිය:\nNOR ද්වාරය යනු OR ද්වාරයක් සහ NOT ද්වාරයක් එකතුවෙන් සෑදුණු ද්වාරයකි. සියලුම ආදාන පහළ (0) මට්ටමේ පවතින විට පමණක් ප්‍රතිදානය ඉහළ (1) වේ.",
-          "highlightTerm": "Definition & Rule"
-        },
-        {
-          "id": "b-g10-u3-10-4",
-          "en": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = \\overline{A + B}$$",
-          "si": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = \\overline{A + B}$$",
-          "highlightTerm": "Boolean Expression"
-        },
-        {
-          "id": "b-g10-u3-10-5",
-          "en": "Logic Diagram & Symbol (ලොජික් සංකේතය):",
-          "si": "Logic Diagram & Symbol (ලොජික් සංකේතය):",
-          "highlightTerm": "Logic Diagram & Symbol"
-        },
-        {
-          "id": "b-g10-u3-10-6",
-          "en": "Truth Table (සත්‍යතා වගුව):",
-          "si": "Truth Table (සත්‍යතා වගුව):",
-          "highlightTerm": "Truth Table"
-        },
-        {
-          "id": "b-g10-u3-10-7",
-          "en": "#### 4.3.2 NAND Gate (නැත-සහ / NAND ද්වාරය)",
-          "si": "#### 4.3.2 NAND Gate (නැත-සහ / NAND ද්වාරය)",
-          "highlightTerm": "NAND Gate"
-        },
-        {
-          "id": "b-g10-u3-10-8",
-          "en": "Definition & Rule:\nNAND gate is a combination of an AND gate followed by a NOT gate. It produces a low output (0) only if all inputs are high (1).",
-          "si": "අර්ථ දැක්වීම සහ නීතිය:\nNAND ද්වාරය යනු AND ද්වාරයක් සහ NOT ද්වාරයක් එකතුවෙන් සෑදුණු ද්වාරයකි. සියලුම ආදාන ඉහළ (1) මට්ටමේ පවතින විට පමණක් ප්‍රතිදානය පහළ (0) වේ.",
-          "highlightTerm": "Definition & Rule"
-        },
-        {
-          "id": "b-g10-u3-10-9",
-          "en": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = \\overline{A \\cdot B}$$",
-          "si": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = \\overline{A \\cdot B}$$",
-          "highlightTerm": "Boolean Expression"
-        },
-        {
-          "id": "b-g10-u3-10-10",
-          "en": "Logic Diagram & Symbol (ලොජික් සංකේතය):",
-          "si": "Logic Diagram & Symbol (ලොජික් සංකේතය):",
-          "highlightTerm": "Logic Diagram & Symbol"
-        },
-        {
-          "id": "b-g10-u3-10-11",
-          "en": "Truth Table (සත්‍යතා වගුව):",
-          "si": "Truth Table (සත්‍යතා වගුව):",
-          "highlightTerm": "Truth Table"
-        },
-        {
-          "id": "b-g10-u3-10-12",
-          "en": "#### 4.3.3 XOR Gate (Exclusive-OR / විශේෂිත හෝ ද්වාරය)",
-          "si": "#### 4.3.3 XOR Gate (Exclusive-OR / විශේෂිත හෝ ද්වාරය)",
-          "highlightTerm": "XOR Gate"
-        },
-        {
-          "id": "b-g10-u3-10-13",
-          "en": "Definition & Rule:\nXOR (Exclusive-OR) gate gives a high output (1) if the inputs are different from each other. If all inputs are the same, the output is low (0).",
-          "si": "අර්ථ දැක්වීම සහ නීතිය:\nXOR ද්වාරයක ආදාන එකිනෙකට වෙනස් වන අවස්ථාවල දී පමණක් ප්‍රතිදානය ඉහළ (1) වේ. ආදාන සියල්ල සමාන වන විට ප්‍රතිදානය පහළ (0) වේ.",
-          "highlightTerm": "Definition & Rule"
-        },
-        {
-          "id": "b-g10-u3-10-14",
-          "en": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = A \\oplus B = \\bar{A}B + A\\bar{B}$$",
-          "si": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = A \\oplus B = \\bar{A}B + A\\bar{B}$$",
-          "highlightTerm": "Boolean Expression"
-        },
-        {
-          "id": "b-g10-u3-10-15",
-          "en": "Logic Symbol (ලොජික් සංකේතය):",
-          "si": "Logic Symbol (ලොජික් සංකේතය):",
-          "highlightTerm": "Logic Symbol"
-        },
-        {
-          "id": "b-g10-u3-10-16",
-          "en": "Truth Table (සත්‍යතා වගුව):",
-          "si": "Truth Table (සත්‍යතා වගුව):",
-          "highlightTerm": "Truth Table"
-        },
-        {
-          "id": "b-g10-u3-10-17",
-          "en": "Construction using Basic Gates (මූලික ද්වාර මගින් ගොඩනැගීම):",
-          "si": "Construction using Basic Gates (මූලික ද්වාර මගින් ගොඩනැගීම):",
-          "highlightTerm": "Construction using Basic Gates"
-        },
-        {
-          "id": "b-g10-u3-10-18",
-          "en": "#### 4.3.4 XNOR Gate (Exclusive-NOR / විශේෂිත නැත-හෝ ද්වාරය)",
-          "si": "#### 4.3.4 XNOR Gate (Exclusive-NOR / විශේෂිත නැත-හෝ ද්වාරය)",
-          "highlightTerm": "XNOR Gate"
-        },
-        {
-          "id": "b-g10-u3-10-19",
-          "en": "Definition & Rule:\nXNOR (Exclusive-NOR) gate gives a high output (1) if all inputs are the same. If the inputs are different, the output is low (0).",
-          "si": "අර්ථ දැක්වීම සහ නීතිය:\nXNOR ද්වාරයක ආදාන සියල්ල එක හා සමාන වන අවස්ථාවල දී පමණක් ප්‍රතිදානය ඉහළ (1) වේ. ආදාන එකිනෙකට වෙනස් වන විට ප්‍රතිදානය පහළ (0) වේ.",
-          "highlightTerm": "Definition & Rule"
-        },
-        {
-          "id": "b-g10-u3-10-20",
-          "en": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = \\overline{A \\oplus B} = AB + \\bar{A}\\bar{B}$$",
-          "si": "Boolean Expression (බූලියානු ප්‍රකාශනය):**\n$$Q = \\overline{A \\oplus B} = AB + \\bar{A}\\bar{B}$$",
-          "highlightTerm": "Boolean Expression"
-        },
-        {
-          "id": "b-g10-u3-10-21",
-          "en": "Logic Symbol (ලොජික් සංකේතය):",
-          "si": "Logic Symbol (ලොජික් සංකේතය):",
-          "highlightTerm": "Logic Symbol"
-        },
-        {
-          "id": "b-g10-u3-10-22",
-          "en": "Truth Table (සත්‍යතා වගුව):",
-          "si": "Truth Table (සත්‍යතා වගුව):",
-          "highlightTerm": "Truth Table"
-        }
-      ],
-      "examples": [
-        {
-          "id": "ex-4-3-1",
-          "titleEn": "Schematic / Code Diagram 1",
-          "titleSi": "පරිපථ / කේත සටහන 1",
-          "contentEn": "OR Gate followed by NOT Inverter:\n  A ---\\         ) )---[OR Output]--->|o--- Q = (A + B)'\n  B ---/ /\n\n  Standard NOR Gate Symbol:\n  A ---\\         ) )o--- Q = (A + B)'\n  B ---/ /",
-          "contentSi": "OR Gate followed by NOT Inverter:\n  A ---\\         ) )---[OR Output]--->|o--- Q = (A + B)'\n  B ---/ /\n\n  Standard NOR Gate Symbol:\n  A ---\\         ) )o--- Q = (A + B)'\n  B ---/ /"
-        },
-        {
-          "id": "ex-4-3-2",
-          "titleEn": "Schematic / Code Diagram 2",
-          "titleSi": "පරිපථ / කේත සටහන 2",
-          "contentEn": "AND Gate followed by NOT Inverter:\n  A ---|        |  )---[AND Output]--->|o--- Q = (A · B)'\n  B ---| /\n\n  Standard NAND Gate Symbol:\n  A ---|        |  )o--- Q = (A · B)'\n  B ---| /",
-          "contentSi": "AND Gate followed by NOT Inverter:\n  A ---|        |  )---[AND Output]--->|o--- Q = (A · B)'\n  B ---| /\n\n  Standard NAND Gate Symbol:\n  A ---|        |  )o--- Q = (A · B)'\n  B ---| /"
-        },
-        {
-          "id": "ex-4-3-3",
-          "titleEn": "Schematic / Code Diagram 3",
-          "titleSi": "පරිපථ / කේත සටහන 3",
-          "contentEn": "A --)\\        ) )--- Q = A ⊕ B\n  B --)/ /",
-          "contentSi": "A --)\\        ) )--- Q = A ⊕ B\n  B --)/ /"
-        },
-        {
-          "id": "ex-4-3-4",
-          "titleEn": "Schematic / Code Diagram 4",
-          "titleSi": "පරිපථ / කේත සටහන 4",
-          "contentEn": "A ----+------>|o---[A']-----        |                        |         |   +------------------->|  )----[A'B]----        |   |                    | /                       |   |                                       \\ ---\\         |   |                                        )    )--- Q = A'B + AB'\n        |   +-------->|o---[B']--\\                  / ---/ /\n        |                        | \\               /\n        +----------------------->|  )----[AB']----/\n                                 | /",
-          "contentSi": "A ----+------>|o---[A']-----        |                        |         |   +------------------->|  )----[A'B]----        |   |                    | /                       |   |                                       \\ ---\\         |   |                                        )    )--- Q = A'B + AB'\n        |   +-------->|o---[B']--\\                  / ---/ /\n        |                        | \\               /\n        +----------------------->|  )----[AB']----/\n                                 | /"
-        },
-        {
-          "id": "ex-4-3-5",
-          "titleEn": "Schematic / Code Diagram 5",
-          "titleSi": "පරිපථ / කේත සටහන 5",
-          "contentEn": "A --)\\        ) )o--- Q = (A ⊕ B)'\n  B --)/ /",
-          "contentSi": "A --)\\        ) )o--- Q = (A ⊕ B)'\n  B --)/ /"
-        }
-      ],
-      "tableData": {
-        "headers": [
-          {
-            "en": "Input A",
-            "si": "Input A"
-          },
-          {
-            "en": "Input B",
-            "si": "Input B"
-          },
-          {
-            "en": "OR $(A + B)$",
-            "si": "OR $(A + B)$"
-          },
-          {
-            "en": "Output $Q = \\overline{A + B}$",
-            "si": "Output $Q = \\overline{A + B}$"
-          }
-        ],
-        "rows": [
-          {
-            "col0": {
-              "en": "0",
-              "si": ""
-            },
-            "col1": {
-              "en": "0",
-              "si": ""
-            },
-            "col2": {
-              "en": "0",
-              "si": ""
-            },
-            "col3": {
-              "en": "1",
-              "si": "1"
-            }
-          },
-          {
-            "col0": {
-              "en": "0",
-              "si": ""
-            },
-            "col1": {
-              "en": "1",
-              "si": ""
-            },
-            "col2": {
-              "en": "1",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            }
-          },
-          {
-            "col0": {
-              "en": "1",
-              "si": ""
-            },
-            "col1": {
-              "en": "0",
-              "si": ""
-            },
-            "col2": {
-              "en": "1",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            }
-          },
-          {
-            "col0": {
-              "en": "1",
-              "si": ""
-            },
-            "col1": {
-              "en": "1",
-              "si": ""
-            },
-            "col2": {
-              "en": "1",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            }
-          },
-          {
-            "col0": {
-              "en": "Input A",
-              "si": "Input A"
-            },
-            "col1": {
-              "en": "Input B",
-              "si": "Input B"
-            },
-            "col2": {
-              "en": "AND $(A \\cdot B)$",
-              "si": "AND $(A \\cdot B)$"
-            },
-            "col3": {
-              "en": "Output $Q = \\overline{A \\cdot B}$",
-              "si": "Output $Q = \\overline{A \\cdot B}$"
-            }
-          },
-          {
-            "col0": {
-              "en": ":---:",
-              "si": ":---:"
-            },
-            "col1": {
-              "en": ":---:",
-              "si": ":---:"
-            },
-            "col2": {
-              "en": ":---:",
-              "si": ":---:"
-            },
-            "col3": {
-              "en": ":---:",
-              "si": ":---:"
-            }
-          },
-          {
-            "col0": {
-              "en": "0",
-              "si": ""
-            },
-            "col1": {
-              "en": "0",
-              "si": ""
-            },
-            "col2": {
-              "en": "0",
-              "si": ""
-            },
-            "col3": {
-              "en": "1",
-              "si": "1"
-            }
-          },
-          {
-            "col0": {
-              "en": "0",
-              "si": ""
-            },
-            "col1": {
-              "en": "1",
-              "si": ""
-            },
-            "col2": {
-              "en": "0",
-              "si": ""
-            },
-            "col3": {
-              "en": "1",
-              "si": "1"
-            }
-          },
-          {
-            "col0": {
-              "en": "1",
-              "si": ""
-            },
-            "col1": {
-              "en": "0",
-              "si": ""
-            },
-            "col2": {
-              "en": "0",
-              "si": ""
-            },
-            "col3": {
-              "en": "1",
-              "si": "1"
-            }
-          },
-          {
-            "col0": {
-              "en": "1",
-              "si": ""
-            },
-            "col1": {
-              "en": "1",
-              "si": ""
-            },
-            "col2": {
-              "en": "1",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            }
-          },
-          {
-            "col0": {
-              "en": "Input A",
-              "si": "Input A"
-            },
-            "col1": {
-              "en": "Input B",
-              "si": "Input B"
-            },
-            "col2": {
-              "en": "Output $Q = A \\oplus B$",
-              "si": "Output $Q = A \\oplus B$"
-            },
-            "col3": {
-              "en": "",
-              "si": ""
-            }
-          },
-          {
-            "col0": {
-              "en": ":---:",
-              "si": ":---:"
-            },
-            "col1": {
-              "en": ":---:",
-              "si": ":---:"
-            },
-            "col2": {
-              "en": ":---:",
-              "si": ":---:"
-            },
-            "col3": {
-              "en": "",
-              "si": ""
-            }
-          },
-          {
-            "col0": {
-              "en": "0",
-              "si": ""
-            },
-            "col1": {
-              "en": "0",
-              "si": ""
-            },
-            "col2": {
-              "en": "0",
-              "si": "0"
-            },
-            "col3": {
-              "en": "",
-              "si": ""
-            }
-          },
-          {
-            "col0": {
-              "en": "0",
-              "si": ""
-            },
-            "col1": {
-              "en": "1",
-              "si": ""
-            },
-            "col2": {
-              "en": "1",
-              "si": "1"
-            },
-            "col3": {
-              "en": "",
-              "si": ""
-            }
-          },
-          {
-            "col0": {
-              "en": "1",
-              "si": ""
-            },
-            "col1": {
-              "en": "0",
-              "si": ""
-            },
-            "col2": {
-              "en": "1",
-              "si": "1"
-            },
-            "col3": {
-              "en": "",
-              "si": ""
-            }
-          },
-          {
-            "col0": {
-              "en": "1",
-              "si": ""
-            },
-            "col1": {
-              "en": "1",
-              "si": ""
-            },
-            "col2": {
-              "en": "0",
-              "si": "0"
-            },
-            "col3": {
-              "en": "",
-              "si": ""
-            }
-          },
-          {
-            "col0": {
-              "en": "+-------->",
-              "si": "+-------->"
-            },
-            "col1": {
-              "en": "",
-              "si": ""
-            },
-            "col2": {
-              "en": "",
-              "si": ""
-            },
-            "col3": {
-              "en": "",
-              "si": ""
-            }
-          },
-          {
-            "col0": {
-              "en": "",
-              "si": ""
-            },
-            "col1": {
-              "en": "",
-              "si": ""
-            },
-            "col2": {
-              "en": "",
-              "si": ""
-            },
-            "col3": {
-              "en": "",
-              "si": ""
-            }
-          },
-          {
-            "col0": {
-              "en": "Input A",
-              "si": "Input A"
-            },
-            "col1": {
-              "en": "Input B",
-              "si": "Input B"
-            },
-            "col2": {
-              "en": "XOR $(A \\oplus B)$",
-              "si": "XOR $(A \\oplus B)$"
-            },
-            "col3": {
-              "en": "Output $Q = \\overline{A \\oplus B}$",
-              "si": "Output $Q = \\overline{A \\oplus B}$"
-            }
-          },
-          {
-            "col0": {
-              "en": ":---:",
-              "si": ":---:"
-            },
-            "col1": {
-              "en": ":---:",
-              "si": ":---:"
-            },
-            "col2": {
-              "en": ":---:",
-              "si": ":---:"
-            },
-            "col3": {
-              "en": ":---:",
-              "si": ":---:"
-            }
-          },
-          {
-            "col0": {
-              "en": "0",
-              "si": ""
-            },
-            "col1": {
-              "en": "0",
-              "si": ""
-            },
-            "col2": {
-              "en": "0",
-              "si": ""
-            },
-            "col3": {
-              "en": "1",
-              "si": "1"
-            }
-          },
-          {
-            "col0": {
-              "en": "0",
-              "si": ""
-            },
-            "col1": {
-              "en": "1",
-              "si": ""
-            },
-            "col2": {
-              "en": "1",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            }
-          },
-          {
-            "col0": {
-              "en": "1",
-              "si": ""
-            },
-            "col1": {
-              "en": "0",
-              "si": ""
-            },
-            "col2": {
-              "en": "1",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            }
-          },
-          {
-            "col0": {
-              "en": "1",
-              "si": ""
-            },
-            "col1": {
-              "en": "1",
-              "si": ""
-            },
-            "col2": {
-              "en": "0",
-              "si": ""
-            },
-            "col3": {
-              "en": "1",
-              "si": "1"
-            }
-          }
-        ]
-      },
-      "checkpointQuiz": {
-        "id": "q-g10-u3-10",
-        "questionEn": "Which of the following is the most accurate concept regarding Combinational / Derived Logic Gates?",
-        "questionSi": "සංයුක්ත / ව්‍යුත්පන්න ලොජික් ද්වාර පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
-        "options": [
-          {
-            "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Combinational / Derived Logic Gates",
-            "si": "සංයුක්ත / ව්‍යුත්පන්න ලොජික් ද්වාර පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
-          },
-          {
-            "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
-          },
-          {
-            "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
-          },
-          {
-            "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
-          }
-        ],
-        "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Combinational / Derived Logic Gates.",
-        "explanationSi": "1 වන වරණය මගින් සංයුක්ත / ව්‍යුත්පන්න ලොජික් ද්වාර පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
-      }
-    },
-    {
-      "id": "g10-u3-st-11",
-      "number": "4.4",
-      "titleEn": "3-Input Logic Gate Extensions",
-      "titleSi": "ආදාන 3 ප්‍රසාරණ",
-      "summaryEn": "3-Input Logic Gate Extensions concepts, definitions, and examination competencies.",
-      "summarySi": "ආදාන 3 ප්‍රසාරණ සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
-      "blocks": [
-        {
-          "id": "b-g10-u3-11-1",
-          "en": "#### 4.4.1 3-Input AND Gate & 3-Input OR Gate",
-          "si": "#### 4.4.1 3-Input AND Gate & 3-Input OR Gate",
-          "highlightTerm": "Input AND Gate & 3-Input OR Gate"
-        },
-        {
-          "id": "b-g10-u3-11-2",
-          "en": "3-Input AND Gate ($Q = A \\cdot B \\cdot C$):**\n* *Truth Rule:* Output $Q=1$ ONLY when $A=1, B=1, C=1$.",
-          "si": "3-Input AND Gate ($Q = A \\cdot B \\cdot C$):**\n* *Truth Rule:* Output $Q=1$ ONLY when $A=1, B=1, C=1$.",
-          "highlightTerm": "Input AND Gate"
-        },
-        {
-          "id": "b-g10-u3-11-3",
-          "en": "3-Input OR Gate ($Q = A + B + C$):**\n* *Truth Rule:* Output $Q=1$ if ANY input ($A, B,$ or $C$) is $1$.",
-          "si": "3-Input OR Gate ($Q = A + B + C$):**\n* *Truth Rule:* Output $Q=1$ if ANY input ($A, B,$ or $C$) is $1$.",
-          "highlightTerm": "Input OR Gate"
-        },
-        {
-          "id": "b-g10-u3-11-4",
-          "en": "Complete 8-Row Truth Table for 3-Input Gates:",
-          "si": "Complete 8-Row Truth Table for 3-Input Gates:",
-          "highlightTerm": "Complete 8-Row Truth Table for 3-Input Gates"
-        }
-      ],
-      "examples": [
-        {
-          "id": "ex-4-4-1",
-          "titleEn": "Schematic / Code Diagram 1",
-          "titleSi": "පරිපථ / කේත සටහන 1",
-          "contentEn": "A ---|   B ---|  )--- Q = A · B · C\n  C ---| /",
-          "contentSi": "A ---|   B ---|  )--- Q = A · B · C\n  C ---| /"
-        },
-        {
-          "id": "ex-4-4-2",
-          "titleEn": "Schematic / Code Diagram 2",
-          "titleSi": "පරිපථ / කේත සටහන 2",
-          "contentEn": "A ---\\   B ----) )--- Q = A + B + C\n  C ---/ /",
-          "contentSi": "A ---\\   B ----) )--- Q = A + B + C\n  C ---/ /"
-        }
-      ],
-      "tableData": {
-        "headers": [
-          {
-            "en": "Input A",
-            "si": "Input A"
-          },
-          {
-            "en": "Input B",
-            "si": "Input B"
-          },
-          {
-            "en": "Input C",
-            "si": "Input C"
-          },
-          {
-            "en": "Input AND",
-            "si": "$A \\cdot B \\cdot C$"
-          },
-          {
-            "en": "Input OR",
-            "si": "$A + B + C$"
-          },
-          {
-            "en": "Input NAND",
-            "si": "$\\overline{A \\cdot B \\cdot C}$"
-          },
-          {
-            "en": "Input NOR",
-            "si": "$\\overline{A + B + C}$"
-          }
-        ],
-        "rows": [
-          {
-            "col0": {
-              "en": "0",
-              "si": ""
-            },
-            "col1": {
-              "en": "0",
-              "si": ""
-            },
-            "col2": {
-              "en": "0",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            },
-            "col4": {
-              "en": "0",
-              "si": "0"
-            },
-            "col5": {
-              "en": "1",
-              "si": "1"
-            },
-            "col6": {
-              "en": "1",
-              "si": "1"
-            }
-          },
-          {
-            "col0": {
-              "en": "0",
-              "si": ""
-            },
-            "col1": {
-              "en": "0",
-              "si": ""
-            },
-            "col2": {
-              "en": "1",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            },
-            "col4": {
-              "en": "1",
-              "si": "1"
-            },
-            "col5": {
-              "en": "1",
-              "si": "1"
-            },
-            "col6": {
-              "en": "0",
-              "si": "0"
-            }
-          },
-          {
-            "col0": {
-              "en": "0",
-              "si": ""
-            },
-            "col1": {
-              "en": "1",
-              "si": ""
-            },
-            "col2": {
-              "en": "0",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            },
-            "col4": {
-              "en": "1",
-              "si": "1"
-            },
-            "col5": {
-              "en": "1",
-              "si": "1"
-            },
-            "col6": {
-              "en": "0",
-              "si": "0"
-            }
-          },
-          {
-            "col0": {
-              "en": "0",
-              "si": ""
-            },
-            "col1": {
-              "en": "1",
-              "si": ""
-            },
-            "col2": {
-              "en": "1",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            },
-            "col4": {
-              "en": "1",
-              "si": "1"
-            },
-            "col5": {
-              "en": "1",
-              "si": "1"
-            },
-            "col6": {
-              "en": "0",
-              "si": "0"
-            }
-          },
-          {
-            "col0": {
-              "en": "1",
-              "si": ""
-            },
-            "col1": {
-              "en": "0",
-              "si": ""
-            },
-            "col2": {
-              "en": "0",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            },
-            "col4": {
-              "en": "1",
-              "si": "1"
-            },
-            "col5": {
-              "en": "1",
-              "si": "1"
-            },
-            "col6": {
-              "en": "0",
-              "si": "0"
-            }
-          },
-          {
-            "col0": {
-              "en": "1",
-              "si": ""
-            },
-            "col1": {
-              "en": "0",
-              "si": ""
-            },
-            "col2": {
-              "en": "1",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            },
-            "col4": {
-              "en": "1",
-              "si": "1"
-            },
-            "col5": {
-              "en": "1",
-              "si": "1"
-            },
-            "col6": {
-              "en": "0",
-              "si": "0"
-            }
-          },
-          {
-            "col0": {
-              "en": "1",
-              "si": ""
-            },
-            "col1": {
-              "en": "1",
-              "si": ""
-            },
-            "col2": {
-              "en": "0",
-              "si": ""
-            },
-            "col3": {
-              "en": "0",
-              "si": "0"
-            },
-            "col4": {
-              "en": "1",
-              "si": "1"
-            },
-            "col5": {
-              "en": "1",
-              "si": "1"
-            },
-            "col6": {
-              "en": "0",
-              "si": "0"
-            }
-          },
-          {
-            "col0": {
-              "en": "1",
-              "si": ""
-            },
-            "col1": {
-              "en": "1",
-              "si": ""
-            },
-            "col2": {
-              "en": "1",
-              "si": ""
-            },
-            "col3": {
-              "en": "1",
-              "si": "1"
-            },
-            "col4": {
-              "en": "1",
-              "si": "1"
-            },
-            "col5": {
-              "en": "0",
-              "si": "0"
-            },
-            "col6": {
-              "en": "0",
-              "si": "0"
-            }
-          }
-        ]
-      },
-      "checkpointQuiz": {
-        "id": "q-g10-u3-11",
-        "questionEn": "Which of the following is the most accurate concept regarding 3-Input Logic Gate Extensions?",
-        "questionSi": "ආදාන 3 ප්‍රසාරණ පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
-        "options": [
-          {
-            "id": "1",
-            "en": "Key official syllabus competency and textbook definition of 3-Input Logic Gate Extensions",
-            "si": "ආදාන 3 ප්‍රසාරණ පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
-          },
-          {
-            "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
-          },
-          {
-            "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
-          },
-          {
-            "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
-          }
-        ],
-        "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for 3-Input Logic Gate Extensions.",
-        "explanationSi": "1 වන වරණය මගින් ආදාන 3 ප්‍රසාරණ පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
-      }
-    },
-    {
-      "id": "g10-u3-st-12",
-      "number": "4.5",
-      "titleEn": "Integrated Circuit",
-      "titleSi": "IC) Pin Layouts (අනුකලිත පරිපථ කෙවෙනි සැකස්ම",
-      "summaryEn": "Integrated Circuit concepts, definitions, and examination competencies.",
-      "summarySi": "IC) Pin Layouts (අනුකලිත පරිපථ කෙවෙනි සැකස්ම සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
-      "blocks": [
-        {
-          "id": "b-g10-u3-12-1",
-          "en": "In practical electronics, logic gates are available as 14-pin Dual In-line Package (DIP) Integrated Circuits.",
-          "si": "In practical electronics, logic gates are available as 14-pin Dual In-line Package (DIP) Integrated Circuits.",
-          "highlightTerm": "In practical electronics, logic gates are available as 14-pin Dual In-line Package (DIP) Integrated Circuits"
-        },
-        {
-          "id": "b-g10-u3-12-2",
-          "en": "#### 4.5.1 7400 IC - Quad 2-Input NAND Gate",
-          "si": "#### 4.5.1 7400 IC - Quad 2-Input NAND Gate",
-          "highlightTerm": "IC - Quad 2-Input NAND Gate"
-        },
-        {
-          "id": "b-g10-u3-12-3",
-          "en": "Pin Allocation Table:**\n- **Pin 14:** $V_{CC}$ (+5V Power Supply)\n- **Pin 7:** GND (Ground / 0V)\n- **Gate 1:** Pins 1 (In A), 2 (In B) $\\rightarrow$ Pin 3 (Out Y)\n- **Gate 2:** Pins 4 (In A), 5 (In B) $\\rightarrow$ Pin 6 (Out Y)\n- **Gate 3:** Pins 9 (In A), 10 (In B) $\\rightarrow$ Pin 8 (Out Y)\n- **Gate 4:** Pins 12 (In A), 13 (In B) $\\rightarrow$ Pin 11 (Out Y)",
-          "si": "Pin Allocation Table:**\n- **Pin 14:** $V_{CC}$ (+5V Power Supply)\n- **Pin 7:** GND (Ground / 0V)\n- **Gate 1:** Pins 1 (In A), 2 (In B) $\\rightarrow$ Pin 3 (Out Y)\n- **Gate 2:** Pins 4 (In A), 5 (In B) $\\rightarrow$ Pin 6 (Out Y)\n- **Gate 3:** Pins 9 (In A), 10 (In B) $\\rightarrow$ Pin 8 (Out Y)\n- **Gate 4:** Pins 12 (In A), 13 (In B) $\\rightarrow$ Pin 11 (Out Y)",
-          "highlightTerm": "Pin Allocation Table"
-        },
-        {
-          "id": "b-g10-u3-12-4",
-          "en": "#### 4.5.2 7402 IC - Quad 2-Input NOR Gate",
-          "si": "#### 4.5.2 7402 IC - Quad 2-Input NOR Gate",
-          "highlightTerm": "IC - Quad 2-Input NOR Gate"
-        },
-        {
-          "id": "b-g10-u3-12-5",
-          "en": "Critical Note (වැදගත් සටහන):** Unlike the 7400 IC, the 7402 NOR IC has its outputs on Pins 1, 4, 10, and 13 (Inputs are on 2,3 and 5,6).",
-          "si": "Critical Note (වැදගත් සටහන):** Unlike the 7400 IC, the 7402 NOR IC has its outputs on Pins 1, 4, 10, and 13 (Inputs are on 2,3 and 5,6).",
-          "highlightTerm": "Critical Note"
-        },
-        {
-          "id": "b-g10-u3-12-6",
-          "en": "#### 4.5.3 IC Summary Reference Table:",
-          "si": "#### 4.5.3 IC Summary Reference Table:",
-          "highlightTerm": "IC Summary Reference Table"
-        },
-        {
-          "id": "b-g10-u3-12-7",
-          "en": "7404 IC:** Hex Inverter (6 NOT Gates)",
-          "si": "7404 IC:** Hex Inverter (6 NOT Gates)",
-          "highlightTerm": "IC:** Hex Inverter"
-        },
-        {
-          "id": "b-g10-u3-12-8",
-          "en": "7408 IC:** Quad 2-Input AND Gate",
-          "si": "7408 IC:** Quad 2-Input AND Gate",
-          "highlightTerm": "IC:** Quad 2-Input AND Gate"
-        },
-        {
-          "id": "b-g10-u3-12-9",
-          "en": "7432 IC:** Quad 2-Input OR Gate",
-          "si": "7432 IC:** Quad 2-Input OR Gate",
-          "highlightTerm": "IC:** Quad 2-Input OR Gate"
-        },
-        {
-          "id": "b-g10-u3-12-10",
-          "en": "7486 IC:** Quad 2-Input XOR Gate",
-          "si": "7486 IC:** Quad 2-Input XOR Gate",
-          "highlightTerm": "IC:** Quad 2-Input XOR Gate"
-        }
-      ],
-      "examples": [
-        {
-          "id": "ex-4-5-1",
-          "titleEn": "Schematic / Code Diagram 1",
-          "titleSi": "පරිපථ / කේත සටහන 1",
-          "contentEn": "7400 IC (Quad 2-Input NAND)\n                              ┌───┬───┐\n                   1A  ──  1 ─┤   └───┤─ 14 ── VCC (+5V)\n                   1B  ──  2 ─┤       ├─ 13 ── 4B\n                   1Y  ──  3 ─┤       ├─ 12 ── 4A\n                   2A  ──  4 ─┤       ├─ 11 ── 4Y\n                   2B  ──  5 ─┤       ├─ 10 ── 3B\n                   2Y  ──  6 ─┤       ├─ 9  ── 3A\n                  GND  ──  7 ─┤       ├─ 8  ── 3Y\n                              └───────┘",
-          "contentSi": "7400 IC (Quad 2-Input NAND)\n                              ┌───┬───┐\n                   1A  ──  1 ─┤   └───┤─ 14 ── VCC (+5V)\n                   1B  ──  2 ─┤       ├─ 13 ── 4B\n                   1Y  ──  3 ─┤       ├─ 12 ── 4A\n                   2A  ──  4 ─┤       ├─ 11 ── 4Y\n                   2B  ──  5 ─┤       ├─ 10 ── 3B\n                   2Y  ──  6 ─┤       ├─ 9  ── 3A\n                  GND  ──  7 ─┤       ├─ 8  ── 3Y\n                              └───────┘"
-        },
-        {
-          "id": "ex-4-5-2",
-          "titleEn": "Schematic / Code Diagram 2",
-          "titleSi": "පරිපථ / කේත සටහන 2",
-          "contentEn": "7402 IC (Quad 2-Input NOR)\n                              ┌───┬───┐\n                   1Y  ──  1 ─┤   └───┤─ 14 ── VCC (+5V)\n                   1A  ──  2 ─┤       ├─ 13 ── 4Y\n                   1B  ──  3 ─┤       ├─ 12 ── 4B\n                   2Y  ──  4 ─┤       ├─ 11 ── 4A\n                   2A  ──  5 ─┤       ├─ 10 ── 3Y\n                   2B  ──  6 ─┤       ├─ 9  ── 3B\n                  GND  ──  7 ─┤       ├─ 8  ── 3A\n                              └───────┘",
-          "contentSi": "7402 IC (Quad 2-Input NOR)\n                              ┌───┬───┐\n                   1Y  ──  1 ─┤   └───┤─ 14 ── VCC (+5V)\n                   1A  ──  2 ─┤       ├─ 13 ── 4Y\n                   1B  ──  3 ─┤       ├─ 12 ── 4B\n                   2Y  ──  4 ─┤       ├─ 11 ── 4A\n                   2A  ──  5 ─┤       ├─ 10 ── 3Y\n                   2B  ──  6 ─┤       ├─ 9  ── 3B\n                  GND  ──  7 ─┤       ├─ 8  ── 3A\n                              └───────┘"
-        }
-      ],
-      "checkpointQuiz": {
-        "id": "q-g10-u3-12",
-        "questionEn": "Which of the following is the most accurate concept regarding Integrated Circuit?",
-        "questionSi": "IC) Pin Layouts (අනුකලිත පරිපථ කෙවෙනි සැකස්ම පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
-        "options": [
-          {
-            "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Integrated Circuit",
-            "si": "IC) Pin Layouts (අනුකලිත පරිපථ කෙවෙනි සැකස්ම පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
-          },
-          {
-            "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
-          },
-          {
-            "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
-          },
-          {
-            "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
-          }
-        ],
-        "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Integrated Circuit.",
-        "explanationSi": "1 වන වරණය මගින් IC) Pin Layouts (අනුකලිත පරිපථ කෙවෙනි සැකස්ම පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
-      }
+      "correctOptionId": "1",
+      "explanationEn": "Convert 73₈ to binary: 7 = 111₂, 3 = 011₂ -> 111011₂. Group into 4 bits from right: (0011)(1011)₂ = 3B₁₆.",
+      "explanationSi": "73₈ ද්විමය බවට පත් කළ විට: 111011₂ වේ. දකුණේ සිට බිටු 4 කාණ්ඩ කළ විට: (0011)(1011)₂ = 3B₁₆ වේ."
     }
-  ],
-  "pastPaperQuestions": [
-    {
-      "id": "pp-g10-u3-2020-1",
-      "year": 2020,
-      "paperType": "Paper I",
-      "badgeText": "2020 O/L Paper I - Question 33",
-      "questionEn": "Which of the following contains numbers in ascending order?",
-      "questionSi": "පහත කුමන වරණයෙහි දී ඇති සංඛ්‍යා හතරෙහි ආරෝහණ පටිපාටියට දක්වේ ද?",
-      "type": "mcq",
+  },
+  {
+    "id": "g10-u3-st-5",
+    "number": "3.5",
+    "titleEn": "RGB & Hexadecimal Color Representation",
+    "titleSi": "RGB සහ ෂඩ්දශමය වර්ණ නිරූපණය",
+    "summaryEn": "Digital color model combining Red, Green, and Blue (0-255 per channel, 24-bit True Color) and #RRGGBB hex code calculations.",
+    "summarySi": "රතු, කොළ සහ නිල් මූලික වර්ණ සංයෝජනය (0-255 පරාසය, 24-බිටු True Color) සහ #RRGGBB ෂඩ්දශම වර්ණ කේත ගණනය කිරීම.",
+    "blocks": [
+      {
+        "id": "b-g10-u3-5-1",
+        "en": "RGB Color Model & Hexadecimal #RRGGBB Structure:\nIn digital graphics, monitors, and web design, any visible color is synthesized by mixing varying intensities of Red (R), Green (G), and Blue (B). Each primary color channel is allocated 1 byte (8 bits), providing 256 discrete intensity levels ranging from 0 (minimum/dark) to 255 (maximum/full brightness). Combining all three channels creates 24-bit True Color: 2²⁴ = 16,777,216 distinct possible colors. In web systems (HTML/CSS), colors are written as a 6-character hexadecimal code preceded by '#' or '&H': #RRGGBB, where the first 2 hex digits represent Red (00₁₆ to FF₁₆), the middle 2 represent Green, and the last 2 represent Blue.",
+        "si": "RGB වර්ණ ආකෘතිය සහ #RRGGBB ෂඩ්දශම ව්‍යුහය:\nඩිජිටල් ප්‍රස්තාරික, මොනිටර් සහ වෙබ් අඩවි නිර්මාණයේදී රතු (Red), කොළ (Green) සහ නිල් (Blue) යන මූලික වර්ණ තුනෙහි විවිධ තීව්‍රතා මට්ටම් මිශ්‍ර කිරීමෙන් ඕනෑම වර්ණයක් සාදා ගත හැක. එක් එක් මූලික වර්ණ මාර්ගයට බයිට 1ක් (බිටු 8ක්) වෙන් කර ඇති බැවින්, 0 (අවම/අඳුරු) සිට 255 (උපරිම දීප්තිය) දක්වා වෙනස් තීව්‍රතා මට්ටම් 256ක් පවතී. මෙම වර්ණ 3 එකතු වීමෙන් 24-බිටු True Color නිර්මාණය වේ: 2²⁴ = 16,777,216 (මිලියන 16.7කට අධික) විවිධ වර්ණ සංයෝජන. වෙබ් පිටුවල (HTML/CSS) මෙම වර්ණ '#' හෝ '&H' සංකේතය සහිත අක්ෂර 6ක ෂඩ්දශම කේතයක් ලෙස ලියනු ලැබේ: #RRGGBB. මෙහි පළමු අකුරු දෙකෙන් රතු (00₁₆ සිට FF₁₆ දක්වා), මැද අකුරු දෙකෙන් කොළ, සහ අවසාන අකුරු දෙකෙන් නිල් නිරූපණය වේ.",
+        "highlightTerm": "RGB & Hex Color Structure"
+      },
+      {
+        "id": "b-g10-u3-5-2",
+        "en": "Step-by-Step Color Conversion Algorithm:\nTo convert a decimal RGB(R, G, B) value into hexadecimal #RRGGBB:\n1. Divide each decimal component (0–255) by 16.\n2. The quotient gives the first hex digit, and the remainder gives the second hex digit (replacing 10–15 with A–F).\n3. Concatenate the two-digit hex representations in order: Red + Green + Blue.\n* Official Textbook Table 3.13 Examples:\n  - Dark Purple: RGB(135, 31, 120) → Red: 135 ÷ 16 = 8 r 7 → 87₁₆; Green: 31 ÷ 16 = 1 r 15 (F) → 1F₁₆; Blue: 120 ÷ 16 = 7 r 8 → 78₁₆ => #871F78\n  - Light Pink: RGB(255, 182, 193) → #FFB6C1\n  - Sky Blue: RGB(50, 153, 204) → #3299CC\n  - Pure Green: RGB(0, 255, 0) → #00FF00\n  - Pure Yellow: RGB(255, 238, 0) → #FFEE00\n  - Pure White: RGB(255, 255, 255) → #FFFFFF\n  - Pure Black: RGB(0, 0, 0) → #000000",
+        "si": "පියවරෙන් පියවර වර්ණ පරිවර්තන ඇල්ගොරිතමය:\nදශමය RGB(R, G, B) අගයක් ෂඩ්දශම #RRGGBB බවට පත් කිරීමට:\n1. එක් එක් දශම වර්ණ සංරචකය (0–255) 16 න් බෙදන්න.\n2. ලැබෙන ලබ්ධිය පළමු ෂඩ්දශම අංකය වන අතර ශේෂය දෙවන ෂඩ්දශම අංකය වේ (10–15 සඳහා A–F ආදේශ කරන්න).\n3. රතු, කොළ, නිල් යන අනුපිළිවෙළින් අකුරු 6 එකට ලියන්න.\n* නිල පෙළපොතේ 3.13 වගුවේ උදාහරණ:\n  - තද දම් පාට: RGB(135, 31, 120) → රතු: 135 ÷ 16 = 8 ශේෂය 7 → 87₁₆; කොළ: 31 ÷ 16 = 1 ශේෂය 15 (F) → 1F₁₆; නිල්: 120 ÷ 16 = 7 ශේෂය 8 → 78₁₆ => #871F78\n  - ළා රෝස පාට: RGB(255, 182, 193) → #FFB6C1\n  - අහස් නිල්: RGB(50, 153, 204) → #3299CC\n  - තනි කොළ: RGB(0, 255, 0) → #00FF00\n  - තනි කහ: RGB(255, 238, 0) → #FFEE00\n  - සුදු පාට: RGB(255, 255, 255) → #FFFFFF\n  - කළු පාට: RGB(0, 0, 0) → #000000",
+        "highlightTerm": "Step-by-Step Color Conversion"
+      }
+    ],
+    "tableData": {
+      "headers": [
+        {
+          "en": "Name of Colour",
+          "si": "වර්ණයේ නම"
+        },
+        {
+          "en": "Hex Code",
+          "si": "ෂඩ්දශම කේතය"
+        },
+        {
+          "en": "Red (R)",
+          "si": "රතු (0-255)"
+        },
+        {
+          "en": "Green (G)",
+          "si": "කොළ (0-255)"
+        },
+        {
+          "en": "Blue (B)",
+          "si": "නිල් (0-255)"
+        },
+        {
+          "en": "Step-by-Step Calculation",
+          "si": "ගණනය කිරීම් පියවර"
+        }
+      ],
+      "rows": [
+        {
+          "col1": {
+            "en": "Dark Purple (තද දම්)",
+            "si": "තද දම්"
+          },
+          "col2": {
+            "en": "#871F78",
+            "si": "#871F78"
+          },
+          "col3": {
+            "en": "135",
+            "si": "135"
+          },
+          "col4": {
+            "en": "31",
+            "si": "31"
+          },
+          "col5": {
+            "en": "120",
+            "si": "120"
+          },
+          "col6": {
+            "en": "135 -> 87₁₆, 31 -> 1F₁₆, 120 -> 78₁₆",
+            "si": "135 -> 87₁₆, 31 -> 1F₁₆, 120 -> 78₁₆"
+          }
+        },
+        {
+          "col1": {
+            "en": "Light Pink (ළා රෝස)",
+            "si": "ළා රෝස"
+          },
+          "col2": {
+            "en": "#FFB6C1",
+            "si": "#FFB6C1"
+          },
+          "col3": {
+            "en": "255",
+            "si": "255"
+          },
+          "col4": {
+            "en": "182",
+            "si": "182"
+          },
+          "col5": {
+            "en": "193",
+            "si": "193"
+          },
+          "col6": {
+            "en": "255 -> FF₁₆, 182 -> B6₁₆, 193 -> C1₁₆",
+            "si": "255 -> FF₁₆, 182 -> B6₁₆, 193 -> C1₁₆"
+          }
+        },
+        {
+          "col1": {
+            "en": "Sky Blue (අහස් නිල්)",
+            "si": "අහස් නිල්"
+          },
+          "col2": {
+            "en": "#3299CC",
+            "si": "#3299CC"
+          },
+          "col3": {
+            "en": "50",
+            "si": "50"
+          },
+          "col4": {
+            "en": "153",
+            "si": "153"
+          },
+          "col5": {
+            "en": "204",
+            "si": "204"
+          },
+          "col6": {
+            "en": "50 -> 32₁₆, 153 -> 99₁₆, 204 -> CC₁₆",
+            "si": "50 -> 32₁₆, 153 -> 99₁₆, 204 -> CC₁₆"
+          }
+        },
+        {
+          "col1": {
+            "en": "Pure Green (තනි කොළ)",
+            "si": "තනි කොළ"
+          },
+          "col2": {
+            "en": "#00FF00",
+            "si": "#00FF00"
+          },
+          "col3": {
+            "en": "0",
+            "si": "0"
+          },
+          "col4": {
+            "en": "255",
+            "si": "255"
+          },
+          "col5": {
+            "en": "0",
+            "si": "0"
+          },
+          "col6": {
+            "en": "0 -> 00₁₆, 255 -> FF₁₆, 0 -> 00₁₆",
+            "si": "0 -> 00₁₆, 255 -> FF₁₆, 0 -> 00₁₆"
+          }
+        },
+        {
+          "col1": {
+            "en": "Pure Yellow (තනි කහ)",
+            "si": "තනි කහ"
+          },
+          "col2": {
+            "en": "#FFEE00",
+            "si": "#FFEE00"
+          },
+          "col3": {
+            "en": "255",
+            "si": "255"
+          },
+          "col4": {
+            "en": "238",
+            "si": "238"
+          },
+          "col5": {
+            "en": "0",
+            "si": "0"
+          },
+          "col6": {
+            "en": "255 -> FF₁₆, 238 -> EE₁₆, 0 -> 00₁₆",
+            "si": "255 -> FF₁₆, 238 -> EE₁₆, 0 -> 00₁₆"
+          }
+        }
+      ]
+    },
+    "examples": [
+      {
+        "id": "ex-widget-3.5",
+        "titleEn": "Interactive 24-Bit RGB Color Chamber",
+        "titleSi": "අන්තර්ක්‍රියාකාරී 24-බිටු RGB වර්ණ කුටිය",
+        "isInteractiveWidget": "hex-vat"
+      }
+    ],
+    "checkpointQuiz": {
+      "id": "q-g10-u3-5",
+      "questionEn": "What is the 6-character hexadecimal colour code for the primary colour Pure Blue with RGB(0, 0, 255)?",
+      "questionSi": "RGB(0, 0, 255) සහිත තනි නිල් (Pure Blue) මූලික වර්ණයෙහි අක්ෂර 6 ෂඩ්දශම වර්ණ කේතය කුමක්ද?",
       "options": [
         {
           "id": "1",
-          "en": "$64_{16}, 226_8, 200_{10}, 101011_2$",
-          "si": "$64_{16}, 226_8, 200_{10}, 101011_2$"
+          "en": "#0000FF",
+          "si": "#0000FF"
         },
         {
           "id": "2",
-          "en": "$101011_2, 64_{16}, 226_8, 200_{10}$",
-          "si": "$101011_2, 64_{16}, 226_8, 200_{10}$"
+          "en": "#FF0000",
+          "si": "#FF0000"
         },
         {
           "id": "3",
-          "en": "$101011_2, 64_{16}, 200_{10}, 226_8$",
-          "si": "$101011_2, 64_{16}, 200_{10}, 226_8$"
+          "en": "#00FF00",
+          "si": "#00FF00"
         },
         {
           "id": "4",
-          "en": "$200_{10}, 226_8, 101011_2, 64_{16}$",
-          "si": "$200_{10}, 226_8, 101011_2, 64_{16}$"
+          "en": "#000016",
+          "si": "#000016"
         }
       ],
       "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2020 O/L Paper I - Question 33.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2020 O/L Paper I - Question 33."
-    },
-    {
-      "id": "pp-g10-u3-2020-2",
-      "year": 2020,
-      "paperType": "Paper II",
-      "badgeText": "2020 O/L Paper II - Question 01 (iii) (a)",
-      "questionEn": "1. (iii) (a) Convert the octal number $867_8$ to its binary equivalent. Show the major steps of your calculation.\" *(Note: Official paper text)*",
-      "questionSi": "1. (iii) (a) $867_8$ අෂ්ටමය සංඛ්‍යාව එහි ද්විමය තුල්‍ය සංඛ්‍යාවට පරිවර්තනය කරන්න. ඔබේ ගණනය කිරීමේ ප්‍රධාන පියවර දක්වන්න.",
-      "type": "structured",
-      "sampleAnswerEn": "Octal to binary conversion: Each octal digit represents 3 binary bits.\nFor octal 867 (textbook typo note: 8 is invalid in base-8, standard 67_8 = 110 111_2 = 110111_2).",
-      "sampleAnswerSi": "අෂ්ටමය සිට ද්විමය පරිවර්තනය: එක් එක් අෂ්ටමය ඉලක්කම සඳහා ද්විමය බිටු 3 බැගින් ලියනු ලැබේ.\n(67_8 = 110 111_2 = 110111_2).",
-      "explanationEn": "Verbatim official examination question from 2020 O/L Paper II - Question 01 (iii) (a).",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2020 O/L Paper II - Question 01 (iii) (a)."
-    },
-    {
-      "id": "pp-g10-u3-2021-3",
-      "year": 2021,
-      "paperType": "Paper II",
-      "badgeText": "2021 O/L Paper II - Question 01 (iii) (a)",
-      "questionEn": "1. (iii) (a) Convert $47_{10}$ to its binary equivalent.",
-      "questionSi": "1. (iii) (a) $47_{10}$ හි ද්විමය තුල්‍ය සංඛ්‍යාවට පරිවර්තනය කරන්න.",
-      "type": "structured",
-      "sampleAnswerEn": "Converting decimal 47 to binary by continuous division by 2:\n47 / 2 = 23 R 1\n23 / 2 = 11 R 1\n11 / 2 = 5 R 1\n5 / 2 = 2 R 1\n2 / 2 = 1 R 0\n1 / 2 = 0 R 1\nReading remainders from bottom to top: 47_10 = 101111_2.",
-      "sampleAnswerSi": "47_10 දශමය සංඛ්‍යාව 2 න් බෙදීමේ ක්‍රමයෙන් ද්විමය බවට පත් කිරීම:\n47 / 2 = 23 ඉතිරිය 1\n23 / 2 = 11 ඉතිරිය 1\n11 / 2 = 5 ඉතිරිය 1\n5 / 2 = 2 ඉතිරිය 1\n2 / 2 = 1 ඉතිරිය 0\n1 / 2 = 0 ඉතිරිය 1\nයට සිට ඉහළට ඉතිරි අගයන් කියවීමෙන්: 47_10 = 101111_2.",
-      "explanationEn": "Verbatim official examination question from 2021 O/L Paper II - Question 01 (iii) (a).",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2021 O/L Paper II - Question 01 (iii) (a)."
-    },
-    {
-      "id": "pp-g10-u3-2022-4",
-      "year": 2022,
-      "paperType": "Paper I",
-      "badgeText": "2022 O/L Paper I - Question 06",
-      "questionEn": "Which of the following is the largest?",
-      "questionSi": "පහත දැක්වෙන ඒවායින් විශාලතම අගය කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "$1000 0100_2$",
-          "si": "$1000 0100_2$"
-        },
-        {
-          "id": "2",
-          "en": "$15_8$",
-          "si": "$15_8$"
-        },
-        {
-          "id": "3",
-          "en": "$85_{10}$",
-          "si": "$85_{10}$"
-        },
-        {
-          "id": "4",
-          "en": "$C2_{16}$",
-          "si": "$C2_{16}$"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2022 O/L Paper I - Question 06.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2022 O/L Paper I - Question 06."
-    },
-    {
-      "id": "pp-g10-u3-2022-5",
-      "year": 2022,
-      "paperType": "Paper I",
-      "badgeText": "2022 O/L Paper I - Question 07",
-      "questionEn": "Which of the following is the decimal equivalent of binary $1000 0101_2$?",
-      "questionSi": "$1000 0101_2$ ද්විමය සංඛ්‍යාවේ දශමය තුල්‍ය අගය කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "$85_{10}$",
-          "si": "$85_{10}$"
-        },
-        {
-          "id": "2",
-          "en": "$133_{10}$",
-          "si": "$133_{10}$"
-        },
-        {
-          "id": "3",
-          "en": "$161_{10}$",
-          "si": "$161_{10}$"
-        },
-        {
-          "id": "4",
-          "en": "$266_{10}$",
-          "si": "$266_{10}$"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2022 O/L Paper I - Question 07.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2022 O/L Paper I - Question 07."
-    },
-    {
-      "id": "pp-g10-u3-2022-6",
-      "year": 2022,
-      "paperType": "Paper I",
-      "badgeText": "2022 O/L Paper I - Question 08",
-      "questionEn": "Which of the following is the hexadecimal equivalent of octal $1156_8$?",
-      "questionSi": "$1156_8$ අෂ්ටමය සංඛ්‍යාවේ ෂඩ්දශමය තුල්‍ය අගය කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "$26E_{16}$",
-          "si": "$26E_{16}$"
-        },
-        {
-          "id": "2",
-          "en": "$484_{16}$",
-          "si": "$484_{16}$"
-        },
-        {
-          "id": "3",
-          "en": "$109C_{16}$",
-          "si": "$109C_{16}$"
-        },
-        {
-          "id": "4",
-          "en": "$2204_{16}$",
-          "si": "$2204_{16}$"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2022 O/L Paper I - Question 08.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2022 O/L Paper I - Question 08."
-    },
-    {
-      "id": "pp-g10-u3-2023-7",
-      "year": 2023,
-      "paperType": "Paper I",
-      "badgeText": "2023 O/L Paper I - Question 06",
-      "questionEn": "Which of the following is the octal equivalent of decimal $216_{10}$?",
-      "questionSi": "දශමය $216_{10}$ ට තුල්‍ය අෂ්ටමය සංඛ්‍යාව කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "$40_8$",
-          "si": "$40_8$"
-        },
-        {
-          "id": "2",
-          "en": "$43_8$",
-          "si": "$43_8$"
-        },
-        {
-          "id": "3",
-          "en": "$73_8$",
-          "si": "$73_8$"
-        },
-        {
-          "id": "4",
-          "en": "$330_8$",
-          "si": "$330_8$"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 06.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 06."
-    },
-    {
-      "id": "pp-g10-u3-2023-8",
-      "year": 2023,
-      "paperType": "Paper I",
-      "badgeText": "2023 O/L Paper I - Question 07",
-      "questionEn": "Which of the following is the decimal equivalent of binary $1000 1000_2$?",
-      "questionSi": "ද්විමය $1000 1000_2$ ට තුල්‍ය දශමය සංඛ්‍යාව කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "$24_{10}$",
-          "si": "$24_{10}$"
-        },
-        {
-          "id": "2",
-          "en": "$136_{10}$",
-          "si": "$136_{10}$"
-        },
-        {
-          "id": "3",
-          "en": "$272_{10}$",
-          "si": "$272_{10}$"
-        },
-        {
-          "id": "4",
-          "en": "$1024_{10}$",
-          "si": "$1024_{10}$"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 07.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 07."
-    },
-    {
-      "id": "pp-g10-u3-2023-9",
-      "year": 2023,
-      "paperType": "Paper I",
-      "badgeText": "2023 O/L Paper I - Question 08",
-      "questionEn": "Which of the following is the hexadecimal equivalent of octal $1572_8$?",
-      "questionSi": "අෂ්ටමය $1572_8$ ට තුල්‍ය ෂඩ්දශමය සංඛ්‍යාව කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "$DE8_{16}$",
-          "si": "$DE8_{16}$"
-        },
-        {
-          "id": "2",
-          "en": "$37A_{16}$",
-          "si": "$37A_{16}$"
-        },
-        {
-          "id": "3",
-          "en": "$3710_{16}$",
-          "si": "$3710_{16}$"
-        },
-        {
-          "id": "4",
-          "en": "$12562_{16}$",
-          "si": "$12562_{16}$"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 08.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 08."
-    },
-    {
-      "id": "pp-g10-u3-2024-10",
-      "year": 2024,
-      "paperType": "Paper I",
-      "badgeText": "2024 O/L Paper I - Question 06",
-      "questionEn": "Which of the following is the octal equivalent of binary $1000110_2$?",
-      "questionSi": "ද්විමය $1000110_2$ ට තුල්‍ය අෂ්ටක සංඛ්‍යාව කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "$46_8$",
-          "si": "$46_8$"
-        },
-        {
-          "id": "2",
-          "en": "$70_8$",
-          "si": "$70_8$"
-        },
-        {
-          "id": "3",
-          "en": "$106_8$",
-          "si": "$106_8$"
-        },
-        {
-          "id": "4",
-          "en": "$430_8$",
-          "si": "$430_8$"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2024 O/L Paper I - Question 06.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper I - Question 06."
-    },
-    {
-      "id": "pp-g10-u3-2024-11",
-      "year": 2024,
-      "paperType": "Paper I",
-      "badgeText": "2024 O/L Paper I - Question 07",
-      "questionEn": "Which of the following is the decimal equivalent of binary $10001000_2$?",
-      "questionSi": "ද්විමය $10001000_2$ ට තුල්‍ය දශමය සංඛ්‍යාව කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "$64_{10}$",
-          "si": "$64_{10}$"
-        },
-        {
-          "id": "2",
-          "en": "$132_{10}$",
-          "si": "$132_{10}$"
-        },
-        {
-          "id": "3",
-          "en": "$136_{10}$",
-          "si": "$136_{10}$"
-        },
-        {
-          "id": "4",
-          "en": "$260_{10}$",
-          "si": "$260_{10}$"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2024 O/L Paper I - Question 07.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper I - Question 07."
-    },
-    {
-      "id": "pp-g10-u3-2024-12",
-      "year": 2024,
-      "paperType": "Paper II",
-      "badgeText": "2024 O/L Paper II - Question 01 (iii)",
-      "questionEn": "1. (iii) (a) Write down the binary equivalent of $74_{10}$.\n  (b) Write down the hexadecimal equivalent of $1046_8$.",
-      "questionSi": "1. (iii) (a) $74_{10}$ හි ද්විමය තුල්‍ය සංඛ්‍යාව ලියන්න.\n  (b) $1046_8$ හි ෂඩ්දශමය තුල්‍ය සංඛ්‍යාව ලියන්න.",
-      "type": "structured",
-      "sampleAnswerEn": "Binary addition: 1101_2 + 1011_2 = 11000_2.\nBinary subtraction: 1101_2 - 1001_2 = 0100_2 (or 100_2).",
-      "sampleAnswerSi": "ද්විමය එකතු කිරීම: 1101_2 + 1011_2 = 11000_2.\nද්විමය අඩු කිරීම: 1101_2 - 1001_2 = 0100_2 (හෝ 100_2).",
-      "explanationEn": "Verbatim official examination question from 2024 O/L Paper II - Question 01 (iii).",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper II - Question 01 (iii)."
-    },
-    {
-      "id": "pp-g10-u3-2020-13",
-      "year": 2020,
-      "paperType": "Paper II",
-      "badgeText": "2020 O/L Paper II - Question 01 (iii) (b)",
-      "questionEn": "1. (iii) (b) If $1011010_2$ represents character 'Z' in ASCII code, what is the ASCII code for character 'X'?",
-      "questionSi": "1. (iii) (b) $1011010_2$ මගින් ASCII හි 'Z' නිරූපණය වේ නම්, 'X' අක්ෂරයේ ASCII කේතය කුමක්ද?",
-      "type": "structured",
-      "sampleAnswerEn": "Octal to binary conversion: Each octal digit represents 3 binary bits.\nFor octal 867 (textbook typo note: 8 is invalid in base-8, standard 67_8 = 110 111_2 = 110111_2).",
-      "sampleAnswerSi": "අෂ්ටමය සිට ද්විමය පරිවර්තනය: එක් එක් අෂ්ටමය ඉලක්කම සඳහා ද්විමය බිටු 3 බැගින් ලියනු ලැබේ.\n(67_8 = 110 111_2 = 110111_2).",
-      "explanationEn": "Verbatim official examination question from 2020 O/L Paper II - Question 01 (iii) (b).",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2020 O/L Paper II - Question 01 (iii) (b)."
-    },
-    {
-      "id": "pp-g10-u3-2021-14",
-      "year": 2021,
-      "paperType": "Paper II",
-      "badgeText": "2021 O/L Paper II - Question 01 (iii) (b)",
-      "questionEn": "1. (iii) (b) Following is an extract from the ASCII table. Write down the correct octal value replacement for the '?' symbol.\n  Character: a, Decimal: 97, Hexadecimal: 61, Binary: 1100001, Octal: ?",
-      "questionSi": "1. (iii) (b) මෙහි දැක්වෙන්නේ ASCII වගුවේ උපුටා ගැනීමකි. '?' ලකුණින් දක්වා ඇති දෙයට අදාළ අෂ්ටක අගය ලියා දක්වන්න.\n  අක්ෂරය: a, දශමය: 97, ෂඩ්දශමය: 61, ද්විමය: 1100001, අෂ්ටමය: ?",
-      "type": "structured",
-      "sampleAnswerEn": "Converting decimal 47 to binary by continuous division by 2:\n47 / 2 = 23 R 1\n23 / 2 = 11 R 1\n11 / 2 = 5 R 1\n5 / 2 = 2 R 1\n2 / 2 = 1 R 0\n1 / 2 = 0 R 1\nReading remainders from bottom to top: 47_10 = 101111_2.",
-      "sampleAnswerSi": "47_10 දශමය සංඛ්‍යාව 2 න් බෙදීමේ ක්‍රමයෙන් ද්විමය බවට පත් කිරීම:\n47 / 2 = 23 ඉතිරිය 1\n23 / 2 = 11 ඉතිරිය 1\n11 / 2 = 5 ඉතිරිය 1\n5 / 2 = 2 ඉතිරිය 1\n2 / 2 = 1 ඉතිරිය 0\n1 / 2 = 0 ඉතිරිය 1\nයට සිට ඉහළට ඉතිරි අගයන් කියවීමෙන්: 47_10 = 101111_2.",
-      "explanationEn": "Verbatim official examination question from 2021 O/L Paper II - Question 01 (iii) (b).",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2021 O/L Paper II - Question 01 (iii) (b)."
-    },
-    {
-      "id": "pp-g10-u3-2022-15",
-      "year": 2022,
-      "paperType": "Paper I",
-      "badgeText": "2022 O/L Paper I - Question 10",
-      "questionEn": "Consider the character codes: O - 79, / - 47, L - 76, o - 111, l - 108. Which of the following will be the ASCII representation of O/L in binary?",
-      "questionSi": "O - 79, / - 47, L - 76, o - 111, l - 108 යන අනුලක්ෂණ අගයන් සලකන්න. O/L හි ASCII නිරූපණය ද්විමය ලෙස පහත කවරක දැක්වේද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "1001111 1001100",
-          "si": "1001111 1001100"
-        },
-        {
-          "id": "2",
-          "en": "1101111 1101100",
-          "si": "1101111 1101100"
-        },
-        {
-          "id": "3",
-          "en": "1001111 0101111 1001100",
-          "si": "1001111 0101111 1001100"
-        },
-        {
-          "id": "4",
-          "en": "1101111 0101111 1101100",
-          "si": "1101111 0101111 1101100"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2022 O/L Paper I - Question 10.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2022 O/L Paper I - Question 10."
-    },
-    {
-      "id": "pp-g10-u3-2023-16",
-      "year": 2023,
-      "paperType": "Paper I",
-      "badgeText": "2023 O/L Paper I - Question 10",
-      "questionEn": "Which of the following statements are true regarding the ASCII coding system?\n  A – Characters E and e are represented using the same code.\n  B – # and $ symbols have different codes.\n  C – Sinhala characters do not have ASCII codes.",
-      "questionSi": "ASCII කේත ක්‍රමය සම්බන්ධයෙන් පහත කවර ප්‍රකාශ නිවැරදි වේද?\n  A – අක්ෂර E සහ e එකම කේතයෙන් නිරූපණය වේ.\n  B – # සහ $ සංකේත සඳහා වෙනස් කේත ඇත.\n  C – සිංහල අක්ෂර සඳහා ASCII කේත නොමැත.",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "B only",
-          "si": "B පමණක්"
-        },
-        {
-          "id": "2",
-          "en": "A and C only",
-          "si": "A සහ C පමණක්"
-        },
-        {
-          "id": "3",
-          "en": "B and C only",
-          "si": "B සහ C පමණක්"
-        },
-        {
-          "id": "4",
-          "en": "All A, B and C",
-          "si": "A, B සහ C සියල්ලම"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 10.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 10."
-    },
-    {
-      "id": "pp-g10-u3-2024-17",
-      "year": 2024,
-      "paperType": "Paper I",
-      "badgeText": "2024 O/L Paper I - Question 09",
-      "questionEn": "Consider the following statements P and Q:\n  P – When a character (e.g. 'A') is entered into a digital computer, it is converted to a unique pattern of 0s and 1s.\n  Q – ASCII code is used to assign standard numerical values for 128 characters used in computers.\n  Which of the following is valid regarding the above statements?",
-      "questionSi": "පහත P සහ Q ප්‍රකාශ සලකන්න:\n  P – කෙනෙකු සංඛ්‍යාංක පරිගණකයකට (digital computer) යම් අනුලක්ෂණයක් (A යැයි සිතන්න) ඇතුළත් කළ විට, එය 0 සහ 1 න් සෑදුණු විශේෂිත රටාවකට පරිවර්තනය වේ.\n  Q – පරිගණකයක භාවිත වන අනුලක්ෂණ 128 ක් සඳහා සම්මත සංඛ්‍යාත්මක අගයන් පැවරීමට ASCII කේතය භාවිත කෙරේ.\n  ඉහත ප්‍රකාශ සම්බන්ධයෙන් පහත කවරක් වලංගු වේද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "Both statements P and Q are correct and the ASCII code described in Statement Q assists the task mentioned in Statement P.",
-          "si": "P සහ Q ප්‍රකාශ දෙකම නිවැරදි වන අතර, Q ප්‍රකාශයේ විස්තර කෙරෙන ASCII කේතය, P ප්‍රකාශයේ සඳහන් කාර්යය සඳහා උපකාරී වේ."
-        },
-        {
-          "id": "2",
-          "en": "Both statements P and Q are correct but the points presented in the two statements are not related.",
-          "si": "P සහ Q ප්‍රකාශ දෙකම නිවැරදි වන නමුත් ඒවායින් සඳහන් කෙරෙන කරුණු අතර සබඳතාවක් නැත."
-        },
-        {
-          "id": "3",
-          "en": "Statement P is correct but statement Q is incorrect.",
-          "si": "P ප්‍රකාශය නිවැරදි වන නමුත් Q ප්‍රකාශය වැරදි ය."
-        },
-        {
-          "id": "4",
-          "en": "Both statements are incorrect.",
-          "si": "ප්‍රකාශ දෙකම වැරදි ය."
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2024 O/L Paper I - Question 09.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper I - Question 09."
-    },
-    {
-      "id": "pp-g10-u3-2023-18",
-      "year": 2023,
-      "paperType": "Paper I",
-      "badgeText": "2023 O/L Paper I - Question 09",
-      "questionEn": "One Terabyte (1 TB) is equal to",
-      "questionSi": "ටෙරා බයිට් 1 ක් (1 TB) සමාන වන්නේ,",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "$1024 \\text{ KB}.$",
-          "si": "$1024 \\text{ KB} \\text{ වලට වේ.}$"
-        },
-        {
-          "id": "2",
-          "en": "$1024 \\times 1024 \\text{ KB}.$",
-          "si": "$1024 \\times 1024 \\text{ KB} \\text{ වලට වේ.}$"
-        },
-        {
-          "id": "3",
-          "en": "$1024 \\times 1024 \\times 1024 \\text{ KB}.$",
-          "si": "$1024 \\times 1024 \\times 1024 \\text{ KB} \\text{ වලට වේ.}$"
-        },
-        {
-          "id": "4",
-          "en": "$1024 \\times 1024 \\times 1024 \\times 1024 \\text{ KB}.$",
-          "si": "$1024 \\times 1024 \\times 1024 \\times 1024 \\text{ KB} \\text{ වලට වේ.}"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 09.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 09."
-    },
-    {
-      "id": "pp-g10-u3-2024-19",
-      "year": 2024,
-      "paperType": "Paper I",
-      "badgeText": "2024 O/L Paper I - Question 08",
-      "questionEn": "Rani wants to store the following files in a USB Flash drive:\n  trees.pdf (500 MB), config.txt (534 bytes), nickels.mp4 (2 GB), report.docx (900 KB)\n  Which of the following is the lowest capacity USB drive that is sufficient to store them?",
-      "questionSi": "USB ෆ්ලෑෂ් ධාවකයෙක පහත ගොනු ආචයනය කිරීමට රාණිට අවශ්‍ය වේ:\n  Trees.pdf (500MB), config.txt (534 bytes), nickels.mp4 (2GB), report.docx (900 KB)\n  ඒවා ආචයනය කිරීමට ෑහෙන අවම ධාරිතාවයක් සහිත USB ධාවකය පහත කවරක් ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "2 GB",
-          "si": "2 GB"
-        },
-        {
-          "id": "2",
-          "en": "4 GB",
-          "si": "4 GB"
-        },
-        {
-          "id": "3",
-          "en": "8 GB",
-          "si": "8 GB"
-        },
-        {
-          "id": "4",
-          "en": "16 GB",
-          "si": "16 GB"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2024 O/L Paper I - Question 08.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper I - Question 08."
-    },
-    {
-      "id": "pp-g10-u3-2020-20",
-      "year": 2020,
-      "paperType": "Paper I",
-      "badgeText": "2020 O/L Paper I - Question 03",
-      "questionEn": "Which of the following represents the units of measurements of data in computer systems in the ascending order of their size?",
-      "questionSi": "පරිගණක පද්ධතිවල දත්ත මැනීමේ ඒකක ඒවායේ ප්‍රමාණයේ ආරෝහණ පටිපාටියට දක්වා ඇත්තේ පහත සඳහන් කුමක ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "Bit, Byte, Kilobyte, Terabyte",
-          "si": "බිටුව, බයිටය, කිලෝබයිටය, ටෙරාබයිටය"
-        },
-        {
-          "id": "2",
-          "en": "Byte, Bit, Kilobyte, Terabyte",
-          "si": "බයිටය, බිටුව, කිලෝබයිටය, ටෙරාබයිටය"
-        },
-        {
-          "id": "3",
-          "en": "Megabyte, Kilobyte, Bit, Byte",
-          "si": "මෙගාබයිටය, කිලෝබයිටය, බිටුව, බයිටය"
-        },
-        {
-          "id": "4",
-          "en": "Terabyte, Gigabyte, Megabyte, Kilobyte",
-          "si": "ටෙරාබයිටය, ගිගාබයිටය, මෙගාබයිටය, කිලෝබයිටය"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2020 O/L Paper I - Question 03.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2020 O/L Paper I - Question 03."
-    },
-    {
-      "id": "pp-g10-u3-2022-21",
-      "year": 2022,
-      "paperType": "Paper I",
-      "badgeText": "2022 O/L Paper I - Question 09",
-      "questionEn": "Amara wants to copy the following four files (with the given file sizes) to a USB drive:\n  `invitation.doc (15kB)`, `yesterday.mp3 (26MB)`, `concert.mp4 (150MB)`, `tajmahal.jpg (28kB)`\n  From the following four empty USB drives with the given capacities, which is the most economical drive that can be used to store the above files?",
-      "questionSi": "අමරට පහත දැක්වෙන ගොනු හතර (දී ඇති ගොනු ප්‍රමාණ සහිත) USB ධාවකයකට පිටපත් කිරීමට අවශ්‍ය වේ:\n  `invitation.doc (15kB)`, `yesterday.mp3 (26MB)`, `concert.mp4 (150MB)`, `tajmahal.jpg (28kB)`\n  දී ඇති ධාරිතාවන් සහිත පහත දැක්වෙන හිස් USB ධාවක හතරෙන්, ඉහත ගොනු තැන්පත් කිරීමට භාවිත කළ හැකි වඩාත්ම පිරිවැය සාපේක්ෂ (අඩුම මිල) ධාවකය කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "1GB",
-          "si": "1GB"
-        },
-        {
-          "id": "2",
-          "en": "2GB",
-          "si": "2GB"
-        },
-        {
-          "id": "3",
-          "en": "128MB",
-          "si": "128MB"
-        },
-        {
-          "id": "4",
-          "en": "256MB",
-          "si": "256MB"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2022 O/L Paper I - Question 09.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2022 O/L Paper I - Question 09."
-    },
-    {
-      "id": "pp-g10-u3-2023-22",
-      "year": 2023,
-      "paperType": "Paper I",
-      "badgeText": "2023 O/L Paper I - Question 09",
-      "questionEn": "One Terabyte (1 TB) is equal to",
-      "questionSi": "ටෙරා nhsg 1 ක් (1 TB) සමාන වන්නේ,",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "1024 KB.",
-          "si": "1024 KB වලට වේ."
-        },
-        {
-          "id": "2",
-          "en": "1024 × 1024 KB.",
-          "si": "1024 × 1024 KB වලට වේ."
-        },
-        {
-          "id": "3",
-          "en": "1024 × 1024 × 1024 KB.",
-          "si": "1024 × 1024 × 1024 KB වලට වේ."
-        },
-        {
-          "id": "4",
-          "en": "1024 × 1024 × 1024 × 1024 KB.",
-          "si": "1024 × 1024 × 1024 × 1024 KB වලට වේ."
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 09.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 09."
-    },
-    {
-      "id": "pp-g10-u3-2024-23",
-      "year": 2024,
-      "paperType": "Paper I",
-      "badgeText": "2024 O/L Paper I - Question 08",
-      "questionEn": "Rani wants to store the following files in a USB Flash drive:\n  `trees.pdf (500 MB)`, `config.txt (534 bytes)`, `nickels.mp4 (2 GB)`, `report.docx (900 KB)`\n  Which of the following is the lowest capacity USB drive that is sufficient to store them?",
-      "questionSi": "USB ෆ්ලෑෂ් ධාවකයක පහත ගොනු ආචයනය කිරීමට රාණිට අවශ්‍ය වේ:\n  `trees.pdf (500 MB)`, `config.txt (534 bytes)`, `nickels.mp4 (2 GB)`, `report.docx (900 KB)`\n  ඒවා ආචයනය කිරීමට සෑහෙන අඩුම ධාරිතාව සහිත USB ධාවකය පහත කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "2 GB",
-          "si": "2 GB"
-        },
-        {
-          "id": "2",
-          "en": "4 GB",
-          "si": "4 GB"
-        },
-        {
-          "id": "3",
-          "en": "8 GB",
-          "si": "8 GB"
-        },
-        {
-          "id": "4",
-          "en": "16 GB",
-          "si": "16 GB"
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2024 O/L Paper I - Question 08.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper I - Question 08."
-    },
-    {
-      "id": "pp-g10-u3-2025-24",
-      "year": 2025,
-      "paperType": "Paper I",
-      "badgeText": "2025 O/L Paper I - Question 07",
-      "questionEn": "A USB flash drive has 256 MB of free space. A video file of 0.3 GB, an image file of 300 KB, and a document file of 400 bytes need to be copied to this drive. Which of the following statements is correct?",
-      "questionSi": "USB ෆ්ලෑෂ් ධාවකයක 256 MB ක නොමිලේ ඉඩ ප්‍රමාණයක් ඇත. 0.3 GB ක වීඩියෝ ගොනුවක්, 300 KB ක රූප ගොනුවක් සහ බයිට 400 ක ලේඛන ගොනුවක් මෙම ධාවකයට පිටපත් කළ යුතුය. පහත සඳහන් ප්‍රකාශවලින් නිවැරදි වන්නේ කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "Only the document file can be copied.",
-          "si": "ලේඛන ගොනුව පමණක් පිටපත් කළ හැක."
-        },
-        {
-          "id": "2",
-          "en": "Only the image file and the document file can be copied.",
-          "si": "රූප ගොනුව සහ ලේඛන ගොනුව පමණක් පිටපත් කළ හැක."
-        },
-        {
-          "id": "3",
-          "en": "Only the video file can be copied.",
-          "si": "වීඩියෝ ගොනුව පමණක් පිටපත් කළ හැක."
-        },
-        {
-          "id": "4",
-          "en": "All three files can be copied.",
-          "si": "ගොනු තුනම පිටපත් කළ හැක."
-        }
-      ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2025 O/L Paper I - Question 07.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2025 O/L Paper I - Question 07."
-    },
-    {
-      "id": "pp-g10-u3-2020-25",
-      "year": 2020,
-      "paperType": "Paper I",
-      "badgeText": "2020 O/L Paper I - Question 34",
-      "questionEn": "Which of the following truth tables represents the output of a 2-input NOR gate?",
-      "questionSi": "ආදාන 2ක් සහිත NOR ද්වාරයක ප්‍රතිදානය නිරූපණය වන සත්‍යතා වගුව කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "[A=0, B=0 -> 0; A=0, B=1 -> 1; A=1, B=0 -> 1; A=1, B=1 -> 1]",
-          "si": "[0,0->0; 0,1->1; 1,0->1; 1,1->1]"
-        },
-        {
-          "id": "2",
-          "en": "[A=0, B=0 -> 1; A=0, B=1 -> 0; A=1, B=0 -> 0; A=1, B=1 -> 0]",
-          "si": "[0,0->1; 0,1->0; 1,0->0; 1,1->0]"
-        },
-        {
-          "id": "3",
-          "en": "[A=0, B=0 -> 1; A=0, B=1 -> 1; A=1, B=0 -> 1; A=1, B=1 -> 0]",
-          "si": "[0,0->1; 0,1->1; 1,0->1; 1,1->0]"
-        },
-        {
-          "id": "4",
-          "en": "[A=0, B=0 -> 0; A=0, B=1 -> 0; A=1, B=0 -> 0; A=1, B=1 -> 1]",
-          "si": "[0,0->0; 0,1->0; 1,0->0; 1,1->1]"
-        }
-      ],
-      "correctOptionId": "2",
-      "explanationEn": "Verbatim official examination question from 2020 O/L Paper I - Question 34.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2020 O/L Paper I - Question 34."
-    },
-    {
-      "id": "pp-g10-u3-2020-26",
-      "year": 2020,
-      "paperType": "Paper II",
-      "badgeText": "2020 O/L Paper II - Question 01 (iv)",
-      "questionEn": "1. (iv) Draw the logic circuit diagram for the Boolean expression $P = A \\cdot B + C \\cdot D$ using basic logic gates.",
-      "questionSi": "1. (iv) මූලික ලොජික් ද්වාර භාවිත කරමින් $P = A \\cdot B + C \\cdot D$ බූලියානු ප්‍රකාශනය සඳහා ලොජික් පරිපථ සටහන අඳින්න.",
-      "type": "structured",
-      "sampleAnswerEn": "```\n  A ---|        |  )---[A·B]----  B ---| /                                       \\ ---\\                           )    )--- P = A·B + C·D\n                         / ---/ /\n  C ---| \\              /\n       |  )---[C·D]----/\n  D ---| /\n  ```\n\n---",
-      "sampleAnswerSi": "```\n  A ---|        |  )---[A·B]----  B ---| /                                       \\ ---\\                           )    )--- P = A·B + C·D\n                         / ---/ /\n  C ---| \\              /\n       |  )---[C·D]----/\n  D ---| /\n  ```\n\n---",
-      "explanationEn": "Verbatim official examination question from 2020 O/L Paper II - Question 01 (iv).",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2020 O/L Paper II - Question 01 (iv)."
-    },
-    {
-      "id": "pp-g10-u3-2021-27",
-      "year": 2021,
-      "paperType": "Paper I",
-      "badgeText": "2021 O/L Paper I - Question 39",
-      "questionEn": "Consider the logic circuit given below:\n  Inputs A and B are connected to a NAND gate. If $B = 1$, what is the output $Q$?",
-      "questionSi": "පහත දැක්වෙන ලොජික් පරිපථය සලකන්න:\n  A සහ B ආදාන NAND ද්වාරයකට සම්බන්ධ කර ඇත. $B = 1$ නම්, $Q$ ප්‍රතිදානය කුමක්ද?",
-      "type": "mcq",
-      "options": [
-        {
-          "id": "1",
-          "en": "$0$",
-          "si": "$0$"
-        },
-        {
-          "id": "2",
-          "en": "$1$",
-          "si": "$1$"
-        },
-        {
-          "id": "3",
-          "en": "$A$",
-          "si": "$A$"
-        },
-        {
-          "id": "4",
-          "en": "$\\bar{A}$",
-          "si": "$\\bar{A}$"
-        }
-      ],
-      "correctOptionId": "4",
-      "explanationEn": "Verbatim official examination question from 2021 O/L Paper I - Question 39.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2021 O/L Paper I - Question 39."
-    },
-    {
-      "id": "pp-g10-u3-2021-28",
-      "year": 2021,
-      "paperType": "Paper II",
-      "badgeText": "2021 O/L Paper II - Question 01 (iv)",
-      "questionEn": "1. (iv) Draw the logic circuit for $P = A \\cdot (B + C)$ using standard basic logic gates.",
-      "questionSi": "1. (iv) සම්මත මූලික ලොජික් ද්වාර භාවිත කර $P = A \\cdot (B + C)$ සඳහා ලොජික් පරිපථය අඳින්න.",
-      "type": "structured",
-      "sampleAnswerEn": "```\n  B ---\\         ) )---[B + C]----  C ---/ /                                           |                            |  )--- P = A · (B + C)\n  A -----------------------| /\n  ```\n\n---",
-      "sampleAnswerSi": "```\n  B ---\\         ) )---[B + C]----  C ---/ /                                           |                            |  )--- P = A · (B + C)\n  A -----------------------| /\n  ```\n\n---",
-      "explanationEn": "Verbatim official examination question from 2021 O/L Paper II - Question 01 (iv).",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2021 O/L Paper II - Question 01 (iv)."
-    },
-    {
-      "id": "pp-g10-u3-2022-29",
-      "year": 2022,
-      "paperType": "Paper II",
-      "badgeText": "2022 O/L Paper II - Question 01 (iv)",
-      "questionEn": "1. (iv) Draw the logic circuit diagram for the Boolean expression $F = \\bar{C} + A \\cdot \\bar{B}$ using basic logic gates.",
-      "questionSi": "1. (iv) $F = \\bar{C} + A \\cdot \\bar{B}$ බූලියානු ප්‍රකාශනය සඳහා මූලික ලොජික් ද්වාර භාවිතයෙන් ලොජික් පරිපථ සටහන අඳින්න.",
-      "type": "structured",
-      "sampleAnswerEn": "```\n  C --->|o---[C']------------------------                                          \\ ---\\   A ------------------| \\                  )    )--- F = C' + A·B'\n                      |  )---[A·B']-------/ ---/ /\n  B --->|o---[B']-----| /\n  ```\n\n---",
-      "sampleAnswerSi": "```\n  C --->|o---[C']------------------------                                          \\ ---\\   A ------------------| \\                  )    )--- F = C' + A·B'\n                      |  )---[A·B']-------/ ---/ /\n  B --->|o---[B']-----| /\n  ```\n\n---",
-      "explanationEn": "Verbatim official examination question from 2022 O/L Paper II - Question 01 (iv).",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2022 O/L Paper II - Question 01 (iv)."
-    },
-    {
-      "id": "pp-g10-u3-2023-30",
-      "year": 2023,
-      "paperType": "Paper II",
-      "badgeText": "2023 O/L Paper II - Question 01 (iv)",
-      "questionEn": "1. (iv) The logic circuit has inputs A, B, and output Z. Gate 1 is an OR gate, Gate 2 is an AND gate. \n  Write down the Boolean expression for $Z$ in terms of $A$ and $B$, and evaluate $Z$ when $A=1, B=0$.",
-      "questionSi": "1. (iv) දී ඇති ලොජික් පරිපථයේ ආදාන A, B වන අතර ප්‍රතිදානය Z වේ. 1 ද්වාරය OR ද්වාරයක් ද, 2 ද්වාරය AND ද්වාරයක් ද වේ.\n  A සහ B ඇසුරෙන් Z සඳහා බූලියානු ප්‍රකාශනය ලියා, $A=1, B=0$ වන විට Z හි අගය ගණනය කරන්න.",
-      "type": "structured",
-      "sampleAnswerEn": "- Gate 1 Output = $A + B$\n  - Gate 2 Output $Z = (A + B) \\cdot A$\n  - For $A=1, B=0$: $Z = (1 + 0) \\cdot 1 = 1 \\cdot 1 = 1$.\n\n---",
-      "sampleAnswerSi": "- Gate 1 Output = $A + B$\n  - Gate 2 Output $Z = (A + B) \\cdot A$\n  - For $A=1, B=0$: $Z = (1 + 0) \\cdot 1 = 1 \\cdot 1 = 1$.\n\n---",
-      "explanationEn": "Verbatim official examination question from 2023 O/L Paper II - Question 01 (iv).",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper II - Question 01 (iv)."
-    },
-    {
-      "id": "pp-g10-u3-2024-31",
-      "year": 2024,
-      "paperType": "Paper II",
-      "badgeText": "2024 O/L Paper II - Question 01 (iv)",
-      "questionEn": "1. (iv) Consider the circuit where Inputs A and B pass into a NAND gate whose output forms one input of a NOR gate alongside Input C. Write the final Boolean expression $Y$.",
-      "questionSi": "1. (iv) A සහ B ආදාන NAND ද්වාරයකට යොමු කර, එහි ප්‍රතිදානය C ආදානය සමඟ NOR ද්වාරයකට ලබා දෙන පරිපථය සලකන්න. අවසාන බූලියානු ප්‍රකාශනය Y ලියන්න.",
-      "type": "structured",
-      "sampleAnswerEn": "$$Y = \\overline{\\overline{A \\cdot B} + C}$$\n\n---",
-      "sampleAnswerSi": "$$Y = \\overline{\\overline{A \\cdot B} + C}$$\n\n---",
-      "explanationEn": "Verbatim official examination question from 2024 O/L Paper II - Question 01 (iv).",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper II - Question 01 (iv)."
-    },
-    {
-      "id": "pp-g10-u3-2025-32",
-      "year": 2025,
-      "paperType": "Paper II",
-      "badgeText": "2025 O/L Paper II - Question 01 (iv)",
-      "questionEn": "1. (iv) Construct the truth table for the Boolean expression $Q = A \\cdot \\bar{B} + \\bar{A} \\cdot B$ (XOR equivalency).",
-      "questionSi": "1. (iv) $Q = A \\cdot \\bar{B} + \\bar{A} \\cdot B$ බූලියානු ප්‍රකාශනය සඳහා සත්‍යතා වගුව ගොඩනගන්න.",
-      "type": "structured",
-      "sampleAnswerEn": "NOR gate output Boolean equation: F = NOT(A + B).\nXOR gate output Boolean equation: F = (A . NOT(B)) + (NOT(A) . B).",
-      "sampleAnswerSi": "NOR ද්වාරයේ ප්‍රතිදාන සමීකරණය: F = NOT(A + B).\nXOR ද්වාරයේ ප්‍රතිදාන සමීකරණය: F = (A . NOT(B)) + (NOT(A) . B).",
-      "explanationEn": "Verbatim official examination question from 2025 O/L Paper II - Question 01 (iv).",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2025 O/L Paper II - Question 01 (iv)."
+      "explanationEn": "In #RRGGBB, Red=0 (00), Green=0 (00), and Blue=255 (FF), yielding #0000FF.",
+      "explanationSi": "#RRGGBB ආකෘතියේ රතු=0 (00), කොළ=0 (00) සහ නිල්=255 (FF) වන බැවින් #0000FF ලැබේ."
     }
-  ]
+  },
+  {
+    "id": "g10-u3-st-6",
+    "number": "3.6",
+    "titleEn": "Data Storage Capacity & Capacity Conversions",
+    "titleSi": "දත්ත ආචයන ධාරිතාව සහ ධාරිතා පරිවර්තන",
+    "summaryEn": "Hierarchy of digital capacity units from Bit to Petabyte (2¹⁰=1024 multiplier), storage media capacities, and file storage calculation problems.",
+    "summarySi": "බිටුවේ සිට පෙටාබයිටය දක්වා ධාරිතා ඒකක ධූරාවලිය (2¹⁰=1024 ගුණාකාරය), ආචයන මාධ්‍ය ධාරිතාවන් සහ විභාග ගොනු ගණනය කිරීම්.",
+    "blocks": [
+      {
+        "id": "b-g10-u3-6-1",
+        "en": "Storage Capacity Hierarchy & Binary Multiplier Formulas:\nDigital storage uses binary powers of 2 (2¹⁰ = 1024) rather than decimal thousands (1000):\n* Bit (b): Smallest unit of data; a single binary digit (0 or 1).\n* Nibble: A cluster of 4 bits (0.5 Byte).\n* Byte (B): A cluster of 8 bits; can represent 2⁸ = 256 distinct values or 1 ASCII character.\n* Kilobyte (KB): 1 KB = 2¹⁰ Bytes = 1024 Bytes.\n* Megabyte (MB): 1 MB = 2²⁰ Bytes = 1024 KB = 1,048,576 Bytes.\n* Gigabyte (GB): 1 GB = 2³⁰ Bytes = 1024 MB = 1,073,741,824 Bytes.\n* Terabyte (TB): 1 TB = 2⁴⁰ Bytes = 1024 GB = 1,099,511,627,776 Bytes.\n* Petabyte (PB): 1 PB = 2⁵⁰ Bytes = 1024 TB.\n* Mathematical Conversion Rule: To convert from a larger unit to a smaller unit, MULTIPLY by 1024 per step. To convert from a smaller unit to a larger unit, DIVIDE by 1024 per step.",
+        "si": "ධාරිතා ධූරාවලිය සහ ගුණාකාර සූත්‍ර:\nඩිජිටල් මතක ධාරිතාව මනිනු ලබන්නේ දශම 1000 න් නොව, 2 හි බලයක් වන 2¹⁰ = 1024 ගුණාකාරයෙනි:\n* බිටු (Bit): කුඩාම දත්ත ඒකකයයි; තනි ද්විමය සංකේතයකි (0 හෝ 1).\n* නිබල (Nibble): බිටු 4ක එකතුවකි (බයිට 0.5කි).\n* බයිට (Byte): බිටු 8ක එකතුවකි; අගයන් 2⁸ = 256ක් හෝ 1 ASCII අක්ෂරයක් නිරූපණය කරයි.\n* කිලෝබයිට (KB): 1 KB = 2¹⁰ Bytes = 1024 Bytes.\n* මෙගාබයිට (MB): 1 MB = 2²⁰ Bytes = 1024 KB = 1,048,576 Bytes.\n* ගිගාබයිට (GB): 1 GB = 2³⁰ Bytes = 1024 MB = 1,073,741,824 Bytes.\n* ටෙරාබයිට (TB): 1 TB = 2⁴⁰ Bytes = 1024 GB = 1,099,511,627,776 Bytes.\n* පෙටාබයිට (PB): 1 PB = 2⁵⁰ Bytes = 1024 TB.\n* ගණිතමය පරිවර්තන නීතිය: විශාල ඒකකයක සිට කුඩා ඒකකයකට හැරවීමේදී පියවරකට 1024 න් ගුණ කරන්න. කුඩා ඒකකයක සිට විශාල ඒකකයකට හැරවීමේදී පියවරකට 1024 න් බෙදන්න.",
+        "highlightTerm": "Storage Capacity Hierarchy"
+      },
+      {
+        "id": "b-g10-u3-6-2",
+        "en": "Storage Media Capacities & File Storage Calculations:\n* Official Textbook Storage Media Capacities:\n  - CD-ROM: 700 MB\n  - DVD-ROM: 4.7 GB (Single Layer) / 8.5 GB (Dual Layer)\n  - Blu-ray Disc: 25 GB (Single Layer) / 50 GB (Dual Layer)\n  - Magnetic Tape / Hard Drive: Multiple Terabytes (1 TB - 16 TB+)\n* Textbook Text Page Equivalences:\n  - 1 typed A4 page ≈ 2000 characters ≈ 2 KB.\n  - 1 MB ≈ 500 typed text pages.\n  - 1 GB ≈ 500,000 typed text pages.\n* O/L Exam Calculation Pitfall: When calculating whether files fit into a storage drive (e.g., 256 MB USB drive vs 0.3 GB video file), always convert all values to the SAME UNIT (e.g., 0.3 GB = 0.3 × 1024 MB = 307.2 MB > 256 MB, so the file does NOT fit!).",
+        "si": "ආචයන මාධ්‍ය ධාරිතාවන් සහ ගොනු ආචයන ගණනය කිරීම්:\n* නිල පෙළපොතේ ආචයන මාධ්‍ය ධාරිතාවන්:\n  - CD-ROM: 700 MB\n  - DVD-ROM: 4.7 GB (තනි ස්තර) / 8.5 GB (ද්විත්ව ස්තර)\n  - බ්ලූ-රේ තැටිය (Blu-ray): 25 GB (තනි ස්තර) / 50 GB (ද්විත්ව ස්තර)\n  - චුම්භක පටි / දෘඪ තැටි: ටෙරාබයිට ගණනාවක් (1 TB - 16 TB+)\n* පෙළපොතේ මුද්‍රිත පිටු සමානතාවන්:\n  - 1 මුද්‍රිත A4 පිටුවක් ≈ අක්ෂර 2000 ≈ 2 KB.\n  - 1 MB ≈ මුද්‍රිත පිටු 500ක් පමණ වේ.\n  - 1 GB ≈ මුද්‍රිත පිටු 500,000ක් පමණ වේ.\n* O/L විභාග ගණනය කිරීම් උගුල: ලිපිගොනු ධාවකයකට ගැළපේදැයි ගණනය කිරීමේදී (උදා: 256 MB ෆ්ලෑෂ් ධාවකය සහ 0.3 GB වීඩියෝ ගොනුව), සෑම විටම සියලු අගයන් එකම ඒකකයකට හරවන්න (0.3 GB = 0.3 × 1024 MB = 307.2 MB > 256 MB, එබැවින් ගොනුව ඇතුළත් කළ නොහැක!).",
+        "highlightTerm": "Storage Media Capacities & File Fitting"
+      }
+    ],
+    "tableData": {
+      "headers": [
+        {
+          "en": "Storage Unit",
+          "si": "ආචයන ඒකකය"
+        },
+        {
+          "en": "Binary Power",
+          "si": "2 හි බලය"
+        },
+        {
+          "en": "Exact Bytes",
+          "si": "නියමිත බයිට ගණන"
+        },
+        {
+          "en": "Textbook Approximation",
+          "si": "පෙළපොතේ සමානතාව"
+        }
+      ],
+      "rows": [
+        {
+          "col1": {
+            "en": "1 Kilobyte (KB)",
+            "si": "1 KB"
+          },
+          "col2": {
+            "en": "2¹⁰ Bytes",
+            "si": "2¹⁰ Bytes"
+          },
+          "col3": {
+            "en": "1,024 Bytes",
+            "si": "1,024 Bytes"
+          },
+          "col4": {
+            "en": "≈ Half of a typed A4 page",
+            "si": "මුද්‍රිත පිටු භාගයක් පමණ"
+          }
+        },
+        {
+          "col1": {
+            "en": "1 Megabyte (MB)",
+            "si": "1 MB"
+          },
+          "col2": {
+            "en": "2²⁰ Bytes",
+            "si": "2²⁰ Bytes"
+          },
+          "col3": {
+            "en": "1,048,576 Bytes",
+            "si": "1,048,576 Bytes"
+          },
+          "col4": {
+            "en": "≈ 500 typed text pages",
+            "si": "මුද්‍රිත පිටු 500ක් පමණ"
+          }
+        },
+        {
+          "col1": {
+            "en": "1 Gigabyte (GB)",
+            "si": "1 GB"
+          },
+          "col2": {
+            "en": "2³⁰ Bytes",
+            "si": "2³⁰ Bytes"
+          },
+          "col3": {
+            "en": "1,073,741,824 Bytes",
+            "si": "1,073,741,824 Bytes"
+          },
+          "col4": {
+            "en": "≈ 500,000 typed pages (large library)",
+            "si": "මුද්‍රිත පිටු 500,000ක් පමණ"
+          }
+        },
+        {
+          "col1": {
+            "en": "1 Terabyte (TB)",
+            "si": "1 TB"
+          },
+          "col2": {
+            "en": "2⁴⁰ Bytes",
+            "si": "2⁴⁰ Bytes"
+          },
+          "col3": {
+            "en": "1,099,511,627,776 Bytes",
+            "si": "1,099,511,627,776 Bytes"
+          },
+          "col4": {
+            "en": "≈ 500 million typed pages",
+            "si": "මුද්‍රිත පිටු මිලියන 500ක් පමණ"
+          }
+        },
+        {
+          "col1": {
+            "en": "1 Petabyte (PB)",
+            "si": "1 PB"
+          },
+          "col2": {
+            "en": "2⁵⁰ Bytes",
+            "si": "2⁵⁰ Bytes"
+          },
+          "col3": {
+            "en": "1,125,899,906,842,624 Bytes",
+            "si": "1,125,899,906,842,624 Bytes"
+          },
+          "col4": {
+            "en": "≈ Entire national archive library",
+            "si": "ජාතික ලේඛනාරක්ෂක ගබඩාවක්"
+          }
+        }
+      ]
+    },
+    "checkpointQuiz": {
+      "id": "q-g10-u3-6",
+      "questionEn": "How many Megabytes (MB) are exactly equal to 1 Terabyte (TB)?",
+      "questionSi": "1 Terabyte (TB) සඳහා හරියටම සමාන වන Megabytes (MB) ප්‍රමාණය කොපමණද?",
+      "options": [
+        {
+          "id": "1",
+          "en": "1,048,576 MB (1024 × 1024 MB)",
+          "si": "1,048,576 MB (1024 × 1024 MB)"
+        },
+        {
+          "id": "2",
+          "en": "1,000,000 MB",
+          "si": "1,000,000 MB"
+        },
+        {
+          "id": "3",
+          "en": "1024 MB",
+          "si": "1024 MB"
+        },
+        {
+          "id": "4",
+          "en": "2048 MB",
+          "si": "2048 MB"
+        }
+      ],
+      "correctOptionId": "1",
+      "explanationEn": "1 TB = 1024 GB, and 1 GB = 1024 MB. Therefore, 1 TB = 1024 × 1024 = 1,048,576 MB.",
+      "explanationSi": "1 TB = 1024 GB වන අතර 1 GB = 1024 MB වේ. එබැවින් 1 TB = 1024 × 1024 = 1,048,576 MB වේ."
+    }
+  },
+  {
+    "id": "g10-u3-st-7",
+    "number": "3.7",
+    "titleEn": "Coding Systems in Computers",
+    "titleSi": "පරිගණකවල භාවිත වන කේත ක්‍රම",
+    "summaryEn": "Evolution of computer coding systems: BCD, EBCDIC, ASCII (7-bit and 8-bit), and Unicode international character representation.",
+    "summarySi": "පරිගණක කේතන ක්‍රමවල විකාශනය: BCD, EBCDIC, ASCII (බිටු 7 සහ බිටු 8) සහ යුනිකෝඩ් විශ්ව බහුභාෂා කේතනය.",
+    "blocks": [
+      {
+        "id": "b-g10-u3-7-1",
+        "en": "Evolution of Character Coding Standards:\n* BCD (Binary Coded Decimal): 4 bits per decimal digit (codes 0000₂ to 1001₂ represent decimal 0–9). Only used for numeric values.\n* EBCDIC (Extended BCD Interchange Code): 8-bit character encoding system developed by IBM for mainframe computers (2⁸ = 256 characters).\n* ASCII (American Standard Code for Information Interchange):\n  - Standard ASCII: 7 bits per character, supporting 2⁷ = 128 unique characters (codes 0–127: English letters, numbers, punctuation, and control characters).\n  - Extended ASCII: 8 bits per character, supporting 2⁸ = 256 unique characters (codes 0–255, including graphical characters and accents).\n* Unicode: The modern universal character encoding standard using 16 to 32 bits (2¹⁶ = 65,536 to over 1,000,000 code points). Unicode assigns a unique identifier to every character across all living world languages including Sinhala, Tamil, Japanese, and emoji.",
+        "si": "අක්ෂර කේතන ප්‍රමිතීන්ගේ විකාශනය:\n* BCD (ද්විමය කේතනය කළ දශමය): එක් දශම ඉලක්කමකට බිටු 4ක් (0000₂ සිට 1001₂ දක්වා සංකේත 0–9 නිරූපණය කරයි). සංඛ්‍යා සඳහා පමණි.\n* EBCDIC: IBM සමාගම විසින් මහා පරිගණක සඳහා නිර්මාණය කළ බිටු 8ක අක්ෂර කේතන ක්‍රමයකි (අක්ෂර 2⁸ = 256ක්).\n* ASCII (තොරතුරු හුවමාරුව සඳහා වූ ඇමරිකානු සම්මත කේතය):\n  - සම්මත ASCII: එක් අක්ෂරයකට බිටු 7ක් (2⁷ = 128 අක්ෂර, අගයන් 0–127: ඉංග්‍රීසි අකුරු, සංඛ්‍යා, විරාම ලකුණු සහ පාලන අක්ෂර).\n  - විස්තෘත ASCII: එක් අක්ෂරයකට බිටු 8ක් (2⁸ = 256 අක්ෂර, අගයන් 0–255).\n* යුනිකෝඩ් (Unicode): බිටු 16 සිට 32 දක්වා භාවිත වන නූතන විශ්ව අක්ෂර කේතන ප්‍රමිතියයි (2¹⁶ = 65,536 සිට මිලියනයකට වඩා වැඩි කේත ලක්ෂ්‍ය). සිංහල, දෙමළ, ජපන් ඇතුළු ලොව සියලුම ජීවමාන භාෂාවල අක්ෂර සහ ඉමෝජි එකම සම්මතයක් යටතේ නිරූපණය කරයි.",
+        "highlightTerm": "Evolution of Character Coding Standards"
+      },
+      {
+        "id": "b-g10-u3-7-2",
+        "en": "Sequential ASCII Character Calculations (O/L Exam Focus):\nIn ASCII, characters are assigned sequential numerical codes. Knowing one reference code allows calculating adjacent letters:\n* Uppercase English Letters ('A' to 'Z'): 'A' = 65 (1000001₂), 'B' = 66, 'C' = 67, ..., 'Z' = 90 (1011010₂).\n* Lowercase English Letters ('a' to 'z'): 'a' = 97 (1100001₂), 'b' = 98, ..., 'z' = 122.\n* Digits ('0' to '9'): '0' = 48 (0110000₂), '1' = 49, ..., '9' = 57.\n* Space: Code 32 (00100000₂).\n* Case Shift Rule: The difference between uppercase and lowercase is exactly 32 (2⁵ bit). Adding 32 converts uppercase to lowercase ('A' 65 + 32 = 97 'a').\n* Exam Problem Example: If character 'Z' is 1011010₂ (90₁₀), what is character 'W'? Since 'W' is 3 letters before 'Z', its code is 90 - 3 = 87₁₀ = 1010111₂.",
+        "si": "අනුක්‍රමික ASCII අක්ෂර ගණනය කිරීම් (O/L විභාග මූලික):\nASCII කේත ක්‍රමයේදී අක්ෂර අනුක්‍රමික සංඛ්‍යාත්මක අගයන් ලෙස සකසා ඇත. එක් මූලික අගයක් දැනගත් විට යාබද අක්ෂර පහසුවෙන් ගණනය කළ හැක:\n* ඉංග්‍රීසි කැපිටල් අකුරු ('A' සිට 'Z'): 'A' = 65 (1000001₂), 'B' = 66, 'C' = 67, ..., 'Z' = 90 (1011010₂).\n* ඉංග්‍රීසි සිම්පල් අකුරු ('a' සිට 'z'): 'a' = 97 (1100001₂), 'b' = 98, ..., 'z' = 122.\n* ඉලක්කම් ('0' සිට '9'): '0' = 48 (0110000₂), '1' = 49, ..., '9' = 57.\n* හිස්තැන (Space): කේතය 32 (00100000₂).\n* කැපිටල්-සිම්පල් වෙනස: කැපිටල් හා සිම්පල් අතර වෙනස හරියටම 32 කි (2⁵ බිටුව). 32ක් එකතු කළ විට කැපිටල් අකුර සිම්පල් වේ ('A' 65 + 32 = 97 'a').\n* විභාග ගැටලු උදාහරණය: 'Z' අක්ෂරයේ කේතය 1011010₂ (90₁₀) නම්, 'W' හි කේතය කුමක්ද? 'W' යනු 'Z' ට අකුරු 3කට පෙර අකුර බැවින්, එහි අගය 90 - 3 = 87₁₀ = 1010111₂ වේ.",
+        "highlightTerm": "Sequential ASCII Calculations"
+      }
+    ],
+    "tableData": {
+      "headers": [
+        {
+          "en": "Encoding Standard",
+          "si": "කේතන ප්‍රමිතිය"
+        },
+        {
+          "en": "Bits per Character",
+          "si": "අක්ෂරයකට බිටු"
+        },
+        {
+          "en": "Total Character Capacity",
+          "si": "මුළු අක්ෂර ධාරිතාව"
+        },
+        {
+          "en": "Primary Application",
+          "si": "ප්‍රධාන භාවිතය"
+        },
+        {
+          "en": "Supports Sinhala / Tamil?",
+          "si": "සිංහල / දෙමළ සඳහා?"
+        }
+      ],
+      "rows": [
+        {
+          "col1": {
+            "en": "BCD",
+            "si": "BCD"
+          },
+          "col2": {
+            "en": "4 bits",
+            "si": "බිටු 4"
+          },
+          "col3": {
+            "en": "16 (0–9 used)",
+            "si": "16 (0-9 දක්වා)"
+          },
+          "col4": {
+            "en": "Early decimal calculators",
+            "si": "මුල් කාලීන ගණක යන්ත්‍ර"
+          },
+          "col5": {
+            "en": "No",
+            "si": "නැත"
+          }
+        },
+        {
+          "col1": {
+            "en": "EBCDIC",
+            "si": "EBCDIC"
+          },
+          "col2": {
+            "en": "8 bits",
+            "si": "බිටු 8"
+          },
+          "col3": {
+            "en": "256 characters",
+            "si": "අක්ෂර 256"
+          },
+          "col4": {
+            "en": "IBM Mainframe Computers",
+            "si": "IBM මහා පරිගණක"
+          },
+          "col5": {
+            "en": "No",
+            "si": "නැත"
+          }
+        },
+        {
+          "col1": {
+            "en": "Standard ASCII",
+            "si": "සම්මත ASCII"
+          },
+          "col2": {
+            "en": "7 bits",
+            "si": "බිටු 7"
+          },
+          "col3": {
+            "en": "128 characters (0–127)",
+            "si": "අක්ෂර 128"
+          },
+          "col4": {
+            "en": "Standard English PCs & Teleprinters",
+            "si": "සම්මත ඉංග්‍රීසි පරිගණක"
+          },
+          "col5": {
+            "en": "No",
+            "si": "නැත"
+          }
+        },
+        {
+          "col1": {
+            "en": "Extended ASCII",
+            "si": "විස්තෘත ASCII"
+          },
+          "col2": {
+            "en": "8 bits",
+            "si": "බිටු 8"
+          },
+          "col3": {
+            "en": "256 characters (0–255)",
+            "si": "අක්ෂර 256"
+          },
+          "col4": {
+            "en": "European character extensions",
+            "si": "යුරෝපීය අක්ෂර ඇතුළත් කිරීම"
+          },
+          "col5": {
+            "en": "No",
+            "si": "නැත"
+          }
+        },
+        {
+          "col1": {
+            "en": "Unicode (UTF-8/16/32)",
+            "si": "යුනිකෝඩ්"
+          },
+          "col2": {
+            "en": "16 to 32 bits",
+            "si": "බිටු 16 සිට 32"
+          },
+          "col3": {
+            "en": "> 1,000,000 characters",
+            "si": "අක්ෂර 1,000,000+"
+          },
+          "col4": {
+            "en": "Modern Operating Systems & Web worldwide",
+            "si": "නූතන මෙහෙයුම් පද්ධති හා වෙබ් අඩවි"
+          },
+          "col5": {
+            "en": "Yes (Full Native Parity)",
+            "si": "ඔව් (පූර්ණ සහයෝගය)"
+          }
+        }
+      ]
+    },
+    "checkpointQuiz": {
+      "id": "q-g10-u3-7",
+      "questionEn": "Why is Unicode preferred over ASCII in modern computing systems and web technologies?",
+      "questionSi": "නූතන පරිගණක පද්ධති සහ වෙබ් තාක්ෂණයන් තුළ ASCII වලට වඩා යුනිකෝඩ් (Unicode) භාවිත කිරීමට ප්‍රධාන හේතුව කුමක්ද?",
+      "options": [
+        {
+          "id": "1",
+          "en": "It can represent characters of all world languages (including Sinhala and Tamil) and symbols in a single universal standard",
+          "si": "සිංහල සහ දෙමළ ඇතුළු ලොව සියලුම භාෂාවල අක්ෂර සහ සංකේත එකම විශ්ව ප්‍රමිතියකින් නිරූපණය කළ හැකි වීම"
+        },
+        {
+          "id": "2",
+          "en": "It requires fewer bits per character than ASCII",
+          "si": "එයට ASCII වලට වඩා අඩු බිටු ගණනක් අවශ්‍ය වීම"
+        },
+        {
+          "id": "3",
+          "en": "It is only used on mechanical computers",
+          "si": "එය යාන්ත්‍රික පරිගණකවල පමණක් භාවිත වීම"
+        },
+        {
+          "id": "4",
+          "en": "It cannot encode numeric digits",
+          "si": "එයට සංඛ්‍යාත්මක ඉලක්කම් කේතනය කළ නොහැකි වීම"
+        }
+      ],
+      "correctOptionId": "1",
+      "explanationEn": "Unicode provides a unique numeric code point for every character across all living scripts worldwide, transcending the 128/256 character limitation of ASCII.",
+      "explanationSi": "යුනිකෝඩ් මගින් ASCII සතු අක්ෂර 128/256 සීමාව ඉක්මවා ලොව සියලුම භාෂාවල අක්ෂර මිලියනයකට වඩා නිරූපණය කරයි."
+    }
+  }
+],
+  pastPaperQuestions: [
+  {
+    "id": "pp-g10-u3-2020-1",
+    "year": 2020,
+    "paperType": "Paper I",
+    "badgeText": "2020 O/L Paper I - Question 33",
+    "questionEn": "Which of the following contains numbers in ascending order?",
+    "questionSi": "පහත කුමන වරණයෙහි දී ඇති සංඛ්‍යා හතරෙහි ආරෝහණ පටිපාටියට දක්වේ ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "64₁₆, 226₈, 200₁₀, 101011₂",
+        "si": "64₁₆, 226₈, 200₁₀, 101011₂"
+      },
+      {
+        "id": "2",
+        "en": "101011₂, 64₁₆, 226₈, 200₁₀",
+        "si": "101011₂, 64₁₆, 226₈, 200₁₀"
+      },
+      {
+        "id": "3",
+        "en": "101011₂, 64₁₆, 200₁₀, 226₈",
+        "si": "101011₂, 64₁₆, 200₁₀, 226₈"
+      },
+      {
+        "id": "4",
+        "en": "200₁₀, 226₈, 101011₂, 64₁₆",
+        "si": "200₁₀, 226₈, 101011₂, 64₁₆"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2020 O/L Paper I - Question 33.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2020 O/L Paper I - Question 33."
+  },
+  {
+    "id": "pp-g10-u3-2020-2",
+    "year": 2020,
+    "paperType": "Paper II",
+    "badgeText": "2020 O/L Paper II - Question 01 (iii) (a)",
+    "questionEn": "1. (iii) (a) Convert the octal number 867₈ to its binary equivalent. Show the major steps of your calculation.\" *(Note: Official paper text)*",
+    "questionSi": "1. (iii) (a) 867₈ අෂ්ටමය සංඛ්‍යාව එහි ද්විමය තුල්‍ය සංඛ්‍යාවට පරිවර්තනය කරන්න. ඔබේ ගණනය කිරීමේ ප්‍රධාන පියවර දක්වන්න.",
+    "type": "structured",
+    "sampleAnswerEn": "Octal to binary conversion: Each octal digit represents 3 binary bits.\nFor octal 867 (textbook typo note: 8 is invalid in base-8, standard 67₈ = 110 111₂ = 110111₂).",
+    "sampleAnswerSi": "අෂ්ටමය සිට ද්විමය පරිවර්තනය: එක් එක් අෂ්ටමය ඉලක්කම සඳහා ද්විමය බිටු 3 බැගින් ලියනු ලැබේ.\n(67₈ = 110 111₂ = 110111₂).",
+    "explanationEn": "Verbatim official examination question from 2020 O/L Paper II - Question 01 (iii) (a).",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2020 O/L Paper II - Question 01 (iii) (a)."
+  },
+  {
+    "id": "pp-g10-u3-2021-3",
+    "year": 2021,
+    "paperType": "Paper II",
+    "badgeText": "2021 O/L Paper II - Question 01 (iii) (a)",
+    "questionEn": "1. (iii) (a) Convert 47₁₀ to its binary equivalent.",
+    "questionSi": "1. (iii) (a) 47₁₀ හි ද්විමය තුල්‍ය සංඛ්‍යාවට පරිවර්තනය කරන්න.",
+    "type": "structured",
+    "sampleAnswerEn": "Converting decimal 47 to binary by continuous division by 2:\n47 / 2 = 23 R 1\n23 / 2 = 11 R 1\n11 / 2 = 5 R 1\n5 / 2 = 2 R 1\n2 / 2 = 1 R 0\n1 / 2 = 0 R 1\nReading remainders from bottom to top: 47₁0 = 101111₂.",
+    "sampleAnswerSi": "47₁0 දශමය සංඛ්‍යාව 2 න් බෙදීමේ ක්‍රමයෙන් ද්විමය බවට පත් කිරීම:\n47 / 2 = 23 ඉතිරිය 1\n23 / 2 = 11 ඉතිරිය 1\n11 / 2 = 5 ඉතිරිය 1\n5 / 2 = 2 ඉතිරිය 1\n2 / 2 = 1 ඉතිරිය 0\n1 / 2 = 0 ඉතිරිය 1\nයට සිට ඉහළට ඉතිරි අගයන් කියවීමෙන්: 47₁0 = 101111₂.",
+    "explanationEn": "Verbatim official examination question from 2021 O/L Paper II - Question 01 (iii) (a).",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2021 O/L Paper II - Question 01 (iii) (a)."
+  },
+  {
+    "id": "pp-g10-u3-2022-4",
+    "year": 2022,
+    "paperType": "Paper I",
+    "badgeText": "2022 O/L Paper I - Question 06",
+    "questionEn": "Which of the following is the largest?",
+    "questionSi": "පහත දැක්වෙන ඒවායින් විශාලතම අගය කුමක්ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "1000 0100₂",
+        "si": "1000 0100₂"
+      },
+      {
+        "id": "2",
+        "en": "15₈",
+        "si": "15₈"
+      },
+      {
+        "id": "3",
+        "en": "85₁₀",
+        "si": "85₁₀"
+      },
+      {
+        "id": "4",
+        "en": "C2₁₆",
+        "si": "C2₁₆"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2022 O/L Paper I - Question 06.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2022 O/L Paper I - Question 06."
+  },
+  {
+    "id": "pp-g10-u3-2022-5",
+    "year": 2022,
+    "paperType": "Paper I",
+    "badgeText": "2022 O/L Paper I - Question 07",
+    "questionEn": "Which of the following is the decimal equivalent of binary 1000 0101₂?",
+    "questionSi": "1000 0101₂ ද්විමය සංඛ්‍යාවේ දශමය තුල්‍ය අගය කුමක්ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "85₁₀",
+        "si": "85₁₀"
+      },
+      {
+        "id": "2",
+        "en": "133₁₀",
+        "si": "133₁₀"
+      },
+      {
+        "id": "3",
+        "en": "161₁₀",
+        "si": "161₁₀"
+      },
+      {
+        "id": "4",
+        "en": "266₁₀",
+        "si": "266₁₀"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2022 O/L Paper I - Question 07.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2022 O/L Paper I - Question 07."
+  },
+  {
+    "id": "pp-g10-u3-2022-6",
+    "year": 2022,
+    "paperType": "Paper I",
+    "badgeText": "2022 O/L Paper I - Question 08",
+    "questionEn": "Which of the following is the hexadecimal equivalent of octal 1156₈?",
+    "questionSi": "1156₈ අෂ්ටමය සංඛ්‍යාවේ ෂඩ්දශමය තුල්‍ය අගය කුමක්ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "26E₁₆",
+        "si": "26E₁₆"
+      },
+      {
+        "id": "2",
+        "en": "484₁₆",
+        "si": "484₁₆"
+      },
+      {
+        "id": "3",
+        "en": "109C₁₆",
+        "si": "109C₁₆"
+      },
+      {
+        "id": "4",
+        "en": "2204₁₆",
+        "si": "2204₁₆"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2022 O/L Paper I - Question 08.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2022 O/L Paper I - Question 08."
+  },
+  {
+    "id": "pp-g10-u3-2023-7",
+    "year": 2023,
+    "paperType": "Paper I",
+    "badgeText": "2023 O/L Paper I - Question 06",
+    "questionEn": "Which of the following is the octal equivalent of decimal 216₁₀?",
+    "questionSi": "දශමය 216₁₀ ට තුල්‍ය අෂ්ටමය සංඛ්‍යාව කුමක්ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "40₈",
+        "si": "40₈"
+      },
+      {
+        "id": "2",
+        "en": "43₈",
+        "si": "43₈"
+      },
+      {
+        "id": "3",
+        "en": "73₈",
+        "si": "73₈"
+      },
+      {
+        "id": "4",
+        "en": "330₈",
+        "si": "330₈"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 06.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 06."
+  },
+  {
+    "id": "pp-g10-u3-2023-8",
+    "year": 2023,
+    "paperType": "Paper I",
+    "badgeText": "2023 O/L Paper I - Question 07",
+    "questionEn": "Which of the following is the decimal equivalent of binary 1000 1000₂?",
+    "questionSi": "ද්විමය 1000 1000₂ ට තුල්‍ය දශමය සංඛ්‍යාව කුමක්ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "24₁₀",
+        "si": "24₁₀"
+      },
+      {
+        "id": "2",
+        "en": "136₁₀",
+        "si": "136₁₀"
+      },
+      {
+        "id": "3",
+        "en": "272₁₀",
+        "si": "272₁₀"
+      },
+      {
+        "id": "4",
+        "en": "1024₁₀",
+        "si": "1024₁₀"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 07.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 07."
+  },
+  {
+    "id": "pp-g10-u3-2023-9",
+    "year": 2023,
+    "paperType": "Paper I",
+    "badgeText": "2023 O/L Paper I - Question 08",
+    "questionEn": "Which of the following is the hexadecimal equivalent of octal 1572₈?",
+    "questionSi": "අෂ්ටමය 1572₈ ට තුල්‍ය ෂඩ්දශමය සංඛ්‍යාව කුමක්ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "DE8₁₆",
+        "si": "DE8₁₆"
+      },
+      {
+        "id": "2",
+        "en": "37A₁₆",
+        "si": "37A₁₆"
+      },
+      {
+        "id": "3",
+        "en": "3710₁₆",
+        "si": "3710₁₆"
+      },
+      {
+        "id": "4",
+        "en": "12562₁₆",
+        "si": "12562₁₆"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 08.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 08."
+  },
+  {
+    "id": "pp-g10-u3-2024-10",
+    "year": 2024,
+    "paperType": "Paper I",
+    "badgeText": "2024 O/L Paper I - Question 06",
+    "questionEn": "Which of the following is the octal equivalent of binary 1000110₂?",
+    "questionSi": "ද්විමය 1000110₂ ට තුල්‍ය අෂ්ටක සංඛ්‍යාව කුමක්ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "46₈",
+        "si": "46₈"
+      },
+      {
+        "id": "2",
+        "en": "70₈",
+        "si": "70₈"
+      },
+      {
+        "id": "3",
+        "en": "106₈",
+        "si": "106₈"
+      },
+      {
+        "id": "4",
+        "en": "430₈",
+        "si": "430₈"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2024 O/L Paper I - Question 06.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper I - Question 06."
+  },
+  {
+    "id": "pp-g10-u3-2024-11",
+    "year": 2024,
+    "paperType": "Paper I",
+    "badgeText": "2024 O/L Paper I - Question 07",
+    "questionEn": "Which of the following is the decimal equivalent of binary 10001000₂?",
+    "questionSi": "ද්විමය 10001000₂ ට තුල්‍ය දශමය සංඛ්‍යාව කුමක්ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "64₁₀",
+        "si": "64₁₀"
+      },
+      {
+        "id": "2",
+        "en": "132₁₀",
+        "si": "132₁₀"
+      },
+      {
+        "id": "3",
+        "en": "136₁₀",
+        "si": "136₁₀"
+      },
+      {
+        "id": "4",
+        "en": "260₁₀",
+        "si": "260₁₀"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2024 O/L Paper I - Question 07.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper I - Question 07."
+  },
+  {
+    "id": "pp-g10-u3-2024-12",
+    "year": 2024,
+    "paperType": "Paper II",
+    "badgeText": "2024 O/L Paper II - Question 01 (iii)",
+    "questionEn": "1. (iii) (a) Write down the binary equivalent of 74₁₀.\n  (b) Write down the hexadecimal equivalent of 1046₈.",
+    "questionSi": "1. (iii) (a) 74₁₀ හි ද්විමය තුල්‍ය සංඛ්‍යාව ලියන්න.\n  (b) 1046₈ හි ෂඩ්දශමය තුල්‍ය සංඛ්‍යාව ලියන්න.",
+    "type": "structured",
+    "sampleAnswerEn": "Binary addition: 1101₂ + 1011₂ = 11000₂.\nBinary subtraction: 1101₂ - 1001₂ = 0100₂ (or 100₂).",
+    "sampleAnswerSi": "ද්විමය එකතු කිරීම: 1101₂ + 1011₂ = 11000₂.\nද්විමය අඩු කිරීම: 1101₂ - 1001₂ = 0100₂ (හෝ 100₂).",
+    "explanationEn": "Verbatim official examination question from 2024 O/L Paper II - Question 01 (iii).",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper II - Question 01 (iii)."
+  },
+  {
+    "id": "pp-g10-u3-2020-13",
+    "year": 2020,
+    "paperType": "Paper II",
+    "badgeText": "2020 O/L Paper II - Question 01 (iii) (b)",
+    "questionEn": "1. (iii) (b) If 1011010₂ represents character 'Z' in ASCII code, what is the ASCII code for character 'X'?",
+    "questionSi": "1. (iii) (b) 1011010₂ මගින් ASCII හි 'Z' නිරූපණය වේ නම්, 'X' අක්ෂරයේ ASCII කේතය කුමක්ද?",
+    "type": "structured",
+    "sampleAnswerEn": "Octal to binary conversion: Each octal digit represents 3 binary bits.\nFor octal 867 (textbook typo note: 8 is invalid in base-8, standard 67₈ = 110 111₂ = 110111₂).",
+    "sampleAnswerSi": "අෂ්ටමය සිට ද්විමය පරිවර්තනය: එක් එක් අෂ්ටමය ඉලක්කම සඳහා ද්විමය බිටු 3 බැගින් ලියනු ලැබේ.\n(67₈ = 110 111₂ = 110111₂).",
+    "explanationEn": "Verbatim official examination question from 2020 O/L Paper II - Question 01 (iii) (b).",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2020 O/L Paper II - Question 01 (iii) (b)."
+  },
+  {
+    "id": "pp-g10-u3-2021-14",
+    "year": 2021,
+    "paperType": "Paper II",
+    "badgeText": "2021 O/L Paper II - Question 01 (iii) (b)",
+    "questionEn": "1. (iii) (b) Following is an extract from the ASCII table. Write down the correct octal value replacement for the '?' symbol.\n  Character: a, Decimal: 97, Hexadecimal: 61, Binary: 1100001, Octal: ?",
+    "questionSi": "1. (iii) (b) මෙහි දැක්වෙන්නේ ASCII වගුවේ උපුටා ගැනීමකි. '?' ලකුණින් දක්වා ඇති දෙයට අදාළ අෂ්ටක අගය ලියා දක්වන්න.\n  අක්ෂරය: a, දශමය: 97, ෂඩ්දශමය: 61, ද්විමය: 1100001, අෂ්ටමය: ?",
+    "type": "structured",
+    "sampleAnswerEn": "Converting decimal 47 to binary by continuous division by 2:\n47 / 2 = 23 R 1\n23 / 2 = 11 R 1\n11 / 2 = 5 R 1\n5 / 2 = 2 R 1\n2 / 2 = 1 R 0\n1 / 2 = 0 R 1\nReading remainders from bottom to top: 47₁0 = 101111₂.",
+    "sampleAnswerSi": "47₁0 දශමය සංඛ්‍යාව 2 න් බෙදීමේ ක්‍රමයෙන් ද්විමය බවට පත් කිරීම:\n47 / 2 = 23 ඉතිරිය 1\n23 / 2 = 11 ඉතිරිය 1\n11 / 2 = 5 ඉතිරිය 1\n5 / 2 = 2 ඉතිරිය 1\n2 / 2 = 1 ඉතිරිය 0\n1 / 2 = 0 ඉතිරිය 1\nයට සිට ඉහළට ඉතිරි අගයන් කියවීමෙන්: 47₁0 = 101111₂.",
+    "explanationEn": "Verbatim official examination question from 2021 O/L Paper II - Question 01 (iii) (b).",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2021 O/L Paper II - Question 01 (iii) (b)."
+  },
+  {
+    "id": "pp-g10-u3-2022-15",
+    "year": 2022,
+    "paperType": "Paper I",
+    "badgeText": "2022 O/L Paper I - Question 10",
+    "questionEn": "Consider the character codes: O - 79, / - 47, L - 76, o - 111, l - 108. Which of the following will be the ASCII representation of O/L in binary?",
+    "questionSi": "O - 79, / - 47, L - 76, o - 111, l - 108 යන අනුලක්ෂණ අගයන් සලකන්න. O/L හි ASCII නිරූපණය ද්විමය ලෙස පහත කවරක දැක්වේද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "1001111 1001100",
+        "si": "1001111 1001100"
+      },
+      {
+        "id": "2",
+        "en": "1101111 1101100",
+        "si": "1101111 1101100"
+      },
+      {
+        "id": "3",
+        "en": "1001111 0101111 1001100",
+        "si": "1001111 0101111 1001100"
+      },
+      {
+        "id": "4",
+        "en": "1101111 0101111 1101100",
+        "si": "1101111 0101111 1101100"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2022 O/L Paper I - Question 10.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2022 O/L Paper I - Question 10."
+  },
+  {
+    "id": "pp-g10-u3-2023-16",
+    "year": 2023,
+    "paperType": "Paper I",
+    "badgeText": "2023 O/L Paper I - Question 10",
+    "questionEn": "Which of the following statements are true regarding the ASCII coding system?\n  A – Characters E and e are represented using the same code.\n  B – # and  symbols have different codes. n  C – Sinhala characters do not have ASCII codes.",
+    "questionSi": "ASCII කේත ක්‍රමය සම්බන්ධයෙන් පහත කවර ප්‍රකාශ නිවැරදි වේද?\n  A – අක්ෂර E සහ e එකම කේතයෙන් නිරූපණය වේ.\n  B – # සහ  සංකේත සඳහා වෙනස් කේත ඇත.\n  C – සිංහල අක්ෂර සඳහා ASCII කේත නොමැත.",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "B only",
+        "si": "B පමණක්"
+      },
+      {
+        "id": "2",
+        "en": "A and C only",
+        "si": "A සහ C පමණක්"
+      },
+      {
+        "id": "3",
+        "en": "B and C only",
+        "si": "B සහ C පමණක්"
+      },
+      {
+        "id": "4",
+        "en": "All A, B and C",
+        "si": "A, B සහ C සියල්ලම"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 10.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 10."
+  },
+  {
+    "id": "pp-g10-u3-2024-17",
+    "year": 2024,
+    "paperType": "Paper I",
+    "badgeText": "2024 O/L Paper I - Question 09",
+    "questionEn": "Consider the following statements P and Q:\n  P – When a character (e.g. 'A') is entered into a digital computer, it is converted to a unique pattern of 0s and 1s.\n  Q – ASCII code is used to assign standard numerical values for 128 characters used in computers.\n  Which of the following is valid regarding the above statements?",
+    "questionSi": "පහත P සහ Q ප්‍රකාශ සලකන්න:\n  P – කෙනෙකු සංඛ්‍යාංක පරිගණකයකට (digital computer) යම් අනුලක්ෂණයක් (A යැයි සිතන්න) ඇතුළත් කළ විට, එය 0 සහ 1 න් සෑදුණු විශේෂිත රටාවකට පරිවර්තනය වේ.\n  Q – පරිගණකයක භාවිත වන අනුලක්ෂණ 128 ක් සඳහා සම්මත සංඛ්‍යාත්මක අගයන් පැවරීමට ASCII කේතය භාවිත කෙරේ.\n  ඉහත ප්‍රකාශ සම්බන්ධයෙන් පහත කවරක් වලංගු වේද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "Both statements P and Q are correct and the ASCII code described in Statement Q assists the task mentioned in Statement P.",
+        "si": "P සහ Q ප්‍රකාශ දෙකම නිවැරදි වන අතර, Q ප්‍රකාශයේ විස්තර කෙරෙන ASCII කේතය, P ප්‍රකාශයේ සඳහන් කාර්යය සඳහා උපකාරී වේ."
+      },
+      {
+        "id": "2",
+        "en": "Both statements P and Q are correct but the points presented in the two statements are not related.",
+        "si": "P සහ Q ප්‍රකාශ දෙකම නිවැරදි වන නමුත් ඒවායින් සඳහන් කෙරෙන කරුණු අතර සබඳතාවක් නැත."
+      },
+      {
+        "id": "3",
+        "en": "Statement P is correct but statement Q is incorrect.",
+        "si": "P ප්‍රකාශය නිවැරදි වන නමුත් Q ප්‍රකාශය වැරදි ය."
+      },
+      {
+        "id": "4",
+        "en": "Both statements are incorrect.",
+        "si": "ප්‍රකාශ දෙකම වැරදි ය."
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2024 O/L Paper I - Question 09.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper I - Question 09."
+  },
+  {
+    "id": "pp-g10-u3-2023-18",
+    "year": 2023,
+    "paperType": "Paper I",
+    "badgeText": "2023 O/L Paper I - Question 09",
+    "questionEn": "One Terabyte (1 TB) is equal to",
+    "questionSi": "ටෙරා බයිට් 1 ක් (1 TB) සමාන වන්නේ,",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "1024 KB.",
+        "si": "1024 KB වලට වේ."
+      },
+      {
+        "id": "2",
+        "en": "1024 × 1024 KB.",
+        "si": "1024 × 1024 KB වලට වේ."
+      },
+      {
+        "id": "3",
+        "en": "1024 × 1024 × 1024 KB.",
+        "si": "1024 × 1024 × 1024 KB වලට වේ."
+      },
+      {
+        "id": "4",
+        "en": "1024 × 1024 × 1024 × 1024 KB.",
+        "si": "1024 × 1024 × 1024 × 1024 KB වලට වේ."
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 09.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 09."
+  },
+  {
+    "id": "pp-g10-u3-2024-19",
+    "year": 2024,
+    "paperType": "Paper I",
+    "badgeText": "2024 O/L Paper I - Question 08",
+    "questionEn": "Rani wants to store the following files in a USB Flash drive:\n  trees.pdf (500 MB), config.txt (534 bytes), nickels.mp4 (2 GB), report.docx (900 KB)\n  Which of the following is the lowest capacity USB drive that is sufficient to store them?",
+    "questionSi": "USB ෆ්ලෑෂ් ධාවකයෙක පහත ගොනු ආචයනය කිරීමට රාණිට අවශ්‍ය වේ:\n  Trees.pdf (500MB), config.txt (534 bytes), nickels.mp4 (2GB), report.docx (900 KB)\n  ඒවා ආචයනය කිරීමට ෑහෙන අවම ධාරිතාවයක් සහිත USB ධාවකය පහත කවරක් ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "2 GB",
+        "si": "2 GB"
+      },
+      {
+        "id": "2",
+        "en": "4 GB",
+        "si": "4 GB"
+      },
+      {
+        "id": "3",
+        "en": "8 GB",
+        "si": "8 GB"
+      },
+      {
+        "id": "4",
+        "en": "16 GB",
+        "si": "16 GB"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2024 O/L Paper I - Question 08.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper I - Question 08."
+  },
+  {
+    "id": "pp-g10-u3-2020-20",
+    "year": 2020,
+    "paperType": "Paper I",
+    "badgeText": "2020 O/L Paper I - Question 03",
+    "questionEn": "Which of the following represents the units of measurements of data in computer systems in the ascending order of their size?",
+    "questionSi": "පරිගණක පද්ධතිවල දත්ත මැනීමේ ඒකක ඒවායේ ප්‍රමාණයේ ආරෝහණ පටිපාටියට දක්වා ඇත්තේ පහත සඳහන් කුමක ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "Bit, Byte, Kilobyte, Terabyte",
+        "si": "බිටුව, බයිටය, කිලෝබයිටය, ටෙරාබයිටය"
+      },
+      {
+        "id": "2",
+        "en": "Byte, Bit, Kilobyte, Terabyte",
+        "si": "බයිටය, බිටුව, කිලෝබයිටය, ටෙරාබයිටය"
+      },
+      {
+        "id": "3",
+        "en": "Megabyte, Kilobyte, Bit, Byte",
+        "si": "මෙගාබයිටය, කිලෝබයිටය, බිටුව, බයිටය"
+      },
+      {
+        "id": "4",
+        "en": "Terabyte, Gigabyte, Megabyte, Kilobyte",
+        "si": "ටෙරාබයිටය, ගිගාබයිටය, මෙගාබයිටය, කිලෝබයිටය"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2020 O/L Paper I - Question 03.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2020 O/L Paper I - Question 03."
+  },
+  {
+    "id": "pp-g10-u3-2022-21",
+    "year": 2022,
+    "paperType": "Paper I",
+    "badgeText": "2022 O/L Paper I - Question 09",
+    "questionEn": "Amara wants to copy the following four files (with the given file sizes) to a USB drive:\n  `invitation.doc (15kB)`, `yesterday.mp3 (26MB)`, `concert.mp4 (150MB)`, `tajmahal.jpg (28kB)`\n  From the following four empty USB drives with the given capacities, which is the most economical drive that can be used to store the above files?",
+    "questionSi": "අමරට පහත දැක්වෙන ගොනු හතර (දී ඇති ගොනු ප්‍රමාණ සහිත) USB ධාවකයකට පිටපත් කිරීමට අවශ්‍ය වේ:\n  `invitation.doc (15kB)`, `yesterday.mp3 (26MB)`, `concert.mp4 (150MB)`, `tajmahal.jpg (28kB)`\n  දී ඇති ධාරිතාවන් සහිත පහත දැක්වෙන හිස් USB ධාවක හතරෙන්, ඉහත ගොනු තැන්පත් කිරීමට භාවිත කළ හැකි වඩාත්ම පිරිවැය සාපේක්ෂ (අඩුම මිල) ධාවකය කුමක්ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "1GB",
+        "si": "1GB"
+      },
+      {
+        "id": "2",
+        "en": "2GB",
+        "si": "2GB"
+      },
+      {
+        "id": "3",
+        "en": "128MB",
+        "si": "128MB"
+      },
+      {
+        "id": "4",
+        "en": "256MB",
+        "si": "256MB"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2022 O/L Paper I - Question 09.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2022 O/L Paper I - Question 09."
+  },
+  {
+    "id": "pp-g10-u3-2023-22",
+    "year": 2023,
+    "paperType": "Paper I",
+    "badgeText": "2023 O/L Paper I - Question 09",
+    "questionEn": "One Terabyte (1 TB) is equal to",
+    "questionSi": "ටෙරා nhsg 1 ක් (1 TB) සමාන වන්නේ,",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "1024 KB.",
+        "si": "1024 KB වලට වේ."
+      },
+      {
+        "id": "2",
+        "en": "1024 × 1024 KB.",
+        "si": "1024 × 1024 KB වලට වේ."
+      },
+      {
+        "id": "3",
+        "en": "1024 × 1024 × 1024 KB.",
+        "si": "1024 × 1024 × 1024 KB වලට වේ."
+      },
+      {
+        "id": "4",
+        "en": "1024 × 1024 × 1024 × 1024 KB.",
+        "si": "1024 × 1024 × 1024 × 1024 KB වලට වේ."
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 09.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 09."
+  },
+  {
+    "id": "pp-g10-u3-2024-23",
+    "year": 2024,
+    "paperType": "Paper I",
+    "badgeText": "2024 O/L Paper I - Question 08",
+    "questionEn": "Rani wants to store the following files in a USB Flash drive:\n  `trees.pdf (500 MB)`, `config.txt (534 bytes)`, `nickels.mp4 (2 GB)`, `report.docx (900 KB)`\n  Which of the following is the lowest capacity USB drive that is sufficient to store them?",
+    "questionSi": "USB ෆ්ලෑෂ් ධාවකයක පහත ගොනු ආචයනය කිරීමට රාණිට අවශ්‍ය වේ:\n  `trees.pdf (500 MB)`, `config.txt (534 bytes)`, `nickels.mp4 (2 GB)`, `report.docx (900 KB)`\n  ඒවා ආචයනය කිරීමට සෑහෙන අඩුම ධාරිතාව සහිත USB ධාවකය පහත කුමක්ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "2 GB",
+        "si": "2 GB"
+      },
+      {
+        "id": "2",
+        "en": "4 GB",
+        "si": "4 GB"
+      },
+      {
+        "id": "3",
+        "en": "8 GB",
+        "si": "8 GB"
+      },
+      {
+        "id": "4",
+        "en": "16 GB",
+        "si": "16 GB"
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2024 O/L Paper I - Question 08.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper I - Question 08."
+  },
+  {
+    "id": "pp-g10-u3-2025-24",
+    "year": 2025,
+    "paperType": "Paper I",
+    "badgeText": "2025 O/L Paper I - Question 07",
+    "questionEn": "A USB flash drive has 256 MB of free space. A video file of 0.3 GB, an image file of 300 KB, and a document file of 400 bytes need to be copied to this drive. Which of the following statements is correct?",
+    "questionSi": "USB ෆ්ලෑෂ් ධාවකයක 256 MB ක නොමිලේ ඉඩ ප්‍රමාණයක් ඇත. 0.3 GB ක වීඩියෝ ගොනුවක්, 300 KB ක රූප ගොනුවක් සහ බයිට 400 ක ලේඛන ගොනුවක් මෙම ධාවකයට පිටපත් කළ යුතුය. පහත සඳහන් ප්‍රකාශවලින් නිවැරදි වන්නේ කුමක්ද?",
+    "type": "mcq",
+    "options": [
+      {
+        "id": "1",
+        "en": "Only the document file can be copied.",
+        "si": "ලේඛන ගොනුව පමණක් පිටපත් කළ හැක."
+      },
+      {
+        "id": "2",
+        "en": "Only the image file and the document file can be copied.",
+        "si": "රූප ගොනුව සහ ලේඛන ගොනුව පමණක් පිටපත් කළ හැක."
+      },
+      {
+        "id": "3",
+        "en": "Only the video file can be copied.",
+        "si": "වීඩියෝ ගොනුව පමණක් පිටපත් කළ හැක."
+      },
+      {
+        "id": "4",
+        "en": "All three files can be copied.",
+        "si": "ගොනු තුනම පිටපත් කළ හැක."
+      }
+    ],
+    "correctOptionId": "1",
+    "explanationEn": "Verbatim official examination question from 2025 O/L Paper I - Question 07.",
+    "explanationSi": "නිල විභාග ප්‍රශ්නය: 2025 O/L Paper I - Question 07."
+  }
+]
 };

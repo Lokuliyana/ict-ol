@@ -38,6 +38,57 @@
   --shadow-clay-press: 0 2px 4px rgba(0, 0, 0, 0.6), inset 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.amber {
+  --canvas: #0c0905;
+  --surface-primary: #19140e;
+  --surface-secondary: #120e09;
+  --surface-tertiary: #241c14;
+  --foreground: #fef3c7;
+  --foreground-muted: #d97706;
+  --border-color: #451a03;
+  --primary: #f59e0b;
+  --shadow-clay: 0 4px 12px -2px rgba(245, 158, 11, 0.15), inset 0 1px 1px rgba(254, 243, 199, 0.08);
+  --shadow-clay-hover: 0 8px 24px -2px rgba(245, 158, 11, 0.25), inset 0 1px 1px rgba(254, 243, 199, 0.12);
+  --shadow-clay-press: 0 2px 4px rgba(245, 158, 11, 0.2), inset 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* 52px Minimum Touch Target Rule */
+.min-touch-target {
+  min-height: 52px;
+  min-width: 52px;
+}
+
+/* Optical Font Sizing Parity & High-Contrast Diacritic Rendering */
+.si-optical {
+  font-size: 1.08em;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  overflow: visible;
+}
+
+/* 3D Flip Card Animation */
+.perspective-1000 {
+  perspective: 1000px;
+}
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Safe area padding utilities for mobile devices */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
 /* Custom Sinhala fonts */
 @font-face {
   font-family: 'FM Abhaya';
@@ -55,6 +106,12 @@
   font-family: 'FM Rashmee';
   src: url('/fonts/FMRashmee-jdq2pc.ttf') format('truetype');
   font-weight: normal;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 body {
@@ -111,3 +168,13 @@ body {
     margin-bottom: 1.5rem;
   }
 }
+
+/* Data Saver Mode (#50) */
+html.data-saver *,
+html.data-saver *::before,
+html.data-saver *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}
+

@@ -318,7 +318,7 @@ remediationChallengerSuite.addTest(
 
     // Empty whitespace query returns all questions
     const whitespaceOnly = filterPastPapers({ searchQuery: '   \t  \n  ' });
-    expect(whitespaceOnly.length).toBe(168);
+    expect(whitespaceOnly.length).toBe(UNIFIED_PAST_PAPERS.length);
   },
   'Search Query Engine'
 );

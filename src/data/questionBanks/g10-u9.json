@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "g10-u9-q1",
+    "lessonId": "g10-u9",
+    "questionNumber": 1,
+    "promptEn": "What is the fundamental definition of a \"Database\"?",
+    "promptSi": "\"දත්ත සමුදායක්\" (Database) යන්නෙහි මූලික අර්ථ දැක්වීම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "An unstructured collection of random digital documents stored in a folder",
+        "si": "An unstructured collection of random digital documents stored in a folder"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "An organized collection of logically related data structured for easy access, retrieval, and management",
+        "si": "An organized collection of logically related data structured for easy access, retrieval, and management"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A computer programming language used exclusively to calculate mathematical statistics",
+        "si": "A computer programming language used exclusively to calculate mathematical statistics"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A hardware storage peripheral designed solely for backing up operating systems",
+        "si": "A hardware storage peripheral designed solely for backing up operating systems"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A database is an organized collection of logically related data stored systematically so that users and computer programs can access, update, and manage information efficiently.",
+    "explanationSi": "දත්ත සමුදායක් (Database) යනු පරිශීලකයින්ට සහ මෘදුකාංගවලට පහසුවෙන් ප්‍රවේශ විය හැකි, යාවත්කාලීන කළ හැකි සහ කළමනාකරණය කළ හැකි පරිදි ක්‍රමවත් ලෙස සංවිධානය කරන ලද, තර්කානුකූලව එකිනෙකට සම්බන්ධ දත්ත සමූහයකි.",
+    "syllabusRef": "G10-U9.1"
+  },
+  {
+    "id": "g10-u9-q2",
+    "lessonId": "g10-u9",
+    "questionNumber": 2,
+    "promptEn": "Which sequence correctly represents the organizational hierarchy of data in computer systems from smallest to largest?",
+    "promptSi": "පරිගණක පද්ධති තුළ දත්ත ධුරාවලිය කුඩාම ඒකකයේ සිට විශාලතම ඒකකය දක්වා නිවැරදිව පෙළගස්වා ඇති පිළිවෙළ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Bit → Byte → Field → Record → Table → Database",
+        "si": "Bit → Byte → Field → Record → Table → Database"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Byte → Bit → Record → Field → Table → Database",
+        "si": "Byte → Bit → Record → Field → Table → Database"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Bit → Field → Byte → Record → Database → Table",
+        "si": "Bit → Field → Byte → Record → Database → Table"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Field → Record → Byte → Bit → Table → Database",
+        "si": "Field → Record → Byte → Bit → Table → Database"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "The computer data hierarchy ascends strictly from: Bit (0 or 1) → Byte (character) → Field (attribute/column) → Record (tuple/row) → Table (relation/file) → Database.",
+    "explanationSi": "පරිගණක දත්ත ධුරාවලිය කුඩාම ඒකකයේ සිට ඉහළට පෙළගැසෙන්නේ: බිටුව (0 හෝ 1) → බයිටය (අක්ෂරය) → ක්ෂේත්‍රය (තීරුව) → ලේඛනය (පේළිය) → වගුව (සබඳතාව) → දත්ත සමුදාය යන අනුපිළිවෙළටයි.",
+    "syllabusRef": "G10-U9.2"
+  },
+  {
+    "id": "g10-u9-q3",
+    "lessonId": "g10-u9",
+    "questionNumber": 3,
+    "promptEn": "In a relational database table, what is a single horizontal row containing data for one entity called?",
+    "promptSi": "සම්බන්ධතා දත්ත සමුදා වගුවක, එක් එන්ටිටියකට අයත් දත්ත අඩංගු තනි තිරස් පේළියක් හඳුන්වන්නේ කුමක් ලෙසද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Field or Attribute",
+        "si": "Field or Attribute"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Record or Tuple",
+        "si": "Record or Tuple"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Domain or Data Type",
+        "si": "Domain or Data Type"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Schema or View",
+        "si": "Schema or View"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A horizontal row in a relational table represents a single complete instance of an entity and is formally known as a Record or Tuple. Columns are called Fields or Attributes.",
+    "explanationSi": "වගුවක තිරස් පේළියක් තනි සම්පූර්ණ අවස්ථාවක් නිරූපණය කරන අතර එය ලේඛනයක් (Record) හෝ ටූපලයක් (Tuple) ලෙස හැඳින්වේ. සිරස් තීරු ක්ෂේත්‍ර (Fields) හෝ විශේෂණ (Attributes) ලෙස හැඳින්වේ.",
+    "syllabusRef": "G10-U9.3"
+  },
+  {
+    "id": "g10-u9-q4",
+    "lessonId": "g10-u9",
+    "questionNumber": 4,
+    "promptEn": "In relational database terminology, what is a vertical column that stores a specific property or characteristic of an entity?",
+    "promptSi": "සම්බන්ධතා දත්ත සමුදා පාරිභාෂික ශබ්දමාලාවට අනුව, එන්ටිටියක නිශ්චිත ගුණාංගයක් ගබඩා කරන සිරස් තීරුවක් හඳුන්වන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Record",
+        "si": "Record"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Tuple",
+        "si": "Tuple"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Attribute or Field",
+        "si": "Attribute or Field"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Relation",
+        "si": "Relation"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "A vertical column in a table stores a specific descriptor of an entity (such as `DateOfBirth` or `ContactNo`) and is termed an Attribute or Field.",
+    "explanationSi": "වගුවක සිරස් තීරුවක් මගින් එන්ටිටියක යම් නිශ්චිත ලක්ෂණයක් (උදා: `DateOfBirth` හෝ `ContactNo`) ගබඩා කරන අතර එය විශේෂණයක් (Attribute) හෝ ක්ෂේත්‍රයක් (Field) ලෙස හඳුන්වනු ලබයි.",
+    "syllabusRef": "G10-U9.4"
+  },
+  {
+    "id": "g10-u9-q5",
+    "lessonId": "g10-u9",
+    "questionNumber": 5,
+    "promptEn": "Which key in a relational database uniquely identifies every record in a table and cannot contain NULL values?",
+    "promptSi": "වගුවක සෑම ලේඛනයක්ම අනන්‍යව හඳුනාගන්නා අතර හිස් (NULL) අගයන් පැවතිය නොහැකි යතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Foreign Key",
+        "si": "Foreign Key"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Primary Key",
+        "si": "Primary Key"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Secondary Index",
+        "si": "Secondary Index"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Composite Attribute",
+        "si": "Composite Attribute"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Primary Key must satisfy two strict integrity constraints: Uniqueness (no duplicate keys) and Entity Integrity (it cannot contain NULL values).",
+    "explanationSi": "ප්‍රාථමික යතුරක් (Primary Key) අනිවාර්යයෙන්ම අනන්‍ය විය යුතු අතර (Uniqueness) කිසිවිටෙකත් හිස් (NULL) අගයන් නොපැවතිය යුතුය (Entity Integrity).",
+    "syllabusRef": "G10-U9.5"
+  },
+  {
+    "id": "g10-u9-q6",
+    "lessonId": "g10-u9",
+    "questionNumber": 6,
+    "promptEn": "What is a field in a relational table that corresponds to and matches the Primary Key of another table?",
+    "promptSi": "වෙනත් වගුවක ප්‍රාථමික යතුරට අනුරූප වෙමින් වගු දෙක අතර සබඳතාව ගොඩනගන ක්ෂේත්‍රය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Primary Key",
+        "si": "Primary Key"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Candidate Key",
+        "si": "Candidate Key"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Foreign Key",
+        "si": "Foreign Key"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Super Key",
+        "si": "Super Key"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "A Foreign Key is a field in a referencing (child) table that matches the Primary Key of a referenced (parent) table, establishing a relational link between them.",
+    "explanationSi": "ආගන්තුක යතුරක් (Foreign Key) යනු වෙනත් මව් වගුවක ප්‍රාථමික යතුර හා සම්බන්ධ වෙමින් වගු අතර තර්කානුකූල සබඳතාවක් ගොඩනැගීමට යොදාගන්නා ක්ෂේත්‍රයයි.",
+    "syllabusRef": "G10-U9.6"
+  },
+  {
+    "id": "g10-u9-q7",
+    "lessonId": "g10-u9",
+    "questionNumber": 7,
+    "promptEn": "What is a Primary Key called when it is formed by combining two or more fields together to uniquely identify a record?",
+    "promptSi": "වගුවක ලේඛනයක් අනන්‍යව හඳුනාගැනීම සඳහා ක්ෂේත්‍ර දෙකක් හෝ වැඩි ගණනක් එකතු කර සාදාගන්නා ප්‍රාථමික යතුර හඳුන්වන්නේ කුමක් ලෙසද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Alternate Key",
+        "si": "Alternate Key"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Foreign Key",
+        "si": "Foreign Key"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Composite Primary Key",
+        "si": "Composite Primary Key"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Secondary Key",
+        "si": "Secondary Key"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "When no single attribute can guarantee uniqueness, two or more attributes are joined together to form a Composite Primary Key.",
+    "explanationSi": "තනි ක්ෂේත්‍රයකින් වාර්තාවක් අනන්‍යව හඳුනාගත නොහැකි වූ විට, ක්ෂේත්‍ර දෙකක් හෝ කිහිපයක් ඒකාබද්ධ කර සාදාගන්නා ප්‍රාථමික යතුර සංයුක්ත ප්‍රාථමික යතුරක් (Composite Primary Key) ලෙස හැඳින්වේ.",
+    "syllabusRef": "G10-U9.7"
+  },
+  {
+    "id": "g10-u9-q8",
+    "lessonId": "g10-u9",
+    "questionNumber": 8,
+    "promptEn": "What are any candidate keys that are NOT selected as the Primary Key called?",
+    "promptSi": "වගුවක ප්‍රාථමික යතුර ලෙස තෝරා නොගත් ඉතිරි අපේක්ෂක යතුරු හඳුන්වනු ලබන්නේ කිනම් නමකින්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Foreign Keys",
+        "si": "Foreign Keys"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Alternate Keys",
+        "si": "Alternate Keys"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Composite Keys",
+        "si": "Composite Keys"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Primary Keys",
+        "si": "Primary Keys"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "All attributes capable of uniquely identifying rows are Candidate Keys. The chosen one is the Primary Key, and all remaining unselected candidate keys become Alternate Keys.",
+    "explanationSi": "වගුවක ලේඛන අනන්‍යව හඳුනාගත හැකි සියලු ක්ෂේත්‍ර අපේක්ෂක යතුරු (Candidate Keys) වන අතර, ප්‍රාථමික යතුර ලෙස තෝරා නොගන්නා ඉතිරි අපේක්ෂක යතුරු විකල්ප යතුරු (Alternate Keys) ලෙස හැඳින්වේ.",
+    "syllabusRef": "G10-U9.8"
+  },
+  {
+    "id": "g10-u9-q9",
+    "lessonId": "g10-u9",
+    "questionNumber": 9,
+    "promptEn": "What database rule ensures that a Foreign Key value in a child table must match an existing Primary Key in the parent table?",
+    "promptSi": "දරුවකු වැනි වගුවක (Child table) ඇති ආගන්තුක යතුරක අගයක් මව් වගුවේ (Parent table) ප්‍රාථමික යතුරෙහි අනිවාර්යයෙන්ම තිබිය යුතු බවට තහවුරු කරන නීතිය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Entity Integrity",
+        "si": "Entity Integrity"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Referential Integrity",
+        "si": "Referential Integrity"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Domain Redundancy",
+        "si": "Domain Redundancy"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Data Normalization",
+        "si": "Data Normalization"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Referential Integrity guarantees that cross-table relationships remain consistent and prevents invalid \"orphaned records\" where a Foreign Key points to a non-existent parent row.",
+    "explanationSi": "යොමු අඛණ්ඩතාව (Referential Integrity) මඟින් වගු අතර සබඳතාවල නිරවද්‍යතාව ආරක්ෂා කරන අතර, නොපවතින මව් ලේඛනවලට යොමු වන වලංගු නොවන අගයන් ඇතුළත් වීම වළක්වයි.",
+    "syllabusRef": "G10-U9.9"
+  },
+  {
+    "id": "g10-u9-q10",
+    "lessonId": "g10-u9",
+    "questionNumber": 10,
+    "promptEn": "Which database object is specifically designed to provide a user-friendly graphical interface for safe data entry and record editing?",
+    "promptSi": "වගුවලට දත්ත ආරක්ෂිතව හා පහසුවෙන් ඇතුළත් කිරීමට හා සංස්කරණය කිරීමට පරිශීලක-හිතකාමී අතුරුමුහුණතක් සපයන දත්ත සමුදා වස්තුව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Table",
+        "si": "Table"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Query",
+        "si": "Query"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Form",
+        "si": "Form"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Report",
+        "si": "Report"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Forms provide a graphical interface containing text boxes, buttons, and drop-down lists designed for comfortable data entry without exposing raw table architecture.",
+    "explanationSi": "ආකෘති පත්‍ර (Forms) මඟින් පරිශීලකයාට පහසුවෙන් දත්ත ඇතුළත් කිරීමට, බැලීමට හා සංස්කරණය කිරීමට අවශ්‍ය බොත්තම් සහ කොටු සහිත ආරක්ෂිත අතුරුමුහුණත සපයයි.",
+    "syllabusRef": "G10-U9.10"
+  },
+  {
+    "id": "g10-u9-q11",
+    "lessonId": "g10-u9",
+    "questionNumber": 11,
+    "promptEn": "Which database object is used to extract, filter, calculate, and sort specific records matching defined criteria from one or more tables?",
+    "promptSi": "දී ඇති කොන්දේසි මත පදනම්ව වගු එකකින් හෝ කිහිපයකින් නිශ්චිත දත්ත පෙරීමට, සෙවීමට, ගණනය කිරීමට සහ ලබාගැනීමට භාවිත කරන දත්ත සමුදා මෙවලම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Table",
+        "si": "Table"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Query",
+        "si": "Query"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Form",
+        "si": "Form"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Report",
+        "si": "Report"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Query searches and filters data across database tables according to specified search criteria and logical operators.",
+    "explanationSi": "විමසුම් (Queries) මඟින් පරිශීලකයා විසින් දෙනු ලබන නිර්ණායක සහ කොන්දේසිවලට අනුව වගු තුළින් දත්ත පෙරීම, සෙවීම සහ ලබාගැනීම සිදු කරයි.",
+    "syllabusRef": "G10-U9.11"
+  },
+  {
+    "id": "g10-u9-q12",
+    "lessonId": "g10-u9",
+    "questionNumber": 12,
+    "promptEn": "Which database object formats, summarizes, and layouts processed information specifically for printed distribution or administrative review?",
+    "promptSi": "මුද්‍රණය කිරීමට සහ විධිමත් පරිපාලනමය ඉදිරිපත් කිරීම් සඳහා දත්ත සාරාංශගතව සහ ආකර්ෂණීය ලෙස සකස් කර ප්‍රදර්ශනය කරන දත්ත සමුදා වස්තුව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Table",
+        "si": "Table"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Form",
+        "si": "Form"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Report",
+        "si": "Report"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Query",
+        "si": "Query"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Reports format, group, summarize (with totals and averages), and present database data specifically for paper printing and professional reports.",
+    "explanationSi": "වාර්තා (Reports) නිර්මාණය කර ඇත්තේ දත්ත කාණ්ඩ කිරීමට, එකතු හා සාමාන්‍යයන් ගණනය කර සාරාංශ කිරීමට සහ කඩදාසිවල මුද්‍රණය කිරීමට සුදුසු පරිදි ප්‍රදර්ශනය කිරීමටයි.",
+    "syllabusRef": "G10-U9.12"
+  },
+  {
+    "id": "g10-u9-q13",
+    "lessonId": "g10-u9",
+    "questionNumber": 13,
+    "promptEn": "Which table view in Microsoft Access or LibreOffice Base allows users to define field names, assign data types, and designate Primary Keys?",
+    "promptSi": "මයික්‍රොසොෆ්ට් ඇක්සස් හෝ ලිබ්‍රේඔෆිස් බේස් හි ක්ෂේත්‍ර නම් නියම කිරීමට, දත්ත වර්ග තේරීමට සහ ප්‍රාථමික යතුරු නම් කිරීමට භාවිත වන වගු දසුන (View) කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Datasheet View",
+        "si": "Datasheet View"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Design View",
+        "si": "Design View"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Layout View",
+        "si": "Layout View"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Print Preview",
+        "si": "Print Preview"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Design View is used to architect table schema: creating field names, configuring data types, and setting Primary Keys. Datasheet View is used for viewing and typing record rows.",
+    "explanationSi": "වගුවක ව්‍යුහය (Schema) සැකසීමට, ක්ෂේත්‍ර නම් ලිවීමට, දත්ත වර්ග තේරීමට සහ ප්‍රාථමික යතුරු නම් කිරීමට Design View භාවිත වේ. Datasheet View භාවිත වන්නේ දත්ත ඇතුළත් කිරීමටයි.",
+    "syllabusRef": "G10-U9.13"
+  },
+  {
+    "id": "g10-u9-q14",
+    "lessonId": "g10-u9",
+    "questionNumber": 14,
+    "promptEn": "Which DBMS data type is most appropriate for storing a monetary amount such as an item's selling price (e.g., Rs. 1,450.50)?",
+    "promptSi": "භාණ්ඩයක විකුණුම් මිල (උදා: රු. 1,450.50) වැනි මුදල්මය අගයක් ගබඩා කිරීමට වඩාත්ම යෝග්‍ය දත්ත වර්ගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Short Text",
+        "si": "Short Text"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Number",
+        "si": "Number"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Currency",
+        "si": "Currency"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "AutoNumber",
+        "si": "AutoNumber"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "The Currency data type stores financial figures with accurate decimal precision and currency formatting, preventing floating-point rounding errors.",
+    "explanationSi": "මුදල් (Currency) දත්ත වර්ගය මඟින් මුදල්මය අගයන් දශම නිරවද්‍යතාව සහ මුදල් සංකේත සහිතව නිවැරදිව තැන්පත් කරයි.",
+    "syllabusRef": "G10-U9.14"
+  },
+  {
+    "id": "g10-u9-q15",
+    "lessonId": "g10-u9",
+    "questionNumber": 15,
+    "promptEn": "Which DBMS data type automatically generates a unique sequential integer every time a new record is appended to a table?",
+    "promptSi": "වගුවකට අලුතින් ලේඛනයක් ඇතුළත් කරන සෑම අවස්ථාවකදීම ස්වයංක්‍රීයව අනුක්‍රමික අනන්‍ය පූර්ණ සංඛ්‍යාවක් ලබාදෙන දත්ත වර්ගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "AutoNumber",
+        "si": "AutoNumber"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Number",
+        "si": "Number"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Short Text",
+        "si": "Short Text"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Yes",
+        "si": "No"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "AutoNumber automatically generates a unique sequential number for every inserted row, making it ideal for artificial Primary Keys (such as `InvoiceID` or `StudentID`).",
+    "explanationSi": "AutoNumber මඟින් අලුතින් ඇතුළත් වන සෑම පේළියක් සඳහාම අනන්‍ය අනුක්‍රමික අංකයක් ස්වයංක්‍රීයව ජනනය කරන අතර, ප්‍රාථමික යතුරක් ලෙස භාවිත කිරීමට මෙය ඉතා යෝග්‍ය වේ.",
+    "syllabusRef": "G10-U9.15"
+  },
+  {
+    "id": "g10-u9-q16",
+    "lessonId": "g10-u9",
+    "questionNumber": 16,
+    "promptEn": "What is the maximum character storage capacity of a standard Short Text (Text) field in an Access database?",
+    "promptSi": "ඇක්සස් දත්ත සමුදායක සම්මත කෙටි පෙළ (Short Text) ක්ෂේත්‍රයක ගබඩා කළ හැකි උපරිම අක්ෂර ගණන කොපමණද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "128 characters",
+        "si": "128 characters"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "255 characters",
+        "si": "255 characters"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "1,024 characters",
+        "si": "1,024 characters"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "65,535 characters",
+        "si": "65,535 characters"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Short Text field stores alphanumeric characters up to a maximum limit of 255 characters. For long essays or paragraphs, Long Text (Memo) is used.",
+    "explanationSi": "Short Text ක්ෂේත්‍රයක උපරිම වශයෙන් අක්ෂර 255ක් ගබඩා කළ හැක. ඊට වඩා දිගු විස්තර සහ ඡේද සඳහා Long Text (Memo) භාවිත කෙරේ.",
+    "syllabusRef": "G10-U9.16"
+  },
+  {
+    "id": "g10-u9-q17",
+    "lessonId": "g10-u9",
+    "questionNumber": 17,
+    "promptEn": "Which DBMS data type should be selected for a field storing whether a student has paid library fees (True/False)?",
+    "promptSi": "ශිෂ්‍යයෙකු පුස්තකාල ගාස්තු ගෙවා තිබේද නැද්ද (සත්‍ය/අසත්‍ය) යන්න ගබඩා කිරීමට තෝරාගත යුතු වඩාත්ම සුදුසු දත්ත වර්ගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Short Text",
+        "si": "Short Text"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Number",
+        "si": "Number"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Yes",
+        "si": "No"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "OLE Object",
+        "si": "OLE Object"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "The Yes/No (Boolean) data type stores logical binary values (True/False, 1/0) and is rendered as an efficient checkbox.",
+    "explanationSi": "ඔව් / නැත (Yes/No / Boolean) දත්ත වර්ගය මඟින් සත්‍ය/අසත්‍ය (True/False) හෝ 1/0 යන ද්විමය තාර්කික අගයන් ගබඩා කරයි.",
+    "syllabusRef": "G10-U9.17"
+  },
+  {
+    "id": "g10-u9-q18",
+    "lessonId": "g10-u9",
+    "questionNumber": 18,
+    "promptEn": "What field property is configured to display a customized error message when a user inputs data that violates a Validation Rule?",
+    "promptSi": "පරිශීලකයා වලංගුතා නීතියක් (Validation Rule) උල්ලංඝනය වන අයුරින් දත්ත ඇතුළත් කළ විට අභිරුචි දෝෂ පණිවිඩයක් පෙන්වීම සඳහා සකස් කරන ක්ෂේත්‍ර ගුණාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Default Value",
+        "si": "Default Value"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Field Size",
+        "si": "Field Size"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Validation Text",
+        "si": "Validation Text"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Input Mask",
+        "si": "Input Mask"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "When a validation rule (e.g., `>=0 AND <=100`) fails, the text configured in the `Validation Text` property is shown as an informative alert to the user.",
+    "explanationSi": "වලංගුතා නීතියක් කඩ වූ විට පරිශීලකයා වෙත පෙන්වනු ලබන උපදේශාත්මක දෝෂ පණිවිඩය සටහන් කරන්නේ `Validation Text` ගුණාංගය තුළයි.",
+    "syllabusRef": "G10-U9.18"
+  },
+  {
+    "id": "g10-u9-q19",
+    "lessonId": "g10-u9",
+    "questionNumber": 19,
+    "promptEn": "In an Entity-Relationship (ER) diagram, what geometric shape is officially used to represent an \"Entity\"?",
+    "promptSi": "එන්ටිටි-සබඳතා (ER) සටහනක, \"එන්ටිටියක්\" (Entity) නිරූපණය කිරීමට භාවිත කරන ජ්‍යාමිතික හැඩය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Diamond (රොම්බසය)",
+        "si": "Diamond (රොම්බසය)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Rectangle (සෘජුකෝණාස්‍රය)",
+        "si": "Rectangle (සෘජුකෝණාස්‍රය)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Oval",
+        "si": "Ellipse (ඉලිප්සය)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Triangle (ත්‍රිකෝණය)",
+        "si": "Triangle (ත්‍රිකෝණය)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In standard ER diagrams: Entities are represented by Rectangles, Attributes by Ovals/Ellipses, and Relationships by Diamonds.",
+    "explanationSi": "සම්මත ER සටහන්වල: එන්ටිටි සෘජුකෝණාස්‍ර මගින්ද, විශේෂණ (Attributes) ඉලිප්ස මගින්ද, සබඳතා (Relationships) රොම්බස මගින්ද නිරූපණය කෙරේ.",
+    "syllabusRef": "G10-U9.19"
+  },
+  {
+    "id": "g10-u9-q20",
+    "lessonId": "g10-u9",
+    "questionNumber": 20,
+    "promptEn": "In an Entity-Relationship (ER) diagram, what geometric shape is used to represent an \"Attribute\"?",
+    "promptSi": "එන්ටිටි-සබඳතා (ER) සටහනක, \"විශේෂණයක්\" (Attribute) නිරූපණය කිරීමට භාවිත කරන ජ්‍යාමිතික හැඩය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Oval",
+        "si": "Ellipse (ඉලිප්සය)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Rectangle (සෘජුකෝණාස්‍රය)",
+        "si": "Rectangle (සෘජුකෝණාස්‍රය)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Diamond (රොම්බසය)",
+        "si": "Diamond (රොම්බසය)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hexagon (ෂඩස්‍රය)",
+        "si": "Hexagon (ෂඩස්‍රය)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Attributes (properties of entities like `Name` or `Age`) are depicted using Ovals or Ellipses linked to their parent entity rectangle.",
+    "explanationSi": "එන්ටිටියක ගුණාංග හෙවත් විශේෂණ (Attributes) නිරූපණය කිරීමට ඉලිප්ස (Ovals / Ellipses) භාවිත කරනු ලබයි.",
+    "syllabusRef": "G10-U9.20"
+  },
+  {
+    "id": "g10-u9-q21",
+    "lessonId": "g10-u9",
+    "questionNumber": 21,
+    "promptEn": "What type of relationship exists between \"Citizen\" and \"National Identity Card (NIC)\" in a government civil registry database?",
+    "promptSi": "රජයේ සිවිල් ලියාපදිංචි දත්ත සමුදායක \"පුරවැසියා\" (Citizen) සහ \"ජාතික හැඳුනුම්පත\" (NIC) අතර පවතින්නේ කිනම් ආකාරයේ සබඳතාවක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "One-to-One (1:1)",
+        "si": "One-to-One (1:1)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "One-to-Many (1:N)",
+        "si": "One-to-Many (1:N)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Many-to-Many (M:N)",
+        "si": "Many-to-Many (M:N)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Recursive",
+        "si": "Recursive"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Each citizen has exactly one official NIC, and each NIC number belongs uniquely to exactly one citizen (One-to-One relationship).",
+    "explanationSi": "එක් පුරවැසියෙකුට හිමිවන්නේ එක් ජාතික හැඳුනුම්පතක් පමණක් වන අතර, එක් හැඳුනුම්පත් අංකයක් අයිති වන්නේ එක් පුරවැසියෙකුට පමණි. එබැවින් එය එකකට එක (1:1) සබඳතාවකි.",
+    "syllabusRef": "G10-U9.21"
+  },
+  {
+    "id": "g10-u9-q22",
+    "lessonId": "g10-u9",
+    "questionNumber": 22,
+    "promptEn": "In an e-commerce database, what type of cardinality relationship exists between \"Customer\" and \"Order\"?",
+    "promptSi": "ඊ-වාණිජ්‍ය දත්ත සමුදායක \"පාරිභෝගිකයා\" (Customer) සහ \"ඇණවුම\" (Order) අතර පවතින කාඩිනැලිටි සබඳතාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "One-to-One (1:1)",
+        "si": "One-to-One (1:1)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "One-to-Many (1:N)",
+        "si": "One-to-Many (1:N)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Many-to-Many (M:N)",
+        "si": "Many-to-Many (M:N)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Many-to-One (N:1)",
+        "si": "Many-to-One (N:1)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A single customer can place multiple orders over time, but every individual order receipt belongs to only one specific customer (One-to-Many).",
+    "explanationSi": "එක් පාරිභෝගිකයෙකුට විවිධ අවස්ථාවලදී ඇණවුම් කිහිපයක් සිදුකළ හැකි නමුත්, එක් ඇණවුමක් අයිති වන්නේ එක් පාරිභෝගිකයෙකුට පමණි (1:N).",
+    "syllabusRef": "G10-U9.22"
+  },
+  {
+    "id": "g10-u9-q23",
+    "lessonId": "g10-u9",
+    "questionNumber": 23,
+    "promptEn": "When implementing a One-to-Many (1:N) relationship between \"Department\" (One) and \"Employee\" (Many), what is the golden architectural rule?",
+    "promptSi": "\"දෙපාර්තමේන්තුව\" (එකක්) සහ \"සේවකයා\" (බොහෝ) අතර 1:N සබඳතාවක් ගොඩනැගීමේදී අනුගමනය කළ යුතු ස්වර්ණමය නීතිය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Place the Primary Key of Employee as a Foreign Key in Department",
+        "si": "Place the Primary Key of Employee as a Foreign Key in Department"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Place the Primary Key of Department as a Foreign Key in Employee",
+        "si": "Place the Primary Key of Department as a Foreign Key in Employee"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Create a separate table containing only employee names",
+        "si": "Create a separate table containing only employee names"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Both tables must share the exact same primary key name and delete all other fields",
+        "si": "Both tables must share the exact same primary key name and delete all other fields"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In any 1:N relationship, the Primary Key of the \"ONE\" side (`DeptID` in `DEPARTMENT`) must be placed as a Foreign Key in the \"MANY\" side (`EMPLOYEE`).",
+    "explanationSi": "ඕනෑම 1:N සබඳතාවකදී, \"එක\" පැත්තේ ප්‍රාථමික යතුර (`DeptID`), \"බොහෝ\" පැත්තේ වගුවේ (`EMPLOYEE`) ආගන්තුක යතුරක් (Foreign Key) ලෙස ඇතුළත් කළ යුතුය.",
+    "syllabusRef": "G10-U9.23"
+  },
+  {
+    "id": "g10-u9-q24",
+    "lessonId": "g10-u9",
+    "questionNumber": 24,
+    "promptEn": "What type of relationship exists between \"Student\" and \"Subject\" in a school management system?",
+    "promptSi": "පාසල් කළමනාකරණ පද්ධතියක \"ශිෂ්‍යයා\" (Student) සහ \"විෂය\" (Subject) අතර පවතින්නේ කිනම් සබඳතාවක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "One-to-One (1:1)",
+        "si": "One-to-One (1:1)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "One-to-Many (1:N)",
+        "si": "One-to-Many (1:N)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Many-to-Many (M:N)",
+        "si": "Many-to-Many (M:N)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Many-to-One (N:1)",
+        "si": "Many-to-One (N:1)"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "One student studies multiple subjects, and one subject is studied by multiple students, establishing a Many-to-Many (M:N) relationship.",
+    "explanationSi": "එක් ශිෂ්‍යයෙකු විෂයන් කිහිපයක් හදාරන අතර, එක් විෂයක් සිසුන් කිහිපදෙනෙකු විසින් හදාරනු ලබයි. එබැවින් මෙය බොහෝ දේට බොහෝ (M:N) සබඳතාවකි.",
+    "syllabusRef": "G10-U9.24"
+  },
+  {
+    "id": "g10-u9-q25",
+    "lessonId": "g10-u9",
+    "questionNumber": 25,
+    "promptEn": "Why can a Many-to-Many (M:N) relationship NOT be directly connected with a Foreign Key in an RDBMS?",
+    "promptSi": "සම්බන්ධතා දත්ත සමුදායක බොහෝ දේට බොහෝ (M:N) සබඳතාවක් සෘජුව ආගන්තුක යතුරක් මගින් සම්බන්ධ කළ නොහැක්කේ මන්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "RDBMS software crashes whenever letters are typed into columns",
+        "si": "RDBMS software crashes whenever letters are typed into columns"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "It would cause catastrophic data redundancy and violate first normal form by storing multiple values in a single cell",
+        "si": "It would cause catastrophic data redundancy and violate first normal form by storing multiple values in a single cell"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Primary keys cannot contain numbers in relational systems",
+        "si": "Primary keys cannot contain numbers in relational systems"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Tables cannot hold more than 10 records at a time",
+        "si": "Tables cannot hold more than 10 records at a time"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Directly linking M:N tables would force repeating multiple foreign keys into a single cell or duplicating records needlessly. It must be split using a junction table.",
+    "explanationSi": "M:N සබඳතාවක් සෘජුව සම්බන්ධ කළහොත් එකම සෛලයක අගයන් කිහිපයක් ලිවීමට හෝ වාර්තා අනවශ්‍ය ලෙස පුනරාවර්තනය වීමට සිදුවේ. එබැවින් එය මැදිහත් වගුවක් මගින් නිරාකරණය කළ යුතුය.",
+    "syllabusRef": "G10-U9.25"
+  },
+  {
+    "id": "g10-u9-q26",
+    "lessonId": "g10-u9",
+    "questionNumber": 26,
+    "promptEn": "What structure is introduced to decompose and resolve a Many-to-Many (M:N) relationship into two One-to-Many (1:N) relationships?",
+    "promptSi": "බොහෝ දේට බොහෝ (M:N) සබඳතාවක් එකකට බොහෝ (1:N) සබඳතා දෙකක් බවට පත් කර නිරාකරණය කිරීම සඳහා නිර්මාණය කරන ව්‍යුහය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A Junction",
+        "si": "Associative Table"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A Form Subform Wizard",
+        "si": "A Form Subform Wizard"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A Temporary Spreadsheet File",
+        "si": "A Temporary Spreadsheet File"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A Database Report",
+        "si": "A Database Report"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "A Junction Table (also called an Associative or Bridge table) resolves an M:N relationship by holding Foreign Keys pointing to both parent tables, which together form a Composite Primary Key.",
+    "explanationSi": "M:N සබඳතාවක් නිරාකරණය කරන්නේ සන්ධි හෝ මැදිහත් වගුවක් (Junction Table) නිර්මාණය කිරීමෙනි. එහි මව් වගු දෙකෙහිම ප්‍රාථමික යතුරු ආගන්තුක යතුරු ලෙස අඩංගු වන අතර ඒවා එක්ව සංයුක්ත යතුරක් සාදයි.",
+    "syllabusRef": "G10-U9.26"
+  },
+  {
+    "id": "g10-u9-q27",
+    "lessonId": "g10-u9",
+    "questionNumber": 27,
+    "promptEn": "Why is it considered a major mistake to set the data type of a Sri Lankan telephone number (e.g., \"0712345678\") as `Number`?",
+    "promptSi": "ශ්‍රී ලාංකික දුරකථන අංකයක් (උදා: \"0712345678\") සඳහා `Number` (සංඛ්‍යා) දත්ත වර්ගය තේරීම බරපතළ වරදක් ලෙස සැලකෙන්නේ මන්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The database will refuse to save telephone numbers on weekdays",
+        "si": "The database will refuse to save telephone numbers on weekdays"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The DBMS strips the leading zero (`0`), converting `0712345678` into `712345678`, and phone numbers are never mathematically calculated",
+        "si": "The DBMS strips the leading zero (`0`), converting `0712345678` into `712345678`, and phone numbers are never mathematically calculated"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Number fields cannot store more than 5 digits in any modern database",
+        "si": "Number fields cannot store more than 5 digits in any modern database"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Telephone numbers can only be stored inside Report objects",
+        "si": "Telephone numbers can only be stored inside Report objects"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Numeric data types omit leading zeros automatically. Furthermore, phone numbers do not undergo arithmetic operations. Therefore, Short Text is mandatory.",
+    "explanationSi": "සංඛ්‍යා දත්ත වර්ගයකදී ආරම්භක බිංදුව (`0`) ස්වයංක්‍රීයව මැකී යන අතර, දුරකථන අංක මත ගණිත කර්ම සිදු නොකරන බැවින් ඒ සඳහා Short Text යෙදිය යුතුය.",
+    "syllabusRef": "G10-U9.27"
+  },
+  {
+    "id": "g10-u9-q28",
+    "lessonId": "g10-u9",
+    "questionNumber": 28,
+    "promptEn": "Why must a Sri Lankan National Identity Card (NIC) number (e.g., `951234567V` or `200012345678`) be stored as `Short Text` rather than `Number`?",
+    "promptSi": "ශ්‍රී ලාංකික ජාතික හැඳුනුම්පත් අංකයක් (උදා: `951234567V` හෝ `200012345678`) `Number` වෙනුවට `Short Text` ලෙස ගබඩා කළ යුත්තේ මන්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Old NIC numbers end with an alphabetic character (`V` or `X`), which causes a type mismatch error in numeric fields",
+        "si": "Old NIC numbers end with an alphabetic character (`V` or `X`), which causes a type mismatch error in numeric fields"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Number data types cannot be used as primary keys in any DBMS",
+        "si": "Number data types cannot be used as primary keys in any DBMS"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Text data types require less than 1 bit of total disk storage",
+        "si": "Text data types require less than 1 bit of total disk storage"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "NIC numbers are automatically calculated using the SUM function",
+        "si": "NIC numbers are automatically calculated using the SUM function"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Old NIC numbers contain letters (`V` or `X`), which numeric fields reject. New 12-digit NICs are identifiers without arithmetic needs. Short Text ensures flawless storage.",
+    "explanationSi": "පැරණි හැඳුනුම්පත් අංකවල අගට අක්ෂර (`V` හෝ `X`) ඇති බැවින් සංඛ්‍යා ක්ෂේත්‍රවල ඒවා ගබඩා කළ නොහැක. එබැවින් කෙටි පෙළ (Short Text) තෝරාගත යුතුය.",
+    "syllabusRef": "G10-U9.28"
+  },
+  {
+    "id": "g10-u9-q29",
+    "lessonId": "g10-u9",
+    "questionNumber": 29,
+    "promptEn": "A school library database has two tables: `BOOK (BookID, Title, Author)` and `BORROW (BorrowID, BookID, StudentID, DueDate)`. If an operator attempts to add a borrow record with `BookID = \"B999\"` which does NOT exist in the `BOOK` table, what will happen?",
+    "promptSi": "පාසල් පුස්තකාලයක `BOOK (BookID, Title, Author)` සහ `BORROW (BorrowID, BookID, StudentID, DueDate)` යන වගු ඇත. `BOOK` වගුවේ නොමැති `BookID = \"B999\"` අගයක් `BORROW` වගුවට ඇතුළත් කිරීමට උත්සාහ කළහොත් සිදුවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The system automatically invents a new book titled \"B999\"",
+        "si": "The system automatically invents a new book titled \"B999\""
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The DBMS blocks the transaction due to a Referential Integrity violation",
+        "si": "The DBMS blocks the transaction due to a Referential Integrity violation"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The entire database is permanently erased",
+        "si": "The entire database is permanently erased"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The borrow record is saved without any warning",
+        "si": "The borrow record is saved without any warning"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Referential Integrity enforces that a Foreign Key value must exist as a valid Primary Key in the parent table (`BOOK`). Inserting a non-existent `BookID` violates this rule and is blocked.",
+    "explanationSi": "යොමු අඛණ්ඩතාව (Referential Integrity) මඟින් ආගන්තුක යතුරක අගයක් මව් වගුවේ ප්‍රාථමික යතුරක් ලෙස පැවතීම අනිවාර්ය කරයි. නොපවතින පොත් අංකයක් ඇතුළත් කිරීම පද්ධතිය විසින් අවහිර කරනු ලබයි.",
+    "syllabusRef": "G10-U9.29"
+  },
+  {
+    "id": "g10-u9-q30",
+    "lessonId": "g10-u9",
+    "questionNumber": 30,
+    "promptEn": "Which of the following fields in a `STUDENT` table would be the WORST choice for a Primary Key?",
+    "promptSi": "`STUDENT` වගුවක ප්‍රාථමික යතුර (Primary Key) ලෙස තෝරා ගැනීමට වඩාත්ම නුසුදුසු ක්ෂේත්‍රය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Admission_Number",
+        "si": "Admission_Number"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Student_Index_Number",
+        "si": "Student_Index_Number"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "First_Name",
+        "si": "First_Name"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "National_Identity_Card_No",
+        "si": "National_Identity_Card_No"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Multiple students can easily have identical first names (e.g., \"Kamal\"), completely violating the strict Uniqueness requirement of a Primary Key.",
+    "explanationSi": "එකම මුල් නම (First Name - උදා: \"කමල්\") සහිත සිසුන් කිහිපදෙනෙකු සිටිය හැකි බැවින්, එය ප්‍රාථමික යතුරක මූලික අවශ්‍යතාව වන අනන්‍යතාවය (Uniqueness) උල්ලංඝනය කරයි.",
+    "syllabusRef": "G10-U9.30"
+  },
+  {
+    "id": "g10-u9-q31",
+    "lessonId": "g10-u9",
+    "questionNumber": 31,
+    "promptEn": "What validation rule expression should be typed in table design view to restrict student examination marks to between 0 and 100 inclusive?",
+    "promptSi": "සිසුන්ගේ විභාග ලකුණු 0 ත් 100 ත් අතර පමණක් සීමා කිරීම සඳහා වගු සැලසුම් දසුනේ වලංගුතා නීතිය (Validation Rule) ලෙස ලිවිය යුතු ප්‍රකාශනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`>=0 AND <=100`",
+        "si": "`>=0 AND <=100`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`BETWEEN 0 OR 100`",
+        "si": "`BETWEEN 0 OR 100`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`=0 TO 100`",
+        "si": "`=0 TO 100`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`100`",
+        "si": "`100`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "The expression `>=0 AND <=100` (or `Between 0 And 100`) guarantees that any entered mark is neither negative nor exceeds 100.",
+    "explanationSi": "`>=0 AND <=100` (හෝ `Between 0 And 100`) යන ප්‍රකාශනය මඟින් ලකුණු සෘණ අගයක් වීම හෝ 100 ඉක්මවා යාම වළක්වයි.",
+    "syllabusRef": "G10-U9.31"
+  },
+  {
+    "id": "g10-u9-q32",
+    "lessonId": "g10-u9",
+    "questionNumber": 32,
+    "promptEn": "Which field property automatically populates the city field with \"Colombo\" whenever a user begins adding a new record?",
+    "promptSi": "පරිශීලකයෙකු නව වාර්තාවක් එක් කරන සෑම අවස්ථාවකදීම නගරය ක්ෂේත්‍රයට \"Colombo\" අගය ස්වයංක්‍රීයව ඇතුළත් කර තැබීම සඳහා භාවිත කරන ක්ෂේත්‍ර ගුණාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Validation Rule",
+        "si": "Validation Rule"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Required",
+        "si": "Required"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Default Value",
+        "si": "Default Value"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Caption",
+        "si": "Caption"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Setting `Default Value = \"Colombo\"` pre-fills that field automatically, saving data entry time unless the user manually types a different city.",
+    "explanationSi": "පෙරනිමි අගය (Default Value) ගුණාංගය `=\"Colombo\"` ලෙස සැකසූ විට, පරිශීලකයා වෙනත් නගරයක් ටයිප් නොකරන තාක් එම අගය ස්වයංක්‍රීයව ඇතුළත් වේ.",
+    "syllabusRef": "G10-U9.32"
+  },
+  {
+    "id": "g10-u9-q33",
+    "lessonId": "g10-u9",
+    "questionNumber": 33,
+    "promptEn": "If the \"Required\" property of a field is set to `Yes`, what does this enforce on data entry?",
+    "promptSi": "ක්ෂේත්‍රයක \"Required\" (අනිවාර්ය) ගුණාංගය `Yes` ලෙස සැකසූ විට, එයින් තහවුරු කෙරෙන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The field can only store uppercase letters",
+        "si": "The field can only store uppercase letters"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The field cannot be left blank (NULL values are rejected)",
+        "si": "The field cannot be left blank (NULL values are rejected)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The field becomes the table's foreign key automatically",
+        "si": "The field becomes the table's foreign key automatically"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The field can only be edited on weekends",
+        "si": "The field can only be edited on weekends"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Setting `Required = Yes` enforces that the field must contain data; leaving it blank (`NULL`) triggers an error message and blocks saving.",
+    "explanationSi": "`Required = Yes` කළ විට එම ක්ෂේත්‍රය හිස්ව තැබිය නොහැකි අතර (NULL අගයන් ප්‍රතික්ෂේප වේ), දත්තයක් ඇතුළත් කිරීම අනිවාර්ය වේ.",
+    "syllabusRef": "G10-U9.33"
+  },
+  {
+    "id": "g10-u9-q34",
+    "lessonId": "g10-u9",
+    "questionNumber": 34,
+    "promptEn": "In a query criteria row, what operator is used to search for student names that begin with the letter \"S\"?",
+    "promptSi": "විමසුමක (Query) \"S\" අකුරින් ආරම්භ වන සිසුන්ගේ නම් සෙවීම සඳහා භාවිත කරන නිර්ණායක ක්‍රියාකරු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`=\"S\"`",
+        "si": "`=\"S\"`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`LIKE \"S*\"`",
+        "si": "`LIKE \"S*\"`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`START \"S\"`",
+        "si": "`START \"S\"`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`FIND \"S\"`",
+        "si": "`FIND \"S\"`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The asterisk wildcard `*` matches any sequence of characters. `LIKE \"S*\"` matches any name beginning with 'S' (such as \"Sunil\", \"Saman\").",
+    "explanationSi": "`*` සංකේතය ඕනෑම අක්ෂර සමූහයක් නිරූපණය කරයි. `LIKE \"S*\"` යෙදූ විට \"S\" අකුරින් පටන් ගන්නා ඕනෑම නමක් (උදා: සුනිල්, සමන්) පෙරී ලැබේ.",
+    "syllabusRef": "G10-U9.34"
+  },
+  {
+    "id": "g10-u9-q35",
+    "lessonId": "g10-u9",
+    "questionNumber": 35,
+    "promptEn": "What is a major disadvantage of a traditional manual paper filing system compared to an electronic DBMS?",
+    "promptSi": "ඉලෙක්ට්‍රොනික දත්ත සමුදායකට සාපේක්ෂව සාම්ප්‍රදායික කඩදාසි ලිපිගොනු පද්ධතියක ඇති ප්‍රධාන අවාසිය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Data can be backed up automatically to the cloud",
+        "si": "Data can be backed up automatically to the cloud"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "High data redundancy, slow retrieval speed, and susceptibility to physical deterioration",
+        "si": "High data redundancy, slow retrieval speed, and susceptibility to physical deterioration"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "It requires computers and high-speed electrical servers",
+        "si": "It requires computers and high-speed electrical servers"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Anyone can query millions of records in milliseconds",
+        "si": "Anyone can query millions of records in milliseconds"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Paper files suffer from excessive duplicate copies across offices, slow search times, massive physical space consumption, and high risk of termite or fire damage.",
+    "explanationSi": "කඩදාසි ලිපිගොනුවල දත්ත අනවශ්‍ය ලෙස නැවත නැවත ලියැවීම (අතිරික්තය), සෙවීමේ ප්‍රමාදය, විශාල ඉඩක් ගැනීම සහ වේයන් හෝ ගින්නෙන් විනාශ වීමේ අවදානම ඉහළ ය.",
+    "syllabusRef": "G10-U9.35"
+  },
+  {
+    "id": "g10-u9-q36",
+    "lessonId": "g10-u9",
+    "questionNumber": 36,
+    "promptEn": "Which software application from the following list is NOT a Relational Database Management System (RDBMS)?",
+    "promptSi": "පහත දැක්වෙන මෘදුකාංග අතරින් සම්බන්ධතා දත්ත සමුදා කළමනාකරණ මෘදුකාංගයක් (RDBMS) නොවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Microsoft Access",
+        "si": "Microsoft Access"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "MySQL",
+        "si": "MySQL"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "LibreOffice Base",
+        "si": "LibreOffice Base"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Adobe Photoshop",
+        "si": "Adobe Photoshop"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "Adobe Photoshop is a raster graphics editing software, not a database management system. MS Access, MySQL, and LibreOffice Base are all well-known RDBMS applications.",
+    "explanationSi": "ඇඩෝබි ෆොටෝෂොප් යනු ඡායාරූප සංස්කරණ මෘදුකාංගයකි. MS Access, MySQL සහ LibreOffice Base යනු ප්‍රචලිත දත්ත සමුදා කළමනාකරණ මෘදුකාංග වේ.",
+    "syllabusRef": "G10-U9.36"
+  },
+  {
+    "id": "g10-u9-q37",
+    "lessonId": "g10-u9",
+    "questionNumber": 37,
+    "promptEn": "In a school system, what is the cardinality relationship between \"Principal\" and \"School\"?",
+    "promptSi": "පාසල් පද්ධතියක \"විදුහල්පති\" (Principal) සහ \"පාසල\" (School) අතර පවතින කාඩිනැලිටි සබඳතාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "One-to-One (1:1)",
+        "si": "One-to-One (1:1)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "One-to-Many (1:N)",
+        "si": "One-to-Many (1:N)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Many-to-Many (M:N)",
+        "si": "Many-to-Many (M:N)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Many-to-One (N:1)",
+        "si": "Many-to-One (N:1)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "At any given time, one school has exactly one principal, and one principal manages exactly one school (One-to-One relationship).",
+    "explanationSi": "යම් අවස්ථාවකදී එක් පාසලකට සිටින්නේ එක් විදුහල්පතිවරයෙකු පමණක් වන අතර, එක් විදුහල්පතිවරයෙකු පාලනය කරන්නේ එක් පාසලක් පමණි (1:1).",
+    "syllabusRef": "G10-U9.37"
+  },
+  {
+    "id": "g10-u9-q38",
+    "lessonId": "g10-u9",
+    "questionNumber": 38,
+    "promptEn": "What type of relationship exists between \"Publisher\" and \"Book Titles\" in a publishing house database?",
+    "promptSi": "ප්‍රකාශන ආයතනයක දත්ත සමුදායක \"ප්‍රකාශකයා\" (Publisher) සහ \"පොත්\" (Book Titles) අතර පවතින සබඳතාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "One-to-One (1:1)",
+        "si": "One-to-One (1:1)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "One-to-Many (1:N)",
+        "si": "One-to-Many (1:N)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Many-to-Many (M:N)",
+        "si": "Many-to-Many (M:N)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Recursive",
+        "si": "Recursive"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "One publisher publishes many book titles, but each book is typically released by one specific publishing house (One-to-Many).",
+    "explanationSi": "එක් ප්‍රකාශකයෙකු පොත් මාතෘකා කිහිපයක් මුද්‍රණය කරන නමුත්, සාමාන්‍යයෙන් එක් පොතක් මුද්‍රණය කරන්නේ එක් ප්‍රකාශකයෙකු විසිනි (1:N).",
+    "syllabusRef": "G10-U9.38"
+  },
+  {
+    "id": "g10-u9-q39",
+    "lessonId": "g10-u9",
+    "questionNumber": 39,
+    "promptEn": "What happens if a database administrator deletes a record from the parent `CUSTOMER` table while dependent child records exist in the `ORDERS` table without cascading delete enabled?",
+    "promptSi": "යොමු අඛණ්ඩතාව සහිත පද්ධතියක `ORDERS` වගුවේ අදාළ දත්ත තිබියදී, මව් `CUSTOMER` වගුවෙන් පාරිභෝගික ලේඛනයක් මකා දැමීමට උත්සාහ කළහොත් සිදුවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The deletion is blocked to prevent orphaned records in the orders table",
+        "si": "The deletion is blocked to prevent orphaned records in the orders table"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The entire hard drive is formatted",
+        "si": "The entire hard drive is formatted"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The orders table is immediately converted into a form",
+        "si": "The orders table is immediately converted into a form"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All order prices are automatically multiplied by two",
+        "si": "All order prices are automatically multiplied by two"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Referential Integrity prohibits deleting a parent record whose Primary Key is currently referenced by Foreign Keys in a child table, preventing orphaned orders.",
+    "explanationSi": "යොමු අඛණ්ඩතා නීතිය මඟින් දරුවකු වැනි වගුවේ පවතින සබඳතා අනාථ වීම (Orphaned records) වැළැක්වීම සඳහා මව් ලේඛනය මකා දැමීම අවහිර කරයි.",
+    "syllabusRef": "G10-U9.39"
+  },
+  {
+    "id": "g10-u9-q40",
+    "lessonId": "g10-u9",
+    "questionNumber": 40,
+    "promptEn": "When creating a database report, what feature is used to organize records by category (e.g., printing students separated under their respective classes)?",
+    "promptSi": "දත්ත සමුදා වාර්තාවක් (Report) සකස් කිරීමේදී, නිශ්චිත කාණ්ඩ අනුව වාර්තා වෙන් කර දැක්වීමට (උදා: සිසුන් ඔවුන්ගේ පන්ති යටතේ වෙන් කර මුද්‍රණය කිරීමට) භාවිත කරන විශේෂාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Filtering",
+        "si": "Filtering"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Grouping",
+        "si": "Grouping"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Validating",
+        "si": "Validating"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Indexing",
+        "si": "Indexing"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Grouping in reports arranges records logically into hierarchical sections based on specified fields (e.g., grouped by `ClassCode` with sub-summaries).",
+    "explanationSi": "වාර්තාවල කාණ්ඩ කිරීම (Grouping) මඟින් නිශ්චිත ක්ෂේත්‍රයක් පදනම් කරගෙන දත්ත වර්ග කර, ඒ ඒ කාණ්ඩ යටතේ සාරාංශගතව ප්‍රදර්ශනය කිරීමට ඉඩ සලසයි.",
+    "syllabusRef": "G10-U9.40"
+  },
+  {
+    "id": "g10-u9-q41",
+    "lessonId": "g10-u9",
+    "questionNumber": 41,
+    "promptEn": "Consider the following statements regarding Primary Keys in relational databases:",
+    "promptSi": "සම්බන්ධතා දත්ත සමුදායක ප්‍රාථමික යතුරු පිළිබඳ පහත සඳහන් ප්‍රකාශ සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) only",
+        "si": "(i) only"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (ii) only",
+        "si": "(i) and (ii) only"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) and (iii) only"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii) and (iii)",
+        "si": "All (i), (ii) and (iii)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Statement (i) is correct (a table has only one Primary Key). Statement (ii) is correct (a Composite Primary Key combines multiple columns). Statement (iii) is FALSE because the Entity Integrity rule strictly forbids NULL values in a Primary Key.",
+    "explanationSi": "ප්‍රකාශය (i) නිවැරදියි (වගුවකට ඇත්තේ එක් ප්‍රාථමික යතුරක් පමණි). ප්‍රකාශය (ii) නිවැරදියි (සංයුක්ත ප්‍රාථමික යතුරක් තීරු කිහිපයකින් සමන්විත විය හැක). නමුත් ප්‍රකාශය (iii) වැරදියි; ප්‍රාථමික යතුරක කිසිවිටෙකත් හිස් (NULL) අගයන් පැවතිය නොහැක.",
+    "syllabusRef": "G10-U9.41"
+  },
+  {
+    "id": "g10-u9-q42",
+    "lessonId": "g10-u9",
+    "questionNumber": 42,
+    "promptEn": "In a hospital database, consider the following three relational tables:",
+    "promptSi": "රෝහල් දත්ත සමුදායක ඇති පහත වගු 3 සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Primary Key: `AppNo` | Foreign Keys: `PatientID` and `DoctorID`",
+        "si": "Primary Key: `AppNo` | Foreign Keys: `PatientID` and `DoctorID`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Primary Key: `PatientID` | Foreign Keys: `DoctorID` and `Fee`",
+        "si": "Primary Key: `PatientID` | Foreign Keys: `DoctorID` and `Fee`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Primary Key: `(PatientID + DoctorID)` | Foreign Keys: `AppNo`",
+        "si": "Primary Key: `(PatientID + DoctorID)` | Foreign Keys: `AppNo`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Primary Key: `DoctorID` | Foreign Keys: `PatientID` and `AppDate`",
+        "si": "Primary Key: `DoctorID` | Foreign Keys: `PatientID` and `AppDate`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "`AppNo` uniquely identifies each individual appointment booking. `PatientID` points to `PATIENT`, and `DoctorID` points to `DOCTOR`, making them Foreign Keys establishing associations.",
+    "explanationSi": "සෑම හමුවීමක්ම අනන්‍යව හඳුනාගන්නේ `AppNo` මගිනි. `PatientID` මඟින් `PATIENT` වගුව ද, `DoctorID` මඟින් `DOCTOR` වගුව ද සම්බන්ධ කරන බැවින් ඒවා ආගන්තුක යතුරු (Foreign Keys) වේ.",
+    "syllabusRef": "G10-U9.42"
+  },
+  {
+    "id": "g10-u9-q43",
+    "lessonId": "g10-u9",
+    "questionNumber": 43,
+    "promptEn": "Consider the following Query Design grid criteria setup:",
+    "promptSi": "විමසුම් සැලසුම් ජාලකයේ (Query Design Grid) පහත සකස් කිරීම සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Students from Galle regardless of marks, plus all students who scored 75 or more from anywhere",
+        "si": "Students from Galle regardless of marks, plus all students who scored 75 or more from anywhere"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Only students who are from Galle AND have scored 75 or higher in ICT simultaneously",
+        "si": "Only students who are from Galle AND have scored 75 or higher in ICT simultaneously"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Only students from districts other than Galle who scored less than 75",
+        "si": "Only students from districts other than Galle who scored less than 75"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "No records will be returned because numbers cannot be queried alongside text",
+        "si": "No records will be returned because numbers cannot be queried alongside text"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Criteria placed on the same row operate under logical `AND`. Therefore, both conditions (`District = \"Galle\"` AND `ICT_Marks >= 75`) must be satisfied at the same time.",
+    "explanationSi": "එකම Criteria පේළියේ ඇති කොන්දේසි අතර තාර්කික `AND` සබඳතාවක් ක්‍රියාත්මක වේ. එබැවින් ගාල්ල දිස්ත්‍රික්කයේ වන, එකවර ICT ලකුණු 75 හෝ ඊට වැඩි සිසුන් පමණක් තේරී පත්වේ.",
+    "syllabusRef": "G10-U9.43"
+  },
+  {
+    "id": "g10-u9-q44",
+    "lessonId": "g10-u9",
+    "questionNumber": 44,
+    "promptEn": "Consider the following Query Design grid criteria setup:",
+    "promptSi": "විමසුමක පහත කොන්දේසි සැකසුම සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Students who are from Matara AND scored 75 or more",
+        "si": "Students who are from Matara AND scored 75 or more"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Students who are from Matara OR students who scored 75 or more (from any district)",
+        "si": "Students who are from Matara OR students who scored 75 or more (from any district)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Only students from Matara who scored exactly 75",
+        "si": "Only students from Matara who scored exactly 75"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "An error will occur because the Criteria row cannot be left empty under marks",
+        "si": "An error will occur because the Criteria row cannot be left empty under marks"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Placing conditions on separate rows (`Criteria` and `Or`) applies logical `OR`. Records satisfying either condition will be returned in the results.",
+    "explanationSi": "කොන්දේසි වෙනස් පේළිවල (`Criteria` සහ `Or`) තැබූ විට තාර්කික `OR` ක්‍රියාත්මක වේ. මාතර දිස්ත්‍රික්කයේ සිසුන් හෝ (ඕනෑම දිස්ත්‍රික්කයකින්) ලකුණු 75ට වැඩි සිසුන් තේරී ලැබේ.",
+    "syllabusRef": "G10-U9.44"
+  },
+  {
+    "id": "g10-u9-q45",
+    "lessonId": "g10-u9",
+    "questionNumber": 45,
+    "promptEn": "In a school database, a student can borrow multiple books over time, and a single library book can be borrowed by multiple students over the year. To resolve this Many-to-Many relationship, which schema is best designed for the junction table?",
+    "promptSi": "පාසල් පුස්තකාලයක එක් සිසුවෙකුට පොත් කිහිපයක් ද, එක් පොතක් සිසුන් කිහිපදෙනෙකුට ද බැහැර දිය හැක. මෙම M:N සබඳතාව නිරාකරණය කරන සන්ධි වගුව (Junction Table) සඳහා වඩාත්ම නිවැරදි ක්‍රමලේඛය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`BORROW (BorrowID, AdmissionNo, BookID, BorrowDate, DueDate)`",
+        "si": "`BORROW (BorrowID, AdmissionNo, BookID, BorrowDate, DueDate)`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`BOOK (BookID, Title, AdmissionNo)`",
+        "si": "`BOOK (BookID, Title, AdmissionNo)`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`STUDENT (AdmissionNo, Name, BookID)`",
+        "si": "`STUDENT (AdmissionNo, Name, BookID)`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`LIBRARY (BorrowDate, DueDate)`",
+        "si": "`LIBRARY (BorrowDate, DueDate)`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is a classic Junction Table containing Foreign Keys `AdmissionNo` (referencing `STUDENT`) and `BookID` (referencing `BOOK`), along with transaction attributes.",
+    "explanationSi": "වරණය (A) නිවැරදි සන්ධි වගුවක් (Junction Table) වන අතර එහි `AdmissionNo` සහ `BookID` යන ආගන්තුක යතුරු ද, ගනුදෙනුවට අදාළ දිනයන් ද ඇතුළත් කර M:N සබඳතාව නිරාකරණය කරයි.",
+    "syllabusRef": "G10-U9.45"
+  },
+  {
+    "id": "g10-u9-q46",
+    "lessonId": "g10-u9",
+    "questionNumber": 46,
+    "promptEn": "Consider the following statements about Foreign Keys in relational tables:",
+    "promptSi": "සම්බන්ධතා වගුවක ආගන්තුක යතුරු (Foreign Keys) පිළිබඳ පහත ප්‍රකාශ සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) only",
+        "si": "(i) only"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (ii) only",
+        "si": "(i) and (ii) only"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) and (iii) only"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii) and (iii)",
+        "si": "All (i), (ii) and (iii)"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "Unlike Primary Keys, Foreign Keys: can have duplicate values (e.g., many employees in dept D01), can contain NULL (e.g., employee unassigned to a dept), and a table can have multiple foreign keys (e.g., junction tables).",
+    "explanationSi": "ප්‍රාථමික යතුරු මෙන් නොව ආගන්තුක යතුරුවලට: අගයන් පුනරාවර්තනය විය හැක, හිස් (NULL) විය හැක, සහ එක් වගුවක ආගන්තුක යතුරු කිහිපයක් තිබිය හැක. එබැවින් ප්‍රකාශ තුනම සත්‍ය වේ.",
+    "syllabusRef": "G10-U9.46"
+  },
+  {
+    "id": "g10-u9-q47",
+    "lessonId": "g10-u9",
+    "questionNumber": 47,
+    "promptEn": "An examination database contains table `RESULT (IndexNo, SubjectCode, Marks)`. Neither `IndexNo` nor `SubjectCode` is unique on its own. How should the Primary Key be established?",
+    "promptSi": "විභාග දත්ත සමුදායක `RESULT (IndexNo, SubjectCode, Marks)` යන වගුව ඇත. `IndexNo` හෝ `SubjectCode` තනි තනිව ගත් කළ අනන්‍ය නොවේ. මෙහි ප්‍රාථමික යතුර සැකසිය යුත්තේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Make `Marks` the primary key",
+        "si": "Make `Marks` the primary key"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Combine `(IndexNo + SubjectCode)` to form a Composite Primary Key",
+        "si": "Combine `(IndexNo + SubjectCode)` to form a Composite Primary Key"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Delete all student records that take more than one subject",
+        "si": "Delete all student records that take more than one subject"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A primary key is not permitted in tables containing marks",
+        "si": "A primary key is not permitted in tables containing marks"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Since a student appears multiple times (many subjects) and a subject appears multiple times (many students), combining `(IndexNo + SubjectCode)` produces a unique identifier for every test score (Composite Primary Key).",
+    "explanationSi": "ශිෂ්‍යයෙකු විෂයන් කිහිපයක් ද, විෂයක් සිසුන් කිහිපදෙනෙකු ද ගන්නා බැවින්, `(IndexNo + SubjectCode)` එක් කර සංයුක්ත ප්‍රාථමික යතුරක් (Composite Primary Key) සෑදිය යුතුය.",
+    "syllabusRef": "G10-U9.47"
+  },
+  {
+    "id": "g10-u9-q48",
+    "lessonId": "g10-u9",
+    "questionNumber": 48,
+    "promptEn": "Which SQL-equivalent criterion in Access query design matches all values strictly between 50 and 80 inclusive?",
+    "promptSi": "ඇක්සස් විමසුමක 50 සහ 80 අතර (50 සහ 80 ද ඇතුළුව) අගයන් නිවැරදිව තෝරාගැනීමට යොදන නිර්ණායකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`BETWEEN 50 AND 80`",
+        "si": "`BETWEEN 50 AND 80`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`50 TO 80`",
+        "si": "`50 TO 80`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`>50 AND <80`",
+        "si": "`>50 AND <80`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`IN (50, 80)`",
+        "si": "`IN (50, 80)`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "`BETWEEN 50 AND 80` is inclusive of both boundary endpoints (equivalent to `>=50 AND <=80`).",
+    "explanationSi": "`BETWEEN 50 AND 80` මඟින් 50 සහ 80 යන සීමා අගයන් දෙක ද ඇතුළත්ව ඒ අතර ඇති සියලු සංඛ්‍යා තෝරාගනු ලබයි (`>=50 AND <=80` හා සමාන වේ).",
+    "syllabusRef": "G10-U9.48"
+  },
+  {
+    "id": "g10-u9-q49",
+    "lessonId": "g10-u9",
+    "questionNumber": 49,
+    "promptEn": "What happens if you uncheck the \"Show\" checkbox for a field in the Query Design grid while specifying a criteria condition on it?",
+    "promptSi": "විමසුම් සැලසුම් ජාලකයේ (Query Design Grid) කිසියම් ක්ෂේත්‍රයක් සඳහා කොන්දේසියක් යොදන අතරතුර එහි \"Show\" කොටුවේ හරි ලකුණ (Checkmark) ඉවත් කළහොත් සිදුවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The criteria is ignored completely",
+        "si": "The criteria is ignored completely"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The query uses the criteria to filter records, but the column itself is hidden from the output results",
+        "si": "The query uses the criteria to filter records, but the column itself is hidden from the output results"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The database table is deleted",
+        "si": "The database table is deleted"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The query produces an execution error",
+        "si": "The query produces an execution error"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Unchecking \"Show\" filters the data based on the criteria specified without cluttering the final datasheet view with that column.",
+    "explanationSi": "\"Show\" ඉවත් කළ විට, එම ක්ෂේත්‍රයේ ඇති කොන්දේසිය අනුව දත්ත පෙරීම සාමාන්‍ය පරිදි සිදු වන නමුත් ප්‍රතිඵල තිරයේ එම තීරුව ප්‍රදර්ශනය නොවේ.",
+    "syllabusRef": "G10-U9.49"
+  },
+  {
+    "id": "g10-u9-q50",
+    "lessonId": "g10-u9",
+    "questionNumber": 50,
+    "promptEn": "Consider the table `EMPLOYEE (EmpID, Name, Salary, DeptCode)`. If the query criteria for Salary is `<> 50000`, what records are retrieved?",
+    "promptSi": "`EMPLOYEE (EmpID, Name, Salary, DeptCode)` වගුව සලකා බලන්න. වැටුප සඳහා විමසුම් කොන්දේසිය `<> 50000` ලෙස යෙදුවහොත් ලැබෙන වාර්තා මොනවාද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "All employees whose salary is exactly 50,000",
+        "si": "All employees whose salary is exactly 50,000"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "All employees whose salary is NOT equal to 50,000",
+        "si": "All employees whose salary is NOT equal to 50,000"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Only employees whose salary is greater than 50,000",
+        "si": "Only employees whose salary is greater than 50,000"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Only employees whose salary is less than 50,000",
+        "si": "Only employees whose salary is less than 50,000"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The `<>` operator represents \"Not Equal To\". Thus, `<> 50000` retrieves all employee records except those whose salary is exactly 50,000.",
+    "explanationSi": "`<>` සංකේතය මඟින් \"අසමාන වේ\" (Not equal to) යන්න නිරූපණය කරයි. එබැවින් 50,000 නොවන අනෙකුත් සියලු සේවක වාර්තා පෙරී ලැබේ.",
+    "syllabusRef": "G10-U9.50"
+  },
+  {
+    "id": "g10-u9-q51",
+    "lessonId": "g10-u9",
+    "questionNumber": 51,
+    "promptEn": "In a relational database, what is the term for the situation where the exact same piece of data is unnecessarily stored in multiple places across different files?",
+    "promptSi": "සම්බන්ධතා දත්ත සමුදායක, එකම දත්තය විවිධ ලිපිගොනු කිහිපයක අනවශ්‍ය ලෙස නැවත නැවත තැන්පත් වී තිබීමේ තත්ත්වය හඳුන්වන්නේ කුමක් ලෙසද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Data Integrity",
+        "si": "Data Integrity"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Data Redundancy",
+        "si": "Data Redundancy"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Data Independence",
+        "si": "Data Independence"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Data Encapsulation",
+        "si": "Data Encapsulation"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Data Redundancy refers to unnecessary data duplication, which wastes storage space and can cause update anomalies and inconsistency.",
+    "explanationSi": "දත්ත අතිරික්තය (Data Redundancy) යනු එකම දත්තය අනවශ්‍ය ලෙස විවිධ ස්ථානවල පුනරාවර්තනය වී තිබීමයි. මෙය මතක ඉඩ නාස්ති කරන අතර දත්තවල අසමතුලිතතාවයට හේතු වේ.",
+    "syllabusRef": "G10-U9.51"
+  },
+  {
+    "id": "g10-u9-q52",
+    "lessonId": "g10-u9",
+    "questionNumber": 52,
+    "promptEn": "What happens during an \"Update Anomaly\" in an unnormalized file system?",
+    "promptSi": "සාමාන්‍යකරණය නොකළ ලිපිගොනු පද්ධතියක \"යාවත්කාලීන විෂමතාවක්\" (Update Anomaly) ඇති වූ විට සිදුවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Changing a customer's address in one record leaves other records of that customer with outdated addresses, causing data inconsistency",
+        "si": "Changing a customer's address in one record leaves other records of that customer with outdated addresses, causing data inconsistency"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The computer powers off automatically when an update starts",
+        "si": "The computer powers off automatically when an update starts"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The network cables disconnect instantly",
+        "si": "The network cables disconnect instantly"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "New records cannot be saved on Mondays",
+        "si": "New records cannot be saved on Mondays"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "An update anomaly occurs when duplicated data is modified in one location but remains unchanged in others, leading to conflicting, inconsistent information.",
+    "explanationSi": "යාවත්කාලීන විෂමතාවයක් ඇති වූ විට, එක් ගොනුවක ලිපිනය වෙනස් කළද අනෙක් ගොනුවල පැරණි ලිපිනයම ඉතිරි වී පද්ධතිය තුළ පරස්පර විරෝධී තොරතුරු නිර්මාණය වේ.",
+    "syllabusRef": "G10-U9.52"
+  },
+  {
+    "id": "g10-u9-q53",
+    "lessonId": "g10-u9",
+    "questionNumber": 53,
+    "promptEn": "Consider the table `STUDENT (AdmissionNo, NIC, Name, Email, ClassID)`. Both `AdmissionNo`, `NIC`, and `Email` are unique. If the database architect selects `AdmissionNo` as the Primary Key, what are `NIC` and `Email` classified as?",
+    "promptSi": "`STUDENT (AdmissionNo, NIC, Name, Email, ClassID)` වගුව සලකා බලන්න. `AdmissionNo`, `NIC` සහ `Email` යන තුනම අනන්‍ය ක්ෂේත්‍ර වේ. දත්ත සමුදා නිර්මාණකරු `AdmissionNo` ප්‍රාථමික යතුර ලෙස තෝරාගතහොත්, `NIC` සහ `Email` වර්ගීකරණය වන්නේ කුමක් ලෙසද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Foreign Keys",
+        "si": "Foreign Keys"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Alternate Keys",
+        "si": "Alternate Keys"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Composite Primary Keys",
+        "si": "Composite Primary Keys"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Surrogate Indexes",
+        "si": "Surrogate Indexes"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "All three were Candidate Keys. Once `AdmissionNo` is selected as the Primary Key, the remaining unselected candidate keys (`NIC` and `Email`) become Alternate Keys.",
+    "explanationSi": "මෙම ක්ෂේත්‍ර 3ම මුලින් අපේක්ෂක යතුරු විය. `AdmissionNo` ප්‍රාථමික යතුර ලෙස තෝරාගත් පසු, ඉතිරි අපේක්ෂක යතුරු දෙක විකල්ප යතුරු (Alternate Keys) බවට පත්වේ.",
+    "syllabusRef": "G10-U9.53"
+  },
+  {
+    "id": "g10-u9-q54",
+    "lessonId": "g10-u9",
+    "questionNumber": 54,
+    "promptEn": "Which of the following is an example of an Entity Integrity constraint violation?",
+    "promptSi": "පහත දැක්වෙන අවස්ථා අතරින් එන්ටිටි අඛණ්ඩතා (Entity Integrity) නීතිය උල්ලංඝනය වන අවස්ථාවක් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Attempting to leave the Primary Key field blank (NULL) when saving a new record",
+        "si": "Attempting to leave the Primary Key field blank (NULL) when saving a new record"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Entering a student's age as 16 instead of 15",
+        "si": "Entering a student's age as 16 instead of 15"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Entering a valid existing foreign key from the parent table",
+        "si": "Entering a valid existing foreign key from the parent table"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Sorting records in ascending order",
+        "si": "Sorting records in ascending order"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Entity Integrity dictates that no component of a Primary Key may be NULL. Attempting to save a row with an empty primary key violates this rule.",
+    "explanationSi": "එන්ටිටි අඛණ්ඩතා නීතිය (Entity Integrity) අනුව ප්‍රාථමික යතුරක කිසිවිටෙකත් හිස් (NULL) අගයන් පැවතිය නොහැක. එබැවින් ප්‍රාථමික යතුර හිස්ව තබා සුරැකීමට උත්සාහ කිරීම මෙම නීතිය උල්ලංඝනය කිරීමකි.",
+    "syllabusRef": "G10-U9.54"
+  },
+  {
+    "id": "g10-u9-q55",
+    "lessonId": "g10-u9",
+    "questionNumber": 55,
+    "promptEn": "Which of the following criteria in an Access date field query will extract all invoices issued on or after January 1st, 2024?",
+    "promptSi": "ඇක්සස් දිනය ක්ෂේත්‍රයක 2024 ජනවාරි 1 වන දින හෝ ඊට පසු නිකුත් කරන ලද සියලු ඉන්වොයිස් ලබාගැනීමට යෙදිය යුතු නිවැරදි නිර්ණායකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`>=#2024-01-01#`",
+        "si": "`>=#2024-01-01#`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`AFTER 2024-01-01`",
+        "si": "`AFTER 2024-01-01`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`>=\"2024-01-01\"`",
+        "si": "`>=\"2024-01-01\"`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`=2024-01-01+`",
+        "si": "`=2024-01-01+`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "In Microsoft Access queries, date/time literals are enclosed in hashtag symbols (`#`), e.g., `>=#2024-01-01#`.",
+    "explanationSi": "මයික්‍රොසොෆ්ට් ඇක්සස් හි දිනයන් දැක්වීමට හැෂ්ටැග් (`#`) සංකේතය භාවිත කරයි. එබැවින් `>=#2024-01-01#` මඟින් එම දිනය හෝ ඊට පසු දිනයන් නිවැරදිව තෝරාගනී.",
+    "syllabusRef": "G10-U9.55"
+  },
+  {
+    "id": "g10-u9-q56",
+    "lessonId": "g10-u9",
+    "questionNumber": 56,
+    "promptEn": "In a relational schema diagram, an arrow pointing from Table B to Table A indicates what relationship link?",
+    "promptSi": "සම්බන්ධතා ක්‍රමලේඛ සටහනක, B වගුවේ සිට A වගුව දෙසට යොමු කර ඇති ඊතලයකින් නිරූපණය වන්නේ කිනම් සබඳතාවක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Table B has a Foreign Key that references the Primary Key of Table A",
+        "si": "Table B has a Foreign Key that references the Primary Key of Table A"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Table A is completely deleted whenever Table B opens",
+        "si": "Table A is completely deleted whenever Table B opens"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Table B contains fewer records than Table A",
+        "si": "Table B contains fewer records than Table A"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Table A is a spreadsheet and Table B is a word document",
+        "si": "Table A is a spreadsheet and Table B is a word document"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "In relational schema diagrams, directional relationship lines point from the referencing Foreign Key (child table) to the referenced Primary Key (parent table).",
+    "explanationSi": "සබඳතා සටහන්වල ඊතල මගින් ආගන්තුක යතුර (දරුවා වැනි වගුව) එය යොමු වන මව් වගුවේ ප්‍රාථමික යතුර වෙත සම්බන්ධ කර ඇති ආකාරය නිරූපණය කරයි.",
+    "syllabusRef": "G10-U9.56"
+  },
+  {
+    "id": "g10-u9-q57",
+    "lessonId": "g10-u9",
+    "questionNumber": 57,
+    "promptEn": "A supermarket point-of-sale system has the following tables:",
+    "promptSi": "සුපිරි වෙළඳසැලක පහත වගු ඇත:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "It acts as a Junction Table resolving the Many-to-Many relationship between INVOICE and ITEM",
+        "si": "It acts as a Junction Table resolving the Many-to-Many relationship between INVOICE and ITEM"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "It is a temporary cache that is wiped every 24 hours",
+        "si": "It is a temporary cache that is wiped every 24 hours"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "It replaces the operating system kernel",
+        "si": "It replaces the operating system kernel"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "It acts as a report layout for the receipt printer only",
+        "si": "It acts as a report layout for the receipt printer only"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Since an invoice contains multiple items, and an item appears across multiple invoices (M:N), `INVOICE_ITEM` acts as the Junction Table with Composite Primary Key `(InvoiceNo + ItemCode)`.",
+    "explanationSi": "එක් ඉන්වොයිසියක භාණ්ඩ කිහිපයක් ද, එක් භාණ්ඩයක් ඉන්වොයිසි කිහිපයක ද අඩංගු වන බැවින් (M:N), `INVOICE_ITEM` මැදිහත් වගුවක් (Junction Table) ලෙස ක්‍රියාකරමින් එම සබඳතාව නිරාකරණය කරයි.",
+    "syllabusRef": "G10-U9.57"
+  },
+  {
+    "id": "g10-u9-q58",
+    "lessonId": "g10-u9",
+    "questionNumber": 58,
+    "promptEn": "Consider the query sorting order: If a query specifies Sort: \"Ascending\" on `District` and Sort: \"Descending\" on `ICT_Marks`, how will the resulting rows be displayed?",
+    "promptSi": "විමසුමක පෙළගැස්වීම (Sorting): `District` සඳහා \"Ascending\" (ආරෝහණ) ද, `ICT_Marks` සඳහා \"Descending\" (අවරෝහණ) ද ලබාදුනහොත් ප්‍රතිඵලය දැක්වෙන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Grouped alphabetically by District (A to Z), and within each district, sorted from highest mark to lowest mark",
+        "si": "Grouped alphabetically by District (A to Z), and within each district, sorted from highest mark to lowest mark"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Sorted only by marks regardless of district",
+        "si": "Sorted only by marks regardless of district"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "All districts reversed from Z to A with lowest marks first",
+        "si": "All districts reversed from Z to A with lowest marks first"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Sorting on multiple columns is not permitted in relational databases",
+        "si": "Sorting on multiple columns is not permitted in relational databases"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "The primary sort is alphabetical on `District` (A to Z). For students in the same district, the secondary sort orders marks from highest to lowest (Descending).",
+    "explanationSi": "ප්‍රථමයෙන් දිස්ත්‍රික්ක අනුව අකාරාදී පිළිවෙළට (A සිට Z දක්වා) පෙළගැසෙන අතර, එකම දිස්ත්‍රික්කයේ සිසුන් වැඩිම ලකුණේ සිට අඩුම ලකුණ දක්වා (අවරෝහණව) පෙළගැසේ.",
+    "syllabusRef": "G10-U9.58"
+  },
+  {
+    "id": "g10-u9-q59",
+    "lessonId": "g10-u9",
+    "questionNumber": 59,
+    "promptEn": "Which statement accurately differentiates a Form from a Report in database systems?",
+    "promptSi": "දත්ත සමුදා පද්ධතියක ආකෘති පත්‍රයක් (Form) සහ වාර්තාවක් (Report) අතර වෙනස නිවැරදිව දක්වන්නේ කිනම් ප්‍රකාශය මගින්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Forms are interactive screens for user data entry and record editing",
+        "si": "Reports are non-interactive formatted outputs designed for printing and decision-making"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Forms can only be viewed in black and white",
+        "si": "Reports are in color"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Reports store raw tables permanently",
+        "si": "Forms do not connect to tables"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Forms are used to write SQL queries",
+        "si": "Reports are used to compile program code"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Forms provide an interactive GUI for entering, editing, and viewing individual records. Reports format, group, calculate, and present summarized records specifically for printing.",
+    "explanationSi": "ආකෘති පත්‍ර (Forms) පරිශීලකයාට දත්ත ඇතුළත් කිරීමට හා සංස්කරණය කිරීමට අන්තර්ක්‍රියාකාරී තිර සපයයි; වාර්තා (Reports) දත්ත මුද්‍රණය කිරීමට සහ තීරණ ගැනීම සඳහා සාරාංශගත කර ඉදිරිපත් කරයි.",
+    "syllabusRef": "G10-U9.59"
+  },
+  {
+    "id": "g10-u9-q60",
+    "lessonId": "g10-u9",
+    "questionNumber": 60,
+    "promptEn": "Which of the following is an example of an institutional database system that operates with massive real-time multi-user concurrency across Sri Lanka?",
+    "promptSi": "ශ්‍රී ලංකාව පුරා එකවර පරිශීලකයින් විශාල සංඛ්‍යාවකට ක්ෂණිකව ප්‍රවේශ විය හැකි (Real-time concurrency) ආයතනික දත්ත සමුදා පද්ධතියකට උදාහරණයක් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The Central Bank LankaPay ATM network & Interbank Payment System",
+        "si": "The Central Bank LankaPay ATM network & Interbank Payment System"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A single student's offline digital diary stored on a USB flash drive",
+        "si": "A single student's offline digital diary stored on a USB flash drive"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A printed paper telephone directory book",
+        "si": "A printed paper telephone directory book"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A standalone desktop calculator",
+        "si": "A standalone desktop calculator"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "LankaPay and banking core systems are massive networked electronic DBMS implementations supporting thousands of concurrent ATM withdrawals, deposits, and transfers seamlessly with ACID transaction integrity.",
+    "explanationSi": "LankaPay සහ බැංකු පද්ධති යනු දිවයින පුරා දහස් ගණනක් ATM යන්ත්‍ර සහ පරිශීලකයින් එකවර සම්බන්ධ වන, ඉහළ ආරක්ෂාවක් සහ අඛණ්ඩතාවක් සහිත දැවැන්ත තත්‍ය කාලීන ඉලෙක්ට්‍රොනික දත්ත සමුදා පද්ධති වේ.",
+    "syllabusRef": "G10-U9.60"
+  }
+]

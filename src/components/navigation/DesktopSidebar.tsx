@@ -83,37 +83,18 @@ export function DesktopSidebar() {
 
   return (
     <aside
-      className={`hidden lg:flex flex-col fixed top-0 bottom-0 left-0 z-30 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-r border-slate-200 dark:border-slate-800 transition-all duration-300 select-none ${
+      className={`hidden lg:flex flex-col fixed top-14 bottom-0 left-0 z-30 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-r border-slate-200 dark:border-slate-800 transition-all duration-300 select-none ${
         collapsed ? 'w-20' : 'w-64'
       }`}
       aria-label="Desktop Navigation Rail"
     >
-      {/* Brand Header */}
-      <div className="h-16 flex items-center justify-between px-4 border-b border-slate-100 dark:border-slate-800/80">
-        <Link
-          href="/"
-          onClick={() => sound.playClick(600)}
-          className="flex items-center gap-3 overflow-hidden group"
-        >
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-sky-400 flex items-center justify-center shrink-0 shadow-md shadow-indigo-500/20 group-hover:scale-105 transition-transform">
-            <Sparkles className="w-5 h-5 text-white" />
-          </div>
-          {!collapsed && (
-            <div className="flex flex-col truncate">
-              <span className="font-black text-sm tracking-tight text-slate-900 dark:text-white leading-tight">
-                ICT <span className="text-indigo-600 dark:text-indigo-400">Master</span>
-              </span>
-              <span className="text-[10px] text-slate-400 dark:text-slate-500 font-bold tracking-wider uppercase">
-                O/L Sri Lanka
-              </span>
-            </div>
-          )}
-        </Link>
-
+      {/* Rail Collapse Toggle Sub-header */}
+      <div className="h-10 flex items-center justify-between px-3 border-b border-slate-100 dark:border-slate-800/80 text-xs font-semibold text-slate-500 dark:text-slate-400">
+        {!collapsed && <span className="text-[11px] uppercase tracking-wider font-bold text-slate-400">Navigation</span>}
         <button
           type="button"
           onClick={toggleCollapse}
-          className="p-1.5 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+          className={`p-1.5 rounded-lg text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer ${collapsed ? 'mx-auto' : ''}`}
           title={collapsed ? 'Expand Sidebar (Ctrl+B)' : 'Collapse Sidebar (Ctrl+B)'}
           aria-label={collapsed ? 'Expand Sidebar' : 'Collapse Sidebar'}
         >

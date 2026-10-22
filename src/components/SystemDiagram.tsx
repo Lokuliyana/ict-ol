@@ -3,8 +3,20 @@
 import React, { useState } from 'react';
 import { ArrowRight, Database, Cpu, HardDrive, CheckCircle, Play, RotateCcw } from 'lucide-react';
 
-export function SystemDiagram() {
-  const [activeScenario, setActiveScenario] = useState<'fingerprint' | 'marks' | 'atm'>('fingerprint');
+export interface SystemDiagramProps {
+  hideInternalTabs?: boolean;
+  defaultSubMode?: 'fingerprint' | 'marks' | 'atm' | string;
+}
+
+export function SystemDiagram({
+  hideInternalTabs = false,
+  defaultSubMode = 'fingerprint',
+}: SystemDiagramProps = {}) {
+  const validScenarios: Array<'fingerprint' | 'marks' | 'atm'> = ['fingerprint', 'marks', 'atm'];
+  const initialScenario = validScenarios.includes(defaultSubMode as any)
+    ? (defaultSubMode as 'fingerprint' | 'marks' | 'atm')
+    : 'fingerprint';
+  const [activeScenario, setActiveScenario] = useState<'fingerprint' | 'marks' | 'atm'>(initialScenario);
   const [currentStep, setCurrentStep] = useState<number>(0);
   const [isSimulating, setIsSimulating] = useState<boolean>(false);
 
@@ -75,32 +87,34 @@ export function SystemDiagram() {
         </div>
 
         {/* Scenario Switcher */}
-        <div className="flex bg-slate-800 p-1 rounded-xl text-xs">
-          <button
-            onClick={() => { setActiveScenario('fingerprint'); setCurrentStep(0); }}
-            className={`px-3 py-1.5 rounded-lg transition-all ${
-              activeScenario === 'fingerprint' ? 'bg-indigo-600 text-white font-semibold' : 'text-slate-400 hover:text-white'
-            }`}
-          >
-            Fingerprint
-          </button>
-          <button
-            onClick={() => { setActiveScenario('marks'); setCurrentStep(0); }}
-            className={`px-3 py-1.5 rounded-lg transition-all ${
-              activeScenario === 'marks' ? 'bg-indigo-600 text-white font-semibold' : 'text-slate-400 hover:text-white'
-            }`}
-          >
-            Marks
-          </button>
-          <button
-            onClick={() => { setActiveScenario('atm'); setCurrentStep(0); }}
-            className={`px-3 py-1.5 rounded-lg transition-all ${
-              activeScenario === 'atm' ? 'bg-indigo-600 text-white font-semibold' : 'text-slate-400 hover:text-white'
-            }`}
-          >
-            ATM
-          </button>
-        </div>
+        {!hideInternalTabs && (
+          <div data-testid="system-diagram-tabs" className="flex bg-slate-800 p-1 rounded-xl text-xs">
+            <button
+              onClick={() => { setActiveScenario('fingerprint'); setCurrentStep(0); }}
+              className={`px-3 py-1.5 rounded-lg transition-all ${
+                activeScenario === 'fingerprint' ? 'bg-indigo-600 text-white font-semibold' : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              Fingerprint
+            </button>
+            <button
+              onClick={() => { setActiveScenario('marks'); setCurrentStep(0); }}
+              className={`px-3 py-1.5 rounded-lg transition-all ${
+                activeScenario === 'marks' ? 'bg-indigo-600 text-white font-semibold' : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              Marks
+            </button>
+            <button
+              onClick={() => { setActiveScenario('atm'); setCurrentStep(0); }}
+              className={`px-3 py-1.5 rounded-lg transition-all ${
+                activeScenario === 'atm' ? 'bg-indigo-600 text-white font-semibold' : 'text-slate-400 hover:text-white'
+              }`}
+            >
+              ATM
+            </button>
+          </div>
+        )}
       </div>
 
       <div className="text-xs text-indigo-300 font-medium mb-4 flex items-center justify-between">

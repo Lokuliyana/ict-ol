@@ -16,7 +16,7 @@ export interface UnifiedPastPaperQuestion {
   unitNumber: number;
   unitTitleEn: string;
   unitTitleSi: string;
-  type: 'mcq' | 'structured';
+  type: 'mcq' | 'structured' | 'essay';
   badgeText: string;
   questionEn: string;
   questionSi: string;
@@ -105,18 +105,75 @@ function buildUnifiedPastPapers(): UnifiedPastPaperQuestion[] {
 
 export const UNIFIED_PAST_PAPERS: UnifiedPastPaperQuestion[] = buildUnifiedPastPapers();
 
+// 3. Ingest ALL 842 Question Bank items as searchable exam/drill items
+import { getAllIngestedQuestions } from './questionBanks/masterBanks';
+
+export interface CurriculumSourceType {
+  sourceType: 'past_paper' | 'question_bank';
+}
+
+function buildFullCurriculumQuestions(): UnifiedPastPaperQuestion[] {
+  const result: UnifiedPastPaperQuestion[] = [...UNIFIED_PAST_PAPERS];
+  const allMaster = getAllIngestedQuestions();
+
+  for (const item of allMaster) {
+    const q = item.question;
+    const isG11 = item.unitId.startsWith('g11');
+    const grade = isG11 ? '11' : '10';
+    const unitMatch = item.unitId.match(/u(\d+)/);
+    const unitNum = unitMatch ? parseInt(unitMatch[1]) : 1;
+
+    result.push({
+      id: `qb-${q.id}`,
+      year: 2025, // Practice benchmark year
+      paperType: 'Paper I',
+      grade: grade as '10' | '11',
+      unitId: item.unitId,
+      unitNumber: unitNum,
+      unitTitleEn: `Unit ${unitNum} Comprehensive Bank`,
+      unitTitleSi: `ඒකකය 0${unitNum} සම්පූර්ණ ප්‍රශ්නාවලිය`,
+      type: 'mcq',
+      badgeText: `Syllabus Bank Q#${q.questionNumber || '01'}`,
+      questionEn: q.promptEn,
+      questionSi: q.promptSi,
+      options: q.options.map(o => ({
+        id: o.id,
+        en: `(${o.key}) ${o.en}`,
+        si: o.si || ''
+      })),
+      correctOptionId: q.correctOptionId,
+      sampleAnswerEn: q.options.find(o => o.id === q.correctOptionId)?.en,
+      sampleAnswerSi: q.options.find(o => o.id === q.correctOptionId)?.si,
+      markingRubricEn: [q.explanationEn],
+      markingRubricSi: q.explanationSi ? [q.explanationSi] : [],
+      explanationEn: q.explanationEn,
+      explanationSi: q.explanationSi,
+    });
+  }
+
+  return result;
+}
+
+export const ALL_CURRICULUM_QUESTIONS: UnifiedPastPaperQuestion[] = buildFullCurriculumQuestions();
+
+export function getAllCurriculumQuestions(): UnifiedPastPaperQuestion[] {
+  return ALL_CURRICULUM_QUESTIONS;
+}
+
 export interface FilterPastPaperOptions {
   year?: string; // 'all' | '2020' | '2021' | ...
   paperType?: string; // 'all' | 'Paper I' | 'Paper II'
   grade?: string; // 'all' | '10' | '11'
   unitId?: string; // 'all' | 'g10-u1' | ...
   searchQuery?: string;
+  sourceScope?: 'past_papers_only' | 'all_question_banks';
 }
 
 export function filterPastPapers(filters: FilterPastPaperOptions = {}): UnifiedPastPaperQuestion[] {
-  const { year, paperType, grade, unitId, searchQuery } = filters;
+  const { year, paperType, grade, unitId, searchQuery, sourceScope = 'past_papers_only' } = filters;
+  const pool = sourceScope === 'all_question_banks' ? getAllCurriculumQuestions() : UNIFIED_PAST_PAPERS;
 
-  return UNIFIED_PAST_PAPERS.filter((q) => {
+  return pool.filter((q) => {
     if (year && year !== 'all' && String(q.year) !== String(year)) {
       return false;
     }
@@ -135,7 +192,8 @@ export function filterPastPapers(filters: FilterPastPaperOptions = {}): UnifiedP
         q.questionEn.toLowerCase().includes(query) ||
         q.questionSi.toLowerCase().includes(query) ||
         q.badgeText.toLowerCase().includes(query) ||
-        q.unitTitleEn.toLowerCase().includes(query);
+        q.unitTitleEn.toLowerCase().includes(query) ||
+        (q.explanationEn && q.explanationEn.toLowerCase().includes(query));
       if (!matchesText) return false;
     }
     return true;

@@ -1,11 +1,20 @@
-# Grade 10 ICT - Lesson 06: Dual-Medium Visual Study & Past Paper Guide
+# Grade 10 ICT - Lesson 06: Master Dual-Medium Study & Past Paper Guide
+# වචන සකසුම් (Word Processing)
 
 ## Document Overview
 This study and past paper guide provides verbatim, dual-medium coverage of **Grade 10 - Lesson 06: Word Processing (වචන සකසුම්)** from the official Sri Lankan O/L ICT curriculum. All theory content and exam questions are extracted word-for-word from the Grade 10 English Medium Textbook (`ICT G-10 E.pdf`), Grade 10 Sinhala Medium Textbook (`ict g10 S.pdf`), and official G.C.E. O/L examination past papers (2020–2025).
 
+The guide adheres strictly to the 4-layer master framework:
+- **Layer 1:** Core Principles & Definitions (මූලික මූලධර්ම සහ අර්ථ දැක්වීම්)
+- **Layer 2:** Exhaustive Technical Operations & Interface (තාක්ෂණික සංරචක සහ මෙහෙයුම්)
+- **Layer 3:** Comprehensive Comparison Tables & Visual Schematics (සංසන්දනාත්මක වගු සහ රූප සටහන්)
+- **Layer 4:** High-Yield Exam Pitfalls, Master Shortcut Matrix & O/L Past Papers 2020–2025 (විභාග උගුල් සහ පසුගිය විභාග ප්‍රශ්න)
+
 ---
 
 # SECTION A: Complete Learning Guide & Short Notes (Comprehensive Theory)
+
+## 🏛️ LAYER 1: Core Principles & Definitions (මූලික මූලධර්ම සහ අර්ථ දැක්වීම්)
 
 ### 6.1 Introduction to Word Processing Software (වචන සකසුම් මෘදුකාංග හැඳින්වීම)
 
@@ -35,6 +44,8 @@ This study and past paper guide provides verbatim, dual-medium coverage of **Gra
 
 ---
 
+## ⚙️ LAYER 2: Exhaustive Domain Breakdown & Technical Operations (තාක්ෂණික සංරචක සහ මෙහෙයුම්)
+
 ### 6.2 User Interface of Word Processing Software (පරිශීලක අතුරුමුහුණතේ ප්‍රධාන සංරචක)
 
 ```
@@ -56,14 +67,14 @@ This study and past paper guide provides verbatim, dual-medium coverage of **Gra
 ```
 
 #### Key Interface Components (ප්‍රධාන අතුරුමුහුණත් සංරචක):
-1. **Title Bar (මාතෘකා තීරුව):** Displays the document name and application title.
-2. **Quick Access Toolbar (ඉක්මන් පිවිසුම් මෙවලම් තීරුව):** Contains quick buttons for Save, Undo, Redo.
-3. **Ribbon / Menu Bar (රිබන් පටිය / මෙනු තීරුව):** Tabbed interface (Home, Insert, Page Layout, Mailings, Review, View) organizing formatting commands.
+1. **Title Bar (මාතෘකා තීරුව):** Displays the document name and application title at the top of the window.
+2. **Quick Access Toolbar (ඉක්මන් පිවිසුම් මෙවලම් තීරුව):** Contains quick buttons for Save, Undo, Redo for 1-click access.
+3. **Ribbon / Menu Bar (රිබන් පටිය / මෙනු තීරුව):** Tabbed interface (Home, Insert, Page Layout, Mailings, Review, View) organizing formatting commands into logical functional groups.
 4. **Ruler (රූල / මිනුම් දණ්ඩ):** Displays margins, tab stops, and indentations (Horizontal & Vertical Rulers).
-5. **Work Area / Document Window (වැඩපොළ / ලේඛන කවුළුව):** The blank page space where text and graphics are entered.
+5. **Work Area / Document Window (වැඩපොළ / ලේඛන කවුළුව):** The blank page space where text and graphics are entered and edited.
 6. **Insertion Point / Cursor (කර්සරය):** Blinking vertical line indicating where typed characters will appear.
-7. **Status Bar (තත්ත්ව තීරුව):** Displays current page number, total pages, word count, and language.
-8. **Zoom Slider (විශාලන පාලකය):** Adjusts document viewing scale on screen.
+7. **Status Bar (තත්ත්ව තීරුව):** Displays current page number, total pages, word count, proofing status, and language at the bottom.
+8. **Zoom Slider (විශාලන පාලකය):** Adjusts document viewing scale on screen (located on the bottom-right corner of the status bar).
 
 ---
 
@@ -71,13 +82,13 @@ This study and past paper guide provides verbatim, dual-medium coverage of **Gra
 
 | Action (මෙහෙයුම) | English Description | Sinhala Description | Shortcut Key (කෙටිමං යතුර) |
 | :--- | :--- | :--- | :--- |
-| **New Document** | Create a new blank document | නව්ය ලේඛනයක් තැනීම | `Ctrl + N` |
+| **New Document** | Create a new blank document | නව ලේඛනයක් තැනීම | `Ctrl + N` |
 | **Open Document** | Open an existing document from storage | පවත්නා ලේඛනයක් විවෘත කිරීම | `Ctrl + O` |
 | **Save Document** | Save changes to current document | ලේඛනයක් සුරැකීම | `Ctrl + S` |
 | **Save As** | Save document with a new name or location | අලුත් නමකින්/ස්ථානයක සුරැකීම | `F12` |
 | **Print Document** | Print current document or view preview | ලේඛනය මුද්‍රණය කිරීම | `Ctrl + P` |
 | **Close Document** | Close the active document window | සක්‍රීය ලේඛනය වැසීම | `Ctrl + W` |
-| **Exit Software** | Close the application | මෘදුකාංගයෙන් නික්ම යාම | `Alt + F4` |
+| **Exit Software** | Close the application completely | මෘදුකාංගයෙන් නික්ම යාම | `Alt + F4` |
 
 ---
 
@@ -87,18 +98,19 @@ This study and past paper guide provides verbatim, dual-medium coverage of **Gra
 * **Font Type (අකුරු රටාව):** Change font family (e.g. Times New Roman, Arial, Abhaya Libre).
 * **Font Size (අක්ෂර ප්‍රමාණය):** Measured in points (e.g. 12pt, 14pt, 18pt).
 * **Font Style (අක්ෂර විලාස):**
-  * **Bold (තද අකුරු):** `Ctrl + B` $ightarrow$ **Example**
-  * **Italic (ඇල අකුරු):** `Ctrl + I` $ightarrow$ *Example*
-  * **Underline (යටින් ඉරක් ඇඳීම):** `Ctrl + U` $ightarrow$ <u>Example</u>
-* **Subscript & Superscript (යටිලකුණු සහ උඩmapping/උඩලකුණු):**
-  * **Subscript (යටිලකුණ):** `Ctrl + =` $ightarrow$ Example: $H_2O$ (Chemical formulas)
-  * **Superscript (උඩලකුණ):** `Ctrl + Shift + +` $ightarrow$ Example: $X^2 + Y^2$, $1st$ (Mathematical powers and ordinal numbers)
-* **Change Case (අක්ෂර කැපිටල්/සිම්පල් වෙනස් කිරීම):**
-  * **Sentence case:** First letter of sentence capitalized.
-  * **lowercase:** All letters small.
-  * **UPPERCASE:** All letters capital.
-  * **Capitalize Each Word:** First letter of every word capital.
-  * **tOGGLE cASE:** Inverts current case of each character.
+  * **Bold (තද අකුරු):** `Ctrl + B` $\rightarrow$ **Bold text emphasis**
+  * **Italic (ඇල අකුරු):** `Ctrl + I` $\rightarrow$ *Italic text emphasis*
+  * **Underline (යටින් ඉරක් ඇඳීම):** `Ctrl + U` $\rightarrow$ <u>Underlined text</u>
+* **Subscript & Superscript (යටිලකුණු සහ උඩලකුණු):**
+  * **Subscript (යටිලකුණ):** `Ctrl + =` $\rightarrow$ Lowers text below the baseline: $H_2O$ (Chemical formulas).
+  * **Superscript (උඩලකුණ):** `Ctrl + Shift + +` $\rightarrow$ Raises text above the baseline: $X^2 + Y^2$, $1^{st}$ (Mathematical powers and ordinal indicators).
+* **Strikethrough (මැදින් ඉර ඇඳීම):** Draws a horizontal line through the middle of the selected text (e.g., ~~Obsolete text~~).
+* **Change Case (අක්ෂර කැපිටල්/සිම්පල් වෙනස් කිරීම - Shift + F3):**
+  * **Sentence case:** First letter of sentence capitalized; all other letters lowercase.
+  * **lowercase:** All letters converted to small characters.
+  * **UPPERCASE:** All letters converted to capital characters.
+  * **Capitalize Each Word:** First letter of every word capital (Title Case).
+  * **tOGGLE cASE:** Inverts current case of each character (swaps lowercase and UPPERCASE).
 
 #### 6.4.2 Paragraph Formatting & Alignment (ඡේද හැඩසැසීම සහ පෙළගැස්වීම්)
 
@@ -109,57 +121,70 @@ Left Align (Ctrl+L)       Center Align (Ctrl+E)      Right Align (Ctrl+R)       
 ```
 
 * **Text Alignment Commands (පෙළගැස්වුම් නියෝග):**
-  1. **Align Left (වම් පෙළගැස්ම):** `Ctrl + L` (Standard for left-to-right languages).
+  1. **Align Left (වම් පෙළගැස්ම):** `Ctrl + L` (Standard default for left-to-right languages).
   2. **Center Align (මධ්‍ය පෙළගැස්ම):** `Ctrl + E` (Used for document titles and headings).
   3. **Align Right (දකුණු පෙළගැස්ම):** `Ctrl + R` (Used for dates, addresses, and signatures).
   4. **Justify (දෙපස පෙළගැස්ම):** `Ctrl + J` (Aligns text smoothly along both left and right margins; used in newspapers, books, and formal reports).
 
 * **Line & Paragraph Spacing (පේළි සහ ඡේද අතර පරතරය):**
-  * **Line Spacing (පේළි පරතරය):** Vertical distance between lines of text (Single 1.0, 1.15, 1.5 lines, Double 2.0 lines).
-  * **Paragraph Spacing (ඡේද පරතරය):** Distance Before (`Spacing Before`) and After (`Spacing After`) a paragraph.
+  * **Line Spacing (පේළි පරතරය):** Vertical distance between lines of text within a paragraph (Single 1.0, 1.15, 1.5 lines, Double 2.0 lines).
+  * **Paragraph Spacing (ඡේද පරතරය):** Distance Before (`Spacing Before`) and After (`Spacing After`) a paragraph, eliminating the need to hit Enter multiple times.
 
 * **Indentation (ඡේද එබුම/පරතරය):**
-  * **First Line Indent (පළමු පේළි එබුම):** Indents only the first line of a paragraph to the right.
-  * **Hanging Indent (එල්ලෙන එබුම):** Indents all lines EXCEPT the first line.
-  * **Left & Right Indent (වම් හා දකුණු එබුම):** Shifts entire paragraph away from left or right margins.
+  * **First Line Indent (පළමු පේළි එබුම):** Indents only the first line of a paragraph to the right while leaving remaining lines flush with the left margin.
+  * **Hanging Indent (එල්ලෙන එබුම):** Indents all lines EXCEPT the first line; commonly used in bibliographies and glossaries.
+  * **Left & Right Indent (වම් හා දකුණු එබුම):** Shifts entire paragraph inward away from left or right margins.
 
 * **Bullets and Numbering (බුලට් සහ අංකන ලැයිස්තු):**
-  * **Bulleted List (බුලට් ලැයිස්තුව):** Unordered list using symbols (dots, arrows, squares).
-  * **Numbered List (අංකිත ලැයිස්තුව):** Ordered sequential list using numbers (1, 2, 3) or letters (A, B, C / i, ii, iii).
+  * **Bulleted List (බුලට් ලැයිස්තුව):** Unordered list using symbols (dots, arrows, squares) where sequence does not matter.
+  * **Numbered List (අංකිත ලැයිස්තුව):** Ordered sequential list using numbers (1, 2, 3) or letters (A, B, C / i, ii, iii) where sequence is vital.
+  * **Multilevel List (බහු-මට්ටම් ලැයිස්තුව):** Hierarchical lists with nested sub-items (e.g., 1.1, 1.2).
 
 ---
 
 ### 6.5 Editing Techniques & Search Operations (සංස්කරණ තාක්ෂණ සහ සෙවීම්)
 
 #### Clipboard Operations (ක්ලිප්බෝඩ් මෙහෙයුම්):
-* **Cut (කපන්න):** `Ctrl + X` $ightarrow$ Removes selected text/object and stores it in clipboard.
-* **Copy (පිටපත් කරන්න):** `Ctrl + C` $ightarrow$ Duplicates selected text/object into clipboard without removing original.
-* **Paste (අලවන්න):** `Ctrl + V` $ightarrow$ Inserts stored text/object from clipboard into cursor position.
-* **Undo (පෙර තත්ත්වයට පත් කරන්න):** `Ctrl + Z` $ightarrow$ Reverses the last performed action.
-* **Redo / Repeat (නැවත කරන්න):** `Ctrl + Y` $ightarrow$ Re-applies the last undone action.
+* **Cut (කපන්න):** `Ctrl + X` $\rightarrow$ Removes selected text/object from document and stores it in clipboard.
+* **Copy (පිටපත් කරන්න):** `Ctrl + C` $\rightarrow$ Duplicates selected text/object into clipboard without removing original.
+* **Paste (අලවන්න):** `Ctrl + V` $\rightarrow$ Inserts stored text/object from clipboard into current cursor position.
+* **Undo (පෙර තත්ත්වයට පත් කරන්න):** `Ctrl + Z` $\rightarrow$ Reverses the last performed action.
+* **Redo / Repeat (නැවත කරන්න):** `Ctrl + Y` $\rightarrow$ Re-applies the last undone action.
+* **Format Painter (ආකෘති සායම):** Copies only the formatting (font, size, color) from selected text and applies it to another target text.
 
 #### Search & Replacement Tools (සෙවීම් සහ ප්‍රතිස්ථාපන මෙවලම්):
-* **Find (සෙවීම):** `Ctrl + F` $ightarrow$ Searches for specific words or phrases throughout the document.
-* **Replace (ප්‍රතිස්ථාපනය):** `Ctrl + H` $ightarrow$ Finds specific words and replaces them automatically with new text.
+* **Find (සෙවීම):** `Ctrl + F` $\rightarrow$ Searches for specific words or phrases throughout the document.
+* **Replace (ප්‍රතිස්ථාපනය):** `Ctrl + H` $\rightarrow$ Finds specific words and replaces them automatically with new text.
 * **Spelling and Grammar Check (අක්ෂර වින්‍යාසය සහ ව්‍යාකරණ පරීක්ෂාව - F7):**
-  * **Red Wavy Line (රතු රැලි සහිත ඉර):** Indicates a spelling error (අක්ෂර වින්‍යාස දෝෂය).
+  * **Red Wavy Line (රතු රැලි සහිත ඉර):** Indicates a spelling error (අක්ෂර වින්‍යාස දෝෂය) or unrecognized word not in dictionary.
   * **Green / Blue Wavy Line (කොළ / නිල් රැලි සහිත ඉර):** Indicates a grammatical or contextual error (ව්‍යාකරණ දෝෂය).
-* **Thesaurus (සමානාර්ථ පද කෝෂය):** Provides synonyms (සමානාර්ථ පද) and antonyms for selected words.
+* **Thesaurus (සමානාර්ථ පද කෝෂය - Shift + F7):** Provides synonyms (සමානාර්ථ පද) and antonyms for selected words.
 
 ---
 
 ### 6.6 Inserting & Formatting Tables, Images, Header & Footer (වගු, රූප රාමු, ශීර්ෂක සහ පාදක)
 
 #### 6.6.1 Table Operations (වගු මෙහෙයුම්)
-* **Table Components (වගු සංරචක):** Grid made of **Rows (තෙරස් පේළි)** and **Columns (සිරස් තීරු)**. The intersection of a row and column is called a **Cell (සෛලය)**.
+* **Table Components (වගු සංරචක):** Grid made of **Rows (තිරස් පේළි)** and **Columns (සිරස් තීරු)**. The intersection of a row and column is called a **Cell (සෛලය)**.
 * **Merging Cells (සෛල ඒකාබද්ධ කිරීම):** Combining two or more adjacent cells into one large single cell.
 * **Splitting Cells (සෛල බෙදීම):** Dividing a single cell into multiple rows or columns.
-* **Adding / Deleting Rows & Columns (පේළි/තීරු ඇතුළත් කිරීම සහ මකා දැමීම):** Inserting rows above/below or columns to left/right.
+* **Adding / Deleting Rows & Columns (පේළි/තීරු ඇතුළත් කිරීම සහ මකා දැමීම):** Inserting rows above/below or columns to left/right; deleting unwanted rows or columns.
+* **Navigating Cells:** Pressing `Tab` moves cursor to the next adjacent cell; pressing `Shift + Tab` moves to previous cell. Pressing `Tab` in the very last cell adds a new row automatically.
 
 #### 6.6.2 Header, Footer & Page Numbers (ශීර්ෂකය, පාදකය සහ පිටු අංක)
 * **Header (ශීර්ෂකය):** Area in the top margin of every page; contains document title, chapter name, or logo.
 * **Footer (පාදකය):** Area in the bottom margin of every page; contains page numbers, author name, or date.
 * **Page Numbers (පිටු අංක):** Automated page numbering placed in header, footer, or page margins.
+
+#### 6.6.3 Graphic Elements & Text Wrapping (චිත්‍රක සහ පෙළ එතීම)
+* **Text Wrapping (පෙළ එතීම):** Controls how document text flows around an inserted image or object:
+  * **In Line with Text (පෙළ සමග එක පෙළට):** Image is treated like a text character; sits on the text baseline.
+  * **Square (සමචතුරස්‍ර):** Text flows neatly in a rectangular box around the image boundaries.
+  * **Tight (තදින්):** Text wraps tightly following the actual contour/outline of the graphic.
+  * **Behind Text (පෙළ පිටුපසින්):** Image is placed on a background layer; text is typed directly over the image (watermark style).
+  * **In Front of Text (පෙළ ඉදිරියෙන්):** Image floats above text, obscuring text underneath.
+* **WordArt (වර්ඩ්ආර්ට්):** Decorative text effects (shadows, outlines, 3D rotations, curves) used for titles and posters.
+* **Drop Cap (ආරම්භක විශාල අකුර):** Formats the first letter of a paragraph as a large decorative capital letter spanning multiple text lines (frequently seen in newspapers and books).
 
 ---
 
@@ -211,6 +236,113 @@ Left Align (Ctrl+L)       Center Align (Ctrl+E)      Right Align (Ctrl+R)       
 
 ---
 
+## 📊 LAYER 3: Comparison Tables & Visual Diagrams (සංසන්දනාත්මක වගු සහ රූප සටහන්)
+
+#### Comparison 1: Traditional Mechanical Typewriter vs Electronic Word Processor (ටයිප් රයිටරය සහ වචන සකසුම අතර සංසන්දනය)
+
+| Feature (ලක්ෂණය) | Traditional Typewriter (සාම්ප්‍රදායික ටයිප් රයිටරය) | Electronic Word Processor (ඉලෙක්ට්‍රොනික වචන සකසුම) |
+| :--- | :--- | :--- |
+| **Correction of Errors** (දෝෂ නිවැරදි කිරීම) | Entire page must be retyped or corrected using white-out fluid. | Instant backspace/delete; error correction on screen with zero paper waste. |
+| **Document Storage** (ලේඛන ගබඩා කිරීම) | Stored only physically as paper in file cabinets. | Stored digitally on HDD, SSD, cloud; instantly retrievable anytime. |
+| **Formatting Flexibility** (හැඩසැසීමේ හැකියාව) | Single fixed font style and size per typewriter ribbon. | Unlimited fonts, sizes, colors, styles (Bold, Italic, Underline), borders. |
+| **Graphics & Tables** (රූප සහ වගු) | Cannot insert images, shapes, charts, or automated tables. | Seamless insertion of tables, pictures, diagrams, and shapes. |
+| **Batch Personalization** (ස්වයංක්‍රීය ලිපි ජනනය) | Every recipient letter must be manually typed individually. | Mail Merge automatically generates hundreds of personalized letters in seconds. |
+| **Proofing Tools** (දෝෂ සෙවීමේ මෙවලම්) | Manual proofreading only; no automated checking. | Built-in automated spelling and grammar checking, plus Thesaurus dictionary. |
+
+---
+
+#### Comparison 2: Word Processing Software Classification (මෘදුකාංග වර්ගීකරණය)
+
+| Software Category (කාණ්ඩය) | Examples (උදාහරණ) | Licensing & Operating Characteristics (බලපත්‍ර සහ මෙහෙයුම් ලක්ෂණ) |
+| :--- | :--- | :--- |
+| **Proprietary Software** (හිමිකාර මෘදුකාංග) | Microsoft Word, Apple Pages | Commercial closed-source software; requires purchase of paid license; vendor owns code. |
+| **Free & Open Source (FOSS)** (නිදහස් හා විවෘත මූලාශ්‍ර) | LibreOffice Writer, OpenOffice Writer | Distributed under open licenses (GPL/LGPL); free to use, study, modify, and redistribute. |
+| **Cloud-Based Applications** (වලාකුළු පදනම්) | Google Docs, MS Word Online | Runs natively in web browsers; auto-saves on cloud storage; real-time multi-user editing. |
+| **Basic Text Editors** (සරල පෙළ සංස්කාරක) | Notepad, WordPad | Built-in OS accessories; lightweight; lack advanced typography and mail merge tools. |
+
+---
+
+#### Comparison 3: Typography & Text Formatting Pairs (අක්ෂර හැඩසැසුම් යුගල සංසන්දනය)
+
+| Feature Pair (හැඩසැසුම් යුගලය) | Technical Behavior (තාක්ෂණික හැසිරීම) | Primary Real-World Application (ප්‍රධාන යෙදුම) | Shortcut Key |
+| :--- | :--- | :--- | :--- |
+| **Subscript (යටිලකුණ)** | Lowers selected character below the text baseline ($H_2O$). | Chemical molecular formulas ($CO_2$, $H_2SO_4$), base numbers ($1011_2$). | `Ctrl + =` |
+| **Superscript (උඩලකුණ)** | Raises selected character above the text baseline ($X^2$). | Mathematical exponents ($A^2 + B^2$), ordinal indicators ($1^{st}, 2^{nd}$). | `Ctrl + Shift + +` |
+| **Cut (කපන්න)** | Deletes selection from active document into Clipboard buffer. | Moving text from one paragraph to another location permanently. | `Ctrl + X` |
+| **Copy (පිටපත් කරන්න)** | Leaves original text intact and duplicates selection to Clipboard. | Reusing identical text blocks or sentences in multiple places. | `Ctrl + C` |
+| **First Line Indent (පළමු පේළි එබුම)** | Indents only the first line of the paragraph inward to the right. | Standard formal essay, novel, and textbook paragraph styling. | Drag top ruler slider |
+| **Hanging Indent (එල්ලෙන එබුම)** | Leaves first line flush with margin; indents second and subsequent lines. | APA/MLA bibliographies, reference citation lists, glossaries. | Drag bottom ruler slider |
+| **Red Wavy Line (රතු රැලි සහිත ඉර)** | Flags word as unrecognized by internal dictionary. | Misspelled words (e.g., *teh* instead of *the*). | Right-click for suggestions |
+| **Green / Blue Wavy Line (කොළ/නිල් ඉර)**| Flags grammatical structure or contextual usage error. | Subject-verb mismatch, missing punctuation, repetitive words. | Right-click for grammar tips |
+
+---
+
+#### Comparison 4: Mail Merge Core Components Matrix (තැපැල් ඒකාබද්ධ කිරීමේ සංරචක සාරාංශය)
+
+| Mail Merge Component (සංරචකය) | Core Content (අඩංගු දෑ) | Nature of Data (දත්තවල ස්වභාවය) | Example Elements (උදාහරණ) |
+| :--- | :--- | :--- | :--- |
+| **Main Document (ප්‍රධාන ලේඛනය)** | Body letter text, school header, signature lines, and merge field tags. | Static (Common text) + Dynamic placeholders (`<<Field>>`). | Letter text + `<<Name>>`, `<<Address>>` |
+| **Data Source (දත්ත ප්‍රභවය)** | Structured tabular data stored in columns (fields) and rows (records). | Variable recipient information changing for every single person. | Spreadsheet with Name, Address, Index Number |
+| **Merged Document (ඒකාබද්ධ වූ ලේඛන)** | Complete batch of finalized individual personalized letters ready to print. | Fully realized static output letters combining main text + data. | 150 unique printed letters, each addressed to a specific parent |
+
+---
+
+## 🎯 LAYER 4: High-Yield Exam Pitfalls & Summary Matrix (විභාග උගුල් සහ සාරාංශ න්‍යාසය)
+
+#### Top O/L Exam Pitfalls & Traps (පසුගිය විභාග උගුල් සහ වරදින තැන්):
+1. **The "Enter Key" Misconception:**
+   - *Trap:* Students often believe you must press `Enter` at the end of every typed line of text.
+   - *Truth:* Modern word processors use **Word Wrap** to automatically push words to the next line when the right margin is reached. `Enter` must **ONLY** be pressed to end a paragraph and start a brand-new paragraph.
+2. **Save (`Ctrl + S`) vs. Save As (`F12`):**
+   - *Trap:* Confusing Save with Save As.
+   - *Truth:* `Save` overwrites the existing file on storage with the latest edits using the existing filename. `Save As` opens a dialog box prompting the user to save the document under a **new name**, in a **new folder location**, or with a **different file format** (e.g., PDF or Rich Text Format).
+3. **Subscript vs. Superscript Shortcuts:**
+   - *Trap:* Swapping shortcut keys in O/L Paper I questions.
+   - *Truth:* Subscript is `Ctrl + =` (think equal sign sits low). Superscript is `Ctrl + Shift + +` (think plus sign sits high).
+4. **Data Source File Types for Mail Merge:**
+   - *Trap:* Thinking a data source can be an unstructured plain text paragraph.
+   - *Truth:* A Data Source MUST be structured into fields and records. It can be a table in MS Word, an Excel spreadsheet, an Access database, or a CSV file. Unstructured paragraph text cannot be used as a data source.
+5. **Justify Alignment Definition:**
+   - *Trap:* Stating that Justify aligns text only to the left or right margin.
+   - *Truth:* Justify (`Ctrl + J`) distributes extra spacing between words so that text aligns evenly along **BOTH** the left margin AND the right margin simultaneously (giving a neat rectangular block appearance, as in newspapers).
+
+---
+
+#### Master Keyboard Shortcuts Summary Table (අත්‍යවශ්‍ය කෙටිමං යතුරු සාරාංශය)
+
+| Operation (මෙහෙයුම) | Shortcut Key (කෙටිමං යතුර) | Primary Function (කාර්යය) |
+| :--- | :--- | :--- |
+| **New Document** | `Ctrl + N` | Creates a new blank document window |
+| **Open Document** | `Ctrl + O` | Opens an existing document from disk storage |
+| **Save Document** | `Ctrl + S` | Saves active document changes to disk |
+| **Save As** | `F12` | Saves active document with a new name/type/path |
+| **Print** | `Ctrl + P` | Opens Print dialog and print preview |
+| **Close Document** | `Ctrl + W` | Closes current active document window |
+| **Exit Application** | `Alt + F4` | Quits the word processing software |
+| **Cut Text** | `Ctrl + X` | Removes selected text into Clipboard buffer |
+| **Copy Text** | `Ctrl + C` | Duplicates selected text into Clipboard buffer |
+| **Paste Text** | `Ctrl + V` | Inserts Clipboard content at insertion point |
+| **Undo** | `Ctrl + Z` | Reverses the last performed action |
+| **Redo** | `Ctrl + Y` | Re-applies the last undone action |
+| **Select All** | `Ctrl + A` | Highlights the entire document text |
+| **Find** | `Ctrl + F` | Searches for specific words or phrases |
+| **Replace** | `Ctrl + H` | Finds and replaces text across the document |
+| **Bold** | `Ctrl + B` | Toggles bold typeface emphasis |
+| **Italic** | `Ctrl + I` | Toggles italicized slanted typeface |
+| **Underline** | `Ctrl + U` | Toggles underline beneath selected characters |
+| **Subscript** | `Ctrl + =` | Lowers text below baseline ($H_2O$) |
+| **Superscript** | `Ctrl + Shift + +` | Raises text above baseline ($X^2$) |
+| **Align Left** | `Ctrl + L` | Aligns text flush with left margin |
+| **Center Align** | `Ctrl + E` | Centers text horizontally across margins |
+| **Align Right** | `Ctrl + R` | Aligns text flush with right margin |
+| **Justify** | `Ctrl + J` | Aligns text smoothly along both left and right margins |
+| **Manual Page Break** | `Ctrl + Enter` | Forces cursor immediately to the next page |
+| **Spelling Check** | `F7` | Launches full document spelling & grammar check |
+| **Thesaurus** | `Shift + F7` | Displays dictionary synonyms for selected word |
+| **Change Case** | `Shift + F3` | Cycles through Sentence case, UPPERCASE, lowercase |
+
+---
+
 # SECTION B: Complete O/L Past Paper Question Extraction (2020 – 2025)
 
 ### 2.1 Questions on Formatting, Shortcuts & Table Operations
@@ -229,6 +361,12 @@ Left Align (Ctrl+L)       Center Align (Ctrl+E)      Right Align (Ctrl+R)       
   (2) Ctrl + E
   (3) Ctrl + L
   (4) Ctrl + R"
+* **Model Answer & Rationale:**
+  - **Correct Answer:** **(2) Ctrl + E**
+  - **Explanation (English):** `Ctrl + E` is the universal shortcut for Center alignment. `Ctrl + C` is Copy, `Ctrl + L` is Left alignment, and `Ctrl + R` is Right alignment.
+  - **Explanation (Sinhala):** මධ්‍ය පෙළගැස්ම සඳහා කෙටිමං යතුර `Ctrl + E` වේ. `Ctrl + C` යනු පිටපත් කිරීමයි, `Ctrl + L` වම් පෙළගැස්ම වන අතර `Ctrl + R` දකුණු පෙළගැස්මයි.
+
+---
 
 #### Question 02 (2021 O/L Paper I - Question 06)
 * **Year & Question No:** 2021 O/L Paper I - Question 06
@@ -244,6 +382,12 @@ Left Align (Ctrl+L)       Center Align (Ctrl+E)      Right Align (Ctrl+R)       
   (2) යටිලකුණ (Subscript)
   (3) මැදින් ඉර ඇඳීම (Strikethrough)
   (4) කැපිටල්/සිම්පල් වෙනස් කිරීම (Change Case)"
+* **Model Answer & Rationale:**
+  - **Correct Answer:** **(2) Subscript (යටිලකුණ)**
+  - **Explanation (English):** Subscript (`Ctrl + =`) lowers characters below the normal text baseline, which is essential for writing chemical formulas like $H_2O$ and $CO_2$. Superscript raises characters above the baseline ($X^2$).
+  - **Explanation (Sinhala):** සාමාන්‍ය පෙළ පේළියට පහළින් අකුරු හෝ ඉලක්කම් ලිවීම සඳහා යටිලකුණ (Subscript) භාවිත වේ. රසායනික සූත්‍ර ($H_2O$) ලිවීමට මෙය යොදා ගැනේ.
+
+---
 
 #### Question 03 (2022 O/L Paper I - Question 08)
 * **Year & Question No:** 2022 O/L Paper I - Question 08
@@ -259,6 +403,12 @@ Left Align (Ctrl+L)       Center Align (Ctrl+E)      Right Align (Ctrl+R)       
   (2) සෛල ඒකාබද්ධ කිරීම (Merging Cells)
   (3) වගු හැඩසැසීම (Table Formatting)
   (4) පෙළ එතීම (Wrap Text)"
+* **Model Answer & Rationale:**
+  - **Correct Answer:** **(2) Merging Cells (සෛල ඒකාබද්ධ කිරීම)**
+  - **Explanation (English):** Combining two or more adjacent cells into a single larger cell is called Merging Cells. Dividing a single cell into multiple cells is called Splitting Cells.
+  - **Explanation (Sinhala):** යාබද සෛල දෙකක් හෝ කිහිපයක් එක් කොට තනි විශාල සෛලයක් බවට පත් කිරීම සෛල ඒකාබද්ධ කිරීම (Merging Cells) ලෙස හැඳින්වේ. තනි සෛලයක් කොටස් කිහිපයකට වෙන් කිරීම සෛල බෙදීමයි.
+
+---
 
 #### Question 04 (2023 O/L Paper I - Question 06)
 * **Year & Question No:** 2023 O/L Paper I - Question 06
@@ -274,6 +424,10 @@ Left Align (Ctrl+L)       Center Align (Ctrl+E)      Right Align (Ctrl+R)       
   (2) මධ්‍ය පෙළගැස්ම
   (3) දකුණු පෙළගැස්ම
   (4) දෙපස පෙළගැස්ම (Justify)"
+* **Model Answer & Rationale:**
+  - **Correct Answer:** **(4) Justify (දෙපස පෙළගැස්ම)**
+  - **Explanation (English):** Justify (`Ctrl + J`) adjusts inter-word spacing so text aligns straight along both the left and right margins, commonly used in formal reports, newspapers, and books.
+  - **Explanation (Sinhala):** ලේඛනයේ වම් සහ දකුණු මායිම් දෙක අතරම පෙළ සම සේ පැතිරී යන අයුරින් පෙළගැස්වීම සඳහා දෙපස පෙළගැස්ම (Justify) භාවිත වේ.
 
 ---
 
@@ -289,6 +443,14 @@ Left Align (Ctrl+L)       Center Align (Ctrl+E)      Right Align (Ctrl+R)       
   "1. (v) පාසලක විදුහල්පතිවරයෙකුට වාර්ෂික ක්‍රීඩා උළෙල පිළිබඳව දෙමාපියන් 150 දෙනෙකු වෙත නිල ආරාධනා පත්‍රයක් යැවීමට අවශ්‍යව ඇත. ලිපියේ ප්‍රධාන පාඨය සියලු දෙමාපියන්ට එක සමාන වන අතර දෙමාපියන්ගේ නම, ශිෂ්‍යයාගේ නම සහ පන්තිය වෙනස් වේ.
   (a) මෙම කාර්යය කාර්යක්ෂමව ඉටු කර ගැනීම සඳහා වචන සකසුම් මෘදුකාංගයක ඇති පහසුකම නම් කරන්න.
   (b) මෙම ක්‍රියාවලියේදී තනනු ලබන ප්‍රධාන ලේඛන/ගොනු දෙක ලියන්න."
+* **Model Answer & Marking Rubric:**
+  - **(a) Feature Name:** Mail Merge (තැපැල් ඒකාබද්ධ කිරීම). [1 Mark]
+  - **(b) Two main documents/files:**
+    1. Main Document (ප්‍රධාන ලේඛනය) [1 Mark]
+    2. Data Source (දත්ත ප්‍රභවය) [1 Mark]
+    *(Accept Merged Document / ඒකාබද්ධ වූ ලේඛනය as well)*
+
+---
 
 #### Question 06 (2021 O/L Paper II - Question 01 (v))
 * **Year & Question No:** 2021 O/L Paper II - Question 01 (v)
@@ -306,6 +468,12 @@ Left Align (Ctrl+L)       Center Align (Ctrl+E)      Right Align (Ctrl+R)       
   C - තැපැල් ඒකාබද්ධ කිරීම භාවිත කළ හැක්කේ ලබන්නන් 10 දෙනෙකුට වඩා අඩු නම් පමණි.
   ඉහත ප්‍රකාශ අතුරින් නිවැරදි වන්නේ කුමක්ද/කුමනාකාරද?
   (1) A පමණි   (2) B පමණි   (3) A සහ B පමණි   (4) A, B සහ C සියල්ලම"
+* **Model Answer & Rationale:**
+  - **Correct Answer:** **(3) A and B only (A සහ B පමණි)**
+  - **Explanation (English):** Statements A and B are true descriptions of the Data Source and Main Document. Statement C is completely false; Mail Merge can handle hundreds or thousands of recipients without upper limits.
+  - **Explanation (Sinhala):** A සහ B ප්‍රකාශ නිවැරදි වේ. C ප්‍රකාශය අසත්‍ය වන්නේ තැපැල් ඒකාබද්ධ කිරීම ලබන්නන් සිය ගණනකට හෝ දහස් ගණනකට වුවද සාර්ථකව භාවිත කළ හැකි බැවිනි.
+
+---
 
 #### Question 07 (2022 O/L Paper II - Question 01 (v))
 * **Year & Question No:** 2022 O/L Paper II - Question 01 (v)
@@ -319,6 +487,11 @@ Left Align (Ctrl+L)       Center Align (Ctrl+E)      Right Align (Ctrl+R)       
   පහත දැක්වෙන ප්‍රකාශ සත්‍ය ද අසත්‍ය ද යන්න දක්වන්න:
   (a) ප්‍රධාන ලේඛනයට ඇතුළත් කරන `<<First_Name>>` වැනි ස්ථාන රඳවන ඒකාබද්ධ ක්ෂේත්‍ර (Merge Fields) ලෙස හැඳින්වේ.
   (b) දත්ත ප්‍රභව ගොනුව වචන සකසුම් මෘදුකාංගයක වගුවක් භාවිතයෙන් නිර්මාණය කළ නොහැක."
+* **Model Answer & Marking Rubric:**
+  - **(a):** **True (සත්‍ය)** - Placeholders for recipient information in the main document are indeed called Merge Fields. [1 Mark]
+  - **(b):** **False (අසත්‍ය)** - A Data Source file CAN be created using a table within a Word Processing software, as well as spreadsheets or database files. [1 Mark]
+
+---
 
 #### Question 08 (2023 O/L Paper II - Question 01 (v))
 * **Year & Question No:** 2023 O/L Paper II - Question 01 (v)
@@ -326,6 +499,18 @@ Left Align (Ctrl+L)       Center Align (Ctrl+E)      Right Align (Ctrl+R)       
   "1. (v) Write down three steps in order for performing a Mail Merge operation to generate personalized student progress reports."
 * **Sinhala Medium Question:**
   "1. (v) පුද්ගලිකකරණය කළ ශිෂ්‍ය ප්‍රගති වාර්තා ජනනය කිරීම සඳහා තැපැල් ඒකාබද්ධ කිරීමේ ක්‍රියාවලිය සිදු කරන පියවර තුනක් අනුපිළිවෙලින් ලියන්න."
+* **Model Answer & Marking Rubric:**
+  - **English:**
+    1. Create or open the Main Document (containing the common progress report template).
+    2. Create or select the Data Source (containing student names, marks, and grades).
+    3. Insert Merge Fields (`<<Name>>`, `<<Marks>>`) into the Main Document, and Finish & Merge.
+  - **Sinhala:**
+    1. ප්‍රධාන ලේඛනය (ප්‍රගති වාර්තා සැකිල්ල) සැකසීම හෝ විවෘත කිරීම.
+    2. දත්ත ප්‍රභවය (ශිෂ්‍ය නම්, ලකුණු අඩංගු ලේඛනය) තෝරා ගැනීම හෝ සැකසීම.
+    3. ප්‍රධාන ලේඛනයට ඒකාබද්ධ ක්ෂේත්‍ර (Merge Fields) ඇතුළත් කර අවසානයේ ඒකාබද්ධ කිරීම (Finish & Merge).
+  *(Award full 2 marks for any 3 ordered sequential steps matching the standard workflow).*
+
+---
 
 #### Question 09 (2024 O/L Paper I - Question 07)
 * **Year & Question No:** 2024 O/L Paper I - Question 07
@@ -341,6 +526,12 @@ Left Align (Ctrl+L)       Center Align (Ctrl+E)      Right Align (Ctrl+R)       
   (2) Ctrl + H
   (3) Ctrl + K
   (4) Ctrl + G"
+* **Model Answer & Rationale:**
+  - **Correct Answer:** **(2) Ctrl + H**
+  - **Explanation (English):** `Ctrl + H` opens the Replace tab directly. `Ctrl + F` is Find only, `Ctrl + K` is Insert Hyperlink, and `Ctrl + G` is Go To.
+  - **Explanation (Sinhala):** වචනයක් සොයා එය ප්‍රතිස්ථාපනය (Replace) කිරීම සඳහා යතුරු සංයෝජනය `Ctrl + H` වේ. `Ctrl + F` යනු සෙවීම (Find) පමණි.
+
+---
 
 #### Question 10 (2025 O/L Paper II - Question 01 (v))
 * **Year & Question No:** 2025 O/L Paper II - Question 01 (v)
@@ -348,3 +539,10 @@ Left Align (Ctrl+L)       Center Align (Ctrl+E)      Right Align (Ctrl+R)       
   "1. (v) Briefly explain the purpose of 'Main Document' and 'Data Source' in a Mail Merge process."
 * **Sinhala Medium Question:**
   "1. (v) තැපැල් ඒකාබද්ධ කිරීමේ ක්‍රියාවලියක දී 'ප්‍රධාන ලේඛනය' සහ 'දත්ත ප්‍රභවය' යන ඒවායේ අරමුණ කෙටියෙන් පැහැදිලි කරන්න."
+* **Model Answer & Marking Rubric:**
+  - **Main Document (ප්‍රධාන ලේඛනය):**
+    - *English:* Contains the core body text that remains common/identical for all recipients, along with Merge Field placeholders for variable data.
+    - *Sinhala:* සියලුම ලබන්නන් වෙත යවනු ලබන පොදු පෙළ සහ වෙනස් වන දත්ත රඳවන ඒකාබද්ධ ක්ෂේත්‍ර (Merge Fields) අඩංගු ලේඛනයයි.
+  - **Data Source (දත්ත ප්‍රභවය):**
+    - *English:* A structured table or database file containing recipient-specific variable information arranged in fields (columns) and records (rows).
+    - *Sinhala:* එක් එක් ලබන්නාට අදාළව වෙනස් වන තොරතුරු සිරස් තීරු (ක්ෂේත්‍ර) සහ තිරස් පේළි (වාර්තා) ලෙස ගබඩා කර ඇති වගුව හෝ දත්ත සමුදා ගොනුවයි.

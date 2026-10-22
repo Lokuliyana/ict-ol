@@ -1824,8 +1824,8 @@ export const LEVEL_NODES: Record<string, LevelNode> = {
         {
             "id": "c1",
             "title": {
-                "en": "Computer Booting Sequence & BIOS",
-                "si": "පරිගණකය පණගැන්වීම (Booting) සහ BIOS"
+                "en": "Computer Booting Sequence & BIOS Firmware",
+                "si": "පරිගණකය පණගැන්වීම (Booting) සහ BIOS ස්ථීරාංගය"
             },
             "bulletPoints": [
                 {
@@ -1849,8 +1849,8 @@ export const LEVEL_NODES: Record<string, LevelNode> = {
         {
             "id": "c2",
             "title": {
-                "en": "CLI vs GUI User Interfaces",
-                "si": "CLI සහ GUI අතුරුමුහුණත්"
+                "en": "CLI vs GUI & WIMP User Interfaces",
+                "si": "CLI සහ GUI (WIMP) පරිශීලක අතුරුමුහුණත්"
             },
             "bulletPoints": [
                 {
@@ -1976,8 +1976,8 @@ export const LEVEL_NODES: Record<string, LevelNode> = {
         {
             "id": "c2",
             "title": {
-                "en": "Utility Software & System Maintenance",
-                "si": "උපයෝගිතා මෘදුකාංග සහ නඩත්තුව"
+                "en": "Disk Defragmentation & Utility Software Maintenance",
+                "si": "තැටි ප්‍රතිභාගීකරණය සහ උපයෝගිතා මෘදුකාංග නඩත්තුව"
             },
             "bulletPoints": [
                 {
@@ -1992,6 +1992,31 @@ export const LEVEL_NODES: Record<string, LevelNode> = {
             "keyTakeaway": {
                 "en": "Utility programs maintain smooth system performance and safeguard security.",
                 "si": "උපයෝගිතා මෘදුකාංග පද්ධතියේ කාර්යක්ෂමතාව සහ ආරක්ෂාව තහවුරු කරයි."
+            }
+        },
+        {
+            "id": "c3",
+            "title": {
+                "en": "File Systems, Directory Hierarchy & Access Methods",
+                "si": "ගොනු පද්ධති, ධූරාවලි ගොනු මග සහ ප්‍රවේශ ක්‍රම"
+            },
+            "bulletPoints": [
+                {
+                    "en": "File Anatomy: Primary name and extension (e.g. Doc.docx) dictating associated software.",
+                    "si": "ගොනු ව්‍යුහය: මූලික නම සහ ගොනු වර්ගය හඳුනාගන්නා දිගුව (උදා: Doc.docx)."
+                },
+                {
+                    "en": "Directory Hierarchy: Tree structure rooted at drive root (e.g. C:\\) with absolute path navigation.",
+                    "si": "ධූරාවලි ව්‍යුහය: මූල බහලුම (Root C:\\) සිට ගොනුව දක්වා පිහිටීම දක්වන ගොනු මග."
+                },
+                {
+                    "en": "Access Methods: Sequential (record-by-record) vs Random/Direct (instant pointer lookup).",
+                    "si": "ප්‍රවේශ ක්‍රම: අනුක්‍රමික (අනුපිළිවෙලින්) සහ සසම්භාවී/සෘජු (ක්ෂණිකව ඕනෑම තැනකට) ප්‍රවේශය."
+                }
+            ],
+            "keyTakeaway": {
+                "en": "File systems organize secondary storage structures and control read/write record access.",
+                "si": "ගොනු පද්ධති මගින් ආචයනය තුළ දත්ත සංවිධානය සහ ප්‍රවේශය පාලනය කරයි."
             }
         }
     ],

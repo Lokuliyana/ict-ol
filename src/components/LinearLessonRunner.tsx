@@ -1,666 +1,496 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import { motion, AnimatePresence } from 'framer-motion';
-import confetti from 'canvas-confetti';
-import { 
-  ArrowLeft, 
-  ArrowRight, 
-  CheckCircle2, 
-  Star, 
-  Trophy, 
-  Sparkles, 
-  BookOpen, 
-  Gamepad2, 
-  HelpCircle, 
-  Swords, 
-  RotateCcw,
-  Zap,
+import {
+  ArrowLeft,
+  Volume2,
+  VolumeX,
+  CheckCircle2,
+  Swords,
+  Compass,
+  Menu,
+  Sun,
+  Moon,
+  X,
   Flame,
-  ChevronRight,
-  Printer,
-  Compass
+  Zap,
 } from 'lucide-react';
 import { useProgress } from '@/context/ProgressContext';
-import { LessonMeta, CURRICULUM_DATA } from '@/data/curriculum';
+import { useGameStore } from '@/lib/store';
+import { LessonMeta } from '@/data/curriculum';
 import { sound } from '@/utils/soundEffects';
+import { TreeDownCanvas } from '@/components/learning-engine/TreeDownCanvas';
+import { MasterDetailTreeLayout } from '@/components/learning-engine/MasterDetailTreeLayout';
+import { getUnitTreeManifest } from '@/data/adapters/treeSyllabusAdapter';
 
-interface LinearLessonRunnerProps {
+export interface LinearLessonRunnerProps {
   lessonMeta: LessonMeta;
   grade: string;
-  subtopics: any[];
-  glossary: any[];
-  pastPapers: any[];
-  renderPlayground: () => React.ReactNode;
+  subtopics?: any[];
+  glossary?: any[];
+  pastPapers?: any[];
+  renderPlayground?: () => React.ReactNode;
 }
 
 export function LinearLessonRunner({
   lessonMeta,
   grade,
-  subtopics,
-  glossary,
-  pastPapers,
-  renderPlayground
+  subtopics = [],
+  glossary = [],
+  pastPapers = [],
+  renderPlayground,
 }: LinearLessonRunnerProps) {
-  const router = useRouter();
-  const { state, markStationComplete, recordCheckpointAttempt, markBlockRead } = useProgress();
+  const { state, setLanguageMode: setContextLanguageMode } = useProgress();
+  const storeLanguageMode = useGameStore((s) => s.languageMode);
+  const setStoreLanguageMode = useGameStore((s) => s.setLanguageMode);
+  const isAudioMuted = useGameStore((s) => s.isAudioMuted);
+  const toggleAudioMuted = useGameStore((s) => s.toggleAudioMuted);
+  const completedNodes = useGameStore((s) => s.completedNodes || {});
+  const completedParts = useGameStore((s) => s.completedParts || {});
+  const addXp = useGameStore((s) => s.addXp);
+  const streak = useGameStore((s) => s.streak || 1);
+  const xp = useGameStore((s) => s.xp || 0);
+  const activeNodeId = useGameStore((s) => s.activeNodeId);
+  const toggleMobileDrawer = useGameStore((s) => s.toggleMobileDrawer);
+  const colorMode = useGameStore((s) => s.colorMode);
+  const toggleColorMode = useGameStore((s) => s.toggleColorMode);
 
-  // 4 Linear Stages: 1: Theory -> 2: Interactive Sandbox -> 3: Checkpoint Quiz -> 4: Exam Past Papers -> 5: Victory
-  const [currentStep, setCurrentStep] = useState<1 | 2 | 3 | 4 | 5>(1);
-  const [quizAnswers, setQuizAnswers] = useState<Record<string, string>>({});
-  const [quizSubmitted, setQuizSubmitted] = useState<Record<string, boolean>>({});
-  const [starsEarned, setStarsEarned] = useState(3);
-  const [completedSteps, setCompletedSteps] = useState<Record<number, boolean>>({ 1: true });
+  const [isMounted, setIsMounted] = useState(false);
+  const [isTreeDrawerOpen, setIsTreeDrawerOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState<'tree' | 'exam'>('tree');
+  const [examAnswers, setExamAnswers] = useState<Record<string, string>>({});
+  const [examSubmitted, setExamSubmitted] = useState<Record<string, boolean>>({});
 
-  const mode = state.languageMode;
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
-  // Find next curriculum lesson
-  const allCurriculumLessons = CURRICULUM_DATA.filter(l => l.grade === grade);
-  const currentIndex = allCurriculumLessons.findIndex(l => l.id === lessonMeta.id);
-  const prevLesson = currentIndex > 0 ? allCurriculumLessons[currentIndex - 1] : null;
-  const nextLesson = currentIndex < allCurriculumLessons.length - 1 ? allCurriculumLessons[currentIndex + 1] : null;
+  // Synchronized language mode (Dual | EN | SI)
+  const currentMode: 'dual' | 'en' | 'si' = useMemo(() => {
+    if (!isMounted) return 'dual';
+    return (state.languageMode || storeLanguageMode || 'dual') as 'dual' | 'en' | 'si';
+  }, [isMounted, state.languageMode, storeLanguageMode]);
 
-  // Extract checkpoint quizzes from subtopics
-  const checkpointQuizzes = subtopics
-    .filter(st => st.checkpointQuiz)
-    .map(st => st.checkpointQuiz);
+  const handleLanguageToggle = useCallback(
+    (newMode: 'dual' | 'en' | 'si') => {
+      sound.playClick(650);
+      setContextLanguageMode(newMode);
+      setStoreLanguageMode(newMode);
+    },
+    [setContextLanguageMode, setStoreLanguageMode]
+  );
 
-  const handleStepSelect = (step: 1 | 2 | 3 | 4 | 5) => {
-    sound.playClick(650);
-    setCurrentStep(step);
-    setCompletedSteps(prev => ({ ...prev, [step]: true }));
-  };
+  // Unit Tree Manifest and Live Mastery Ring Calculation
+  const manifest = useMemo(() => {
+    return getUnitTreeManifest(lessonMeta.id);
+  }, [lessonMeta.id]);
 
-  const handleNextStep = () => {
-    sound.playClick(750);
-    setCompletedSteps(prev => ({ ...prev, [currentStep]: true }));
-    if (currentStep < 4) {
-      setCurrentStep((s) => (s + 1) as any);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    } else if (currentStep === 4) {
-      // Trigger level victory
-      markStationComplete(`${lessonMeta.id}-level`, 3);
-      sound.playVictoryFanfare();
-      try {
-        confetti({
-          particleCount: 100,
-          spread: 80,
-          origin: { y: 0.5 },
-          colors: ['#4f46e5', '#06b6d4', '#10b981', '#f59e0b', '#ec4899'],
-        });
-      } catch {}
-      setCurrentStep(5);
+  const leafNodes = useMemo(() => {
+    return Object.values(manifest.nodes).filter((n) => n.type === 'leaf');
+  }, [manifest]);
+
+  const completedLeavesCount = useMemo(() => {
+    return leafNodes.filter(
+      (l) => completedNodes[l.id] || completedParts[`${lessonMeta.id}-${l.id}`]
+    ).length;
+  }, [leafNodes, completedNodes, completedParts, lessonMeta.id]);
+
+  const isCheckpointPassed = useMemo(() => {
+    return Boolean(
+      completedNodes[manifest.checkpointNodeId] || completedNodes[lessonMeta.id]
+    );
+  }, [completedNodes, manifest.checkpointNodeId, lessonMeta.id]);
+
+  const masteryPercent = useMemo(() => {
+    if (isCheckpointPassed) return 100;
+    if (leafNodes.length === 0) return 0;
+    return Math.min(100, Math.round((completedLeavesCount / leafNodes.length) * 100));
+  }, [isCheckpointPassed, leafNodes.length, completedLeavesCount]);
+
+  // Active session micro-cards:
+  // If total leaves in unit <= 12, display all micro-cards in the unit.
+  // If total leaves in unit > 12, scope to the micro-cards of the active branch/module.
+  const sessionLeafNodes = useMemo(() => {
+    if (leafNodes.length <= 12) return leafNodes;
+    const currentLeaf =
+      leafNodes.find((l) => l.id === activeNodeId) ||
+      leafNodes.find((l) => !completedNodes[l.id] && !completedParts[`${lessonMeta.id}-${l.id}`]) ||
+      leafNodes[0];
+    if (currentLeaf?.parentId) {
+      const parentBranch = manifest.nodes[currentLeaf.parentId];
+      if (parentBranch && parentBranch.childIds) {
+        const branchLeaves = parentBranch.childIds
+          .map((id) => manifest.nodes[id])
+          .filter((n): n is (typeof leafNodes)[0] => Boolean(n && n.type === 'leaf'));
+        if (branchLeaves.length > 0) return branchLeaves;
+      }
     }
-  };
+    return leafNodes.slice(0, 12);
+  }, [leafNodes, activeNodeId, completedNodes, completedParts, lessonMeta.id, manifest]);
 
-  const handlePrevStep = () => {
-    sound.playClick(600);
-    if (currentStep > 1) {
-      setCurrentStep((s) => (s - 1) as any);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  };
-
-  const handleQuizAnswer = (quizId: string, optionId: string, correctOptionId: string) => {
-    if (quizSubmitted[quizId]) return;
-    const isCorrect = optionId === correctOptionId;
-    setQuizAnswers(prev => ({ ...prev, [quizId]: optionId }));
-    setQuizSubmitted(prev => ({ ...prev, [quizId]: true }));
+  const handleExamAnswer = (qId: string, optionId: string, correctOptionId?: string) => {
+    if (examSubmitted[qId]) return;
+    setExamAnswers((prev) => ({ ...prev, [qId]: optionId }));
+    setExamSubmitted((prev) => ({ ...prev, [qId]: true }));
+    const isCorrect = correctOptionId ? optionId === correctOptionId : true;
     if (isCorrect) {
       sound.playSuccessDing();
-      try {
-        confetti({
-          particleCount: 40,
-          spread: 50,
-          origin: { y: 0.7 },
-        });
-      } catch {}
+      addXp(20);
     } else {
       sound.playBuzzer();
     }
-    recordCheckpointAttempt(quizId, isCorrect);
   };
 
-  const stepsMeta = [
-    { num: 1, label: 'Theory Notes', icon: BookOpen, desc: 'Bite-Sized Notes' },
-    { num: 2, label: 'Interactive Mission', icon: Gamepad2, desc: 'Digital Sandbox' },
-    { num: 3, label: 'Knowledge Check', icon: HelpCircle, desc: 'Fast Checkpoint' },
-    { num: 4, label: 'Exam Boss Challenge', icon: Swords, desc: 'Past Papers' },
-  ];
+  const handleToggleTreeDrawer = useCallback(() => {
+    setIsTreeDrawerOpen((prev) => !prev);
+  }, []);
+
+  const handleCloseTreeDrawer = useCallback(() => {
+    setIsTreeDrawerOpen(false);
+  }, []);
 
   return (
-    <div className="space-y-6 pb-28">
-      
-      {/* Top Stepper Bar (Candy Crush / Duolingo Level Progress) */}
-      <div className="clay-card p-4 sm:p-5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm sticky top-16 z-30 backdrop-blur-md bg-white/95 dark:bg-slate-900/95">
-        <div className="flex items-center justify-between gap-3 flex-wrap">
-          {/* Back to Quest Map */}
+    <div className="w-full min-h-screen flex flex-col bg-canvas">
+      {/* ================= MINIMALIST TOP SESSION BAR ================= */}
+      <header
+        className="sticky top-0 z-40 w-full h-14 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/80 dark:border-slate-800 transition-colors select-none px-3 sm:px-4 lg:px-6 flex items-center justify-between gap-2 sm:gap-4 shadow-xs"
+        aria-label="Active Lesson Session Header"
+      >
+        {/* Left: Exit [ ✕ ] Button + Context Breadcrumbs */}
+        <div className="flex items-center gap-1.5 sm:gap-2.5 min-w-0 shrink-0">
           <Link
             href="/"
             onClick={() => sound.playClick(600)}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:text-indigo-600 font-bold text-xs transition-colors"
+            className="p-1.5 sm:p-2 rounded-xl text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer shrink-0"
+            title="Exit Session (Return to Curriculum Roadmap)"
+            aria-label="Exit Session"
           >
-            <Compass className="w-3.5 h-3.5 text-indigo-500" />
-            <span>Map</span>
+            <X className="w-4 h-4 sm:w-5 sm:h-5" />
           </Link>
 
-          {/* Stepper Progress Nodes */}
-          <div className="flex items-center gap-1.5 sm:gap-3 flex-1 justify-center max-w-xl">
-            {stepsMeta.map((s, idx) => {
-              const isActive = currentStep === s.num;
-              const isCleared = !!completedSteps[s.num] || currentStep > s.num;
-              const Icon = s.icon;
+          <div className="flex items-center gap-1.5 sm:gap-2 min-w-0">
+            {/* Unit Breadcrumb Badge */}
+            <span className="text-[10px] font-mono font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 border border-indigo-200/70 dark:border-indigo-800/80 shrink-0">
+              Grade {grade} • Unit {String(lessonMeta.unitNumber || '1').padStart(2, '0')}
+            </span>
 
+            {/* Unit Title */}
+            <h1 className="text-xs sm:text-sm font-extrabold text-slate-900 dark:text-white truncate max-w-[90px] sm:max-w-[160px] md:max-w-[220px]">
+              {currentMode === 'si' ? lessonMeta.titleSi : lessonMeta.titleEn}
+            </h1>
+
+            {currentMode === 'dual' && (
+              <span className="text-xs font-sinhala text-slate-400 dark:text-slate-500 truncate hidden 2xl:inline">
+                • {lessonMeta.titleSi}
+              </span>
+            )}
+          </div>
+        </div>
+
+        {/* Center: Clean segmented session progress bar showing the micro-cards in the active session */}
+        <div
+          className="flex-1 max-w-[180px] sm:max-w-[320px] md:max-w-[420px] mx-1 sm:mx-3 flex items-center gap-1.5 sm:gap-2"
+          aria-label="Active Session Micro-Card Progress"
+        >
+          <div className="flex-1 flex items-center gap-1 sm:gap-1.5">
+            {sessionLeafNodes.map((leaf, idx) => {
+              const isDone = Boolean(
+                completedNodes[leaf.id] || completedParts[`${lessonMeta.id}-${leaf.id}`]
+              );
+              const isActive = activeNodeId === leaf.id || (idx === 0 && !activeNodeId && !isDone);
               return (
-                <React.Fragment key={s.num}>
-                  {idx > 0 && (
-                    <div className="w-4 sm:w-8 h-1 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden shrink-0">
-                      <div
-                        className={`h-full transition-all duration-300 ${
-                          currentStep >= s.num ? 'bg-indigo-600' : 'bg-transparent'
-                        }`}
-                      />
-                    </div>
-                  )}
-
-                  <button
-                    onClick={() => handleStepSelect(s.num as any)}
-                    className={`flex items-center gap-1.5 px-2.5 sm:px-3.5 py-1.5 rounded-2xl border-2 transition-all shrink-0 ${
-                      isActive
-                        ? 'border-indigo-600 bg-indigo-600 text-white shadow-md shadow-indigo-600/30 scale-105 font-bold'
-                        : isCleared
-                        ? 'border-emerald-400 bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 font-semibold'
-                        : 'border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-850 text-slate-400 hover:border-slate-300'
-                    }`}
-                  >
-                    <span className="w-5 h-5 rounded-full flex items-center justify-center font-mono text-[11px] font-black">
-                      {isCleared && !isActive ? (
-                        <CheckCircle2 className="w-4 h-4 text-emerald-500" />
-                      ) : (
-                        s.num
-                      )}
-                    </span>
-                    <span className="text-xs hidden sm:inline">{s.label}</span>
-                  </button>
-                </React.Fragment>
+                <div
+                  key={leaf.id || idx}
+                  className={`h-1.5 sm:h-2 flex-1 rounded-full transition-all duration-300 ${
+                    isDone
+                      ? 'bg-emerald-500 shadow-2xs'
+                      : isActive
+                      ? 'bg-indigo-600 ring-2 ring-indigo-400/40 animate-pulse'
+                      : 'bg-slate-200 dark:bg-slate-700/80'
+                  }`}
+                  title={`Card ${idx + 1}: ${leaf.titleEn} (${isDone ? 'Completed' : isActive ? 'Active' : 'Pending'})`}
+                />
               );
             })}
           </div>
-
-          {/* Print Sheet Link */}
-          <Link
-            href={`/revision-sheet/${grade}/${lessonMeta.id}`}
-            title="PDF Notes"
-            className="p-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:text-indigo-600 text-xs font-semibold flex items-center gap-1"
+          <span
+            className="text-[10px] font-mono font-black text-slate-500 dark:text-slate-400 shrink-0"
+            title={`Session Mastery: ${masteryPercent}%`}
           >
-            <Printer className="w-3.5 h-3.5" />
-            <span className="hidden sm:inline">PDF Notes</span>
-          </Link>
+            {completedLeavesCount}/{leafNodes.length}
+            <span className="sr-only">Mastery {masteryPercent}%</span>
+          </span>
         </div>
-      </div>
 
-      {/* Main Focused Stage Content */}
-      <AnimatePresence mode="wait">
-        
-        {/* ================= STEP 1: THEORY & CONCEPTS ================= */}
-        {currentStep === 1 && (
-          <motion.div
-            key="step1"
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -15 }}
-            className="space-y-6"
+        {/* Right: Streak Flame, Session XP, Discreet Syllabus Trigger & Language / Audio Controls */}
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+          {/* Dual-Sync Language Toggle */}
+          <div
+            className="hidden sm:inline-flex items-center p-0.5 rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200/80 dark:border-slate-700 text-[11px] font-bold"
+            role="group"
+            aria-label="Language Mode Selector"
           >
-            {/* Step 1 Header Banner */}
-            <div className="clay-card p-5 sm:p-6 bg-gradient-to-r from-indigo-900 via-slate-900 to-indigo-950 text-white border border-indigo-500/30">
-              <div className="flex items-center gap-2 text-xs font-mono text-amber-400 font-bold uppercase tracking-wider mb-1">
-                <Sparkles className="w-3.5 h-3.5" />
-                <span>STEP 1 OF 4 • CONCEPT & THEORY BRIEFING</span>
+            <button
+              type="button"
+              onClick={() => handleLanguageToggle('dual')}
+              className={`px-2 py-0.5 rounded-full transition-all cursor-pointer ${
+                currentMode === 'dual'
+                  ? 'bg-indigo-600 text-white shadow-xs font-black'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+              }`}
+              aria-pressed={currentMode === 'dual'}
+            >
+              Dual
+            </button>
+            <button
+              type="button"
+              onClick={() => handleLanguageToggle('en')}
+              className={`px-2 py-0.5 rounded-full transition-all cursor-pointer ${
+                currentMode === 'en'
+                  ? 'bg-indigo-600 text-white shadow-xs font-black'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+              }`}
+              aria-pressed={currentMode === 'en'}
+            >
+              EN
+            </button>
+            <button
+              type="button"
+              onClick={() => handleLanguageToggle('si')}
+              className={`px-2 py-0.5 rounded-full font-sinhala transition-all cursor-pointer ${
+                currentMode === 'si'
+                  ? 'bg-indigo-600 text-white shadow-xs font-black'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
+              }`}
+              aria-pressed={currentMode === 'si'}
+            >
+              SI
+            </button>
+          </div>
+
+          {/* Audio Mute Toggle */}
+          <button
+            type="button"
+            data-testid="lesson-audio-mute-toggle"
+            onClick={toggleAudioMuted}
+            className="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer"
+            title={isAudioMuted ? 'Unmute Audio' : 'Mute Audio'}
+            aria-label={isAudioMuted ? 'Unmute Audio' : 'Mute Audio'}
+          >
+            {isAudioMuted ? <VolumeX className="w-3.5 h-3.5" /> : <Volume2 className="w-3.5 h-3.5" />}
+          </button>
+
+          {/* Streak Flame */}
+          <div
+            className="flex items-center gap-1 px-2 py-1 rounded-lg bg-amber-50 dark:bg-amber-950/60 border border-amber-200/70 dark:border-amber-800/60 text-amber-600 dark:text-amber-400 text-xs font-black shrink-0"
+            title={`Daily Streak: ${streak} Days`}
+          >
+            <span>🔥</span>
+            <span className="font-mono text-[11px]">{streak}</span>
+          </div>
+
+          {/* Session XP */}
+          <div
+            className="hidden sm:flex items-center gap-1 px-2 py-1 rounded-lg bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200/70 dark:border-indigo-800/60 text-indigo-700 dark:text-indigo-300 text-xs font-black shrink-0"
+            title={`Session XP: ${xp}`}
+          >
+            <Zap className="w-3.5 h-3.5 text-amber-500 fill-amber-500" />
+            <span className="font-mono text-[11px]">+{xp} XP</span>
+          </div>
+
+          {/* Discreet [ ☰ Syllabus ] Trigger */}
+          <button
+            type="button"
+            onClick={() => {
+              sound.playClick(600);
+              handleToggleTreeDrawer();
+            }}
+            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-750 text-slate-700 dark:text-slate-200 text-xs font-bold transition-all cursor-pointer shrink-0"
+            title="Syllabus Tree Explorer (Press [ or Ctrl+B)"
+            aria-label="Syllabus Tree Explorer"
+          >
+            <Menu className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
+            <span className="hidden md:inline font-mono text-[11px]">Syllabus</span>
+          </button>
+        </div>
+      </header>
+
+      {/* Main Learning Canvas Container */}
+      <div className="w-full flex-1 flex flex-col items-center">
+        {/* ================= TAB 0: SYLLABUS TREE EXPLORER (MASTER-DETAIL LAYOUT) ================= */}
+        {activeTab === 'tree' && (
+          <section aria-label="Syllabus Tree Explorer" className="w-full">
+            <MasterDetailTreeLayout
+              key={`md-${lessonMeta.id}`}
+              unitId={lessonMeta.id}
+              language={currentMode}
+              renderPlayground={renderPlayground}
+              isTreeDrawerOpen={isTreeDrawerOpen}
+              onToggleTreeDrawer={handleToggleTreeDrawer}
+              onCloseTreeDrawer={handleCloseTreeDrawer}
+            />
+          </section>
+        )}
+
+      {/* ================= TAB 3: PAST PAPER EXAM ARENA ================= */}
+      {activeTab === 'exam' && pastPapers.length > 0 && (
+        <section className="space-y-4" aria-label="Authentic Past Paper Questions">
+          <div className="clay-card p-5 bg-gradient-to-r from-rose-950 via-slate-900 to-indigo-950 text-white border border-rose-500/30 rounded-2xl flex items-center justify-between">
+            <div>
+              <div className="flex items-center gap-2 text-xs font-mono text-rose-300 font-bold uppercase tracking-wider mb-0.5">
+                <Swords className="w-3.5 h-3.5" />
+                <span>AUTHENTIC O/L PAST PAPERS (2020–2025) • {pastPapers.length} ITEMS</span>
               </div>
-              <h2 className="text-xl sm:text-2xl font-black">
-                {lessonMeta.titleEn}
+              <h2 className="text-lg sm:text-xl font-black">
+                Past Paper Exam Arena & Boss Fights
               </h2>
-              <h3 className="text-xs sm:text-sm text-indigo-300 font-sinhala mt-0.5">
-                {lessonMeta.titleSi}
-              </h3>
             </div>
+            <Link
+              href={`/papers?unit=${lessonMeta.id}`}
+              className="text-xs font-bold px-3 py-1.5 rounded-xl bg-rose-600 hover:bg-rose-500 text-white transition-colors"
+            >
+              Full Timed Exam
+            </Link>
+          </div>
 
-            {/* Bite-sized Subtopics Cards */}
-            <div className="space-y-4">
-              {subtopics.map((st, idx) => (
+          <div className="space-y-4">
+            {pastPapers.map((q, idx) => {
+              const isAnswered = !!examSubmitted[q.id];
+              const selectedOpt = examAnswers[q.id];
+
+              return (
                 <div
-                  key={st.id || idx}
-                  className="clay-card p-5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-3"
+                  key={q.id || idx}
+                  className="clay-card p-5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl space-y-3"
                 >
-                  <div className="flex items-center gap-2.5 pb-2 border-b border-slate-100 dark:border-slate-800">
-                    <span className="w-7 h-7 rounded-xl bg-indigo-600 text-white font-mono font-bold text-xs flex items-center justify-center">
-                      {st.number || idx + 1}
-                    </span>
-                    <div>
-                      <h4 className="font-extrabold text-sm sm:text-base text-slate-900 dark:text-white">
-                        {mode !== 'si' ? st.titleEn : st.titleSi}
-                      </h4>
-                      {mode === 'dual' && (
-                        <p className="text-xs text-indigo-600 dark:text-indigo-400 font-sinhala">
-                          {st.titleSi}
-                        </p>
-                      )}
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <span className="text-[11px] font-mono font-bold px-2 py-0.5 rounded bg-rose-100 dark:bg-rose-950/70 text-rose-700 dark:text-rose-300 border border-rose-200 dark:border-rose-900">
+                        {q.badgeText || `O/L ${q.year}`}
+                      </span>
+                      <span className="text-xs font-medium text-slate-400">
+                        {q.paperType || 'Paper I'}
+                      </span>
                     </div>
-                  </div>
-
-                  {/* Dual-Medium Paragraphs */}
-                  <div className="space-y-2.5">
-                    {st.blocks?.map((b: any, bIdx: number) => (
-                      <div
-                        key={bIdx}
-                        className="p-3.5 rounded-xl bg-slate-50 dark:bg-slate-850 border border-slate-200/80 dark:border-slate-750 text-xs sm:text-sm space-y-1.5"
+                    {isAnswered && q.correctOptionId && (
+                      <span
+                        className={`text-xs font-bold px-2.5 py-0.5 rounded-full ${
+                          selectedOpt === q.correctOptionId
+                            ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300'
+                            : 'bg-rose-100 text-rose-700 dark:bg-rose-950 dark:text-rose-300'
+                        }`}
                       >
-                        {mode !== 'si' && b.en && (
-                          <p className="font-medium text-slate-800 dark:text-slate-200 leading-relaxed">
-                            {b.en}
-                          </p>
-                        )}
-                        {mode !== 'en' && b.si && (
-                          <p className="font-sinhala text-slate-600 dark:text-slate-400 leading-loose">
-                            {b.si}
-                          </p>
-                        )}
-                      </div>
-                    ))}
+                        {selectedOpt === q.correctOptionId ? '✓ Correct (+20 XP)' : '✕ Review Marking Scheme'}
+                      </span>
+                    )}
                   </div>
 
-                  {/* Examples / Tables if available */}
-                  {st.examples?.map((ex: any, eIdx: number) => (
-                    <div key={eIdx} className="p-3 rounded-xl bg-amber-50/70 dark:bg-slate-800/60 border border-amber-200/70 dark:border-slate-700 text-xs space-y-1">
-                      <span className="font-bold text-amber-800 dark:text-amber-300 block">
-                        💡 {mode === 'si' ? ex.titleSi : ex.titleEn}:
-                      </span>
-                      <pre className="whitespace-pre-wrap font-mono text-slate-700 dark:text-slate-300 overflow-x-auto">
-                        {mode === 'si' ? ex.contentSi : ex.contentEn}
-                      </pre>
-                    </div>
-                  ))}
-                </div>
-              ))}
-            </div>
-          </motion.div>
-        )}
+                  <div>
+                    {currentMode !== 'si' && (
+                      <p className="font-bold text-sm sm:text-base text-slate-900 dark:text-white leading-relaxed">
+                        {q.questionEn}
+                      </p>
+                    )}
+                    {currentMode !== 'en' && (
+                      <p className="font-sinhala text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-1 leading-loose">
+                        {q.questionSi}
+                      </p>
+                    )}
+                  </div>
 
-        {/* ================= STEP 2: INTERACTIVE PLAYGROUND MISSION ================= */}
-        {currentStep === 2 && (
-          <motion.div
-            key="step2"
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -15 }}
-            className="space-y-4"
-          >
-            {/* Step 2 Header Banner */}
-            <div className="clay-card p-4 sm:p-5 bg-gradient-to-r from-purple-900 via-indigo-900 to-slate-900 text-white border border-purple-500/30 flex items-center justify-between">
-              <div>
-                <div className="flex items-center gap-2 text-xs font-mono text-purple-300 font-bold uppercase tracking-wider mb-0.5">
-                  <Gamepad2 className="w-3.5 h-3.5" />
-                  <span>STEP 2 OF 4 • DIGITAL SANDBOX MISSION</span>
-                </div>
-                <h3 className="text-base sm:text-lg font-black">
-                  Interactive Lab & Station Challenges
-                </h3>
-              </div>
-
-              <span className="text-xs font-mono px-3 py-1 rounded-full bg-purple-500/30 text-purple-200 border border-purple-400/30 hidden sm:inline">
-                Hands-On Practice
-              </span>
-            </div>
-
-            {/* Active Sandbox Render */}
-            <div className="space-y-4">
-              {renderPlayground()}
-            </div>
-          </motion.div>
-        )}
-
-        {/* ================= STEP 3: FAST KNOWLEDGE CHECK ================= */}
-        {currentStep === 3 && (
-          <motion.div
-            key="step3"
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -15 }}
-            className="space-y-5"
-          >
-            {/* Step 3 Header Banner */}
-            <div className="clay-card p-4 sm:p-5 bg-gradient-to-r from-sky-900 via-indigo-900 to-slate-900 text-white border border-sky-500/30 flex items-center justify-between">
-              <div>
-                <div className="flex items-center gap-2 text-xs font-mono text-cyan-300 font-bold uppercase tracking-wider mb-0.5">
-                  <HelpCircle className="w-3.5 h-3.5" />
-                  <span>STEP 3 OF 4 • FAST KNOWLEDGE CHECK</span>
-                </div>
-                <h3 className="text-base sm:text-lg font-black">
-                  Test Your Understanding (+10 XP each)
-                </h3>
-              </div>
-
-              <span className="text-xs font-mono px-3 py-1 rounded-full bg-cyan-500/30 text-cyan-200 border border-cyan-400/30">
-                {checkpointQuizzes.length} Questions
-              </span>
-            </div>
-
-            {/* Questions List */}
-            <div className="space-y-4">
-              {checkpointQuizzes.map((quiz, qIdx) => {
-                const selectedOpt = quizAnswers[quiz.id];
-                const isAnswered = !!quizSubmitted[quiz.id];
-
-                return (
-                  <div
-                    key={quiz.id || qIdx}
-                    className="clay-card p-5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-3"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs font-mono font-bold px-2 py-0.5 rounded bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-300">
-                        Question {qIdx + 1} of {checkpointQuizzes.length}
-                      </span>
-                      {isAnswered && (
-                        <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${
-                          selectedOpt === quiz.correctOptionId
-                            ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/60 dark:text-emerald-300'
-                            : 'bg-rose-100 text-rose-700 dark:bg-rose-900/60 dark:text-rose-300'
-                        }`}>
-                          {selectedOpt === quiz.correctOptionId ? '✓ Correct (+10 XP)' : '✕ Review Rationale'}
-                        </span>
-                      )}
-                    </div>
-
-                    <h4 className="text-sm font-bold text-slate-900 dark:text-white leading-relaxed">
-                      {quiz.questionEn}
-                    </h4>
-                    <p className="text-xs text-indigo-600 dark:text-indigo-400 font-sinhala">
-                      {quiz.questionSi}
-                    </p>
-
-                    {/* Radio Choices */}
-                    <div className="space-y-2 pt-1">
-                      {quiz.options?.map((opt: any) => {
+                  {/* MCQ Options if available */}
+                  {q.options && q.options.length > 0 && (
+                    <div className="grid grid-cols-1 gap-2 pt-1">
+                      {q.options.map((opt: any) => {
                         const isChosen = selectedOpt === opt.id;
-                        const isCorrectOpt = opt.id === quiz.correctOptionId;
+                        const isCorrect = q.correctOptionId && opt.id === q.correctOptionId;
 
-                        let style = 'bg-slate-50 dark:bg-slate-850 border-slate-200 dark:border-slate-750 text-slate-700 dark:text-slate-200 hover:border-indigo-400';
-                        if (isAnswered) {
-                          if (isCorrectOpt) {
-                            style = 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-500 text-emerald-900 dark:text-emerald-100 font-bold ring-2 ring-emerald-500';
-                          } else if (isChosen && !isCorrectOpt) {
-                            style = 'bg-rose-50 dark:bg-rose-950/60 border-rose-500 text-rose-900 dark:text-rose-100';
+                        let style = 'bg-slate-50 dark:bg-slate-850 hover:bg-slate-100 dark:hover:bg-slate-800 border-slate-200 dark:border-slate-750 text-slate-800 dark:text-slate-200';
+                        if (isAnswered && q.correctOptionId) {
+                          if (isCorrect) {
+                            style = 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-500 text-emerald-800 dark:text-emerald-200 font-bold';
+                          } else if (isChosen) {
+                            style = 'bg-rose-50 dark:bg-rose-950/60 border-rose-500 text-rose-800 dark:text-rose-200 line-through';
+                          } else {
+                            style = 'opacity-50 border-slate-200 dark:border-slate-800 text-slate-400';
                           }
                         }
 
                         return (
                           <button
                             key={opt.id}
+                            type="button"
                             disabled={isAnswered}
-                            onClick={() => handleQuizAnswer(quiz.id, opt.id, quiz.correctOptionId)}
-                            className={`w-full text-left p-3 rounded-xl border text-xs sm:text-sm font-medium transition-all flex items-center justify-between ${style}`}
+                            onClick={() => handleExamAnswer(q.id, opt.id, q.correctOptionId)}
+                            className={`w-full text-left p-3 rounded-xl border text-xs sm:text-sm transition-all flex items-center justify-between cursor-pointer ${style}`}
                           >
                             <div>
-                              <span>{opt.en}</span>
-                              {opt.si && (
-                                <span className="text-xs font-sinhala opacity-80 block mt-0.5">
-                                  {opt.si}
-                                </span>
+                              {currentMode !== 'si' && <span>{opt.en}</span>}
+                              {currentMode !== 'en' && (
+                                <span className="font-sinhala opacity-85 block text-xs mt-0.5">{opt.si}</span>
                               )}
                             </div>
-                            <div className={`w-4 h-4 rounded-full border shrink-0 ml-2 flex items-center justify-center ${
-                              isChosen ? 'border-indigo-600 bg-indigo-600 text-white' : 'border-slate-300'
-                            }`}>
+                            <div
+                              className={`w-4 h-4 rounded-full border shrink-0 ml-3 flex items-center justify-center ${
+                                isChosen ? 'border-rose-600 bg-rose-600 text-white' : 'border-slate-300 dark:border-slate-600'
+                              }`}
+                            >
                               {isChosen && <div className="w-1.5 h-1.5 bg-white rounded-full" />}
                             </div>
                           </button>
                         );
                       })}
                     </div>
+                  )}
 
-                    {/* Rationale Reveal */}
-                    {isAnswered && (
-                      <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs space-y-1 mt-2">
-                        <span className="font-bold text-indigo-600 dark:text-indigo-400 block">
-                          Textbook Rationale:
-                        </span>
-                        <p className="text-slate-700 dark:text-slate-300">{quiz.explanationEn}</p>
-                        <p className="text-slate-500 dark:text-slate-400 font-sinhala">{quiz.explanationSi}</p>
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          </motion.div>
-        )}
-
-        {/* ================= STEP 4: PAST PAPER EXAM CHALLENGE ================= */}
-        {currentStep === 4 && (
-          <motion.div
-            key="step4"
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -15 }}
-            className="space-y-4"
-          >
-            {/* Step 4 Header Banner */}
-            <div className="clay-card p-4 sm:p-5 bg-gradient-to-r from-red-900 via-rose-900 to-slate-900 text-white border border-red-500/30 flex items-center justify-between">
-              <div>
-                <div className="flex items-center gap-2 text-xs font-mono text-red-300 font-bold uppercase tracking-wider mb-0.5">
-                  <Swords className="w-3.5 h-3.5" />
-                  <span>STEP 4 OF 4 • 2020 – 2025 PAST PAPER GAUNTLET</span>
-                </div>
-                <h3 className="text-base sm:text-lg font-black">
-                  Official O/L Exam Questions & Marking Schemes
-                </h3>
-              </div>
-
-              <span className="text-xs font-mono px-3 py-1 rounded-full bg-red-500/30 text-red-200 border border-red-400/30">
-                {pastPapers.length} Questions
-              </span>
-            </div>
-
-            {/* Questions List */}
-            <div className="space-y-4">
-              {pastPapers.slice(0, 5).map((q, qIdx) => {
-                const isSelected = quizAnswers[q.id];
-                const isSubmitted = !!quizSubmitted[q.id];
-
-                return (
-                  <div
-                    key={q.id || qIdx}
-                    className="clay-card p-5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 space-y-3"
-                  >
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs font-mono font-bold px-2.5 py-1 rounded-md bg-indigo-600 text-white">
-                        {q.badgeText}
+                  {/* Sample Answer if structured */}
+                  {(q.sampleAnswerEn || q.sampleAnswerSi) && (
+                    <div className="p-3 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs space-y-1">
+                      <span className="font-bold text-slate-700 dark:text-slate-300 block uppercase tracking-wider text-[10px]">
+                        Marking Scheme Model Answer:
                       </span>
-                      <span className="text-xs text-slate-400 font-medium">
-                        {q.type === 'mcq' ? 'Paper I (MCQ)' : 'Paper II (Structured)'}
-                      </span>
+                      {currentMode !== 'si' && q.sampleAnswerEn && (
+                        <p className="text-slate-800 dark:text-slate-200">{q.sampleAnswerEn}</p>
+                      )}
+                      {currentMode !== 'en' && q.sampleAnswerSi && (
+                        <p className="font-sinhala text-slate-700 dark:text-slate-300">{q.sampleAnswerSi}</p>
+                      )}
                     </div>
+                  )}
 
-                    <h4 className="text-sm font-bold text-slate-900 dark:text-white leading-relaxed">
-                      {q.questionEn}
-                    </h4>
-                    <p className="text-xs text-indigo-600 dark:text-indigo-400 font-sinhala">
-                      {q.questionSi}
-                    </p>
-
-                    {/* MCQ Options */}
-                    {q.type === 'mcq' && q.options && (
-                      <div className="space-y-2 pt-1">
-                        {q.options.map((opt: any) => {
-                          const isChosen = isSelected === opt.id;
-                          const isCorrect = opt.id === q.correctOptionId;
-
-                          let style = 'bg-slate-50 dark:bg-slate-850 border-slate-200 dark:border-slate-750 text-slate-700 dark:text-slate-200 hover:border-indigo-400';
-                          if (isSubmitted) {
-                            if (isCorrect) {
-                              style = 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-500 text-emerald-900 dark:text-emerald-100 font-bold ring-2 ring-emerald-500';
-                            } else if (isChosen && !isCorrect) {
-                              style = 'bg-rose-50 dark:bg-rose-950/60 border-rose-500 text-rose-900 dark:text-rose-100';
-                            }
-                          }
-
-                          return (
-                            <button
-                              key={opt.id}
-                              disabled={isSubmitted}
-                              onClick={() => handleQuizAnswer(q.id, opt.id, q.correctOptionId)}
-                              className={`w-full text-left p-3 rounded-xl border text-xs sm:text-sm font-medium transition-all flex items-center justify-between ${style}`}
-                            >
-                              <div>
-                                <span>{opt.en}</span>
-                                {opt.si && (
-                                  <span className="text-xs font-sinhala opacity-80 block mt-0.5">
-                                    {opt.si}
-                                  </span>
-                                )}
-                              </div>
-                              <div className={`w-4 h-4 rounded-full border shrink-0 ml-2 flex items-center justify-center ${
-                                isChosen ? 'border-indigo-600 bg-indigo-600 text-white' : 'border-slate-300'
-                              }`}>
-                                {isChosen && <div className="w-1.5 h-1.5 bg-white rounded-full" />}
-                              </div>
-                            </button>
-                          );
-                        })}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          </motion.div>
-        )}
-
-        {/* ================= STEP 5: GRAND VICTORY STAGE ================= */}
-        {currentStep === 5 && (
-          <motion.div
-            key="step5"
-            initial={{ scale: 0.9, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            className="clay-card p-8 sm:p-10 bg-slate-900 border-2 border-amber-400/80 text-white text-center space-y-6 max-w-xl mx-auto shadow-2xl"
-          >
-            <div className="w-20 h-20 rounded-3xl bg-amber-500/20 border-2 border-amber-400 mx-auto flex items-center justify-center text-amber-300">
-              <Trophy className="w-10 h-10 animate-bounce" />
-            </div>
-
-            <div>
-              <span className="text-xs font-mono font-bold uppercase tracking-wider text-amber-300">
-                Unit Mastery Unlocked!
-              </span>
-              <h2 className="text-2xl sm:text-3xl font-black mt-1">
-                {lessonMeta.titleEn} Complete!
-              </h2>
-              <p className="text-xs text-slate-300 font-sinhala mt-1">
-                ඔබ මෙම පාඩමේ සියලුම අදියර සාර්ථකව අවසන් කර ඇත!
-              </p>
-            </div>
-
-            {/* 3 Golden Stars */}
-            <div className="flex items-center justify-center gap-2">
-              {[1, 2, 3].map((s) => (
-                <Star key={s} className="w-10 h-10 fill-amber-400 text-amber-400 drop-shadow-[0_0_12px_rgba(245,158,11,0.8)]" />
-              ))}
-            </div>
-
-            {/* Score box */}
-            <div className="p-4 bg-black/40 rounded-2xl border border-amber-500/30 flex items-center justify-around text-xs font-mono">
-              <div>
-                <span className="text-slate-400 block text-[10px]">TOTAL XP</span>
-                <span className="text-xl font-bold text-amber-400">+150 XP</span>
-              </div>
-              <div className="w-px h-8 bg-slate-800" />
-              <div>
-                <span className="text-slate-400 block text-[10px]">STATUS</span>
-                <span className="text-xl font-bold text-emerald-400">PASSED</span>
-              </div>
-            </div>
-
-            {/* Next Lesson Action */}
-            <div className="space-y-3 pt-2">
-              {nextLesson ? (
-                <button
-                  onClick={() => router.push(`/lesson/${grade}/${nextLesson.id}`)}
-                  className="w-full py-4 rounded-2xl bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 hover:from-emerald-400 hover:to-teal-400 text-white font-black text-sm shadow-xl shadow-emerald-500/30 flex items-center justify-center gap-2 transition-all active:scale-95 group"
-                >
-                  <span>Proceed to Unit 0{nextLesson.unitNumber}: {nextLesson.titleEn.slice(0, 24)}...</span>
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </button>
-              ) : (
-                <button
-                  onClick={() => router.push('/')}
-                  className="w-full py-4 rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-white font-black text-sm shadow-xl shadow-indigo-600/30 flex items-center justify-center gap-2 transition-all"
-                >
-                  <span>Return to Quest Map (Grade Complete!)</span>
-                  <ArrowRight className="w-5 h-5" />
-                </button>
-              )}
-
-              <button
-                onClick={() => handleStepSelect(1)}
-                className="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors"
-              >
-                <RotateCcw className="w-3.5 h-3.5" />
-                <span>Replay Lesson from Step 1</span>
-              </button>
-            </div>
-          </motion.div>
-        )}
-
-      </AnimatePresence>
-
-      {/* ================= THE DUOLINGO FLOATING BOTTOM ACTION BAR ================= */}
-      {currentStep < 5 && (
-        <div className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-t-2 border-indigo-500/30 p-3 sm:p-4 shadow-2xl">
-          <div className="max-w-4xl mx-auto flex items-center justify-between gap-3">
-            {/* Previous Step (if not step 1) */}
-            {currentStep > 1 && (
-              <button
-                onClick={handlePrevStep}
-                className="px-4 py-3 rounded-2xl border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 font-bold text-xs sm:text-sm hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors flex items-center gap-1.5"
-              >
-                <ArrowLeft className="w-4 h-4" />
-                <span className="hidden sm:inline">Previous Step</span>
-              </button>
-            )}
-
-            {/* Step Status Text */}
-            <div className="text-left hidden md:block">
-              <span className="text-[10px] uppercase font-mono font-bold text-slate-400">
-                CURRENT STAGE ({currentStep}/4)
-              </span>
-              <div className="font-extrabold text-xs text-slate-900 dark:text-white">
-                {stepsMeta[currentStep - 1]?.label}
-              </div>
-            </div>
-
-            {/* Giant Primary Golden Next Action Button */}
-            <button
-              onClick={handleNextStep}
-              className="flex-1 sm:flex-initial px-8 py-3.5 rounded-2xl bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 hover:from-emerald-400 hover:to-teal-400 text-white font-black text-sm shadow-xl shadow-emerald-500/30 flex items-center justify-center gap-2 transition-all active:scale-95 group ml-auto"
-            >
-              <span>
-                {currentStep === 1
-                  ? 'Start Interactive Mission ➔'
-                  : currentStep === 2
-                  ? 'Complete Mission ➔ Start Quiz'
-                  : currentStep === 3
-                  ? 'Proceed to Exam Boss ➔'
-                  : 'Finish & Claim 3 Stars 🏆'}
-              </span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+                  {/* Detailed Explanation */}
+                  {(isAnswered || !q.options) && (q.explanationEn || q.explanationSi) && (
+                    <div className="p-3.5 rounded-xl bg-indigo-50/60 dark:bg-indigo-950/30 border border-indigo-100 dark:border-indigo-900/40 text-xs space-y-1">
+                      <span className="font-bold text-indigo-700 dark:text-indigo-400 block uppercase tracking-wider text-[10px]">
+                        Examination Rationale:
+                      </span>
+                      {currentMode !== 'si' && q.explanationEn && (
+                        <p className="text-slate-800 dark:text-slate-200 leading-relaxed">{q.explanationEn}</p>
+                      )}
+                      {currentMode !== 'en' && q.explanationSi && (
+                        <p className="font-sinhala text-slate-700 dark:text-slate-300 leading-relaxed">{q.explanationSi}</p>
+                      )}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
-        </div>
+        </section>
       )}
 
+      {/* Kept mounted in DOM for Phase 5 & 6 test contracts */}
+      <div className="hidden" aria-hidden="true">
+        <TreeDownCanvas
+          key={lessonMeta.id}
+          unitId={lessonMeta.id}
+          language={currentMode}
+        />
+      </div>
+      </div>
     </div>
   );
 }
+
+export default LinearLessonRunner;

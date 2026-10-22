@@ -812,7 +812,7 @@ export function QuestMap() {
         onReviewFlashcards={() => {
           setIsDepletedModalOpen(false);
           if (selectedNode) {
-            window.location.href = `/study/${selectedNode.id}`;
+            window.location.href = `/lesson/${grade}/${selectedNode.unitId}`;
           }
         }}
         onClose={() => setIsDepletedModalOpen(false)}

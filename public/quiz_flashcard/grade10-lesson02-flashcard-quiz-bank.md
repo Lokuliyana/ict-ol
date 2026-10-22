@@ -1,1244 +1,1260 @@
-# Grade 10 ICT - Lesson 02: Dual-Language Quiz & Flashcard Bank (60+ Items)
-# (පරිගණක ගෘහනිර්මාණ ශිල්පය සහ තර්ක ද්වාර / Computer Architecture, Number Systems & Logic Gates)
+# Grade 10 ICT - Lesson 02: Master Dual-Language Flashcard & Quiz Bank (62 Questions)
+### පාඩම 02: පරිගණක පද්ධතිය සහ පද්ධති සංරචක (The Computer System & System Components)
 
-> **How to use as Flashcards:**
-> - **Front of Card:** Read the Question (English & Sinhala) and Options (A, B, C, D).
-> - **Back of Card:** Flip to view the **Correct Answer** and detailed **Dual-Language Explanation**.
-
----
-
-## SECTION 1: Computer Architecture & Von Neumann Model (Q01 – Q15)
-
-### Question 01
-* **English:** Which component of the CPU directs and coordinates all operations within the computer system by decoding instructions?
-* **Sinhala:** උපදෙස් විකේතනය කරමින් පරිගණක පද්ධතිය තුළ ඇති සියලුම මෙහෙයුම් මෙහෙයවන සහ සම්බන්ධීකරණය කරන CPU හි සංරචකය කුමක්ද?
-* **Options:**
-  - (A) Arithmetic Logic Unit (ALU) / අංකගණිත හා තර්කන ඒකකය
-  - (B) Control Unit (CU) / පාලන ඒකකය
-  - (C) Main Memory / ප්‍රධාන මතකය
-  - (D) Accumulator / ඇකියුමිලේටරය
-
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
-
-* **Correct Answer:** **(B) Control Unit (CU) / පාලන ඒකකය**
-* **Explanation (විස්තරය):**
-  - **[English]:** The Control Unit (CU) acts as the "brain manager" of the CPU. It fetches instructions from RAM, decodes them, and sends control signals to other units (ALU, Memory, I/O) to coordinate execution.
-  - **[Sinhala]:** පාලන ඒකකය (CU) මගින් ප්‍රධාන මතකයෙන් ලබා ගන්නා උපදෙස් විකේතනය (Decode) කර, ඒවා ක්‍රියාත්මක කිරීම සඳහා පරිගණකයේ අනෙකුත් කොටස් වෙත පාලන සංඥා (Control signals) නිකුත් කරයි.
-</details>
+> **How to use this document:** 
+> - **As a Quiz:** Cover the "Correct Answer" and "Explanation" sections to test your knowledge against the multiple-choice options.
+> - **As Flashcards:** Use the **Question** as the **Front of the Card** and the **Explanation & Answer** as the **Back of the Card**.
 
 ---
 
-### Question 02
-* **English:** Which CPU register holds the memory address of the next instruction to be fetched from RAM?
-* **Sinhala:** RAM මතකයෙන් ඊළඟට ලබා ගත යුතු උපදෙසෙහි මතක ලිපිනය තබා ගන්නා CPU රෙජිස්තරය කුමක්ද?
-* **Options:**
-  - (A) Memory Data Register (MDR)
-  - (B) Program Counter (PC)
-  - (C) Accumulator (ACC)
-  - (D) Instruction Register (IR)
+## TIER 1: Knowledge, Recall & Vocabulary (ප්‍රශ්න 01 – 25: මූලික දැනුම සහ වචන මාලාව)
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+### 🎴 Question / Flashcard #01
+**Question / ප්‍රශ්නය:**
+What is the fundamental technical definition of a 'Computer' in ICT?
+තොරතුරු හා සන්නිවේදන තාක්ෂණයේදී 'පරිගණකය' (Computer) යන්නෙහි මූලික තාක්ෂණික අර්ථ දැක්වීම කුමක්ද?
 
-* **Correct Answer:** **(B) Program Counter (PC) / ක්‍රමලේඛ ගණකය**
-* **Explanation (විස්තරය):**
-  - **[English]:** The Program Counter (PC) constantly holds the memory address of the next instruction to be executed. After an instruction is fetched, the PC automatically increments to point to the subsequent address.
-  - **[Sinhala]:** ක්‍රමලේඛ ගණකය (Program Counter - PC) මගින් මීළඟට ක්‍රියාත්මක කිරීමට ඇති උපදෙසෙහි මතක ලිපිනය (Memory Address) සටහන් කර ගනී. උපදෙසක් ලබා ගත් පසු මෙය ස්වයංක්‍රීයව එකකින් වැඩි වේ.
-</details>
+- (A) A mechanical calculator that solves equations / සමීකරණ විසඳන යාන්ත්‍රික ගණකයක්
+- (B) An electronic device that inputs, processes, stores data, and outputs information / දත්ත ආදානය කර, සකසා, ආචයනය කර තොරතුරු ප්‍රතිදානය කරන ඉලෙක්ට්‍රොනික උපාංගයක්
+- (C) A display screen connected to an electrical network / විදුලි ජාලයකට සම්බන්ධ කළ දර්ශන තිරයක්
+- (D) An automated device that only performs arithmetic calculations / අංක ගණිතමය ගණනය කිරීම් පමණක් සිදු කරන ස්වයංක්‍රීය උපාංගයක්
 
----
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
 
-### Question 03
-* **English:** What is the correct execution order of the CPU Machine Cycle?
-* **Sinhala:** CPU යන්ත්‍ර චක්‍රයේ (Machine Cycle) නිවැරදි ක්‍රියාත්මක වීමේ අනුපිළිවෙල කුමක්ද?
-* **Options:**
-  - (A) Decode -> Fetch -> Execute -> Store
-  - (B) Fetch -> Decode -> Execute -> Store
-  - (C) Execute -> Fetch -> Decode -> Store
-  - (D) Fetch -> Execute -> Decode -> Store
-
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
-
-* **Correct Answer:** **(B) Fetch -> Decode -> Execute -> Store**
-* **Explanation (විස්තරය):**
-  - **[English]:** The CPU Machine Cycle follows a strict 4-step sequence: 1. **Fetch** (get instruction from RAM), 2. **Decode** (CU interprets instruction), 3. **Execute** (ALU/CU performs operation), 4. **Store** (write result back to register/memory).
-  - **[Sinhala]:** යන්ත්‍ර චක්‍රයේ පියවර 4 කි: 1. **ලබා ගැනීම (Fetch)**, 2. **විකේතනය (Decode)**, 3. **ක්‍රියාත්මක කිරීම (Execute)**, 4. **තැන්පත් කිරීම (Store)**.
-</details>
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** A computer is an electronic device that accepts raw data as input, processes it according to stored instructions, stores data and results, and produces desired meaningful information as output.
+* **සිංහල:** පරිගණකය යනු දත්ත ආදානය කරගෙන, ගබඩා කර ඇති උපදෙස් අනුව ඒවා සකස් කර, දත්ත හා ප්‍රතිඵල ගබඩා කරමින් අවශ්‍ය තොරතුරු ප්‍රතිදානය කරන ඉලෙක්ට්‍රොනික උපාංගයකි.
 
 ---
 
-### Question 04
-* **English:** Which special high-speed storage location inside the CPU holds the immediate intermediate result of arithmetic operations performed by the ALU?
-* **Sinhala:** ALU මගින් සිදුකරන අංකගණිත ගණනය කිරීම්වල ආසන්න නැතහොත් තාවකාලික පිළිතුර තබා ගන්නා CPU අභ්‍යන්තරයේ ඇති රෙජිස්තරය කුමක්ද?
-* **Options:**
-  - (A) Memory Address Register (MAR)
-  - (B) Instruction Register (IR)
-  - (C) Accumulator (ACC)
-  - (D) Stack Pointer (SP)
+### 🎴 Question / Flashcard #02
+**Question / ප්‍රශ්නය:**
+What are the four fundamental functions performed by any computer system?
+ඕනෑම පරිගණක පද්ධතියක් මඟින් ඉටු කරනු ලබන මූලික කාර්යයන් 4 කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Typing, Printing, Scanning, Displaying / යතුරු ලියනය, මුද්‍රණය, ස්කෑන් කිරීම, දර්ශනය
+- (B) Input, Processing, Storage, Output / ආදානය, සැකසීම, ආචයනය, ප්‍රතිදානය
+- (C) Fetching, Decoding, Compiling, Running / ලබා ගැනීම, විකේතනය, සම්පාදනය, ධාවනය
+- (D) Calculating, Graphing, Networking, Browsing / ගණනය, ප්‍රස්තාරගත කිරීම, ජාලකරණය, ගවේෂණය
 
-* **Correct Answer:** **(C) Accumulator (ACC) / ඇකියුමිලේටරය**
-* **Explanation (විස්තරය):**
-  - **[English]:** The Accumulator (ACC) is a dedicated CPU register that temporarily holds the output/result generated by the Arithmetic Logic Unit (ALU) during mathematical and logical computations.
-  - **[Sinhala]:** ඇකියුමිලේටරය (Accumulator - ACC) යනු ALU මගින් සිදුකරනු ලබන ගණිතමය සහ තර්කන මෙහෙයුම්වලින් ලැබෙන ක්ෂණික පිළිතුර තාවකාලිකව තබා ගන්නා රෙජිස්තරයයි.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Every computer system executes four core functions: 1. Input (accepting data), 2. Processing (manipulating data via CPU), 3. Storage (holding data in memory/disk), 4. Output (delivering results).
+* **සිංහල:** පරිගණක පද්ධතියක මූලික කාර්යයන් 4 කි: 1. ආදානය (දත්ත ලබා ගැනීම), 2. සැකසීම (CPU මඟින් සකස් කිරීම), 3. ආචයනය (දත්ත සුරැකීම), 4. ප්‍රතිදානය (තොරතුරු ලබා දීම).
 
 ---
 
-### Question 05
-* **English:** Which system bus in a computer architecture is unidirectionally used by the CPU to specify physical memory locations?
-* **Sinhala:** පරිගණකයක භෞතික මතක ස්ථාන නිශ්චිතව පෙන්වා දීම සඳහා CPU මගින් පමණක් ඒක-දිශානතිකව (Unidirectional) භාවිත වන පද්ධති බසය කුමක්ද?
-* **Options:**
-  - (A) Data Bus / දත්ත බසය
-  - (B) Address Bus / ලිපින බසය
-  - (C) Control Bus / පාලන බසය
-  - (D) Power Bus / විදුලි බසය
+### 🎴 Question / Flashcard #03
+**Question / ප්‍රශ්නය:**
+Which characteristic of a computer highlights its ability to execute millions of instructions in fractions of a second?
+තත්පරයකින් ඉතා සුළු කොටසකදී උපදෙස් මිලියන ගණනක් ක්‍රියාත්මක කිරීමට පරිගණකයට ඇති හැකියාව විස්තර කරන ලක්ෂණය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Versatility / බහුකාර්ය බව
+- (B) Accuracy / නිරවද්‍යතාව
+- (C) Speed / වේගය
+- (D) Diligence / නොපසුබට බව
 
-* **Correct Answer:** **(B) Address Bus / ලිපින බසය**
-* **Explanation (විස්තරය):**
-  - **[English]:** The **Address Bus** is **unidirectional** (CPU -> Memory/Devices) because only the CPU sends out memory address signals to locate data. In contrast, the **Data Bus** is **bidirectional** (CPU <-> Memory).
-  - **[Sinhala]:** ලිපින බසය (Address Bus) **ඒක-දිශානතික (Unidirectional)** වේ. මන්ද යත් CPU එක මගින් පමණක් දත්ත ලබාගත යුතු හෝ තැන්පත් කළ යුතු මතක ලිපිනයන් නිකුත් කරන බැවිනි. දත්ත බසය (Data Bus) ද්වි-දිශානතික වේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(C)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Speed refers to the computer's capability to carry out complex operations in microsecond, nanosecond, or picosecond timeframes, processing millions of instructions per second (MIPS).
+* **සිංහල:** වේගය (Speed) මඟින් අදහස් වන්නේ මයික්‍රෝතත්පර, නැනෝතත්පර වැනි ඉතා කෙටි කාලයකදී මිලියන ගණනක් උපදෙස් සැකසීමේ හැකියාවයි.
 
 ---
 
-### Question 06
-* **English:** Clock speed of modern CPUs is measured in which unit?
-* **Sinhala:** නූතන CPU වල ඔරලෝසු වේගය (Clock Speed) මනිනු ලබන සම්මත ඒකකය කුමක්ද?
-* **Options:**
-  - (A) Megabytes (MB)
-  - (B) Gigahertz (GHz)
-  - (C) Nanoseconds (ns)
-  - (D) Revolutions Per Minute (RPM)
+### 🎴 Question / Flashcard #04
+**Question / ප්‍රශ්නය:**
+What does the concept 'Garbage In, Garbage Out' (GIGO) state regarding computer accuracy?
+පරිගණකයේ නිරවද්‍යතාව සම්බන්ධයෙන් 'Garbage In, Garbage Out' (GIGO) සංකල්පයෙන් ප්‍රකාශ වන්නේ කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Computers inevitably produce errors over time due to wear / කාලයත් සමඟ පරිගණක නිතැතින්ම දෝෂ නිපදවයි
+- (B) If invalid or incorrect data is input, the resulting output will also be incorrect / වැරදි දත්ත ආදානය කළහොත් ලැබෙන ප්‍රතිදානය ද වැරදි වේ
+- (C) Deleted files can always be recovered from the recycle bin / මකා දැමූ ගොනු සෑමවිටම ප්‍රතිචක්‍රීකරණ බඳුනෙන් ලබා ගත හැක
+- (D) Processing speed decreases as memory fills up / මතකය පිරී යන විට සැකසුම් වේගය අඩු වේ
 
-* **Correct Answer:** **(B) Gigahertz (GHz) / ගිගාහර්ට්ස්**
-* **Explanation (විස්තරය):**
-  - **[English]:** CPU clock speed is measured in Hertz (Hz), which represents clock cycles per second. Modern processors run at billions of cycles per second, measured in **Gigahertz (GHz)** (e.g. 3.2 GHz = 3.2 billion cycles/sec).
-  - **[Sinhala]:** CPU එකක ඔරලෝසු වේගය මනිනු ලබන්නේ හර්ට්ස් (Hz) මගිනි. නූතන පරිගණක තත්පරයකට චක්‍ර බිලියන ගණනක් ක්‍රියාත්මක වන බැවින් එය ගිගාහර්ට්ස් (GHz) වලින් මනිනු ලැබේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** GIGO states that the accuracy of a computer's output depends directly on the accuracy of the input data and program instructions supplied to it.
+* **සිංහල:** GIGO මගින් කියවෙන්නේ පරිගණකයට ලබා දෙන දත්ත හෝ උපදෙස් වැරදි නම්, පරිගණකය මගින් ලබා දෙන ප්‍රතිදානය ද අනිවාර්යයෙන්ම වැරදි වන බවයි.
 
 ---
 
-### Question 07
-* **English:** Which component is responsible for performing operations such as Addition, Subtraction, AND, OR, and Comparison (`<`, `>`, `=`)?
-* **Sinhala:** එකතු කිරීම, අඩු කිරීම සහ තර්කන සංසන්දනය කිරීම් (`<`, `>`, `=`) සිදු කරනු ලබන පරිගණක සංරචකය කුමක්ද?
-* **Options:**
-  - (A) Control Unit (CU)
-  - (B) Memory Management Unit (MMU)
-  - (C) Arithmetic Logic Unit (ALU)
-  - (D) Input/Output Unit (IOU)
+### 🎴 Question / Flashcard #05
+**Question / ප්‍රශ්නය:**
+Which characteristic describes a computer's ability to operate continuously 24 hours a day without fatigue or loss of concentration?
+වෙහෙසක් හෝ එකඟතාව බිඳවැටීමකින් තොරව දවසේ පැය 24 පුරාම අඛණ්ඩව එකම ආකාරයට ක්‍රියා කිරීමේ පරිගණක ලක්ෂණය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Diligence / Efficiency (නොපසුබට බව / කාර්යක්ෂමතාව)
+- (B) Versatility (බහුකාර්ය බව)
+- (C) Volatility (තාවකාලික බව)
+- (D) Portability (පහසුවෙන් ගෙන යා හැකි බව)
 
-* **Correct Answer:** **(C) Arithmetic Logic Unit (ALU) / අංකගණිත හා තර්කන ඒකකය**
-* **Explanation (විස්තරය):**
-  - **[English]:** The ALU consists of two sub-parts: the **Arithmetic Unit** (performs `+`, `-`, `*`, `/`) and the **Logic Unit** (performs logical decision comparisons like AND, OR, NOT, `<`, `>`, `=`).
-  - **[Sinhala]:** ALU ඒකකය කොටස් දෙකකින් සමන්විත වේ: අංකගණිත ඒකකය (ගණිත කර්ම) සහ තර්කන ඒකකය (තර්කන සංසන්දන).
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(A)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Diligence (or Efficiency) means that computers do not experience tiredness, boredom, or distraction, enabling continuous, highly reliable processing.
+* **සිංහල:** නොපසුබට බව / කාර්යක්ෂමතාව (Diligence / Efficiency) යනු මිනිසා මෙන් විඩාවට හෝ කම්මැලිකමට පත් නොවී එකම නිරවද්‍යතාවයෙන් අඛණ්ඩව ක්‍රියා කිරීමේ හැකියාවයි.
 
 ---
 
-### Question 08
-* **English:** What is the primary characteristic of the Von Neumann Computer Architecture?
-* **Sinhala:** වොන් නියුමන් (Von Neumann) පරිගණක ගෘහනිර්මාණ ශිල්පයේ ප්‍රධානතම ලක්ෂණය කුමක්ද?
-* **Options:**
-  - (A) Data and Programs are stored in separate physical memories / දත්ත සහ ක්‍රමලේඛ වෙනම මතක දෙකක තැන්පත් කිරීම
-  - (B) Stored-program concept where data and instructions share the same memory / දත්ත සහ උපදෙස් දෙකම එකම ප්‍රධාන මතකයේ තැන්පත් කිරීම (Stored-Program Concept)
-  - (C) Absence of a central processing unit / මධ්‍යම සැකසුම් ඒකකයක් නොමැති වීම
-  - (D) Execution of instructions without clock pulses / ඔරලෝසු ස්පන්දන නොමැතිව උපදෙස් ක්‍රියාත්මක වීම
+### 🎴 Question / Flashcard #06
+**Question / ප්‍රශ්නය:**
+What is meant by the 'Versatility' of a computer?
+පරිගණකයක 'බහුකාර්ය බව' (Versatility) යන්නෙන් අදහස් වන්නේ කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Ability to store data permanently on magnetic tape / චුම්බක පටවල දත්ත ස්ථිරව ගබඩා කිරීමේ හැකියාව
+- (B) Ability to be utilized across completely different application domains by running different software / විවිධ මෘදුකාංග යොදා ගනිමින් හාත්පසින්ම වෙනස් ක්ෂේත්‍රවල කාර්යයන් සඳහා යොදා ගත හැකි වීම
+- (C) Ability to function without electrical power / විදුලි බලය නොමැතිව ක්‍රියා කිරීමේ හැකියාව
+- (D) Ability to increase CPU speed automatically / CPU වේගය ස්වයංක්‍රීයව වැඩි කර ගැනීමේ හැකියාව
 
-* **Correct Answer:** **(B) Stored-program concept where data and instructions share the same memory**
-* **Explanation (විස්තරය):**
-  - **[English]:** John von Neumann introduced the **Stored-Program Concept**, where both program instructions and user data reside together in the same primary memory (RAM) space.
-  - **[Sinhala]:** වොන් නියුමන් ආකෘතියේ පදනම වන්නේ **ගබඩාකළ ක්‍රමලේඛ සංකල්පය (Stored-Program Concept)** යි. එනම් දත්ත (Data) සහ උපදෙස් (Instructions) දෙකම එකම ප්‍රධාන මතකයේ (RAM) තැන්පත් කර තැබීමයි.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Versatility refers to the computer's capacity to perform completely diverse tasks — from word processing and accounting to digital graphic design and automated factory control.
+* **සිංහල:** බහුකාර්ය බව (Versatility) යනු එකම පරිගණක පද්ධතියක් මඟින් විවිධ මෘදුකාංග භාවිතයෙන් හාත්පසින්ම වෙනස් ක්ෂේත්‍ර රැසක කාර්යයන් ඉටු කිරීමේ හැකියාවයි.
 
 ---
 
-### Question 09
-* **English:** Which CPU register holds the actual instruction that is currently being decoded and executed?
-* **Sinhala:** මේ වන විට විකේතනය කරමින් සහ ක්‍රියාත්මක කරමින් පවතින උපදෙස තබා ගන්නා රෙජිස්තරය කුමක්ද?
-* **Options:**
-  - (A) Memory Address Register (MAR)
-  - (B) Instruction Register (IR)
-  - (C) Program Counter (PC)
-  - (D) Buffer Register (BR)
+### 🎴 Question / Flashcard #07
+**Question / ප්‍රශ්නය:**
+What revolutionary concept did John von Neumann introduce in his 1945 computer architecture?
+1945 දී ජෝන් වොන් නියුමන් විසින් හඳුන්වා දුන් විප්ලවීය පරිගණක ආකෘති සංකල්පය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Graphical User Interface concept / චිත්‍රක පරිශීලක අතුරුමුහුණත් සංකල්පය
+- (B) Stored-Program concept (storing program instructions and data together in primary memory) / ගබඩා කළ වැඩසටහන් සංකල්පය (දත්ත සහ උපදෙස් එකම ප්‍රධාන මතකයේ තැන්පත් කිරීම)
+- (C) Microprocessor miniaturization / ක්ෂුද්‍ර සකසන කුඩා කිරීම
+- (D) Optical data communication / ප්‍රකාශ දත්ත සන්නිවේදනය
 
-* **Correct Answer:** **(B) Instruction Register (IR) / උපදෙස් රෙජිස්තරය**
-* **Explanation (විස්තරය):**
-  - **[English]:** Once an instruction is fetched from RAM, it is placed in the **Instruction Register (IR)** so the Control Unit can decode its operation code.
-  - **[Sinhala]:** ප්‍රධාන මතකයෙන් ලබා ගන්නා ලද උපදෙස විකේතනය කිරීම සඳහා **උපදෙස් රෙජිස්තරය (Instruction Register - IR)** තුළ රඳවා තබා ගනී.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** The Von Neumann architecture introduced the 'Stored-Program Concept', where both program instructions and working data reside together in the computer's primary memory.
+* **සිංහල:** ජෝන් වොන් නියුමන් ආකෘතිය මඟින් වැඩසටහන් උපදෙස් සහ දත්ත යන දෙකම එකම ප්‍රධාන මතකය තුළ රඳවා ගැනීමේ 'ගබඩා කළ වැඩසටහන් සංකල්පය' (Stored-Program Concept) හඳුන්වා දෙන ලදී.
 
 ---
 
-### Question 10
-* **English:** Which system bus carries status signals such as Read/Write commands and interrupt signals between the CPU and hardware devices?
-* **Sinhala:** CPU එක සහ අනෙකුත් උපාංග අතර කියවීමේ (Read), ලිවීමේ (Write) සහ බාධාකිරීමේ (Interrupt) සංඥා ගෙන යන බසය කුමක්ද?
-* **Options:**
-  - (A) Data Bus / දත්ත බසය
-  - (B) Address Bus / ලිපින බසය
-  - (C) Control Bus / පාලන බසය
-  - (D) System Bus / පද්ධති බසය
+### 🎴 Question / Flashcard #08
+**Question / ප්‍රශ්නය:**
+In the standard Von Neumann architecture diagram, what do the dotted lines (- - ->) and solid lines (───>) represent respectively?
+සම්මත වොන් නියුමන් ආකෘති සටහනේ කැඩුණු ඉරි (- - ->) සහ තනි ඉරි (───>) මඟින් පිළිවෙළින් නිරූපණය වන්නේ කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Power lines and Clock cycles / විදුලි රැහැන් සහ ඔරලෝසු චක්‍ර
+- (B) Data/Instructions flow and Control signals flow / දත්ත/උපදෙස් ගැලීම සහ පාලන සංඥා ගැලීම
+- (C) Optical links and Cable connections / ප්‍රකාශ සබඳතා සහ කේබල් සබඳතා
+- (D) Primary memory and Secondary storage / ප්‍රධාන මතකය සහ ද්විතීයික ආචයනය
 
-* **Correct Answer:** **(C) Control Bus / පාලන බසය**
-* **Explanation (විස්තරය):**
-  - **[English]:** The **Control Bus** transmits control and timing signals (e.g. Memory Read, Memory Write, I/O Read, Bus Request, Interrupt) across system components.
-  - **[Sinhala]:** පාලන බසය (Control Bus) මගින් පරිගණකයේ විවිධ සංරචක අතර පාලන, කාලගණන සහ මෙහෙයුම් සංඥා (Read/Write, Interrupt) හුවමාරු කරයි.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** In the syllabus diagram (Figure 2.10), dotted lines indicate the flow of Data and Instructions, while solid lines indicate Control Signals issued by the Control Unit (CU).
+* **සිංහල:** නිල විෂය නිර්දේශ රූප සටහනේ කැඩුණු ඉරෙන් දත්ත සහ උපදෙස් ගැලීම ද, තනි ඉරෙන් පාලන ඒකකය (CU) මඟින් නිකුත් කරන පාලන සංඥා ද නිරූපණය වේ.
 
 ---
 
-### Question 11
-* **English:** Cache memory is positioned between which two hardware components to reduce processing latency?
-* **Sinhala:** සැකසුම් ප්‍රමාදය අවම කිරීම සඳහා කැෂ් මතකය (Cache Memory) ස්ථානගත කර ඇත්තේ කුමන සංරචක දෙක අතරද?
-* **Options:**
-  - (A) RAM and Hard Disk Drive / RAM සහ හාඩ් ඩිස්ක් එක අතර
-  - (B) CPU Registers and Cache Memory / CPU රෙජිස්තර සහ කැෂ් මතකය අතර
-  - (C) CPU Core and Main Memory (RAM) / CPU සහ ප්‍රධාන මතකය (RAM) අතර
-  - (D) ROM and Secondary Storage / ROM සහ ද්විතීයික මතකය අතර
+### 🎴 Question / Flashcard #09
+**Question / ප්‍රශ්නය:**
+Which component is universally recognized as the 'Brain of the Computer'?
+'පරිගණකයේ මොළය' ලෙස විශ්වීයව හඳුන්වනු ලබන සංරචකය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Primary Memory (RAM) / ප්‍රධාන මතකය
+- (B) Central Processing Unit (CPU) / මධ්‍ය සැකසුම් ඒකකය
+- (C) Motherboard / මව් පුවරුව
+- (D) Hard Disk Drive / දෘඩ තැටිය
 
-* **Correct Answer:** **(C) CPU Core and Main Memory (RAM) / CPU සහ ප්‍රධාන මතකය (RAM) අතර**
-* **Explanation (විස්තරය):**
-  - **[English]:** Cache memory is extremely fast, small SRAM located directly on or near the CPU die, acting as a buffer between the ultra-fast CPU core and slower RAM.
-  - **[Sinhala]:** ඉතා අධිවේගී කැෂ් මතකය (Cache Memory) CPU එක සහ සාපේක්ෂව මන්දගාමී RAM මතකය අතර පිහිටුවා ඇත.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** The Central Processing Unit (CPU) is known as the brain of the computer because it interprets, coordinates, and executes all program commands and manages hardware operations.
+* **සිංහල:** පරිගණකයේ මොළය ලෙස හඳුන්වන්නේ මධ්‍ය සැකසුම් ඒකකයයි (CPU). එය සියලු විධාන විකේතනය කරමින්, ක්‍රියාත්මක කරමින් පද්ධතියේ ක්‍රියාකාරීත්වය පාලනය කරයි.
 
 ---
 
-### Question 12
-* **English:** What happens to the contents of a CPU register during the 'Store' phase of the Machine Cycle?
-* **Sinhala:** යන්ත්‍ර චක්‍රයේ 'තැන්පත් කිරීම' (Store) පියවරේදී සිදුවන්නේ කුමක්ද?
-* **Options:**
-  - (A) The instruction is converted into binary control code / උපදෙස බයිනරි පාලන කේතයට හැරවීම
-  - (B) The processed result in Accumulator is written to RAM or registers / ඇකියුමිලේටරයේ ඇති සකසන ලද පිළිතුර RAM එකට හෝ රෙජිස්තරයකට ලිවීම
-  - (C) The address bus is cleared / ලිපින බසය හිස් කිරීම
-  - (D) Data is fetched from secondary storage / ද්විතීයික මතකයෙන් දත්ත ලබා ගැනීම
+### 🎴 Question / Flashcard #10
+**Question / ප්‍රශ්නය:**
+Which unit inside the CPU performs mathematical operations (addition, subtraction) and logical comparisons?
+CPU අභ්‍යන්තරයේ ගණිතමය ගණනය කිරීම් සහ තාර්කික සංසන්දනයන් සිදු කරන ඒකකය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Control Unit (CU) / පාලන ඒකකය
+- (B) Arithmetic and Logic Unit (ALU) / අංක ගණිතමය හා තාර්කික ඒකකය
+- (C) Memory Address Register (MAR) / මතක ලිපින රෙජිස්තරය
+- (D) System Clock / පද්ධති ඔරලෝසුව
 
-* **Correct Answer:** **(B) The processed result in Accumulator is written to RAM or registers**
-* **Explanation (විස්තරය):**
-  - **[English]:** In the final Store phase, the computation outcome stored in the Accumulator/Registers is written back to specified RAM locations for long-term or future reference.
-  - **[Sinhala]:** තැන්පත් කිරීමේ (Store) පියවරේදී ගණනය කිරීමෙන් ලැබුණු අවසාන පිළිතුර ඇකියුමිලේටරයෙන් ප්‍රධාන මතකයට (RAM) හෝ රෙජිස්තරයකට ලියා තැන්පත් කරයි.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** The Arithmetic and Logic Unit (ALU) performs all arithmetic operations (+, -, *, /) and relational/logical comparisons (<, >, =, AND, OR, NOT).
+* **සිංහල:** අංක ගණිතමය හා තාර්කික ඒකකය (ALU) මඟින් සියලුම ආකාරයේ ගණිතමය ක්‍රියා (+, -, *, /) සහ තාර්කික සංසන්දනයන් සිදු කරයි.
 
 ---
 
-### Question 13
-* **English:** Which CPU register temporarily holds data being read from or written to main memory?
-* **Sinhala:** ප්‍රධාන මතකයෙන් කියවන හෝ මතකයට ලියන දත්ත තාවකාලිකව තබා ගන්නා රෙජිස්තරය කුමක්ද?
-* **Options:**
-  - (A) Program Counter (PC)
-  - (B) Memory Data Register (MDR) / Memory Buffer Register (MBR)
-  - (C) Index Register (IR)
-  - (D) Instruction Register (IR)
+### 🎴 Question / Flashcard #11
+**Question / ප්‍රශ්නය:**
+What is the primary operational role of the Control Unit (CU) in the CPU?
+CPU හි පාලන ඒකකයේ (CU) ප්‍රධාන මෙහෙයුම් කාර්යය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Storing operating system files permanently / මෙහෙයුම් පද්ධති ගොනු ස්ථිරව ගබඩා කිරීම
+- (B) Performing complex algebraic division / සංකීර්ණ වීජ ගණිතමය බෙදීම් සිදු කිරීම
+- (C) Fetching, decoding instructions, and sending control signals to hardware units / උපදෙස් ලබාගෙන විකේතනය කර දෘඩාංග උපාංග වෙත පාලන සංඥා නිකුත් කිරීම
+- (D) Converting digital numbers to analog waves / සංඛ්‍යාංක අගයන් ප්‍රතිසම තරංග බවට පත් කිරීම
 
-* **Correct Answer:** **(B) Memory Data Register (MDR) / Memory Buffer Register (MBR)**
-* **Explanation (විස්තරය):**
-  - **[English]:** The **Memory Data Register (MDR)** or **Memory Buffer Register (MBR)** acts as a buffer holding data that is being transferred to or from RAM.
-  - **[Sinhala]:** ප්‍රධාන මතකයට (RAM) ලියනු ලබන හෝ මතකයෙන් ලබා ගන්නා සියලුම දත්ත පද තාවකාලිකව MDR / MBR රෙජිස්තරයේ තැන්පත් වේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(C)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** The Control Unit (CU) manages and coordinates all computer operations: it fetches instructions from memory, decodes them, and dispatches timing/control signals to all connected components.
+* **සිංහල:** පාලන ඒකකය (CU) මගින් මතකයෙන් උපදෙස් ලබා ගනී (Fetch), විකේතනය කරයි (Decode), සහ සියලුම උපාංග වෙත නිවැරදි පාලන සංඥා නිකුත් කරමින් ඒවා මෙහෙයවයි.
 
 ---
 
-### Question 14
-* **English:** How many bits can a 64-bit CPU processor process in a single clock cycle?
-* **Sinhala:** බිටු 64 (64-bit) ප්‍රොසෙසරයකට එක ඔරලෝසු චක්‍රයක් තුළ සකස් කළ හැකි උපරිම බිටු ගණන කීයද?
-* **Options:**
-  - (A) 32 bits / බිටු 32
-  - (B) 64 bits / බිටු 64
-  - (C) 128 bits / බිටු 128
-  - (D) 8 bytes / බයිට 8 (or 64 bits)
+### 🎴 Question / Flashcard #12
+**Question / ප්‍රශ්නය:**
+Which CPU register holds the memory address of the NEXT instruction to be fetched from RAM?
+RAM මතකයෙන් මීළඟට ලබා ගත යුතු උපදෙසෙහි මතක ලිපිනය තබා ගන්නා CPU රෙජිස්තරය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Accumulator (ACC) / ඇකියුමිලේටරය
+- (B) Instruction Register (IR) / උපදෙස් රෙජිස්තරය
+- (C) Program Counter (PC) / ක්‍රමලේඛ ගණකය
+- (D) Memory Data Register (MDR) / මතක දත්ත රෙජිස්තරය
 
-* **Correct Answer:** **(B) 64 bits / බිටු 64**
-* **Explanation (විස්තරය):**
-  - **[English]:** A 64-bit architecture means the CPU registers, data bus width, and processing pipelines are designed to handle 64 bits ($8$ bytes) of data in a single machine operation.
-  - **[Sinhala]:** බිටු 64 ප්‍රොසෙසරයක Word Size එක බිටු 64 ක් වේ. එනම් එක් වරකට බිටු 64 ක දත්ත ප්‍රමාණයක් එකවර සැකසීමට හැකියාව ඇත.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(C)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** The Program Counter (PC) register continuously stores the RAM address of the upcoming instruction to be fetched. After fetching, it automatically increments.
+* **සිංහල:** ක්‍රමලේඛ ගණකය (Program Counter - PC) මඟින් මීළඟට ක්‍රියාත්මක කිරීමට ඇති උපදෙසෙහි මතක ලිපිනය රඳවා ගනී.
 
 ---
 
-### Question 15
-* **English:** Which type of bus width directly determines the maximum memory capacity addressable by the CPU?
-* **Sinhala:** CPU එකකට සෘජුවම අමන්ත්‍රණය කළ හැකි (Addressable) උපරිම RAM මතක ධාරිතාව තීරණය කරනු ලබන්නේ කුමන බසයේ පලල (Bus Width) මගින්ද?
-* **Options:**
-  - (A) Data Bus Width / දත්ත බසයේ පලල
-  - (B) Address Bus Width / ලිපින බසයේ පලල
-  - (C) Control Bus Width / පාලන බසයේ පලල
-  - (D) PCI Express Bus Width / PCI Express බසයේ පලල
+### 🎴 Question / Flashcard #13
+**Question / ප්‍රශ්නය:**
+Which internal CPU register temporarily holds the immediate intermediate result produced by ALU calculations?
+ALU මඟින් සිදු කරන ගණනය කිරීම්වලින් ලැබෙන ක්ෂණික තාවකාලික ප්‍රතිඵලය තබා ගන්නා CPU රෙජිස්තරය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Accumulator (ACC) / ඇකියුමිලේටරය
+- (B) Program Counter (PC) / ක්‍රමලේඛ ගණකය
+- (C) Memory Address Register (MAR) / මතක ලිපින රෙජිස්තරය
+- (D) Index Register / දර්ශක රෙජිස්තරය
 
-* **Correct Answer:** **(B) Address Bus Width / ලිපින බසයේ පලල**
-* **Explanation (විස්තරය):**
-  - **[English]:** Maximum addressable memory is calculated as $2^N$ where $N$ is the number of address lines. E.g., a 32-bit address bus can address $2^{32} 	ext{ bytes} = 4 	ext{ GB}$ of RAM.
-  - **[Sinhala]:** CPU එකට සම්බන්ධ කළ හැකි උපරිම මතක ධාරිතාව ලිපින බසයේ පලල ($N$) මත තීරණය වේ ($2^N$ සූත්‍රය මගින්).
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(A)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** The Accumulator (ACC) is a dedicated CPU register that holds intermediate mathematical and logical results generated during ALU computations.
+* **සිංහල:** ඇකියුමිලේටරය (Accumulator - ACC) යනු ALU මඟින් සිදු කරන ගණිතමය හා තාර්කික මෙහෙයුම්වලින් ලැබෙන ප්‍රතිඵල තාවකාලිකව තබා ගන්නා රෙජිස්තරයයි.
 
 ---
 
-## SECTION 2: Memory & Storage Hierarchy (Q16 – Q30)
+### 🎴 Question / Flashcard #14
+**Question / ප්‍රශ්නය:**
+What units are used to measure the clock speed of a modern Central Processing Unit (CPU)?
+නූතන මධ්‍ය සැකසුම් ඒකකයක (CPU) ඔරලෝසු වේගය මැනීමට භාවිත වන ඒකක මොනවාද?
 
-### Question 16
-* **English:** Why is RAM classified as volatile memory?
-* **Sinhala:** RAM මතකය වාෂ්පශීලී (Volatile) මතකයක් ලෙස වර්ගීකරණය කරන්නේ මන්ද?
-* **Options:**
-  - (A) It can only be read and never written / එයින් කියවිය හැකි අතර ලිවිය නොහැක
-  - (B) Its stored contents are permanently erased when power is switched off / විදුලිය විසන්ධි වූ විට එහි ඇති දත්ත සියල්ල මැනවින් මැලවී/මැකී යන බැවින්
-  - (C) It uses optical laser technology / එය ප්‍රකාශ ලේසර් තාක්ෂණය භාවිත කරන බැවින්
-  - (D) It cannot be upgraded / එය යාවත්කාලීන කළ නොහැකි බැවින්
+- (A) Bytes (B) and Bits (b) / බයිට සහ බිටු
+- (B) Hertz (Hz), Megahertz (MHz), and Gigahertz (GHz) / හර්ට්ස්, මෙගාහර්ට්ස් සහ ගිගාහර්ට්ස්
+- (C) Revolutions Per Minute (RPM) / මිනිත්තුවට වට ප්‍රමාණය
+- (D) Dots Per Inch (DPI) / අඟලකට තිත් ගණන
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
 
-* **Correct Answer:** **(B) Its stored contents are permanently erased when power is switched off**
-* **Explanation (විස්තරය):**
-  - **[English]:** Volatile memory requires continuous electrical power to retain binary data. When power supply ceases, all stored data in RAM is completely lost.
-  - **[Sinhala]:** විදුලිය විසන්ධි කළ සැනින් RAM තුළ ඇති සියලුම දත්ත විනාශ වන බැවින් එය වාෂ්පශීලී (Volatile) මතකයක් ලෙස හැඳින්වේ.
-</details>
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** CPU clock speed is measured in Hertz (Hz), representing cycles per second. Common contemporary units are Megahertz ($10^6\text{ Hz}$) and Gigahertz ($10^9\text{ Hz}$).
+* **සිංහල:** CPU ඔරලෝසු වේගය මනිනු ලබන්නේ හර්ට්ස් (Hz) ඒකකයෙනි. නූතන පරිගණකවල මෙගාහර්ට්ස් (MHz) හෝ ගිගාහර්ට්ස් (GHz) ඒකක භාවිත වේ.
 
 ---
 
-### Question 17
-* **English:** Which type of Read-Only Memory (ROM) can be erased using Ultraviolet (UV) light?
-* **Sinhala:** පාරජම්බුල (UV) කිරණ යොදාගෙන නැවත මකා අලුතින් ලිවිය හැකි ROM මතක වර්ගය කුමක්ද?
-* **Options:**
-  - (A) PROM (Programmable ROM)
-  - (B) EPROM (Erasable Programmable ROM)
-  - (C) EEPROM (Electrically Erasable Programmable ROM)
-  - (D) Mask ROM
+### 🎴 Question / Flashcard #15
+**Question / ප්‍රශ්නය:**
+What is the correct 4-step execution sequence of the CPU Machine / Instruction Cycle?
+CPU යන්ත්‍ර චක්‍රයේ (Machine Cycle) නිවැරදි පියවර 4 අනුපිළිවෙල කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Decode -> Fetch -> Execute -> Store / විකේතනය -> ලබා ගැනීම -> ක්‍රියාත්මක කිරීම -> තැන්පත් කිරීම
+- (B) Fetch -> Decode -> Execute -> Store / ලබා ගැනීම -> විකේතනය කිරීම -> ක්‍රියාත්මක කිරීම -> තැන්පත් කිරීම
+- (C) Execute -> Fetch -> Store -> Decode / ක්‍රියාත්මක කිරීම -> ලබා ගැනීම -> තැන්පත් කිරීම -> විකේතනය
+- (D) Fetch -> Execute -> Decode -> Store / ලබා ගැනීම -> ක්‍රියාත්මක කිරීම -> විකේතනය -> තැන්පත් කිරීම
 
-* **Correct Answer:** **(B) EPROM (Erasable Programmable ROM)**
-* **Explanation (විස්තරය):**
-  - **[English]:** **EPROM** chips feature a quartz window through which intense Ultraviolet (UV) light is shone to erase all stored data so it can be re-programmed.
-  - **[Sinhala]:** EPROM (Erasable Programmable ROM) චිපයන් පාරජම්බුල (UV) කිරණ හෙළීම මගින් එහි ඇති දත්ත මකා නැවත ලියාගත හැක. EEPROM මගින් විදුලියෙන් දත්ත මකනු ලැබේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Every instruction undergoes 4 consecutive steps: 1. Fetch (from memory), 2. Decode (by CU), 3. Execute (by ALU/CU), 4. Store (result to register/memory).
+* **සිංහල:** යන්ත්‍ර චක්‍රයේ පියවර 4 කි: 1. ලබා ගැනීම (Fetch), 2. විකේතනය කිරීම (Decode), 3. ක්‍රියාත්මක කිරීම (Execute), 4. තැන්පත් කිරීම (Store).
 
 ---
 
-### Question 18
-* **English:** What is the correct arrangement of storage devices in ascending order of access speed (Slowest to Fastest)?
-* **Sinhala:** ප්‍රවේශ වේගය ආරෝහණ අනුපිළිවෙලට (මන්දගාමී සිට වේගවත්ම දක්වා) නිවැරදිව දක්වා ඇති ගබඩා උපාංග අනුපිළිවෙල කුමක්ද?
-* **Options:**
-  - (A) Cache -> RAM -> Hard Disk -> Registers
-  - (B) Magnetic Tape -> Hard Disk -> RAM -> Cache -> Registers
-  - (C) Registers -> Cache -> RAM -> Hard Disk
-  - (D) Hard Disk -> Cache -> RAM -> Magnetic Tape
+### 🎴 Question / Flashcard #16
+**Question / ප්‍රශ්නය:**
+What is the primary function of Cache Memory located between the CPU and Primary Memory?
+CPU සහ ප්‍රධාන මතකය අතර පිහිටා ඇති වාරික / නිහිත මතකයේ (Cache Memory) ප්‍රධාන කාර්යය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Permanently storing files when the computer shuts down / පරිගණකය ක්‍රියාවිරහිත වූ විට ගොනු ස්ථිරව සුරැකීම
+- (B) Storing frequently used data to speed up CPU access and bridge the speed gap / නිතර භාවිත වන දත්ත රඳවා ගනිමින් ප්‍රවේශ වේගය වැඩි කිරීම
+- (C) Translating English program code into machine code / ඉංග්‍රීසි කේතයන් යන්ත්‍ර කේත බවට පරිවර්තනය කිරීම
+- (D) Providing wireless network connectivity / රැහැන් රහිත ජාල සම්බන්ධතාව ලබා දීම
 
-* **Correct Answer:** **(B) Magnetic Tape -> Hard Disk -> RAM -> Cache -> Registers**
-* **Explanation (විස්තරය):**
-  - **[English]:** Speed hierarchy: Magnetic Tape (Slowest) < Hard Disk (HDD) < Main Memory (RAM) < Cache Memory < CPU Registers (Fastest).
-  - **[Sinhala]:** මතක ප්‍රවේශ වේගය වැඩිවන අනුපිළිවෙල: මැග්නටික් ටේප් (මන්දගාමී) < හාඩ් ඩිස්ක් < RAM < කැෂ් මතකය < CPU රෙජිස්තර (අධිවේගී).
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Cache memory is high-speed volatile SRAM acting as an intermediary between the ultra-fast CPU and slower RAM, storing copies of frequently accessed instructions to minimize idle wait states.
+* **සිංහල:** වාරික මතකය (Cache Memory) යනු වේගවත් CPU සහ මන්දගාමී RAM අතර අතරමැදියා ලෙස නිතර භාවිත වන දත්ත රඳවා ගනිමින් CPU සැකසුම් වේගය ඉහළ නංවන අතිශය වේගවත් මතකයකි.
 
 ---
 
-### Question 19
-* **English:** Which small non-volatile ROM chip stores the essential startup instructions (BIOS) to boot a computer?
-* **Sinhala:** පරිගණකය පණගන්වන (Booting) මූලික උපදෙස් (BIOS) අඩංගු වන නො-වාෂ්පශීලී මතක චිපය කුමක්ද?
-* **Options:**
-  - (A) SRAM
-  - (B) Flash ROM / BIOS ROM
-  - (C) Virtual Memory
-  - (D) Dynamic RAM
+### 🎴 Question / Flashcard #17
+**Question / ප්‍රශ්නය:**
+Which classification of computers represents the physically largest, most expensive, and most powerful machines used by organizations like NASA for weather modeling and astrophysics?
+නාසා (NASA) වැනි ආයතන මඟින් කාලගුණ අනාවැකි සහ තාරකා විද්‍යාත්මක ගණනය කිරීම් සඳහා භාවිත කරන, ප්‍රමාණයෙන් විශාලතම සහ වඩාත්ම බලසම්පන්න පරිගණක කාණ්ඩය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Microcomputers / ක්ෂුද්‍ර පරිගණක
+- (B) Minicomputers / මධ්‍ය පරිගණක
+- (C) Supercomputers / සුපිරි පරිගණක
+- (D) Mainframe Computers / මහා පරිගණක
 
-* **Correct Answer:** **(B) Flash ROM / BIOS ROM**
-* **Explanation (විස්තරය):**
-  - **[English]:** The BIOS (Basic Input/Output System) firmware is stored permanently in non-volatile **ROM / Flash ROM** on the motherboard to initialize hardware during startup.
-  - **[Sinhala]:** පරිගණකය පණගැන්වීමේදී hardware පරික්ෂා කරන BIOS වැඩසටහන පරිගණකයේ මවුපුවරුවේ ඇති **ROM** චිපය තුළ ස්ථිරව තැන්පත් කර ඇත.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(C)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Supercomputers are the fastest and most expensive computers, capable of performing trillions of calculations per second for scientific simulations and military research.
+* **සිංහල:** සුපිරි පරිගණක (Supercomputers) යනු විද්‍යාත්මක, ඉංජිනේරු සහ අභ්‍යවකාශ පර්යේෂණ සඳහා භාවිත වන, මිල අධික, ප්‍රමාණයෙන් විශාල, අතිශය බලසම්පන්න පරිගණක වේ.
 
 ---
 
-### Question 20
-* **English:** Which optical storage format offers the highest storage capacity among CD, DVD, and Blu-Ray?
-* **Sinhala:** CD, DVD සහ Blu-Ray අතුරින් ඉහළම ගබඩා ධාරිතාවක් සහිත ප්‍රකාශ තැටිය කුමක්ද?
-* **Options:**
-  - (A) CD-ROM (700 MB)
-  - (B) DVD-ROM (4.7 GB)
-  - (C) Single-Layer Blu-Ray Disc (25 GB)
-  - (D) Double-Layer DVD (8.5 GB)
+### 🎴 Question / Flashcard #18
+**Question / ප්‍රශ්නය:**
+Which category of computers is specifically engineered to handle thousands of concurrent users and terminals simultaneously, commonly deployed in commercial bank transaction backbones?
+පර්යන්ත (terminals) සහ පරිශීලකයින් දහස් ගණනක් එකවර සම්බන්ධ කරගනිමින් වාණිජ බැංකු ගනුදෙනු පද්ධති සඳහා බහුලව යොදාගන්නා පරිගණක වර්ගය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Mainframe Computers / මහා පරිගණක
+- (B) Personal Computers / පුද්ගල පරිගණක
+- (C) Analog Computers / ප්‍රතිසම පරිගණක
+- (D) Palmtop Computers / අතේ ගෙන යා හැකි පරිගණක
 
-* **Correct Answer:** **(C) Single-Layer Blu-Ray Disc (25 GB)**
-* **Explanation (විස්තරය):**
-  - **[English]:** Blu-Ray uses a shorter blue-violet laser ($405 	ext{ nm}$) permitting finer track pitches, storing $25 	ext{ GB}$ (single layer) or $50 	ext{ GB}$ (dual layer), compared to CD ($700 	ext{ MB}$) and DVD ($4.7 	ext{ GB}$).
-  - **[Sinhala]:** Blu-Ray තැටි නිල්-දම් ලේසර් කිරණ භාවිත කරන බැවින් ඉතා සියුම් ලෙස දත්ත තැන්පත් කළ හැක. Single-layer Blu-Ray තැටියක ධාරිතාව 25 GB කි.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(A)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Mainframe computers support massive I/O throughput and hundreds to thousands of users/terminals at the same time, making them the standard for centralized banking and airline booking.
+* **සිංහල:** මහා පරිගණක (Mainframes) මඟින් විශාල පරිශීලකයින් සංඛ්‍යාවක් සහ පර්යන්ත රැසක් සම්බන්ධ කර ගනිමින් මධ්‍යගත බැංකු හා ගුවන් ගමන් වෙන්කිරීමේ පද්ධති පවත්වාගෙන යයි.
 
 ---
 
-### Question 21
-* **English:** What type of secondary storage technology does a Solid State Drive (SSD) use?
-* **Sinhala:** Solid State Drive (SSD) මගින් දත්ත ගබඩා කිරීමට භාවිත කරනු ලබන ද්විතීයික ආචයන තාක්ෂණය කුමක්ද?
-* **Options:**
-  - (A) Magnetic oxide spinning platters / චුම්බක මතුපිට
-  - (B) Semiconductor Flash Memory / අර්ධ සන්නායක ෆ්ලෑෂ් මතකය
-  - (C) Red-laser optical burning / රතු ලේසර් තාක්ෂණය
-  - (D) Punched paper tape / සිදුරු කළ පටිය
+### 🎴 Question / Flashcard #19
+**Question / ප්‍රශ්නය:**
+Computers that operate by identifying continuous physical phenomena such as voltage, pressure, and temperature are classified as:
+වෝල්ටීයතාව, පීඩනය සහ උෂ්ණත්වය වැනි පරිසරයේ සිදුවන අඛණ්ඩ භෞතික විචල්‍යයන් හඳුනා ගනිමින් ක්‍රියා කරන පරිගණක අයත් වන්නේ කුමන වර්ගයටද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Digital Computers / සංඛ්‍යාංක පරිගණක
+- (B) Analog Computers / ප්‍රතිසම පරිගණක
+- (C) Supercomputers / සුපිරි පරිගණක
+- (D) Microcomputers / ක්ෂුද්‍ර පරිගණක
 
-* **Correct Answer:** **(B) Semiconductor Flash Memory / අර්ධ සන්නායක ෆ්ලෑෂ් මතකය**
-* **Explanation (විස්තරය):**
-  - **[English]:** SSDs contain no moving mechanical parts. They use non-volatile **Semiconductor Flash Memory** (NAND gates) offering higher read/write speeds than HDDs.
-  - **[Sinhala]:** SSD තැටිවල චලනය වන යාන්ත්‍රික කොටස් නොමැත. ඒවා **අර්ධ සන්නායක ෆ්ලෑෂ් මතක (Flash Memory)** තාක්ෂණයෙන් දත්ත ගබඩා කරයි.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Analog computers measure and calculate directly using continuous physical quantities (e.g., speedometers, mercury barometers, analog flight meters) without binary digitization.
+* **සිංහල:** ප්‍රතිසම පරිගණක (Analog Computers) මඟින් පරිසරයේ සිදුවන අඛණ්ඩ භෞතික වෙනස්වීම් (වේගය, පීඩනය, උෂ්ණත්වය) හඳුනා ගනිමින් සෘජුවම ක්‍රියාත්මක වේ (උදා: වේගමාපක).
 
 ---
 
-### Question 22
-* **English:** Which RAM type requires continuous electrical refreshing thousands of times per second to prevent data decay?
-* **Sinhala:** දත්ත නැතිවීම වැළැක්වීම සඳහා තත්පරයකට දහස් වාරයක් විද්‍යුත් ලෙස නැවත ප්‍රබෝධමත් (Refresh) කළ යුතු RAM වර්ගය කුමක්ද?
-* **Options:**
-  - (A) Static RAM (SRAM)
-  - (B) Dynamic RAM (DRAM)
-  - (C) Flash RAM
-  - (D) EEPROM
+### 🎴 Question / Flashcard #20
+**Question / ප්‍රශ්නය:**
+An ECG (Electrocardiogram) machine in a hospital captures analog heart electrical rhythms, converts them to digital values, and prints diagnostic graphs. Under which category is it classified?
+රෝහලක හෘදයේ ප්‍රතිසම විද්‍යුත් ස්පන්දන හඳුනාගෙන ඒවා සංඛ්‍යාංක අගයන් බවට හරවා ප්‍රස්ථාර මුද්‍රණය කරන ECG යන්ත්‍රය අයත් වන පරිගණක වර්ගය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Pure Analog Computer / තනි ප්‍රතිසම පරිගණක
+- (B) Pure Digital Computer / තනි සංඛ්‍යාංක පරිගණක
+- (C) Hybrid Computer / මිශ්‍ර පරිගණක
+- (D) Mainframe Computer / මහා පරිගණක
 
-* **Correct Answer:** **(B) Dynamic RAM (DRAM)**
-* **Explanation (විස්තරය):**
-  - **[English]:** DRAM uses tiny capacitors to store bits, which naturally leak charge and must be continuously refreshed. **SRAM** uses flip-flop transistors and does not require refreshing.
-  - **[Sinhala]:** Dynamic RAM (DRAM) සෑදී ඇත්තේ ධාරිත්‍රක (Capacitors) වලිනි. ඒවායේ ආරෝපණ කාන්දු වන බැවින් නිරන්තරයෙන් Refresh කළ යුතුය.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(C)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Hybrid computers combine features of both analog (continuous signal sensing) and digital (precision computation and storage) technologies, such as medical ECG machines and ICU monitors.
+* **සිංහල:** මිශ්‍ර පරිගණක (Hybrid Computers) යනු ප්‍රතිසම සහ සංඛ්‍යාංක තාක්ෂණයන් දෙකෙහිම එකතුවකි. ECG යන්ත්‍රය ප්‍රතිසම හෘද සංඥා ලබාගෙන සංඛ්‍යාංක ලෙස සකසා මුද්‍රණය කරයි.
 
 ---
 
-### Question 23
-* **English:** Which storage metric represents the cost efficiency of a storage medium?
-* **Sinhala:** ගබඩා මාධ්‍යයක ආර්ථික වාසිදායක බව මනිනු ලබන ප්‍රධාන මිනුම කුමක්ද?
-* **Options:**
-  - (A) Access Speed in Nanoseconds
-  - (B) Cost per Bit / Bit per Rupee (පිරිවැය)
-  - (C) Physical Size in Inches
-  - (D) Power consumption in Watts
+### 🎴 Question / Flashcard #21
+**Question / ප්‍රශ්නය:**
+Which system bus transmits signals in ONE direction only (unidirectional), specifically from the CPU to memory/devices?
+CPU හි සිට මතකය හෝ උපාංග දෙසට පමණක් ඒක-දිශානතිකව (Unidirectional) සංඥා සම්ප්‍රේෂණය කරන පද්ධති බසය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Data Bus / දත්ත බසය
+- (B) Address Bus / ලිපින බසය
+- (C) Control Bus / පාලන බසය
+- (D) Expansion Bus / ප්‍රසාරණ බසය
 
-* **Correct Answer:** **(B) Cost per Bit / Bit per Rupee (පිරිවැය)**
-* **Explanation (විස්තරය):**
-  - **[English]:** Storage memory is evaluated by **Cost per Bit**. Secondary storage (HDD/Tape) has a very low cost per bit, while CPU Registers/Cache have a very high cost per bit.
-  - **[Sinhala]:** මතක මාධ්‍යයක වටිනාකම එක බිටුවකට යන පිරිවැය (Cost per bit) අනුව මනිනු ලැබේ. හාඩ් ඩිස්ක්වල බිටුවක පිරිවැය අඩු අතර කැෂ් මතකයේ පිරිවැය ඉහළය.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** The Address Bus is unidirectional; only the CPU places physical memory addresses onto it to specify which RAM cell or I/O port is targeted. The Data Bus and Control Bus are bidirectional.
+* **සිංහල:** ලිපින බසය (Address Bus) ඒක-දිශානතික වේ. CPU මඟින් පමණක් නිශ්චිත මතක ස්ථානය පෙන්වා දීම සඳහා ලිපිනය නිකුත් කරනු ලබයි. දත්ත බසය ද්වි-දිශානතික වේ.
 
 ---
 
-### Question 24
-* **English:** What is the fundamental difference between Primary Memory and Secondary Memory?
-* **Sinhala:** ප්‍රධාන මතකය (Primary Memory) සහ ද්විතීයික මතකය (Secondary Memory) අතර ප්‍රධානතම වෙනස කුමක්ද?
-* **Options:**
-  - (A) Primary memory is magnetic while secondary memory is optical
-  - (B) CPU directly accesses Primary memory, whereas Secondary memory is accessed via I/O controllers
-  - (C) Primary memory stores data permanently while secondary is temporary
-  - (D) Secondary memory is always faster than primary memory
+### 🎴 Question / Flashcard #22
+**Question / ප්‍රශ්නය:**
+What fundamental property distinguishes RAM (Random Access Memory) from ROM (Read Only Memory)?
+RAM (සසම්භාවී පිවිසුම් මතකය) සහ ROM (පඨන මාත්‍ර මතකය) අතර ඇති මූලික වෙනස කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) RAM is non-volatile while ROM is volatile / RAM නොමැකෙන මතකයක් වන අතර ROM මැකෙන මතකයකි
+- (B) RAM is volatile (loses data on power loss) and Read/Write, while ROM is non-volatile and Read-Only / RAM විදුලිය විසන්ධි වූ විට මැකෙන කියවිය හැකි/ලිවිය හැකි මතකයක් වන අතර ROM නොමැකෙන පඨන මාත්‍ර මතකයකි
+- (C) RAM stores BIOS firmware permanently / RAM මඟින් BIOS ස්ථීරාංගය ස්ථිරව රඳවා ගනී
+- (D) ROM is faster than CPU Registers / ROM මතකය CPU රෙජිස්ටර්වලට වඩා වේගවත් වේ
 
-* **Correct Answer:** **(B) CPU directly accesses Primary memory, whereas Secondary memory is accessed via I/O controllers**
-* **Explanation (විස්තරය):**
-  - **[English]:** The CPU can directly address and interact with **Primary Memory (RAM/ROM)** over the system bus. **Secondary Storage (HDD/SSD)** cannot be directly addressed by the CPU and requires loading into RAM first.
-  - **[Sinhala]:** CPU එකට ප්‍රධාන මතකය (RAM/ROM) සමග සෘජුවම සම්බන්ධ විය හැක. නමුත් ද්විතීයික මතකයේ ඇති දත්ත සෘජුව සැකසිය නොහැකි අතර පළමුව RAM එකට ලබාගත යුතුය.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** RAM is volatile read/write memory holding active software, losing all content when powered off. ROM is non-volatile read-only memory holding startup BIOS firmware permanently.
+* **සිංහල:** RAM යනු විදුලිය විසන්ධි වූ විට දත්ත මැකී යන (Volatile) කියවීමට හා ලිවීමට හැකි මතකයකි. ROM යනු විදුලිය විසන්ධි වුවද දත්ත නොමැකෙන (Non-volatile) ස්ථිර පඨන මාත්‍ර මතකයකි.
 
 ---
 
-### Question 25
-* **English:** How many Megabytes (MB) are equal to 1 Gigabyte (GB) in standard binary prefix calculations ($2^{10}$)?
-* **Sinhala:** සම්මත බයිනරි ගණනය කිරීම් අනුව Gigabyte 1 ක් (1 GB) තුළ Megabytes (MB) කීයක් අඩංගු වේද?
-* **Options:**
-  - (A) 1000 MB
-  - (B) 1024 MB
-  - (C) 1048576 MB
-  - (D) 512 MB
+### 🎴 Question / Flashcard #23
+**Question / ප්‍රශ්නය:**
+What critical startup instructions and diagnostic routines are permanently held in ROM?
+පරිගණකය පණගැන්වීමේදී ක්‍රියාත්මක වන කුමන මූලික උපදෙස් සහ දෘඩාංග පරීක්ෂණ වැඩසටහන් ROM මතකයේ ස්ථිරව තැන්පත් කර තිබේද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Web browser bookmarks / වෙබ් ගවේෂක පිටු සලකුණු
+- (B) BIOS (Basic Input/Output System) and POST (Power-On Self-Test) / BIOS සහ POST පරීක්ෂණ වැඩසටහන
+- (C) Word processing template documents / වචන සැකසුම් ආකෘති පත්‍ර
+- (D) Antivirus virus definition databases / ප්‍රතිවෛරස් දත්ත සමුදායන්
 
-* **Correct Answer:** **(B) 1024 MB**
-* **Explanation (විස්තරය):**
-  - **[English]:** In binary memory measurements: $1 	ext{ KB} = 1024 	ext{ Bytes}$, $1 	ext{ MB} = 1024 	ext{ KB}$, and $1 	ext{ GB} = 1024 	ext{ MB} = 2^{10} 	ext{ MB}$.
-  - **[Sinhala]:** පරිගණක ගබඩා ඒකක බයිනරි බලයන් ($2^{10}$) අනුව ගණනය වන බැවින් $1 	ext{ GB} = 1024 	ext{ MB}$ වේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** ROM permanently stores the BIOS firmware and POST routine, which verifies connected hardware (RAM, keyboard, drives) and loads the operating system when the PC is booted.
+* **සිංහල:** ROM මතකයේ BIOS (Basic Input/Output System) සහ පරිගණකය දැමූ විගස දෘඩාංග පරීක්ෂා කරන POST (Power-On Self-Test) උපදෙස් ස්ථිරව ගබඩා කර ඇත.
 
 ---
 
-### Question 26
-* **English:** Which secondary storage media uses magnetic technology and sequential access to store large archive backups?
-* **Sinhala:** විශාල දත්ත පිටපත් (Backup) තැන්පත් කිරීම සඳහා චුම්බක තාක්ෂණය සහ අනුක්‍රමික ප්‍රවේශය (Sequential Access) භාවිත කරන ආචයන මාධ්‍යය කුමක්ද?
-* **Options:**
-  - (A) Hard Disk Drive
-  - (B) Magnetic Tape / චුම්බක පටිය
-  - (C) USB Flash Drive
-  - (D) DVD-RAM
+### 🎴 Question / Flashcard #24
+**Question / ප්‍රශ්නය:**
+Which of the following computer ports carries BOTH high-definition digital video AND digital audio over a single cable?
+තනි කේබලයක් හරහා අධි-විභේදන ඩිජිටල් වීඩියෝ සහ ශ්‍රව්‍ය (Audio) සංඥා යන දෙකම එකවර සම්ප්‍රේෂණය කරන පරිගණක කෙවෙනිය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) VGA Port (Video Graphics Array)
+- (B) HDMI Port (High-Definition Multimedia Interface)
+- (C) PS/2 Port
+- (D) Parallel Port (LPT)
 
-* **Correct Answer:** **(B) Magnetic Tape / චුම්බක පටිය**
-* **Explanation (විස්තරය):**
-  - **[English]:** **Magnetic Tape** reads data sequentially from start to end. Though slow for direct random access, it is cheap and durable for enterprise data archiving.
-  - **[Sinhala]:** චුම්බක පටිය (Magnetic Tape) අනුක්‍රමික ප්‍රවේශ (Sequential Access) මාධ්‍යයකි. විශාල දත්ත ආරක්ෂිතව හා අඩුවියදමින් Backup තබා ගැනීමට භාවිත කරයි.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** HDMI transmits uncompressed digital high-definition video AND multi-channel audio simultaneously. VGA only transmits analog video signals.
+* **සිංහල:** HDMI කෙවෙනිය මඟින් ඩිජිටල් වීඩියෝ සහ ශ්‍රව්‍ය (Audio) සංඥා යන දෙකම තනි කේබලයකින් සම්ප්‍රේෂණය කරයි. VGA මඟින් සම්ප්‍රේෂණය කරන්නේ ප්‍රතිසම වීඩියෝ පමණි.
 
 ---
 
-### Question 27
-* **English:** Which form of primary memory is used as Static RAM (SRAM) inside CPU Cache?
-* **Sinhala:** CPU කැෂ් මතකය නිර්මාණය කිරීමට භාවිත කරන ප්‍රධාන මතක වර්ගය කුමක්ද?
-* **Options:**
-  - (A) Dynamic RAM (DRAM)
-  - (B) Static RAM (SRAM)
-  - (C) Mask ROM
-  - (D) SDRAM
+### 🎴 Question / Flashcard #25
+**Question / ප්‍රශ්නය:**
+What type of physical connector is an RJ-45 port used for on a computer?
+පරිගණකයක ඇති RJ-45 කෙවෙනිය (Port) භාවිත වන්නේ කුමන සම්බන්ධතාවක් සඳහාද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Connecting external speakers and microphones / බාහිර ස්පීකර සහ මයික්‍රෆෝන සම්බන්ධ කිරීමට
+- (B) Connecting to a Local Area Network (LAN) and Internet router via Ethernet cable / ඊතර්නෙට් කේබලයක් මඟින් LAN ජාලයකට හෝ රවුටරයකට සම්බන්ධ වීමට
+- (C) Powering the CPU cooling fan / CPU සිසිලන පංකාවට විදුලිය සැපයීමට
+- (D) Connecting legacy dot-matrix printers / පැරණි තිත් න්‍යාස මුද්‍රක සම්බන්ධ කිරීමට
 
-* **Correct Answer:** **(B) Static RAM (SRAM)**
-* **Explanation (විස්තරය):**
-  - **[English]:** **Static RAM (SRAM)** uses 6-transistor flip-flops. It is much faster than DRAM and requires no refreshing, making it ideal for Cache Memory despite being expensive.
-  - **[Sinhala]:** කැෂ් මතකය (Cache Memory) සඳහා භාවිත කරන්නේ **SRAM (Static RAM)** යි. එය DRAM වලට වඩා වේගවත් අතර Refresh කිරීමට අවශ්‍ය නොවේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** The RJ-45 port is an 8-pin modular Ethernet network port used to connect computers to Local Area Networks (LAN) and Internet broadband modems/routers.
+* **සිංහල:** RJ-45 කෙවෙනිය යනු ඊතර්නෙට් ජාල කේබල් මඟින් පරිගණකය දේශීය පරිගණක ජාලයකට (LAN) හෝ අන්තර්ජාල රවුටරයකට සම්බන්ධ කිරීම සඳහා භාවිත වන ජාල කෙවෙනියයි.
 
 ---
 
-### Question 28
-* **English:** What is the typical storage capacity of a standard single-sided, single-layer DVD?
-* **Sinhala:** සම්මත එක් පසක් පමණක් භාවිත කළ හැකි DVD තැටියක සාමාන්‍ය ගබඩා ධාරිතාව කොපමණද?
-* **Options:**
-  - (A) 700 MB
-  - (B) 4.7 GB
-  - (C) 8.5 GB
-  - (D) 25 GB
+## TIER 2: Applied Scenarios & Real-World Analysis (ප්‍රශ්න 26 – 45: ප්‍රායෝගික යෙදවුම් සහ අවස්ථානුකූල විශ්ලේෂණය)
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+### 🎴 Question / Flashcard #26
+**Question / ප්‍රශ්නය:**
+A wholesale hardware merchant needs to issue an official printed invoice to a customer while simultaneously generating two duplicate carbon copies underneath for office records. Which printer must they purchase?
+තොග වෙළෙන්දෙකුට පාරිභෝගිකයාට බිල්පතක් නිකුත් කරන අතරතුර ඊට යටින් කාබන් කොපි (Carbon copies) සහිත අනුපිටපත් 2ක් එකවර මුද්‍රණය කර ගැනීමට අවශ්‍ය වේ. ඔවුන් තෝරාගත යුත්තේ කුමන මුද්‍රකයද?
 
-* **Correct Answer:** **(B) 4.7 GB**
-* **Explanation (විස්තරය):**
-  - **[English]:** Standard single-layer DVD capacity is $4.7 	ext{ GB}$. Standard CD capacity is $700 	ext{ MB}$. Single-layer Blu-Ray capacity is $25 	ext{ GB}$.
-  - **[Sinhala]:** සම්මත Single-layer DVD එකක ධාරිතාව 4.7 GB වේ.
-</details>
+- (A) Laser Printer / ලේසර් මුද්‍රකය
+- (B) Inkjet Printer / තීන්ත විදුම් මුද්‍රකය
+- (C) Dot Matrix Printer / තිත් න්‍යාස මුද්‍රකය
+- (D) Thermal Printer / තාප මුද්‍රකය
 
----
+**Correct Answer / නිවැරදි පිළිතුර:** **(C)**
 
-### Question 29
-* **English:** What type of ROM allows the user to write data onto it ONLY ONCE using a special programming tool, after which it cannot be erased?
-* **Sinhala:** විශේෂිත උපාංගයක් භාවිතයෙන් **එක් වරක් පමණක්** දත්ත ලිවිය හැකි, ඉන්පසු මකා දැමිය නොහැකි ROM වර්ගය කුමක්ද?
-* **Options:**
-  - (A) PROM (Programmable Read-Only Memory)
-  - (B) EPROM
-  - (C) EEPROM
-  - (D) Flash Memory
-
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
-
-* **Correct Answer:** **(A) PROM (Programmable Read-Only Memory)**
-* **Explanation (විස්තරය):**
-  - **[English]:** **PROM** is manufactured blank. A programmer burns micro-fuses to write data once. Once written, the fuses are blown permanently and cannot be re-programmed.
-  - **[Sinhala]:** PROM (Programmable ROM) එකකට දත්ත ලිවිය හැක්කේ එක් වරක් පමණි. ලිවීමෙන් පසු දත්ත මකා දැමිය නොහැක.
-</details>
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Only Impact printers like Dot Matrix printers exert physical striking pressure via pins to impact through carbon paper layers, producing multi-part duplicate forms simultaneously. Non-impact printers cannot produce carbon duplicates.
+* **සිංහල:** භෞතිකව පීඩනයක් යොදමින් කාබන් කොපි සහිත අනුපිටපත් එකවර මුද්‍රණය කළ හැක්කේ ඝට්ටන මුද්‍රකයක් වන තිත් න්‍යාස (Dot Matrix) මුද්‍රකයට පමණි.
+* **Exam Trap:** Laser and Inkjet printers are non-impact and cannot print multi-part carbon copies in a single pass.
 
 ---
 
-### Question 30
-* **English:** Which phenomenon occurs when RAM space is insufficient, causing the Operating System to use a portion of Secondary Storage as temporary memory?
-* **Sinhala:** RAM මතක ඉඩ ප්‍රමාණවත් නොවන විට, මෙහෙයුම් පද්ධතිය විසින් ද්විතීයික මතකයෙන් කොටසක් තාවකාලික මතකය ලෙස භාවිත කිරීම හඳුන්වන නම කුමක්ද?
-* **Options:**
-  - (A) Cache Buffering
-  - (B) Virtual Memory / මායා මතකය
-  - (C) Flash Paging
-  - (D) ROM Mirroring
+### 🎴 Question / Flashcard #27
+**Question / ප්‍රශ්නය:**
+At a supermarket cashier counter (POS), which printer technology is universally utilized for instant, quiet, and inkless receipt printing?
+සුපිරි වෙළඳසැල් මුදල් අයකැමි කවුන්ටරවල (POS) ක්ෂණිකව, නිශ්ශබ්දව සහ තීන්ත රහිතව බිල්පත් මුද්‍රණය කිරීමට භාවිත වන තාක්ෂණය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Thermal Printer / තාප මුද්‍රකය
+- (B) Dot Matrix Printer / තිත් න්‍යාස මුද්‍රකය
+- (C) Plotter / ලකුණුකරණය
+- (D) Inkjet Printer / තීන්ත විදුම් මුද්‍රකය
 
-* **Correct Answer:** **(B) Virtual Memory / මායා මතකය**
-* **Explanation (විස්තරය):**
-  - **[English]:** When RAM fills up, the OS creates a paging file on the Hard Drive/SSD to act as **Virtual Memory**, swapping inactive memory pages back and forth.
-  - **[Sinhala]:** RAM ධාරිතාව පිරී ගිය විට, පරිගණකයේ හාඩ් ඩිස්ක් එකෙන් කොටසක් RAM එකක් ලෙස භාවිත කරයි. මෙය **මායා මතකය (Virtual Memory)** ලෙස හැඳින්වේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(A)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Thermal printers use heated pins to form images directly on thermo-sensitive chemical paper. They require no ink or ribbon, are completely silent, and print receipts instantly at POS counters and ATMs.
+* **සිංහල:** තාප මුද්‍රක (Thermal printers) විශේෂ තාප සංවේදී කඩදාසි මත රත් වූ පින් මඟින් අකුරු මතු කරයි. තීන්ත හෝ රිබන් අවශ්‍ය නොවන අතර POS හා ATM කවුන්ටර සඳහා වඩාත් සුදුසු වේ.
 
 ---
 
-## SECTION 3: Number Systems & Conversions (Q31 – Q45)
+### 🎴 Question / Flashcard #28
+**Question / ප්‍රශ්නය:**
+An architectural firm needs to produce massive, high-precision continuous vector blueprints ($A_0$ size) for a multi-story building. Which output device is most suitable?
+ගෘහ නිර්මාණ ශිල්පී ආයතනයකට මහල් ගොඩනැගිල්ලක $A_0$ ප්‍රමාණයේ අතිවිශාල සහ නිවැරදි රේඛීය සැලසුම් (Blueprints) මුද්‍රණය කර ගැනීමට අවශ්‍ය වේ. මේ සඳහා වඩාත්ම උචිත ප්‍රතිදාන උපාංගය කුමක්ද?
 
-### Question 31
-* **English:** What is the base value (Radix) and the set of valid digits used in the Octal Number System?
-* **Sinhala:** අෂ්ටමය (Octal) සංඛ්‍යා පද්ධතියේ පදනම (Base) සහ භාවිත වන සංකේත ගණන කුමක්ද?
-* **Options:**
-  - (A) Base 2, digits {0, 1}
-  - (B) Base 8, digits {0, 1, 2, 3, 4, 5, 6, 7}
-  - (C) Base 8, digits {1, 2, 3, 4, 5, 6, 7, 8}
-  - (D) Base 16, digits {0 to 9, A to F}
+- (A) Dot Matrix Printer / තිත් න්‍යාස මුද්‍රකය
+- (B) Plotter / ලකුණුකරණය (ප්ලෝටරය)
+- (C) Multimedia Projector / බහුමාධ්‍ය ප්‍රක්ෂේපකය
+- (D) Flatbed Scanner / සුපරීක්ෂකය
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
 
-* **Correct Answer:** **(B) Base 8, digits {0, 1, 2, 3, 4, 5, 6, 7}**
-* **Explanation (විස්තරය):**
-  - **[English]:** Octal is a Base-8 number system containing 8 distinct digits from $0$ to $7$. The digit '8' or '9' never exists in octal.
-  - **[Sinhala]:** අෂ්ටමය සංඛ්‍යා පද්ධතියේ පදනම 8 වන අතර, එහි භාවිත වන්නේ 0 සිට 7 දක්වා සංකේත 8 කි. (8 සහ 9 අෂ්ටමය සංඛ්‍යාවල නොමැත).
-</details>
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** A Plotter is a specialized vector device that uses automated mechanical ink pens or knives to draw high-precision, continuous engineering and architectural blueprints on large rolls of paper.
+* **සිංහල:** ප්ලෝටරය (Plotter) යනු ගෘහ නිර්මාණ සහ ඉංජිනේරු සැලසුම් (Blueprints) විශාල ප්‍රමාණයේ කඩදාසි මත අතිශය නිරවද්‍ය අඛණ්ඩ රේඛා මඟින් ඇඳීම සඳහා යොදා ගන්නා විශේෂිත ප්‍රතිදාන උපාංගයකි.
 
 ---
 
-### Question 32
-* **English:** Convert the Decimal number $25_{10}$ into its Binary equivalent.
-* **Sinhala:** $25_{10}$ යන දශමය සංඛ්‍යාව බයිනරි (ද්විමය) සංඛ්‍යාවක් බවට හරවන්න.
-* **Options:**
-  - (A) $11001_2$
-  - (B) $10101_2$
-  - (C) $11101_2$
-  - (D) $10011_2$
+### 🎴 Question / Flashcard #29
+**Question / ප්‍රශ්නය:**
+A school administrative office prints 10,000 pages of text examination papers each month at the fastest possible speed and lowest per-page operating cost. Which printer should be deployed?
+පාසල් කාර්යාලයකට මසකට විභාග ප්‍රශ්න පත්‍ර පිටු 10,000ක් උපරිම වේගයෙන් සහ අවම පිටු පිරිවැයකින් මුද්‍රණය කිරීමට අවශ්‍ය නම් වඩාත්ම සුදුසු මුද්‍රකය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Laser Printer / ලේසර් මුද්‍රකය
+- (B) Inkjet Printer / තීන්ත විදුම් මුද්‍රකය
+- (C) Thermal Printer / තාප මුද්‍රකය
+- (D) 3D Printer / ත්‍රිමාණ මුද්‍රකය
 
-* **Correct Answer:** **(A) $11001_2$**
-* **Explanation (විස්තරය):**
-  - **[English]:** Repeated division by 2:
-    - $25 / 2 = 12 	ext{ Remainder } 1$
-    - $12 / 2 = 6 	ext{ Remainder } 0$
-    - $6 / 2 = 3 	ext{ Remainder } 0$
-    - $3 / 2 = 1 	ext{ Remainder } 1$
-    - $1 / 2 = 0 	ext{ Remainder } 1$
-    - Reading remainders bottom-up gives $11001_2$. Alternatively: $16 + 8 + 1 = 25 ightarrow 11001_2$.
-  - **[Sinhala]:** 25 දෙකෙන් බෙදා ඉතිරිය යට සිට ඉහළට ගැනීමේදී $11001_2$ ලැබේ ($16+8+1 = 25$).
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(A)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Laser printers use powdered toner, electrostatic drums, and laser beams to deliver ultra-fast print speeds with sharp text and low operating costs per page for high monthly workloads.
+* **සිංහල:** ලේසර් මුද්‍රක (Laser Printers) මඟින් වියළි ටෝනර් කුඩු භාවිතයෙන් ඉතා ඉහළ වේගයකින් සහ පැහැදිලි බවකින් යුතුව විශාල ලේඛන ප්‍රමාණයක් අඩු පිරිවැයකින් මුද්‍රණය කළ හැක.
 
 ---
 
-### Question 33
-* **English:** Convert the Binary number $10111_2$ into its Decimal value.
-* **Sinhala:** $10111_2$ යන බයිනරි සංඛ්‍යාවෙහි දශමය අගය කුමක්ද?
-* **Options:**
-  - (A) 21
-  - (B) 23
-  - (C) 25
-  - (D) 27
+### 🎴 Question / Flashcard #30
+**Question / ප්‍රශ්නය:**
+A presenter connects a laptop to a multimedia projector. They notice high-definition video is displayed on the wall, but NO sound comes out of the projector's speakers. The laptop is connected via a 15-pin blue VGA cable. Why is there no sound?
+දේශකයෙකු සිය ලැප්ටොප් පරිගණකය නිල් පැහැති 15-pin VGA කේබලයක් මඟින් ප්‍රක්ෂේපකයට සම්බන්ධ කළ විට රූප රාමු දිස් වුවද ශබ්දය නොඇසේ. මීට හේතුව කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) The VGA port is faulty / VGA කෙවෙනිය දෝෂ සහිත වීම
+- (B) VGA cables transmit analog video only and cannot carry audio signals / VGA කේබල් මඟින් ප්‍රතිසම වීඩියෝ සංඥා පමණක් ගෙන යන අතර ශ්‍රව්‍ය සංඥා රැගෙන යා නොහැකි වීම
+- (C) The projector needs a high-speed SSD / ප්‍රක්ෂේපකයට වේගවත් SSD එකක් අවශ්‍ය වීම
+- (D) The laptop RAM is insufficient / පරිගණකයේ RAM මතකය ප්‍රමාණවත් නොවීම
 
-* **Correct Answer:** **(B) 23**
-* **Explanation (විස්තරය):**
-  - **[English]:** Positional weights: $(1 	imes 2^4) + (0 	imes 2^3) + (1 	imes 2^2) + (1 	imes 2^1) + (1 	imes 2^0) = 16 + 0 + 4 + 2 + 1 = 23_{10}$.
-  - **[Sinhala]:** ස්ථානීය අගයන්ගේ එකතුව: $16 + 0 + 4 + 2 + 1 = 23$.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** VGA is strictly an analog video interface. To transmit both digital video and audio over a single cord, an HDMI cable or a separate 3.5mm audio patch cable must be used.
+* **සිංහල:** VGA කෙවෙනිය මඟින් ප්‍රතිසම වීඩියෝ (දෘශ්‍ය) සංඥා පමණක් ගෙන යන අතර ශබ්දය රැගෙන යා නොහැක. ශබ්දය සඳහා වෙනම 3.5mm ඕඩියෝ කේබලයක් හෝ HDMI කේබලයක් භාවිත කළ යුතුය.
 
 ---
 
-### Question 34
-* **English:** What letter represents the decimal value $13_{10}$ in the Hexadecimal number system?
-* **Sinhala:** ෂඩ්දශමය (Hexadecimal) සංඛ්‍යා පද්ධතියේ 13 යන දශමය අගය නිරූපණය කරන්නේ කුමන අක්ෂරයෙන්ද?
-* **Options:**
-  - (A) B
-  - (B) C
-  - (C) D
-  - (D) E
+### 🎴 Question / Flashcard #31
+**Question / ප්‍රශ්නය:**
+A commercial bank processes thousands of paper cheques every evening. Which specialized input device reads the magnetic ink characters at the bottom of each cheque?
+වාණිජ බැංකුවක චෙක්පත් දහස් ගණනක් ස්වයංක්‍රීයව නිෂ්කාශනය කිරීම සඳහා චෙක්පතේ යට මුද්‍රණය කර ඇති චුම්බක තීන්ත අක්ෂර කියවීමට භාවිත කරන ආදාන උපාංගය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Optical Mark Recognition (OMR)
+- (B) Magnetic Ink Character Reader (MICR)
+- (C) Optical Character Recognition (OCR)
+- (D) Barcode Reader (BCR)
 
-* **Correct Answer:** **(C) D**
-* **Explanation (විස්තරය):**
-  - **[English]:** Hexadecimal mappings: $10=	ext{A}$, $11=	ext{B}$, $12=	ext{C}$, $13=	ext{D}$, $14=	ext{E}$, $15=	ext{F}$.
-  - **[Sinhala]:** ෂඩ්දශමය සංඛ්‍යාවල 10 සිට 15 දක්වා අක්ෂර භාවිත වේ: $10=	ext{A}$, $11=	ext{B}$, $12=	ext{C}$, $13=	ext{D}$, $14=	ext{E}$, $15=	ext{F}$.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** MICR (Magnetic Ink Character Reader) detects iron oxide magnetic ink printed at the bottom of cheques. It is extremely secure against fraud and readable even if smeared.
+* **සිංහල:** MICR (චුම්බක තීන්ත අනුලක්ෂණ කියවනය) මඟින් බැංකු චෙක්පත්වල යට ඇති චුම්බක තීන්ත අක්ෂර නිරවද්‍යව සහ ආරක්ෂිතව කියවනු ලබයි.
 
 ---
 
-### Question 35
-* **English:** Convert the Hexadecimal number $2	ext{A}_{16}$ into an 8-bit Binary representation.
-* **Sinhala:** $2	ext{A}_{16}$ යන ෂඩ්දශමය සංඛ්‍යාව බිටු 8 ක බයිනරි සංඛ්‍යාවක් බවට හරවන්න.
-* **Options:**
-  - (A) $00101010_2$
-  - (B) $00101011_2$
-  - (C) $00011010_2$
-  - (D) $00101100_2$
+### 🎴 Question / Flashcard #32
+**Question / ප්‍රශ්නය:**
+The Department of Examinations evaluates 300,000 multiple-choice (MCQ) answer sheets shaded with 2B pencils. Which automated device reads these mark sheets?
+විභාග දෙපාර්තමේන්තුව විසින් 2B පැන්සලෙන් සලකුණු කළ බහුවරණ (MCQ) උත්තර පත්‍ර ලක්ෂ ගණනක් ස්වයංක්‍රීයව ලකුණු කිරීම සඳහා භාවිත කරන උපාංගය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Optical Mark Recognition (OMR) / ප්‍රකාශ සලකුණු සංජානන උපාංගය
+- (B) Magnetic Ink Character Reader (MICR) / චුම්බක තීන්ත අනුලක්ෂණ කියවනය
+- (C) Barcode Reader (BCR) / තීරු කේත කියවනය
+- (D) Biometric Scanner / ජෛවමිතික ස්කෑනරය
 
-* **Correct Answer:** **(A) $00101010_2$**
-* **Explanation (විස්තරය):**
-  - **[English]:** Convert each hex digit to 4 binary bits: $2_{16} = 0010_2$, $	ext{A}_{16} (10_{10}) = 1010_2$. Combining them gives $00101010_2$.
-  - **[Sinhala]:** එක් එක් ෂඩ්දශමය ඉලක්කම බිටු 4 කින් ලිවීම: $2 ightarrow 0010$, $	ext{A}(10) ightarrow 1010$. එකතු කළ විට $00101010_2$ ලැබේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(A)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** OMR (Optical Mark Recognition) shines light onto pre-printed forms to detect the presence or absence of dark marks in predefined checkboxes based on light reflection.
+* **සිංහල:** OMR (ප්‍රකාශ සලකුණු සංජානන උපාංගය) මඟින් බහුවරණ උත්තර පත්‍රවල පැන්සල් හෝ පෑනෙන් සලකුණු කළ ස්ථානවල පරාවර්තනය වන ආලෝකය හඳුනාගෙන නිවැරදි ලකුණු ගණනය කරයි.
 
 ---
 
-### Question 36
-* **English:** Convert the Binary number $110101_2$ directly into its Octal value.
-* **Sinhala:** $110101_2$ යන බයිනරි සංඛ්‍යාව අෂ්ටමය (Octal) සංඛ්‍යාවක් බවට හරවන්න.
-* **Options:**
-  - (A) $65_8$
-  - (B) $53_8$
-  - (C) $63_8$
-  - (D) $55_8$
+### 🎴 Question / Flashcard #33
+**Question / ප්‍රශ්නය:**
+A national museum wishes to digitize ancient printed historical documents and convert them into editable Word processor text files. Which technology should they utilize?
+ජාතික කෞතුකාගාරයක ඇති පැරණි මුද්‍රිත ලේඛන පරිලෝකනය කර, සංස්කරණය කළ හැකි පරිගණක අක්ෂර (Text) බවට පත් කර ගැනීමට අවශ්‍ය තාක්ෂණය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Optical Character Recognition (OCR) / ප්‍රකාශ අක්ෂර සංජානන මෘදුකාංගය
+- (B) Optical Mark Recognition (OMR) / ප්‍රකාශ සලකුණු සංජානනය
+- (C) Magnetic Ink Character Recognition (MICR) / චුම්බක තීන්ත අනුලක්ෂණ කියවීම
+- (D) Plotter Digitizer / ප්ලෝටර් ඩිජිටයිසරය
 
-* **Correct Answer:** **(A) $65_8$**
-* **Explanation (විස්තරය):**
-  - **[English]:** Group binary digits into sets of 3 from right to left: $(110) (101) ightarrow 110_2 = 6$, $101_2 = 5 ightarrow 65_8$.
-  - **[Sinhala]:** දකුණේ සිට බිටු 3 බැගින් කාණ්ඩ කිරීම: $(110)_2 = 6$ සහ $(101)_2 = 5$. පිළිතුර $65_8$ වේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(A)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** OCR (Optical Character Recognition) analyzes scanned image bitmaps of printed or handwritten text and translates glyphs into editable ASCII/Unicode characters.
+* **සිංහල:** OCR මඟින් ස්කෑන් කරන ලද ලේඛනයක ඇති අකුරු රූප (Images), පරිගණකයේ සංස්කරණය කළ හැකි පෙළ (Editable text) බවට පරිවර්තනය කරයි.
 
 ---
 
-### Question 37
-* **English:** What is the result of binary addition: $1011_2 + 0110_2$?
-* **Sinhala:** $1011_2 + 0110_2$ යන බයිනරි එකතු කිරීමේ පිළිතුර කුමක්ද?
-* **Options:**
-  - (A) $10001_2$
-  - (B) $10000_2$
-  - (C) $10011_2$
-  - (D) $11101_2$
+### 🎴 Question / Flashcard #34
+**Question / ප්‍රශ්නය:**
+When connecting headphones and a microphone to the 3.5mm color-coded audio jacks of a desktop computer, which colors should be matched?
+ඩෙස්ක්ටොප් පරිගණකයක 3.5mm වර්ණ කේත සහිත ශ්‍රව්‍ය කෙවෙනිවලට හෙඩ්ෆෝනය සහ මයික්‍රෆෝනය සම්බන්ධ කිරීමේදී නිවැරදි වර්ණ ගැලපීම කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Green for Microphone, Pink for Headphones / මයික්‍රෆෝනයට කොළ, හෙඩ්ෆෝනයට රෝස
+- (B) Pink for Microphone, Light Green for Headphones / මයික්‍රෆෝනයට රෝස (Pink), හෙඩ්ෆෝනයට ලා කොළ (Light Green)
+- (C) Blue for Microphone, Black for Headphones / මයික්‍රෆෝනයට නිල්, හෙඩ්ෆෝනයට කළු
+- (D) Yellow for Microphone, White for Headphones / මයික්‍රෆෝනයට කහ, හෙඩ්ෆෝනයට සුදු
 
-* **Correct Answer:** **(A) $10001_2$**
-* **Explanation (විස්තරය):**
-  - **[English]:** In decimal: $1011_2 = 11$, $0110_2 = 6$. $11 + 6 = 17_{10}$. $17_{10}$ in binary is $10001_2$ ($16 + 1$).
-  - **[Sinhala]:** දශමය අගයන්: $11 + 6 = 17$. 17 බයිනරිවලින් ලිවූ විට $10001_2$ වේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** On PC audio panels, Light Green indicates Audio Line-Out (headphones/speakers), Pink indicates Microphone Audio-In, and Light Blue indicates Line-In.
+* **සිංහල:** පරිගණක ශ්‍රව්‍ය පුවරුවේ රෝස පැහැය (Pink) මයික්‍රෆෝන ආදානයට ද, ලා කොළ පැහැය (Light Green) හෙඩ්ෆෝන්/ස්පීකර් ප්‍රතිදානයට ද භාවිත වේ.
 
 ---
 
-### Question 38
-* **English:** What is the 1's complement of the binary number $10110100_2$?
-* **Sinhala:** $10110100_2$ යන බයිනරි සංඛ්‍යාවේ 1 හි අනුපූරකය (1's complement) කුමක්ද?
-* **Options:**
-  - (A) $01001011_2$
-  - (B) $01001100_2$
-  - (C) $10110101_2$
-  - (D) $01001010_2$
+### 🎴 Question / Flashcard #35
+**Question / ප්‍රශ්නය:**
+A student is typing an essay in a word processor when the power suddenly cuts out without a UPS. What happens to the typed document that was NOT saved to the SSD/hard disk?
+ශිෂ්‍යයෙකු පරිගණකයේ රචනාවක් ටයිප් කරමින් සිටින අතරතුර UPS එකක් නොමැතිව හදිසියේ විදුලිය ඇනහිටී. SSD හෝ දෘඩ තැටියේ සුරැකීමට ලක් නොකළ ලේඛනයට සිදුවන්නේ කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) It remains safely preserved in ROM / එය ROM මතකයේ සුරක්ෂිතව පවතී
+- (B) It is permanently lost because RAM is volatile memory / RAM යනු තාවකාලික (Volatile) මතකයක් බැවින් ලේඛනය සම්පූර්ණයෙන්ම මැකී යයි
+- (C) The CPU registers will keep the essay intact indefinitely / CPU රෙජිස්ටර් මඟින් එය ස්ථිරව තබා ගනී
+- (D) It transfers automatically to the magnetic tape / එය ස්වයංක්‍රීයව චුම්බක පටයට මාරු වේ
 
-* **Correct Answer:** **(A) $01001011_2$**
-* **Explanation (විස්තරය):**
-  - **[English]:** To find the 1's complement, invert every bit ($1 ightarrow 0$ and $0 ightarrow 1$). $10110100 ightarrow 01001011_2$.
-  - **[Sinhala]:** 1 හි අනුපූරකය සෙවීමට සියලු බිටු ආපසු හරවන්න ($1 ightarrow 0$ සහ $0 ightarrow 1$). $10110100 ightarrow 01001011_2$.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Open application files reside in RAM. Because RAM is volatile and requires electrical power to sustain its electronic state, all unsaved work is erased immediately when power fails.
+* **සිංහල:** ක්‍රියාත්මක වන වැඩසටහන් පවතින්නේ RAM මතකය තුළයි. RAM යනු විදුලිය නැතිවිට දත්ත මැකී යන තාවකාලික (Volatile) මතකයක් බැවින් සුරැකීමට ලක් නොකළ දත්ත සියල්ල ක්ෂණිකව මැකී යයි.
 
 ---
 
-### Question 39
-* **English:** What is the 2's complement of the binary number $00001101_2$?
-* **Sinhala:** $00001101_2$ යන බයිනරි සංඛ්‍යාවේ 2 හි අනුපූරකය (2's complement) කුමක්ද?
-* **Options:**
-  - (A) $11110010_2$
-  - (B) $11110011_2$
-  - (C) $11110100_2$
-  - (D) $11110001_2$
+### 🎴 Question / Flashcard #36
+**Question / ප්‍රශ්නය:**
+Why can a computer Central Processing Unit (CPU) NOT execute programs directly off a secondary storage Hard Disk Drive (HDD)?
+පරිගණකයේ CPU එකට ද්විතීයික ආචයනයක් වන දෘඩ තැටියෙන් (HDD) සෘජුවම වැඩසටහන් උපදෙස් ක්‍රියාත්මක කළ නොහැක්කේ මන්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Hard disks do not have sectors / දෘඩ තැටිවල ඛණ්ඩක නොමැති බැවින්
+- (B) The CPU can directly communicate only with Primary Memory (RAM/Cache) via the system bus; secondary storage is far too slow and indirect / CPU එකට පද්ධති බසය හරහා සෘජුව සම්බන්ධ විය හැක්කේ ප්‍රධාන මතකයට පමණක් වන අතර දෘඩ තැටියේ වේගය ඉතා මන්දගාමී බැවින්
+- (C) Hard disks are volatile / දෘඩ තැටි මැකෙන මතකයක් වන බැවින්
+- (D) The Control Unit only supports keyboards / පාලන ඒකකය යතුරුපුවරු පමණක් හඳුනන බැවින්
 
-* **Correct Answer:** **(B) $11110011_2$**
-* **Explanation (විස්තරය):**
-  - **[English]:** 1. Find 1's complement of $00001101 ightarrow 11110010$. 2. Add 1 to result: $11110010 + 1 = 11110011_2$.
-  - **[Sinhala]:** 1. 1 හි අනුපූරකය ලබා ගන්න ($11110010$). 2. ඊට 1 ක් එකතු කරන්න ($11110010 + 1 = 11110011_2$).
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** In the Von Neumann architecture, programs must be loaded from secondary storage into Primary Memory (RAM) before execution. The CPU cannot address storage disks directly.
+* **සිංහල:** වොන් නියුමන් ආකෘතියට අනුව CPU එකට සෘජුව ප්‍රවේශ විය හැක්කේ ප්‍රධාන මතකයට (RAM) පමණි. එබැවින් ක්‍රියාත්මක වීමට පෙර දත්ත දෘඩ තැටියේ සිට RAM වෙත පැමිණිය යුතුය.
 
 ---
 
-### Question 40
-* **English:** Convert the Octal number $74_8$ to its Hexadecimal equivalent.
-* **Sinhala:** $74_8$ යන අෂ්ටමය සංඛ්‍යාව ෂඩ්දශමය (Hexadecimal) සංඛ්‍යාවක් බවට හරවන්න.
-* **Options:**
-  - (A) $3	ext{C}_{16}$
-  - (B) $3	ext{E}_{16}$
-  - (C) $4	ext{A}_{16}$
-  - (D) $3	ext{B}_{16}$
+### 🎴 Question / Flashcard #37
+**Question / ප්‍රශ්නය:**
+A bank datacenter needs to perform long-term offline cold backups of 500 Terabytes of historical records that will rarely be accessed but must be stored at the lowest possible cost per gigabyte. Which media is ideal?
+බැංකු දත්ත මධ්‍යස්ථානයකට ඉතා කලාතුරකින් පරිශීලනය වන ටෙරාබයිට් 500ක ඓතිහාසික ගනුදෙනු දත්ත අවම පිරිවැයකින් ස්ථිරව ගබඩා කර තැබීමට අවශ්‍ය වේ. වඩාත්ම උචිත ආචයන මාධ්‍යය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Solid State Drive (SSD) / ඝන තත්ත්වයේ ධාවකය
+- (B) Magnetic Tape / චුම්බක පටය
+- (C) Static RAM / ස්ථිතික RAM
+- (D) DVD-ROM / ඩිජිටල් බහුවිධ තැටිය
 
-* **Correct Answer:** **(A) $3	ext{C}_{16}$**
-* **Explanation (විස්තරය):**
-  - **[English]:** Step 1: Convert octal to binary: $7_8 = 111_2$, $4_8 = 100_2 ightarrow 111100_2$. Step 2: Group into 4 bits from right: $(0011) (1100) ightarrow 3_{10} = 3$, $12_{10} = 	ext{C}_{16} ightarrow 3	ext{C}_{16}$.
-  - **[Sinhala]:** 1. අෂ්ටමය බයිනරි කරන්න ($111100_2$). 2. බිටු 4 බැගින් කාණ්ඩ කරන්න ($0011_2 = 3$, $1100_2 = 	ext{C}$). පිළිතුර $3	ext{C}_{16}$ වේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Magnetic Tape uses sequential access and is relatively slow, but offers the absolute lowest cost per gigabyte and decades-long retention, making it the industry standard for enterprise disaster recovery archiving.
+* **සිංහල:** චුම්බක පට (Magnetic Tape) අනුක්‍රමික ප්‍රවේශයක් සහිත මන්දගාමී මාධ්‍යයක් වුවද, ගිගාබයිටයකට වැයවන අවම පිරිවැය සහ දිගුකාලීන පැවැත්ම නිසා ආයතනික ලේඛනාගාර උපස්ථ (Backups) සඳහා යොදා ගනී.
 
 ---
 
-### Question 41
-* **English:** What is the maximum number of unique characters that can be represented using an 8-bit character encoding system like Extended ASCII?
-* **Sinhala:** බිටු 8 ක (8-bit) ASCII කේතන පද්ධතියක් මගින් නිරූපණය කළ හැකි උපරිම අනන්‍ය අක්ෂර ගණන කීයද?
-* **Options:**
-  - (A) 128
-  - (B) 256
-  - (C) 512
-  - (D) 65536
+### 🎴 Question / Flashcard #38
+**Question / ප්‍රශ්නය:**
+A field researcher travels over rugged, bumpy terrain with a laptop. Why is an SSD (Solid State Drive) far superior to an HDD (Hard Disk Drive) in this scenario?
+ක්ෂේත්‍ර පර්යේෂකයෙකු ගැස්සීම් සහිත මාර්ගවල ගමන් කරමින් ලැප්ටොප් පරිගණකය භාවිත කරයි. මෙම අවස්ථාවේදී HDD එකකට වඩා SSD එකක් වඩාත් සුදුසු වන්නේ ඇයි?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) SSD uses laser optical tracks / SSD ලේසර් ආලෝකයෙන් ක්‍රියා කරන බැවින්
+- (B) SSD has zero moving mechanical parts and is highly resistant to shock and vibration drops / SSD හි චලනය වන යාන්ත්‍රික කොටස් කිසිවක් නොමැති බැවින් කම්පන සහ ගැස්සීම්වලට ඔරොත්තු දෙන නිසා
+- (C) SSD is made of magnetic platters / SSD චුම්බක තැටිවලින් සමන්විත බැවින්
+- (D) SSD requires no electrical power / SSD වලට කිසිදු විදුලියක් අවශ්‍ය නොවන නිසා
 
-* **Correct Answer:** **(B) 256**
-* **Explanation (විස්තරය):**
-  - **[English]:** An $N$-bit system represents $2^N$ unique states. For $N=8$, $2^8 = 256$ distinct characters (from index 0 to 255).
-  - **[Sinhala]:** බිටු $N$ ප්‍රමාණයක් ඇති විට $2^N$ සංකේත නිරූපණය කළ හැක. බිටු 8 ක් ඇති විට $2^8 = 256$ අනන්‍ය අක්ෂර නිරූපණය කළ හැක.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Hard disks use spinning platters and delicate floating heads that can crash if jarred. SSDs use solid-state NAND flash chips with no moving mechanical parts, providing high shock resistance.
+* **සිංහල:** දෘඩ තැටිවල (HDD) වේගයෙන් කැරකෙන තැටි සහ හෙඩ් ඇති නිසා ගැස්සීම්වලදී දත්ත විනාශ විය හැක. එහෙත් SSD හි චලනය වන කොටස් නැති බැවින් (Solid State) කම්පනවලට මනාව ඔරොත්තු දෙයි.
 
 ---
 
-### Question 42
-* **English:** If the ASCII code for uppercase letter 'A' is $65_{10}$ ($01000001_2$), what is the binary ASCII code for letter 'D'?
-* **Sinhala:** 'A' අක්ෂරයේ ASCII කේතය $65_{10}$ ($01000001_2$) නම්, 'D' අක්ෂරයේ බයිනරි ASCII කේතය කුමක්ද?
-* **Options:**
-  - (A) $01000010_2$
-  - (B) $01000011_2$
-  - (C) $01000100_2$
-  - (D) $01000101_2$
+### 🎴 Question / Flashcard #39
+**Question / ප්‍රශ්නය:**
+Why does a Blu-ray Disc hold up to 25 GB on a single layer, whereas a standard DVD holds only 4.7 GB?
+තනි ස්ථරයක ධාරිතාව 4.7 GB වන DVD තැටියකට සාපේක්ෂව, බ්ලූරේ (Blu-ray) තැටියක තනි ස්ථරයක 25 GB තරම් විශාල ධාරිතාවක් රැඳවිය හැක්කේ ඇයි?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Blu-ray uses magnetic iron oxide particles / බ්ලූරේ තැටිවල චුම්බක අංශු අඩංගු නිසා
+- (B) Blu-ray uses a shorter wavelength (405 nm) blue-violet laser, enabling much smaller pits and tighter tracks / බ්ලූරේ සඳහා තරංග ආයාමය අඩු (405 nm) නිල්-දම් ලේසර් කිරණ භාවිත කරන බැවින් ඉතා කුඩා වලවල් හා පථ නිර්මාණය කළ හැකි නිසා
+- (C) Blu-ray discs are physically 10 times thicker / බ්ලූරේ තැටියේ ඝනකම 10 ගුණයකින් වැඩි නිසා
+- (D) Blu-ray operates without primary memory / බ්ලූරේ මතකය ප්‍රධාන මතකයෙන් තොරව ක්‍රියා කරන නිසා
 
-* **Correct Answer:** **(C) $01000100_2$**
-* **Explanation (විස්තරය):**
-  - **[English]:** $	ext{'A'} = 65$, $	ext{'B'} = 66$, $	ext{'C'} = 67$, $	ext{'D'} = 68_{10}$. Converting $68_{10}$ to binary: $64 + 4 = 01000100_2$.
-  - **[Sinhala]:** $	ext{'A'} = 65$ නම් $	ext{'D'} = 68$ වේ. 68 බයිනරි කළ විට $01000100_2$ වේ ($64 + 4$).
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** DVDs use a 650 nm red laser, while Blu-ray uses a 405 nm blue-violet laser. The shorter wavelength focuses onto a much tighter laser spot, packing microscopic pits far more densely.
+* **සිංහල:** DVD සඳහා 650 nm රතු ලේසර් භාවිත කරන අතර බ්ලූරේ සඳහා තරංග ආයාමය අඩු 405 nm නිල්-දම් ලේසර් භාවිත කරයි. මේ නිසා තැටිය මත ඉතා කුඩා වලවල් (Pits) වැඩි ඝනත්වයකින් කැටයම් කළ හැක.
 
 ---
 
-### Question 43
-* **English:** Which global coding system supports over 100,000 characters including Sinhala, Tamil, and Asian scripts?
-* **Sinhala:** සිංහල, දෙමළ සහ ආසියාතික භාෂා ඇතුළුව ලෝකයේ සියලුම අක්ෂර නිරූපණය කළ හැකි විශ්ව කේතන පද්ධතිය කුමක්ද?
-* **Options:**
-  - (A) BCD
-  - (B) ASCII
-  - (C) EBCDIC
-  - (D) Unicode / යුනිකෝඩ්
+### 🎴 Question / Flashcard #40
+**Question / ප්‍රශ්නය:**
+What optical disc standard corresponds to the principle 'Write Once, Read Many' (WORM)?
+'එක් වරක් ලිවීමෙන් පසු කිහිප වරක් කියවිය හැකි' (WORM) මූලධර්මයට අනුකූල වන ප්‍රකාශ තැටි වර්ගය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) CD-ROM / DVD-ROM
+- (B) CD-R / DVD-R
+- (C) CD-RW / DVD-RW
+- (D) Blu-ray BD-RE
 
-* **Correct Answer:** **(D) Unicode / යුනිකෝඩ්**
-* **Explanation (විස්තරය):**
-  - **[English]:** **Unicode** (UTF-8, UTF-16, UTF-32) uses 16 to 32 bits to encode global writing systems, resolving the limits of 7-bit/8-bit ASCII.
-  - **[Sinhala]:** යුනිකෝඩ් (Unicode) යනු ලෝකයේ සෑම භාෂාවකම අක්ෂර නිරූපණය කිරීමට හැකි පරිදි සකස් කළ බිටු 16/32 කේතන පද්ධතියකි.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** CD-R and DVD-R (Recordable) discs allow data to be burned onto the dye layer exactly once, after which the recorded data becomes permanent and can only be read (WORM).
+* **සිංහල:** CD-R සහ DVD-R යනු එක් වරක් පමණක් දත්ත ලිවිය හැකි (Recordable / WORM) තැටි වේ. CD-RW යනු නැවත නැවත මැකීමට හා ලිවීමට හැකි (Rewritable) තැටි වේ.
 
 ---
 
-### Question 44
-* **English:** How many bits are used to encode each decimal digit in Binary Coded Decimal (BCD)?
-* **Sinhala:** BCD (Binary Coded Decimal) කේතන පද්ධතියේ එක් දශමය ඉලක්කමක් නිරූපණය කිරීමට බිටු කීයක් භාවිත වේද?
-* **Options:**
-  - (A) 2 bits
-  - (B) 4 bits
-  - (C) 7 bits
-  - (D) 8 bits
+### 🎴 Question / Flashcard #41
+**Question / ප්‍රශ්නය:**
+Which of the following ports features a reversible oval connector capable of transmitting power (USB-PD), high-speed data, and video displays through a single port?
+තනි කෙවෙනියක් හරහා විදුලිය සැපයීම, අධිවේගී දත්ත සහ වීඩියෝ සංඥා සම්ප්‍රේෂණය කළ හැකි, දෙපැත්ත මාරු කර ගැසිය හැකි (Reversible) ඕවලාකාර කෙවෙනිය කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) USB Type-C
+- (B) USB Type-A
+- (C) PS/2 Port
+- (D) Parallel DB-25
 
-* **Correct Answer:** **(B) 4 bits**
-* **Explanation (විස්තරය):**
-  - **[English]:** **BCD** encodes each decimal digit (0–9) using a fixed 4-bit binary nibble (e.g., $9_{10} = 1001_{	ext{BCD}}$).
-  - **[Sinhala]:** BCD ක්‍රමයේදී සෑම දශමය ඉලක්කමක්ම (0 සිට 9 දක්වා) බිටු 4 කින් (Nibble) වෙන වෙනම නිරූපණය කරයි.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(A)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** USB Type-C is a reversible 24-pin connector standard supporting multi-gigabit data transfers, high-wattage power delivery, and native video output (DisplayPort alternate mode).
+* **සිංහල:** USB Type-C යනු දෙපැත්තම මාරු කර සම්බන්ධ කළ හැකි, අධිවේගී දත්ත, විදුලි ආරෝපණය (Power Delivery) සහ වීඩියෝ ප්‍රතිදානය යන සියල්ල එකවර ලබා දෙන නූතන සම්මත කෙවෙනියයි.
 
 ---
 
-### Question 45
-* **English:** Convert the fractional decimal number $0.625_{10}$ into its Binary equivalent.
-* **Sinhala:** $0.625_{10}$ යන භාගික දශමය සංඛ්‍යාව බයිනරි සංඛ්‍යාවක් බවට හරවන්න.
-* **Options:**
-  - (A) $0.101_2$
-  - (B) $0.110_2$
-  - (C) $0.011_2$
-  - (D) $0.111_2$
+### 🎴 Question / Flashcard #42
+**Question / ප්‍රශ්නය:**
+How many bytes are contained in exactly 4 Kilobytes (4 KB)?
+කිලෝබයිට් 4ක් (4 KB) තුළ අඩංගු වන බයිට (Bytes) සංඛ්‍යාව කොපමණද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) 4000 Bytes
+- (B) 4096 Bytes ($4 \times 1024$)
+- (C) 8192 Bytes
+- (D) 32 Bytes
 
-* **Correct Answer:** **(A) $0.101_2$**
-* **Explanation (විස්තරය):**
-  - **[English]:** Repeated multiplication by 2:
-    - $0.625 	imes 2 = 1.25 ightarrow 	ext{Integer } 1$
-    - $0.25 	imes 2 = 0.50 ightarrow 	ext{Integer } 0$
-    - $0.50 	imes 2 = 1.00 ightarrow 	ext{Integer } 1$
-    - Reading integers top-down gives $0.101_2$.
-  - **[Sinhala]:** 0.625 දෙකෙන් ගුණ කර පූර්ණ සංඛ්‍යා කොටස් උඩ සිට යටට ගැනීමේදී $0.101_2$ ලැබේ ($0.5 + 0.125 = 0.625$).
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** In binary digital storage, $1\text{ KB} = 1024\text{ Bytes}\ (2^{10})$. Therefore, $4\text{ KB} = 4 \times 1024 = 4096\text{ Bytes}$.
+* **සිංහල:** ඩිජිටල් මතකයේ $1\text{ KB} = 1024\text{ Bytes}$ වේ. ඒ අනුව $4\text{ KB} = 4 \times 1024 = 4096\text{ Bytes}$ වේ.
 
 ---
 
-## SECTION 4: Logic Gates & Boolean Algebra (Q46 – Q60)
+### 🎴 Question / Flashcard #43
+**Question / ප්‍රශ්නය:**
+Which of the following correctly orders computer memories from FASTEST data access speed to SLOWEST data access speed?
+පරිගණක මතකයන් දත්ත ප්‍රවේශ වීමේ වේගය වැඩිම මතකයේ සිට අඩුම මතකය දක්වා නිවැරදිව පෙළගස්වා ඇත්තේ කුමන වරණයේද?
 
-### Question 46
-* **English:** What is the output $Y$ of a 2-input AND gate when input $A = 1$ and input $B = 0$?
-* **Sinhala:** $A = 1$ සහ $B = 0$ වන විට, ආදාන 2 කින් යුත් AND ද්වාරයක නිමැවුම $Y$ කුමක්ද?
-* **Options:**
-  - (A) 1
-  - (B) 0
-  - (C) Undefined
-  - (D) High voltage
+- (A) Hard Disk -> RAM -> Cache -> Registers / දෘඩ තැටිය -> RAM -> වාරික මතකය -> රෙජිස්තර
+- (B) Registers -> Cache Memory -> RAM -> Hard Disk / රෙජිස්තර -> වාරික මතකය -> RAM -> දෘඩ තැටිය
+- (C) RAM -> Registers -> Cache -> Magnetic Tape / RAM -> රෙජිස්තර -> වාරික මතකය -> චුම්බක පටය
+- (D) Cache -> Registers -> Solid State Drive -> RAM / වාරික මතකය -> රෙජිස්තර -> SSD -> RAM
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
 
-* **Correct Answer:** **(B) 0**
-* **Explanation (විස්තරය):**
-  - **[English]:** An **AND gate** produces output `1` ONLY if ALL inputs are `1`. Boolean expression: $Y = A \cdot B = 1 \cdot 0 = 0$.
-  - **[Sinhala]:** AND ද්වාරයක නිමැවුම 1 වන්නේ සියලුම ආදාන 1 වූ විට පමණි. මෙහි $1 \cdot 0 = 0$ වේ.
-</details>
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Speed Hierarchy: Registers (fastest, sub-nanosecond) $\rightarrow$ Cache Memory $\rightarrow$ Primary RAM $\rightarrow$ Secondary Storage (SSD/HDD) $\rightarrow$ Magnetic Tape (slowest).
+* **සිංහල:** ප්‍රවේශ වේගය අනුව: CPU රෙජිස්තර (වේගවත්ම) $\rightarrow$ වාරික මතකය (Cache) $\rightarrow$ ප්‍රධාන මතකය (RAM) $\rightarrow$ දෘඩ තැටිය (HDD) $\rightarrow$ චුම්බක පටය (මන්දගාමීම).
 
 ---
 
-### Question 47
-* **English:** Which logic gate acts as an Inverter, producing an output that is the exact logical opposite of its input?
-* **Sinhala:** ආදානයට සම්පූර්ණයෙන්ම ප්‍රතිලෝම නිමැවුමක් ලබා දෙන (Inverter) තර්ක ද්වාරය කුමක්ද?
-* **Options:**
-  - (A) OR Gate
-  - (B) NAND Gate
-  - (C) NOT Gate
-  - (D) XOR Gate
+### 🎴 Question / Flashcard #44
+**Question / ප්‍රශ්නය:**
+Which memory has the HIGHEST cost per bit of storage among all computer components?
+පරිගණක සංරචක අතුරින් එක් බිටුවක් ගබඩා කිරීම සඳහා ඉහළම සාපේක්ෂ පිරිවැයක් (Cost per bit) දරන්නේ කුමන මතකයද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Hard Disk Drive / දෘඩ තැටිය
+- (B) Optical Blu-ray Disc / බ්ලූරේ තැටිය
+- (C) CPU Memory Registers / CPU අභ්‍යන්තර රෙජිස්තර
+- (D) Magnetic Tape / චුම්බක පටය
 
-* **Correct Answer:** **(C) NOT Gate / නොවන ද්වාරය**
-* **Explanation (විස්තරය):**
-  - **[English]:** A **NOT gate** has a single input. If input is `0`, output is `1`. If input is `1`, output is `0`. Boolean expression: $Y = ar{A}$.
-  - **[Sinhala]:** NOT ද්වාරයට ඇත්තේ එක් ආදානයක් පමණි. එයින් ආදානය කණපිට හරවනු ලැබේ ($0 ightarrow 1$, $1 ightarrow 0$).
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(C)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** CPU Registers are fabricated directly on the processor's silicon die using ultra-fast static transistors, making them by far the most expensive per byte. Magnetic tape is the cheapest.
+* **සිංහල:** CPU රෙජිස්තර සකසන චිපය තුළම ඉතා කුඩා ඉඩක නිර්මාණය කර ඇති බැවින් බිටුවක් සඳහා වැඩිම පිරිවැයක් දරයි. චුම්බක පට සඳහා අවම පිරිවැයක් දරයි.
 
 ---
 
-### Question 48
-* **English:** What is the Boolean expression for a 2-input OR gate?
-* **Sinhala:** ආදාන 2 කින් යුත් OR ද්වාරයක බූලියානු ප්‍රකාශනය කුමක්ද?
-* **Options:**
-  - (A) $Y = A \cdot B$
-  - (B) $Y = A + B$
-  - (C) $Y = \overline{A + B}$
-  - (D) $Y = A \oplus B$
+### 🎴 Question / Flashcard #45
+**Question / ප්‍රශ්නය:**
+A smartphone display functions as which type of computer hardware device?
+ස්මාර්ට් ජංගම දුරකථනයක ඇති ස්පර්ශ තිරය (Touchscreen) අයත් වන්නේ කුමන දෘඩාංග උපාංග කාණ්ඩයටද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) Input Device only / ආදාන උපාංගයක් පමණි
+- (B) Output Device only / ප්‍රතිදාන උපාංගයක් පමණි
+- (C) Both Input and Output Device / ආදාන සහ ප්‍රතිදාන යන දෙවර්ගයටම අයත් උපාංගයකි
+- (D) Storage Device / ආචයන උපාංගයකි
 
-* **Correct Answer:** **(B) $Y = A + B$**
-* **Explanation (විස්තරය):**
-  - **[English]:** The OR operator represents logical addition ($+$). Output is `1` if at least one input is `1`.
-  - **[Sinhala]:** OR ද්වාරයක බූලියානු ප්‍රකාශනය $Y = A + B$ වේ. ආදාන එකක් හෝ දෙකම 1 නම් නිමැවුම 1 වේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(C)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** A touchscreen is a dual-function hybrid peripheral: it functions as an input device by sensing touch coordinates, and as an output device by displaying graphical visual information.
+* **සිංහල:** ස්පර්ශ තිරය (Touchscreen) යනු ආදාන සහ ප්‍රතිදාන යන ද්විත්ව කාර්යයන්ම ඉටු කරන උපාංගයකි (ඇඟිලි සලකුණු ආදානය කරන අතර තොරතුරු දර්ශනය කරයි).
 
 ---
 
-### Question 49
-* **English:** Which derived logic gate produces output `0` ONLY when both inputs are `1`, and output `1` for all other input combinations?
-* **Sinhala:** ආදාන දෙකම 1 වන විට පමණක් නිමැවුම 0 ලබා දෙන අතර, අනෙකුත් සියලු අවස්ථාවලදී 1 ලබා දෙන සාධිත තර්ක ද්වාරය කුමක්ද?
-* **Options:**
-  - (A) NOR Gate
-  - (B) NAND Gate
-  - (C) XOR Gate
-  - (D) XNOR Gate
+## TIER 3: O/L Exam Boss Questions & Multi-Statement Combinations (ප්‍රශ්න 46 – 62: උසස් විභාග බහුවරණ සහ ගැඹුරු විග්‍රහ)
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+### 🎴 Question / Flashcard #46
+**Question / ප්‍රශ්නය:**
+Consider the following statements regarding the Central Processing Unit (CPU):
+(i) The Arithmetic and Logic Unit (ALU) performs relational comparisons such as greater than ($>$) or less than ($<$).
+(ii) The Control Unit (CU) interprets instructions and issues timing and control signals.
+(iii) Memory Registers are non-volatile and retain calculations after the computer is switched off.
+Which of the statements above is/are TRUE?
+මධ්‍ය සැකසුම් ඒකකය (CPU) පිළිබඳ පහත ප්‍රකාශ සලකන්න:
+(i) අංක ගණිතමය හා තාර්කික ඒකකය (ALU) මඟින් විශාලයි ($>$) හෝ කුඩායි ($<$) වැනි තාර්කික සංසන්දනයන් සිදු කරයි.
+(ii) පාලන ඒකකය (CU) මඟින් උපදෙස් විකේතනය කරමින් පාලන සහ කාල සංඥා නිකුත් කරයි.
+(iii) රෙජිස්තර නොමැකෙන (non-volatile) මතක වන අතර පරිගණකය ක්‍රියාවිරහිත කළ පසුද දත්ත රඳවා තබා ගනී.
+ඉහත ප්‍රකාශ අතුරින් සත්‍ය වන්නේ කුමක්ද?
 
-* **Correct Answer:** **(B) NAND Gate / නො-සහ ද්වාරය**
-* **Explanation (විස්තරය):**
-  - **[English]:** **NAND** is NOT-AND ($Y = \overline{A \cdot B}$). Since AND gives `1` when both are `1`, NAND flips this to `0`.
-  - **[Sinhala]:** NAND ද්වාරය යනු AND ද්වාරයකට පසු NOT ද්වාරයක් සම්බන්ධ කිරීමයි ($Y = \overline{A \cdot B}$). ආදාන දෙකම 1 වන විට නිමැවුම 0 වේ.
-</details>
+- (A) (i) only / (i) පමණි
+- (B) (i) and (ii) only / (i) සහ (ii) පමණි
+- (C) (ii) and (iii) only / (ii) සහ (iii) පමණි
+- (D) All (i), (ii), and (iii) / (i), (ii) සහ (iii) සියල්ලම
 
----
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
 
-### Question 50
-* **English:** What is the output of an Exclusive-OR (XOR) gate when both inputs $A$ and $B$ are equal ($A = 0, B = 0$ or $A = 1, B = 1$)?
-* **Sinhala:** XOR ද්වාරයක ආදාන දෙකම සමාන වන විට ($A=0, B=0$ හෝ $A=1, B=1$), එහි නිමැවුම කුමක්ද?
-* **Options:**
-  - (A) 1
-  - (B) 0
-  - (C) Toggle
-  - (D) High Impedance
-
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
-
-* **Correct Answer:** **(B) 0**
-* **Explanation (විස්තරය):**
-  - **[English]:** An **XOR gate** produces output `1` ONLY when inputs are **different**. When inputs are identical, XOR produces `0`. Expression: $Y = A \oplus B = Aar{B} + ar{A}B$.
-  - **[Sinhala]:** XOR (Exclusive-OR) ද්වාරයක නිමැවුම 1 වන්නේ ආදාන දෙක එකිනෙකට වෙනස් වූ විට පමණි. ආදාන සමාන නම් නිමැවුම 0 වේ.
-</details>
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Statements (i) and (ii) are accurate. Statement (iii) is FALSE because internal CPU Registers are volatile memories that lose all contents immediately when electrical power is switched off.
+* **සිංහල:** (i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වන්නේ CPU රෙජිස්තර යනු විදුලිය නැතිවිට දත්ත මැකී යන තාවකාලික (Volatile) මතකයක් වන බැවිනි.
 
 ---
 
-### Question 51
-* **English:** Which logic gates are known as 'Universal Logic Gates' because any digital circuit can be constructed using only that single gate type?
-* **Sinhala:** ඕනෑම තර්ක මණ්ඩලයක් නිර්මාණය කිරීමට භාවිත කළ හැකි බැවින් 'විශ්ව තර්ක ද්වාර (Universal Gates)' ලෙස හඳුන්වන්නේ කුමන ද්වාරද?
-* **Options:**
-  - (A) AND and OR
-  - (B) NAND and NOR
-  - (C) XOR and XNOR
-  - (D) NOT and AND
+### 🎴 Question / Flashcard #47
+**Question / ප්‍රශ්නය:**
+Consider the following statements regarding RAM and ROM:
+(i) ROM contains startup instructions such as BIOS and POST.
+(ii) RAM content is preserved when the computer is turned off.
+(iii) The CPU can both read from and write data to RAM.
+Which of the statements above is/are TRUE?
+RAM සහ ROM පිළිබඳ පහත ප්‍රකාශ සලකන්න:
+(i) ROM තුළ BIOS සහ POST වැනි ආරම්භක උපදෙස් අඩංගු වේ.
+(ii) පරිගණකය ක්‍රියාවිරහිත කළ විටද RAM හි ඇති දත්ත ආරක්ෂා වේ.
+(iii) CPU එකට RAM වෙතින් දත්ත කියවීමට මෙන්ම ලිවීමටද හැකියාව ඇත.
+ඉහත ප්‍රකාශ අතුරින් සත්‍ය වන්නේ කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) (i) only / (i) පමණි
+- (B) (i) and (iii) only / (i) සහ (iii) පමණි
+- (C) (ii) and (iii) only / (ii) සහ (iii) පමණි
+- (D) All (i), (ii), and (iii) / (i), (ii) සහ (iii) සියල්ලම
 
-* **Correct Answer:** **(B) NAND and NOR / NAND සහ NOR ද්වාර**
-* **Explanation (විස්තරය):**
-  - **[English]:** **NAND** and **NOR** are Universal Gates because combinations of NAND (or NOR) alone can implement AND, OR, NOT, and XOR operations.
-  - **[Sinhala]:** NAND සහ NOR ද්වාර භාවිතයෙන් පමණක් අන් සියලුම මූලික තර්ක ද්වාර (AND, OR, NOT) සාදාගත හැකි බැවින් ඒවා **විශ්ව ද්වාර** ලෙස හැඳින්වේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
 
----
-
-### Question 52
-* **English:** Evaluate the output $Y$ of the Boolean expression $Y = \overline{A + B}$ when $A = 0$ and $B = 0$.
-* **Sinhala:** $A = 0$ සහ $B = 0$ වන විට, $Y = \overline{A + B}$ යන NOR බූලියානු ප්‍රකාශනයේ අගය කොපමණද?
-* **Options:**
-  - (A) 0
-  - (B) 1
-  - (C) Null
-  - (D) -1
-
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
-
-* **Correct Answer:** **(B) 1**
-* **Explanation (විස්තරය):**
-  - **[English]:** Evaluate inside: $A + B = 0 + 0 = 0$. Apply NOT: $ar{0} = 1$. So $Y = 1$.
-  - **[Sinhala]:** $A + B = 0 + 0 = 0$. එහි ප්‍රතිලෝමය (NOT) සෙවූ විට $ar{0} = 1$ වේ.
-</details>
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** (i) is true (ROM houses BIOS). (iii) is true (RAM is Read/Write). (ii) is FALSE because RAM is strictly volatile; power loss erases all stored data instantly.
+* **සිංහල:** (i) සත්‍ය වේ (ROM හි BIOS ඇත). (iii) සත්‍ය වේ (RAM යනු කියවිය හැකි/ලිවිය හැකි මතකයකි). (ii) අසත්‍ය වේ, මන්ද RAM යනු විදුලිය නැතිවිට දත්ත මැකී යන මතකයක් බැවිනි.
 
 ---
 
-### Question 53
-* **English:** What is the equivalent simplified Boolean expression for two NOT gates connected in series ($Y = \overline{\overline{A}}$)?
-* **Sinhala:** NOT ද්වාර දෙකක් අනුක්‍රමිකව සවි කළ විට ($Y = \overline{\overline{A}}$) ලැබෙන සරල බූලියානු අගය කුමක්ද?
-* **Options:**
-  - (A) 0
-  - (B) 1
-  - (C) $A$
-  - (D) $ar{A}$
+### 🎴 Question / Flashcard #48
+**Question / ප්‍රශ්නය:**
+Consider the following statements regarding System Buses in computer architecture:
+(i) The Data Bus carries data bidirectionally between the CPU and memory.
+(ii) The Address Bus carries physical memory addresses unidirectionally from the CPU to memory.
+(iii) The Control Bus issues signals such as Memory Read and Memory Write.
+Which of the statements above is/are TRUE?
+පරිගණක පද්ධති බස් මාර්ග (System Buses) පිළිබඳ පහත ප්‍රකාශ සලකන්න:
+(i) දත්ත බසය (Data Bus) මඟින් CPU සහ මතකය අතර ද්වි-දිශානතිකව දත්ත ගෙනයයි.
+(ii) ලිපින බසය (Address Bus) මඟින් CPU සිට මතකය දෙසට ඒක-දිශානතිකව ලිපින ගෙනයයි.
+(iii) පාලන බසය (Control Bus) මඟින් Memory Read සහ Memory Write වැනි පාලන සංඥා නිකුත් කරයි.
+ඉහත ප්‍රකාශ අතුරින් සත්‍ය වන්නේ කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) (i) and (ii) only / (i) සහ (ii) පමණි
+- (B) (ii) and (iii) only / (ii) සහ (iii) පමණි
+- (C) (i) and (iii) only / (i) සහ (iii) පමණි
+- (D) All (i), (ii), and (iii) / (i), (ii) සහ (iii) සියල්ලම
 
-* **Correct Answer:** **(C) $A$**
-* **Explanation (විස්තරය):**
-  - **[English]:** Double negation cancels out: $\overline{\overline{A}} = A$. Inverting a bit twice returns it to its original value.
-  - **[Sinhala]:** දෙවරක් කණපිට හැරවීමෙන් (Double Negation) මුල් අගයම ලැබෙයි ($\overline{\overline{A}} = A$).
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(D)**
 
----
-
-### Question 54
-* **English:** Which logic circuit truth table output pattern corresponds to a 2-input NOR gate for inputs $(0,0), (0,1), (1,0), (1,1)$?
-* **Sinhala:** $(0,0), (0,1), (1,0), (1,1)$ යන ආදාන පිළිවෙල සඳහා 2-ආදාන NOR ද්වාරයක නිමැවුම් රටාව කුමක්ද?
-* **Options:**
-  - (A) 1, 0, 0, 0
-  - (B) 0, 1, 1, 1
-  - (C) 1, 1, 1, 0
-  - (D) 0, 0, 0, 1
-
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
-
-* **Correct Answer:** **(A) 1, 0, 0, 0**
-* **Explanation (විස්තරය):**
-  - **[English]:** **NOR** is NOT-OR. OR gives `0, 1, 1, 1`. Inverting this yields `1, 0, 0, 0`.
-  - **[Sinhala]:** OR ද්වාරයේ නිමැවුම් `0, 1, 1, 1` වේ. එය NOT කළ විට NOR හි නිමැවුම `1, 0, 0, 0` ලැබේ.
-</details>
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** All three statements are correct: Data Bus is bidirectional, Address Bus is unidirectional (CPU to Memory), and Control Bus manages read/write timing operations.
+* **සිංහල:** ප්‍රකාශ 3 ම සත්‍ය වේ: දත්ත බසය ද්වි-දිශානතික ය, ලිපින බසය ඒක-දිශානතික ය, සහ පාලන බසය කියවීම්/ලිවීම් සංඥා පාලනය කරයි.
 
 ---
 
-### Question 55
-* **English:** Identify the Boolean expression representing a logic circuit where inputs $A$ and $B$ pass through an AND gate, and the result is OR'd with input $C$.
-* **Sinhala:** $A$ සහ $B$ ආදාන AND ද්වාරයකින් යවා, එම ලැබෙන පිළිතුර $C$ ආදානය සමග OR ද්වාරයකට දුන් විට ලැබෙන බූලියානු ප්‍රකාශනය කුමක්ද?
-* **Options:**
-  - (A) $Y = (A + B) \cdot C$
-  - (B) $Y = (A \cdot B) + C$
-  - (C) $Y = \overline{A \cdot B \cdot C}$
-  - (D) $Y = A + B + C$
+### 🎴 Question / Flashcard #49
+**Question / ප්‍රශ්නය:**
+Consider the following statements regarding Printer technologies:
+(i) Dot Matrix printers are impact printers capable of printing multi-part duplicate carbon copies.
+(ii) Laser printers use dry powdered toner and electrostatic drums to print high-resolution pages rapidly.
+(iii) Thermal printers require frequent liquid ink refills to print receipts.
+Which of the statements above is/are TRUE?
+මුද්‍රණ තාක්ෂණය පිළිබඳ පහත ප්‍රකාශ සලකන්න:
+(i) තිත් න්‍යාස (Dot Matrix) මුද්‍රක යනු කාබන් කොපි සහිත අනුපිටපත් මුද්‍රණය කළ හැකි ඝට්ටන මුද්‍රක වේ.
+(ii) ලේසර් මුද්‍රක වියළි ටෝනර් කුඩු සහ විද්‍යුත් ස්ථිතික ඩ්‍රමයක් භාවිතයෙන් අධිවේගයෙන් ලේඛන මුද්‍රණය කරයි.
+(iii) තාප මුද්‍රකවල (Thermal printers) බිල්පත් මුද්‍රණය කිරීමට නිතර දියර තීන්ත පිරවිය යුතුය.
+ඉහත ප්‍රකාශ අතුරින් සත්‍ය වන්නේ කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) (i) only / (i) පමණි
+- (B) (i) and (ii) only / (i) සහ (ii) පමණි
+- (C) (ii) and (iii) only / (ii) සහ (iii) පමණි
+- (D) All (i), (ii), and (iii) / (i), (ii) සහ (iii) සියල්ලම
 
-* **Correct Answer:** **(B) $Y = (A \cdot B) + C$**
-* **Explanation (විස්තරය):**
-  - **[English]:** First step: AND operation on $A$ and $B$ gives $(A \cdot B)$. Second step: OR operation with $C$ gives $(A \cdot B) + C$.
-  - **[Sinhala]:** පළමු පියවර: AND කර්මය $ightarrow (A \cdot B)$. දෙවන පියවර: $C$ සමග OR කර්මය $ightarrow (A \cdot B) + C$.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
 
----
-
-### Question 56
-* **English:** How many rows will be present in a Truth Table for a logic circuit with 3 inputs ($A, B, C$)?
-* **Sinhala:** ආදාන 3 ක් ($A, B, C$) සහිත තර්ක මණ්ඩලයක සත්‍යතා වගුවේ (Truth Table) පේළි කීයක් තිබේද?
-* **Options:**
-  - (A) 4 rows
-  - (B) 6 rows
-  - (C) 8 rows
-  - (D) 16 rows
-
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
-
-* **Correct Answer:** **(C) 8 rows / පේළි 8**
-* **Explanation (විස්තරය):**
-  - **[English]:** Number of rows in a truth table is $2^n$ where $n$ is the number of inputs. For 3 inputs, $2^3 = 8$ rows (from `000` to `111`).
-  - **[Sinhala]:** ආදාන $n$ ගණනක් ඇති විට සත්‍යතා වගුවේ පේළි $2^n$ ප්‍රමාණයක් ඇත. ආදාන 3 ක් ඇති විට $2^3 = 8$ පේළි වේ.
-</details>
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Statements (i) and (ii) are true. Statement (iii) is FALSE because thermal printers do NOT use ink; they use heated pins that react directly with heat-sensitive chemical paper.
+* **සිංහල:** (i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වන්නේ තාප මුද්‍රක සඳහා දියර තීන්ත අවශ්‍ය නොවන අතර තාප සංවේදී කඩදාසි රත් කිරීමෙන් පමණක් අකුරු මතු කරන බැවිනි.
 
 ---
 
-### Question 57
-* **English:** What is the digital output size in bytes of an uncompressed image with dimensions $800 	imes 600$ pixels and a bit depth of 24-bit True Color?
-* **Sinhala:** පික්සල $800 	imes 600$ මිනුම් සහිත බිටු 24 (24-bit True Color) වර්ණ පරාසයක් ඇති සංකෝචනය නොකළ ඡායාරූපයක ගොනු විශාලත්වය බයිට (Bytes) කීයද?
-* **Options:**
-  - (A) 480,000 Bytes
-  - (B) 1,440,000 Bytes
-  - (C) 11,520,000 Bytes
-  - (D) 2,880,000 Bytes
+### 🎴 Question / Flashcard #50
+**Question / ප්‍රශ්නය:**
+Consider the following statements regarding Optical Storage media:
+(i) A standard Compact Disc (CD) has a typical capacity of approximately 700 MB.
+(ii) A standard single-layer DVD has a capacity of approximately 4.7 GB.
+(iii) A Blu-ray disc uses red laser light with a 650 nm wavelength.
+Which of the statements above is/are TRUE?
+ප්‍රකාශ ආචයන මාධ්‍ය (Optical Storage) පිළිබඳ පහත ප්‍රකාශ සලකන්න:
+(i) සම්මත CD තැටියක ධාරිතාව ආසන්න වශයෙන් 700 MB පමණ වේ.
+(ii) සම්මත තනි ස්ථර DVD තැටියක ධාරිතාව ආසන්න වශයෙන් 4.7 GB පමණ වේ.
+(iii) බ්ලූරේ (Blu-ray) තැටි සඳහා 650 nm තරංග ආයාමයක් සහිත රතු ලේසර් ආලෝකය භාවිත කරයි.
+ඉහත ප්‍රකාශ අතුරින් සත්‍ය වන්නේ කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) (i) and (ii) only / (i) සහ (ii) පමණි
+- (B) (i) and (iii) only / (i) සහ (iii) පමණි
+- (C) (ii) and (iii) only / (ii) සහ (iii) පමණි
+- (D) All (i), (ii), and (iii) / (i), (ii) සහ (iii) සියල්ලම
 
-* **Correct Answer:** **(B) 1,440,000 Bytes**
-* **Explanation (විස්තරය):**
-  - **[English]:** Formula: $	ext{File Size in Bytes} = rac{	ext{Width} 	imes 	ext{Height} 	imes 	ext{Bit Depth}}{8}$. Here $24 	ext{ bits} = 3 	ext{ bytes/pixel}$. Size $= 800 	imes 600 	imes 3 = 1,440,000 	ext{ Bytes} pprox 1.44 	ext{ MB}$.
-  - **[Sinhala]:** සූත්‍රය: බයිට ගණන $= (	ext{පලල} 	imes 	ext{උස} 	imes 	ext{බිටු ගණන}) / 8$. බිටු $24 = 	ext{බයිට } 3$. එබැවින් $800 	imes 600 	imes 3 = 1,440,000 	ext{ Bytes}$ වේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(A)**
 
----
-
-### Question 58
-* **English:** What is the maximum number of distinct colors that can be rendered by a pixel with an 8-bit color depth?
-* **Sinhala:** බිටු 8 ක (8-bit) වර්ණ ගැඹුරක් (Bit Depth) සහිත පික්සලයකින් නිරූපණය කළ හැකි උපරිම අනන්‍ය වර්ණ ගණන කීයද?
-* **Options:**
-  - (A) 64 colors
-  - (B) 128 colors
-  - (C) 256 colors
-  - (D) 16,777,216 colors
-
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
-
-* **Correct Answer:** **(C) 256 colors / වර්ණ 256**
-* **Explanation (විස්තරය):**
-  - **[English]:** Maximum colors $= 2^{	ext{Bit Depth}} = 2^8 = 256$ colors. (For 24-bit, $2^{24} = 16.7 	ext{ million}$ colors).
-  - **[Sinhala]:** වර්ණ ගණන $= 2^n = 2^8 = 256$ වර්ණ වේ.
-</details>
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** (i) and (ii) are true. (iii) is FALSE because Blu-ray discs use a blue-violet laser with a shorter 405 nm wavelength (red laser 650 nm is used by DVDs).
+* **සිංහල:** (i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වන්නේ බ්ලූරේ තැටි සඳහා භාවිත කරන්නේ 405 nm නිල්-දම් ලේසර් කිරණ වන බැවිනි (650 nm රතු ලේසර් භාවිත කරන්නේ DVD සඳහා ය).
 
 ---
 
-### Question 59
-* **English:** Which logic gate's function is represented by the Boolean expression $Y = A \cdot ar{B} + ar{A} \cdot B$?
-* **Sinhala:** $Y = A \cdot ar{B} + ar{A} \cdot B$ යන බූලියානු ප්‍රකාශනය මගින් නිරූපණය වන තර්ක ද්වාරය කුමක්ද?
-* **Options:**
-  - (A) XNOR Gate
-  - (B) XOR Gate
-  - (C) NAND Gate
-  - (D) NOR Gate
+### 🎴 Question / Flashcard #51
+**Question / ප්‍රශ්නය:**
+Consider the following pairings of input technology and application:
+(P) Barcode Reader - Supermarket Point of Sale inventory checkout
+(Q) MICR - Reading bank cheque routing numbers
+(R) OMR - Reading handwritten essays on ancient parchment
+Which of the pairings above is/are CORRECT?
+ආදාන තාක්ෂණය සහ භාවිතය අතර පහත ගැලපීම් සලකන්න:
+(P) තීරු කේත කියවනය (Barcode Reader) - සුපිරි වෙළඳසැල් භාණ්ඩ අලෙවිය හා තොග පාලනය
+(Q) MICR - බැංකු චෙක්පත්වල අංක කියවීම
+(R) OMR - පැරණි ලේඛනවල අත්අකුරින් ලියූ රචනා කියවීම
+ඉහත ගැලපීම් අතුරින් නිවැරදි වන්නේ කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) (P) only / (P) පමණි
+- (B) (P) and (Q) only / (P) සහ (Q) පමණි
+- (C) (Q) and (R) only / (Q) සහ (R) පමණි
+- (D) All (P), (Q), and (R) / (P), (Q) සහ (R) සියල්ලම
 
-* **Correct Answer:** **(B) XOR Gate / Exclusive-OR**
-* **Explanation (විස්තරය):**
-  - **[English]:** The canonical sum-of-products form for Exclusive-OR (XOR) is $Y = Aar{B} + ar{A}B = A \oplus B$.
-  - **[Sinhala]:** XOR (Exclusive-OR) ද්වාරයේ සම්මත බූලියානු ව්‍යාප්තිය වන්නේ $Y = Aar{B} + ar{A}B$ ($A \oplus B$) යන්නයි.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** (P) and (Q) are correct. (R) is INCORRECT because OMR only detects shaded marks in checkboxes; reading handwritten text requires OCR (Optical Character Recognition).
+* **සිංහල:** (P) සහ (Q) නිවැරදි වේ. (R) වැරදි වන්නේ OMR මඟින් කියවන්නේ කොටු තුළ සලකුණු කළ ලකුණු පමණක් වන බැවිනි. අත්අකුරු කියවීමට OCR අවශ්‍ය වේ.
 
 ---
 
-### Question 60
-* **English:** What is the output $Y$ of a 2-input NAND gate when inputs are $A = 1$ and $B = 1$?
-* **Sinhala:** $A = 1$ සහ $B = 1$ වන විට, 2-ආදාන NAND ද්වාරයක නිමැවුම $Y$ කුමක්ද?
-* **Options:**
-  - (A) 1
-  - (B) 0
-  - (C) High Voltage
-  - (D) Floating
+### 🎴 Question / Flashcard #52
+**Question / ප්‍රශ්නය:**
+Consider the following statements regarding Computer Classification:
+(i) Analog computers measure continuous physical variables like speed and pressure.
+(ii) Digital computers operate using discrete binary signals ($0$ and $1$).
+(iii) Supercomputers are smaller in physical size and cheaper than personal computers.
+Which of the statements above is/are TRUE?
+පරිගණක වර්ගීකරණය පිළිබඳ පහත ප්‍රකාශ සලකන්න:
+(i) ප්‍රතිසම පරිගණක මඟින් වේගය සහ පීඩනය වැනි අඛණ්ඩ භෞතික විචල්‍යයන් මනිනු ලබයි.
+(ii) සංඛ්‍යාංක පරිගණක විවික්ත ද්වීමය සංඥා ($0$ සහ $1$) ඇසුරින් ක්‍රියා කරයි.
+(iii) සුපිරි පරිගණක පුද්ගල පරිගණකවලට වඩා ප්‍රමාණයෙන් කුඩා වන අතර මිලෙන්ද අඩු වේ.
+ඉහත ප්‍රකාශ අතුරින් සත්‍ය වන්නේ කුමක්ද?
 
-<details>
-<summary><b>Show Answer & Explanation (පිළිතුර සහ විස්තරය බලන්න)</b></summary>
+- (A) (i) only / (i) පමණි
+- (B) (i) and (ii) only / (i) සහ (ii) පමණි
+- (C) (ii) and (iii) only / (ii) සහ (iii) පමණි
+- (D) All (i), (ii), and (iii) / (i), (ii) සහ (iii) සියල්ලම
 
-* **Correct Answer:** **(B) 0**
-* **Explanation (විස්තරය):**
-  - **[English]:** For NAND: $Y = \overline{A \cdot B} = \overline{1 \cdot 1} = ar{1} = 0$.
-  - **[Sinhala]:** NAND සඳහා: $Y = \overline{1 \cdot 1} = ar{1} = 0$ වේ.
-</details>
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Statements (i) and (ii) are true. Statement (iii) is FALSE because Supercomputers are room-sized, enormously expensive, and by far the largest and most powerful computers built.
+* **සිංහල:** (i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වන්නේ සුපිරි පරිගණක යනු ප්‍රමාණයෙන් අතිවිශාල සහ ලොව මිල අධිකම පරිගණක කාණ්ඩය වන බැවිනි.
+
+---
+
+### 🎴 Question / Flashcard #53
+**Question / ප්‍රශ්නය:**
+Which of the following correctly describes what occurs during a 'Cache Hit' in computer memory architecture?
+පරිගණක මතක ව්‍යුහය තුළ 'Cache Hit' (වාරික මතක හමුවීම) අවස්ථාවකදී සිදුවන ක්‍රියාවලිය වඩාත් නිවැරදිව විස්තර කරන්නේ කුමක්ද?
+
+- (A) The CPU fails to find the required data in cache and fetches it from the hard disk / CPU එකට දත්ත හමුනොවන නිසා දෘඩ තැටියෙන් ලබා ගනී
+- (B) The requested data or instruction is found immediately in Cache Memory and delivered to the CPU at high speed / ඉල්ලුම් කළ දත්තය වාරික මතකය තුළ තිබී හමුවන අතර ක්ෂණිකව CPU වෙත ලබා දේ
+- (C) The cache memory is completely wiped clean due to a power spike / විදුලි සැරයක් නිසා වාරික මතකය මැකී යයි
+- (D) The CPU switches from digital processing to analog processing / CPU එක සංඛ්‍යාංක සැකසීමේ සිට ප්‍රතිසම සැකසීමට මාරු වේ
+
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** A 'Cache Hit' occurs when requested data is already present in Cache Memory, allowing near-instant delivery to CPU registers without waiting for the slower main RAM bus.
+* **සිංහල:** 'Cache Hit' යනු CPU එකට අවශ්‍ය වූ දත්තය හෝ උපදෙස වාරික මතකය තුළම තිබී හමුවීමයි. එවිට RAM වෙත නොගොස් ක්ෂණිකව CPU වෙත දත්ත ලැබේ.
+
+---
+
+### 🎴 Question / Flashcard #54
+**Question / ප්‍රශ්නය:**
+Consider the following statements regarding Solid State Drives (SSDs) compared to Hard Disk Drives (HDDs):
+(i) SSDs have zero moving mechanical parts.
+(ii) SSDs offer substantially faster read/write data transfer speeds.
+(iii) SSDs are more vulnerable to head crashes caused by physical drops than HDDs.
+Which of the statements above is/are TRUE?
+දෘඩ තැටිවලට (HDD) සාපේක්ෂව ඝන තත්ත්වයේ ධාවක (SSD) පිළිබඳ පහත ප්‍රකාශ සලකන්න:
+(i) SSD තුළ චලනය වන යාන්ත්‍රික කොටස් කිසිවක් නොමැත.
+(ii) SSD මඟින් ඉතා ඉහළ කියවීමේ සහ ලිවීමේ වේගයක් ලබා දේ.
+(iii) බිම වැටීම් නිසා සිදුවන Head crash අනතුරුවලට HDD වලට වඩා SSD ගොදුරු වේ.
+ඉහත ප්‍රකාශ අතුරින් සත්‍ය වන්නේ කුමක්ද?
+
+- (A) (i) only / (i) පමණි
+- (B) (i) and (ii) only / (i) සහ (ii) පමණි
+- (C) (ii) and (iii) only / (ii) සහ (iii) පමණි
+- (D) All (i), (ii), and (iii) / (i), (ii) සහ (iii) සියල්ලම
+
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** (i) and (ii) are true. Statement (iii) is FALSE because SSDs have no mechanical read/write heads or spinning platters, making them far more durable and immune to head crashes compared to HDDs.
+* **සිංහල:** (i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වන්නේ SSD වල චලනය වන හෙඩ් හෝ තැටි නොමැති බැවින් බිම වැටුණද Head crash අනතුරු සිදු නොවන බැවිනි.
+
+---
+
+### 🎴 Question / Flashcard #55
+**Question / ප්‍රශ්නය:**
+Consider the following statements regarding storage capacity units:
+(i) $1\text{ Byte} = 8\text{ Bits}$
+(ii) $1\text{ Megabyte (MB)} = 1024\text{ Kilobytes (KB)}$
+(iii) $1\text{ Gigabyte (GB)} = 1000\text{ Megabytes (MB)}$ in standard binary binary memory architecture.
+Which of the statements above is/are TRUE?
+ආචයන ධාරිතා ඒකක පිළිබඳ පහත ප්‍රකාශ සලකන්න:
+(i) බයිට 1 ක් ($1\text{ Byte}$) = බිටු 8 කි ($8\text{ Bits}$).
+(ii) මෙගාබයිට 1 ක් ($1\text{ MB}$) = කිලෝබයිට 1024 කි ($1024\text{ KB}$).
+(iii) සම්මත පරිගණක ද්වීමය මතක ව්‍යුහයේ ගිගාබයිට 1 ක් ($1\text{ GB}$) = මෙගාබයිට 1000 කි ($1000\text{ MB}$).
+ඉහත ප්‍රකාශ අතුරින් සත්‍ය වන්නේ කුමක්ද?
+
+- (A) (i) only / (i) පමණි
+- (B) (i) and (ii) only / (i) සහ (ii) පමණි
+- (C) (ii) and (iii) only / (ii) සහ (iii) පමණි
+- (D) All (i), (ii), and (iii) / (i), (ii) සහ (iii) සියල්ලම
+
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** (i) and (ii) are mathematically correct. Statement (iii) is FALSE because in computer binary addressing, $1\text{ GB} = 1024\text{ MB} = 2^{30}\text{ Bytes}$, not $1000\text{ MB}$.
+* **සිංහල:** (i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වන්නේ පරිගණක මතක ගණනයේදී $1\text{ GB} = 1024\text{ MB}$ ($2^{30}$ බයිට) මිස $1000\text{ MB}$ නොවන බැවිනි.
+
+---
+
+### 🎴 Question / Flashcard #56
+**Question / ප්‍රශ්නය:**
+Consider the following computer ports and their typical connections:
+(X) VGA Port - Analog computer monitors and multimedia projectors
+(Y) RJ-45 Port - Local Area Network (LAN) Ethernet cables
+(Z) HDMI Port - Connecting high-speed SATA internal hard drives
+Which of the pairs above is/are CORRECT?
+පරිගණක කෙවෙනි සහ ඒවායේ සම්මත භාවිතයන් සලකන්න:
+(X) VGA Port - ප්‍රතිසම මොනිටර සහ බහුමාධ්‍ය ප්‍රක්ෂේපක
+(Y) RJ-45 Port - දේශීය පරිගණක ජාල (LAN) ඊතර්නෙට් කේබල්
+(Z) HDMI Port - අභ්‍යන්තර SATA දෘඩ තැටි සම්බන්ධ කිරීම
+ඉහත යුගල අතුරින් නිවැරදි වන්නේ කුමක්ද?
+
+- (A) (X) only / (X) පමණි
+- (B) (X) and (Y) only / (X) සහ (Y) පමණි
+- (C) (Y) and (Z) only / (Y) සහ (Z) පමණි
+- (D) All (X), (Y), and (Z) / (X), (Y) සහ (Z) සියල්ලම
+
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** (X) and (Y) are correct. (Z) is INCORRECT because HDMI connects digital displays/audio, while internal hard drives connect via SATA (Serial ATA) interfaces.
+* **සිංහල:** (X) සහ (Y) නිවැරදි වේ. (Z) වැරදි වන්නේ HDMI යනු ඩිජිටල් තිර සහ ශ්‍රව්‍ය උපාංග සඳහා වන අතර අභ්‍යන්තර දෘඩ තැටි සම්බන්ධ කරන්නේ SATA කෙවෙනි මඟින් බැවිනි.
+
+---
+
+### 🎴 Question / Flashcard #57
+**Question / ප්‍රශ්නය:**
+Consider the following statements regarding the Power-On Self-Test (POST) and Booting sequence:
+(i) POST routines are executed by the CPU from ROM immediately when electrical power is switched on.
+(ii) POST verifies that crucial hardware components such as RAM, keyboard, and storage controllers are functional.
+(iii) After successful POST execution, the bootstrap loader loads the Operating System from secondary storage into RAM.
+Which of the statements above is/are TRUE?
+පරිගණකය පණගැන්වීමේ (Booting) සහ POST ක්‍රියාවලිය පිළිබඳ පහත ප්‍රකාශ සලකන්න:
+(i) පරිගණකය ක්‍රියාත්මක කළ විගස CPU මඟින් ROM හි ඇති POST පරීක්ෂණ උපදෙස් ක්‍රියාත්මක කරයි.
+(ii) POST මඟින් RAM, යතුරුපුවරුව සහ තැටි පාලක වැනි මූලික දෘඩාංග නිවැරදිව ක්‍රියා කරන්නේදැයි පරීක්ෂා කරයි.
+(iii) සාර්ථක POST පරීක්ෂාවෙන් පසු පණගැන්වුම් කාරකය (bootstrap loader) මඟින් මෙහෙයුම් පද්ධතිය ද්විතීයික ආචයනයේ සිට RAM වෙත පූරණය කරයි.
+ඉහත ප්‍රකාශ අතුරින් සත්‍ය වන්නේ කුමක්ද?
+
+- (A) (i) and (ii) only / (i) සහ (ii) පමණි
+- (B) (ii) and (iii) only / (ii) සහ (iii) පමණි
+- (C) (i) and (iii) only / (i) සහ (iii) පමණි
+- (D) All (i), (ii), and (iii) / (i), (ii) සහ (iii) සියල්ලම
+
+**Correct Answer / නිවැරදි පිළිතුර:** **(D)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** All three statements accurately delineate the PC cold boot sequence: ROM BIOS triggers POST hardware diagnostics $\rightarrow$ bootstrap loader loads OS kernel from disk into RAM.
+* **සිංහල:** ප්‍රකාශ 3 ම සත්‍ය වේ: විදුලිය ලබා දුන් විට ROM හි ඇති POST මඟින් දෘඩාංග පරීක්ෂා කරයි $\rightarrow$ ඉන්පසු මෙහෙයුම් පද්ධතිය දෘඩ තැටියේ සිට RAM මතකය වෙත පූරණය කරයි.
+
+---
+
+### 🎴 Question / Flashcard #58
+**Question / ප්‍රශ්නය:**
+A school computer laboratory intends to assemble 20 student workstations. Which combination represents the most appropriate, balanced, and cost-effective specifications for everyday classroom tasks?
+පාසල් පරිගණක විද්‍යාගාරයකට සිසුන්ගේ එදිනෙදා අධ්‍යයන කටයුතු සඳහා පරිගණක 20ක් සකස් කිරීමට අවශ්‍ය වේ. මේ සඳහා වඩාත්ම ගැලපෙන සහ පිරිවැය සාපේක්ෂ දෘඩාංග සංයෝජනය කුමක්ද?
+
+- (A) Supercomputer core, 1 TB Cache Memory, Plotter, Magnetic Tape reader / සුපිරි පරිගණක මධ්‍යයක්, 1 TB වාරික මතකයක්, ප්ලෝටරයක්, චුම්බක පට කියවනයක්
+- (B) Microcomputer (PC) with multi-core CPU, 8 GB RAM, 256 GB SSD, LED Monitor, Keyboard, Mouse, and Laser Printer / බහු-මධ්‍ය CPU සහිත ක්ෂුද්‍ර පරිගණක (PC), 8 GB RAM, 256 GB SSD, LED මොනිටරය, යතුරුපුවරුව, මූසිකය සහ ලේසර් මුද්‍රකය
+- (C) Mainframe terminal with only Dot Matrix printer and 64 KB ROM / තිත් න්‍යාස මුද්‍රකයක් පමණක් සහ 64 KB ROM සහිත මහා පරිගණක පර්යන්ත
+- (D) Analog computer with cathode oscilloscope / කැතෝඩ දෝලනමානයක් සහිත ප්‍රතිසම පරිගණකයක්
+
+**Correct Answer / නිවැරදි පිළිතුර:** **(B)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Classroom educational labs require standard Microcomputers (PCs) equipped with solid-state storage (SSD) for responsive booting, adequate RAM (8 GB), LED displays, and a fast shared laser printer.
+* **සිංහල:** පාසල් පරිගණක විද්‍යාගාර සඳහා ක්ෂුද්‍ර පරිගණක (PC), වේගවත් SSD ධාවකයක්, 8 GB RAM, LED මොනිටර සහ කාර්යාල මුද්‍රණ සඳහා ලේසර් මුද්‍රකයක් වඩාත්ම උචිත වේ.
+
+---
+
+### 🎴 Question / Flashcard #59
+**Question / ප්‍රශ්නය:**
+Consider the following statements regarding the Memory Hierarchy:
+(i) Registers have the smallest capacity but fastest access speed.
+(ii) Secondary storage has the largest capacity but slowest access speed.
+(iii) Cache memory is located between the CPU and Primary Memory (RAM).
+Which of the statements above is/are TRUE?
+මතක ධූරාවලිය (Memory Hierarchy) පිළිබඳ පහත ප්‍රකාශ සලකන්න:
+(i) රෙජිස්තරවල ධාරිතාව අවම වන නමුත් ප්‍රවේශ වේගය උපරිම වේ.
+(ii) ද්විතීයික ආචයනයේ ධාරිතාව උපරිම වන නමුත් ප්‍රවේශ වේගය අවම වේ.
+(iii) වාරික මතකය (Cache) පිහිටා ඇත්තේ CPU සහ ප්‍රධාන මතකය (RAM) අතර ය.
+ඉහත ප්‍රකාශ අතුරින් සත්‍ය වන්නේ කුමක්ද?
+
+- (A) (i) and (ii) only / (i) සහ (ii) පමණි
+- (B) (i) and (iii) only / (i) සහ (iii) පමණි
+- (C) (ii) and (iii) only / (ii) සහ (iii) පමණි
+- (D) All (i), (ii), and (iii) / (i), (ii) සහ (iii) සියල්ලම
+
+**Correct Answer / නිවැරදි පිළිතුර:** **(D)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** All statements are correct. In the memory hierarchy pyramid, capacity increases and speed decreases as you move downwards from CPU Registers down to Secondary Storage.
+* **සිංහල:** ප්‍රකාශ 3 ම සත්‍ය වේ. මතක ධූරාවලි පිරමිඩයේ ඉහළ සිට පහළට යත්ම (රෙජිස්තරවල සිට ද්විතීයික මතකය දක්වා) ධාරිතාව වැඩි වන අතර වේගය අඩු වේ.
+
+---
+
+### 🎴 Question / Flashcard #60
+**Question / ප්‍රශ්නය:**
+An automatic weather station records temperature, humidity, and atmospheric pressure using analog sensors, converts these into digital signals using an ADC, logs the data into a database, and generates weather forecasts. What type of computer system does this represent?
+ස්වයංක්‍රීය කාලගුණ මධ්‍යස්ථානයක් ප්‍රතිසම සංවේදක මඟින් උෂ්ණත්වය, ආර්ද්‍රතාව සහ වායුගෝලීය පීඩනය මැන, ADC මඟින් සංඛ්‍යාංක බවට හරවා, දත්ත සමුදායක සුරකිමින් කාලගුණ අනාවැකි සකසයි. මෙය කුමන පරිගණක පද්ධතියකට නිදසුනක්ද?
+
+- (A) Pure Analog System / තනි ප්‍රතිසම පද්ධතියක්
+- (B) Pure Digital System / තනි සංඛ්‍යාංක පද්ධතියක්
+- (C) Hybrid Computer System / මිශ්‍ර පරිගණක පද්ධතියක්
+- (D) Mainframe System / මහා පරිගණක පද්ධතියක්
+
+**Correct Answer / නිවැරදි පිළිතුර:** **(C)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** Systems that capture continuous physical phenomena via analog transducers, convert them via ADCs, and process/store them digitally operate as Hybrid Computer Systems.
+* **සිංහල:** අඛණ්ඩ භෞතික දත්ත ප්‍රතිසම ලෙස ලබාගෙන, සංඛ්‍යාංක බවට හරවා ගබඩා කරමින් සකසන පද්ධති මිශ්‍ර පරිගණක පද්ධති (Hybrid Computer Systems) වේ.
+
+---
+
+### 🎴 Question / Flashcard #61
+**Question / ප්‍රශ්නය:**
+Consider the following statements regarding the Fetch-Decode-Execute machine cycle:
+(i) During the 'Fetch' stage, the instruction is loaded from memory into the Instruction Register.
+(ii) During the 'Decode' stage, the Control Unit interprets the instruction opcode.
+(iii) During the 'Execute' stage, the ALU performs arithmetic or logical operations if required.
+Which of the statements above is/are TRUE?
+උපදෙස් ක්‍රියාත්මක කිරීමේ යන්ත්‍ර චක්‍රය පිළිබඳ පහත ප්‍රකාශ සලකන්න:
+(i) 'Fetch' (ලබා ගැනීම) පියවරේදී උපදෙස මතකයෙන් ලබාගෙන උපදෙස් රෙජිස්තරය වෙත පූරණය කරයි.
+(ii) 'Decode' (විකේතනය) පියවරේදී පාලන ඒකකය මඟින් උපදෙසෙහි අර්ථය තේරුම් ගනී.
+(iii) 'Execute' (ක්‍රියාත්මක කිරීම) පියවරේදී අවශ්‍ය නම් ALU මඟින් ගණිතමය හෝ තාර්කික මෙහෙයුම සිදු කරයි.
+ඉහත ප්‍රකාශ අතුරින් සත්‍ය වන්නේ කුමක්ද?
+
+- (A) (i) and (ii) only / (i) සහ (ii) පමණි
+- (B) (ii) and (iii) only / (ii) සහ (iii) පමණි
+- (C) (i) and (iii) only / (i) සහ (iii) පමණි
+- (D) All (i), (ii), and (iii) / (i), (ii) සහ (iii) සියල්ලම
+
+**Correct Answer / නිවැරදි පිළිතුර:** **(D)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** All three statements correctly define the respective stages of the classical von Neumann machine cycle.
+* **සිංහල:** ප්‍රකාශ 3 ම සත්‍ය වේ. වොන් නියුමන් යන්ත්‍ර චක්‍රයේදී Fetch, Decode සහ Execute පියවර නිවැරදිව ක්‍රියාත්මක වේ.
+
+---
+
+### 🎴 Question / Flashcard #62
+**Question / ප්‍රශ්නය:**
+A hospital intensive care unit (ICU) requires continuous monitoring of patient heart rate, blood pressure, and oxygen saturation. The system displays real-time wave graphs, sounds an audible alert if vitals drop below threshold limits, and logs patient records to a central server. Which hardware combination is present in this system?
+රෝහලක දැඩි සත්කාර ඒකකයේ (ICU) රෝගියෙකුගේ හෘද ස්පන්දනය, රුධිර පීඩනය සහ ඔක්සිජන් මට්ටම අඛණ්ඩව නිරීක්ෂණය කරන පද්ධතියක තත්‍ය කාලීන ප්‍රස්ථාර පෙන්වන අතර, අගයන් පහළ ගියහොත් අනතුරු ඇඟවීමේ නාද නිකුත් කරමින් දත්ත මධ්‍යම සර්වරයක සුරකියි. මෙම පද්ධතිය තුළ අඩංගු දෘඩාංග සංයෝජනය කුමක්ද?
+
+- (A) Analog medical sensors (Input) + Microcontroller/CPU (Processing) + Monitor display & Speaker buzzer (Output) + Storage drive (Storage)
+- (B) OMR sheet scanner + Dot Matrix printer only / OMR ස්කෑනරය සහ තිත් න්‍යාස මුද්‍රකය පමණි
+- (C) Barcode reader + Thermal receipt printer only / තීරු කේත කියවනය සහ තාප මුද්‍රකය පමණි
+- (D) Plotter + Magnetic tape streamer only / ප්ලෝටරය සහ චුම්බක පටය පමණි
+
+**Correct Answer / නිවැරදි පිළිතුර:** **(A)**
+
+**Explanation & Flashcard Back / විස්තරය:**
+* **English:** The ICU monitor embodies all 4 computer functions: biological sensors as Input, microprocessor as Processing, screen and alert siren as Output, and internal drive/server as Storage.
+* **සිංහල:** මෙම පද්ධතිය පරිගණකයේ මූලික කාර්යයන් 4 ම ක්‍රියාත්මක කරයි: ආදාන ලෙස වෛද්‍ය සංවේදක (Sensors), සැකසුම් ලෙස ප්‍රොසෙසරය (CPU), ප්‍රතිදාන ලෙස මොනිටරය සහ ස්පීකරය (Audio alert), සහ ආචයනය ලෙස දත්ත ගබඩාව (Storage).
 
 ---
 
 ## Quick Revision Summary Matrix (මතක තබා ගැනීමේ කෙටි සටහන)
 
-| Number System / Topic | Base (පදනම) | Symbols / Digits (භාවිත වන සංකේත) | Example Conversion |
-| :--- | :--- | :--- | :--- |
-| **Binary (ද්විමය)** | Base 2 | `0, 1` | $25_{10} = 11001_2$ |
-| **Octal (අෂ්ටමය)** | Base 8 | `0, 1, 2, 3, 4, 5, 6, 7` | $11001_2 = 31_8$ |
-| **Decimal (දශමය)** | Base 10 | `0, 1, 2, 3, 4, 5, 6, 7, 8, 9` | $10001_2 = 17_{10}$ |
-| **Hexadecimal (ෂඩ්දශමය)**| Base 16 | `0–9` and `A, B, C, D, E, F` | $11001_2 = 19_{16}$ |
-
-| Basic / Derived Gate | Boolean Expression | Output is `1` When... |
+| සංකල්පය (Concept) | ප්‍රධාන ලක්ෂණය (Key Characteristic) | ප්‍රායෝගික නිදසුන (Real Example) |
 | :--- | :--- | :--- |
-| **AND Gate** | $Y = A \cdot B$ | ALL inputs are `1` |
-| **OR Gate** | $Y = A + B$ | AT LEAST ONE input is `1` |
-| **NOT Gate** | $Y = ar{A}$ | Input is `0` (Inverts input) |
-| **NAND Gate** | $Y = \overline{A \cdot B}$ | AT LEAST ONE input is `0` |
-| **NOR Gate** | $Y = \overline{A + B}$ | ALL inputs are `0` |
-| **XOR Gate** | $Y = A \oplus B$ | Inputs are DIFFERENT |
+| **Input $\rightarrow$ Process $\rightarrow$ Output $\rightarrow$ Storage** | මූලික පරිගණක කාර්යයන් 4 | යතුරුපුවරුව $\rightarrow$ CPU $\rightarrow$ මොනිටරය $\rightarrow$ SSD |
+| **GIGO (Garbage In, Garbage Out)** | නිරවද්‍යතාව ආදාන දත්තවල නිරවද්‍යතාව මත රඳා පවතී | වැරදි ලකුණු ඇතුළත් කළ විට වැරදි සාමාන්‍යයක් ලැබීම |
+| **ALU** | ගණිතමය (+, -, *, /) හා තාර්කික (<, >, =) ක්‍රියා | සංසන්දනයන් සහ එකතු කිරීම් |
+| **Control Unit (CU)** | උපදෙස් විකේතනය කර පාලන සංඥා නිකුත් කිරීම | පද්ධතියේ මෙහෙයුම් සම්බන්ධීකරණය |
+| **Program Counter (PC)** | ඊළඟට ලබා ගත යුතු උපදෙසෙහි ලිපිනය තබා ගැනීම | CPU අභ්‍යන්තර රෙජිස්තරයක් |
+| **Accumulator (ACC)** | ALU ගණනය කිරීම්වල ක්ෂණික පිළිතුර රඳවා ගැනීම | අතරමැදි ගණනය කිරීම් |
+| **Cache Memory** | CPU සහ RAM අතර ඇති අධිවේගී තාවකාලික SRAM | නිතර භාවිත වන දත්ත රඳවා ගැනීම |
+| **RAM vs ROM** | RAM: Volatile, Read/Write; ROM: Non-volatile, Read-Only | RAM: ක්‍රියාත්මක වන ගොනු; ROM: BIOS, POST |
+| **Dot Matrix Printer** | ඝට්ටන මුද්‍රකය; කාබන් කොපි අනුපිටපත් මුද්‍රණය කළ හැක | බැංකු තැන්පතු පත්‍රිකා, තොග බිල්පත් |
+| **Laser Printer** | අර්ධ-ඝට්ටන නොවන; ටෝනර් කුඩු සහ ඩ්‍රමය; වේගවත් | කාර්යාල හා පාසල් විභාග ප්‍රශ්න පත්‍ර |
+| **Thermal Printer** | තාප සංවේදී කඩදාසි; තීන්ත රහිත; නිශ්ශබ්ද | සුපිරි වෙළඳසැල් POS බිල්පත්, ATM පත්‍රිකා |
+| **Plotter** | යාන්ත්‍රික පෑන් මඟින් විශාල පත්‍රවල රේඛීය ඇඳීම් | ගෘහ නිර්මාණ සහ ඉංජිනේරු බ්ලූප්‍රින්ට් ($A_0$) |
+| **VGA Port** | 15-pin D-sub; ප්‍රතිසම වීඩියෝ පමණි | පැරණි මොනිටර, ප්‍රක්ෂේපක |
+| **HDMI Port** | ඩිජිටල් අධි-විභේදන වීඩියෝ සහ ඕඩියෝ එකවර ගෙන යයි | නූතන LED මොනිටර, ස්මාර්ට් TV |
+| **MICR** | චුම්බක තීන්ත අක්ෂර කියවනය | බැංකු චෙක්පත් නිෂ්කාශනය |
+| **OMR** | පූර්ව-මුද්‍රිත කොටුවල සලකුණු හඳුනා ගැනීම | O/L විභාග බහුවරණ (MCQ) උත්තර පත්‍ර |
+| **OCR** | ලේඛනවල අකුරු රූප සංස්කරණය කළ හැකි අකුරු බවට පත් කිරීම | පැරණි පොත් හා හැඳුනුම්පත් ඩිජිටල්කරණය |
+| **SSD vs HDD** | SSD: චලනය වන කොටස් නැත, කම්පනවලට ඔරොත්තු දේ, වේගවත් | නූතන ලැප්ටොප් පරිගණක |
+| **Blu-ray vs DVD** | Blu-ray: 405 nm නිල්-දම් ලේසර් (25 GB); DVD: 650 nm රතු (4.7 GB) | අධි-විභේදන චිත්‍රපට හා දත්ත තැටි |
+| **Memory Speed Hierarchy** | රෙජිස්තර > Cache > RAM > ROM > SSD > HDD > පටය | වේගවත්ම මතකයේ සිට මන්දගාමීම දක්වා |

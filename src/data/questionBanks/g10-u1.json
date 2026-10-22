@@ -1,0 +1,2358 @@
+[
+  {
+    "id": "g10-u1-q1",
+    "lessonId": "g10-u1",
+    "questionNumber": 1,
+    "promptEn": "What is the fundamental definition of 'Data' in ICT?",
+    "promptSi": "තොරතුරු සහ සන්නිවේදන තාක්ෂණයේදී 'දත්ත' (Data) යන්නෙහි මූලික අර්ථ දැක්වීම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Processed results ready for decision making",
+        "si": "තීරණ ගැනීම සඳහා සකස් කළ ප්‍රතිඵල"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Unprocessed raw facts, figures, or symbols",
+        "si": "සැකසීමට ලක් නොකළ අමු තොරතුරු, සංඛ්‍යා හෝ සංකේත"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Output displayed on a computer screen",
+        "si": "පරිගණක තිරයේ දර්ශනය වන ප්‍රතිදාන"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Stored electronic reports",
+        "si": "ගබඩා කර ඇති ඉලෙක්ට්‍රොනික වාර්තා"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Data refers to raw, unorganized, unprocessed facts, figures, letters, or symbols that do not convey a specific context or meaning on their own (e.g., individual numbers like 85, 90, 72).",
+    "explanationSi": "දත්ත යනු සන්දර්භයක් හෝ අර්ථයක් නොමැති, ක්‍රියාවලියකට ලක් නොකළ අමු සංඛ්‍යා, අක්ෂර, රූප හෝ සංකේත වේ (උදා: 85, 90, 72 වැනි හුදකලා අංක).",
+    "syllabusRef": "G10-U1.1"
+  },
+  {
+    "id": "g10-u1-q2",
+    "lessonId": "g10-u1",
+    "questionNumber": 2,
+    "promptEn": "What is the definition of 'Information' in ICT?",
+    "promptSi": "තොරතුරු සහ සන්නිවේදන තාක්ෂණයේදී 'තොරතුරු' (Information) යන්නෙහි අර්ථ දැක්වීම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Raw figures collected from surveys",
+        "si": "සමීක්ෂණවලින් ලබාගත් අමු සංඛ්‍යා"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Hardware devices inside a system",
+        "si": "පද්ධතියක් තුළ ඇති දෘඩාංග උපාංග"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Processed data that provides meaning and context",
+        "si": "සන්දර්භයක් සහ අර්ථයක් ලැබෙන සේ සකස් කරන ලද දත්ත"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Unorganized student test marks",
+        "si": "සංවිධානය නොකළ ශිෂ්‍ය පරීක්ෂණ ලකුණු"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Information is data that has been processed, organized, structured, or contextualized so that it becomes meaningful, understandable, and useful for decision making.",
+    "explanationSi": "තොරතුරු යනු තීරණ ගැනීම සඳහා ප්‍රයෝජනවත් වන පරිදි සකසන ලද, සංවිධානය කරන ලද සහ අර්ථවත් කරන ලද දත්ත වේ.",
+    "syllabusRef": "G10-U1.2"
+  },
+  {
+    "id": "g10-u1-q3",
+    "lessonId": "g10-u1",
+    "questionNumber": 3,
+    "promptEn": "Which of the following is an example of 'Data'?",
+    "promptSi": "පහත සඳහන් දෑ අතරින් 'දත්ත' සඳහා උදාහරණයක් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Total term test marks of a student (e.g., 480)",
+        "si": "ශිෂ්‍යයෙකුගේ වාර විභාගයේ මුළු ලකුණු (උදා: 480)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Average temperature of a month",
+        "si": "මාසයක සාමාන්‍ය උෂ්ණත්වය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The individual mark '85' obtained for Mathematics",
+        "si": "ගණිතය විෂය සඳහා ලබාගත් '85' යන හුදකලා ලකුණ"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Highest score report in a class",
+        "si": "පන්තියක ඉහළම ලකුණු වාර්තාව"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "The standalone number '85' is raw data because without context (like student name, subject, or total marks), it conveys no meaningful decision-making value. Total marks and averages are processed information.",
+    "explanationSi": "'85' යන්න හුදකලා අගයක් බැවින් එය අමු දත්තයකි. මන්දයත් එය කාගේ ලකුණක්ද, කුමන විෂයටද යන්න පැහැදිලි නැති බැවිනි. මුළු ලකුණු සහ සාමාන්‍යය යනු සැකසූ තොරතුරු වේ.",
+    "syllabusRef": "G10-U1.3"
+  },
+  {
+    "id": "g10-u1-q4",
+    "lessonId": "g10-u1",
+    "questionNumber": 4,
+    "promptEn": "Which of the following represents 'Information'?",
+    "promptSi": "පහත සඳහන් දෑ අතරින් 'තොරතුරු' නිරූපණය කරන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The digits 2, 0, 0, 5, 1, 2, 8",
+        "si": "2, 0, 0, 5, 1, 2, 8 යන ඉලක්කම්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Student's position in class: \"1st Place\"",
+        "si": "පන්තියේ ශිෂ්‍යයාගේ ස්ථානය: \"1 වන ස්ථානය\""
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A list of unsorted numbers",
+        "si": "අනුපිළිවෙලට සකස් නොකළ සංඛ්‍යා ලැයිස්තුවක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Unprocessed survey responses",
+        "si": "සකස් නොකළ සමීක්ෂණ ප්‍රශ්නාවලී පිළිතුරු"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "\"1st Place\" is information derived after processing (sorting and comparing) the total marks of all students in the class.",
+    "explanationSi": "\"1 වන ස්ථානය\" යනු පන්තියේ සියලුම ළමුන්ගේ ලකුණු එකතු කර, සසඳා, අනුපිළිවෙලට සකස් කිරීමෙන් පසු ලබාගන්නා අර්ථවත් තොරතුරකි.",
+    "syllabusRef": "G10-U1.4"
+  },
+  {
+    "id": "g10-u1-q5",
+    "lessonId": "g10-u1",
+    "questionNumber": 5,
+    "promptEn": "What is the core relationship between Data, Processing, and Information?",
+    "promptSi": "දත්ත, ක්‍රියාවලිය (Processing) සහ තොරතුරු අතර පවතින මූලික සබඳතාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Information + Processing = Data",
+        "si": "Information + Processing = Data"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Data + Information = Processing",
+        "si": "Data + Information = Processing"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Data → Processing → Information",
+        "si": "Data → Processing → Information"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Processing → Data → Information",
+        "si": "Processing → Data → Information"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Raw Data enters as Input, undergoes Processing (calculations, sorting, filtering), and yields Information as Output.",
+    "explanationSi": "අමු දත්ත ඇතුළත් කිරීම් (Input) ලෙස ලබාදී, ක්‍රියාවලියකට (Processing) ලක්කිරීමෙන් පසු තොරතුරු (Information) ප්‍රතිදානය ලෙස ලැබේ.",
+    "syllabusRef": "G10-U1.5"
+  },
+  {
+    "id": "g10-u1-q6",
+    "lessonId": "g10-u1",
+    "questionNumber": 6,
+    "promptEn": "Analyzing a National Identity Card (NIC) number like \"200523401234\" to extract the birth year (2005) is an example of:",
+    "promptSi": "\"200523401234\" වැනි ජාතික හැඳුනුම්පත් අංකයකින් උපන් වර්ෂය (2005) ලබා ගැනීම කුමකට උදාහරණයක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Converting Information into Data",
+        "si": "තොරතුරු දත්ත බවට පත් කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Processing Data into Information",
+        "si": "දත්ත තොරතුරු බවට සකස් කිරීම (Processing)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Data Deletion",
+        "si": "දත්ත මකා දැමීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hardware Assembly",
+        "si": "දෘඩාංග එකලස් කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The raw NIC string is Data. Extracting the birth year, gender, and age involves a Processing logic that converts that string into useful Information.",
+    "explanationSi": "හැඳුනුම්පත් අංකය අමු දත්තයක් වන අතර, එයින් උපන් වර්ෂය, ස්ත්‍රී/පුරුෂ භාවය සහ වයස ලබා ගැනීම දත්ත තොරතුරු බවට පත් කිරීමේ ක්‍රියාවලියකි (Processing).",
+    "syllabusRef": "G10-U1.6"
+  },
+  {
+    "id": "g10-u1-q7",
+    "lessonId": "g10-u1",
+    "questionNumber": 7,
+    "promptEn": "Which of the following is NOT an attribute of raw data?",
+    "promptSi": "පහත සඳහන් දෑ අතරින් අමු දත්තවල ලක්ෂණයක් නො වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Lacks context on its own",
+        "si": "තනිවම පැවති විට සන්දර්භයක් නොමැත"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Directly suitable for making major administrative decisions",
+        "si": "පරිපාලනමය තීරණ ගැනීමට සෘජුවම සුදුසු වේ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Serves as the input for a system",
+        "si": "පද්ධතියක ඇතුළත් කිරීම් (Input) ලෙස ක්‍රියා කරයි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Can be numbers, letters, images, or audio",
+        "si": "සංඛ්‍යා, අක්ෂර, රූප හෝ ශ්‍රව්‍ය විය හැක"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Raw data is NOT directly suitable for decision making because it is unorganized and lacks meaning. Decisions require processed Information.",
+    "explanationSi": "අමු දත්ත තනිවම අර්ථවත් නොවන බැවින් ඒවා භාවිතයෙන් සෘජුවම තීරණ ගත නොහැක. තීරණ ගැනීම සඳහා දත්ත තොරතුරු බවට සකස් කළ යුතුය.",
+    "syllabusRef": "G10-U1.7"
+  },
+  {
+    "id": "g10-u1-q8",
+    "lessonId": "g10-u1",
+    "questionNumber": 8,
+    "promptEn": "Which operation converts raw marks (70, 80, 90) into the average mark (80)?",
+    "promptSi": "අමු ලකුණු (70, 80, 90) සාමාන්‍ය ලකුණ (80) බවට පත් කරන මෙහෙයුම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Data Collection",
+        "si": "දත්ත රැස්කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Data Processing",
+        "si": "දත්ත සැකසීම (Processing)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Information Output",
+        "si": "තොරතුරු ප්‍රතිදානය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Data Storage",
+        "si": "දත්ත ගබඩා කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Applying mathematical formulas (Sum / Count) on raw data values is known as Data Processing.",
+    "explanationSi": "අමු දත්ත මත ගණිතමය සූත්‍ර යෙදීම (එකතුව / ගණන) දත්ත සැකසීම (Data Processing) ලෙස හැඳින්වේ.",
+    "syllabusRef": "G10-U1.8"
+  },
+  {
+    "id": "g10-u1-q9",
+    "lessonId": "g10-u1",
+    "questionNumber": 9,
+    "promptEn": "Why is Information considered valuable for an organization?",
+    "promptSi": "ආයතනයකට තොරතුරු වටිනා දෙයක් ලෙස සැලකෙන්නේ මන්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "It occupies physical space",
+        "si": "එය භෞතික ඉඩක් ලබා ගන්නා බැවින්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "It enables effective decision-making and planning",
+        "si": "එය නිවැරදි තීරණ ගැනීමට සහ සැලසුම් කිරීමට උපකාරී වන බැවින්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "It increases hardware storage costs",
+        "si": "එය දෘඩාංග ගබඩා පිරිවැය වැඩි කරන බැවින්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "It requires manual sorting",
+        "si": "එය අතින් වර්ග කිරීම අවශ්‍ය වන බැවින්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Information reduces uncertainty and provides insights required to make correct, timely decisions and strategic plans.",
+    "explanationSi": "තොරතුරු මගින් අවිනිශ්චිතතාවය අඩු කර නිවැරදි හා කාලෝචිත තීරණ ගැනීමටත්, උපායමාර්ගික සැලසුම් සකස් කිරීමටත් මග පාදයි.",
+    "syllabusRef": "G10-U1.9"
+  },
+  {
+    "id": "g10-u1-q10",
+    "lessonId": "g10-u1",
+    "questionNumber": 10,
+    "promptEn": "Consider the statement: \"Rainfall: 150mm in Colombo on May 12\". This statement is an example of:",
+    "promptSi": "\"මැයි 12 වන දින කොළඹට මිලිමීටර් 150 ක වර්ෂාපතනයක් ලැබුණි\" යන්න කුමකට උදාහරණයක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Raw Data",
+        "si": "අමු දත්ත"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Information",
+        "si": "තොරතුරු"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Instruction Code",
+        "si": "උපදෙස් කේතය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Computer Hardware",
+        "si": "පරිගණක දෘඩාංග"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "This statement includes context (location: Colombo, date: May 12, value: 150mm), making it meaningful Information rather than just a standalone number like '150'.",
+    "explanationSi": "මෙහි ස්ථානය (කොළඹ), දිනය (මැයි 12) සහ ප්‍රමාණය (මිමී 150) යන සන්දර්භය අඩංගු බැවින් එය අර්ථවත් තොරතුරකි.",
+    "syllabusRef": "G10-U1.10"
+  },
+  {
+    "id": "g10-u1-q11",
+    "lessonId": "g10-u1",
+    "questionNumber": 11,
+    "promptEn": "Which of the following can be categorized as 'Data Input' in a school management system?",
+    "promptSi": "පාසල් කළමනාකරණ පද්ධතියක 'දත්ත ඇතුළත් කිරීමක්' (Data Input) ලෙස සැලකිය හැක්කේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Student report card printout",
+        "si": "ශිෂ්‍ය වාර්තා පොතේ මුද්‍රණය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Entering daily attendance marks into a software form",
+        "si": "මෘදුකාංග පෝරමයකට දෛනික පැමිණීමේ ලකුණු ඇතුළත් කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Generating term test rank lists",
+        "si": "වාර විභාග ශ්‍රේණිගත කිරීම් වාර්තා සෑදීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Calculating class average percentage",
+        "si": "පන්තියේ සාමාන්‍ය ප්‍රතිශතය ගණනය කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Typing raw daily attendance marks into a software input form is an Input activity. Calculating ranks and generating reports are processing and output activities.",
+    "explanationSi": "දෛනික පැමිණීමේ ලකුණු පෝරමයකට ඇතුළත් කිරීම ඇතුළත් කිරීමේ (Input) ක්‍රියාවලියකි. වාර්තා සහ සාමාන්‍යයන් සෑදීම ක්‍රියාවලි සහ ප්‍රතිදාන වේ.",
+    "syllabusRef": "G10-U1.11"
+  },
+  {
+    "id": "g10-u1-q12",
+    "lessonId": "g10-u1",
+    "questionNumber": 12,
+    "promptEn": "Yes! For example, the calculated total mark of a student (Information for a class teacher) serves as raw Data for the Z-score calculation system at the national level.",
+    "promptSi": "ඔව්! උදාහරණයක් ලෙස, ශිෂ්‍යයෙකුගේ මුළු ලකුණු (පන්ති භාර ගුරුතුමාට තොරතුරක්) විභාග දෙපාර්තමේන්තුවේ Z-Score ගණනය කරන පද්ධතියට අමු දත්තයක් වේ.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "No, information can never become data",
+        "si": "නැත, තොරතුරු කිසිවිටෙකත් දත්ත විය නොහැක"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Yes, depending on the context and processing stage",
+        "si": "ඔව්, සන්දර්භය සහ සැකසීමේ අදියර මත පදනම්ව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Only in manual systems",
+        "si": "අතින් පවත්වාගෙන යන පද්ධතිවල පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Only in 1st generation computers",
+        "si": "පළමු පරම්පරාවේ පරිගණකවල පමණි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Yes! For example, the calculated total mark of a student (Information for a class teacher) serves as raw Data for the Z-score calculation system at the national level.",
+    "explanationSi": "ඔව්! උදාහරණයක් ලෙස, ශිෂ්‍යයෙකුගේ මුළු ලකුණු (පන්ති භාර ගුරුතුමාට තොරතුරක්) විභාග දෙපාර්තමේන්තුවේ Z-Score ගණනය කරන පද්ධතියට අමු දත්තයක් වේ.",
+    "syllabusRef": "G10-U1.12"
+  },
+  {
+    "id": "g10-u1-q13",
+    "lessonId": "g10-u1",
+    "questionNumber": 13,
+    "promptEn": "What are the 4 functional steps of an Information System model?",
+    "promptSi": "තොරතුරු පද්ධති ආකෘතියක ප්‍රධාන කාර්යයන් 4 කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Hardware, Software, Peopleware, Data",
+        "si": "Hardware, Software, Peopleware, Data"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Input, Process, Output, Storage",
+        "si": "ඇතුළත් කිරීම, ක්‍රියාවලිය, ප්‍රතිදානය, ගබඩා කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Read, Write, Delete, Update",
+        "si": "Read, Write, Delete, Update"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Monitor, Keyboard, CPU, Printer",
+        "si": "Monitor, Keyboard, CPU, Printer"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The basic functional flow of an information system is: Input (data capture) → Process (transformation) → Output (information display) → Storage (saving data/information for future use).",
+    "explanationSi": "තොරතුරු පද්ධතියක මූලික කාර්ය ප්‍රවාහය වන්නේ: ඇතුළත් කිරීම (Input) → ක්‍රියාවලිය (Process) → ප්‍රතිදානය (Output) → ගබඩා කිරීම (Storage) වේ.",
+    "syllabusRef": "G10-U1.13"
+  },
+  {
+    "id": "g10-u1-q14",
+    "lessonId": "g10-u1",
+    "questionNumber": 14,
+    "promptEn": "Which component of an Information System includes physical hardware equipment?",
+    "promptSi": "තොරතුරු පද්ධතියක භෞතික උපකරණ අඩංගු සංරචකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Software",
+        "si": "මෘදුකාංග"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Hardware",
+        "si": "දෘඩාංග"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Procedures",
+        "si": "පටිපාටි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Dataware",
+        "si": "දත්තාංග"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Hardware refers to all physical, tangible components of a computer system (e.g., Keyboard, Mouse, CPU, Monitor, Hard Disk).",
+    "explanationSi": "දෘඩාංග (Hardware) යනු පරිගණක පද්ධතියක ඇල්ලිය හැකි, භෞතිකව පවතින සියලුම සංරචක වේ (උදා: යතුරුපුවරුව, මූසිකය, මධ්‍යම සැකසුම් ඒකකය, තිරය).",
+    "syllabusRef": "G10-U1.14"
+  },
+  {
+    "id": "g10-u1-q15",
+    "lessonId": "g10-u1",
+    "questionNumber": 15,
+    "promptEn": "Which of the following is an example of 'Software' in an Information System?",
+    "promptSi": "තොරතුරු පද්ධතියක 'මෘදුකාංග' (Software) සඳහා උදාහරණයක් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Central Processing Unit (CPU)",
+        "si": "Central Processing Unit (CPU)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Operating System like Windows",
+        "si": "Linux / Windows හෝ Linux වැනි මෙහෙයුම් පද්ධති"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Random Access Memory (RAM)",
+        "si": "Random Access Memory (RAM)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Barcode Reader",
+        "si": "Barcode Reader"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Software consists of sets of programs, instructions, and applications that tell the computer hardware how to perform tasks.",
+    "explanationSi": "මෘදුකාංග (Software) යනු පරිගණක දෘඩාංග ක්‍රියා කරවිය යුතු ආකාරය පවසන උපදෙස් සහ ක්‍රමලේඛ සමූහයයි.",
+    "syllabusRef": "G10-U1.15"
+  },
+  {
+    "id": "g10-u1-q16",
+    "lessonId": "g10-u1",
+    "questionNumber": 16,
+    "promptEn": "What is the role of 'Peopleware' / Users in an Information System?",
+    "promptSi": "තොරතුරු පද්ධතියක 'පරිශීලකයන්' / සජීවාංග (Peopleware) ඉටුකරන කාර්යභාරය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Supplying electrical power",
+        "si": "විදුලි බලය සැපයීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Operating the system, entering data, and utilizing information",
+        "si": "පද්ධතිය ක්‍රියා කරවීම, දත්ත ඇතුළත් කිරීම සහ තොරතුරු භාවිත කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Manufacturing computer chips",
+        "si": "පරිගණක චිප් නිෂ්පාදනය කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Storing backup files in hard drives",
+        "si": "දත්ත පිටපත් ගබඩා කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Peopleware includes all human beings involved in designing, operating, entering data into, maintaining, and using the outputs of an information system.",
+    "explanationSi": "සජීවාංග (Peopleware) යනු තොරතුරු පද්ධතිය සැලසුම් කරන, දත්ත ඇතුළත් කරන, පද්ධතිය ක්‍රියා කරවන සහ තොරතුරු භාවිත කරන සියලුම மனிதයන් වේ.",
+    "syllabusRef": "G10-U1.16"
+  },
+  {
+    "id": "g10-u1-q17",
+    "lessonId": "g10-u1",
+    "questionNumber": 17,
+    "promptEn": "What is meant by 'Procedures' / Rules in an Information System?",
+    "promptSi": "තොරතුරු පද්ධතියක 'පටිපාටි / රීති' (Procedures) යන්නෙන් අදහස් කරන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The physical cables connecting devices",
+        "si": "උපකරණ යා කරන කේබල්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Rules, guidelines, and instructions on how to use the system",
+        "si": "පද්ධතිය භාවිත කළ යුතු ආකාරය පිළිබඳ රීති, මගපෙන්වීම් සහ උපදෙස්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The mathematical formulas in RAM",
+        "si": "RAM හි ඇති ගණිතමය සූත්‍ර"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The brand names of computers",
+        "si": "පරිගණකවල වෙළඳ නාම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Procedures are documented policies, user manuals, operating guidelines, and security protocols that govern how data is entered, processed, and maintained.",
+    "explanationSi": "පටිපාටි යනු දත්ත ඇතුළත් කිරීම, සැකසීම, පද්ධතිය පවත්වාගෙන යාම සහ ආරක්ෂාව පිළිබඳව සකස් කර ඇති නීති, පියවර සහ උපදෙස් මාලාවන් වේ.",
+    "syllabusRef": "G10-U1.17"
+  },
+  {
+    "id": "g10-u1-q18",
+    "lessonId": "g10-u1",
+    "questionNumber": 18,
+    "promptEn": "In an Automated Teller Machine (ATM) system, what represents the 'Input'?",
+    "promptSi": "ස්වයංක්‍රීය ටෙලර් යන්ත්‍ර (ATM) පද්ධතියක 'ඇතුළත් කිරීම' (Input) නිරූපණය කරන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Cash notes dispensed",
+        "si": "නිකුත් කරන මුදල් නෝට්ටු"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Inserting the ATM card and entering the PIN code",
+        "si": "ATM කාඩ්පත ඇතුළත් කර PIN අංකය සටහන් කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Account balance update in database",
+        "si": "දත්ත සමුදායේ ගිණුම් ශේෂය යාවත්කාලීන වීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Printed transaction receipt",
+        "si": "මුද්‍රිත ගනුදෙනු රිසිට්පත"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Inserting the card and typing the PIN/withdrawal amount are Inputs. Dispensing cash and printing receipts are Outputs.",
+    "explanationSi": "ATM කාඩ්පත ඇතුළත් කිරීම, PIN අංකය සහ ලබාගන්නා මුදල ලබාදීම ඇතුළත් කිරීම් (Input) වේ. මුදල් නිකුත් කිරීම සහ රිසිට්පත ලබාදීම ප්‍රතිදාන (Output) වේ.",
+    "syllabusRef": "G10-U1.18"
+  },
+  {
+    "id": "g10-u1-q19",
+    "lessonId": "g10-u1",
+    "questionNumber": 19,
+    "promptEn": "Scanning is Input; calculating bill totals, taxes, discounts, and reducing stock in the database is Processing; printing the receipt is Output.",
+    "promptSi": "ස්කෑන් කිරීම Input වේ; මුළු මුදල, වට්ටම් ගණනය කිරීම සහ තොග අඩු කිරීම Processing වේ; බිල්පත මුද්‍රණය කිරීම Output වේ.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Scanning the barcode with a laser scanner",
+        "si": "ලේසර් ස්කෑනරයෙන් බාර්කෝඩය ස්කෑන් කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Calculating total bill, applying discounts, and updating stock count",
+        "si": "මුළු බිල ගණනය කිරීම, වට්ටම් கழி කිරීම සහ තොග ප්‍රමාණය යාවත්කාලීන කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Printing the final paper bill",
+        "si": "අවසාන මුද්‍රිත බිල්පත ලබාදීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The cashier operating the counter",
+        "si": "මුදල් අයකැමි කවුන්ටරයේ සිටීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Scanning is Input; calculating bill totals, taxes, discounts, and reducing stock in the database is Processing; printing the receipt is Output.",
+    "explanationSi": "ස්කෑන් කිරීම Input වේ; මුළු මුදල, වට්ටම් ගණනය කිරීම සහ තොග අඩු කිරීම Processing වේ; බිල්පත මුද්‍රණය කිරීම Output වේ.",
+    "syllabusRef": "G10-U1.19"
+  },
+  {
+    "id": "g10-u1-q20",
+    "lessonId": "g10-u1",
+    "questionNumber": 20,
+    "promptEn": "Secondary storage devices like Hard Disk Drives (HDD) and Solid State Drives (SSD) retain data permanently even when the computer power is switched off.",
+    "promptSi": "Hard Disk සහ SSD වැනි ද්විතීයික ගබඩා උපාංග මගින් විදුලිය විසන්ධි කළද දත්ත ස්ථිරවම ගබඩා කර තබා ගනී.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Input Device",
+        "si": "ඇතුළත් කිරීමේ උපාංගය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Processing Unit",
+        "si": "සැකසුම් ඒකකය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Storage Device (e.g. Hard Drive, SSD)",
+        "si": "ගබඩා උපාංගය (උදා: Hard Drive, SSD)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Output Device",
+        "si": "ප්‍රතිදාන උපාංගය"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Secondary storage devices like Hard Disk Drives (HDD) and Solid State Drives (SSD) retain data permanently even when the computer power is switched off.",
+    "explanationSi": "Hard Disk සහ SSD වැනි ද්විතීයික ගබඩා උපාංග මගින් විදුලිය විසන්ධි කළද දත්ත ස්ථිරවම ගබඩා කර තබා ගනී.",
+    "syllabusRef": "G10-U1.20"
+  },
+  {
+    "id": "g10-u1-q21",
+    "lessonId": "g10-u1",
+    "questionNumber": 21,
+    "promptEn": "Computer-based automated systems use hardware/software to process data at incredible speeds with high accuracy and compact storage compared to manual paper systems.",
+    "promptSi": "ඉලෙක්ට්‍රොනික පද්ධති මගින් තොරතුරු සහ සන්නිවේදන තාක්ෂණය භාවිත කර ඉතා ඉහළ වේගයකින්, නිවැරදිව සහ කුඩා ඉඩක විශාල දත්ත ප්‍රමාණයක් ගබඩා කර සකසයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Manual systems use computers",
+        "si": "automated systems use paper / අතින් පවත්වාගෙන යන පද්ධති පරිගණක භාවිත කරයි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Automated systems process data faster, more accurately, and store large volumes using IT",
+        "si": "ඉලෙක්ට්‍රොනික පද්ධති මගින් වේගවත්ව, නිවැරදිව හා විශාල දත්ත ප්‍රමාණයක් සකසයි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Manual systems do not need any people",
+        "si": "අතින් පවත්වාගෙන යන පද්ධතිවලට மனிதයන් අවශ්‍ය නොවේ"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Automated systems cannot produce printed reports",
+        "si": "ඉලෙක්ට්‍රොනික පද්ධතිවලට මුද්‍රිත වාර්තා දිය නොහැක"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Computer-based automated systems use hardware/software to process data at incredible speeds with high accuracy and compact storage compared to manual paper systems.",
+    "explanationSi": "ඉලෙක්ට්‍රොනික පද්ධති මගින් තොරතුරු සහ සන්නිවේදන තාක්ෂණය භාවිත කර ඉතා ඉහළ වේගයකින්, නිවැරදිව සහ කුඩා ඉඩක විශාල දත්ත ප්‍රමාණයක් ගබඩා කර සකසයි.",
+    "syllabusRef": "G10-U1.21"
+  },
+  {
+    "id": "g10-u1-q22",
+    "lessonId": "g10-u1",
+    "questionNumber": 22,
+    "promptEn": "Hospital Information System (HIS) manages patient records, doctor appointments, pharmacy stocks, and laboratory test results.",
+    "promptSi": "රෝහල් තොරතුරු පද්ධතිය (HIS) මගින් රෝගීන්ගේ වාර්තා, වෛද්‍ය හමුවීම්, ඖෂධ තොග සහ පරීක්ෂණ වාර්තා කළමනාකරණය කරයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Automated Teller Machine (ATM)",
+        "si": "Automated Teller Machine (ATM)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Hospital Information System (HIS)",
+        "si": "රෝහල් තොරතුරු පද්ධතිය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Learning Management System (LMS)",
+        "si": "Learning Management System (LMS)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "E-Revenue System",
+        "si": "E-Revenue System"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Hospital Information System (HIS) manages patient records, doctor appointments, pharmacy stocks, and laboratory test results.",
+    "explanationSi": "රෝහල් තොරතුරු පද්ධතිය (HIS) මගින් රෝගීන්ගේ වාර්තා, වෛද්‍ය හමුවීම්, ඖෂධ තොග සහ පරීක්ෂණ වාර්තා කළමනාකරණය කරයි.",
+    "syllabusRef": "G10-U1.22"
+  },
+  {
+    "id": "g10-u1-q23",
+    "lessonId": "g10-u1",
+    "questionNumber": 23,
+    "promptEn": "The 5 core textbook criteria for valuable information are: 1. Relevancy, 2. Completeness, 3. Accuracy, 4. Timeliness, and 5. Cost Effectiveness.",
+    "promptSi": "ගුණාත්මක තොරතුරක මූලික ලක්ෂණ 5 නම්: 1. අදාළබව (Relevancy), 2. සම්පූර්ණබව (Completeness), 3. නිවැරදිබව (Accuracy), 4. කාලෝචිතබව (Timeliness), සහ 5. පිරිවැය සඵලතාව (Cost Effectiveness) වේ.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Fast, Slow, Big, Small, Cheap",
+        "si": "Fast, Slow, Big, Small, Cheap"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Relevancy, Completeness, Accuracy, Timeliness, Cost Effectiveness",
+        "si": "අදාළබව, සම්පූර්ණබව, නිවැරදිබව, කාලෝචිතබව, පිරිවැය සඵලතාව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Color, Shape, Size, Weight, Price",
+        "si": "Color, Shape, Size, Weight, Price"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Input, Output, Process, Storage, Display",
+        "si": "Input, Output, Process, Storage, Display"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The 5 core textbook criteria for valuable information are: 1. Relevancy, 2. Completeness, 3. Accuracy, 4. Timeliness, and 5. Cost Effectiveness.",
+    "explanationSi": "ගුණාත්මක තොරතුරක මූලික ලක්ෂණ 5 නම්: 1. අදාළබව (Relevancy), 2. සම්පූර්ණබව (Completeness), 3. නිවැරදිබව (Accuracy), 4. කාලෝචිතබව (Timeliness), සහ 5. පිරිවැය සඵලතාව (Cost Effectiveness) වේ.",
+    "syllabusRef": "G10-U1.23"
+  },
+  {
+    "id": "g10-u1-q24",
+    "lessonId": "g10-u1",
+    "questionNumber": 24,
+    "promptEn": "Relevancy means information must be directly related to the specific purpose or task at hand. Japan's weather is irrelevant to a trip in Kandy.",
+    "promptSi": "අදාළබව (Relevancy) යනු තොරතුරු ගන්නා තීරණයට හෝ කාර්යයට සෘජුවම සම්බන්ධ විය යුතු බවයි. මහනුවර ගමනට ජපානයේ කාලගුණය අදාළ නැත.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Accuracy",
+        "si": "නිවැරදිබව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Relevancy",
+        "si": "අදාළබව (Relevancy)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Timeliness",
+        "si": "කාලෝචිතබව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Cost Effectiveness",
+        "si": "පිරිවැය සඵලතාව"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Relevancy means information must be directly related to the specific purpose or task at hand. Japan's weather is irrelevant to a trip in Kandy.",
+    "explanationSi": "අදාළබව (Relevancy) යනු තොරතුරු ගන්නා තීරණයට හෝ කාර්යයට සෘජුවම සම්බන්ධ විය යුතු බවයි. මහනුවර ගමනට ජපානයේ කාලගුණය අදාළ නැත.",
+    "syllabusRef": "G10-U1.24"
+  },
+  {
+    "id": "g10-u1-q25",
+    "lessonId": "g10-u1",
+    "questionNumber": 25,
+    "promptEn": "Completeness means information must contain all necessary data required to make a full decision without missing critical details.",
+    "promptSi": "සම්පූර්ණබව (Completeness) යනු තීරණයක් ගැනීමට අවශ්‍ය සියලුම තොරතුරු අඩංගු විය යුතු බවයි. කොටසක් මඟහැරී ඇත්නම් එය අසම්පූර්ණ වේ.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Relevancy",
+        "si": "අදාළබව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Completeness",
+        "si": "සම්පූර්ණබව (Completeness)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Cost Effectiveness",
+        "si": "පිරිවැය සඵලතාව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Confidentiality",
+        "si": "රහස්‍යභාවය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Completeness means information must contain all necessary data required to make a full decision without missing critical details.",
+    "explanationSi": "සම්පූර්ණබව (Completeness) යනු තීරණයක් ගැනීමට අවශ්‍ය සියලුම තොරතුරු අඩංගු විය යුතු බවයි. කොටසක් මඟහැරී ඇත්නම් එය අසම්පූර්ණ වේ.",
+    "syllabusRef": "G10-U1.25"
+  },
+  {
+    "id": "g10-u1-q26",
+    "lessonId": "g10-u1",
+    "questionNumber": 26,
+    "promptEn": "Accuracy means information must be correct, precise, and free from errors. Incorrect information leads to wrong decisions.",
+    "promptSi": "නිවැරදිබව (Accuracy) යනු තොරතුරු වැරදි හා දෝෂවලින් තොරව පැවතිය යුතු බවයි. වැරදි තොරතුරු මගින් වැරදි තීරණවලට එළඹේ.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Accuracy",
+        "si": "නිවැරදිබව (Accuracy)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Timeliness",
+        "si": "කාලෝචිතබව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Relevancy",
+        "si": "අදාළබව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Cost",
+        "si": "පිරිවැය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Accuracy means information must be correct, precise, and free from errors. Incorrect information leads to wrong decisions.",
+    "explanationSi": "නිවැරදිබව (Accuracy) යනු තොරතුරු වැරදි හා දෝෂවලින් තොරව පැවතිය යුතු බවයි. වැරදි තොරතුරු මගින් වැරදි තීරණවලට එළඹේ.",
+    "syllabusRef": "G10-U1.26"
+  },
+  {
+    "id": "g10-u1-q27",
+    "lessonId": "g10-u1",
+    "questionNumber": 27,
+    "promptEn": "Timeliness means information must be delivered at the right time when it is needed. Outdated information is useless.",
+    "promptSi": "කාලෝචිතබව (Timeliness) යනු අවශ්‍ය වේලාවටම තොරතුරු ලැබිය යුතු බවයි. කාලය ඉකුත් වූ පසු ලැබෙන තොරතුරුවලින් ඵලක් නැත.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Completeness",
+        "si": "සම්පූර්ණබව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Timeliness",
+        "si": "කාලෝචිතබව (Timeliness)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Accuracy",
+        "si": "නිවැරදිබව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Relevancy",
+        "si": "අදාළබව"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Timeliness means information must be delivered at the right time when it is needed. Outdated information is useless.",
+    "explanationSi": "කාලෝචිතබව (Timeliness) යනු අවශ්‍ය වේලාවටම තොරතුරු ලැබිය යුතු බවයි. කාලය ඉකුත් වූ පසු ලැබෙන තොරතුරුවලින් ඵලක් නැත.",
+    "syllabusRef": "G10-U1.27"
+  },
+  {
+    "id": "g10-u1-q28",
+    "lessonId": "g10-u1",
+    "questionNumber": 28,
+    "promptEn": "Cost Effectiveness means the benefit derived from information must be greater than the financial/resource cost incurred to obtain it.",
+    "promptSi": "පිරිවැය සඵලතාව (Cost Effectiveness) යනු තොරතුරු ලබා ගැනීමට යන පිරිවැයට වඩා එයින් ලැබෙන වාසිය වැඩි විය යුතු බවයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Accuracy",
+        "si": "නිවැරදිබව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Cost Effectiveness",
+        "si": "පිරිවැය සඵලතාව (Cost Effectiveness)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Relevancy",
+        "si": "අදාළබව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Timeliness",
+        "si": "කාලෝචිතබව"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Cost Effectiveness means the benefit derived from information must be greater than the financial/resource cost incurred to obtain it.",
+    "explanationSi": "පිරිවැය සඵලතාව (Cost Effectiveness) යනු තොරතුරු ලබා ගැනීමට යන පිරිවැයට වඩා එයින් ලැබෙන වාසිය වැඩි විය යුතු බවයි.",
+    "syllabusRef": "G10-U1.28"
+  },
+  {
+    "id": "g10-u1-q29",
+    "lessonId": "g10-u1",
+    "questionNumber": 29,
+    "promptEn": "Understandability ensures information is presented in a clean, simple, and legible format (charts, tables) so recipients can interpret it effortlessly.",
+    "promptSi": "අවබෝධ කරගත හැකිබව යනු තොරතුරු කියවා තේරුම් ගැනීමට පහසු වන පරිදි පැහැදිලි සටහන්, වගු හෝ ප්‍රස්තාර මගින් ඉදිරිපත් කිරීමයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Understandability",
+        "si": "අවබෝධ කරගත හැකිබව (Understandability)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Costliness",
+        "si": "පිරිවැය අධික බව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Redundancy",
+        "si": "පුනරාවර්තනය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Complexity",
+        "si": "සංකීර්ණබව"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Understandability ensures information is presented in a clean, simple, and legible format (charts, tables) so recipients can interpret it effortlessly.",
+    "explanationSi": "අවබෝධ කරගත හැකිබව යනු තොරතුරු කියවා තේරුම් ගැනීමට පහසු වන පරිදි පැහැදිලි සටහන්, වගු හෝ ප්‍රස්තාර මගින් ඉදිරිපත් කිරීමයි.",
+    "syllabusRef": "G10-U1.29"
+  },
+  {
+    "id": "g10-u1-q30",
+    "lessonId": "g10-u1",
+    "questionNumber": 30,
+    "promptEn": "Inaccuracy in medical diagnostic data directly endangers human life due to wrong dosage or incorrect prescriptions.",
+    "promptSi": "වෛද්‍ය පරීක්ෂණ වාර්තාවල නිවැරදිබව නොමැති වුවහොත් වැරදි ඖෂධ ලබාදීමෙන් රෝගියාගේ ජීවිතයට තර්ජනයක් විය හැක.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "It increases hospital revenue",
+        "si": "එය රෝහල් ආදායම වැඩි කරයි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "It can lead to incorrect treatment and risk patient life",
+        "si": "එය වැරදි ප්‍රතිකාරවලට හා රෝගියාගේ ජීවිත අවදානමකට මග පාදයි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "It speeds up patient recovery",
+        "si": "එය රෝගියා සුවපත්වීම වේගවත් කරයි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "It reduces paper usage",
+        "si": "එය කඩදාසි භාවිතය අඩු කරයි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Inaccuracy in medical diagnostic data directly endangers human life due to wrong dosage or incorrect prescriptions.",
+    "explanationSi": "වෛද්‍ය පරීක්ෂණ වාර්තාවල නිවැරදිබව නොමැති වුවහොත් වැරදි ඖෂධ ලබාදීමෙන් රෝගියාගේ ජීවිතයට තර්ජනයක් විය හැක.",
+    "syllabusRef": "G10-U1.30"
+  },
+  {
+    "id": "g10-u1-q31",
+    "lessonId": "g10-u1",
+    "questionNumber": 31,
+    "promptEn": "Consistency means data values and definitions remain uniform across different parts of an organization without contradictory statements.",
+    "promptSi": "ස්ථාවරබව / එකඟතාව (Consistency) යනු ආයතනයක එකම තොරතුර පිළිබඳ විවිධ වාර්තාවල පරස්පර අගයන් නොමැතිව සමාන අගයන් පැවතීමයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Consistency",
+        "si": "ස්ථාවරබව / එකඟතාව (Consistency)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Delay",
+        "si": "ප්‍රමාදය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "High Cost",
+        "si": "ඉහළ පිරිවැය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Partiality",
+        "si": "අර්ධබව"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Consistency means data values and definitions remain uniform across different parts of an organization without contradictory statements.",
+    "explanationSi": "ස්ථාවරබව / එකඟතාව (Consistency) යනු ආයතනයක එකම තොරතුර පිළිබඳ විවිධ වාර්තාවල පරස්පර අගයන් නොමැතිව සමාන අගයන් පැවතීමයි.",
+    "syllabusRef": "G10-U1.31"
+  },
+  {
+    "id": "g10-u1-q32",
+    "lessonId": "g10-u1",
+    "questionNumber": 32,
+    "promptEn": "High quality information must satisfy all core attributes: Accurate, Timely, Relevant, Complete, and Cost-effective.",
+    "promptSi": "උසස් ගුණාත්මක තොරතුරක් නිවැරදි, කාලෝචිත, අදාළ, සම්පූර්ණ සහ පිරිවැය සඵල විය යුතුය.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Inaccurate, Late, Expensive, Partial",
+        "si": "Inaccurate, Late, Expensive, Partial"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Accurate, Timely, Relevant, Complete, Cost-effective",
+        "si": "නිවැරදි, කාලෝචිත, අදාළ, සම්පූර්ණ, පිරිවැය-සඵල"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Unorganized, Random, Old, Huge",
+        "si": "Unorganized, Random, Old, Huge"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Secret, Unusable, Unclear, Expensive",
+        "si": "Secret, Unusable, Unclear, Expensive"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "High quality information must satisfy all core attributes: Accurate, Timely, Relevant, Complete, and Cost-effective.",
+    "explanationSi": "උසස් ගුණාත්මක තොරතුරක් නිවැරදි, කාලෝචිත, අදාළ, සම්පූර්ණ සහ පිරිවැය සඵල විය යුතුය.",
+    "syllabusRef": "G10-U1.32"
+  },
+  {
+    "id": "g10-u1-q33",
+    "lessonId": "g10-u1",
+    "questionNumber": 33,
+    "promptEn": "e-Government is the use of Information and Communication Technology by government agencies to deliver public services efficiently, transparently, and conveniently.",
+    "promptSi": "e-Government යනු රාජ්‍ය සේවාවන් වඩාත් කාර්යක්ෂමව, විනිවිදභාවයෙන් හා පහසුවෙන් ජනතාව වෙත ලබාදීමට තොරතුරු තාක්ෂණය යොදාගැනීමයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Selling computers to government servants",
+        "si": "රජයේ සේවකයන්ට පරිගණක විකිණීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Delivering government services electronically to citizens using ICT",
+        "si": "ICT භාවිතයෙන් රජයේ සේවාවන් පුරවැසියන්ට ඉලෙක්ට්‍රොනිකව ලබාදීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Governing without any laws",
+        "si": "නීති නොමැතිව පාලනය කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Social media chatting by politicians",
+        "si": "දේශපාලඥයන් සමාජ මාධ්‍ය භාවිත කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "e-Government is the use of Information and Communication Technology by government agencies to deliver public services efficiently, transparently, and conveniently.",
+    "explanationSi": "e-Government යනු රාජ්‍ය සේවාවන් වඩාත් කාර්යක්ෂමව, විනිවිදභාවයෙන් හා පහසුවෙන් ජනතාව වෙත ලබාදීමට තොරතුරු තාක්ෂණය යොදාගැනීමයි.",
+    "syllabusRef": "G10-U1.33"
+  },
+  {
+    "id": "g10-u1-q34",
+    "lessonId": "g10-u1",
+    "questionNumber": 34,
+    "promptEn": "G2C stands for Government-to-Citizen, providing services directly to the general public (e.g., online passport application, online revenue license renewal).",
+    "promptSi": "G2C යනු රජය මගින් මහජනතාව/පුරවැසියන් වෙත සෘජුවම ලබාදෙන සේවාවන් වේ (උදා: මාර්ගගත ආදායම් බලපත්‍ර ලබා ගැනීම, විදේශ ගමන් බලපත්‍ර ඉල්ලුම් කිරීම).",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Government to Business",
+        "si": "රජය සහ ව්‍යාපාර අතර"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Government to Citizen",
+        "si": "රජය සහ පුරවැසියා අතර (Government to Citizen)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Government to Employee",
+        "si": "රජය සහ සේවකයන් අතර"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Government to Government",
+        "si": "රජයන් එකිනෙක අතර"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "G2C stands for Government-to-Citizen, providing services directly to the general public (e.g., online passport application, online revenue license renewal).",
+    "explanationSi": "G2C යනු රජය මගින් මහජනතාව/පුරවැසියන් වෙත සෘජුවම ලබාදෙන සේවාවන් වේ (උදා: මාර්ගගත ආදායම් බලපත්‍ර ලබා ගැනීම, විදේශ ගමන් බලපත්‍ර ඉල්ලුම් කිරීම).",
+    "syllabusRef": "G10-U1.34"
+  },
+  {
+    "id": "g10-u1-q35",
+    "lessonId": "g10-u1",
+    "questionNumber": 35,
+    "promptEn": "G2B stands for Government-to-Business, facilitating services between government and commercial enterprises (e.g., business registration, tax filing, customs clearance).",
+    "promptSi": "G2B යනු රජය සහ ව්‍යාපාරික ප්‍රජාව අතර සිදුවන සේවාවන් වේ (උදා: ව්‍යාපාර ලියාපදිංචිය, ආයතනික බදු ගෙවීම, රේගු කටයුතු).",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Government to Business",
+        "si": "රජය සහ ව්‍යාපාරික අංශය අතර සේවාවන්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Government to Bank",
+        "si": "Government to Bank"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "General to Basic",
+        "si": "General to Basic"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Global to Business",
+        "si": "Global to Business"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "G2B stands for Government-to-Business, facilitating services between government and commercial enterprises (e.g., business registration, tax filing, customs clearance).",
+    "explanationSi": "G2B යනු රජය සහ ව්‍යාපාරික ප්‍රජාව අතර සිදුවන සේවාවන් වේ (උදා: ව්‍යාපාර ලියාපදිංචිය, ආයතනික බදු ගෙවීම, රේගු කටයුතු).",
+    "syllabusRef": "G10-U1.35"
+  },
+  {
+    "id": "g10-u1-q36",
+    "lessonId": "g10-u1",
+    "questionNumber": 36,
+    "promptEn": "Citizens obtaining services directly from state departments online falls under G2C (Government to Citizen).",
+    "promptSi": "සාමාන්‍ය පුරවැසියන් රජයේ දෙපාර්තමේන්තුවකින් මාර්ගගතව සේවාව ලබාගන්නා බැවින් එය G2C වේ.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "G2C (Government to Citizen)",
+        "si": "G2C (Government to Citizen)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "G2G (Government to Government)",
+        "si": "G2G (Government to Government)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "B2B (Business to Business)",
+        "si": "B2B (Business to Business)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "C2C (Citizen to Citizen)",
+        "si": "C2C (Citizen to Citizen)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Citizens obtaining services directly from state departments online falls under G2C (Government to Citizen).",
+    "explanationSi": "සාමාන්‍ය පුරවැසියන් රජයේ දෙපාර්තමේන්තුවකින් මාර්ගගතව සේවාව ලබාගන්නා බැවින් එය G2C වේ.",
+    "syllabusRef": "G10-U1.36"
+  },
+  {
+    "id": "g10-u1-q37",
+    "lessonId": "g10-u1",
+    "questionNumber": 37,
+    "promptEn": "Telemedicine uses telecommunications and ICT to enable doctors to examine, diagnose, and treat patients at a distance without physical travel.",
+    "promptSi": "Telemedicine යනු වෛද්‍යවරුන් සහ රෝගීන් විවිධ ස්ථානවල සිටින විට විදුලි සංදේශ හා තොරතුරු තාක්ෂණය ඔස්සේ පරීක්ෂණ සහ වෛද්‍ය උපදෙස් ලබාදීමේ ක්‍රමයයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Buying televisions for hospitals",
+        "si": "රෝහල්වලට රූපවාහිනී මිලදී ගැනීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Providing medical advice, diagnosis, and treatment remotely using ICT",
+        "si": "ICT භාවිතයෙන් දුරස්ථව සිටින රෝගීන්ට වෛද්‍ය උපදෙස් හා ප්‍රතිකාර ලබාදීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Manufacturing surgical instruments",
+        "si": "ශල්‍යකර්ම උපකරණ නිපදවීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Storing paper files in medical stores",
+        "si": "ඖෂධහල්වල කඩදාසි ගොනු තැබීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Telemedicine uses telecommunications and ICT to enable doctors to examine, diagnose, and treat patients at a distance without physical travel.",
+    "explanationSi": "Telemedicine යනු වෛද්‍යවරුන් සහ රෝගීන් විවිධ ස්ථානවල සිටින විට විදුලි සංදේශ හා තොරතුරු තාක්ෂණය ඔස්සේ පරීක්ෂණ සහ වෛද්‍ය උපදෙස් ලබාදීමේ ක්‍රමයයි.",
+    "syllabusRef": "G10-U1.37"
+  },
+  {
+    "id": "g10-u1-q38",
+    "lessonId": "g10-u1",
+    "questionNumber": 38,
+    "promptEn": "CT (Computed Tomography) Scanners and MRI machines use computerized X-ray / magnetic processing to generate 3D internal anatomical images.",
+    "promptSi": "CT Scanners (සහ MRI) මගින් පරිගණකගත X-කිරණ භාවිත කර ශරීර අභ්‍යන්තරයේ ත්‍රිමාණ හරස්කඩ ඡායාරූප සාදයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Electrocardiogram - ECG",
+        "si": "ඉලෙක්ට්‍රෝකාඩියෝග්‍රෑම්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Computed Tomography (CT) Scanner",
+        "si": "CAT / CT ස්කෑනරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Thermometer",
+        "si": "උෂ්ණත්වමානය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Stethoscope",
+        "si": "වෙද නළාව"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "CT (Computed Tomography) Scanners and MRI machines use computerized X-ray / magnetic processing to generate 3D internal anatomical images.",
+    "explanationSi": "CT Scanners (සහ MRI) මගින් පරිගණකගත X-කිරණ භාවිත කර ශරීර අභ්‍යන්තරයේ ත්‍රිමාණ හරස්කඩ ඡායාරූප සාදයි.",
+    "syllabusRef": "G10-U1.38"
+  },
+  {
+    "id": "g10-u1-q39",
+    "lessonId": "g10-u1",
+    "questionNumber": 39,
+    "promptEn": "ECG (Electrocardiogram) monitors and records heart muscle electrical impulses to detect cardiac abnormalities. (EEG monitors brain activity).",
+    "promptSi": "ECG යන්ත්‍රය මගින් හෘදයේ විද්‍යුත් සංඥා තරංග සටහන් කර හෘදයේ ආබාධ හඳුනා ගනී. (EEG මගින් මොළයේ තරංග සටහන් කරයි).",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Electroencephalogram - EEG",
+        "si": "Electroencephalogram - EEG"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Electrocardiogram - ECG",
+        "si": "ECG යන්ත්‍රය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "MRI Scanner",
+        "si": "MRI Scanner"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Barcode Reader",
+        "si": "Barcode Reader"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "ECG (Electrocardiogram) monitors and records heart muscle electrical impulses to detect cardiac abnormalities. (EEG monitors brain activity).",
+    "explanationSi": "ECG යන්ත්‍රය මගින් හෘදයේ විද්‍යුත් සංඥා තරංග සටහන් කර හෘදයේ ආබාධ හඳුනා ගනී. (EEG මගින් මොළයේ තරංග සටහන් කරයි).",
+    "syllabusRef": "G10-U1.39"
+  },
+  {
+    "id": "g10-u1-q40",
+    "lessonId": "g10-u1",
+    "questionNumber": 40,
+    "promptEn": "LMS (Learning Management System) is a software platform (e.g. Moodle) used to deliver course materials, quizzes, submit assignments, and track student progress online.",
+    "promptSi": "LMS යනු පාඩම් මාලා, පැවරුම්, පරීක්ෂණ සහ අධ්‍යයන ද්‍රව්‍ය මාර්ගගතව ලබාදෙන අධ්‍යයන කළමනාකරණ පද්ධතියකි (උදා: Moodle).",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Local Media System",
+        "si": "Local Media System"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Learning Management System",
+        "si": "අධ්‍යයන කළමනාකරණ පද්ධතිය (Learning Management System)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Logical Memory Storage",
+        "si": "Logical Memory Storage"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Laboratory Marking System",
+        "si": "Laboratory Marking System"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "LMS (Learning Management System) is a software platform (e.g. Moodle) used to deliver course materials, quizzes, submit assignments, and track student progress online.",
+    "explanationSi": "LMS යනු පාඩම් මාලා, පැවරුම්, පරීක්ෂණ සහ අධ්‍යයන ද්‍රව්‍ය මාර්ගගතව ලබාදෙන අධ්‍යයන කළමනාකරණ පද්ධතියකි (උදා: Moodle).",
+    "syllabusRef": "G10-U1.40"
+  },
+  {
+    "id": "g10-u1-q41",
+    "lessonId": "g10-u1",
+    "questionNumber": 41,
+    "promptEn": "CAL stands for Computer Aided Learning, where interactive software, multimedia animations, and simulations assist students in learning concepts.",
+    "promptSi": "CAL (Computer Aided Learning) යනු අන්තර්ක්‍රියාකාරී මෘදුකාංග, සජීවීකරණ සහ අනුකරණ (Simulations) භාවිතයෙන් පරිගණක ආධාරයෙන් ඉගෙනීමයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Computer Aided Learning",
+        "si": "පරිගණක ආධාරක ඉගෙනුම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Central Algorithm Language",
+        "si": "Central Algorithm Language"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Calculator Application Logic",
+        "si": "Calculator Application Logic"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Computer Assisted Library",
+        "si": "Computer Assisted Library"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "CAL stands for Computer Aided Learning, where interactive software, multimedia animations, and simulations assist students in learning concepts.",
+    "explanationSi": "CAL (Computer Aided Learning) යනු අන්තර්ක්‍රියාකාරී මෘදුකාංග, සජීවීකරණ සහ අනුකරණ (Simulations) භාවිතයෙන් පරිගණක ආධාරයෙන් ඉගෙනීමයි.",
+    "syllabusRef": "G10-U1.41"
+  },
+  {
+    "id": "g10-u1-q42",
+    "lessonId": "g10-u1",
+    "questionNumber": 42,
+    "promptEn": "Soil moisture sensors embedded in agricultural fields send real-time data to automated controllers to release water only when needed.",
+    "promptSi": "පසෙහි ඇති සංවේදක (Sensors) මගින් තෙතමනය මැන බලා අවශ්‍ය වේලාවට පමණක් ස්වයංක්‍රීයව ජලය නිකුත් කරයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Manual Watering",
+        "si": "අතින් වතුර දැමීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Automated Sensor Systems & IoT",
+        "si": "ස්වයංක්‍රීය සංවේදක පද්ධති (Sensors)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Automated Teller Machines",
+        "si": "Automated Teller Machines"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "CRT Monitors",
+        "si": "CRT Monitors"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Soil moisture sensors embedded in agricultural fields send real-time data to automated controllers to release water only when needed.",
+    "explanationSi": "පසෙහි ඇති සංවේදක (Sensors) මගින් තෙතමනය මැන බලා අවශ්‍ය වේලාවට පමණක් ස්වයංක්‍රීයව ජලය නිකුත් කරයි.",
+    "syllabusRef": "G10-U1.42"
+  },
+  {
+    "id": "g10-u1-q43",
+    "lessonId": "g10-u1",
+    "questionNumber": 43,
+    "promptEn": "e-Commerce refers to conducting business transactions, buying, selling, and electronic fund transfers over online networks.",
+    "promptSi": "e-Commerce යනු අන්තර්ජාලය භාවිත කරමින් වෙබ් අඩවි හරහා භාණ්ඩ හා සේවා මිලදී ගැනීම, විකිණීම සහ මුදල් හුවමාරු කිරීමයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Manufacturing physical computers",
+        "si": "පරිගණක දෘඩාංග නිපදවීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Buying and selling goods and services over the Internet",
+        "si": "අන්තර්ජාලය ඔස්සේ භාණ්ඩ හා සේවාවන් මිලදී ගැනීම සහ විකිණීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Teaching computer science in schools",
+        "si": "පාසල්වල පරිගණක විද්‍යාව ඉගැන්වීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Sending traditional postal letters",
+        "si": "තැපැල් ලිපි යැවීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "e-Commerce refers to conducting business transactions, buying, selling, and electronic fund transfers over online networks.",
+    "explanationSi": "e-Commerce යනු අන්තර්ජාලය භාවිත කරමින් වෙබ් අඩවි හරහා භාණ්ඩ හා සේවා මිලදී ගැනීම, විකිණීම සහ මුදල් හුවමාරු කිරීමයි.",
+    "syllabusRef": "G10-U1.43"
+  },
+  {
+    "id": "g10-u1-q44",
+    "lessonId": "g10-u1",
+    "questionNumber": 44,
+    "promptEn": "EFTPOS (Electronic Funds Transfer at Point Of Sale) allows customers to pay for purchases directly using debit/credit cards at retail checkouts.",
+    "promptSi": "EFTPOS යනු සුපිරි වෙළඳසැල්වල ගෙවීම් කවුන්ටරයේදී ඩෙබිට්/ක්‍රෙඩිට් කාඩ්පත් මගින් සෘජුවම බැංකු ගිණුමෙන් මුදල් හුවමාරු කර ගෙවීම් කරන පද්ධතියයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Electronic Funds Transfer at Point Of Sale",
+        "si": "Electronic Funds Transfer at Point Of Sale"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Electronic File Transport Processing Operating System",
+        "si": "Electronic File Transport Processing Operating System"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Efficient Fast Payment On Site",
+        "si": "Efficient Fast Payment On Site"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Electronic Form Processing Output Service",
+        "si": "Electronic Form Processing Output Service"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "EFTPOS (Electronic Funds Transfer at Point Of Sale) allows customers to pay for purchases directly using debit/credit cards at retail checkouts.",
+    "explanationSi": "EFTPOS යනු සුපිරි වෙළඳසැල්වල ගෙවීම් කවුන්ටරයේදී ඩෙබිට්/ක්‍රෙඩිට් කාඩ්පත් මගින් සෘජුවම බැංකු ගිණුමෙන් මුදල් හුවමාරු කර ගෙවීම් කරන පද්ධතියයි.",
+    "syllabusRef": "G10-U1.44"
+  },
+  {
+    "id": "g10-u1-q45",
+    "lessonId": "g10-u1",
+    "questionNumber": 45,
+    "promptEn": "Industrial robots work continuously in hazardous environments (welding, painting, heavy lifting) without fatigue and with zero human error.",
+    "promptSi": "කාර්මික රොබෝවරුන්ට අන්තරායකාරී පරිසරයන්හි (පාස්සීම, තීන්ත ගෑම) විවේකයකින් තොරව, ඉතා නිවැරදිව හා වේගවත්ව එකම කාර්යය කිරීමට හැක.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "They require continuous rest breaks",
+        "si": "ඔවුන්ට නිතර විවේකය අවශ්‍ය වන නිසා"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "They perform repetitive, heavy, and dangerous tasks with high precision",
+        "si": "මහන්සි නොවී, සංකීර්ණ, අන්තරායකාරී හා පුනරාවර්තී කාර්යයන් ඉතා නිවැරදිව කරන නිසා"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "They consume food instead of electricity",
+        "si": "ඔවුන් විදුලිය වෙනුවට ආහාර ගන්නා නිසා"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "They make frequent emotional errors",
+        "si": "ඔවුන් හැඟීම්බරව වැරදි කරන නිසා"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Industrial robots work continuously in hazardous environments (welding, painting, heavy lifting) without fatigue and with zero human error.",
+    "explanationSi": "කාර්මික රොබෝවරුන්ට අන්තරායකාරී පරිසරයන්හි (පාස්සීම, තීන්ත ගෑම) විවේකයකින් තොරව, ඉතා නිවැරදිව හා වේගවත්ව එකම කාර්යය කිරීමට හැක.",
+    "syllabusRef": "G10-U1.45"
+  },
+  {
+    "id": "g10-u1-q46",
+    "lessonId": "g10-u1",
+    "questionNumber": 46,
+    "promptEn": "Online ticketing and reservation portals allow 24/7 seat selection, e-payment, and instant ticket generation over the internet.",
+    "promptSi": "මාර්ගගත වෙන්කිරීමේ පද්ධති මගින් පැය 24 පුරාම ඕනෑම තැනක සිට ආසන වෙන්කිරීම, මුදල් ගෙවීම සහ ටිකට්පත් ලබා ගැනීම කළ හැක.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Manual Postal System",
+        "si": "සාම්ප්‍රදායික තැපැල් පද්ධතිය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Online Reservation Systems",
+        "si": "මාර්ගගත වෙන්කිරීමේ පද්ධති (Online Reservation Systems)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "CRT Display Hardware",
+        "si": "CRT Display Hardware"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Standalone Calculators",
+        "si": "Standalone Calculators"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Online ticketing and reservation portals allow 24/7 seat selection, e-payment, and instant ticket generation over the internet.",
+    "explanationSi": "මාර්ගගත වෙන්කිරීමේ පද්ධති මගින් පැය 24 පුරාම ඕනෑම තැනක සිට ආසන වෙන්කිරීම, මුදල් ගෙවීම සහ ටිකට්පත් ලබා ගැනීම කළ හැක.",
+    "syllabusRef": "G10-U1.46"
+  },
+  {
+    "id": "g10-u1-q47",
+    "lessonId": "g10-u1",
+    "questionNumber": 47,
+    "promptEn": "The Abacus is widely recognized as the earliest manual counting frame consisting of beads on parallel rods.",
+    "promptSi": "ඇබකසය (Abacus) යනු රාමුවක සවි කළ පබළු චලනය කරමින් ගණනය කිරීම් කළ ලොව ප්‍රථම යාන්ත්‍රික ගණක උපකරණයයි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Pascaline",
+        "si": "පැස්කලයින් යන්ත්‍රය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Abacus",
+        "si": "ඇබකසය (Abacus)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Analytical Engine",
+        "si": "විෂ්ලේෂණ යන්ත්‍රය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "ENIAC",
+        "si": "ENIAC"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Abacus is widely recognized as the earliest manual counting frame consisting of beads on parallel rods.",
+    "explanationSi": "ඇබකසය (Abacus) යනු රාමුවක සවි කළ පබළු චලනය කරමින් ගණනය කිරීම් කළ ලොව ප්‍රථම යාන්ත්‍රික ගණක උපකරණයයි.",
+    "syllabusRef": "G10-U1.47"
+  },
+  {
+    "id": "g10-u1-q48",
+    "lessonId": "g10-u1",
+    "questionNumber": 48,
+    "promptEn": "French mathematician Blaise Pascal invented the Pascaline, an adder/subtractor using rotating gears and wheels.",
+    "promptSi": "ප්‍රංශ ජාතික ගණිතඥ බ්ලේස් පැස්කල් විසින් දැති රෝද භාවිත කර එකතු කිරීම හා අඩු කිරීම කළ හැකි පැස්කලයින් යන්ත්‍රය නිපදවන ලදී.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Charles Babbage",
+        "si": "Charles Babbage"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Blaise Pascal",
+        "si": "බ්ලේස් පැස්කල් (Blaise Pascal)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "John von Neumann",
+        "si": "John von Neumann"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Alan Turing",
+        "si": "Alan Turing"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "French mathematician Blaise Pascal invented the Pascaline, an adder/subtractor using rotating gears and wheels.",
+    "explanationSi": "ප්‍රංශ ජාතික ගණිතඥ බ්ලේස් පැස්කල් විසින් දැති රෝද භාවිත කර එකතු කිරීම හා අඩු කිරීම කළ හැකි පැස්කලයින් යන්ත්‍රය නිපදවන ලදී.",
+    "syllabusRef": "G10-U1.48"
+  },
+  {
+    "id": "g10-u1-q49",
+    "lessonId": "g10-u1",
+    "questionNumber": 49,
+    "promptEn": "Charles Babbage designed the Analytical Engine, which incorporated the 4 basic functional components of modern computers (Input, Processing, Output, and Memory/Store).",
+    "promptSi": "චාල්ස් බැබේජ් විසින් සැලසුම් කළ Analytical Engine (විෂ්ලේෂණ යන්ත්‍රය) තුළ නූතන පරිගණකයේ මූලික සංරචක 4 ම (ඇතුළත් කිරීම, සැකසීම, ප්‍රතිදානය, ගබඩා කිරීම) අඩංගු වූ බැවිනි.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "He invented the first electronic microprocessor",
+        "si": "ඔහු පළමු මයික්‍රෝප්‍රොසෙසරය නිපදවූ නිසා"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "He designed the Difference Engine and Analytical Engine containing modern computer concepts (Input, Process, Output, Store)",
+        "si": "නූතන පරිගණකයේ සංකල්ප (Input, Process, Output, Store) සහිත විෂ්ලේෂණ යන්ත්‍රය සැලසුම් කළ නිසා"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "He founded Microsoft Company",
+        "si": "ඔහු මයික්‍රොසොෆ්ට් සමාගම පිහිටුවූ නිසා"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "He created the Internet",
+        "si": "ඔහු අන්තර්ජාලය සෑදූ නිසා"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Charles Babbage designed the Analytical Engine, which incorporated the 4 basic functional components of modern computers (Input, Processing, Output, and Memory/Store).",
+    "explanationSi": "චාල්ස් බැබේජ් විසින් සැලසුම් කළ Analytical Engine (විෂ්ලේෂණ යන්ත්‍රය) තුළ නූතන පරිගණකයේ මූලික සංරචක 4 ම (ඇතුළත් කිරීම, සැකසීම, ප්‍රතිදානය, ගබඩා කිරීම) අඩංගු වූ බැවිනි.",
+    "syllabusRef": "G10-U1.49"
+  },
+  {
+    "id": "g10-u1-q50",
+    "lessonId": "g10-u1",
+    "questionNumber": 50,
+    "promptEn": "Lady Ada Lovelace wrote the first algorithm intended to be executed on Charles Babbage's Analytical Engine.",
+    "promptSi": "ඇඩා ලව්ලේස් ආර්යාව චාල්ස් බැබේජ්ගේ විෂ්ලේෂණ යන්ත්‍රය සඳහා ප්‍රථම ඇල්ගොරිතම/ක්‍රමලේඛය රචනා කළාය.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Marie Curie",
+        "si": "Marie Curie"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Ada Lovelace",
+        "si": "ඇඩා ලව්ලේස් ආර්යාව (Lady Ada Lovelace)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Grace Hopper",
+        "si": "Grace Hopper"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "John Von Neumann",
+        "si": "John Von Neumann"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Lady Ada Lovelace wrote the first algorithm intended to be executed on Charles Babbage's Analytical Engine.",
+    "explanationSi": "ඇඩා ලව්ලේස් ආර්යාව චාල්ස් බැබේජ්ගේ විෂ්ලේෂණ යන්ත්‍රය සඳහා ප්‍රථම ඇල්ගොරිතම/ක්‍රමලේඛය රචනා කළාය.",
+    "syllabusRef": "G10-U1.50"
+  },
+  {
+    "id": "g10-u1-q51",
+    "lessonId": "g10-u1",
+    "questionNumber": 51,
+    "promptEn": "First-generation computers used Vacuum Tubes (Thermiode Valves) for electronic circuitry. They were huge, produced massive heat, and used magnetic drums for memory.",
+    "promptSi": "1 වන පරම්පරාවේ පරිගණක ශූන්‍ය කපාට (Vacuum Tubes) භාවිත කළ අතර, ඒවා ප්‍රමාණයෙන් ඉතා විශාල විය, අධික ලෙස රත් විය.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Transistors",
+        "si": "ට්‍රාන්සිස්ටර"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Vacuum Tubes",
+        "si": "ශූන්‍ය කපාට (Vacuum Tubes)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Integrated Circuits (IC)",
+        "si": "Integrated Circuits (IC)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Microprocessors",
+        "si": "මයික්‍රෝප්‍රොසෙසර"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "First-generation computers used Vacuum Tubes (Thermiode Valves) for electronic circuitry. They were huge, produced massive heat, and used magnetic drums for memory.",
+    "explanationSi": "1 වන පරම්පරාවේ පරිගණක ශූන්‍ය කපාට (Vacuum Tubes) භාවිත කළ අතර, ඒවා ප්‍රමාණයෙන් ඉතා විශාල විය, අධික ලෙස රත් විය.",
+    "syllabusRef": "G10-U1.51"
+  },
+  {
+    "id": "g10-u1-q52",
+    "lessonId": "g10-u1",
+    "questionNumber": 52,
+    "promptEn": "ENIAC (Electronic Numerical Integrator and Computer), EDVAC, and UNIVAC I are classic examples of 1st Generation Vacuum Tube computers.",
+    "promptSi": "ENIAC, EDVAC, සහ UNIVAC I යනු පළමු පරම්පරාවේ ශූන්‍ය කපාට පරිගණක සඳහා උදාහරණ වේ.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "IBM 360",
+        "si": "IBM 360"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "ENIAC",
+        "si": "EDVAC / UNIVAC"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Apple II",
+        "si": "Apple II"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Intel Core i7 PC",
+        "si": "Intel Core i7 PC"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "ENIAC (Electronic Numerical Integrator and Computer), EDVAC, and UNIVAC I are classic examples of 1st Generation Vacuum Tube computers.",
+    "explanationSi": "ENIAC, EDVAC, සහ UNIVAC I යනු පළමු පරම්පරාවේ ශූන්‍ය කපාට පරිගණක සඳහා උදාහරණ වේ.",
+    "syllabusRef": "G10-U1.52"
+  },
+  {
+    "id": "g10-u1-q53",
+    "lessonId": "g10-u1",
+    "questionNumber": 53,
+    "promptEn": "2nd Generation computers replaced fragile vacuum tubes with Transistors, making computers smaller, faster, cheaper, and more energy-efficient.",
+    "promptSi": "2 වන පරම්පරාවේදී ශූන්‍ය කපාට වෙනුවට ට්‍රාන්සිස්ටර (Transistors) භාවිත කළ අතර එමගින් පරිගණක ප්‍රමාණයෙන් කුඩා, වේගවත් හා විශ්වාසදායී විය.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Microprocessors",
+        "si": "Microprocessors"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Transistors",
+        "si": "ට්‍රාන්සිස්ටර (Transistors)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Very Large Scale Integrated Circuits",
+        "si": "Very Large Scale Integrated Circuits"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Vacuum Tubes",
+        "si": "Vacuum Tubes"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "2nd Generation computers replaced fragile vacuum tubes with Transistors, making computers smaller, faster, cheaper, and more energy-efficient.",
+    "explanationSi": "2 වන පරම්පරාවේදී ශූන්‍ය කපාට වෙනුවට ට්‍රාන්සිස්ටර (Transistors) භාවිත කළ අතර එමගින් පරිගණක ප්‍රමාණයෙන් කුඩා, වේගවත් හා විශ්වාසදායී විය.",
+    "syllabusRef": "G10-U1.53"
+  },
+  {
+    "id": "g10-u1-q54",
+    "lessonId": "g10-u1",
+    "questionNumber": 54,
+    "promptEn": "2nd Generation shifted from binary Machine Language to Assembly Language and early High-Level Languages like FORTRAN and COBOL.",
+    "promptSi": "2 වන පරම්පරාවේදී යන්ත්‍ර භාෂාව වෙනුවට ඇසෙම්බ්ලි භාෂාව සහ FORTRAN, COBOL වැනි මුල් කාලීන ඉහළ මට්ටමේ භාෂා භාවිතයට පැමිණියේය.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Introduction of High-Level Languages like FORTRAN and COBOL",
+        "si": "FORTRAN හා COBOL වැනි ඉහළ මට්ටමේ භාෂා බිහිවීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Invention of HTML",
+        "si": "Invention of HTML"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Creation of Python & Java",
+        "si": "Creation of Python & Java"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Use of AI natural languages",
+        "si": "Use of AI natural languages"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "2nd Generation shifted from binary Machine Language to Assembly Language and early High-Level Languages like FORTRAN and COBOL.",
+    "explanationSi": "2 වන පරම්පරාවේදී යන්ත්‍ර භාෂාව වෙනුවට ඇසෙම්බ්ලි භාෂාව සහ FORTRAN, COBOL වැනි මුල් කාලීන ඉහළ මට්ටමේ භාෂා භාවිතයට පැමිණියේය.",
+    "syllabusRef": "G10-U1.54"
+  },
+  {
+    "id": "g10-u1-q55",
+    "lessonId": "g10-u1",
+    "questionNumber": 55,
+    "promptEn": "3rd Generation computers utilized Integrated Circuits (ICs), where hundreds of transistors were miniaturized onto a silicon semiconductor chip.",
+    "promptSi": "3 වන පරම්පරාවේදී සිලිකන් චිපයක් මත ට්‍රාන්සිස්ටර සිය ගණනක් අඩංගු අනුකලිත පරිපථ (Integrated Circuits - IC) භාවිත කරන ලදී.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Vacuum Tubes",
+        "si": "Vacuum Tubes"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Transistors",
+        "si": "Transistors"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Integrated Circuits - IC",
+        "si": "අනුකලිත පරිපථ (IC)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Artificial Intelligence",
+        "si": "Artificial Intelligence"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "3rd Generation computers utilized Integrated Circuits (ICs), where hundreds of transistors were miniaturized onto a silicon semiconductor chip.",
+    "explanationSi": "3 වන පරම්පරාවේදී සිලිකන් චිපයක් මත ට්‍රාන්සිස්ටර සිය ගණනක් අඩංගු අනුකලිත පරිපථ (Integrated Circuits - IC) භාවිත කරන ලදී.",
+    "syllabusRef": "G10-U1.55"
+  },
+  {
+    "id": "g10-u1-q56",
+    "lessonId": "g10-u1",
+    "questionNumber": 56,
+    "promptEn": "Instead of punch cards, users interacted with 3rd Generation computers using Keyboards, Monitors, and Operating Systems.",
+    "promptSi": "3 වන පරම්පරාවේදී පන්ච් කාඩ්පත් වෙනුවට යතුරුපුවරුව (Keyboard), මොනිටරය (Monitor) සහ මෙහෙයුම් පද්ධති (Operating Systems) භාවිතය ආරම්භ විය.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Punched Cards and Paper Tape",
+        "si": "පන්ච් කාඩ්පත්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Keyboards and Monitors with Operating Systems",
+        "si": "යතුරුපුවරු, මොනිටර සහ මෙහෙයුම් පද්ධති"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Touchscreens and Voice Control",
+        "si": "Touchscreens and Voice Control"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "VR Headsets",
+        "si": "VR Headsets"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Instead of punch cards, users interacted with 3rd Generation computers using Keyboards, Monitors, and Operating Systems.",
+    "explanationSi": "3 වන පරම්පරාවේදී පන්ච් කාඩ්පත් වෙනුවට යතුරුපුවරුව (Keyboard), මොනිටරය (Monitor) සහ මෙහෙයුම් පද්ධති (Operating Systems) භාවිතය ආරම්භ විය.",
+    "syllabusRef": "G10-U1.56"
+  },
+  {
+    "id": "g10-u1-q57",
+    "lessonId": "g10-u1",
+    "questionNumber": 57,
+    "promptEn": "4th Generation computers introduced Microprocessors, built using VLSI (Very Large Scale Integration) combining millions of transistors onto a single silicon chip (e.g. Intel 4004).",
+    "promptSi": "4 වන පරම්පරාවේදී සිලිකන් චිපයක් මත පරිපථ මිලියන ගණනක් අඩංගු කළ VLSI තාක්ෂණයෙන් මයික්‍රෝප්‍රොසෙසරය (Microprocessor) බිහිවිය.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Vacuum Tubes",
+        "si": "Vacuum Tubes"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Microprocessor",
+        "si": "Very Large Scale Integration (VLSI) / මයික්‍රෝප්‍රොසෙසරය (VLSI)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Magnetic Drums",
+        "si": "Magnetic Drums"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Thermionic Valves",
+        "si": "Thermionic Valves"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "4th Generation computers introduced Microprocessors, built using VLSI (Very Large Scale Integration) combining millions of transistors onto a single silicon chip (e.g. Intel 4004).",
+    "explanationSi": "4 වන පරම්පරාවේදී සිලිකන් චිපයක් මත පරිපථ මිලියන ගණනක් අඩංගු කළ VLSI තාක්ෂණයෙන් මයික්‍රෝප්‍රොසෙසරය (Microprocessor) බිහිවිය.",
+    "syllabusRef": "G10-U1.57"
+  },
+  {
+    "id": "g10-u1-q58",
+    "lessonId": "g10-u1",
+    "questionNumber": 58,
+    "promptEn": "Microprocessor technology in the 4th generation enabled computers to fit on a desk, leading to the Personal Computer (PC) revolution.",
+    "promptSi": "4 වන පරම්පරාවේ මයික්‍රෝප්‍රොසෙසර නිසා පරිගණක මේසයක් මත තබාගත හැකි තරම් කුඩා වී පුද්ගලික පරිගණක (Personal Computers) බිහි විය.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1st Generation",
+        "si": "1st Generation"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "2nd Generation",
+        "si": "2nd Generation"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "3rd Generation",
+        "si": "3rd Generation"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "4th Generation",
+        "si": "4 වන පරම්පරාව (4th Generation)"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "Microprocessor technology in the 4th generation enabled computers to fit on a desk, leading to the Personal Computer (PC) revolution.",
+    "explanationSi": "4 වන පරම්පරාවේ මයික්‍රෝප්‍රොසෙසර නිසා පරිගණක මේසයක් මත තබාගත හැකි තරම් කුඩා වී පුද්ගලික පරිගණක (Personal Computers) බිහි විය.",
+    "syllabusRef": "G10-U1.58"
+  },
+  {
+    "id": "g10-u1-q59",
+    "lessonId": "g10-u1",
+    "questionNumber": 59,
+    "promptEn": "5th Generation computers focus on Artificial Intelligence (AI), Ultra Large Scale Integration (ULSI), parallel processing, voice recognition, and quantum computing.",
+    "promptSi": "5 වන පරම්පරාව කෘතිම බුද්ධිය (Artificial Intelligence - AI), ULSI තාක්ෂණය, හඬ හඳුනාගැනීම, සමාන්තර සැකසුම් සහ ක්වොන්ටම් පරිගණකකරණය මත පදනම් වේ.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Vacuum Tube Valves",
+        "si": "Vacuum Tube Valves"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Artificial Intelligence (AI) & Ultra Large Scale Integration (ULSI)",
+        "si": "කෘතිම බුද්ධිය (AI) සහ ULSI තාක්ෂණය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Punch Card Reading",
+        "si": "Punch Card Reading"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Magnetic Tape Memory",
+        "si": "Magnetic Tape Memory"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "5th Generation computers focus on Artificial Intelligence (AI), Ultra Large Scale Integration (ULSI), parallel processing, voice recognition, and quantum computing.",
+    "explanationSi": "5 වන පරම්පරාව කෘතිම බුද්ධිය (Artificial Intelligence - AI), ULSI තාක්ෂණය, හඬ හඳුනාගැනීම, සමාන්තර සැකසුම් සහ ක්වොන්ටම් පරිගණකකරණය මත පදනම් වේ.",
+    "syllabusRef": "G10-U1.59"
+  },
+  {
+    "id": "g10-u1-q60",
+    "lessonId": "g10-u1",
+    "questionNumber": 60,
+    "promptEn": "1st Gen: Vacuum Tubes (ශූන්‍ය කපාට)",
+    "promptSi": "පරිගණක පරම්පරා 5 මූලික තාක්ෂණික පරිණාමය:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Transistors → Vacuum Tubes → IC → Microprocessor → AI",
+        "si": "Transistors → Vacuum Tubes → IC → Microprocessor → AI"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Vacuum Tubes → Transistors → Integrated Circuits (IC) → Microprocessor (VLSI) → Artificial Intelligence (ULSI",
+        "si": "AI)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Microprocessor → IC → Transistors → Vacuum Tubes → Bio-chips",
+        "si": "Microprocessor → IC → Transistors → Vacuum Tubes → Bio-chips"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "IC → Microprocessor → Vacuum Tubes → Transistors → AI",
+        "si": "IC → Microprocessor → Vacuum Tubes → Transistors → AI"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "1st Gen: Vacuum Tubes (ශූන්‍ය කපාට)",
+    "explanationSi": "පරිගණක පරම්පරා 5 මූලික තාක්ෂණික පරිණාමය:",
+    "syllabusRef": "G10-U1.60"
+  },
+  {
+    "id": "g10-u1-q61",
+    "lessonId": "g10-u1",
+    "questionNumber": 61,
+    "promptEn": "John von Neumann introduced the architecture where both program instructions and data are stored together in the computer's memory.",
+    "promptSi": "ජෝන් වොන් නියුමන් විසින් දත්ත සහ උපදෙස් දෙකම පරිගණකයේ මතකය තුළ ගබඩා කර තැබීමේ 'Stored Program Concept' සංකල්පය හඳුන්වා දෙන ලදී.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Charles Babbage",
+        "si": "Charles Babbage"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "John von Neumann",
+        "si": "ජෝන් වොන් නියුමන් (John von Neumann)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Blaise Pascal",
+        "si": "Blaise Pascal"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Steve Jobs",
+        "si": "Steve Jobs"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "John von Neumann introduced the architecture where both program instructions and data are stored together in the computer's memory.",
+    "explanationSi": "ජෝන් වොන් නියුමන් විසින් දත්ත සහ උපදෙස් දෙකම පරිගණකයේ මතකය තුළ ගබඩා කර තැබීමේ 'Stored Program Concept' සංකල්පය හඳුන්වා දෙන ලදී.",
+    "syllabusRef": "G10-U1.61"
+  },
+  {
+    "id": "g10-u1-q62",
+    "lessonId": "g10-u1",
+    "questionNumber": 62,
+    "promptEn": "With every generation, computers became smaller in physical footprint, generated less heat, cost less to manufacture, but grew exponentially faster, more reliable, and possessed larger storage capacity.",
+    "promptSi": "පරම්පරාවෙන් පරම්පරාවට පරිගණකවල භෞතික ප්‍රමාණය, තාපය පිටවීම සහ පිරිවැය අඩු වූ අතර, සැකසුම් වේගය, ගබඩා ධාරිතාව සහ විශ්වාසදායක බව විශාල ලෙස වැඩි විය.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Size increased, speed decreased, cost increased",
+        "si": "Size increased, speed decreased, cost increased"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Size decreased, heat decreased, cost decreased, while processing speed and reliability dramatically increased",
+        "si": "ප්‍රමාණය, තාපය හා පිරිවැය අඩු වූ අතර වේගය හා විශ්වාසදායක බව ඉහළ ගියේය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "No changes occurred",
+        "si": "No changes occurred"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Processing speed became slower",
+        "si": "Processing speed became slower"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "With every generation, computers became smaller in physical footprint, generated less heat, cost less to manufacture, but grew exponentially faster, more reliable, and possessed larger storage capacity.",
+    "explanationSi": "පරම්පරාවෙන් පරම්පරාවට පරිගණකවල භෞතික ප්‍රමාණය, තාපය පිටවීම සහ පිරිවැය අඩු වූ අතර, සැකසුම් වේගය, ගබඩා ධාරිතාව සහ විශ්වාසදායක බව විශාල ලෙස වැඩි විය.",
+    "syllabusRef": "G10-U1.62"
+  }
+]

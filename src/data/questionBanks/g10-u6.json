@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "g10-u6-q1",
+    "lessonId": "g10-u6",
+    "questionNumber": 1,
+    "promptEn": "What is the primary purpose of Word Processing software?",
+    "promptSi": "වචන සකසුම් මෘදුකාංගයක ප්‍රධාන අරමුණ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To perform complex financial calculations",
+        "si": "සංකීර්ණ මූල්‍ය ගණනය කිරීම් සිදු කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To create, edit, format, and print text-based documents",
+        "si": "පෙළ පදනම් කරගත් ලේඛන නිර්මාණය, සංස්කරණය, හැඩසැසීම සහ මුද්‍රණය කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To manage relational databases",
+        "si": "සබඳතා දත්ත සමුදා කළමනාකරණය කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To design 3D animations and graphics",
+        "si": "ත්‍රිමාණ සජීවීකරණ සහ ග්‍රැෆික් නිර්මාණය කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Word processing software (e.g., MS Word, LibreOffice Writer) is specifically designed to handle text creation, document editing, typography formatting, layout design, and printing. Financial calculations belong to Spreadsheets, databases to DBMS, and 3D graphics to animation software.",
+    "explanationSi": "වචන සකසුම් මෘදුකාංග (උදා: MS Word, LibreOffice Writer) විශේෂයෙන්ම සැලසුම් කර ඇත්තේ පෙළ ඇතුළත් කිරීම, ලේඛන සංස්කරණය, අකුරු හැඩගැන්වීම, පිටු සැලසුම් කිරීම සහ මුද්‍රණය සඳහාය.",
+    "syllabusRef": "G10-U6.1"
+  },
+  {
+    "id": "g10-u6-q2",
+    "lessonId": "g10-u6",
+    "questionNumber": 2,
+    "promptEn": "Which of the following is a Free and Open Source Software (FOSS) word processor?",
+    "promptSi": "පහත සඳහන් මෘදුකාංග අතුරින් නිදහස් හා විවෘත මූලාශ්‍ර (FOSS) වචන සකසුම් මෘදුකාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Microsoft Word",
+        "si": "Microsoft Word"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Apple Pages",
+        "si": "Apple Pages"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "LibreOffice Writer",
+        "si": "LibreOffice Writer"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Google Docs",
+        "si": "Google Docs"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "LibreOffice Writer (and OpenOffice Writer) is distributed under a FOSS license, allowing users to freely access, modify, and distribute its source code. MS Word and Apple Pages are proprietary software, while Google Docs is a cloud-based web application.",
+    "explanationSi": "LibreOffice Writer යනු නොමිලේ ලබාගත හැකි, මූලාශ්‍ර කේතය වෙනස් කළ හැකි නිදහස් හා විවෘත මූලාශ්‍ර (FOSS) මෘදුකාංගයකි. MS Word සහ Apple Pages හිමිකාර (Proprietary) වන අතර Google Docs වලාකුළු පදනම් (Cloud-based) මෘදුකාංගයකි.",
+    "syllabusRef": "G10-U6.2"
+  },
+  {
+    "id": "g10-u6-q3",
+    "lessonId": "g10-u6",
+    "questionNumber": 3,
+    "promptEn": "Which word processor is a cloud-based web application that allows real-time multi-user collaboration?",
+    "promptSi": "තත්‍ය කාලීනව බහුවිධ පරිශීලකයන්ට එකවර ලේඛන සංස්කරණය කිරීමට ඉඩ සලසන වලාකුළු පදනම් කරගත් (Cloud-based) වචන සකසුම් මෘදුකාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Notepad",
+        "si": "Notepad"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "WordPad",
+        "si": "WordPad"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Google Docs",
+        "si": "Google Docs"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Corel WordPerfect",
+        "si": "Corel WordPerfect"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Google Docs runs inside a web browser and stores files on cloud storage (Google Drive), enabling multiple users to view and edit the same document simultaneously in real-time over the Internet.",
+    "explanationSi": "Google Docs වෙබ් බ්‍රවුසරයක් හරහා ක්‍රියාත්මක වන අතර අන්තර්ජාලය ඔස්සේ පරිශීලකයන් කිහිප දෙනෙකුට එකවර එකම ලේඛනය සංස්කරණය කිරීමට (Real-time collaboration) පහසුකම් සලසයි.",
+    "syllabusRef": "G10-U6.3"
+  },
+  {
+    "id": "g10-u6-q4",
+    "lessonId": "g10-u6",
+    "questionNumber": 4,
+    "promptEn": "What is the standard default file extension for documents saved in modern Microsoft Word (2007 and later)?",
+    "promptSi": "නූතන Microsoft Word (2007 සහ ඊට පසු) මෘදුකාංගයේ සුරකින ලේඛනයක සම්මත ගොනු විස්තාරණය (File Extension) කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`.txt`",
+        "si": "`.txt`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`.docx`",
+        "si": "`.docx`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`.odt`",
+        "si": "`.odt`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`.pdf`",
+        "si": "`.pdf`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Modern MS Word uses `.docx` (Office Open XML document). Older MS Word versions (2003 and earlier) used `.doc`. LibreOffice Writer uses `.odt`, plain text uses `.txt`, and Portable Document Format uses `.pdf`.",
+    "explanationSi": "MS Word 2007 සහ ඊට පසු සංස්කරණවල සුරකින ලේඛනවල ගොනු විස්තාරණය `.docx` වේ. LibreOffice Writer හි `.odt` ද, තනි පෙළ ගොනුවල `.txt` ද, PDF ගොනුවල `.pdf` ද භාවිත වේ.",
+    "syllabusRef": "G10-U6.4"
+  },
+  {
+    "id": "g10-u6-q5",
+    "lessonId": "g10-u6",
+    "questionNumber": 5,
+    "promptEn": "Which file extension is used by default when saving a document in LibreOffice Writer?",
+    "promptSi": "LibreOffice Writer මෘදුකාංගයේ ලේඛනයක් සුරකින විට එහි සම්මත ගොනු විස්තාරණය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`.docx`",
+        "si": "`.docx`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`.rtf`",
+        "si": "`.rtf`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`.odt`",
+        "si": "`.odt`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`.html`",
+        "si": "`.html`"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "`.odt` stands for OpenDocument Text, which is an open-standard format used natively by LibreOffice Writer and Apache OpenOffice.",
+    "explanationSi": "`.odt` (OpenDocument Text) යනු LibreOffice Writer සහ OpenOffice මෘදුකාංගවල භාවිත වන විවෘත සම්මත ගොනු ආකෘතියයි.",
+    "syllabusRef": "G10-U6.5"
+  },
+  {
+    "id": "g10-u6-q6",
+    "lessonId": "g10-u6",
+    "questionNumber": 6,
+    "promptEn": "Which interface element displays the document name and application title at the top of the window?",
+    "promptSi": "කවුළුවේ ඉහළින්ම ලේඛනයේ නම සහ මෘදුකාංගයේ මාතෘකාව දර්ශනය වන අතුරුමුහුණත් සංරචකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Status Bar",
+        "si": "තත්ත්ව තීරුව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Title Bar",
+        "si": "මාතෘකා තීරුව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Ribbon",
+        "si": "රිබන් පටිය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Scroll Bar",
+        "si": "ලෙහුම් තීරුව"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Title Bar sits at the very top of the application window, displaying the filename (e.g., `Document1`) and the program name (`Microsoft Word`).",
+    "explanationSi": "මාතෘකා තීරුව (Title Bar) ජනේලයේ ඉහළින්ම පිහිටා ඇති අතර, එමගින් වත්මන් ලේඛනයේ නම සහ මෘදුකාංගයේ නම පෙන්වයි.",
+    "syllabusRef": "G10-U6.6"
+  },
+  {
+    "id": "g10-u6-q7",
+    "lessonId": "g10-u6",
+    "questionNumber": 7,
+    "promptEn": "Where is the Zoom Slider located in the Microsoft Word user interface?",
+    "promptSi": "Microsoft Word අතුරුමුහුණතේ Zoom Slider (විශාලන පාලකය) පිහිටා ඇත්තේ කොතැනද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "On the Quick Access Toolbar",
+        "si": "ඉක්මන් ප්‍රවේශ මෙවලම් තීරුවේ"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "At the right end of the Status Bar",
+        "si": "තත්ත්ව තීරුවේ දකුණු කෙළවරේ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "On the View Tab Ribbon",
+        "si": "View ටැබ් රිබන් පටියේ"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Inside the Ruler area",
+        "si": "රූලරය තුළ"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Zoom Slider is located at the bottom-right corner on the Status Bar, allowing quick magnification adjustments (e.g., 10% to 500%).",
+    "explanationSi": "විශාලන පාලකය (Zoom Slider) පිහිටා ඇත්තේ කවුළුවේ පහළින්ම ඇති තත්ත්ව තීරුවේ (Status Bar) දකුණු කෙළවරේය.",
+    "syllabusRef": "G10-U6.7"
+  },
+  {
+    "id": "g10-u6-q8",
+    "lessonId": "g10-u6",
+    "questionNumber": 8,
+    "promptEn": "What information is displayed on the Status Bar at the bottom of the word processor window?",
+    "promptSi": "වචන සකසුම් කවුළුවේ පහළින්ම ඇති තත්ත්ව තීරුවේ (Status Bar) දර්ශනය වන තොරතුරු මොනවාද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Font style, Font size, and Line spacing",
+        "si": "අකුරු විලාසය, අකුරු ප්‍රමාණය සහ පේළි පරතරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Page number, total pages, word count, and document language",
+        "si": "පිටු අංකය, මුළු පිටු ගණන, වචන ගණන සහ භාෂාව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "File path, disk space, and RAM usage",
+        "si": "ගොනු මාර්ගය, තැටි ඉඩ ප්‍රමාණය සහ RAM භාවිතය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Table dimensions and cell margins",
+        "si": "වගු මාන සහ සෛල මායිම්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Status Bar provides real-time document statistics including current page number, total page count, word count, proofing status, language, and zoom level.",
+    "explanationSi": "තත්ත්ව තීරුව මගින් ලේඛනයේ වත්මන් පිටු අංකය, මුළු පිටු සංඛ්‍යාව, වචන සංඛ්‍යාව සහ භාෂාව වැනි සංඛ්‍යාත්මක තොරතුරු සපයයි.",
+    "syllabusRef": "G10-U6.8"
+  },
+  {
+    "id": "g10-u6-q9",
+    "lessonId": "g10-u6",
+    "questionNumber": 9,
+    "promptEn": "What is the keyboard shortcut to create a New Blank Document in Microsoft Word?",
+    "promptSi": "Microsoft Word හි නව හිස් ලේඛනයක් (New Document) සෑදීමට යොදාගන්නා කෙටිමං යතුරු සංයෝජනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Ctrl + O`",
+        "si": "`Ctrl + O`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Ctrl + N`",
+        "si": "`Ctrl + N`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Ctrl + S`",
+        "si": "`Ctrl + S`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`Ctrl + P`",
+        "si": "`Ctrl + P`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`Ctrl + N` opens a New blank document. `Ctrl + O` Opens an existing document, `Ctrl + S` Saves the document, and `Ctrl + P` prints the document.",
+    "explanationSi": "`Ctrl + N` මගින් නව හිස් ලේඛනයක් ඇරඹේ. `Ctrl + O` මගින් පවතින ලේඛනයක් විවෘත කරන අතර `Ctrl + S` මගින් සුරැකීමද, `Ctrl + P` මගින් මුද්‍රණය කිරීමද සිදු කරයි.",
+    "syllabusRef": "G10-U6.9"
+  },
+  {
+    "id": "g10-u6-q10",
+    "lessonId": "g10-u6",
+    "questionNumber": 10,
+    "promptEn": "What is the keyboard shortcut to Save an existing document?",
+    "promptSi": "පවතින ලේඛනයක් සුරැකීම (Save) සඳහා භාවිත වන කෙටිමං යතුරු සංයෝජනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Ctrl + S`",
+        "si": "`Ctrl + S`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Ctrl + A`",
+        "si": "`Ctrl + A`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Ctrl + Shift + S`",
+        "si": "`Ctrl + Shift + S`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`F12`",
+        "si": "`F12`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "`Ctrl + S` saves changes to the current file under its existing name. `F12` opens the \"Save As\" dialog box to save under a new name or file format.",
+    "explanationSi": "`Ctrl + S` මගින් වත්මන් ලේඛනයේ වෙනස්කම් එම නමින්ම සුරැකෙන අතර `F12` යතුර මගින් වෙනත් නමකින් හෝ වෙනත් ස්ථානයක සුරැකීමට \"Save As\" කවුළුව ලබා දෙයි.",
+    "syllabusRef": "G10-U6.10"
+  },
+  {
+    "id": "g10-u6-q11",
+    "lessonId": "g10-u6",
+    "questionNumber": 11,
+    "promptEn": "Which formatting command changes text into a bold typeface?",
+    "promptSi": "පෙළ තද අකුරෙන් (Bold) දැක්වීම සඳහා යොදාගන්නා කෙටිමං යතුරු සංයෝජනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Ctrl + I`",
+        "si": "`Ctrl + I`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Ctrl + B`",
+        "si": "`Ctrl + B`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Ctrl + U`",
+        "si": "`Ctrl + U`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`Ctrl + D`",
+        "si": "`Ctrl + D`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`Ctrl + B` toggles Bold text formatting. `Ctrl + I` applies Italic, `Ctrl + U` applies Underline, and `Ctrl + D` opens the Font dialog box.",
+    "explanationSi": "`Ctrl + B` මගින් තද අකුරු (Bold) ද, `Ctrl + I` මගින් ඇල අකුරු (Italic) ද, `Ctrl + U` මගින් යටින් ඉරි ඇඳීමද (Underline) සිදු කරයි.",
+    "syllabusRef": "G10-U6.11"
+  },
+  {
+    "id": "g10-u6-q12",
+    "lessonId": "g10-u6",
+    "questionNumber": 12,
+    "promptEn": "What is the function of Subscript formatting in a word processor?",
+    "promptSi": "වචන සකසුම් මෘදුකාංගයක Subscript (යටි ලකුණ) හැඩසැසීමේ කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Raises text slightly above the normal line",
+        "si": "පෙළ සාමාන්‍ය පේළියට ඉහළින් පිහිටුවීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Lowers text slightly below the normal line",
+        "si": "පෙළ සාමාන්‍ය පේළියට පහළින් කුඩාවට පිහිටුවීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Converts text to capital letters",
+        "si": "පෙළ කැපිටල් අකුරට හැරවීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Draws a line through the middle of the text",
+        "si": "පෙළ මැදින් ඉරක් ඇඳීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Subscript (`Ctrl + =`) places smaller characters below the baseline, commonly used in chemical formulas like H₂O. Superscript (`Ctrl + Shift + +`) raises text above the baseline, as in mathematical powers (e.g., X²).",
+    "explanationSi": "Subscript (යටි ලකුණ - උදා: H₂O හි 2) මගින් පෙළ සාමාන්‍ය පේළියට පහළින් කුඩාවට දක්වන අතර, Superscript (උඩ ලකුණ - උදා: X² හි 2) මගින් පේළියට ඉහළින් පෙන්වයි.",
+    "syllabusRef": "G10-U6.12"
+  },
+  {
+    "id": "g10-u6-q13",
+    "lessonId": "g10-u6",
+    "questionNumber": 13,
+    "promptEn": "Which keyboard shortcut applies Superscript formatting (e.g., X²)?",
+    "promptSi": "උඩ ලකුණ (Superscript - උදා: X²) යෙදීම සඳහා භාවිත කරන කෙටිමං යතුරු සංයෝජනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Ctrl + =`",
+        "si": "`Ctrl + =`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Ctrl + Shift + +`",
+        "si": "`Ctrl + Shift + +`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Ctrl + Alt + S`",
+        "si": "`Ctrl + Alt + S`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`Shift + F3`",
+        "si": "`Shift + F3`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`Ctrl + Shift + +` (or `Ctrl + Shift + =`) activates Superscript. `Ctrl + =` activates Subscript.",
+    "explanationSi": "`Ctrl + Shift + +` මගින් උඩ ලකුණ (Superscript) යෙදෙන අතර `Ctrl + =` මගින් යටි ලකුණ (Subscript) යෙදේ.",
+    "syllabusRef": "G10-U6.13"
+  },
+  {
+    "id": "g10-u6-q14",
+    "lessonId": "g10-u6",
+    "questionNumber": 14,
+    "promptEn": "What does the \"Strikethrough\" formatting feature do?",
+    "promptSi": "\"Strikethrough\" (මැදින් ඉරක් ඇඳීම) හැඩසැසුම මගින් සිදු කරන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Draws a horizontal line under the text",
+        "si": "පෙළට යටින් තිරස් ඉරක් අඳියි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Draws a horizontal line through the center of the text",
+        "si": "පෙළ මැදින් තිරස් ඉරක් අඳියි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Underlines only the words, ignoring spaces",
+        "si": "හිස්තැන් හැර වචන යටින් පමණක් ඉරි අඳියි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Highlights the text in yellow",
+        "si": "පෙළ කහ පැහැයෙන් ඉස්මතු කරයි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Strikethrough (~~text~~) draws a line straight through the middle of selected characters, indicating deleted, obsolete, or discounted items (e.g., ~~$100~~ $80).",
+    "explanationSi": "Strikethrough යෙදූ විට තෝරාගත් පෙළ මැදින් තිරස් ඉරක් (~~පෙළ~~) ඇඳෙන අතර, එය ඉවත් කළ හෝ වෙනස් වූ බව පෙන්වීමට යොදාගනී.",
+    "syllabusRef": "G10-U6.14"
+  },
+  {
+    "id": "g10-u6-q15",
+    "lessonId": "g10-u6",
+    "questionNumber": 15,
+    "promptEn": "Which \"Change Case\" option capitalizes the first letter of every sentence and leaves all other letters lowercase?",
+    "promptSi": "සෑම වාක්‍යයකම පළමු අකුර පමණක් කැපිටල් අකුරක් බවට පත් කරන \"Change Case\" විකල්පය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "UPPERCASE",
+        "si": "UPPERCASE"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "lowercase",
+        "si": "lowercase"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Sentence case",
+        "si": "Sentence case"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Capitalize Each Word",
+        "si": "Capitalize Each Word"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "\"Sentence case\" capitalizes the very first character after a period/punctuation and sets all other text to lowercase. \"Capitalize Each Word\" capitalizes the first letter of every individual word (Title Case).",
+    "explanationSi": "\"Sentence case\" මගින් වාක්‍යයක මුල්ම අකුර පමණක් කැපිටල් අකුරක් බවට පත් කරයි. \"Capitalize Each Word\" මගින් සියලු වචනවල මුල් අකුර කැපිටල් කරයි.",
+    "syllabusRef": "G10-U6.15"
+  },
+  {
+    "id": "g10-u6-q16",
+    "lessonId": "g10-u6",
+    "questionNumber": 16,
+    "promptEn": "What is the keyboard shortcut to cycle through different text cases (Sentence case, UPPERCASE, lowercase)?",
+    "promptSi": "ලබා දී ඇති පෙළක අකුරු ප්‍රමාණයන් (Sentence case, UPPERCASE, lowercase) අතර මාරු වීම සඳහා භාවිත කරන කෙටිමං යතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Shift + F3`",
+        "si": "`Shift + F3`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Ctrl + F3`",
+        "si": "`Ctrl + F3`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Alt + F3`",
+        "si": "`Alt + F3`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`F7`",
+        "si": "`F7`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Pressing `Shift + F3` repeatedly on selected text toggles sequentially between UPPERCASE, lowercase, and Sentence case / Title Case.",
+    "explanationSi": "තෝරාගත් පෙළක් සඳහා `Shift + F3` එබූ විට අනුපිළිවෙලින් UPPERCASE, lowercase, සහ Sentence case අතර මාරු වේ.",
+    "syllabusRef": "G10-U6.16"
+  },
+  {
+    "id": "g10-u6-q17",
+    "lessonId": "g10-u6",
+    "questionNumber": 17,
+    "promptEn": "Which paragraph alignment aligns text evenly along BOTH the left and right margins?",
+    "promptSi": "වම් සහ දකුණු මායිම් දෙකටම සමානව පෙළ එක එල්ලේ පෙළගස්වන්නේ (Alignment) කුමන විකල්පය මගින්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Align Left",
+        "si": "වම් පෙළගැස්ම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Center",
+        "si": "මධ්‍ය පෙළගැස්ම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Align Right",
+        "si": "දකුණු පෙළගැස්ම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Justify",
+        "si": "දෙපසම එක එල්ලේ පෙළගැස්ම"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "Justify (`Ctrl + J`) adds extra spacing between words so that text lines stretch smoothly to touch both left and right margins, producing a clean book/newspaper layout.",
+    "explanationSi": "Justify (`Ctrl + J`) මගින් වචන අතර පරතරය සකස් කර වම් සහ දකුණු මායිම් දෙකටම එක සමානව පෙළගස්වයි (පොත් සහ පුවත්පත්වල භාවිත වේ).",
+    "syllabusRef": "G10-U6.17"
+  },
+  {
+    "id": "g10-u6-q18",
+    "lessonId": "g10-u6",
+    "questionNumber": 18,
+    "promptEn": "Match the Paragraph Alignment with its correct keyboard shortcut:",
+    "promptSi": "ඡේද පෙළගැස්ම සහ ඊට අදාළ කෙටිමං යතුරු නිවැරදිව ගැලපෙන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Left = `Ctrl + L`, Center = `Ctrl + C`, Right = `Ctrl + R`, Justify = `Ctrl + J`",
+        "si": "Left = `Ctrl + L`, Center = `Ctrl + C`, Right = `Ctrl + R`, Justify = `Ctrl + J`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Left = `Ctrl + L`, Center = `Ctrl + E`, Right = `Ctrl + R`, Justify = `Ctrl + J`",
+        "si": "Left = `Ctrl + L`, Center = `Ctrl + E`, Right = `Ctrl + R`, Justify = `Ctrl + J`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Left = `Ctrl + A`, Center = `Ctrl + E`, Right = `Ctrl + R`, Justify = `Ctrl + F`",
+        "si": "Left = `Ctrl + A`, Center = `Ctrl + E`, Right = `Ctrl + R`, Justify = `Ctrl + F`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Left = `Ctrl + L`, Center = `Ctrl + M`, Right = `Ctrl + R`, Justify = `Ctrl + J`",
+        "si": "Left = `Ctrl + L`, Center = `Ctrl + M`, Right = `Ctrl + R`, Justify = `Ctrl + J`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`Ctrl + L` = Left, `Ctrl + E` = Center (`Ctrl + C` is Copy!), `Ctrl + R` = Right, `Ctrl + J` = Justify.",
+    "explanationSi": "වම් පෙළගැස්ම = `Ctrl + L`, මධ්‍ය පෙළගැස්ම = `Ctrl + E` (`Ctrl + C` යනු කොපි කිරීමටයි), දකුණු පෙළගැස්ම = `Ctrl + R`, දෙපසම පෙළගැස්ම = `Ctrl + J`.",
+    "syllabusRef": "G10-U6.18"
+  },
+  {
+    "id": "g10-u6-q19",
+    "lessonId": "g10-u6",
+    "questionNumber": 19,
+    "promptEn": "What is the term for indenting ONLY the first line of a paragraph while keeping remaining lines flush with the margin?",
+    "promptSi": "ඡේදයක පළමු පේළිය පමණක් මායිමෙන් ඇතුළට තල්ලු කර (Indent), සසු පේළි මායිමේ තැබීම හඳුන්වන්නේ කුමක් ලෙසද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Hanging Indent",
+        "si": "එල්ලෙන ඇතුල් කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "First Line Indent",
+        "si": "පළමු පේළියේ ඇතුල් කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Right Indent",
+        "si": "දකුණු ඇතුල් කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Left Indent",
+        "si": "වම් ඇතුල් කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "First Line Indent shifts only line #1 of a paragraph to the right. Hanging Indent (`Ctrl + T`) keeps line #1 flush at the margin and shifts all subsequent lines to the right (used in bibliographies).",
+    "explanationSi": "First Line Indent මගින් ඡේදයේ පළමු පේළිය පමණක් දකුණට තල්ලු කරයි. Hanging Indent මගින් පළමු පේළිය මායිමේ තබා ඉතිරි පේළි දකුණට තල්ලු කරයි.",
+    "syllabusRef": "G10-U6.19"
+  },
+  {
+    "id": "g10-u6-q20",
+    "lessonId": "g10-u6",
+    "questionNumber": 20,
+    "promptEn": "What is \"Line Spacing\" in a word processor?",
+    "promptSi": "වචන සකසුම් මෘදුකාංගයක \"Line Spacing\" (පේළි පරතරය) යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The horizontal distance between two words",
+        "si": "වචන දෙකක් අතර තිරස් පරතරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The vertical distance between lines of text within a paragraph",
+        "si": "ඡේදයක ඇති පේළි අතර සිරස් පරතරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The distance between two adjacent paragraphs",
+        "si": "ඡේද දෙකක් අතර පරතරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The empty space around the edges of the page",
+        "si": "පිටුවේ මායිම් අතර ඇති හිස් ඉඩ"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Line spacing measures vertical distance between baselines of text (e.g., Single 1.0, 1.15, 1.5, Double 2.0). Distance between paragraphs is \"Paragraph Spacing\" (Before/After).",
+    "explanationSi": "පේළි පරතරය (Line Spacing) යනු ඡේදයක පේළි අතර සිරස් දුර ප්‍රමාණයයි (1.0, 1.15, 1.5, 2.0 යනාදී ලෙස).",
+    "syllabusRef": "G10-U6.20"
+  },
+  {
+    "id": "g10-u6-q21",
+    "lessonId": "g10-u6",
+    "questionNumber": 21,
+    "promptEn": "Which bullet or numbering list feature allows creating multi-level sub-lists (hierarchical lists)?",
+    "promptSi": "ලැයිස්තුවක් තුළ අනු-ලැයිස්තු (Hierarchical sub-lists) සෑදීමට භාවිත කරන අංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Simple Bullets",
+        "si": "සාමාන්‍ය බුලට් ලැයිස්තු"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Multilevel List",
+        "si": "බහු-මට්ටම් ලැයිස්තුව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Numbered List",
+        "si": "අංකිත ලැයිස්තුව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Drop Cap",
+        "si": "ඩ්‍රොප් කැප්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Multilevel List structures complex outlines (e.g., 1., 1.1, 1.1.a). Pressing `Tab` demotes a list item to a deeper level, and `Shift + Tab` promotes it back.",
+    "explanationSi": "Multilevel List මගින් ප්‍රධාන මාතෘකා සහ අනු මාතෘකා (1., 1.1, a.) ලෙස සංකීර්ණ ධුරාවලික ලැයිස්තු සෑදිය හැක. `Tab` යතුරෙන් අනු මට්ටම්වලට ගමන් කරයි.",
+    "syllabusRef": "G10-U6.21"
+  },
+  {
+    "id": "g10-u6-q22",
+    "lessonId": "g10-u6",
+    "questionNumber": 22,
+    "promptEn": "What are the two primary Page Orientations available in Word Processing?",
+    "promptSi": "වචන සකසුම් මෘදුකාංගවල භාවිත කළ හැකි ප්‍රධාන පිටු දිශානති (Page Orientation) දෙක කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Top and Bottom",
+        "si": "ඉහළ සහ පහළ"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Portrait and Landscape",
+        "si": "පෝට්‍රේට් (සිරස්) සහ ලෑන්ඩ්ස්කේප් (තිරස්)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Vertical and Diagonal",
+        "si": "සිරස් සහ විකර්ණ"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A4 and Letter",
+        "si": "A4 සහ ලෙටර්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Portrait is taller than it is wide (vertical/default), while Landscape is wider than it is tall (horizontal/wide tables). A4 and Letter are Paper Sizes.",
+    "explanationSi": "පෝට්‍රේට් (Portrait - සිරස්) යනු උස වැඩි පිටු මෝස්තරයයි. ලෑන්ඩ්ස්කේප් (Landscape - තිරස්) යනු පළල වැඩි පිටු මෝස්තරයයි.",
+    "syllabusRef": "G10-U6.22"
+  },
+  {
+    "id": "g10-u6-q23",
+    "lessonId": "g10-u6",
+    "questionNumber": 23,
+    "promptEn": "What is a \"Gutter Margin\" in Page Setup?",
+    "promptSi": "පිටු සැකසුමේ එන \"Gutter Margin\" (බැඳුම් මායිම) යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Margin added to the top of the page for header text",
+        "si": "ශීර්ෂය සඳහා ඉහළින් තබන ඉඩ"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Extra space added to the side margin intended for book binding",
+        "si": "පොත් බැඳීම (Binding) සඳහා මායිම් පාර්ශ්වයට එකතු කරන අමතර හිස් ඉඩ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The space between two columns in a newspaper layout",
+        "si": "තීරු දෙකක් අතර ඇති පරතරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Margin reserved exclusively for page numbers",
+        "si": "පිටු අංක සඳහා වෙනකර ඇති ඉඩ"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Gutter Margin adds extra width to the inside/left or top margin of a printed document to ensure that text isn't obscured when the pages are bound or stapled into a book.",
+    "explanationSi": "Gutter Margin මගින් පොතක් මසා බැඳීමේදී (Binding) අකුරු වැසී යාම වැළැක්වීමට වම් පසින් හෝ ඉහළින් අමතර ඉඩ ප්‍රමාණයක් එකතු කරයි.",
+    "syllabusRef": "G10-U6.23"
+  },
+  {
+    "id": "g10-u6-q24",
+    "lessonId": "g10-u6",
+    "questionNumber": 24,
+    "promptEn": "What is the difference between a Header and a Footer in a document?",
+    "promptSi": "ලේඛනයක Header (ශීර්ෂය) සහ Footer (පාදමය) අතර වෙනස කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Header appears on the left margin",
+        "si": "Footer appears on the right / ශීර්ෂය වම් මායිමේද පාදමය දකුණු මායිමේද පිහිටයි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Header appears at the top margin of every page",
+        "si": "Footer appears at the bottom margin of every page / ශීර්ෂය සෑම පිටුවකම ඉහළ මායිමේද, පාදමය සෑම පිටුවකම පහළ මායිමේද පිහිටයි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Header contains text",
+        "si": "Footer contains only images / ශීර්ෂයේ ඇත්තේ පෙළ පමණි, පාදමයේ ඇත්තේ පින්තූර පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Header is printed on page 1 only",
+        "si": "Footer is printed on all other pages / ශීර්ෂය මුද්‍රණය වන්නේ 1 වෙනි පිටුවේ පමණි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Header is repeated at the top margin (e.g., document title, chapter name). Footer is repeated at the bottom margin (e.g., page numbers, date, author).",
+    "explanationSi": "Header (ශීර්ෂය) ලේඛනයේ සෑම පිටුවකම ඉහළින්ම නැවත නැවත දර්ශනය වන අතර Footer (පාදමය) සෑම පිටුවකම පහළින්ම (පිටු අංක, දිනය) දර්ශනය වේ.",
+    "syllabusRef": "G10-U6.24"
+  },
+  {
+    "id": "g10-u6-q25",
+    "lessonId": "g10-u6",
+    "questionNumber": 25,
+    "promptEn": "What is the shortcut key to insert a Manual Page Break in Microsoft Word?",
+    "promptSi": "Microsoft Word හි අතින් පිටු කැඩීමක් (Manual Page Break) ඇතුළත් කිරීමේ කෙටිමං යතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Shift + Enter`",
+        "si": "`Shift + Enter`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Ctrl + Enter`",
+        "si": "`Ctrl + Enter`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Alt + Enter`",
+        "si": "`Alt + Enter`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`Ctrl + Shift + Enter`",
+        "si": "`Ctrl + Shift + Enter`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`Ctrl + Enter` forces the cursor and text after it to jump immediately to the top of the next page. `Shift + Enter` inserts a Line Break within the same paragraph.",
+    "explanationSi": "`Ctrl + Enter` එබූ විට කර්සරය පිහිටි ස්ථානයෙන් පසු පෙළ ඊළඟ පිටුවේ ඉහළටම කැඩී යයි (Page Break). `Shift + Enter` මගින් එකම ඡේදය තුළ පේළිය පමණක් කඩයි (Line Break).",
+    "syllabusRef": "G10-U6.25"
+  },
+  {
+    "id": "g10-u6-q26",
+    "lessonId": "g10-u6",
+    "questionNumber": 26,
+    "promptEn": "Which feature allows splitting document text into two or three newspaper-style vertical columns?",
+    "promptSi": "ලේඛනයක පෙළ පුවත්පත්වල මෙන් සිරස් තීරු දෙකකට හෝ තුනකට බෙදා දැක්වීමට භාවිත වන පහසුකම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Table",
+        "si": "වගුව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Columns",
+        "si": "කඩතීරු (Columns)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Text Box",
+        "si": "පෙළ කොටුව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Split Cells",
+        "si": "සෛල බෙදීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Columns feature (Page Layout -> Columns) flows paragraph text vertically down one column before wrapping to the top of the adjacent right column.",
+    "explanationSi": "Columns පහසුකම මගින් ඡේදයක අඩංගු පෙළ පුවත්පත්වල මෙන් සිරස් තීරුවක් ඔස්සේ පහළට ගලා යාමට සලස්වා ඊළඟ තීරුවට යොමු කරයි.",
+    "syllabusRef": "G10-U6.26"
+  },
+  {
+    "id": "g10-u6-q27",
+    "lessonId": "g10-u6",
+    "questionNumber": 27,
+    "promptEn": "What is the keyboard shortcut for Cut, Copy, and Paste operations?",
+    "promptSi": "කපා ගැනීම (Cut), පිටපත් කිරීම (Copy) සහ ඇලවීම (Paste) සඳහා වන අනුපිළිවෙලින් කෙටිමං යතුරු මොනවාද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Ctrl + C`, `Ctrl + X`, `Ctrl + V`",
+        "si": "`Ctrl + C`, `Ctrl + X`, `Ctrl + V`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Ctrl + X`, `Ctrl + C`, `Ctrl + V`",
+        "si": "`Ctrl + X`, `Ctrl + C`, `Ctrl + V`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Ctrl + X`, `Ctrl + V`, `Ctrl + C`",
+        "si": "`Ctrl + X`, `Ctrl + V`, `Ctrl + C`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`Ctrl + Z`, `Ctrl + C`, `Ctrl + V`",
+        "si": "`Ctrl + Z`, `Ctrl + C`, `Ctrl + V`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Cut = `Ctrl + X` (removes original), Copy = `Ctrl + C` (duplicates original), Paste = `Ctrl + V` (places contents from Clipboard).",
+    "explanationSi": "Cut = `Ctrl + X` (මුල් ස්ථානයෙන් ඉවත් කරයි), Copy = `Ctrl + C` (පිටපතක් ගනී), Paste = `Ctrl + V` (ඇලවීම සිදු කරයි).",
+    "syllabusRef": "G10-U6.27"
+  },
+  {
+    "id": "g10-u6-q28",
+    "lessonId": "g10-u6",
+    "questionNumber": 28,
+    "promptEn": "What happens when you press `Ctrl + Z` and `Ctrl + Y` in sequence?",
+    "promptSi": "`Ctrl + Z` සහ `Ctrl + Y` අනුපිළිවෙලින් එබූ විට සිදුවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Ctrl + Z` Redoes the action",
+        "si": "`Ctrl + Y` Undoes it"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Ctrl + Z` Undoes the last action",
+        "si": "`Ctrl + Y` Redoes the undone action / `Ctrl + Z` මගින් අවසන් ක්‍රියාව අහෝසි කරයි, `Ctrl + Y` මගින් අහෝසි කළ ක්‍රියාව නැවත සිදු කරයි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Ctrl + Z` Zooms in",
+        "si": "`Ctrl + Y` Zooms out"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`Ctrl + Z` Deletes selected word",
+        "si": "`Ctrl + Y` Restores it"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`Ctrl + Z` = Undo (reverts last edit). `Ctrl + Y` = Redo (re-applies the edit that was undone).",
+    "explanationSi": "`Ctrl + Z` මගින් සිදුකළ අවසන් වෙනස්කම අහෝසි (Undo) කරන අතර `Ctrl + Y` මගින් එම අහෝසි කළ වෙනස්කම නැවත (Redo) ලබා දෙයි.",
+    "syllabusRef": "G10-U6.28"
+  },
+  {
+    "id": "g10-u6-q29",
+    "lessonId": "g10-u6",
+    "questionNumber": 29,
+    "promptEn": "Which key launches the Spelling and Grammar Check tool in Microsoft Word?",
+    "promptSi": "Microsoft Word හි අක්ෂර වින්‍යාසය සහ ව්‍යාකරණ පරීක්ෂාව (Spelling & Grammar Check) ආරම්භ කරන කෙටිමං යතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`F1`",
+        "si": "`F1`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`F5`",
+        "si": "`F5`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`F7`",
+        "si": "`F7`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`F12`",
+        "si": "`F12`"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "`F7` launches the Spelling & Grammar checker pane. `Shift + F7` opens the Thesaurus (synonyms dictionary).",
+    "explanationSi": "`F7` යතුර එබූ විට අක්ෂර වින්‍යාස සහ ව්‍යාකරණ පරීක්ෂණ කවුළුව (Spelling & Grammar Check) විවෘත වේ. `Shift + F7` මගින් සමාන පද කෝෂය (Thesaurus) ඇරඹේ.",
+    "syllabusRef": "G10-U6.29"
+  },
+  {
+    "id": "g10-u6-q30",
+    "lessonId": "g10-u6",
+    "questionNumber": 30,
+    "promptEn": "What do Red and Green/Blue wavy lines beneath text represent in Microsoft Word?",
+    "promptSi": "Microsoft Word හි පෙළට යටින් දර්ශනය වන රතු සහ කොළ/නිල් රැළි සහිත ඉරි (Wavy lines) මගින් නිරූපණය වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Red = Grammar Error",
+        "si": "Green / Blue = Spelling Error"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Red = Spelling Error",
+        "si": "Green / Blue = Grammar / Syntax Error / රතු = අක්ෂර වින්‍යාස වරද / කොළ / නිල් = ව්‍යාකරණ වරද"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Red = Deleted text",
+        "si": "Green / Blue = Inserted text"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Red = Hyperlink",
+        "si": "Green / Blue = Bookmark"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Red wavy underline flags a potential Spelling Error. A Green or Blue wavy underline flags a potential Grammar or Contextual error.",
+    "explanationSi": "රතු පැහැති රැළි ඉරෙන් අක්ෂර වින්‍යාස වරදක්ද (Spelling Error), කොළ හෝ නිල් පැහැති රැළි ඉරෙන් ව්‍යාකරණ වරදක්ද (Grammar Error) පෙන්වයි.",
+    "syllabusRef": "G10-U6.30"
+  },
+  {
+    "id": "g10-u6-q31",
+    "lessonId": "g10-u6",
+    "questionNumber": 31,
+    "promptEn": "What is the function of the \"Find and Replace\" tool (`Ctrl + H`)?",
+    "promptSi": "\"Find and Replace\" (`Ctrl + H`) මෙවලමෙහි ප්‍රධාන කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To search for specific text and automatically replace it with another text throughout the document",
+        "si": "ලේඛනය පුරා ඇති යම් වචනයක් සොයා එය වෙනත් වචනයකින් ස්වයංක්‍රීයව විස්ථාපනය කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To find formatting errors and delete them",
+        "si": "To find formatting errors and delete them"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To search for spelling mistakes and add them to dictionary",
+        "si": "To search for spelling mistakes and add them to dictionary"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To translate text into another language",
+        "si": "To translate text into another language"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "`Ctrl + H` opens Find & Replace to locate every occurrence of a specified search word and replace it instantly with updated text.",
+    "explanationSi": "`Ctrl + H` මගින් ලේඛනයේ ඇති සියලුම කිසියම් වචනයක් සොයා (Find) එකවර වෙනත් වචනයකින් විස්ථාපනය (Replace) කළ හැක.",
+    "syllabusRef": "G10-U6.31"
+  },
+  {
+    "id": "g10-u6-q32",
+    "lessonId": "g10-u6",
+    "questionNumber": 32,
+    "promptEn": "What is the \"Format Painter\" tool used for?",
+    "promptSi": "\"Format Painter\" මෙවලම භාවිත කරන්නේ කුමක් සඳහාද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To paint background colors behind paragraphs",
+        "si": "To paint background colors behind paragraphs"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To copy character and paragraph formatting from one piece of text and apply it to another",
+        "si": "එක් පෙළක ඇති හැඩසැසුම් (Formatting) පිටපත් කර වෙනත් පෙළකට යෙදීමට"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To insert artistic graphics and paintings into documents",
+        "si": "To insert artistic graphics and paintings into documents"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To change the display theme of MS Word",
+        "si": "To change the display theme of MS Word"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Format Painter copies styling attributes (font, size, color, bold) without copying the actual text.",
+    "explanationSi": "Format Painter මගින් පෙළ නොවන, එහි ඇති අකුරු විලාසය, වර්ණය සහ ප්‍රමාණය වැනි හැඩසැසුම් පමණක් පිටපත් කර වෙනත් පෙළකට යෙදිය හැක.",
+    "syllabusRef": "G10-U6.32"
+  },
+  {
+    "id": "g10-u6-q33",
+    "lessonId": "g10-u6",
+    "questionNumber": 33,
+    "promptEn": "In a Word Processing table, what is the intersection of a Row and a Column called?",
+    "promptSi": "වගුවක තීරුවක් (Column) සහ පේළියක් (Row) හමුවන තනි කොටුව හඳුන්වන්නේ කුමක් ලෙසද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Grid",
+        "si": "Grid"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Cell",
+        "si": "සෛලය (Cell)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Block",
+        "si": "Block"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Field",
+        "si": "Field"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Cell is the individual rectangular box formed where a horizontal row intersects a vertical column in a table.",
+    "explanationSi": "තිරස් පේළියක් සහ සිරස් තීරුවක් එකිනෙක ඡේදනය වන ස්ථානයේ සෑදෙන කුඩා කොටුව සෛලය (Cell) ලෙස හැඳින්වේ.",
+    "syllabusRef": "G10-U6.33"
+  },
+  {
+    "id": "g10-u6-q34",
+    "lessonId": "g10-u6",
+    "questionNumber": 34,
+    "promptEn": "What is the operation of combining two or more adjacent cells into a single larger cell called?",
+    "promptSi": "වගුවක එකිනෙකට යාබද සෛල දෙකක් හෝ කිහිපයක් එකතු කර තනි විශාල සෛලයක් බවට පත් කිරීමේ මෙහෙයුම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Splitting Cells",
+        "si": "Splitting Cells"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Merging Cells",
+        "si": "සෛල ඒකාබද්ධ කිරීම (Merge Cells)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Combining Tables",
+        "si": "Combining Tables"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "AutoFit",
+        "si": "AutoFit"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "\"Merge Cells\" joins selected cells into one continuous cell. \"Split Cells\" divides one cell into multiple rows or columns.",
+    "explanationSi": "\"Merge Cells\" (සෛල ඒකාබද්ධ කිරීම) මගින් තෝරාගත් සෛල කිහිපයක් තනි සෛලයක් කරයි.",
+    "syllabusRef": "G10-U6.34"
+  },
+  {
+    "id": "g10-u6-q35",
+    "lessonId": "g10-u6",
+    "questionNumber": 35,
+    "promptEn": "What is the action of dividing a single table cell into multiple smaller rows or columns?",
+    "promptSi": "තනි සෛලයක් නැවත පේළි හෝ තීරු කිහිපයකට බෙදා වෙන් කිරීම හඳුන්වන්නේ කුමක් ලෙසද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Merge Cells",
+        "si": "Merge Cells"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Split Cells",
+        "si": "සෛල බෙදීම (Split Cells)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Delete Cells",
+        "si": "Delete Cells"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Wrap Text",
+        "si": "Wrap Text"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "\"Split Cells\" allows a user to subdivide an existing table cell into a specific number of rows and columns.",
+    "explanationSi": "\"Split Cells\" මගින් පවතින සෛලයක් අපට අවශ්‍ය පේළි සහ තීරු ගණනාවකට වෙන් කරගත හැක.",
+    "syllabusRef": "G10-U6.35"
+  },
+  {
+    "id": "g10-u6-q36",
+    "lessonId": "g10-u6",
+    "questionNumber": 36,
+    "promptEn": "Which key moves the insertion point cursor to the NEXT adjacent cell in a table?",
+    "promptSi": "වගුවක වත්මන් සෛලයේ සිට ඊළඟ (දකුණු පස) සෛලයට කර්සරය ගෙනයාමට භාවිත කරන යතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Enter`",
+        "si": "`Enter`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Tab`",
+        "si": "`Tab`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Spacebar`",
+        "si": "`Spacebar`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`Shift + Tab`",
+        "si": "`Shift + Tab`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`Tab` moves the cursor forward to the next cell. Pressing `Tab` in the very last cell of the last row automatically creates a NEW ROW.",
+    "explanationSi": "වගුවක් තුළ `Tab` යතුර එබූ විට කර්සරය ඊළඟ සෛලයට ගමන් කරයි. අවසාන සෛලයේදී `Tab` එබූ විට නව පේළියක් (New Row) සෑදේ.",
+    "syllabusRef": "G10-U6.36"
+  },
+  {
+    "id": "g10-u6-q37",
+    "lessonId": "g10-u6",
+    "questionNumber": 37,
+    "promptEn": "How do you delete an entire selected row from a table in MS Word?",
+    "promptSi": "MS Word වගුවකින් තෝරාගත් සම්පූර්ණ පේළියක් ඉවත් කරන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Select row and press `Backspace` or use Table Tools -> Delete -> Delete Rows",
+        "si": "පේළිය තෝරා `Backspace` එබීම හෝ Delete Rows තේරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Select row and press `Spacebar`",
+        "si": "Select row and press `Spacebar`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Press `Ctrl + Shift + D`",
+        "si": "Press `Ctrl + Shift + D`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Drag the row off the screen",
+        "si": "Drag the row off the screen"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "`Delete` only clears cell contents (text). `Backspace` removes the entire row structure.",
+    "explanationSi": "`Delete` යතුරෙන් සිදුවන්නේ සෛල තුළ ඇති පෙළ පමණක් ඉවත් වීමයි. වගු පේළිය සම්පූර්ණයෙන්ම ඉවත් කිරීමට `Backspace` යතුර භාවිත කළ යුතුය.",
+    "syllabusRef": "G10-U6.37"
+  },
+  {
+    "id": "g10-u6-q38",
+    "lessonId": "g10-u6",
+    "questionNumber": 38,
+    "promptEn": "What is \"Text Wrapping\" when inserting an image into a word processor document?",
+    "promptSi": "වචන සකසුම් ලේඛනයකට රූපයක් ඇතුළත් කිරීමේදී \"Text Wrapping\" (පෙළ එතීම) යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Converting image text into editable font document",
+        "si": "Converting image text into editable font document"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Adjusting how paragraph text flows around, behind, or over the inserted image",
+        "si": "ඇතුළත් කළ රූපය වටා, පිටුපසින් හෝ ඉදිරියෙන් ඡේද පෙළ ගලා යන ආකාරය සකස් කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Compress image to reduce file size",
+        "si": "Compress image to reduce file size"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Rotating image by 90 degrees",
+        "si": "Rotating image by 90 degrees"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Text Wrapping determines how surrounding text interacts with a graphic object (e.g., Square, Tight, Behind Text, In Front of Text).",
+    "explanationSi": "Text Wrapping මගින් රූපය වටා පෙළ පිහිටන ආකාරය ਪාලනය කරයි.",
+    "syllabusRef": "G10-U6.38"
+  },
+  {
+    "id": "g10-u6-q39",
+    "lessonId": "g10-u6",
+    "questionNumber": 39,
+    "promptEn": "Which Text Wrapping style places the image on its own background layer, allowing document text to be typed directly OVER the image?",
+    "promptSi": "රූපය පසුබිම් ස්තරයට යවා, එම රූපය මත කෙලින්ම පෙළ ටයිප් කිරීමට ඉඩ සලසන Text Wrapping විකල්පය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "In Line with Text",
+        "si": "In Line with Text"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Square",
+        "si": "Square"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Behind Text",
+        "si": "පෙළ පිටුපසින් (Behind Text)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Top and Bottom",
+        "si": "Top and Bottom"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "\"Behind Text\" positions the image behind the text layer, making it function like a watermark or background visual.",
+    "explanationSi": "\"Behind Text\" විකල්පය මගින් රූපය පෙළට පිටුපසින් (පසුබිම ලෙස) තබන අතර රූපය මත පෙළ පැහැදිලිව දර්ශනය වේ.",
+    "syllabusRef": "G10-U6.39"
+  },
+  {
+    "id": "g10-u6-q40",
+    "lessonId": "g10-u6",
+    "questionNumber": 40,
+    "promptEn": "What is the default Text Wrapping style applied to a newly inserted image in Microsoft Word?",
+    "promptSi": "Microsoft Word හි නව රූපයක් ඇතුළත් කළ සැනින් ඊට යෙදෙන සම්මත (Default) Text Wrapping විකල්පය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Square",
+        "si": "Square"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "In Line with Text",
+        "si": "පෙළට පේළිගතව (In Line with Text)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Tight",
+        "si": "Tight"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "In Front of Text",
+        "si": "In Front of Text"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Word treats inserted pictures as a large single text character (\"In Line with Text\"). To move it freely anywhere, change wrapping to Square or Tight.",
+    "explanationSi": "රූපයක් ඇතුළත් කළ මුල් අවස්ථාවේදී එය \"In Line with Text\" ලෙස හැසිරේ. රූපය ඕනෑම තැනකට නිදහසේ ගෙනයාමට නම් එය Square හෝ Tight ලෙස වෙනස් කළ යුතුය.",
+    "syllabusRef": "G10-U6.40"
+  },
+  {
+    "id": "g10-u6-q41",
+    "lessonId": "g10-u6",
+    "questionNumber": 41,
+    "promptEn": "What is \"WordArt\" in Microsoft Word?",
+    "promptSi": "Microsoft Word හි ඇති \"WordArt\" පහසුකම යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A tool to generate automated essays",
+        "si": "A tool to generate automated essays"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A gallery of decorative text styles with special 3D, shadow, gradient, and outline effects",
+        "si": "ත්‍රිමාණ, සෙවනැලි සහ වර්ණ රටා සහිත අලංකාර අකුරු මෝස්තර නිර්මාණය කිරීමේ මෙවලම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A clipart search engine",
+        "si": "A clipart search engine"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "An automatic spelling checker",
+        "si": "An automatic spelling checker"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "WordArt transforms standard text into stylized graphic objects with special formatting like 3D rotations, reflections, and custom outlines.",
+    "explanationSi": "WordArt මගින් සාමාන්‍ය පෙළ අලංකාර ග්‍රැෆික් අකුරු මෝස්තර (සෙවනැලි, ත්‍රිමාණ ස්වභාවය) බවට පත් කළ හැක.",
+    "syllabusRef": "G10-U6.41"
+  },
+  {
+    "id": "g10-u6-q42",
+    "lessonId": "g10-u6",
+    "questionNumber": 42,
+    "promptEn": "What is \"Drop Cap\" used for in document design?",
+    "promptSi": "ලේඛන සැලසුම්කරණයේදී \"Drop Cap\" පහසුකම භාවිත කරන්නේ කුමක් සඳහාද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To drop selected text into a footer",
+        "si": "To drop selected text into a footer"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To create a large decorative initial capital letter at the beginning of a paragraph spanning 2 or 3 lines",
+        "si": "ඡේදයක ආරම්භක අකුර පමණක් පේළි 2 කට හෝ 3 කට සමාන වන සේ විශාල කර දැක්වීමට"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To capitalize the last letter of every paragraph",
+        "si": "To capitalize the last letter of every paragraph"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To convert all text into lower case",
+        "si": "To convert all text into lower case"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Drop Cap creates a large initial letter that \"drops down\" across multiple lines at the start of a paragraph (used in newspapers and novels).",
+    "explanationSi": "Drop Cap මගින් ඡේදයක පළමු අකුර පමණක් පේළි කිහිපයකට (පේළි 3 කට) සමාන වන සේ විශාල කර පුවත්පත්වල මෙන් අලංකාරව පෙන්වයි.",
+    "syllabusRef": "G10-U6.42"
+  },
+  {
+    "id": "g10-u6-q43",
+    "lessonId": "g10-u6",
+    "questionNumber": 43,
+    "promptEn": "What is the primary purpose of the \"Mail Merge\" (තැපැල් ඒකාබද්ධ කිරීම) feature?",
+    "promptSi": "\"Mail Merge\" (තැපැල් ඒකාබද්ධ කිරීම) පහසුකමෙහි ප්‍රධාන අරමුණ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To send emails directly without an Internet connection",
+        "si": "To send emails directly without an Internet connection"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To merge multiple word processing files into a single master document",
+        "si": "To merge multiple word processing files into a single master document"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To quickly produce multiple personalized letters",
+        "si": "envelopes by combining a form letter with a recipient list / පොදු ලිපියක් (Form Letter) සහ ලබන්නන්ගේ ලැයිස්තුවක් (Data Source) එකතු කර පුද්ගලීකරණය කළ ලිපි විශාල ගණනක් එකවර සැකසීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To merge photos into a digital album",
+        "si": "To merge photos into a digital album"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Mail Merge automates bulk customized communication by inserting individual data field records from a data source into placeholders inside a single main document.",
+    "explanationSi": "Mail Merge මගින් සිය ගණනක් දෙනා වෙත යවන ලිපි, එක් පොදු ලිපියක් සහ නාම ලැයිස්තුවක් භාවිත කර එකවර ස්වයංක්‍රීයව නිර්මාණය කරයි.",
+    "syllabusRef": "G10-U6.43"
+  },
+  {
+    "id": "g10-u6-q44",
+    "lessonId": "g10-u6",
+    "questionNumber": 44,
+    "promptEn": "What are the TWO essential components required to execute a Mail Merge?",
+    "promptSi": "Mail Merge ක්‍රියාවලියක් සිදු කිරීම සඳහා අත්‍යවශ්‍ය වන ප්‍රධාන සංරචක දෙක කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Header and Footer",
+        "si": "Header and Footer"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Main Document and Data Source",
+        "si": "ප්‍රධාන ලේඛනය සහ දත්ත ප්‍රභවය (Data Source)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Template and Watermark",
+        "si": "Template and Watermark"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Table and Chart",
+        "si": "Table and Chart"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "1. **Main Document:** Contains standard body text and merge field placeholders. 2. **Data Source:** Table or file storing recipient records in rows and columns.",
+    "explanationSi": "1. **ප්‍රධාන ලේඛනය (Main Document):** සැමටම පොදු ලිපි පෙළ සහ Merge Fields අඩංගු ලේඛනය. 2. **දත්ත ප්‍රභවය (Data Source):** ලබන්නන්ගේ නම්, ලිපින අඩංගු ලැයිස්තුව / වගුව.",
+    "syllabusRef": "G10-U6.44"
+  },
+  {
+    "id": "g10-u6-q45",
+    "lessonId": "g10-u6",
+    "questionNumber": 45,
+    "promptEn": "What are \"Merge Fields\" (ඒකාබද්ධ කිරීමේ ක්ෂේත්‍ර) in a Mail Merge Main Document?",
+    "promptSi": "Mail Merge ප්‍රධාන ලේඛනයක ඇති \"Merge Fields\" යනු මොනවාද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Fields used to add mathematical formulas",
+        "si": "Fields used to add mathematical formulas"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Placeholders (e.g. `>`) inserted into the document where dynamic recipient data will be displayed",
+        "si": "දත්ත ප්‍රභවයේ ඇති පුද්ගලික තොරතුරු ඇතුළත් වන ස්ථාන පෙන්වන සංකේතාත්මක ස්ථානීය සලකුණු"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Background watermarks",
+        "si": "Background watermarks"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hyperlinks to foreign websites",
+        "si": "Hyperlinks to foreign websites"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Merge fields tell Word where to inject specific column field values from the data source file during the merge output step.",
+    "explanationSi": "Merge fields (`>`, `>`) යනු දත්ත ප්‍රභවයේ ඇති අදාළ ක්ෂේත්‍රවල අගයන් ලිපියේ තැබිය යුතු ස්ථාන පෙන්වන සලකුණු වේ.",
+    "syllabusRef": "G10-U6.45"
+  },
+  {
+    "id": "g10-u6-q46",
+    "lessonId": "g10-u6",
+    "questionNumber": 46,
+    "promptEn": "Which of the following CANNOT be used as a Data Source for Mail Merge?",
+    "promptSi": "පහත සඳහන් දෑ අතුරින් Mail Merge සඳහා දත්ත ප්‍රභවයක් (Data Source) ලෙස භාවිත කළ නොහැක්කේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "An Excel Spreadsheet (`.xlsx`)",
+        "si": "An Excel Spreadsheet (`.xlsx`)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "An Access Database Table (`.accdb`)",
+        "si": "An Access Database Table (`.accdb`)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A Word Processing Table",
+        "si": "A Word Processing Table"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "An audio MP3 file (`.mp3`)",
+        "si": "ශ්‍රව්‍ය MP3 ගොනුවක්"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "A Data Source must be structured tabular text data consisting of rows (records) and columns (fields). Audio files (`.mp3`) contain sound data, not textual records.",
+    "explanationSi": "දත්ත ප්‍රභවයක් යනු පේළි සහ තීරු සහිත පෙළ ලැයිස්තුවකි. MP3 ශ්‍රව්‍ය ගොනුවල පෙළ දත්ත නොමැති බැවින් එය දත්ත ප්‍රභවයක් ලෙස භාවිත කළ නොහැක.",
+    "syllabusRef": "G10-U6.46"
+  },
+  {
+    "id": "g10-u6-q47",
+    "lessonId": "g10-u6",
+    "questionNumber": 47,
+    "promptEn": "What is the correct 4-step sequence for completing a Mail Merge?",
+    "promptSi": "Mail Merge ක්‍රියාවලිය සම්පූර්ණ කිරීමේ නිවැරදි පියවර 4 හි අනුපිළිවෙල කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Create Data Source -> Create Main Document -> Insert Merge Fields -> Finish & Merge",
+        "si": "Create Data Source -> Create Main Document -> Insert Merge Fields -> Finish & Merge"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Finish & Merge -> Create Data Source -> Insert Merge Fields -> Create Main Document",
+        "si": "Finish & Merge -> Create Data Source -> Insert Merge Fields -> Create Main Document"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Create Main Document -> Select",
+        "si": "Create Data Source -> Insert Merge Fields -> Finish & Merge"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Insert Merge Fields -> Create Main Document -> Finish & Merge -> Select Data Source",
+        "si": "Insert Merge Fields -> Create Main Document -> Finish & Merge -> Select Data Source"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Workflow: 1. Write Main Document, 2. Connect/Select Data Source list, 3. Insert placeholders (Merge Fields), 4. Execute \"Finish & Merge\".",
+    "explanationSi": "නිවැරදි අනුපිළිවෙල: 1. ප්‍රධාන ලිපිය සැකසීම -> 2. දත්ත ප්‍රභවය සම්බන්ධ කිරීම -> 3. Merge Fields ඇතුළත් කිරීම -> 4. Finish & Merge මගින් අවසන් ලේඛන සෑදීම.",
+    "syllabusRef": "G10-U6.47"
+  },
+  {
+    "id": "g10-u6-q48",
+    "lessonId": "g10-u6",
+    "questionNumber": 48,
+    "promptEn": "(2020 O/L Paper I) Which alignment should be used for formal report body text to ensure straight edges on both left and right margins?",
+    "promptSi": "වම් සහ දකුණු මායිම් දෙකෙන්ම පේළි එක එල්ලේ පිහිටන සේ නිල වාර්තාවක ඡේද සැකසීමට යොදාගත යුතු Alignment එක කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Align Left",
+        "si": "Align Left"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Center",
+        "si": "Center"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Align Right",
+        "si": "Align Right"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Justify",
+        "si": "Justify"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "Justify produces a clean double-sided vertical margin alignment suited for books, formal reports, and newspapers.",
+    "explanationSi": "Justify විකල්පය මගින් ලේඛනයේ වම් සහ දකුණු මායිම් දෙකම එක එල්ලේ පවතින සේ සකසයි.",
+    "syllabusRef": "G10-U6.48"
+  },
+  {
+    "id": "g10-u6-q49",
+    "lessonId": "g10-u6",
+    "questionNumber": 49,
+    "promptEn": "Which feature should a student use to automatically insert running page numbers like \"Page 1 of 10\" at the bottom of every page?",
+    "promptSi": "සෑම පිටුවකම පහළින් \"Page 1 of 10\" ලෙස ස්වයංක්‍රීයව පිටු අංක යෙදීමට භාවිත කළ යුත්තේ කුමන පහසුකමද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Drop Cap",
+        "si": "Drop Cap"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Footer -> Page Number",
+        "si": "පාදමය -> පිටු අංකය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Watermark",
+        "si": "Watermark"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Endnote",
+        "si": "Endnote"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Page numbers placed in the Footer automatically recalculate and update as pages are added or removed.",
+    "explanationSi": "පාදමයේ (Footer) ඇතුළත් කරන පිටු අංක ලේඛනයට පිටු එකතු වන විට හෝ ඉවත් වන විට ස්වයංක්‍රීයව යාවත්කාලීන වේ.",
+    "syllabusRef": "G10-U6.49"
+  },
+  {
+    "id": "g10-u6-q50",
+    "lessonId": "g10-u6",
+    "questionNumber": 50,
+    "promptEn": "How can you insert the chemical formula for water (H₂O) accurately in a word processor?",
+    "promptSi": "ජලයේ රසායනික සූත්‍රය වන H₂O යන්නෙහි '2' අංකය නිවැරදිව ටයිප් කිරීමට භාවිත කරන හැඩසැසුම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Type H, apply Superscript to 2, then type O",
+        "si": "Type H, apply Superscript to 2, then type O"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Type H, apply Subscript to 2, then type O",
+        "si": "H ටයිප් කර 2 සඳහා Subscript යොදා, පසුව O ටයිප් කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Type H, apply Bold to 2, then type O",
+        "si": "Type H, apply Bold to 2, then type O"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Type H, apply Strikethrough to 2, then type O",
+        "si": "Type H, apply Strikethrough to 2, then type O"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Subscript (`Ctrl + =`) lowers the '2' below the baseline.",
+    "explanationSi": "H₂O හි 2 යනු යටි ලකුණකි (Subscript).",
+    "syllabusRef": "G10-U6.50"
+  },
+  {
+    "id": "g10-u6-q51",
+    "lessonId": "g10-u6",
+    "questionNumber": 51,
+    "promptEn": "How can you write X³ + Y³ = Z³ in a document?",
+    "promptSi": "X³ + Y³ = Z³ යන්න නිවැරදිව සකස් කිරීමට භාවිත කරන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Subscript",
+        "si": "Subscript"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Superscript",
+        "si": "උඩ ලකුණ (Superscript)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Highlight",
+        "si": "Highlight"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Small Caps",
+        "si": "Small Caps"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Mathematical powers (exponents) require Superscript formatting (`Ctrl + Shift + +`).",
+    "explanationSi": "ගණිතමය බලයන් (3 බලය) දැක්වීම සඳහා උඩ ලකුණ (Superscript) භාවිත වේ.",
+    "syllabusRef": "G10-U6.51"
+  },
+  {
+    "id": "g10-u6-q52",
+    "lessonId": "g10-u6",
+    "questionNumber": 52,
+    "promptEn": "A school clerk wants to issue 200 character certificates to students. Which method takes the LEAST amount of time?",
+    "promptSi": "පාසල් ලිපිකරුවෙකුට සිසුන් 200 දෙනෙකු සඳහා චරිත සහතික නිකුත් කිරීමට අවශ්‍ය වී ඇත. අවම කාලයකින් මෙය සිදු කිරීමට සුදුසුම ක්‍රමය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Type 200 individual documents manually from scratch",
+        "si": "Type 200 individual documents manually from scratch"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Copy and paste one certificate 200 times and manually edit names",
+        "si": "Copy and paste one certificate 200 times and manually edit names"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Use Mail Merge with one Certificate Template and a Student Data Table",
+        "si": "එක් සහතික ආකෘතියක් සහ ශිෂ්‍ය දත්ත වගුවක් භාවිත කර Mail Merge කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Print one blank certificate and write names by hand",
+        "si": "Print one blank certificate and write names by hand"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Mail Merge generates all 200 personalized certificates in seconds automatically.",
+    "explanationSi": "Mail Merge මගින් ලිපි ලේඛන සිය ගණනක් තත්පර කිහිපයකින් ස්වයංක්‍රීයව සකසා ගත හැක.",
+    "syllabusRef": "G10-U6.52"
+  },
+  {
+    "id": "g10-u6-q53",
+    "lessonId": "g10-u6",
+    "questionNumber": 53,
+    "promptEn": "What is the keyboard shortcut to select the ENTIRE document text at once?",
+    "promptSi": "සම්පූර්ණ ලේඛනයේ ඇති සියලුම පෙළ එකවර තේරීම (Select All) සඳහා වන කෙටිමං යතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Ctrl + S`",
+        "si": "`Ctrl + S`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Ctrl + A`",
+        "si": "`Ctrl + A`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Ctrl + Shift + A`",
+        "si": "`Ctrl + Shift + A`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`Alt + A`",
+        "si": "`Alt + A`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`Ctrl + A` highlights all text, images, and tables in the document.",
+    "explanationSi": "`Ctrl + A` මගින් ලේඛනයේ සියලුම අන්තර්ගතයන් එකවර තෝරාගනී.",
+    "syllabusRef": "G10-U6.53"
+  },
+  {
+    "id": "g10-u6-q54",
+    "lessonId": "g10-u6",
+    "questionNumber": 54,
+    "promptEn": "Which option allows printing only pages 3, 4, 5, and 8 from a 20-page document?",
+    "promptSi": "පිටු 20 කින් යුත් ලේඛනයකින් 3, 4, 5 සහ 8 යන පිටු පමණක් මුද්‍රණය කිරීමට Print dialog කවුළුවේ පිටු අංක සඳහන් කළ යුත්තේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`3-8`",
+        "si": "`3-8`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`3,4,5,8` or `3-5, 8`",
+        "si": "`3,4,5,8` or `3-5, 8`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`3",
+        "si": "5 / 8`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`3",
+        "si": "5 / 8`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Hyphen (`-`) specifies an inclusive page range (`3-5` = pages 3, 4, 5). Comma (`,`) separates individual discontinuous page numbers (`8`).",
+    "explanationSi": "`-` මගින් පරාසයන්ද (`3-5`), කොමාව (`,`) මගින් වෙන් වෙන් පිටු අංකද (`8`) නිරූපණය කරයි.",
+    "syllabusRef": "G10-U6.54"
+  },
+  {
+    "id": "g10-u6-q55",
+    "lessonId": "g10-u6",
+    "questionNumber": 55,
+    "promptEn": "What is \"Watermark\" in Microsoft Word?",
+    "promptSi": "Microsoft Word හි \"Watermark\" (ජල සලකුණ) යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "An error symbol when a file is corrupted",
+        "si": "An error symbol when a file is corrupted"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A faint background image or text (e.g. \"CONFIDENTIAL\" or logo) printed behind the document text",
+        "si": "ලේඛනයේ පෙළට පිටුපසින් පසුබිමේ මුද්‍රණය වන මන්දගාමී අකුරු හෝ රූප සලකුණ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A tool to clear formatting",
+        "si": "A tool to clear formatting"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A page boundary border",
+        "si": "A page boundary border"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Watermark displays translucent text/logos on page backgrounds to indicate security status (Draft, Confidential) or brand identity.",
+    "explanationSi": "Watermark මගින් ලේඛනයේ පසුබිමින් පෙනෙන රහස්‍ය (Confidential) හෝ ආයතනික ලාංඡන සලකුණු තබයි.",
+    "syllabusRef": "G10-U6.55"
+  },
+  {
+    "id": "g10-u6-q56",
+    "lessonId": "g10-u6",
+    "questionNumber": 56,
+    "promptEn": "What happens when you press `Ctrl + Click` on a hyperlink in Microsoft Word?",
+    "promptSi": "MS Word ලේඛනයක ඇති Hyperlink එකක් මත `Ctrl` යතුර තද කරගෙන ක්ලික් කළ විට සිදුවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Deletes the link",
+        "si": "Deletes the link"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Opens the target web page or document in a browser",
+        "si": "අදාළ වෙබ් පිටුව හෝ ලේඛනය විවෘත වේ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Copies the URL",
+        "si": "Copies the URL"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Underlines the text in red",
+        "si": "Underlines the text in red"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`Ctrl + Click` triggers and follows an embedded hyperlink in Word.",
+    "explanationSi": "`Ctrl + Click` කිරීමෙන් අදාළ වෙබ් අඩවිය හෝ ගොනුව විවෘත වේ.",
+    "syllabusRef": "G10-U6.56"
+  },
+  {
+    "id": "g10-u6-q57",
+    "lessonId": "g10-u6",
+    "questionNumber": 57,
+    "promptEn": "What is the function of the \"Thesaurus\" tool (`Shift + F7`)?",
+    "promptSi": "\"Thesaurus\" (`Shift + F7`) මෙවලමෙහි කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Translates text to another language",
+        "si": "Translates text to another language"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Provides a dictionary list of Synonyms and Antonyms for a selected word",
+        "si": "තෝරාගත් වචනයක් සඳහා සමාන පද (Synonyms) සහ විරුද්ධ පද ලබා දීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Counts the total number of paragraphs",
+        "si": "Counts the total number of paragraphs"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Automatically corrects grammatical errors",
+        "si": "Automatically corrects grammatical errors"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Thesaurus suggests alternative words with similar meanings to improve vocabulary and avoid repetition.",
+    "explanationSi": "Thesaurus මගින් තෝරාගත් වචනය සඳහා සමාන පද සහ විරුද්ධ පද ලැයිස්තුවක් ලබා දෙයි.",
+    "syllabusRef": "G10-U6.57"
+  },
+  {
+    "id": "g10-u6-q58",
+    "lessonId": "g10-u6",
+    "questionNumber": 58,
+    "promptEn": "Which option is used to change the distance between two paragraphs?",
+    "promptSi": "ඡේද දෙකක් අතර පරතරය වෙනස් කිරීමට භාවිත කරන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Line Spacing",
+        "si": "Line Spacing"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Paragraph Spacing (Before",
+        "si": "After) / ඡේද පරතරය (Before / After)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Text Indent",
+        "si": "Text Indent"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Margins",
+        "si": "Margins"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Paragraph Spacing adjusts the vertical gap *Before* or *After* an entire paragraph block. Line Spacing adjusts gaps *between lines inside* a single paragraph.",
+    "explanationSi": "ඡේද දෙකක් අතර පරතරය වෙනස් කරන්නේ Paragraph Spacing (Before / After) මගිනි.",
+    "syllabusRef": "G10-U6.58"
+  },
+  {
+    "id": "g10-u6-q59",
+    "lessonId": "g10-u6",
+    "questionNumber": 59,
+    "promptEn": "What is the feature that automatically wraps text to the next line when typing reaches the right margin?",
+    "promptSi": "ටයිප් කරගෙන යන විට දකුණු මායිමට ළඟා වූ පසු පෙළ ස්වයංක්‍රීයව ඊළඟ පේළියට යොමු වන පහසුකම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Word Wrap",
+        "si": "වචන එතීම (Word Wrap)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Auto Correct",
+        "si": "Auto Correct"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Drop Cap",
+        "si": "Drop Cap"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Line Break",
+        "si": "Line Break"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Word Wrap automatically moves the cursor and incomplete word to the start of the next line without requiring the user to press `Enter`.",
+    "explanationSi": "Word Wrap මගින් දකුණු මායිමට පැමිණි පසු `Enter` නොනොබාම ස්වයංක්‍රීයව පෙළ ඊළඟ පේළියට ගෙන යයි.",
+    "syllabusRef": "G10-U6.59"
+  },
+  {
+    "id": "g10-u6-q60",
+    "lessonId": "g10-u6",
+    "questionNumber": 60,
+    "promptEn": "Which key should be used ONLY when starting a NEW paragraph?",
+    "promptSi": "නව ඡේදයක් (New Paragraph) ආරම්භ කිරීමේදී පමණක් එබිය යුතු යතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Spacebar`",
+        "si": "`Spacebar`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Enter`",
+        "si": "`Enter`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Tab`",
+        "si": "`Tab`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`Shift`",
+        "si": "`Shift`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`Enter` creates a hard paragraph break. It should never be pressed at the end of ordinary text lines due to automatic Word Wrap.",
+    "explanationSi": "`Enter` යතුර එබිය යුත්තේ නව ඡේදයක් ඇරඹීමට පමණි. සාමාන්‍ය පේළි අවසානයේදී Word Wrap මගින් ස්වයංක්‍රීයව පේළි මාරු වේ.",
+    "syllabusRef": "G10-U6.60"
+  }
+]

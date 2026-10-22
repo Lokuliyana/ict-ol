@@ -7,6 +7,7 @@ import { CURRICULUM_DATA } from '@/data/curriculum';
 import { LESSON_01_DATA } from '@/data/lesson01Data';
 import { ALL_LESSONS_DATA } from '@/data/allLessonsData';
 import { Printer, ArrowLeft, Download, BookOpen, CheckCircle } from 'lucide-react';
+import { FormattedText } from '@/components/study/FormattedText';
 
 export default function RevisionSheetPage() {
   const params = useParams();
@@ -125,9 +126,9 @@ export default function RevisionSheetPage() {
                     English Medium Notes
                   </span>
                   {subtopic.blocks.map((b) => (
-                    <p key={`en-${b.id}`} className="text-slate-800 print:text-black leading-relaxed">
-                      {b.en}
-                    </p>
+                    <div key={`en-${b.id}`} className="text-slate-800 print:text-black leading-relaxed">
+                      <FormattedText content={b.en} language="en" />
+                    </div>
                   ))}
                 </div>
 
@@ -137,9 +138,9 @@ export default function RevisionSheetPage() {
                     සිංහල මාධ්‍ය සටහන්
                   </span>
                   {subtopic.blocks.map((b) => (
-                    <p key={`si-${b.id}`} className="text-slate-800 print:text-black leading-loose">
-                      {b.si}
-                    </p>
+                    <div key={`si-${b.id}`} className="text-slate-800 print:text-black leading-loose">
+                      <FormattedText content={b.si} language="si" />
+                    </div>
                   ))}
                 </div>
               </div>

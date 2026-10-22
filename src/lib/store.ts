@@ -13,6 +13,7 @@ import {
   AppLanguage,
   LanguageMode,
   ColorMode,
+  StudyIntent,
 } from '@/types/store';
 import { computeHeartRecharge, computeDailyStreak, MAX_HEARTS } from '@/lib/heartMath';
 import { LESSON_01_DATA } from '@/data/lesson01Data';
@@ -20,21 +21,30 @@ import { ALL_LESSONS_DATA } from '@/data/allLessonsData';
 import { PAST_PAPER_QUESTIONS } from '@/data/pastPapersData';
 import { getNextNodeId } from '@/data/levelNodes';
 
+import { sound } from '@/utils/soundEffects';
+
 const STORE_STORAGE_KEY = 'ict_ol_game_store_v1';
 const LEGACY_STORAGE_KEY = 'ict_ol_progress_v2';
 
 const defaultInitialState: AppState = {
   grade: '10',
+  activeGrade: '10',
   language: 'en',
   colorMode: 'light',
   onboardingCompleted: false,
   isSidebarCollapsed: false,
+  isMobileDrawerOpen: false,
+  isAudioMuted: false,
+  studyIntent: 'journey',
+  isDataSaver: false,
+  fontSizeZoom: 100,
 
   hearts: 5,
   lastHeartLossTime: null,
   nextHeartRechargeInSeconds: 0,
 
   streak: 3,
+  streakShields: 2,
   lastStudyDate: new Date().toISOString().split('T')[0],
   xp: 150,
   activeNodeId: 'g10-u1-s1',
@@ -48,6 +58,9 @@ const defaultInitialState: AppState = {
   },
   unlockedUnits: ['g10-u1', 'g11-u1'],
   badges: [],
+  completedParts: {},
+  bookmarks: [],
+  mistakeVault: [],
 
   // Legacy fields
   completedBlocks: ['b1-1'],
@@ -71,8 +84,9 @@ const defaultInitialState: AppState = {
 
 export const useGameStore = create<GameStore>()(
   persist(
-    (set, get) => ({
-      ...defaultInitialState,
+    (set, get, api) => {
+      const storeState: GameStore = {
+        ...defaultInitialState,
 
       // === Profile Actions ===
       setGrade: (grade: GradeLevel) => {
@@ -85,8 +99,45 @@ export const useGameStore = create<GameStore>()(
 
           return {
             grade,
+            activeGrade: grade,
             userGrade: grade,
             activeNodeId: isNodeFromOtherGrade ? defaultNode : currentActive,
+          };
+        });
+      },
+
+      setActiveGrade: (grade: GradeLevel) => {
+        get().setGrade(grade);
+      },
+
+      setStudyIntent: (intent: StudyIntent) => {
+        set({ studyIntent: intent });
+      },
+
+      markPartComplete: (unitId: string, part: number | string) => {
+        set((state) => {
+          const key = `${unitId}-part-${part}`;
+          const altKey = `${unitId}-p${part}`;
+          // Prevent duplicate XP exploit if already marked complete
+          if (state.completedParts?.[key] || state.completedParts?.[altKey]) {
+            return state;
+          }
+          const updated = {
+            ...state.completedParts,
+            [key]: true,
+            [altKey]: true,
+          };
+          try {
+            if (typeof localStorage !== 'undefined') {
+              localStorage.setItem('ict_completed_parts', JSON.stringify(updated));
+            }
+          } catch {
+            // ignore
+          }
+          return {
+            completedParts: updated,
+            xp: state.xp + 25,
+            points: (state.points || state.xp) + 25,
           };
         });
       },
@@ -117,18 +168,64 @@ export const useGameStore = create<GameStore>()(
         }));
       },
 
+      setColorMode: (mode: ColorMode) => {
+        if (typeof document !== 'undefined') {
+          document.documentElement.classList.remove('dark', 'amber');
+          if (mode === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else if (mode === 'amber') {
+            document.documentElement.classList.add('dark', 'amber');
+          }
+        }
+        set({ colorMode: mode });
+      },
+
       toggleColorMode: () => {
         set((state) => {
-          const nextMode: ColorMode = state.colorMode === 'light' ? 'dark' : 'light';
+          let nextMode: ColorMode = 'dark';
+          if (state.colorMode === 'light') nextMode = 'dark';
+          else if (state.colorMode === 'dark') nextMode = 'amber';
+          else nextMode = 'light';
+
           if (typeof document !== 'undefined') {
+            document.documentElement.classList.remove('dark', 'amber');
             if (nextMode === 'dark') {
               document.documentElement.classList.add('dark');
-            } else {
-              document.documentElement.classList.remove('dark');
+            } else if (nextMode === 'amber') {
+              document.documentElement.classList.add('dark', 'amber');
             }
           }
           return { colorMode: nextMode };
         });
+      },
+
+      setDataSaver: (enabled: boolean) => {
+        if (typeof document !== 'undefined') {
+          if (enabled) {
+            document.documentElement.classList.add('data-saver');
+          } else {
+            document.documentElement.classList.remove('data-saver');
+          }
+        }
+        set({ isDataSaver: enabled });
+      },
+
+      toggleDataSaver: () => {
+        set((state) => {
+          const next = !state.isDataSaver;
+          if (typeof document !== 'undefined') {
+            if (next) {
+              document.documentElement.classList.add('data-saver');
+            } else {
+              document.documentElement.classList.remove('data-saver');
+            }
+          }
+          return { isDataSaver: next };
+        });
+      },
+
+      setFontSizeZoom: (zoom: number) => {
+        set({ fontSizeZoom: zoom });
       },
 
       setOnboardingCompleted: (completed: boolean) => {
@@ -151,6 +248,38 @@ export const useGameStore = create<GameStore>()(
 
       toggleSidebarCollapsed: () => {
         get().setSidebarCollapsed((prev) => !prev);
+      },
+
+      setMobileDrawerOpen: (open: boolean) => {
+        set({ isMobileDrawerOpen: open });
+      },
+
+      toggleMobileDrawer: () => {
+        set((state) => ({ isMobileDrawerOpen: !state.isMobileDrawerOpen }));
+      },
+
+      setAudioMuted: (muted: boolean) => {
+        sound.setMuted(muted);
+        set({ isAudioMuted: muted });
+      },
+
+      setIsAudioMuted: (muted: boolean) => {
+        get().setAudioMuted(muted);
+      },
+
+      toggleAudioMuted: () => {
+        set((state) => {
+          const nextMuted = !state.isAudioMuted;
+          sound.setMuted(nextMuted);
+          if (!nextMuted) {
+            sound.playClick(800);
+          }
+          return { isAudioMuted: nextMuted };
+        });
+      },
+
+      toggleAudioMute: () => {
+        get().toggleAudioMuted();
       },
 
       // === Heart Economy Actions ===
@@ -224,7 +353,7 @@ export const useGameStore = create<GameStore>()(
         set({ activeNodeId: nodeId });
       },
 
-      completeNode: (nodeId: string, accuracy: number) => {
+      completeNode: (nodeId: string, accuracy: number = 100) => {
         const state = get();
         const currentStars = state.completedNodes[nodeId]?.stars || 0;
         let earnedStars = 0;
@@ -309,10 +438,16 @@ export const useGameStore = create<GameStore>()(
       recordStudySession: (nodeId?: string) => {
         const state = get();
         const today = new Date().toISOString().split('T')[0];
-        const { newStreak, newStudyDate } = computeDailyStreak(state.streak, state.lastStudyDate, today);
+        const { newStreak, newStudyDate, shieldsRemaining } = computeDailyStreak(
+          state.streak,
+          state.lastStudyDate,
+          today,
+          state.streakShields ?? 2
+        );
 
         const updates: Partial<AppState> = {
           streak: newStreak,
+          streakShields: shieldsRemaining,
           lastStudyDate: newStudyDate,
         };
 
@@ -327,6 +462,43 @@ export const useGameStore = create<GameStore>()(
         }
 
         set(updates);
+      },
+
+      useStreakShield: () => {
+        const state = get();
+        if ((state.streakShields ?? 0) > 0) {
+          set({ streakShields: (state.streakShields ?? 0) - 1 });
+          return true;
+        }
+        return false;
+      },
+
+      addStreakShield: (count: number = 1) => {
+        set((state) => ({ streakShields: (state.streakShields ?? 0) + count }));
+      },
+
+      toggleBookmark: (id: string) => {
+        set((state) => {
+          const current = state.bookmarks || [];
+          const exists = current.includes(id);
+          return {
+            bookmarks: exists ? current.filter((b) => b !== id) : [...current, id],
+          };
+        });
+      },
+
+      addToMistakeVault: (questionId: string) => {
+        set((state) => {
+          const current = state.mistakeVault || [];
+          if (current.includes(questionId)) return state;
+          return { mistakeVault: [...current, questionId] };
+        });
+      },
+
+      removeFromMistakeVault: (questionId: string) => {
+        set((state) => ({
+          mistakeVault: (state.mistakeVault || []).filter((id) => id !== questionId),
+        }));
       },
 
       // === Legacy Backwards Compatibility Actions ===
@@ -407,6 +579,7 @@ export const useGameStore = create<GameStore>()(
         if (typeof localStorage !== 'undefined') {
           localStorage.removeItem(STORE_STORAGE_KEY);
           localStorage.removeItem(LEGACY_STORAGE_KEY);
+          localStorage.removeItem('ict_completed_parts');
         }
       },
 
@@ -441,8 +614,17 @@ export const useGameStore = create<GameStore>()(
         const score = Math.round((readRatio * 0.5 + quizRatio * 0.5) * 100);
         return Math.min(100, Math.max(0, score));
       },
-    }),
-    {
+    };
+
+    if (api && typeof api.subscribe === 'function') {
+      api.subscribe((next) => {
+        Object.assign(storeState, next);
+      });
+    }
+
+    return storeState;
+  },
+  {
       name: STORE_STORAGE_KEY,
       storage: createJSONStorage(() => {
         if (typeof window !== 'undefined') {
@@ -467,8 +649,49 @@ export const useGameStore = create<GameStore>()(
               document.documentElement.classList.remove('dark');
             }
           }
+
+          // Ensure mobile drawer is closed on load
+          state.isMobileDrawerOpen = false;
+
+          // Sync activeGrade with grade if needed
+          if (!state.activeGrade) {
+            state.activeGrade = state.grade || '10';
+          }
+
+          // Restore completedParts from localStorage backup if empty
+          if (typeof localStorage !== 'undefined') {
+            try {
+              const cached = localStorage.getItem('ict_completed_parts');
+              if (cached) {
+                const parsed = JSON.parse(cached);
+                state.completedParts = {
+                  ...state.completedParts,
+                  ...parsed,
+                };
+              }
+            } catch {
+              // ignore
+            }
+          }
+
+          // Sync sound mute state on rehydrate
+          if (typeof state.isAudioMuted === 'boolean') {
+            sound.setMuted(state.isAudioMuted);
+          }
         }
       },
     }
   )
 );
+
+// Subscribe sound engine to useGameStore isAudioMuted changes
+useGameStore.subscribe((state) => {
+  if (typeof state.isAudioMuted === 'boolean') {
+    sound.setMuted(state.isAudioMuted);
+  }
+});
+
+// Initialize sound engine mute state from current store state
+if (typeof useGameStore.getState().isAudioMuted === 'boolean') {
+  sound.setMuted(useGameStore.getState().isAudioMuted);
+}

@@ -1,0 +1,2358 @@
+[
+  {
+    "id": "g10-u2-q1",
+    "lessonId": "g10-u2",
+    "questionNumber": 1,
+    "promptEn": "What is the fundamental technical definition of a 'Computer' in ICT?",
+    "promptSi": "තොරතුරු හා සන්නිවේදන තාක්ෂණයේදී 'පරිගණකය' (Computer) යන්නෙහි මූලික තාක්ෂණික අර්ථ දැක්වීම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A mechanical calculator that solves equations",
+        "si": "සමීකරණ විසඳන යාන්ත්‍රික ගණකයක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "An electronic device that inputs, processes, stores data, and outputs information",
+        "si": "දත්ත ආදානය කර, සකසා, ආචයනය කර තොරතුරු ප්‍රතිදානය කරන ඉලෙක්ට්‍රොනික උපාංගයක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A display screen connected to an electrical network",
+        "si": "විදුලි ජාලයකට සම්බන්ධ කළ දර්ශන තිරයක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "An automated device that only performs arithmetic calculations",
+        "si": "අංක ගණිතමය ගණනය කිරීම් පමණක් සිදු කරන ස්වයංක්‍රීය උපාංගයක්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A computer is an electronic device that accepts raw data as input, processes it according to stored instructions, stores data and results, and produces desired meaningful information as output.",
+    "explanationSi": "පරිගණකය යනු දත්ත ආදානය කරගෙන, ගබඩා කර ඇති උපදෙස් අනුව ඒවා සකස් කර, දත්ත හා ප්‍රතිඵල ගබඩා කරමින් අවශ්‍ය තොරතුරු ප්‍රතිදානය කරන ඉලෙක්ට්‍රොනික උපාංගයකි.",
+    "syllabusRef": "G10-U2.1"
+  },
+  {
+    "id": "g10-u2-q2",
+    "lessonId": "g10-u2",
+    "questionNumber": 2,
+    "promptEn": "What are the four fundamental functions performed by any computer system?",
+    "promptSi": "ඕනෑම පරිගණක පද්ධතියක් මඟින් ඉටු කරනු ලබන මූලික කාර්යයන් 4 කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Typing, Printing, Scanning, Displaying",
+        "si": "යතුරු ලියනය, මුද්‍රණය, ස්කෑන් කිරීම, දර්ශනය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Input, Processing, Storage, Output",
+        "si": "ආදානය, සැකසීම, ආචයනය, ප්‍රතිදානය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Fetching, Decoding, Compiling, Running",
+        "si": "ලබා ගැනීම, විකේතනය, සම්පාදනය, ධාවනය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Calculating, Graphing, Networking, Browsing",
+        "si": "ගණනය, ප්‍රස්තාරගත කිරීම, ජාලකරණය, ගවේෂණය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Every computer system executes four core functions: 1. Input (accepting data), 2. Processing (manipulating data via CPU), 3. Storage (holding data in memory/disk), 4. Output (delivering results).",
+    "explanationSi": "පරිගණක පද්ධතියක මූලික කාර්යයන් 4 කි: 1. ආදානය (දත්ත ලබා ගැනීම), 2. සැකසීම (CPU මඟින් සකස් කිරීම), 3. ආචයනය (දත්ත සුරැකීම), 4. ප්‍රතිදානය (තොරතුරු ලබා දීම).",
+    "syllabusRef": "G10-U2.2"
+  },
+  {
+    "id": "g10-u2-q3",
+    "lessonId": "g10-u2",
+    "questionNumber": 3,
+    "promptEn": "Which characteristic of a computer highlights its ability to execute millions of instructions in fractions of a second?",
+    "promptSi": "තත්පරයකින් ඉතා සුළු කොටසකදී උපදෙස් මිලියන ගණනක් ක්‍රියාත්මක කිරීමට පරිගණකයට ඇති හැකියාව විස්තර කරන ලක්ෂණය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Versatility",
+        "si": "බහුකාර්ය බව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Accuracy",
+        "si": "නිරවද්‍යතාව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Speed",
+        "si": "වේගය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Diligence",
+        "si": "නොපසුබට බව"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Speed refers to the computer's capability to carry out complex operations in microsecond, nanosecond, or picosecond timeframes, processing millions of instructions per second (MIPS).",
+    "explanationSi": "වේගය (Speed) මඟින් අදහස් වන්නේ මයික්‍රෝතත්පර, නැනෝතත්පර වැනි ඉතා කෙටි කාලයකදී මිලියන ගණනක් උපදෙස් සැකසීමේ හැකියාවයි.",
+    "syllabusRef": "G10-U2.3"
+  },
+  {
+    "id": "g10-u2-q4",
+    "lessonId": "g10-u2",
+    "questionNumber": 4,
+    "promptEn": "What does the concept 'Garbage In, Garbage Out' (GIGO) state regarding computer accuracy?",
+    "promptSi": "පරිගණකයේ නිරවද්‍යතාව සම්බන්ධයෙන් 'Garbage In, Garbage Out' (GIGO) සංකල්පයෙන් ප්‍රකාශ වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Computers inevitably produce errors over time due to wear",
+        "si": "කාලයත් සමඟ පරිගණක නිතැතින්ම දෝෂ නිපදවයි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "If invalid or incorrect data is input, the resulting output will also be incorrect",
+        "si": "වැරදි දත්ත ආදානය කළහොත් ලැබෙන ප්‍රතිදානය ද වැරදි වේ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Deleted files can always be recovered from the recycle bin",
+        "si": "මකා දැමූ ගොනු සෑමවිටම ප්‍රතිචක්‍රීකරණ බඳුනෙන් ලබා ගත හැක"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Processing speed decreases as memory fills up",
+        "si": "මතකය පිරී යන විට සැකසුම් වේගය අඩු වේ"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "GIGO states that the accuracy of a computer's output depends directly on the accuracy of the input data and program instructions supplied to it.",
+    "explanationSi": "GIGO මගින් කියවෙන්නේ පරිගණකයට ලබා දෙන දත්ත හෝ උපදෙස් වැරදි නම්, පරිගණකය මගින් ලබා දෙන ප්‍රතිදානය ද අනිවාර්යයෙන්ම වැරදි වන බවයි.",
+    "syllabusRef": "G10-U2.4"
+  },
+  {
+    "id": "g10-u2-q5",
+    "lessonId": "g10-u2",
+    "questionNumber": 5,
+    "promptEn": "Which characteristic describes a computer's ability to operate continuously 24 hours a day without fatigue or loss of concentration?",
+    "promptSi": "වෙහෙසක් හෝ එකඟතාව බිඳවැටීමකින් තොරව දවසේ පැය 24 පුරාම අඛණ්ඩව එකම ආකාරයට ක්‍රියා කිරීමේ පරිගණක ලක්ෂණය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Diligence",
+        "si": "Efficiency (නොපසුබට බව / කාර්යක්ෂමතාව)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Versatility (බහුකාර්ය බව)",
+        "si": "Versatility (බහුකාර්ය බව)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Volatility (තාවකාලික බව)",
+        "si": "Volatility (තාවකාලික බව)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Portability (පහසුවෙන් ගෙන යා හැකි බව)",
+        "si": "Portability (පහසුවෙන් ගෙන යා හැකි බව)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Diligence (or Efficiency) means that computers do not experience tiredness, boredom, or distraction, enabling continuous, highly reliable processing.",
+    "explanationSi": "නොපසුබට බව / කාර්යක්ෂමතාව (Diligence / Efficiency) යනු මිනිසා මෙන් විඩාවට හෝ කම්මැලිකමට පත් නොවී එකම නිරවද්‍යතාවයෙන් අඛණ්ඩව ක්‍රියා කිරීමේ හැකියාවයි.",
+    "syllabusRef": "G10-U2.5"
+  },
+  {
+    "id": "g10-u2-q6",
+    "lessonId": "g10-u2",
+    "questionNumber": 6,
+    "promptEn": "What is meant by the 'Versatility' of a computer?",
+    "promptSi": "පරිගණකයක 'බහුකාර්ය බව' (Versatility) යන්නෙන් අදහස් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Ability to store data permanently on magnetic tape",
+        "si": "චුම්බක පටවල දත්ත ස්ථිරව ගබඩා කිරීමේ හැකියාව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Ability to be utilized across completely different application domains by running different software",
+        "si": "විවිධ මෘදුකාංග යොදා ගනිමින් හාත්පසින්ම වෙනස් ක්ෂේත්‍රවල කාර්යයන් සඳහා යොදා ගත හැකි වීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Ability to function without electrical power",
+        "si": "විදුලි බලය නොමැතිව ක්‍රියා කිරීමේ හැකියාව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Ability to increase CPU speed automatically",
+        "si": "CPU වේගය ස්වයංක්‍රීයව වැඩි කර ගැනීමේ හැකියාව"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Versatility refers to the computer's capacity to perform completely diverse tasks — from word processing and accounting to digital graphic design and automated factory control.",
+    "explanationSi": "බහුකාර්ය බව (Versatility) යනු එකම පරිගණක පද්ධතියක් මඟින් විවිධ මෘදුකාංග භාවිතයෙන් හාත්පසින්ම වෙනස් ක්ෂේත්‍ර රැසක කාර්යයන් ඉටු කිරීමේ හැකියාවයි.",
+    "syllabusRef": "G10-U2.6"
+  },
+  {
+    "id": "g10-u2-q7",
+    "lessonId": "g10-u2",
+    "questionNumber": 7,
+    "promptEn": "What revolutionary concept did John von Neumann introduce in his 1945 computer architecture?",
+    "promptSi": "1945 දී ජෝන් වොන් නියුමන් විසින් හඳුන්වා දුන් විප්ලවීය පරිගණක ආකෘති සංකල්පය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Graphical User Interface concept",
+        "si": "චිත්‍රක පරිශීලක අතුරුමුහුණත් සංකල්පය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Stored-Program concept (storing program instructions and data together in primary memory)",
+        "si": "ගබඩා කළ වැඩසටහන් සංකල්පය (දත්ත සහ උපදෙස් එකම ප්‍රධාන මතකයේ තැන්පත් කිරීම)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Microprocessor miniaturization",
+        "si": "ක්ෂුද්‍ර සකසන කුඩා කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Optical data communication",
+        "si": "ප්‍රකාශ දත්ත සන්නිවේදනය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Von Neumann architecture introduced the 'Stored-Program Concept', where both program instructions and working data reside together in the computer's primary memory.",
+    "explanationSi": "ජෝන් වොන් නියුමන් ආකෘතිය මඟින් වැඩසටහන් උපදෙස් සහ දත්ත යන දෙකම එකම ප්‍රධාන මතකය තුළ රඳවා ගැනීමේ 'ගබඩා කළ වැඩසටහන් සංකල්පය' (Stored-Program Concept) හඳුන්වා දෙන ලදී.",
+    "syllabusRef": "G10-U2.7"
+  },
+  {
+    "id": "g10-u2-q8",
+    "lessonId": "g10-u2",
+    "questionNumber": 8,
+    "promptEn": "In the standard Von Neumann architecture diagram, what do the dotted lines (- - ->) and solid lines (───>) represent respectively?",
+    "promptSi": "සම්මත වොන් නියුමන් ආකෘති සටහනේ කැඩුණු ඉරි (- - ->) සහ තනි ඉරි (───>) මඟින් පිළිවෙළින් නිරූපණය වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Power lines and Clock cycles",
+        "si": "විදුලි රැහැන් සහ ඔරලෝසු චක්‍ර"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Data",
+        "si": "Instructions flow and Control signals flow / දත්ත / උපදෙස් ගැලීම සහ පාලන සංඥා ගැලීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Optical links and Cable connections",
+        "si": "ප්‍රකාශ සබඳතා සහ කේබල් සබඳතා"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Primary memory and Secondary storage",
+        "si": "ප්‍රධාන මතකය සහ ද්විතීයික ආචයනය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In the syllabus diagram (Figure 2.10), dotted lines indicate the flow of Data and Instructions, while solid lines indicate Control Signals issued by the Control Unit (CU).",
+    "explanationSi": "නිල විෂය නිර්දේශ රූප සටහනේ කැඩුණු ඉරෙන් දත්ත සහ උපදෙස් ගැලීම ද, තනි ඉරෙන් පාලන ඒකකය (CU) මඟින් නිකුත් කරන පාලන සංඥා ද නිරූපණය වේ.",
+    "syllabusRef": "G10-U2.8"
+  },
+  {
+    "id": "g10-u2-q9",
+    "lessonId": "g10-u2",
+    "questionNumber": 9,
+    "promptEn": "Which component is universally recognized as the 'Brain of the Computer'?",
+    "promptSi": "'පරිගණකයේ මොළය' ලෙස විශ්වීයව හඳුන්වනු ලබන සංරචකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Primary Memory (RAM)",
+        "si": "ප්‍රධාන මතකය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Central Processing Unit (CPU)",
+        "si": "මධ්‍ය සැකසුම් ඒකකය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Motherboard",
+        "si": "මව් පුවරුව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hard Disk Drive",
+        "si": "දෘඩ තැටිය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Central Processing Unit (CPU) is known as the brain of the computer because it interprets, coordinates, and executes all program commands and manages hardware operations.",
+    "explanationSi": "පරිගණකයේ මොළය ලෙස හඳුන්වන්නේ මධ්‍ය සැකසුම් ඒකකයයි (CPU). එය සියලු විධාන විකේතනය කරමින්, ක්‍රියාත්මක කරමින් පද්ධතියේ ක්‍රියාකාරීත්වය පාලනය කරයි.",
+    "syllabusRef": "G10-U2.9"
+  },
+  {
+    "id": "g10-u2-q10",
+    "lessonId": "g10-u2",
+    "questionNumber": 10,
+    "promptEn": "Which unit inside the CPU performs mathematical operations (addition, subtraction) and logical comparisons?",
+    "promptSi": "CPU අභ්‍යන්තරයේ ගණිතමය ගණනය කිරීම් සහ තාර්කික සංසන්දනයන් සිදු කරන ඒකකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Control Unit (CU)",
+        "si": "පාලන ඒකකය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Arithmetic and Logic Unit (ALU)",
+        "si": "අංක ගණිතමය හා තාර්කික ඒකකය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Memory Address Register (MAR)",
+        "si": "මතක ලිපින රෙජිස්තරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "System Clock",
+        "si": "පද්ධති ඔරලෝසුව"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Arithmetic and Logic Unit (ALU) performs all arithmetic operations (+, -, *, /) and relational/logical comparisons (, =, AND, OR, NOT).",
+    "explanationSi": "අංක ගණිතමය හා තාර්කික ඒකකය (ALU) මඟින් සියලුම ආකාරයේ ගණිතමය ක්‍රියා (+, -, *, /) සහ තාර්කික සංසන්දනයන් සිදු කරයි.",
+    "syllabusRef": "G10-U2.10"
+  },
+  {
+    "id": "g10-u2-q11",
+    "lessonId": "g10-u2",
+    "questionNumber": 11,
+    "promptEn": "What is the primary operational role of the Control Unit (CU) in the CPU?",
+    "promptSi": "CPU හි පාලන ඒකකයේ (CU) ප්‍රධාන මෙහෙයුම් කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Storing operating system files permanently",
+        "si": "මෙහෙයුම් පද්ධති ගොනු ස්ථිරව ගබඩා කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Performing complex algebraic division",
+        "si": "සංකීර්ණ වීජ ගණිතමය බෙදීම් සිදු කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Fetching, decoding instructions, and sending control signals to hardware units",
+        "si": "උපදෙස් ලබාගෙන විකේතනය කර දෘඩාංග උපාංග වෙත පාලන සංඥා නිකුත් කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Converting digital numbers to analog waves",
+        "si": "සංඛ්‍යාංක අගයන් ප්‍රතිසම තරංග බවට පත් කිරීම"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "The Control Unit (CU) manages and coordinates all computer operations: it fetches instructions from memory, decodes them, and dispatches timing/control signals to all connected components.",
+    "explanationSi": "පාලන ඒකකය (CU) මගින් මතකයෙන් උපදෙස් ලබා ගනී (Fetch), විකේතනය කරයි (Decode), සහ සියලුම උපාංග වෙත නිවැරදි පාලන සංඥා නිකුත් කරමින් ඒවා මෙහෙයවයි.",
+    "syllabusRef": "G10-U2.11"
+  },
+  {
+    "id": "g10-u2-q12",
+    "lessonId": "g10-u2",
+    "questionNumber": 12,
+    "promptEn": "Which CPU register holds the memory address of the NEXT instruction to be fetched from RAM?",
+    "promptSi": "RAM මතකයෙන් මීළඟට ලබා ගත යුතු උපදෙසෙහි මතක ලිපිනය තබා ගන්නා CPU රෙජිස්තරය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Accumulator (ACC)",
+        "si": "ඇකියුමිලේටරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Instruction Register (IR)",
+        "si": "උපදෙස් රෙජිස්තරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Program Counter (PC)",
+        "si": "ක්‍රමලේඛ ගණකය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Memory Data Register (MDR)",
+        "si": "මතක දත්ත රෙජිස්තරය"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "The Program Counter (PC) register continuously stores the RAM address of the upcoming instruction to be fetched. After fetching, it automatically increments.",
+    "explanationSi": "ක්‍රමලේඛ ගණකය (Program Counter - PC) මඟින් මීළඟට ක්‍රියාත්මක කිරීමට ඇති උපදෙසෙහි මතක ලිපිනය රඳවා ගනී.",
+    "syllabusRef": "G10-U2.12"
+  },
+  {
+    "id": "g10-u2-q13",
+    "lessonId": "g10-u2",
+    "questionNumber": 13,
+    "promptEn": "Which internal CPU register temporarily holds the immediate intermediate result produced by ALU calculations?",
+    "promptSi": "ALU මඟින් සිදු කරන ගණනය කිරීම්වලින් ලැබෙන ක්ෂණික තාවකාලික ප්‍රතිඵලය තබා ගන්නා CPU රෙජිස්තරය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Accumulator (ACC)",
+        "si": "ඇකියුමිලේටරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Program Counter (PC)",
+        "si": "ක්‍රමලේඛ ගණකය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Memory Address Register (MAR)",
+        "si": "මතක ලිපින රෙජිස්තරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Index Register",
+        "si": "දර්ශක රෙජිස්තරය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "The Accumulator (ACC) is a dedicated CPU register that holds intermediate mathematical and logical results generated during ALU computations.",
+    "explanationSi": "ඇකියුමිලේටරය (Accumulator - ACC) යනු ALU මඟින් සිදු කරන ගණිතමය හා තාර්කික මෙහෙයුම්වලින් ලැබෙන ප්‍රතිඵල තාවකාලිකව තබා ගන්නා රෙජිස්තරයයි.",
+    "syllabusRef": "G10-U2.13"
+  },
+  {
+    "id": "g10-u2-q14",
+    "lessonId": "g10-u2",
+    "questionNumber": 14,
+    "promptEn": "What units are used to measure the clock speed of a modern Central Processing Unit (CPU)?",
+    "promptSi": "නූතන මධ්‍ය සැකසුම් ඒකකයක (CPU) ඔරලෝසු වේගය මැනීමට භාවිත වන ඒකක මොනවාද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Bytes (B) and Bits (b)",
+        "si": "බයිට සහ බිටු"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Hertz (Hz), Megahertz (MHz), and Gigahertz (GHz)",
+        "si": "හර්ට්ස්, මෙගාහර්ට්ස් සහ ගිගාහර්ට්ස්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Revolutions Per Minute (RPM)",
+        "si": "මිනිත්තුවට වට ප්‍රමාණය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Dots Per Inch (DPI)",
+        "si": "අඟලකට තිත් ගණන"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "CPU clock speed is measured in Hertz (Hz), representing cycles per second. Common contemporary units are Megahertz ($10^6\\text{ Hz}$) and Gigahertz ($10^9\\text{ Hz}$).",
+    "explanationSi": "CPU ඔරලෝසු වේගය මනිනු ලබන්නේ හර්ට්ස් (Hz) ඒකකයෙනි. නූතන පරිගණකවල මෙගාහර්ට්ස් (MHz) හෝ ගිගාහර්ට්ස් (GHz) ඒකක භාවිත වේ.",
+    "syllabusRef": "G10-U2.14"
+  },
+  {
+    "id": "g10-u2-q15",
+    "lessonId": "g10-u2",
+    "questionNumber": 15,
+    "promptEn": "What is the correct 4-step execution sequence of the CPU Machine / Instruction Cycle?",
+    "promptSi": "CPU යන්ත්‍ර චක්‍රයේ (Machine Cycle) නිවැරදි පියවර 4 අනුපිළිවෙල කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Decode -> Fetch -> Execute -> Store",
+        "si": "විකේතනය -> ලබා ගැනීම -> ක්‍රියාත්මක කිරීම -> තැන්පත් කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Fetch -> Decode -> Execute -> Store",
+        "si": "ලබා ගැනීම -> විකේතනය කිරීම -> ක්‍රියාත්මක කිරීම -> තැන්පත් කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Execute -> Fetch -> Store -> Decode",
+        "si": "ක්‍රියාත්මක කිරීම -> ලබා ගැනීම -> තැන්පත් කිරීම -> විකේතනය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Fetch -> Execute -> Decode -> Store",
+        "si": "ලබා ගැනීම -> ක්‍රියාත්මක කිරීම -> විකේතනය -> තැන්පත් කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Every instruction undergoes 4 consecutive steps: 1. Fetch (from memory), 2. Decode (by CU), 3. Execute (by ALU/CU), 4. Store (result to register/memory).",
+    "explanationSi": "යන්ත්‍ර චක්‍රයේ පියවර 4 කි: 1. ලබා ගැනීම (Fetch), 2. විකේතනය කිරීම (Decode), 3. ක්‍රියාත්මක කිරීම (Execute), 4. තැන්පත් කිරීම (Store).",
+    "syllabusRef": "G10-U2.15"
+  },
+  {
+    "id": "g10-u2-q16",
+    "lessonId": "g10-u2",
+    "questionNumber": 16,
+    "promptEn": "What is the primary function of Cache Memory located between the CPU and Primary Memory?",
+    "promptSi": "CPU සහ ප්‍රධාන මතකය අතර පිහිටා ඇති වාරික / නිහිත මතකයේ (Cache Memory) ප්‍රධාන කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Permanently storing files when the computer shuts down",
+        "si": "පරිගණකය ක්‍රියාවිරහිත වූ විට ගොනු ස්ථිරව සුරැකීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Storing frequently used data to speed up CPU access and bridge the speed gap",
+        "si": "නිතර භාවිත වන දත්ත රඳවා ගනිමින් ප්‍රවේශ වේගය වැඩි කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Translating English program code into machine code",
+        "si": "ඉංග්‍රීසි කේතයන් යන්ත්‍ර කේත බවට පරිවර්තනය කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Providing wireless network connectivity",
+        "si": "රැහැන් රහිත ජාල සම්බන්ධතාව ලබා දීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Cache memory is high-speed volatile SRAM acting as an intermediary between the ultra-fast CPU and slower RAM, storing copies of frequently accessed instructions to minimize idle wait states.",
+    "explanationSi": "වාරික මතකය (Cache Memory) යනු වේගවත් CPU සහ මන්දගාමී RAM අතර අතරමැදියා ලෙස නිතර භාවිත වන දත්ත රඳවා ගනිමින් CPU සැකසුම් වේගය ඉහළ නංවන අතිශය වේගවත් මතකයකි.",
+    "syllabusRef": "G10-U2.16"
+  },
+  {
+    "id": "g10-u2-q17",
+    "lessonId": "g10-u2",
+    "questionNumber": 17,
+    "promptEn": "Which classification of computers represents the physically largest, most expensive, and most powerful machines used by organizations like NASA for weather modeling and astrophysics?",
+    "promptSi": "නාසා (NASA) වැනි ආයතන මඟින් කාලගුණ අනාවැකි සහ තාරකා විද්‍යාත්මක ගණනය කිරීම් සඳහා භාවිත කරන, ප්‍රමාණයෙන් විශාලතම සහ වඩාත්ම බලසම්පන්න පරිගණක කාණ්ඩය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Microcomputers",
+        "si": "ක්ෂුද්‍ර පරිගණක"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Minicomputers",
+        "si": "මධ්‍ය පරිගණක"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Supercomputers",
+        "si": "සුපිරි පරිගණක"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Mainframe Computers",
+        "si": "මහා පරිගණක"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Supercomputers are the fastest and most expensive computers, capable of performing trillions of calculations per second for scientific simulations and military research.",
+    "explanationSi": "සුපිරි පරිගණක (Supercomputers) යනු විද්‍යාත්මක, ඉංජිනේරු සහ අභ්‍යවකාශ පර්යේෂණ සඳහා භාවිත වන, මිල අධික, ප්‍රමාණයෙන් විශාල, අතිශය බලසම්පන්න පරිගණක වේ.",
+    "syllabusRef": "G10-U2.17"
+  },
+  {
+    "id": "g10-u2-q18",
+    "lessonId": "g10-u2",
+    "questionNumber": 18,
+    "promptEn": "Which category of computers is specifically engineered to handle thousands of concurrent users and terminals simultaneously, commonly deployed in commercial bank transaction backbones?",
+    "promptSi": "පර්යන්ත (terminals) සහ පරිශීලකයින් දහස් ගණනක් එකවර සම්බන්ධ කරගනිමින් වාණිජ බැංකු ගනුදෙනු පද්ධති සඳහා බහුලව යොදාගන්නා පරිගණක වර්ගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Mainframe Computers",
+        "si": "මහා පරිගණක"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Personal Computers",
+        "si": "පුද්ගල පරිගණක"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Analog Computers",
+        "si": "ප්‍රතිසම පරිගණක"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Palmtop Computers",
+        "si": "අතේ ගෙන යා හැකි පරිගණක"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Mainframe computers support massive I/O throughput and hundreds to thousands of users/terminals at the same time, making them the standard for centralized banking and airline booking.",
+    "explanationSi": "මහා පරිගණක (Mainframes) මඟින් විශාල පරිශීලකයින් සංඛ්‍යාවක් සහ පර්යන්ත රැසක් සම්බන්ධ කර ගනිමින් මධ්‍යගත බැංකු හා ගුවන් ගමන් වෙන්කිරීමේ පද්ධති පවත්වාගෙන යයි.",
+    "syllabusRef": "G10-U2.18"
+  },
+  {
+    "id": "g10-u2-q19",
+    "lessonId": "g10-u2",
+    "questionNumber": 19,
+    "promptEn": "Computers that operate by identifying continuous physical phenomena such as voltage, pressure, and temperature are classified as:",
+    "promptSi": "වෝල්ටීයතාව, පීඩනය සහ උෂ්ණත්වය වැනි පරිසරයේ සිදුවන අඛණ්ඩ භෞතික විචල්‍යයන් හඳුනා ගනිමින් ක්‍රියා කරන පරිගණක අයත් වන්නේ කුමන වර්ගයටද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Digital Computers",
+        "si": "සංඛ්‍යාංක පරිගණක"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Analog Computers",
+        "si": "ප්‍රතිසම පරිගණක"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Supercomputers",
+        "si": "සුපිරි පරිගණක"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Microcomputers",
+        "si": "ක්ෂුද්‍ර පරිගණක"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Analog computers measure and calculate directly using continuous physical quantities (e.g., speedometers, mercury barometers, analog flight meters) without binary digitization.",
+    "explanationSi": "ප්‍රතිසම පරිගණක (Analog Computers) මඟින් පරිසරයේ සිදුවන අඛණ්ඩ භෞතික වෙනස්වීම් (වේගය, පීඩනය, උෂ්ණත්වය) හඳුනා ගනිමින් සෘජුවම ක්‍රියාත්මක වේ (උදා: වේගමාපක).",
+    "syllabusRef": "G10-U2.19"
+  },
+  {
+    "id": "g10-u2-q20",
+    "lessonId": "g10-u2",
+    "questionNumber": 20,
+    "promptEn": "An ECG (Electrocardiogram) machine in a hospital captures analog heart electrical rhythms, converts them to digital values, and prints diagnostic graphs. Under which category is it classified?",
+    "promptSi": "රෝහලක හෘදයේ ප්‍රතිසම විද්‍යුත් ස්පන්දන හඳුනාගෙන ඒවා සංඛ්‍යාංක අගයන් බවට හරවා ප්‍රස්ථාර මුද්‍රණය කරන ECG යන්ත්‍රය අයත් වන පරිගණක වර්ගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Pure Analog Computer",
+        "si": "තනි ප්‍රතිසම පරිගණක"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Pure Digital Computer",
+        "si": "තනි සංඛ්‍යාංක පරිගණක"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Hybrid Computer",
+        "si": "මිශ්‍ර පරිගණක"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Mainframe Computer",
+        "si": "මහා පරිගණක"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Hybrid computers combine features of both analog (continuous signal sensing) and digital (precision computation and storage) technologies, such as medical ECG machines and ICU monitors.",
+    "explanationSi": "මිශ්‍ර පරිගණක (Hybrid Computers) යනු ප්‍රතිසම සහ සංඛ්‍යාංක තාක්ෂණයන් දෙකෙහිම එකතුවකි. ECG යන්ත්‍රය ප්‍රතිසම හෘද සංඥා ලබාගෙන සංඛ්‍යාංක ලෙස සකසා මුද්‍රණය කරයි.",
+    "syllabusRef": "G10-U2.20"
+  },
+  {
+    "id": "g10-u2-q21",
+    "lessonId": "g10-u2",
+    "questionNumber": 21,
+    "promptEn": "Which system bus transmits signals in ONE direction only (unidirectional), specifically from the CPU to memory/devices?",
+    "promptSi": "CPU හි සිට මතකය හෝ උපාංග දෙසට පමණක් ඒක-දිශානතිකව (Unidirectional) සංඥා සම්ප්‍රේෂණය කරන පද්ධති බසය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Data Bus",
+        "si": "දත්ත බසය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Address Bus",
+        "si": "ලිපින බසය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Control Bus",
+        "si": "පාලන බසය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Expansion Bus",
+        "si": "ප්‍රසාරණ බසය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Address Bus is unidirectional; only the CPU places physical memory addresses onto it to specify which RAM cell or I/O port is targeted. The Data Bus and Control Bus are bidirectional.",
+    "explanationSi": "ලිපින බසය (Address Bus) ඒක-දිශානතික වේ. CPU මඟින් පමණක් නිශ්චිත මතක ස්ථානය පෙන්වා දීම සඳහා ලිපිනය නිකුත් කරනු ලබයි. දත්ත බසය ද්වි-දිශානතික වේ.",
+    "syllabusRef": "G10-U2.21"
+  },
+  {
+    "id": "g10-u2-q22",
+    "lessonId": "g10-u2",
+    "questionNumber": 22,
+    "promptEn": "What fundamental property distinguishes RAM (Random Access Memory) from ROM (Read Only Memory)?",
+    "promptSi": "RAM (සසම්භාවී පිවිසුම් මතකය) සහ ROM (පඨන මාත්‍ර මතකය) අතර ඇති මූලික වෙනස කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "RAM is non-volatile while ROM is volatile",
+        "si": "RAM නොමැකෙන මතකයක් වන අතර ROM මැකෙන මතකයකි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "RAM is volatile (loses data on power loss) and Read",
+        "si": "Write, while ROM is non-volatile and Read-Only / RAM විදුලිය විසන්ධි වූ විට මැකෙන කියවිය හැකි / ලිවිය හැකි මතකයක් වන අතර ROM නොමැකෙන පඨන මාත්‍ර මතකයකි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "RAM stores BIOS firmware permanently",
+        "si": "RAM මඟින් BIOS ස්ථීරාංගය ස්ථිරව රඳවා ගනී"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "ROM is faster than CPU Registers",
+        "si": "ROM මතකය CPU රෙජිස්ටර්වලට වඩා වේගවත් වේ"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "RAM is volatile read/write memory holding active software, losing all content when powered off. ROM is non-volatile read-only memory holding startup BIOS firmware permanently.",
+    "explanationSi": "RAM යනු විදුලිය විසන්ධි වූ විට දත්ත මැකී යන (Volatile) කියවීමට හා ලිවීමට හැකි මතකයකි. ROM යනු විදුලිය විසන්ධි වුවද දත්ත නොමැකෙන (Non-volatile) ස්ථිර පඨන මාත්‍ර මතකයකි.",
+    "syllabusRef": "G10-U2.22"
+  },
+  {
+    "id": "g10-u2-q23",
+    "lessonId": "g10-u2",
+    "questionNumber": 23,
+    "promptEn": "What critical startup instructions and diagnostic routines are permanently held in ROM?",
+    "promptSi": "පරිගණකය පණගැන්වීමේදී ක්‍රියාත්මක වන කුමන මූලික උපදෙස් සහ දෘඩාංග පරීක්ෂණ වැඩසටහන් ROM මතකයේ ස්ථිරව තැන්පත් කර තිබේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Web browser bookmarks",
+        "si": "වෙබ් ගවේෂක පිටු සලකුණු"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "BIOS (Basic Input",
+        "si": "Output System) and POST (Power-On Self-Test) / BIOS සහ POST පරීක්ෂණ වැඩසටහන"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Word processing template documents",
+        "si": "වචන සැකසුම් ආකෘති පත්‍ර"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Antivirus virus definition databases",
+        "si": "ප්‍රතිවෛරස් දත්ත සමුදායන්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "ROM permanently stores the BIOS firmware and POST routine, which verifies connected hardware (RAM, keyboard, drives) and loads the operating system when the PC is booted.",
+    "explanationSi": "ROM මතකයේ BIOS (Basic Input/Output System) සහ පරිගණකය දැමූ විගස දෘඩාංග පරීක්ෂා කරන POST (Power-On Self-Test) උපදෙස් ස්ථිරව ගබඩා කර ඇත.",
+    "syllabusRef": "G10-U2.23"
+  },
+  {
+    "id": "g10-u2-q24",
+    "lessonId": "g10-u2",
+    "questionNumber": 24,
+    "promptEn": "Which of the following computer ports carries BOTH high-definition digital video AND digital audio over a single cable?",
+    "promptSi": "තනි කේබලයක් හරහා අධි-විභේදන ඩිජිටල් වීඩියෝ සහ ශ්‍රව්‍ය (Audio) සංඥා යන දෙකම එකවර සම්ප්‍රේෂණය කරන පරිගණක කෙවෙනිය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "VGA Port (Video Graphics Array)",
+        "si": "VGA Port (Video Graphics Array)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "HDMI Port (High-Definition Multimedia Interface)",
+        "si": "HDMI Port (High-Definition Multimedia Interface)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "PS",
+        "si": "2 Port"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Parallel Port (LPT)",
+        "si": "Parallel Port (LPT)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "HDMI transmits uncompressed digital high-definition video AND multi-channel audio simultaneously. VGA only transmits analog video signals.",
+    "explanationSi": "HDMI කෙවෙනිය මඟින් ඩිජිටල් වීඩියෝ සහ ශ්‍රව්‍ය (Audio) සංඥා යන දෙකම තනි කේබලයකින් සම්ප්‍රේෂණය කරයි. VGA මඟින් සම්ප්‍රේෂණය කරන්නේ ප්‍රතිසම වීඩියෝ පමණි.",
+    "syllabusRef": "G10-U2.24"
+  },
+  {
+    "id": "g10-u2-q25",
+    "lessonId": "g10-u2",
+    "questionNumber": 25,
+    "promptEn": "What type of physical connector is an RJ-45 port used for on a computer?",
+    "promptSi": "පරිගණකයක ඇති RJ-45 කෙවෙනිය (Port) භාවිත වන්නේ කුමන සම්බන්ධතාවක් සඳහාද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Connecting external speakers and microphones",
+        "si": "බාහිර ස්පීකර සහ මයික්‍රෆෝන සම්බන්ධ කිරීමට"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Connecting to a Local Area Network (LAN) and Internet router via Ethernet cable",
+        "si": "ඊතර්නෙට් කේබලයක් මඟින් LAN ජාලයකට හෝ රවුටරයකට සම්බන්ධ වීමට"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Powering the CPU cooling fan",
+        "si": "CPU සිසිලන පංකාවට විදුලිය සැපයීමට"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Connecting legacy dot-matrix printers",
+        "si": "පැරණි තිත් න්‍යාස මුද්‍රක සම්බන්ධ කිරීමට"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The RJ-45 port is an 8-pin modular Ethernet network port used to connect computers to Local Area Networks (LAN) and Internet broadband modems/routers.",
+    "explanationSi": "RJ-45 කෙවෙනිය යනු ඊතර්නෙට් ජාල කේබල් මඟින් පරිගණකය දේශීය පරිගණක ජාලයකට (LAN) හෝ අන්තර්ජාල රවුටරයකට සම්බන්ධ කිරීම සඳහා භාවිත වන ජාල කෙවෙනියයි.",
+    "syllabusRef": "G10-U2.25"
+  },
+  {
+    "id": "g10-u2-q26",
+    "lessonId": "g10-u2",
+    "questionNumber": 26,
+    "promptEn": "A wholesale hardware merchant needs to issue an official printed invoice to a customer while simultaneously generating two duplicate carbon copies underneath for office records. Which printer must they purchase?",
+    "promptSi": "තොග වෙළෙන්දෙකුට පාරිභෝගිකයාට බිල්පතක් නිකුත් කරන අතරතුර ඊට යටින් කාබන් කොපි (Carbon copies) සහිත අනුපිටපත් 2ක් එකවර මුද්‍රණය කර ගැනීමට අවශ්‍ය වේ. ඔවුන් තෝරාගත යුත්තේ කුමන මුද්‍රකයද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Laser Printer",
+        "si": "ලේසර් මුද්‍රකය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Inkjet Printer",
+        "si": "තීන්ත විදුම් මුද්‍රකය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Dot Matrix Printer",
+        "si": "තිත් න්‍යාස මුද්‍රකය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Thermal Printer",
+        "si": "තාප මුද්‍රකය"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Only Impact printers like Dot Matrix printers exert physical striking pressure via pins to impact through carbon paper layers, producing multi-part duplicate forms simultaneously. Non-impact printers cannot produce carbon duplicates.",
+    "explanationSi": "භෞතිකව පීඩනයක් යොදමින් කාබන් කොපි සහිත අනුපිටපත් එකවර මුද්‍රණය කළ හැක්කේ ඝට්ටන මුද්‍රකයක් වන තිත් න්‍යාස (Dot Matrix) මුද්‍රකයට පමණි.",
+    "syllabusRef": "G10-U2.26"
+  },
+  {
+    "id": "g10-u2-q27",
+    "lessonId": "g10-u2",
+    "questionNumber": 27,
+    "promptEn": "At a supermarket cashier counter (POS), which printer technology is universally utilized for instant, quiet, and inkless receipt printing?",
+    "promptSi": "සුපිරි වෙළඳසැල් මුදල් අයකැමි කවුන්ටරවල (POS) ක්ෂණිකව, නිශ්ශබ්දව සහ තීන්ත රහිතව බිල්පත් මුද්‍රණය කිරීමට භාවිත වන තාක්ෂණය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Thermal Printer",
+        "si": "තාප මුද්‍රකය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Dot Matrix Printer",
+        "si": "තිත් න්‍යාස මුද්‍රකය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Plotter",
+        "si": "ලකුණුකරණය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Inkjet Printer",
+        "si": "තීන්ත විදුම් මුද්‍රකය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Thermal printers use heated pins to form images directly on thermo-sensitive chemical paper. They require no ink or ribbon, are completely silent, and print receipts instantly at POS counters and ATMs.",
+    "explanationSi": "තාප මුද්‍රක (Thermal printers) විශේෂ තාප සංවේදී කඩදාසි මත රත් වූ පින් මඟින් අකුරු මතු කරයි. තීන්ත හෝ රිබන් අවශ්‍ය නොවන අතර POS හා ATM කවුන්ටර සඳහා වඩාත් සුදුසු වේ.",
+    "syllabusRef": "G10-U2.27"
+  },
+  {
+    "id": "g10-u2-q28",
+    "lessonId": "g10-u2",
+    "questionNumber": 28,
+    "promptEn": "An architectural firm needs to produce massive, high-precision continuous vector blueprints ($A_0$ size) for a multi-story building. Which output device is most suitable?",
+    "promptSi": "ගෘහ නිර්මාණ ශිල්පී ආයතනයකට මහල් ගොඩනැගිල්ලක $A_0$ ප්‍රමාණයේ අතිවිශාල සහ නිවැරදි රේඛීය සැලසුම් (Blueprints) මුද්‍රණය කර ගැනීමට අවශ්‍ය වේ. මේ සඳහා වඩාත්ම උචිත ප්‍රතිදාන උපාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Dot Matrix Printer",
+        "si": "තිත් න්‍යාස මුද්‍රකය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Plotter",
+        "si": "ලකුණුකරණය (ප්ලෝටරය)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Multimedia Projector",
+        "si": "බහුමාධ්‍ය ප්‍රක්ෂේපකය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Flatbed Scanner",
+        "si": "සුපරීක්ෂකය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Plotter is a specialized vector device that uses automated mechanical ink pens or knives to draw high-precision, continuous engineering and architectural blueprints on large rolls of paper.",
+    "explanationSi": "ප්ලෝටරය (Plotter) යනු ගෘහ නිර්මාණ සහ ඉංජිනේරු සැලසුම් (Blueprints) විශාල ප්‍රමාණයේ කඩදාසි මත අතිශය නිරවද්‍ය අඛණ්ඩ රේඛා මඟින් ඇඳීම සඳහා යොදා ගන්නා විශේෂිත ප්‍රතිදාන උපාංගයකි.",
+    "syllabusRef": "G10-U2.28"
+  },
+  {
+    "id": "g10-u2-q29",
+    "lessonId": "g10-u2",
+    "questionNumber": 29,
+    "promptEn": "A school administrative office prints 10,000 pages of text examination papers each month at the fastest possible speed and lowest per-page operating cost. Which printer should be deployed?",
+    "promptSi": "පාසල් කාර්යාලයකට මසකට විභාග ප්‍රශ්න පත්‍ර පිටු 10,000ක් උපරිම වේගයෙන් සහ අවම පිටු පිරිවැයකින් මුද්‍රණය කිරීමට අවශ්‍ය නම් වඩාත්ම සුදුසු මුද්‍රකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Laser Printer",
+        "si": "ලේසර් මුද්‍රකය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Inkjet Printer",
+        "si": "තීන්ත විදුම් මුද්‍රකය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Thermal Printer",
+        "si": "තාප මුද්‍රකය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "3D Printer",
+        "si": "ත්‍රිමාණ මුද්‍රකය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Laser printers use powdered toner, electrostatic drums, and laser beams to deliver ultra-fast print speeds with sharp text and low operating costs per page for high monthly workloads.",
+    "explanationSi": "ලේසර් මුද්‍රක (Laser Printers) මඟින් වියළි ටෝනර් කුඩු භාවිතයෙන් ඉතා ඉහළ වේගයකින් සහ පැහැදිලි බවකින් යුතුව විශාල ලේඛන ප්‍රමාණයක් අඩු පිරිවැයකින් මුද්‍රණය කළ හැක.",
+    "syllabusRef": "G10-U2.29"
+  },
+  {
+    "id": "g10-u2-q30",
+    "lessonId": "g10-u2",
+    "questionNumber": 30,
+    "promptEn": "A presenter connects a laptop to a multimedia projector. They notice high-definition video is displayed on the wall, but NO sound comes out of the projector's speakers. The laptop is connected via a 15-pin blue VGA cable. Why is there no sound?",
+    "promptSi": "දේශකයෙකු සිය ලැප්ටොප් පරිගණකය නිල් පැහැති 15-pin VGA කේබලයක් මඟින් ප්‍රක්ෂේපකයට සම්බන්ධ කළ විට රූප රාමු දිස් වුවද ශබ්දය නොඇසේ. මීට හේතුව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The VGA port is faulty",
+        "si": "VGA කෙවෙනිය දෝෂ සහිත වීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "VGA cables transmit analog video only and cannot carry audio signals",
+        "si": "VGA කේබල් මඟින් ප්‍රතිසම වීඩියෝ සංඥා පමණක් ගෙන යන අතර ශ්‍රව්‍ය සංඥා රැගෙන යා නොහැකි වීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The projector needs a high-speed SSD",
+        "si": "ප්‍රක්ෂේපකයට වේගවත් SSD එකක් අවශ්‍ය වීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The laptop RAM is insufficient",
+        "si": "පරිගණකයේ RAM මතකය ප්‍රමාණවත් නොවීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "VGA is strictly an analog video interface. To transmit both digital video and audio over a single cord, an HDMI cable or a separate 3.5mm audio patch cable must be used.",
+    "explanationSi": "VGA කෙවෙනිය මඟින් ප්‍රතිසම වීඩියෝ (දෘශ්‍ය) සංඥා පමණක් ගෙන යන අතර ශබ්දය රැගෙන යා නොහැක. ශබ්දය සඳහා වෙනම 3.5mm ඕඩියෝ කේබලයක් හෝ HDMI කේබලයක් භාවිත කළ යුතුය.",
+    "syllabusRef": "G10-U2.30"
+  },
+  {
+    "id": "g10-u2-q31",
+    "lessonId": "g10-u2",
+    "questionNumber": 31,
+    "promptEn": "A commercial bank processes thousands of paper cheques every evening. Which specialized input device reads the magnetic ink characters at the bottom of each cheque?",
+    "promptSi": "වාණිජ බැංකුවක චෙක්පත් දහස් ගණනක් ස්වයංක්‍රීයව නිෂ්කාශනය කිරීම සඳහා චෙක්පතේ යට මුද්‍රණය කර ඇති චුම්බක තීන්ත අක්ෂර කියවීමට භාවිත කරන ආදාන උපාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Optical Mark Recognition (OMR)",
+        "si": "Optical Mark Recognition (OMR)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Magnetic Ink Character Reader (MICR)",
+        "si": "Magnetic Ink Character Reader (MICR)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Optical Character Recognition (OCR)",
+        "si": "Optical Character Recognition (OCR)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Barcode Reader (BCR)",
+        "si": "Barcode Reader (BCR)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "MICR (Magnetic Ink Character Reader) detects iron oxide magnetic ink printed at the bottom of cheques. It is extremely secure against fraud and readable even if smeared.",
+    "explanationSi": "MICR (චුම්බක තීන්ත අනුලක්ෂණ කියවනය) මඟින් බැංකු චෙක්පත්වල යට ඇති චුම්බක තීන්ත අක්ෂර නිරවද්‍යව සහ ආරක්ෂිතව කියවනු ලබයි.",
+    "syllabusRef": "G10-U2.31"
+  },
+  {
+    "id": "g10-u2-q32",
+    "lessonId": "g10-u2",
+    "questionNumber": 32,
+    "promptEn": "The Department of Examinations evaluates 300,000 multiple-choice (MCQ) answer sheets shaded with 2B pencils. Which automated device reads these mark sheets?",
+    "promptSi": "විභාග දෙපාර්තමේන්තුව විසින් 2B පැන්සලෙන් සලකුණු කළ බහුවරණ (MCQ) උත්තර පත්‍ර ලක්ෂ ගණනක් ස්වයංක්‍රීයව ලකුණු කිරීම සඳහා භාවිත කරන උපාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Optical Mark Recognition (OMR)",
+        "si": "ප්‍රකාශ සලකුණු සංජානන උපාංගය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Magnetic Ink Character Reader (MICR)",
+        "si": "චුම්බක තීන්ත අනුලක්ෂණ කියවනය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Barcode Reader (BCR)",
+        "si": "තීරු කේත කියවනය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Biometric Scanner",
+        "si": "ජෛවමිතික ස්කෑනරය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "OMR (Optical Mark Recognition) shines light onto pre-printed forms to detect the presence or absence of dark marks in predefined checkboxes based on light reflection.",
+    "explanationSi": "OMR (ප්‍රකාශ සලකුණු සංජානන උපාංගය) මඟින් බහුවරණ උත්තර පත්‍රවල පැන්සල් හෝ පෑනෙන් සලකුණු කළ ස්ථානවල පරාවර්තනය වන ආලෝකය හඳුනාගෙන නිවැරදි ලකුණු ගණනය කරයි.",
+    "syllabusRef": "G10-U2.32"
+  },
+  {
+    "id": "g10-u2-q33",
+    "lessonId": "g10-u2",
+    "questionNumber": 33,
+    "promptEn": "A national museum wishes to digitize ancient printed historical documents and convert them into editable Word processor text files. Which technology should they utilize?",
+    "promptSi": "ජාතික කෞතුකාගාරයක ඇති පැරණි මුද්‍රිත ලේඛන පරිලෝකනය කර, සංස්කරණය කළ හැකි පරිගණක අක්ෂර (Text) බවට පත් කර ගැනීමට අවශ්‍ය තාක්ෂණය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Optical Character Recognition (OCR)",
+        "si": "ප්‍රකාශ අක්ෂර සංජානන මෘදුකාංගය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Optical Mark Recognition (OMR)",
+        "si": "ප්‍රකාශ සලකුණු සංජානනය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Magnetic Ink Character Recognition (MICR)",
+        "si": "චුම්බක තීන්ත අනුලක්ෂණ කියවීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Plotter Digitizer",
+        "si": "ප්ලෝටර් ඩිජිටයිසරය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "OCR (Optical Character Recognition) analyzes scanned image bitmaps of printed or handwritten text and translates glyphs into editable ASCII/Unicode characters.",
+    "explanationSi": "OCR මඟින් ස්කෑන් කරන ලද ලේඛනයක ඇති අකුරු රූප (Images), පරිගණකයේ සංස්කරණය කළ හැකි පෙළ (Editable text) බවට පරිවර්තනය කරයි.",
+    "syllabusRef": "G10-U2.33"
+  },
+  {
+    "id": "g10-u2-q34",
+    "lessonId": "g10-u2",
+    "questionNumber": 34,
+    "promptEn": "When connecting headphones and a microphone to the 3.5mm color-coded audio jacks of a desktop computer, which colors should be matched?",
+    "promptSi": "ඩෙස්ක්ටොප් පරිගණකයක 3.5mm වර්ණ කේත සහිත ශ්‍රව්‍ය කෙවෙනිවලට හෙඩ්ෆෝනය සහ මයික්‍රෆෝනය සම්බන්ධ කිරීමේදී නිවැරදි වර්ණ ගැලපීම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Green for Microphone, Pink for Headphones",
+        "si": "මයික්‍රෆෝනයට කොළ, හෙඩ්ෆෝනයට රෝස"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Pink for Microphone, Light Green for Headphones",
+        "si": "මයික්‍රෆෝනයට රෝස (Pink), හෙඩ්ෆෝනයට ලා කොළ (Light Green)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Blue for Microphone, Black for Headphones",
+        "si": "මයික්‍රෆෝනයට නිල්, හෙඩ්ෆෝනයට කළු"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Yellow for Microphone, White for Headphones",
+        "si": "මයික්‍රෆෝනයට කහ, හෙඩ්ෆෝනයට සුදු"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "On PC audio panels, Light Green indicates Audio Line-Out (headphones/speakers), Pink indicates Microphone Audio-In, and Light Blue indicates Line-In.",
+    "explanationSi": "පරිගණක ශ්‍රව්‍ය පුවරුවේ රෝස පැහැය (Pink) මයික්‍රෆෝන ආදානයට ද, ලා කොළ පැහැය (Light Green) හෙඩ්ෆෝන්/ස්පීකර් ප්‍රතිදානයට ද භාවිත වේ.",
+    "syllabusRef": "G10-U2.34"
+  },
+  {
+    "id": "g10-u2-q35",
+    "lessonId": "g10-u2",
+    "questionNumber": 35,
+    "promptEn": "A student is typing an essay in a word processor when the power suddenly cuts out without a UPS. What happens to the typed document that was NOT saved to the SSD/hard disk?",
+    "promptSi": "ශිෂ්‍යයෙකු පරිගණකයේ රචනාවක් ටයිප් කරමින් සිටින අතරතුර UPS එකක් නොමැතිව හදිසියේ විදුලිය ඇනහිටී. SSD හෝ දෘඩ තැටියේ සුරැකීමට ලක් නොකළ ලේඛනයට සිදුවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "It remains safely preserved in ROM",
+        "si": "එය ROM මතකයේ සුරක්ෂිතව පවතී"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "It is permanently lost because RAM is volatile memory",
+        "si": "RAM යනු තාවකාලික (Volatile) මතකයක් බැවින් ලේඛනය සම්පූර්ණයෙන්ම මැකී යයි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The CPU registers will keep the essay intact indefinitely",
+        "si": "CPU රෙජිස්ටර් මඟින් එය ස්ථිරව තබා ගනී"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "It transfers automatically to the magnetic tape",
+        "si": "එය ස්වයංක්‍රීයව චුම්බක පටයට මාරු වේ"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Open application files reside in RAM. Because RAM is volatile and requires electrical power to sustain its electronic state, all unsaved work is erased immediately when power fails.",
+    "explanationSi": "ක්‍රියාත්මක වන වැඩසටහන් පවතින්නේ RAM මතකය තුළයි. RAM යනු විදුලිය නැතිවිට දත්ත මැකී යන තාවකාලික (Volatile) මතකයක් බැවින් සුරැකීමට ලක් නොකළ දත්ත සියල්ල ක්ෂණිකව මැකී යයි.",
+    "syllabusRef": "G10-U2.35"
+  },
+  {
+    "id": "g10-u2-q36",
+    "lessonId": "g10-u2",
+    "questionNumber": 36,
+    "promptEn": "Why can a computer Central Processing Unit (CPU) NOT execute programs directly off a secondary storage Hard Disk Drive (HDD)?",
+    "promptSi": "පරිගණකයේ CPU එකට ද්විතීයික ආචයනයක් වන දෘඩ තැටියෙන් (HDD) සෘජුවම වැඩසටහන් උපදෙස් ක්‍රියාත්මක කළ නොහැක්කේ මන්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Hard disks do not have sectors",
+        "si": "දෘඩ තැටිවල ඛණ්ඩක නොමැති බැවින්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The CPU can directly communicate only with Primary Memory (RAM",
+        "si": "Cache) via the system bus / secondary storage is far too slow and indirect / CPU එකට පද්ධති බසය හරහා සෘජුව සම්බන්ධ විය හැක්කේ ප්‍රධාන මතකයට පමණක් වන අතර දෘඩ තැටියේ වේගය ඉතා මන්දගාමී බැවින්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Hard disks are volatile",
+        "si": "දෘඩ තැටි මැකෙන මතකයක් වන බැවින්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The Control Unit only supports keyboards",
+        "si": "පාලන ඒකකය යතුරුපුවරු පමණක් හඳුනන බැවින්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In the Von Neumann architecture, programs must be loaded from secondary storage into Primary Memory (RAM) before execution. The CPU cannot address storage disks directly.",
+    "explanationSi": "වොන් නියුමන් ආකෘතියට අනුව CPU එකට සෘජුව ප්‍රවේශ විය හැක්කේ ප්‍රධාන මතකයට (RAM) පමණි. එබැවින් ක්‍රියාත්මක වීමට පෙර දත්ත දෘඩ තැටියේ සිට RAM වෙත පැමිණිය යුතුය.",
+    "syllabusRef": "G10-U2.36"
+  },
+  {
+    "id": "g10-u2-q37",
+    "lessonId": "g10-u2",
+    "questionNumber": 37,
+    "promptEn": "A bank datacenter needs to perform long-term offline cold backups of 500 Terabytes of historical records that will rarely be accessed but must be stored at the lowest possible cost per gigabyte. Which media is ideal?",
+    "promptSi": "බැංකු දත්ත මධ්‍යස්ථානයකට ඉතා කලාතුරකින් පරිශීලනය වන ටෙරාබයිට් 500ක ඓතිහාසික ගනුදෙනු දත්ත අවම පිරිවැයකින් ස්ථිරව ගබඩා කර තැබීමට අවශ්‍ය වේ. වඩාත්ම උචිත ආචයන මාධ්‍යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Solid State Drive (SSD)",
+        "si": "ඝන තත්ත්වයේ ධාවකය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Magnetic Tape",
+        "si": "චුම්බක පටය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Static RAM",
+        "si": "ස්ථිතික RAM"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "DVD-ROM",
+        "si": "ඩිජිටල් බහුවිධ තැටිය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Magnetic Tape uses sequential access and is relatively slow, but offers the absolute lowest cost per gigabyte and decades-long retention, making it the industry standard for enterprise disaster recovery archiving.",
+    "explanationSi": "චුම්බක පට (Magnetic Tape) අනුක්‍රමික ප්‍රවේශයක් සහිත මන්දගාමී මාධ්‍යයක් වුවද, ගිගාබයිටයකට වැයවන අවම පිරිවැය සහ දිගුකාලීන පැවැත්ම නිසා ආයතනික ලේඛනාගාර උපස්ථ (Backups) සඳහා යොදා ගනී.",
+    "syllabusRef": "G10-U2.37"
+  },
+  {
+    "id": "g10-u2-q38",
+    "lessonId": "g10-u2",
+    "questionNumber": 38,
+    "promptEn": "A field researcher travels over rugged, bumpy terrain with a laptop. Why is an SSD (Solid State Drive) far superior to an HDD (Hard Disk Drive) in this scenario?",
+    "promptSi": "ක්ෂේත්‍ර පර්යේෂකයෙකු ගැස්සීම් සහිත මාර්ගවල ගමන් කරමින් ලැප්ටොප් පරිගණකය භාවිත කරයි. මෙම අවස්ථාවේදී HDD එකකට වඩා SSD එකක් වඩාත් සුදුසු වන්නේ ඇයි?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "SSD uses laser optical tracks",
+        "si": "SSD ලේසර් ආලෝකයෙන් ක්‍රියා කරන බැවින්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "SSD has zero moving mechanical parts and is highly resistant to shock and vibration drops",
+        "si": "SSD හි චලනය වන යාන්ත්‍රික කොටස් කිසිවක් නොමැති බැවින් කම්පන සහ ගැස්සීම්වලට ඔරොත්තු දෙන නිසා"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "SSD is made of magnetic platters",
+        "si": "SSD චුම්බක තැටිවලින් සමන්විත බැවින්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "SSD requires no electrical power",
+        "si": "SSD වලට කිසිදු විදුලියක් අවශ්‍ය නොවන නිසා"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Hard disks use spinning platters and delicate floating heads that can crash if jarred. SSDs use solid-state NAND flash chips with no moving mechanical parts, providing high shock resistance.",
+    "explanationSi": "දෘඩ තැටිවල (HDD) වේගයෙන් කැරකෙන තැටි සහ හෙඩ් ඇති නිසා ගැස්සීම්වලදී දත්ත විනාශ විය හැක. එහෙත් SSD හි චලනය වන කොටස් නැති බැවින් (Solid State) කම්පනවලට මනාව ඔරොත්තු දෙයි.",
+    "syllabusRef": "G10-U2.38"
+  },
+  {
+    "id": "g10-u2-q39",
+    "lessonId": "g10-u2",
+    "questionNumber": 39,
+    "promptEn": "Why does a Blu-ray Disc hold up to 25 GB on a single layer, whereas a standard DVD holds only 4.7 GB?",
+    "promptSi": "තනි ස්ථරයක ධාරිතාව 4.7 GB වන DVD තැටියකට සාපේක්ෂව, බ්ලූරේ (Blu-ray) තැටියක තනි ස්ථරයක 25 GB තරම් විශාල ධාරිතාවක් රැඳවිය හැක්කේ ඇයි?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Blu-ray uses magnetic iron oxide particles",
+        "si": "බ්ලූරේ තැටිවල චුම්බක අංශු අඩංගු නිසා"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Blu-ray uses a shorter wavelength (405 nm) blue-violet laser, enabling much smaller pits and tighter tracks",
+        "si": "බ්ලූරේ සඳහා තරංග ආයාමය අඩු (405 nm) නිල්-දම් ලේසර් කිරණ භාවිත කරන බැවින් ඉතා කුඩා වලවල් හා පථ නිර්මාණය කළ හැකි නිසා"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Blu-ray discs are physically 10 times thicker",
+        "si": "බ්ලූරේ තැටියේ ඝනකම 10 ගුණයකින් වැඩි නිසා"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Blu-ray operates without primary memory",
+        "si": "බ්ලූරේ මතකය ප්‍රධාන මතකයෙන් තොරව ක්‍රියා කරන නිසා"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "DVDs use a 650 nm red laser, while Blu-ray uses a 405 nm blue-violet laser. The shorter wavelength focuses onto a much tighter laser spot, packing microscopic pits far more densely.",
+    "explanationSi": "DVD සඳහා 650 nm රතු ලේසර් භාවිත කරන අතර බ්ලූරේ සඳහා තරංග ආයාමය අඩු 405 nm නිල්-දම් ලේසර් භාවිත කරයි. මේ නිසා තැටිය මත ඉතා කුඩා වලවල් (Pits) වැඩි ඝනත්වයකින් කැටයම් කළ හැක.",
+    "syllabusRef": "G10-U2.39"
+  },
+  {
+    "id": "g10-u2-q40",
+    "lessonId": "g10-u2",
+    "questionNumber": 40,
+    "promptEn": "What optical disc standard corresponds to the principle 'Write Once, Read Many' (WORM)?",
+    "promptSi": "'එක් වරක් ලිවීමෙන් පසු කිහිප වරක් කියවිය හැකි' (WORM) මූලධර්මයට අනුකූල වන ප්‍රකාශ තැටි වර්ගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "CD-ROM",
+        "si": "DVD-ROM"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "CD-R",
+        "si": "DVD-R"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "CD-RW",
+        "si": "DVD-RW"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Blu-ray BD-RE",
+        "si": "Blu-ray BD-RE"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "CD-R and DVD-R (Recordable) discs allow data to be burned onto the dye layer exactly once, after which the recorded data becomes permanent and can only be read (WORM).",
+    "explanationSi": "CD-R සහ DVD-R යනු එක් වරක් පමණක් දත්ත ලිවිය හැකි (Recordable / WORM) තැටි වේ. CD-RW යනු නැවත නැවත මැකීමට හා ලිවීමට හැකි (Rewritable) තැටි වේ.",
+    "syllabusRef": "G10-U2.40"
+  },
+  {
+    "id": "g10-u2-q41",
+    "lessonId": "g10-u2",
+    "questionNumber": 41,
+    "promptEn": "Which of the following ports features a reversible oval connector capable of transmitting power (USB-PD), high-speed data, and video displays through a single port?",
+    "promptSi": "තනි කෙවෙනියක් හරහා විදුලිය සැපයීම, අධිවේගී දත්ත සහ වීඩියෝ සංඥා සම්ප්‍රේෂණය කළ හැකි, දෙපැත්ත මාරු කර ගැසිය හැකි (Reversible) ඕවලාකාර කෙවෙනිය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "USB Type-C",
+        "si": "USB Type-C"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "USB Type-A",
+        "si": "USB Type-A"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "PS",
+        "si": "2 Port"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Parallel DB-25",
+        "si": "Parallel DB-25"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "USB Type-C is a reversible 24-pin connector standard supporting multi-gigabit data transfers, high-wattage power delivery, and native video output (DisplayPort alternate mode).",
+    "explanationSi": "USB Type-C යනු දෙපැත්තම මාරු කර සම්බන්ධ කළ හැකි, අධිවේගී දත්ත, විදුලි ආරෝපණය (Power Delivery) සහ වීඩියෝ ප්‍රතිදානය යන සියල්ල එකවර ලබා දෙන නූතන සම්මත කෙවෙනියයි.",
+    "syllabusRef": "G10-U2.41"
+  },
+  {
+    "id": "g10-u2-q42",
+    "lessonId": "g10-u2",
+    "questionNumber": 42,
+    "promptEn": "How many bytes are contained in exactly 4 Kilobytes (4 KB)?",
+    "promptSi": "කිලෝබයිට් 4ක් (4 KB) තුළ අඩංගු වන බයිට (Bytes) සංඛ්‍යාව කොපමණද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "4000 Bytes",
+        "si": "4000 Bytes"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "4096 Bytes ($4 \\times 1024$)",
+        "si": "4096 Bytes ($4 \\times 1024$)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "8192 Bytes",
+        "si": "8192 Bytes"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "32 Bytes",
+        "si": "32 Bytes"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In binary digital storage, $1\\text{ KB} = 1024\\text{ Bytes}\\ (2^{10})$. Therefore, $4\\text{ KB} = 4 \\times 1024 = 4096\\text{ Bytes}$.",
+    "explanationSi": "ඩිජිටල් මතකයේ $1\\text{ KB} = 1024\\text{ Bytes}$ වේ. ඒ අනුව $4\\text{ KB} = 4 \\times 1024 = 4096\\text{ Bytes}$ වේ.",
+    "syllabusRef": "G10-U2.42"
+  },
+  {
+    "id": "g10-u2-q43",
+    "lessonId": "g10-u2",
+    "questionNumber": 43,
+    "promptEn": "Which of the following correctly orders computer memories from FASTEST data access speed to SLOWEST data access speed?",
+    "promptSi": "පරිගණක මතකයන් දත්ත ප්‍රවේශ වීමේ වේගය වැඩිම මතකයේ සිට අඩුම මතකය දක්වා නිවැරදිව පෙළගස්වා ඇත්තේ කුමන වරණයේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Hard Disk -> RAM -> Cache -> Registers",
+        "si": "දෘඩ තැටිය -> RAM -> වාරික මතකය -> රෙජිස්තර"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Registers -> Cache Memory -> RAM -> Hard Disk",
+        "si": "රෙජිස්තර -> වාරික මතකය -> RAM -> දෘඩ තැටිය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "RAM -> Registers -> Cache -> Magnetic Tape",
+        "si": "RAM -> රෙජිස්තර -> වාරික මතකය -> චුම්බක පටය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Cache -> Registers -> Solid State Drive -> RAM",
+        "si": "වාරික මතකය -> රෙජිස්තර -> SSD -> RAM"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Speed Hierarchy: Registers (fastest, sub-nanosecond) $\\rightarrow$ Cache Memory $\\rightarrow$ Primary RAM $\\rightarrow$ Secondary Storage (SSD/HDD) $\\rightarrow$ Magnetic Tape (slowest).",
+    "explanationSi": "ප්‍රවේශ වේගය අනුව: CPU රෙජිස්තර (වේගවත්ම) $\\rightarrow$ වාරික මතකය (Cache) $\\rightarrow$ ප්‍රධාන මතකය (RAM) $\\rightarrow$ දෘඩ තැටිය (HDD) $\\rightarrow$ චුම්බක පටය (මන්දගාමීම).",
+    "syllabusRef": "G10-U2.43"
+  },
+  {
+    "id": "g10-u2-q44",
+    "lessonId": "g10-u2",
+    "questionNumber": 44,
+    "promptEn": "Which memory has the HIGHEST cost per bit of storage among all computer components?",
+    "promptSi": "පරිගණක සංරචක අතුරින් එක් බිටුවක් ගබඩා කිරීම සඳහා ඉහළම සාපේක්ෂ පිරිවැයක් (Cost per bit) දරන්නේ කුමන මතකයද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Hard Disk Drive",
+        "si": "දෘඩ තැටිය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Optical Blu-ray Disc",
+        "si": "බ්ලූරේ තැටිය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "CPU Memory Registers",
+        "si": "CPU අභ්‍යන්තර රෙජිස්තර"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Magnetic Tape",
+        "si": "චුම්බක පටය"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "CPU Registers are fabricated directly on the processor's silicon die using ultra-fast static transistors, making them by far the most expensive per byte. Magnetic tape is the cheapest.",
+    "explanationSi": "CPU රෙජිස්තර සකසන චිපය තුළම ඉතා කුඩා ඉඩක නිර්මාණය කර ඇති බැවින් බිටුවක් සඳහා වැඩිම පිරිවැයක් දරයි. චුම්බක පට සඳහා අවම පිරිවැයක් දරයි.",
+    "syllabusRef": "G10-U2.44"
+  },
+  {
+    "id": "g10-u2-q45",
+    "lessonId": "g10-u2",
+    "questionNumber": 45,
+    "promptEn": "A smartphone display functions as which type of computer hardware device?",
+    "promptSi": "ස්මාර්ට් ජංගම දුරකථනයක ඇති ස්පර්ශ තිරය (Touchscreen) අයත් වන්නේ කුමන දෘඩාංග උපාංග කාණ්ඩයටද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Input Device only",
+        "si": "ආදාන උපාංගයක් පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Output Device only",
+        "si": "ප්‍රතිදාන උපාංගයක් පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Both Input and Output Device",
+        "si": "ආදාන සහ ප්‍රතිදාන යන දෙවර්ගයටම අයත් උපාංගයකි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Storage Device",
+        "si": "ආචයන උපාංගයකි"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "A touchscreen is a dual-function hybrid peripheral: it functions as an input device by sensing touch coordinates, and as an output device by displaying graphical visual information.",
+    "explanationSi": "ස්පර්ශ තිරය (Touchscreen) යනු ආදාන සහ ප්‍රතිදාන යන ද්විත්ව කාර්යයන්ම ඉටු කරන උපාංගයකි (ඇඟිලි සලකුණු ආදානය කරන අතර තොරතුරු දර්ශනය කරයි).",
+    "syllabusRef": "G10-U2.45"
+  },
+  {
+    "id": "g10-u2-q46",
+    "lessonId": "g10-u2",
+    "questionNumber": 46,
+    "promptEn": "Consider the following statements regarding the Central Processing Unit (CPU):",
+    "promptSi": "(i) The Arithmetic and Logic Unit (ALU) performs relational comparisons such as greater than ($>$) or less than ($<$).",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) only",
+        "si": "(i) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (ii) only",
+        "si": "(i) සහ (ii) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii), and (iii)",
+        "si": "(i), (ii) සහ (iii) සියල්ලම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Statements (i) and (ii) are accurate. Statement (iii) is FALSE because internal CPU Registers are volatile memories that lose all contents immediately when electrical power is switched off.",
+    "explanationSi": "(i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වන්නේ CPU රෙජිස්තර යනු විදුලිය නැතිවිට දත්ත මැකී යන තාවකාලික (Volatile) මතකයක් වන බැවිනි.",
+    "syllabusRef": "G10-U2.46"
+  },
+  {
+    "id": "g10-u2-q47",
+    "lessonId": "g10-u2",
+    "questionNumber": 47,
+    "promptEn": "Consider the following statements regarding RAM and ROM:",
+    "promptSi": "(i) ROM contains startup instructions such as BIOS and POST.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) only",
+        "si": "(i) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (iii) only",
+        "si": "(i) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii), and (iii)",
+        "si": "(i), (ii) සහ (iii) සියල්ලම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "(i) is true (ROM houses BIOS). (iii) is true (RAM is Read/Write). (ii) is FALSE because RAM is strictly volatile; power loss erases all stored data instantly.",
+    "explanationSi": "(i) සත්‍ය වේ (ROM හි BIOS ඇත). (iii) සත්‍ය වේ (RAM යනු කියවිය හැකි/ලිවිය හැකි මතකයකි). (ii) අසත්‍ය වේ, මන්ද RAM යනු විදුලිය නැතිවිට දත්ත මැකී යන මතකයක් බැවිනි.",
+    "syllabusRef": "G10-U2.47"
+  },
+  {
+    "id": "g10-u2-q48",
+    "lessonId": "g10-u2",
+    "questionNumber": 48,
+    "promptEn": "Consider the following statements regarding System Buses in computer architecture:",
+    "promptSi": "(i) The Data Bus carries data bidirectionally between the CPU and memory.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) and (ii) only",
+        "si": "(i) සහ (ii) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(i) and (iii) only",
+        "si": "(i) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii), and (iii)",
+        "si": "(i), (ii) සහ (iii) සියල්ලම"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "All three statements are correct: Data Bus is bidirectional, Address Bus is unidirectional (CPU to Memory), and Control Bus manages read/write timing operations.",
+    "explanationSi": "ප්‍රකාශ 3 ම සත්‍ය වේ: දත්ත බසය ද්වි-දිශානතික ය, ලිපින බසය ඒක-දිශානතික ය, සහ පාලන බසය කියවීම්/ලිවීම් සංඥා පාලනය කරයි.",
+    "syllabusRef": "G10-U2.48"
+  },
+  {
+    "id": "g10-u2-q49",
+    "lessonId": "g10-u2",
+    "questionNumber": 49,
+    "promptEn": "Consider the following statements regarding Printer technologies:",
+    "promptSi": "(i) Dot Matrix printers are impact printers capable of printing multi-part duplicate carbon copies.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) only",
+        "si": "(i) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (ii) only",
+        "si": "(i) සහ (ii) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii), and (iii)",
+        "si": "(i), (ii) සහ (iii) සියල්ලම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Statements (i) and (ii) are true. Statement (iii) is FALSE because thermal printers do NOT use ink; they use heated pins that react directly with heat-sensitive chemical paper.",
+    "explanationSi": "(i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වන්නේ තාප මුද්‍රක සඳහා දියර තීන්ත අවශ්‍ය නොවන අතර තාප සංවේදී කඩදාසි රත් කිරීමෙන් පමණක් අකුරු මතු කරන බැවිනි.",
+    "syllabusRef": "G10-U2.49"
+  },
+  {
+    "id": "g10-u2-q50",
+    "lessonId": "g10-u2",
+    "questionNumber": 50,
+    "promptEn": "Consider the following statements regarding Optical Storage media:",
+    "promptSi": "(i) A standard Compact Disc (CD) has a typical capacity of approximately 700 MB.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) and (ii) only",
+        "si": "(i) සහ (ii) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (iii) only",
+        "si": "(i) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii), and (iii)",
+        "si": "(i), (ii) සහ (iii) සියල්ලම"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "(i) and (ii) are true. (iii) is FALSE because Blu-ray discs use a blue-violet laser with a shorter 405 nm wavelength (red laser 650 nm is used by DVDs).",
+    "explanationSi": "(i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වන්නේ බ්ලූරේ තැටි සඳහා භාවිත කරන්නේ 405 nm නිල්-දම් ලේසර් කිරණ වන බැවිනි (650 nm රතු ලේසර් භාවිත කරන්නේ DVD සඳහා ය).",
+    "syllabusRef": "G10-U2.50"
+  },
+  {
+    "id": "g10-u2-q51",
+    "lessonId": "g10-u2",
+    "questionNumber": 51,
+    "promptEn": "Consider the following pairings of input technology and application:",
+    "promptSi": "(P) Barcode Reader - Supermarket Point of Sale inventory checkout",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(P) only",
+        "si": "(P) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(P) and (Q) only",
+        "si": "(P) සහ (Q) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(Q) and (R) only",
+        "si": "(Q) සහ (R) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (P), (Q), and (R)",
+        "si": "(P), (Q) සහ (R) සියල්ලම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "(P) and (Q) are correct. (R) is INCORRECT because OMR only detects shaded marks in checkboxes; reading handwritten text requires OCR (Optical Character Recognition).",
+    "explanationSi": "(P) සහ (Q) නිවැරදි වේ. (R) වැරදි වන්නේ OMR මඟින් කියවන්නේ කොටු තුළ සලකුණු කළ ලකුණු පමණක් වන බැවිනි. අත්අකුරු කියවීමට OCR අවශ්‍ය වේ.",
+    "syllabusRef": "G10-U2.51"
+  },
+  {
+    "id": "g10-u2-q52",
+    "lessonId": "g10-u2",
+    "questionNumber": 52,
+    "promptEn": "Consider the following statements regarding Computer Classification:",
+    "promptSi": "(i) Analog computers measure continuous physical variables like speed and pressure.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) only",
+        "si": "(i) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (ii) only",
+        "si": "(i) සහ (ii) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii), and (iii)",
+        "si": "(i), (ii) සහ (iii) සියල්ලම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Statements (i) and (ii) are true. Statement (iii) is FALSE because Supercomputers are room-sized, enormously expensive, and by far the largest and most powerful computers built.",
+    "explanationSi": "(i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වන්නේ සුපිරි පරිගණක යනු ප්‍රමාණයෙන් අතිවිශාල සහ ලොව මිල අධිකම පරිගණක කාණ්ඩය වන බැවිනි.",
+    "syllabusRef": "G10-U2.52"
+  },
+  {
+    "id": "g10-u2-q53",
+    "lessonId": "g10-u2",
+    "questionNumber": 53,
+    "promptEn": "Which of the following correctly describes what occurs during a 'Cache Hit' in computer memory architecture?",
+    "promptSi": "පරිගණක මතක ව්‍යුහය තුළ 'Cache Hit' (වාරික මතක හමුවීම) අවස්ථාවකදී සිදුවන ක්‍රියාවලිය වඩාත් නිවැරදිව විස්තර කරන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The CPU fails to find the required data in cache and fetches it from the hard disk",
+        "si": "CPU එකට දත්ත හමුනොවන නිසා දෘඩ තැටියෙන් ලබා ගනී"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The requested data or instruction is found immediately in Cache Memory and delivered to the CPU at high speed",
+        "si": "ඉල්ලුම් කළ දත්තය වාරික මතකය තුළ තිබී හමුවන අතර ක්ෂණිකව CPU වෙත ලබා දේ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The cache memory is completely wiped clean due to a power spike",
+        "si": "විදුලි සැරයක් නිසා වාරික මතකය මැකී යයි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The CPU switches from digital processing to analog processing",
+        "si": "CPU එක සංඛ්‍යාංක සැකසීමේ සිට ප්‍රතිසම සැකසීමට මාරු වේ"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A 'Cache Hit' occurs when requested data is already present in Cache Memory, allowing near-instant delivery to CPU registers without waiting for the slower main RAM bus.",
+    "explanationSi": "'Cache Hit' යනු CPU එකට අවශ්‍ය වූ දත්තය හෝ උපදෙස වාරික මතකය තුළම තිබී හමුවීමයි. එවිට RAM වෙත නොගොස් ක්ෂණිකව CPU වෙත දත්ත ලැබේ.",
+    "syllabusRef": "G10-U2.53"
+  },
+  {
+    "id": "g10-u2-q54",
+    "lessonId": "g10-u2",
+    "questionNumber": 54,
+    "promptEn": "Consider the following statements regarding Solid State Drives (SSDs) compared to Hard Disk Drives (HDDs):",
+    "promptSi": "(i) SSDs have zero moving mechanical parts.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) only",
+        "si": "(i) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (ii) only",
+        "si": "(i) සහ (ii) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii), and (iii)",
+        "si": "(i), (ii) සහ (iii) සියල්ලම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "(i) and (ii) are true. Statement (iii) is FALSE because SSDs have no mechanical read/write heads or spinning platters, making them far more durable and immune to head crashes compared to HDDs.",
+    "explanationSi": "(i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වන්නේ SSD වල චලනය වන හෙඩ් හෝ තැටි නොමැති බැවින් බිම වැටුණද Head crash අනතුරු සිදු නොවන බැවිනි.",
+    "syllabusRef": "G10-U2.54"
+  },
+  {
+    "id": "g10-u2-q55",
+    "lessonId": "g10-u2",
+    "questionNumber": 55,
+    "promptEn": "Consider the following statements regarding storage capacity units:",
+    "promptSi": "(i) $1\\text{ Byte} = 8\\text{ Bits}$",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) only",
+        "si": "(i) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (ii) only",
+        "si": "(i) සහ (ii) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii), and (iii)",
+        "si": "(i), (ii) සහ (iii) සියල්ලම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "(i) and (ii) are mathematically correct. Statement (iii) is FALSE because in computer binary addressing, $1\\text{ GB} = 1024\\text{ MB} = 2^{30}\\text{ Bytes}$, not $1000\\text{ MB}$.",
+    "explanationSi": "(i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වන්නේ පරිගණක මතක ගණනයේදී $1\\text{ GB} = 1024\\text{ MB}$ ($2^{30}$ බයිට) මිස $1000\\text{ MB}$ නොවන බැවිනි.",
+    "syllabusRef": "G10-U2.55"
+  },
+  {
+    "id": "g10-u2-q56",
+    "lessonId": "g10-u2",
+    "questionNumber": 56,
+    "promptEn": "Consider the following computer ports and their typical connections:",
+    "promptSi": "(X) VGA Port - Analog computer monitors and multimedia projectors",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(X) only",
+        "si": "(X) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(X) and (Y) only",
+        "si": "(X) සහ (Y) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(Y) and (Z) only",
+        "si": "(Y) සහ (Z) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (X), (Y), and (Z)",
+        "si": "(X), (Y) සහ (Z) සියල්ලම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "(X) and (Y) are correct. (Z) is INCORRECT because HDMI connects digital displays/audio, while internal hard drives connect via SATA (Serial ATA) interfaces.",
+    "explanationSi": "(X) සහ (Y) නිවැරදි වේ. (Z) වැරදි වන්නේ HDMI යනු ඩිජිටල් තිර සහ ශ්‍රව්‍ය උපාංග සඳහා වන අතර අභ්‍යන්තර දෘඩ තැටි සම්බන්ධ කරන්නේ SATA කෙවෙනි මඟින් බැවිනි.",
+    "syllabusRef": "G10-U2.56"
+  },
+  {
+    "id": "g10-u2-q57",
+    "lessonId": "g10-u2",
+    "questionNumber": 57,
+    "promptEn": "Consider the following statements regarding the Power-On Self-Test (POST) and Booting sequence:",
+    "promptSi": "(i) POST routines are executed by the CPU from ROM immediately when electrical power is switched on.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) and (ii) only",
+        "si": "(i) සහ (ii) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(i) and (iii) only",
+        "si": "(i) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii), and (iii)",
+        "si": "(i), (ii) සහ (iii) සියල්ලම"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "All three statements accurately delineate the PC cold boot sequence: ROM BIOS triggers POST hardware diagnostics $\\rightarrow$ bootstrap loader loads OS kernel from disk into RAM.",
+    "explanationSi": "ප්‍රකාශ 3 ම සත්‍ය වේ: විදුලිය ලබා දුන් විට ROM හි ඇති POST මඟින් දෘඩාංග පරීක්ෂා කරයි $\\rightarrow$ ඉන්පසු මෙහෙයුම් පද්ධතිය දෘඩ තැටියේ සිට RAM මතකය වෙත පූරණය කරයි.",
+    "syllabusRef": "G10-U2.57"
+  },
+  {
+    "id": "g10-u2-q58",
+    "lessonId": "g10-u2",
+    "questionNumber": 58,
+    "promptEn": "A school computer laboratory intends to assemble 20 student workstations. Which combination represents the most appropriate, balanced, and cost-effective specifications for everyday classroom tasks?",
+    "promptSi": "පාසල් පරිගණක විද්‍යාගාරයකට සිසුන්ගේ එදිනෙදා අධ්‍යයන කටයුතු සඳහා පරිගණක 20ක් සකස් කිරීමට අවශ්‍ය වේ. මේ සඳහා වඩාත්ම ගැලපෙන සහ පිරිවැය සාපේක්ෂ දෘඩාංග සංයෝජනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Supercomputer core, 1 TB Cache Memory, Plotter, Magnetic Tape reader",
+        "si": "සුපිරි පරිගණක මධ්‍යයක්, 1 TB වාරික මතකයක්, ප්ලෝටරයක්, චුම්බක පට කියවනයක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Microcomputer (PC) with multi-core CPU, 8 GB RAM, 256 GB SSD, LED Monitor, Keyboard, Mouse, and Laser Printer",
+        "si": "බහු-මධ්‍ය CPU සහිත ක්ෂුද්‍ර පරිගණක (PC), 8 GB RAM, 256 GB SSD, LED මොනිටරය, යතුරුපුවරුව, මූසිකය සහ ලේසර් මුද්‍රකය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Mainframe terminal with only Dot Matrix printer and 64 KB ROM",
+        "si": "තිත් න්‍යාස මුද්‍රකයක් පමණක් සහ 64 KB ROM සහිත මහා පරිගණක පර්යන්ත"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Analog computer with cathode oscilloscope",
+        "si": "කැතෝඩ දෝලනමානයක් සහිත ප්‍රතිසම පරිගණකයක්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Classroom educational labs require standard Microcomputers (PCs) equipped with solid-state storage (SSD) for responsive booting, adequate RAM (8 GB), LED displays, and a fast shared laser printer.",
+    "explanationSi": "පාසල් පරිගණක විද්‍යාගාර සඳහා ක්ෂුද්‍ර පරිගණක (PC), වේගවත් SSD ධාවකයක්, 8 GB RAM, LED මොනිටර සහ කාර්යාල මුද්‍රණ සඳහා ලේසර් මුද්‍රකයක් වඩාත්ම උචිත වේ.",
+    "syllabusRef": "G10-U2.58"
+  },
+  {
+    "id": "g10-u2-q59",
+    "lessonId": "g10-u2",
+    "questionNumber": 59,
+    "promptEn": "Consider the following statements regarding the Memory Hierarchy:",
+    "promptSi": "(i) Registers have the smallest capacity but fastest access speed.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) and (ii) only",
+        "si": "(i) සහ (ii) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (iii) only",
+        "si": "(i) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii), and (iii)",
+        "si": "(i), (ii) සහ (iii) සියල්ලම"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "All statements are correct. In the memory hierarchy pyramid, capacity increases and speed decreases as you move downwards from CPU Registers down to Secondary Storage.",
+    "explanationSi": "ප්‍රකාශ 3 ම සත්‍ය වේ. මතක ධූරාවලි පිරමිඩයේ ඉහළ සිට පහළට යත්ම (රෙජිස්තරවල සිට ද්විතීයික මතකය දක්වා) ධාරිතාව වැඩි වන අතර වේගය අඩු වේ.",
+    "syllabusRef": "G10-U2.59"
+  },
+  {
+    "id": "g10-u2-q60",
+    "lessonId": "g10-u2",
+    "questionNumber": 60,
+    "promptEn": "An automatic weather station records temperature, humidity, and atmospheric pressure using analog sensors, converts these into digital signals using an ADC, logs the data into a database, and generates weather forecasts. What type of computer system does this represent?",
+    "promptSi": "ස්වයංක්‍රීය කාලගුණ මධ්‍යස්ථානයක් ප්‍රතිසම සංවේදක මඟින් උෂ්ණත්වය, ආර්ද්‍රතාව සහ වායුගෝලීය පීඩනය මැන, ADC මඟින් සංඛ්‍යාංක බවට හරවා, දත්ත සමුදායක සුරකිමින් කාලගුණ අනාවැකි සකසයි. මෙය කුමන පරිගණක පද්ධතියකට නිදසුනක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Pure Analog System",
+        "si": "තනි ප්‍රතිසම පද්ධතියක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Pure Digital System",
+        "si": "තනි සංඛ්‍යාංක පද්ධතියක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Hybrid Computer System",
+        "si": "මිශ්‍ර පරිගණක පද්ධතියක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Mainframe System",
+        "si": "මහා පරිගණක පද්ධතියක්"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Systems that capture continuous physical phenomena via analog transducers, convert them via ADCs, and process/store them digitally operate as Hybrid Computer Systems.",
+    "explanationSi": "අඛණ්ඩ භෞතික දත්ත ප්‍රතිසම ලෙස ලබාගෙන, සංඛ්‍යාංක බවට හරවා ගබඩා කරමින් සකසන පද්ධති මිශ්‍ර පරිගණක පද්ධති (Hybrid Computer Systems) වේ.",
+    "syllabusRef": "G10-U2.60"
+  },
+  {
+    "id": "g10-u2-q61",
+    "lessonId": "g10-u2",
+    "questionNumber": 61,
+    "promptEn": "Consider the following statements regarding the Fetch-Decode-Execute machine cycle:",
+    "promptSi": "(i) During the 'Fetch' stage, the instruction is loaded from memory into the Instruction Register.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) and (ii) only",
+        "si": "(i) සහ (ii) පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(i) and (iii) only",
+        "si": "(i) සහ (iii) පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii), and (iii)",
+        "si": "(i), (ii) සහ (iii) සියල්ලම"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "All three statements correctly define the respective stages of the classical von Neumann machine cycle.",
+    "explanationSi": "ප්‍රකාශ 3 ම සත්‍ය වේ. වොන් නියුමන් යන්ත්‍ර චක්‍රයේදී Fetch, Decode සහ Execute පියවර නිවැරදිව ක්‍රියාත්මක වේ.",
+    "syllabusRef": "G10-U2.61"
+  },
+  {
+    "id": "g10-u2-q62",
+    "lessonId": "g10-u2",
+    "questionNumber": 62,
+    "promptEn": "A hospital intensive care unit (ICU) requires continuous monitoring of patient heart rate, blood pressure, and oxygen saturation. The system displays real-time wave graphs, sounds an audible alert if vitals drop below threshold limits, and logs patient records to a central server. Which hardware combination is present in this system?",
+    "promptSi": "රෝහලක දැඩි සත්කාර ඒකකයේ (ICU) රෝගියෙකුගේ හෘද ස්පන්දනය, රුධිර පීඩනය සහ ඔක්සිජන් මට්ටම අඛණ්ඩව නිරීක්ෂණය කරන පද්ධතියක තත්‍ය කාලීන ප්‍රස්ථාර පෙන්වන අතර, අගයන් පහළ ගියහොත් අනතුරු ඇඟවීමේ නාද නිකුත් කරමින් දත්ත මධ්‍යම සර්වරයක සුරකියි. මෙම පද්ධතිය තුළ අඩංගු දෘඩාංග සංයෝජනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Analog medical sensors (Input) + Microcontroller",
+        "si": "CPU (Processing) + Monitor display & Speaker buzzer (Output) + Storage drive (Storage)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "OMR sheet scanner + Dot Matrix printer only",
+        "si": "OMR ස්කෑනරය සහ තිත් න්‍යාස මුද්‍රකය පමණි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Barcode reader + Thermal receipt printer only",
+        "si": "තීරු කේත කියවනය සහ තාප මුද්‍රකය පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Plotter + Magnetic tape streamer only",
+        "si": "ප්ලෝටරය සහ චුම්බක පටය පමණි"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "The ICU monitor embodies all 4 computer functions: biological sensors as Input, microprocessor as Processing, screen and alert siren as Output, and internal drive/server as Storage.",
+    "explanationSi": "මෙම පද්ධතිය පරිගණකයේ මූලික කාර්යයන් 4 ම ක්‍රියාත්මක කරයි: ආදාන ලෙස වෛද්‍ය සංවේදක (Sensors), සැකසුම් ලෙස ප්‍රොසෙසරය (CPU), ප්‍රතිදාන ලෙස මොනිටරය සහ ස්පීකරය (Audio alert), සහ ආචයනය ලෙස දත්ත ගබඩාව (Storage).",
+    "syllabusRef": "G10-U2.62"
+  }
+]

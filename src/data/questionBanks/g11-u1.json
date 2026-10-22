@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "g11-u1-q1",
+    "lessonId": "g11-u1",
+    "questionNumber": 1,
+    "promptEn": "What is an algorithm in problem solving?",
+    "promptSi": "ගැටලු විසඳීමේදී ඇල්ගොරිතමයක් (Algorithm) යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A computer program written in Pascal language",
+        "si": "පැස්කල් භාෂාවෙන් ලියන ලද පරිගණක ක්‍රමලේඛයක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A step-by-step sequence of instructions to solve a given problem in finite steps",
+        "si": "යම් ගැටලුවක් සීමිත පියවර ගණනකින් විසඳීම සඳහා ඇති පියවරෙන් පියවර උපදෙස් මාලාවක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A hardware device inside the CPU",
+        "si": "CPU එක තුළ ඇති භෞතික දෘඩාංග උපාංගයක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "An error that occurs during program compilation",
+        "si": "ක්‍රමලේඛයක් සම්පාදනය කිරීමේදී සිදුවන දෝෂයක්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.1"
+  },
+  {
+    "id": "g11-u1-q2",
+    "lessonId": "g11-u1",
+    "questionNumber": 2,
+    "promptEn": "Which flowchart symbol is correctly matched with its function?",
+    "promptSi": "පහත දැක්වෙන ප්‍රවාහ සටහන් සංකේත අතුරින් එහි කාර්යය නිවැරදිව ගැලපෙන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Rectangle (සෘජුකෝණාස්‍රය) $",
+        "si": "Rectangle (සෘජුකෝණාස්‍රය) $"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Diamond",
+        "si": "Rhombus (රොම්බසය) $"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Parallelogram (සමානතරාස්‍රය) $",
+        "si": "Parallelogram (සමානතරාස්‍රය) $"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Oval",
+        "si": "Pill shape (ඕ Oval / ඉලිප්සය) $"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Option (C) is the correct official syllabus answer.",
+    "explanationSi": "(C) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.2"
+  },
+  {
+    "id": "g11-u1-q3",
+    "lessonId": "g11-u1",
+    "questionNumber": 3,
+    "promptEn": "What are the three fundamental control structures used in algorithms?",
+    "promptSi": "ඇල්ගොරිතමවල භාවිත වන මූලික පාලන ව්‍යුහයන් (Control Structures) තුන කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Input, Process, Output",
+        "si": "ආදානය, ක්‍රියාවලිය, ප්‍රතිදානය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Sequence, Selection, Iteration (Repetition)",
+        "si": "අනුක්‍රමය, තේරීම, පුනරාවර්තනය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Compiler, Interpreter, Assembler",
+        "si": "කම්පයිලරය, ඉන්ටප්‍රිටරය, ඇසෙම්බ්ලරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Integer, Real, Boolean",
+        "si": "පූර්ණ සංඛ්‍යා, තාත්වික සංඛ්‍යා, බූලියානු"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.3"
+  },
+  {
+    "id": "g11-u1-q4",
+    "lessonId": "g11-u1",
+    "questionNumber": 4,
+    "promptEn": "Which pseudo code statement represents an Iteration (Loop) structure?",
+    "promptSi": "පහත pseudo code කේත අතුරින් පුනරාවර්තන ව්‍යුහයක් (Iteration Structure) නිරූපණය කරන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`IF Marks >= 50 THEN Print \"Pass\" ELSE Print \"Fail\"`",
+        "si": "`IF Marks >= 50 THEN Print \"Pass\" ELSE Print \"Fail\"`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`FOR count = 1 TO 10 DO Print count`",
+        "si": "`FOR count = 1 TO 10 DO Print count`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`SET Sum = Num1 + Num2`",
+        "si": "`SET Sum = Num1 + Num2`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`READ Student_Name`",
+        "si": "`READ Student_Name`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.4"
+  },
+  {
+    "id": "g11-u1-q5",
+    "lessonId": "g11-u1",
+    "questionNumber": 5,
+    "promptEn": "What is the output of the following algorithm if the input value for `N` is 7?",
+    "promptSi": "`N` සඳහා ආදාන අගය 7 ලෙස ලබා දුනහොත් පහත ඇල්ගොරිතමයේ ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "EVEN",
+        "si": "EVEN"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "ODD",
+        "si": "ODD"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "7",
+        "si": "7"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Error",
+        "si": "Error"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.5"
+  },
+  {
+    "id": "g11-u1-q6",
+    "lessonId": "g11-u1",
+    "questionNumber": 6,
+    "promptEn": "What is Pseudo Code?",
+    "promptSi": "Pseudo Code (ව්‍යාජ කේත) යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A machine language code that the CPU executes directly",
+        "si": "CPU එක මගින් ඍජුවම ක්‍රියාත්මක කරන යන්ත්‍ර භාෂා කේතයක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "An informal, high-level English-like description of an algorithm not tied to any programming language",
+        "si": "කිසිදු ක්‍රමලේඛන භාෂාවකට සීමා නොවූ, ඉංග්‍රීසි වචන භාවිතයෙන් ලියනු ලබන ඇල්ගොරිතම විස්තරයකි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "An error-free Pascal code",
+        "si": "දෝෂ රහිත පැස්කල් කේතයක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "An automated compiler",
+        "si": "ස්වයංක්‍රීය කම්පයිලරයක්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.6"
+  },
+  {
+    "id": "g11-u1-q7",
+    "lessonId": "g11-u1",
+    "questionNumber": 7,
+    "promptEn": "Which flowchart connector symbol is used to join different flow lines in a complex flowchart?",
+    "promptSi": "සංකීර්ණ ප්‍රවාහ සටහනක විවිධ ප්‍රවාහ රේඛා එකිනෙක සම්බන්ධ කිරීමට භාවිත කරන සංකේතය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Rectangle (සෘජුකෝණාස්‍රය)",
+        "si": "Rectangle (සෘජුකෝණාස්‍රය)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Small Circle (කුඩා කවය",
+        "si": "Connector)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Parallelogram (සමානතරාස්‍රය)",
+        "si": "Parallelogram (සමානතරාස්‍රය)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Diamond (රොම්බසය)",
+        "si": "Diamond (රොම්බසය)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.7"
+  },
+  {
+    "id": "g11-u1-q8",
+    "lessonId": "g11-u1",
+    "questionNumber": 8,
+    "promptEn": "Trace the final value of variable `X` after executing the pseudo code below:",
+    "promptSi": "පහත pseudo code කේතය ක්‍රියාත්මක වූ පසු `X` විචල්‍යයේ අවසාන අගය කොපමණද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "8",
+        "si": "8"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "16",
+        "si": "16"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "32",
+        "si": "32"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "4",
+        "si": "4"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.8"
+  },
+  {
+    "id": "g11-u1-q9",
+    "lessonId": "g11-u1",
+    "questionNumber": 9,
+    "promptEn": "What type of logic structure evaluates a condition BEFORE executing the loop body?",
+    "promptSi": "ලූප් (Loop) ශරීරය ක්‍රියාත්මක කිරීමට පෙර කොන්දේසිය පරික්ෂා කරන්නේ කුමන ආකාරයේ ලූප් ව්‍යුහයකද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Post-test loop",
+        "si": "පශ්චාත්-පරීක්ෂණ ලූප්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Pre-test loop",
+        "si": "පූර්ව-පරීක්ෂණ ලූප්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Continuous sequence",
+        "si": "අඛණ්ඩ අනුක්‍රමය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Dual assignment",
+        "si": "ද්විත්ව පැවරුම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.9"
+  },
+  {
+    "id": "g11-u1-q10",
+    "lessonId": "g11-u1",
+    "questionNumber": 10,
+    "promptEn": "What is the difference between `WHILE..DO` and `REPEAT..UNTIL` loop structures?",
+    "promptSi": "`WHILE..DO` සහ `REPEAT..UNTIL` ලූප් ව්‍යුහයන් අතර ප්‍රධාන වෙනස කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`WHILE..DO` executes at least once, while `REPEAT..UNTIL` may execute zero times",
+        "si": "`WHILE..DO` අවම වශයෙන් එක් වරක්වත් ක්‍රියාත්මක වන අතර `REPEAT..UNTIL` බිංදුවක් වරක් ක්‍රියාත්මක විය හැක"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`WHILE..DO` is a pre-test loop that continues while the condition is TRUE",
+        "si": "`REPEAT..UNTIL` is a post-test loop that continues UNTIL the condition becomes TRUE / `WHILE..DO` යනු කොන්දේසිය සත්‍ය වන තෙක් ක්‍රියාත්මක වන පූර්ව-පරීක්ෂණ ලූප් එකක් වන අතර `REPEAT..UNTIL` යනු කොන්දේසිය සත්‍ය වන තෙක් ක්‍රියාත්මක වන පශ්චාත්-පරීක්ෂණ ලූප් එකකි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`WHILE..DO` cannot use counters",
+        "si": "`WHILE..DO` හි ගණක යෙදිය නොහැක"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "There is no structural difference",
+        "si": "කිසිදු වෙනසක් නොමැත"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.10"
+  },
+  {
+    "id": "g11-u1-q11",
+    "lessonId": "g11-u1",
+    "questionNumber": 11,
+    "promptEn": "Trace the output of the pseudo code below:",
+    "promptSi": "පහත pseudo code කේතයේ ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "3",
+        "si": "3"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "6",
+        "si": "6"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "10",
+        "si": "10"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "0",
+        "si": "0"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.11"
+  },
+  {
+    "id": "g11-u1-q12",
+    "lessonId": "g11-u1",
+    "questionNumber": 12,
+    "promptEn": "What does an arrow line represent in a flowchart?",
+    "promptSi": "ප්‍රවාහ සටහනක ඇති ඊතල රේඛාවකින් (Flow line) නිරූපණය වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Data storage location",
+        "si": "දත්ත ගබඩා කරන ස්ථානය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Direction of execution flow",
+        "si": "ක්‍රියාත්මක වීමේ දිශානතිය (ප්‍රවාහයේ දිශාව)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Logical error",
+        "si": "තර්කික දෝෂයක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Variable declaration",
+        "si": "විචල්‍ය ප්‍රකාශනය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.12"
+  },
+  {
+    "id": "g11-u1-q13",
+    "lessonId": "g11-u1",
+    "questionNumber": 13,
+    "promptEn": "Which pseudo code construct allows selecting one out of multiple alternative choices based on a single variable's value?",
+    "promptSi": "එකම විචල්‍යයක අගය මත පදනම්ව විකල්ප කිහිපයක් අතුරින් එකක් තෝරා ගැනීමට භාවිත කරන ව්‍යුහය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`IF..THEN`",
+        "si": "`IF..THEN`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`CASE..OF`",
+        "si": "`SWITCH`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`FOR..TO..DO`",
+        "si": "`FOR..TO..DO`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`WHILE..DO`",
+        "si": "`WHILE..DO`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.13"
+  },
+  {
+    "id": "g11-u1-q14",
+    "lessonId": "g11-u1",
+    "questionNumber": 14,
+    "promptEn": "What is the process of manually testing an algorithm on paper using sample test data called?",
+    "promptSi": "සාම්පල දත්ත යොදාගනිමින් කඩදාසියක ඇල්ගොරිතමයක නිවැරදිතාව අතින් පරීක්ෂා කිරීමේ ක්‍රියාවලිය හඳුන්වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Compiling",
+        "si": "කම්පයිල් කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Dry Run",
+        "si": "Trace Table testing / ඩ්‍රයි රන් (Dry Run) / ට්‍රේස් සටහන් පරීක්ෂාව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Assembling",
+        "si": "ඇසෙම්බල් කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Execution",
+        "si": "ක්‍රියාත්මක කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.14"
+  },
+  {
+    "id": "g11-u1-q15",
+    "lessonId": "g11-u1",
+    "questionNumber": 15,
+    "promptEn": "In a flowchart, how many exit flow lines can come out from a Decision (Diamond) symbol?",
+    "promptSi": "ප්‍රවාහ සටහනක තීරණ ගැනීමේ (රොම්බස) සංකේතයකින් පිටතට යන ප්‍රවාහ රේඛා ගණන සාමාන්‍යයෙන් කීයද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Exactly 1",
+        "si": "1 ක් පමණි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Exactly 2 (Yes",
+        "si": "No or True / False) / 2 ක් (ඔව් / නැත හෝ සත්‍ය / අසත්‍ය)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Unlimited",
+        "si": "සීමාවක් නැත"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "0",
+        "si": "බිංදුවයි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.15"
+  },
+  {
+    "id": "g11-u1-q16",
+    "lessonId": "g11-u1",
+    "questionNumber": 16,
+    "promptEn": "Which generation of programming languages uses binary code (`0`s and `1`s) directly executable by the CPU?",
+    "promptSi": "CPU එක මගින් ඍජුවම ක්‍රියාත්මක කළ හැකි, බිටු (`0` සහ `1`) භාවිතයෙන් ලියනු ලබන ක්‍රමලේඛන භාෂා පරම්පරාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1st Generation Language (1GL - Machine Language)",
+        "si": "1 වන පරම්පරාවේ භාෂා (යන්ත්‍ර භාෂාව)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "2nd Generation Language (2GL - Assembly Language)",
+        "si": "2 වන පරම්පරාවේ භාෂා (ඇසෙම්බ්ලි භාෂාව)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "3rd Generation Language (3GL - High-Level Languages like Pascal)",
+        "si": "3 වන පරම්පරාවේ භාෂා (උසස් පෙළ භාෂා)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "4th Generation Language (4GL - SQL)",
+        "si": "4 වන පරම්පරාවේ භාෂා"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.16"
+  },
+  {
+    "id": "g11-u1-q17",
+    "lessonId": "g11-u1",
+    "questionNumber": 17,
+    "promptEn": "What are mnemonic codes (e.g., `ADD`, `SUB`, `MOV`, `JMP`) used in?",
+    "promptSi": "`ADD`, `SUB`, `MOV`, `JMP` වැනි මෙනමොනික් (Mnemonic) සංකේත භාවිත වන්නේ කුමන භාෂාවේදීද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Machine Language (1GL)",
+        "si": "යන්ත්‍ර භාෂාව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Assembly Language (2GL)",
+        "si": "ඇසෙම්බ්ලි භාෂාව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Pascal",
+        "si": "Python (3GL) / පැස්කල්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "SQL (4GL)",
+        "si": "SQL (4GL)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.17"
+  },
+  {
+    "id": "g11-u1-q18",
+    "lessonId": "g11-u1",
+    "questionNumber": 18,
+    "promptEn": "What is the key difference between a Compiler and an Interpreter?",
+    "promptSi": "Compiler (කම්පයිලරය) සහ Interpreter (ඉන්ටප්‍රිටරය) අතර ප්‍රධාන වෙනස කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A Compiler translates line-by-line",
+        "si": "an Interpreter translates the entire source code at once / කම්පයිලරය පේළියෙන් පේළිය පරිවර්තනය කරන අතර ඉන්ටප්‍රිටරය මුළු කේතයම එකවර පරිවර්තනය කරයි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A Compiler translates the entire high-level program into executable object code at once",
+        "si": "an Interpreter translates and executes line-by-line / කම්පයිලරය මුළු උසස් පෙළ කේතයම එකවර යන්ත්‍ර කේත බවට පරිවර්තනය කරන අතර ඉන්ටප්‍රිටරය පේළියෙන් පේළිය පරිවර්තනය කර ක්‍රියාත්මක කරයි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Compiler is used for Assembly language",
+        "si": "කම්පයිලරය භාවිත කරන්නේ ඇසෙම්බ්ලි භාෂාව සඳහාය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "There is no difference",
+        "si": "වෙනසක් නොමැත"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.18"
+  },
+  {
+    "id": "g11-u1-q19",
+    "lessonId": "g11-u1",
+    "questionNumber": 19,
+    "promptEn": "What type of error occurs when a programmer violates the grammatical rules of a programming language (e.g., missing a semicolon `;` in Pascal)?",
+    "promptSi": "ක්‍රමලේඛන භාෂාවක ව්‍යාකරණ රීති උල්ලංඝනය කිරීම නිසා (උදා: පැස්කල්හි සෙමිකෝලනය `;` අමතක වීම) සිදුවන දෝෂය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Syntax Error",
+        "si": "ව්‍යාකරණ දෝෂය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Logic Error",
+        "si": "තර්කික දෝෂය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Runtime Error",
+        "si": "ධාවන කාලීන දෝෂය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hardware Error",
+        "si": "දෘඩාංග දෝෂය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.19"
+  },
+  {
+    "id": "g11-u1-q20",
+    "lessonId": "g11-u1",
+    "questionNumber": 20,
+    "promptEn": "If a program compiles without any errors but calculates incorrect output due to a wrong mathematical formula, what type of error is present?",
+    "promptSi": "ක්‍රමලේඛයක් දෝෂ රහිතව කම්පයිල් වන නමුත් ගණිතමය සූත්‍රයක් වැරදීම නිසා සදොස් පිළිතුරක් ලබා දෙන්නේ නම්, එහි ඇත්තේ කුමන ආකාරයේ දෝෂයක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Syntax Error",
+        "si": "ව්‍යාකරණ දෝෂය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Logic Error",
+        "si": "තර්කික දෝෂය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Translator Error",
+        "si": "පරිවර්තක දෝෂය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hardware Error",
+        "si": "දෘඩාංග දෝෂය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.20"
+  },
+  {
+    "id": "g11-u1-q21",
+    "lessonId": "g11-u1",
+    "questionNumber": 21,
+    "promptEn": "Which language translator is specifically used to convert Assembly language into Machine code?",
+    "promptSi": "ඇසෙම්බ්ලි භාෂාව යන්ත්‍ර කේත බවට පරිවර්තනය කිරීමට විශේෂයෙන් භාවිත වන පරිවර්තකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Compiler",
+        "si": "කම්පයිලරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Assembler",
+        "si": "ඇසෙම්බ්ලරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Interpreter",
+        "si": "ඉන්ටප්‍රිටරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Linker",
+        "si": "ලින්කරය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.21"
+  },
+  {
+    "id": "g11-u1-q22",
+    "lessonId": "g11-u1",
+    "questionNumber": 22,
+    "promptEn": "What type of error occurs during execution when a program attempts to divide a number by zero (`X",
+    "promptSi": "0`)?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Syntax Error",
+        "si": "ව්‍යාකරණ දෝෂය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Runtime Error",
+        "si": "ධාවන කාලීන දෝෂය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Logic Error",
+        "si": "තර්කික දෝෂය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Semantic Error",
+        "si": "ශබ්දාර්ථ දෝෂය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.22"
+  },
+  {
+    "id": "g11-u1-q23",
+    "lessonId": "g11-u1",
+    "questionNumber": 23,
+    "promptEn": "High-level programming languages (e.g., Pascal, Python, Java) belong to which language generations?",
+    "promptSi": "පැස්කල්, පයිතන් වැනි උසස් පෙළ ක්‍රමලේඛන භාෂා (High-Level Languages) අයත් වන්නේ කුමන පරම්පරා වලටද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1st Generation",
+        "si": "1 වන පරම්පරාව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "2nd Generation",
+        "si": "2 වන පරම්පරාව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "3rd Generation and above (3GL, 4GL, 5GL)",
+        "si": "3 වන පරම්පරාව සහ ඊට ඉහළ"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hardware generation",
+        "si": "දෘඩාංග පරම්පරාව"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Option (C) is the correct official syllabus answer.",
+    "explanationSi": "(C) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.23"
+  },
+  {
+    "id": "g11-u1-q24",
+    "lessonId": "g11-u1",
+    "questionNumber": 24,
+    "promptEn": "Which statement about Source Code and Object Code is TRUE?",
+    "promptSi": "Source Code (ප්‍රභව කේත) සහ Object Code (වස්තු කේත) පිළිබඳ නිවැරදි ප්‍රකාශය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Source code is written in machine language",
+        "si": "object code is written in Pascal / ප්‍රභව කේත ලියන්නේ යන්ත්‍ර භාෂාවෙනි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Source code is human-readable code written by programmers",
+        "si": "Object code is machine language output produced by a compiler / ප්‍රභව කේත යනු ක්‍රමලේඛකයා විසින් ලියන ලද කේත වන අතර වස්තු කේත යනු කම්පයිලරය මගින් නිපදවන යන්ත්‍ර කේත වේ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "CPU executes source code directly",
+        "si": "CPU එක මගින් ප්‍රභව කේත ඍජුවම ක්‍රියාත්මක කරයි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Object code contains syntax errors",
+        "si": "වස්තු කේතවල ව්‍යාකරණ දෝෂ පවතී"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.24"
+  },
+  {
+    "id": "g11-u1-q25",
+    "lessonId": "g11-u1",
+    "questionNumber": 25,
+    "promptEn": "What is the correct sequence of steps in the Software Development Life Cycle (SDLC)?",
+    "promptSi": "මෘදුකාංග සංවර්ධන ජීවන චක්‍රයේ (SDLC) නිවැරදි පියවර අනුක්‍රමය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Coding $",
+        "si": "Coding $"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Requirement Analysis $",
+        "si": "Requirement Analysis $"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Testing $",
+        "si": "Testing $"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Maintenance $",
+        "si": "Maintenance $"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.25"
+  },
+  {
+    "id": "g11-u1-q26",
+    "lessonId": "g11-u1",
+    "questionNumber": 26,
+    "promptEn": "Which symbol is used for the assignment operator in Pascal?",
+    "promptSi": "පැස්කල් භාෂාවේ පැවරුම් මෙහෙයුම්කාරකය (Assignment Operator) ලෙස භාවිත කරන සංකේතය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`=`",
+        "si": "`=`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`:=`",
+        "si": "`:=`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`==`",
+        "si": "`==`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`<-`",
+        "si": "`<-`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.26"
+  },
+  {
+    "id": "g11-u1-q27",
+    "lessonId": "g11-u1",
+    "questionNumber": 27,
+    "promptEn": "What is the correct syntax to declare an integer variable named `age` in Pascal?",
+    "promptSi": "පැස්කල්හි `age` නමින් පූර්ණ සංඛ්‍යා විචල්‍යයක් ප්‍රකාශ කිරීමේ (Variable Declaration) නිවැරදි කේතය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`integer age",
+        "si": "`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`var age : integer",
+        "si": "`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`dim age as integer",
+        "si": "`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`age = integer",
+        "si": "`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.27"
+  },
+  {
+    "id": "g11-u1-q28",
+    "lessonId": "g11-u1",
+    "questionNumber": 28,
+    "promptEn": "Which keyword marks the end of a complete Pascal program?",
+    "promptSi": "පැස්කල් ක්‍රමලේඛයක සම්පූර්ණ අවසානය සලකුණු කරන වචනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`end",
+        "si": "`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`end.` (with a period)",
+        "si": "`end.` (with a period)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`stop`",
+        "si": "`stop`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`exit`",
+        "si": "`exit`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.28"
+  },
+  {
+    "id": "g11-u1-q29",
+    "lessonId": "g11-u1",
+    "questionNumber": 29,
+    "promptEn": "Which Pascal data type is most appropriate for storing decimal values like `75.50`?",
+    "promptSi": "`75.50` වැනි දශම සංඛ්‍යා ගබඩා කිරීම සඳහා වඩාත්ම සුදුසු පැස්කල් දත්ත වර්ගය (Data Type) කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`integer`",
+        "si": "`integer`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`char`",
+        "si": "`char`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`real`",
+        "si": "`real`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`boolean`",
+        "si": "`boolean`"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Option (C) is the correct official syllabus answer.",
+    "explanationSi": "(C) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.29"
+  },
+  {
+    "id": "g11-u1-q30",
+    "lessonId": "g11-u1",
+    "questionNumber": 30,
+    "promptEn": "What is the value of `X` after executing: `X := 17 div 5;` in Pascal?",
+    "promptSi": "පැස්කල්හි `X := 17 div 5;` ප්‍රකාශනය ක්‍රියාත්මක වූ පසු `X` හි අගය කොපමණද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "3.4",
+        "si": "3.4"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "3",
+        "si": "3"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "2",
+        "si": "2"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "17",
+        "si": "17"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.30"
+  },
+  {
+    "id": "g11-u1-q31",
+    "lessonId": "g11-u1",
+    "questionNumber": 31,
+    "promptEn": "What is the value of `Y` after executing: `Y := 17 mod 5;` in Pascal?",
+    "promptSi": "පැස්කල්හි `Y := 17 mod 5;` ප්‍රකාශනය ක්‍රියාත්මක වූ පසු `Y` හි අගය කොපමණද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "3.4",
+        "si": "3.4"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "3",
+        "si": "3"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "2",
+        "si": "2"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "0",
+        "si": "0"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Option (C) is the correct official syllabus answer.",
+    "explanationSi": "(C) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.31"
+  },
+  {
+    "id": "g11-u1-q32",
+    "lessonId": "g11-u1",
+    "questionNumber": 32,
+    "promptEn": "What is the difference between Pascal statements `write()` and `writeln()`?",
+    "promptSi": "පැස්කල්හි `write()` සහ `writeln()` ප්‍රකාශන අතර වෙනස කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`write()` prints formatted text",
+        "si": "`writeln()` prints unformatted text / `write()` මගින් හැඩසැසූ පෙළ මුද්‍රණය කරයි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`write()` keeps the cursor on the same line after printing",
+        "si": "`writeln()` moves the cursor to the beginning of the next line / `write()` මුද්‍රණයෙන් පසු කර්සරය එම පේළියේම තබන අතර `writeln()` මුද්‍රණයෙන් පසු කර්සරය ඊළඟ පේළියට ගෙන යයි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`write()` is for numbers only",
+        "si": "`write()` භාවිත කරන්නේ සංඛ්‍යා සඳහා පමණි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`writeln()` is an input command",
+        "si": "`writeln()` යනු ආදාන විධානයකි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.32"
+  },
+  {
+    "id": "g11-u1-q33",
+    "lessonId": "g11-u1",
+    "questionNumber": 33,
+    "promptEn": "Which Pascal input statement reads keyboard input into variable `num` and advances the cursor to a new line?",
+    "promptSi": "යතුරුපුවරුවෙන් අගයක් ලබාගෙන `num` විචල්‍යයට පවරා කර්සරය ඊළඟ පේළියට ගෙන යන පැස්කල් විධානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`get(num)",
+        "si": "`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`read(num)",
+        "si": "`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`readln(num)",
+        "si": "`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`input(num)",
+        "si": "`"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Option (C) is the correct official syllabus answer.",
+    "explanationSi": "(C) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.33"
+  },
+  {
+    "id": "g11-u1-q34",
+    "lessonId": "g11-u1",
+    "questionNumber": 34,
+    "promptEn": "How is a real number variable `price` formatted in Pascal to output with 2 decimal places (e.g., `150.75`)?",
+    "promptSi": "පැස්කල්හි `price` නම් තාත්වික විචල්‍යය දශමස්ථාන 2 කට මුද්‍රණය කිරීමට කේතය හඩගන්වන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`writeln(price:2)",
+        "si": "`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`writeln(price:0:2)",
+        "si": "`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`writeln(price.2)",
+        "si": "`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`writeln(format(price, 2))",
+        "si": "`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.34"
+  },
+  {
+    "id": "g11-u1-q35",
+    "lessonId": "g11-u1",
+    "questionNumber": 35,
+    "promptEn": "What is the value of `B` after executing the Pascal code below?",
+    "promptSi": "පහත පැස්කල් කේතය ක්‍රියාත්මක වූ පසු `B` හි අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "10",
+        "si": "10"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "20",
+        "si": "20"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "30",
+        "si": "30"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "0",
+        "si": "0"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.35"
+  },
+  {
+    "id": "g11-u1-q36",
+    "lessonId": "g11-u1",
+    "questionNumber": 36,
+    "promptEn": "Which of the following is a VALID Pascal identifier name?",
+    "promptSi": "පහත සඳහන් දෑ අතුරින් නීත්‍යානුකූල පැස්කල් විචල්‍ය නාමයක් (Identifier) වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`2nd_mark` (starts with digit)",
+        "si": "`2nd_mark` (starts with digit)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`student_score`",
+        "si": "`student_score`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`var` (reserved word)",
+        "si": "`var` (reserved word)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`total mark` (contains space)",
+        "si": "`total mark` (contains space)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.36"
+  },
+  {
+    "id": "g11-u1-q37",
+    "lessonId": "g11-u1",
+    "questionNumber": 37,
+    "promptEn": "What is the output of `15",
+    "promptSi": "2` in Pascal?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "7",
+        "si": "7"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "7.5 (or 7.5000000000E+00 in real floating point format)",
+        "si": "7.5 (or 7.5000000000E+00 in real floating point format)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Error",
+        "si": "Error"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.37"
+  },
+  {
+    "id": "g11-u1-q38",
+    "lessonId": "g11-u1",
+    "questionNumber": 38,
+    "promptEn": "How are multi-line comment blocks enclosed in Pascal code?",
+    "promptSi": "පැස්කල්හි බහු-පේළි සටහන් (Multi-line Comments) ඇතුළත් කරන්නේ කුමන සංකේත තුළද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`",
+        "si": "/ comment`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`{ comment }` or `(* comment *)`",
+        "si": "`{ comment }` or `(* comment *)`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`",
+        "si": "comment * / `"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.38"
+  },
+  {
+    "id": "g11-u1-q39",
+    "lessonId": "g11-u1",
+    "questionNumber": 39,
+    "promptEn": "What is the output of the Pascal expression: `not ( (10 > 5) and (3 = 4) )`?",
+    "promptSi": "පැස්කල් ප්‍රකාශනයේ ප්‍රතිදානය කුමක්ද: `not ( (10 > 5) and (3 = 4) )`?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`true`",
+        "si": "`true`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`false`",
+        "si": "`false`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`10`",
+        "si": "`10`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`error`",
+        "si": "`error`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.39"
+  },
+  {
+    "id": "g11-u1-q40",
+    "lessonId": "g11-u1",
+    "questionNumber": 40,
+    "promptEn": "Which relational operator represents \"Not Equal To\" in Pascal?",
+    "promptSi": "පැස්කල්හි \"අසමානයි\" (Not Equal To) නිරූපණය කරන සංකේතය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`!=`",
+        "si": "`!=`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`<>`",
+        "si": "`<>`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`=",
+        "si": "=`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`NOT =`",
+        "si": "`NOT =`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.40"
+  },
+  {
+    "id": "g11-u1-q41",
+    "lessonId": "g11-u1",
+    "questionNumber": 41,
+    "promptEn": "Trace the output of the Pascal code snippet below:",
+    "promptSi": "පහත පැස්කල් කේතයේ ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A",
+        "si": "A"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "B",
+        "si": "B"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "C",
+        "si": "C"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A and B",
+        "si": "A and B"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.41"
+  },
+  {
+    "id": "g11-u1-q42",
+    "lessonId": "g11-u1",
+    "questionNumber": 42,
+    "promptEn": "How many times will `writeln('*');` execute in the following loop?",
+    "promptSi": "පහත ලූප් එකෙහි `writeln('*');` විධානය කී වතාවක් ක්‍රියාත්මක වේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "4 times",
+        "si": "4 වතාවක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "5 times",
+        "si": "5 වතාවක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "6 times",
+        "si": "6 වතාවක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "0 times",
+        "si": "0 වතාවක්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.42"
+  },
+  {
+    "id": "g11-u1-q43",
+    "lessonId": "g11-u1",
+    "questionNumber": 43,
+    "promptEn": "What is the value of `sum` after executing the Pascal code below?",
+    "promptSi": "පහත පැස්කල් කේතය ක්‍රියාත්මක වූ පසු `sum` හි අගය කොපමණද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "4",
+        "si": "4"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "10",
+        "si": "10"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "16",
+        "si": "16"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "20",
+        "si": "20"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.43"
+  },
+  {
+    "id": "g11-u1-q44",
+    "lessonId": "g11-u1",
+    "questionNumber": 44,
+    "promptEn": "Which keyword is used in a Pascal `for` loop to count BACKWARDS from a higher number to a lower number?",
+    "promptSi": "වැඩි සංඛ්‍යාවක සිට අඩු සංඛ්‍යාවක් දක්වා ආපසු ගණනය කිරීමට පැස්කල් `for` ලූප් එකක භාවිත කරන වචනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`to`",
+        "si": "`to`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`downto`",
+        "si": "`downto`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`step -1`",
+        "si": "`step -1`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`until`",
+        "si": "`until`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.44"
+  },
+  {
+    "id": "g11-u1-q45",
+    "lessonId": "g11-u1",
+    "questionNumber": 45,
+    "promptEn": "Trace the output of the following Pascal snippet:",
+    "promptSi": "පහත පැස්කල් කේතයේ ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "4",
+        "si": "4"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "7",
+        "si": "7"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "10",
+        "si": "10"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.45"
+  },
+  {
+    "id": "g11-u1-q46",
+    "lessonId": "g11-u1",
+    "questionNumber": 46,
+    "promptEn": "What is the correct way to declare a 1D Array in Pascal to store 10 student marks as integers?",
+    "promptSi": "සිසුන් 10 දෙනෙකුගේ ලකුණු පූර්ණ සංඛ්‍යා ලෙස ගබඩා කිරීමට පැස්කල්හි ඒකමාන ඇරේ (1D Array) එකක් ප්‍රකාශ කිරීමේ නිවැරදි කේතය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`var marks : array[1..10] of integer",
+        "si": "`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`var marks : integer[10]",
+        "si": "`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`dim marks(10) as integer",
+        "si": "`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`var marks : array(10) integer",
+        "si": "`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.46"
+  },
+  {
+    "id": "g11-u1-q47",
+    "lessonId": "g11-u1",
+    "questionNumber": 47,
+    "promptEn": "Given `var A : array[1..5] of integer;`, how do you assign value `85` to the 3rd element of array `A`?",
+    "promptSi": "`var A : array[1..5] of integer;` ලෙස ඇති විට, `A` ඇරේ එකෙහි 3 වන මුලද්‍රව්‍යයට `85` අගය පවරන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`A(3) := 85",
+        "si": "`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`A[3] := 85",
+        "si": "`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`A.3 := 85",
+        "si": "`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`array[3] := 85",
+        "si": "`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.47"
+  },
+  {
+    "id": "g11-u1-q48",
+    "lessonId": "g11-u1",
+    "questionNumber": 48,
+    "promptEn": "What is the total storage capacity (number of elements) of an array declared as `var list : array[5..12] of char;`?",
+    "promptSi": "`var list : array[5..12] of char;` ලෙස ප්‍රකාශිත ඇරේ එකක ඇති මුළු මුලද්‍රව්‍ය (Elements) ගණන කීයද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "7",
+        "si": "7"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "8",
+        "si": "8"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "12",
+        "si": "12"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "5",
+        "si": "5"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.48"
+  },
+  {
+    "id": "g11-u1-q49",
+    "lessonId": "g11-u1",
+    "questionNumber": 49,
+    "promptEn": "Trace the output of the following Pascal code using an array:",
+    "promptSi": "පහත පැස්කල් ඇරේ කේතයේ ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "30",
+        "si": "30"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "60",
+        "si": "60"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "40",
+        "si": "40"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "20",
+        "si": "20"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.49"
+  },
+  {
+    "id": "g11-u1-q50",
+    "lessonId": "g11-u1",
+    "questionNumber": 50,
+    "promptEn": "Which Pascal control structure is best suited when multiple actions are triggered based on discrete values of a single integer variable?",
+    "promptSi": "තනි පූර්ණ සංඛ්‍යාත්මක විචල්‍යයක විවිධ අගයන් මත පදනම්ව බහු ක්‍රියාකාරකම් තෝරා ගැනීමට වඩාත්ම සුදුසු පැස්කල් ව්‍යුහය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`if..then..else`",
+        "si": "`if..then..else`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`case..of`",
+        "si": "`case..of`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`while..do`",
+        "si": "`while..do`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`repeat..until`",
+        "si": "`repeat..until`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.50"
+  },
+  {
+    "id": "g11-u1-q51",
+    "lessonId": "g11-u1",
+    "questionNumber": 51,
+    "promptEn": "What happens if a Pascal program attempts to access `marks[15]` when the array is declared as `var marks : array[1..10] of integer;`?",
+    "promptSi": "`var marks : array[1..10] of integer;` ලෙස ප්‍රකාශිත විටෙක `marks[15]` වෙත ප්‍රවේශ වීමට උත්සාහ කළහොත් සිදුවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The compiler resizes the array automatically",
+        "si": "ඇරේ එක ස්වයංක්‍රීයව විශාල වේ"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "An Array Index Out of Bounds runtime error occurs",
+        "si": "Array Index Out of Bounds ධාවන කාලීන දෝෂයක් සිදුවේ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "It returns 0 silently",
+        "si": "කිසිදු දෝෂයකින් තොරව 0 ලබා දෙයි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "It deletes the array",
+        "si": "ඇරේ එක මකයි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.51"
+  },
+  {
+    "id": "g11-u1-q52",
+    "lessonId": "g11-u1",
+    "questionNumber": 52,
+    "promptEn": "Trace the output of the Pascal code snippet below:",
+    "promptSi": "පහත පැස්කල් කේත කොටසේ ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`5 3 1 `",
+        "si": "`5 3 1 `"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`5 3 `",
+        "si": "`5 3 `"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`5 3 1 -1 `",
+        "si": "`5 3 1 -1 `"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`1 3 5 `",
+        "si": "`1 3 5 `"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.52"
+  },
+  {
+    "id": "g11-u1-q53",
+    "lessonId": "g11-u1",
+    "questionNumber": 53,
+    "promptEn": "What is the correct syntax for a Pascal nested `if` structure checking if a score is between 50 and 100 inclusive?",
+    "promptSi": "ලකුණු අගයක් 50 සහ 100 අතර ඇත්දැයි පරීක්ෂා කිරීමේ නිවැරදි පැස්කල් කේතය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`if 50 <= score <= 100 then`",
+        "si": "`if 50 <= score <= 100 then`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`if (score >= 50) and (score <= 100) then`",
+        "si": "`if (score >= 50) and (score <= 100) then`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`if score >= 50 and score <= 100 then`",
+        "si": "`if score >= 50 and score <= 100 then`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`if (score >= 50) & (score <= 100) then`",
+        "si": "`if (score >= 50) & (score <= 100) then`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.53"
+  },
+  {
+    "id": "g11-u1-q54",
+    "lessonId": "g11-u1",
+    "questionNumber": 54,
+    "promptEn": "Which statement correctly describes constant declaration in Pascal?",
+    "promptSi": "පැස්කල්හි නියතයන් (Constants) ප්‍රකාශ කිරීම පිළිබඳ නිවැරදි ප්‍රකාශය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Constants are declared in `var` section and can be changed during execution",
+        "si": "නියතයන් `var` කොටසේ ප්‍රකාශ කරන අතර ධාවන කාලයේදී වෙනස් කළ හැක"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Constants are declared in `const` section and cannot be modified by the program during execution",
+        "si": "නියතයන් `const` කොටසේ ප්‍රකාශ කරන අතර ක්‍රමලේඛය ධාවනය වන විට වෙනස් කළ නොහැක"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Constants use `:=` assignment operator in declaration",
+        "si": "නියත ප්‍රකාශනයේදී `:=` යොදයි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Constants do not require data values",
+        "si": "නියතයන්ට අගයන් අවශ්‍ය නැත"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.54"
+  },
+  {
+    "id": "g11-u1-q55",
+    "lessonId": "g11-u1",
+    "questionNumber": 55,
+    "promptEn": "Trace the output of the Pascal code snippet below:",
+    "promptSi": "පහත පැස්කල් කේත කොටසේ ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "MATCH",
+        "si": "MATCH"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "NO MATCH",
+        "si": "NO MATCH"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "ERROR",
+        "si": "ERROR"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "2",
+        "si": "2"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.55"
+  },
+  {
+    "id": "g11-u1-q56",
+    "lessonId": "g11-u1",
+    "questionNumber": 56,
+    "promptEn": "How do you find the maximum value stored in an integer array `arr[1..5]` using Pascal logic?",
+    "promptSi": "පැස්කල්හි `arr[1..5]` ඇරේ එකක ඇති විශාලතම අගය සෙවීමේ නිවැරදි තර්කය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`max := arr[1]",
+        "si": "for i := 2 to 5 do if arr[i] > max then max := arr[i] / `"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`max := 0",
+        "si": "for i := 1 to 5 do max := arr[i] / `"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`max := sum(arr)",
+        "si": "`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`max := arr[5]",
+        "si": "`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.56"
+  },
+  {
+    "id": "g11-u1-q57",
+    "lessonId": "g11-u1",
+    "questionNumber": 57,
+    "promptEn": "What is the output of the Pascal statement `writeln(sqr(4), ' ', sqrt(16):0:0);`?",
+    "promptSi": "පැස්කල් ප්‍රකාශනයේ ප්‍රතිදානය කුමක්ද `writeln(sqr(4), ' ', sqrt(16):0:0);`?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`16 4`",
+        "si": "`16 4`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`4 16`",
+        "si": "`4 16`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`16 16`",
+        "si": "`16 16`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`8 4`",
+        "si": "`8 4`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.57"
+  },
+  {
+    "id": "g11-u1-q58",
+    "lessonId": "g11-u1",
+    "questionNumber": 58,
+    "promptEn": "In a Pascal program, what section is used to declare user-defined custom types or array structures before declaring variables?",
+    "promptSi": "පැස්කල්හි විචල්‍යයන් ප්‍රකාශ කිරීමට ප්‍රථමයෙන් පරිශීලක-අර්ථදැක්වූ විශේෂ දත්ත වර්ග හෝ ඇරේ ව්‍යුහයන් නිර්මාණය කිරීමට භාවිත කරන කොටස කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`type` section",
+        "si": "`type` section"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`var` section",
+        "si": "`var` section"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`const` section",
+        "si": "`const` section"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`uses` section",
+        "si": "`uses` section"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.58"
+  },
+  {
+    "id": "g11-u1-q59",
+    "lessonId": "g11-u1",
+    "questionNumber": 59,
+    "promptEn": "Trace the final output of the code snippet below:",
+    "promptSi": "පහත කේත කොටසේ අවසාන ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`10 7`",
+        "si": "`10 7`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`7 8`",
+        "si": "`7 8`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`10 7`",
+        "si": "`10 7`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`10 7`",
+        "si": "`10 7`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.59"
+  },
+  {
+    "id": "g11-u1-q60",
+    "lessonId": "g11-u1",
+    "questionNumber": 60,
+    "promptEn": "Which Pascal procedure immediately terminates program execution from anywhere inside the code?",
+    "promptSi": "පැස්කල් කේතය තුළ ඕනෑම තැනක සිට මුළු ක්‍රමලේඛයේම ක්‍රියාකාරීත්වය එසැනින් නතර කිරීමට භාවිත කරන විධානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`exit",
+        "si": "` or `halt / `"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`stop",
+        "si": "`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`break",
+        "si": "`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`end.`",
+        "si": "`end.`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U1.60"
+  }
+]

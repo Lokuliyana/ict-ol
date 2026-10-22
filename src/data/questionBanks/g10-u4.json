@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "g10-u4-q1",
+    "lessonId": "g10-u4",
+    "questionNumber": 1,
+    "promptEn": "Which basic logic gate produces an output of HIGH (1) ONLY when ALL of its inputs are HIGH (1)?",
+    "promptSi": "සියලුම ආදානයන් උසස් (1) වන විට පමණක් ප්‍රතිදානය උසස් (1) ලබා දෙන මූලික තර්ක ද්වාරය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "OR Gate",
+        "si": "OR ද්වාරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "AND Gate",
+        "si": "AND ද්වාරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "NOT Gate",
+        "si": "NOT ද්වාරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "XOR Gate",
+        "si": "XOR ද්වාරය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "An AND gate performs logical multiplication ($Y = A \\cdot B$). Its output is 1 only when both input $A = 1$ AND input $B = 1$. If any input is 0, the output is 0.",
+    "explanationSi": "AND ද්වාරයක් මගින් තර්කානුකූල ගුණ කිරීම සිදු කරයි ($Y = A \\cdot B$). මෙහි $A = 1$ සහ $B = 1$ වන විට පමණක් ප්‍රතිදානය 1 වේ. ඕනෑම එක් ආදානයක් 0 වූ විට ප්‍රතිදානය 0 වේ.",
+    "syllabusRef": "G10-U4.1"
+  },
+  {
+    "id": "g10-u4-q2",
+    "lessonId": "g10-u4",
+    "questionNumber": 2,
+    "promptEn": "What is the Boolean expression for an OR gate with inputs $A$ and $B$?",
+    "promptSi": "$A$ සහ $B$ ආදානයන් සහිත OR ද්වාරයක බූලියානු ප්‍රකාශනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$Y = A \\cdot B$",
+        "si": "$Y = A \\cdot B$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$Y = A + B$",
+        "si": "$Y = A + B$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$Y = \\bar{A}$",
+        "si": "$Y = \\bar{A}$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$Y = \\overline{A \\cdot B}$",
+        "si": "$Y = \\overline{A \\cdot B}$"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "An OR gate performs logical addition ($Y = A + B$). The output is 1 if at least one input is 1.",
+    "explanationSi": "OR ද්වාරයකින් තර්කානුකූල එකතු කිරීම සිදු කරයි ($Y = A + B$). අවම වශයෙන් එක් ආදානයක් 1 වූ විට ප්‍රතිදානය 1 වේ.",
+    "syllabusRef": "G10-U4.2"
+  },
+  {
+    "id": "g10-u4-q3",
+    "lessonId": "g10-u4",
+    "questionNumber": 3,
+    "promptEn": "How many inputs and outputs does a standard NOT gate (Inverter) have?",
+    "promptSi": "සම්මත NOT ද්වාරයක (ආවර්තකය) අඩංගු ආදාන සහ ප්‍රතිදාන ගණන කොපමණද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "2 Inputs, 1 Output",
+        "si": "ආදාන 2 යි, ප්‍රතිදාන 1 යි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "1 Input, 2 Outputs",
+        "si": "ආදාන 1 යි, ප්‍රතිදාන 2 යි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "1 Input, 1 Output",
+        "si": "ආදාන 1 යි, ප්‍රතිදාන 1 යි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "2 Inputs, 2 Outputs",
+        "si": "ආදාන 2 යි, ප්‍රතිදාන 2 යි"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "A NOT gate is a single-input, single-output logic gate that inverts the input signal ($0 \\rightarrow 1$ and $1 \\rightarrow 0$).",
+    "explanationSi": "NOT ද්වාරය යනු තනි ආදානයක් සහ තනි ප්‍රතිදානයක් සහිත ද්වාරයකි. එය ලබාදෙන ආදානය අනුපූරණය/ප්‍රතිලෝම කරයි ($0 \\rightarrow 1$ සහ $1 \\rightarrow 0$).",
+    "syllabusRef": "G10-U4.3"
+  },
+  {
+    "id": "g10-u4-q4",
+    "lessonId": "g10-u4",
+    "questionNumber": 4,
+    "promptEn": "What is the output of an OR gate when the inputs are $A = 0$ and $B = 0$?",
+    "promptSi": "$A = 0$ සහ $B = 0$ වන විට OR ද්වාරයක ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Undefined",
+        "si": "අර්ථ දක්වා නැත"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "High Impedance",
+        "si": "ඉහළ බාධකතාව"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "For an OR gate, $Y = A + B$. Thus, $0 + 0 = 0$. The output is 0 only when all inputs are 0.",
+    "explanationSi": "OR ද්වාරයක $Y = A + B$ වේ. එබැවින් $0 + 0 = 0$ වේ. සියලු ආදාන 0 වන විට පමණක් OR ද්වාරයක ප්‍රතිදානය 0 වේ.",
+    "syllabusRef": "G10-U4.4"
+  },
+  {
+    "id": "g10-u4-q5",
+    "lessonId": "g10-u4",
+    "questionNumber": 5,
+    "promptEn": "If the input to a NOT gate is $A = 1$, what will be the output $Y$?",
+    "promptSi": "NOT ද්වාරයකට ලබා දෙන ආදානය $A = 1$ නම්, එහි ප්‍රතිදානය $Y$ කුමක් වේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "2",
+        "si": "2"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The NOT gate inverts the logic state: $\\bar{1} = 0$.",
+    "explanationSi": "NOT ද්වාරය මගින් තර්ක අගය ප්‍රතිලෝම කරයි: $\\bar{1} = 0$.",
+    "syllabusRef": "G10-U4.5"
+  },
+  {
+    "id": "g10-u4-q6",
+    "lessonId": "g10-u4",
+    "questionNumber": 6,
+    "promptEn": "Which truth table row correctly describes a 2-input AND gate?",
+    "promptSi": "ආදාන 2 ක AND ද්වාරයක සත්‍යතා වගු පේළි නිවැරදිව නිරූපණය කරන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$A=0, B=0 \\rightarrow Y=1$",
+        "si": "$A=0, B=0 \\rightarrow Y=1$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$A=1, B=0 \\rightarrow Y=1$",
+        "si": "$A=1, B=0 \\rightarrow Y=1$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$A=0, B=1 \\rightarrow Y=1$",
+        "si": "$A=0, B=1 \\rightarrow Y=1$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$A=1, B=1 \\rightarrow Y=1$",
+        "si": "$A=1, B=1 \\rightarrow Y=1$"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "An AND gate yields 1 only when both inputs are 1. For $(0,0 \\rightarrow 0)$, $(0,1 \\rightarrow 0)$, $(1,0 \\rightarrow 0)$, and $(1,1 \\rightarrow 1)$.",
+    "explanationSi": "AND ද්වාරයක ප්‍රතිදානය 1 වන්නේ ආදාන දෙකම 1 වූ විට පමණි.",
+    "syllabusRef": "G10-U4.6"
+  },
+  {
+    "id": "g10-u4-q7",
+    "lessonId": "g10-u4",
+    "questionNumber": 7,
+    "promptEn": "What is the logic symbol feature that distinguishes a NOT gate symbol from a buffer?",
+    "promptSi": "NOT ද්වාරයක සංකේතය බෆරයකින් (Buffer) වෙනස් කර හඳුනා ගැනීමට ඇති විශේෂ ලක්ෂණය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A small circle (bubble) at the output",
+        "si": "ප්‍රතිදානයේ ඇති කුඩා කඩතොලු / බබල් රවුම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Curved input line",
+        "si": "වක්‍ර වූ ආදාන රේඛාව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Curved output line",
+        "si": "වක්‍ර වූ ප්‍රතිදාන රේඛාව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Two output pins",
+        "si": "ප්‍රතිදාන අග්‍ර දෙකක් පැවතීම"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "In digital circuit diagrams, a small circle (inversion bubble) at the output of a gate represents the logical NOT (inversion) operation.",
+    "explanationSi": "ඩිජිටල් පරිපථ සටහන්වල ද්වාරයක ප්‍රතිදාන අග්‍රයේ ඇති කුඩා රවුම (Bubble) මගින් තර්කානුකූල අනුපූරණය (NOT/Inversion) නිරූපණය කරයි.",
+    "syllabusRef": "G10-U4.7"
+  },
+  {
+    "id": "g10-u4-q8",
+    "lessonId": "g10-u4",
+    "questionNumber": 8,
+    "promptEn": "For a 3-input AND gate with inputs $A, B, C$, what is the output when $A=1, B=1, C=0$?",
+    "promptSi": "$A, B, C$ ආදාන 3 ක AND ද්වාරයකට $A=1, B=1, C=0$ ලබා දුන් විට ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "3",
+        "si": "3"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Undefined",
+        "si": "අර්ථ දක්වා නැත"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "$Y = A \\cdot B \\cdot C = 1 \\cdot 1 \\cdot 0 = 0$. Since input $C$ is 0, the output of the AND gate becomes 0.",
+    "explanationSi": "$Y = A \\cdot B \\cdot C = 1 \\cdot 1 \\cdot 0 = 0$ වේ. $C$ ආදානය 0 වන බැවින් AND ද්වාරයේ ප්‍රතිදානය 0 වේ.",
+    "syllabusRef": "G10-U4.8"
+  },
+  {
+    "id": "g10-u4-q9",
+    "lessonId": "g10-u4",
+    "questionNumber": 9,
+    "promptEn": "For a 3-input OR gate with inputs $A, B, C$, what is the output when $A=0, B=0, C=1$?",
+    "promptSi": "$A, B, C$ ආදාන 3 ක OR ද්වාරයකට $A=0, B=0, C=1$ ලබා දුන් විට ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "2",
+        "si": "2"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Null",
+        "si": "Null"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "$Y = A + B + C = 0 + 0 + 1 = 1$. Since at least one input is 1, the OR gate output is 1.",
+    "explanationSi": "$Y = A + B + C = 0 + 0 + 1 = 1$ වේ. අවම වශයෙන් එක් ආදානයක් 1 වන බැවින් OR ද්වාරයේ ප්‍රතිදානය 1 වේ.",
+    "syllabusRef": "G10-U4.9"
+  },
+  {
+    "id": "g10-u4-q10",
+    "lessonId": "g10-u4",
+    "questionNumber": 10,
+    "promptEn": "How many total possible input combinations exist in a truth table for a circuit with $n$ inputs?",
+    "promptSi": "$n$ ප්‍රමාණයේ ආදාන ගණනක් සහිත පරිපථයක සත්‍යතා වගුවක පැවතිය හැකි මුළු ආදාන සංයෝජන ගණන කොපමණද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$2n$",
+        "si": "$2n$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$n^2$",
+        "si": "$n^2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$2^n$",
+        "si": "$2^n$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$2^{n+1}$",
+        "si": "$2^{n+1}$"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Since binary variables have 2 states (0 and 1), $n$ input variables result in $2^n$ unique truth table rows ($n=2 \\rightarrow 4$ rows, $n=3 \\rightarrow 8$ rows).",
+    "explanationSi": "ද්විමය සංඛ්‍යාවල පැවතිය හැක්කේ අගයන් 2 ක් (0 සහ 1) බැවින්, ආදාන $n$ ප්‍රමාණයක් සඳහා $2^n$ ප්‍රමාණයේ සංයෝජන පේළි ගණනක් සත්‍යතා වගුවේ පවතී.",
+    "syllabusRef": "G10-U4.10"
+  },
+  {
+    "id": "g10-u4-q11",
+    "lessonId": "g10-u4",
+    "questionNumber": 11,
+    "promptEn": "How many rows will a truth table have for a circuit with 3 inputs ($A, B, C$)?",
+    "promptSi": "ආදාන 3 ක් ($A, B, C$) සහිත පරිපථයක සත්‍යතා වගුවක පේළි ගණන කොපමණද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "4",
+        "si": "4"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "6",
+        "si": "6"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "8",
+        "si": "8"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "16",
+        "si": "16"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "$2^3 = 8$ total rows (ranging from 000 to 111).",
+    "explanationSi": "$2^3 = 8$ ක් වූ මුළු පේළි ගණනක් පවතී (000 සිට 111 දක්වා).",
+    "syllabusRef": "G10-U4.11"
+  },
+  {
+    "id": "g10-u4-q12",
+    "lessonId": "g10-u4",
+    "questionNumber": 12,
+    "promptEn": "Which of the following is equivalent to double negation $\\overline{\\bar{A}}$?",
+    "promptSi": "ද්විත්ව අනුපූරණය වන $\\overline{\\bar{A}}$ සඳහා සමාන වන්නේ පහත සඳහන් කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$\\bar{A}$",
+        "si": "$\\bar{A}$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$A$",
+        "si": "$A$"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "Double negation law states that inverting a signal twice returns the original signal: $\\overline{\\bar{A}} = A$.",
+    "explanationSi": "ද්විත්ව අනුපූරක නියමයට අනුව සංඥාවක් දෙවරක් ප්‍රතිලෝම කළ විට නැවත මුල් සංඥාවම ලැබේ: $\\overline{\\bar{A}} = A$.",
+    "syllabusRef": "G10-U4.12"
+  },
+  {
+    "id": "g10-u4-q13",
+    "lessonId": "g10-u4",
+    "questionNumber": 13,
+    "promptEn": "In Boolean algebra, what is the value of $A \\cdot 0$?",
+    "promptSi": "බූලියානු වීජ ගණිතයේදී $A \\cdot 0$ හි අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$A$",
+        "si": "$A$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$\\bar{A}$",
+        "si": "$\\bar{A}$"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "According to the Annulment/Null law for AND operation, anything ANDed with 0 yields 0 ($A \\cdot 0 = 0$).",
+    "explanationSi": "AND මෙහෙයුමේ ශූන්‍ය නියමයට අනුව, ඕනෑම අගයක් 0 සමග AND කළ විට පිළිතුර 0 වේ ($A \\cdot 0 = 0$).",
+    "syllabusRef": "G10-U4.13"
+  },
+  {
+    "id": "g10-u4-q14",
+    "lessonId": "g10-u4",
+    "questionNumber": 14,
+    "promptEn": "In Boolean algebra, what is the value of $A + 1$?",
+    "promptSi": "බූලියානු වීජ ගණිතයේදී $A + 1$ හි අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$A$",
+        "si": "$A$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$A+1$",
+        "si": "$A+1$"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "According to the Annulment/Null law for OR operation, anything ORed with 1 yields 1 ($A + 1 = 1$).",
+    "explanationSi": "OR මෙහෙයුමේ ශූන්‍ය නියමයට අනුව, ඕනෑම අගයක් 1 සමග OR කළ විට පිළිතුර 1 වේ ($A + 1 = 1$).",
+    "syllabusRef": "G10-U4.14"
+  },
+  {
+    "id": "g10-u4-q15",
+    "lessonId": "g10-u4",
+    "questionNumber": 15,
+    "promptEn": "What is the result of $A \\cdot 1$ in Boolean algebra?",
+    "promptSi": "බූලියානු වීජ ගණිතයේදී $A \\cdot 1$ හි පිළිතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$A$",
+        "si": "$A$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$\\bar{A}$",
+        "si": "$\\bar{A}$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "According to Identity Law, ANDing any variable with 1 preserves the variable's value ($A \\cdot 1 = A$).",
+    "explanationSi": "අනන්‍යතා නියමයට අනුව, ඕනෑම විචල්‍යයක් 1 සමග AND කළ විට විචල්‍යයේ අගය වෙනස් නොවේ ($A \\cdot 1 = A$).",
+    "syllabusRef": "G10-U4.15"
+  },
+  {
+    "id": "g10-u4-q16",
+    "lessonId": "g10-u4",
+    "questionNumber": 16,
+    "promptEn": "A NAND gate is formed by combining which two basic logic gates?",
+    "promptSi": "NAND ද්වාරයක් සෑදී ඇත්තේ කිනම් මූලික තර්ක ද්වාර දෙකක එකතුවෙන්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "AND gate followed by a NOT gate",
+        "si": "AND ද්වාරයක් සහ ඊට පසු NOT ද්වාරයක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "OR gate followed by a NOT gate",
+        "si": "OR ද්වාරයක් සහ ඊට පසු NOT ද්වාරයක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "NOT gate followed by an OR gate",
+        "si": "NOT ද්වාරයක් සහ ඊට පසු OR ද්වාරයක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Two AND gates",
+        "si": "AND ද්වාර දෙකක්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "NAND stands for \"NOT-AND\". The output of an AND gate is passed through a NOT gate: $Y = \\overline{A \\cdot B}$.",
+    "explanationSi": "NAND යනු \"NOT-AND\" යන්නයි. AND ද්වාරයක ප්‍රතිදානය NOT ද්වාරයක් හරහා යැවීමෙන් NAND ද්වාරය සෑදේ ($Y = \\overline{A \\cdot B}$).",
+    "syllabusRef": "G10-U4.16"
+  },
+  {
+    "id": "g10-u4-q17",
+    "lessonId": "g10-u4",
+    "questionNumber": 17,
+    "promptEn": "What is the Boolean expression for a 2-input NOR gate?",
+    "promptSi": "ආදාන 2 ක NOR ද්වාරයක බූලියානු ප්‍රකාශනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$Y = A \\cdot B$",
+        "si": "$Y = A \\cdot B$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$Y = \\overline{A \\cdot B}$",
+        "si": "$Y = \\overline{A \\cdot B}$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$Y = A + B$",
+        "si": "$Y = A + B$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$Y = \\overline{A + B}$",
+        "si": "$Y = \\overline{A + B}$"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "NOR stands for \"NOT-OR\". It inverts the result of an OR operation: $Y = \\overline{A + B}$.",
+    "explanationSi": "NOR යනු \"NOT-OR\" යන්නයි. එය OR මෙහෙයුමක ප්‍රතිදානය අනුපූරණය කරයි: $Y = \\overline{A + B}$.",
+    "syllabusRef": "G10-U4.17"
+  },
+  {
+    "id": "g10-u4-q18",
+    "lessonId": "g10-u4",
+    "questionNumber": 18,
+    "promptEn": "When will a 2-input NAND gate produce an output of LOW (0)?",
+    "promptSi": "ආදාන 2 ක NAND ද්වාරයකින් පහත් (0) ප්‍රතිදානයක් ලබා දෙන්නේ කවදාද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "When both inputs are 0",
+        "si": "ආදාන දෙකම 0 වන විට"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "When one input is 0 and the other is 1",
+        "si": "එක් ආදානයක් 0 සහ අනෙක 1 වන විට"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "When both inputs are 1",
+        "si": "ආදාන දෙකම 1 වන විට"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "At all times",
+        "si": "සෑම විටම"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "An AND gate gives 1 when both inputs are 1. Inverting this with NOT yields 0. For all other combinations, NAND produces 1.",
+    "explanationSi": "ආදාන දෙකම 1 වන විට AND ද්වාරයේ ප්‍රතිදානය 1 වේ. NAND ද්වාරය මගින් එය අනුපූරණය කර 0 ලබා දෙයි. අනෙකුත් සෑම අවස්ථාවකදීම NAND ප්‍රතිදානය 1 වේ.",
+    "syllabusRef": "G10-U4.18"
+  },
+  {
+    "id": "g10-u4-q19",
+    "lessonId": "g10-u4",
+    "questionNumber": 19,
+    "promptEn": "When will a 2-input NOR gate produce an output of HIGH (1)?",
+    "promptSi": "ආදාන 2 ක NOR ද්වාරයකින් උසස් (1) ප්‍රතිදානයක් ලබා දෙන්නේ කවදාද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "When both inputs are 0",
+        "si": "ආදාන දෙකම 0 වන විට"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "When both inputs are 1",
+        "si": "ආදාන දෙකම 1 වන විට"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "When any one input is 1",
+        "si": "ඕනෑම එක් ආදානයක් 1 වන විට"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Never",
+        "si": "කිසිවිටෙක නැත"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "An OR gate gives 0 only when both inputs are 0 ($0+0=0$). Inverting this gives $\\bar{0} = 1$.",
+    "explanationSi": "ආදාන දෙකම 0 වන විට OR ද්වාරයේ ප්‍රතිදානය 0 වේ. NOR ද්වාරය මගින් එය අනුපූරණය කර 1 ලබා දෙයි.",
+    "syllabusRef": "G10-U4.19"
+  },
+  {
+    "id": "g10-u4-q20",
+    "lessonId": "g10-u4",
+    "questionNumber": 20,
+    "promptEn": "What does XOR stand for in digital electronics?",
+    "promptSi": "ඩිජිටල් ඉලෙක්ට්‍රොනික්ස් හි XOR යන්නෙහි තේරුම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Extra OR",
+        "si": "එක්ස්ට්‍රා OR"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Exclusive OR",
+        "si": "එක්ස්ක්ලූසිව් OR"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Extended OR",
+        "si": "එක්ස්ටෙන්ඩඩ් OR"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "External OR",
+        "si": "එක්ස්ටර්නල් OR"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "XOR stands for Exclusive-OR. Its output is 1 if and only if the inputs are different from each other.",
+    "explanationSi": "XOR යනු Exclusive-OR යන්නයි. ආදානයන් එකිනෙකට වෙනස් වන විට පමණක් මෙහි ප්‍රතිදානය 1 වේ.",
+    "syllabusRef": "G10-U4.20"
+  },
+  {
+    "id": "g10-u4-q21",
+    "lessonId": "g10-u4",
+    "questionNumber": 21,
+    "promptEn": "What is the Boolean expression for an XOR gate with inputs $A$ and $B$?",
+    "promptSi": "$A$ සහ $B$ ආදාන සහිත XOR ද්වාරයක බූලියානු ප්‍රකාශනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$Y = A \\oplus B = A\\bar{B} + \\bar{A}B$",
+        "si": "$Y = A \\oplus B = A\\bar{B} + \\bar{A}B$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$Y = A + B$",
+        "si": "$Y = A + B$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$Y = A \\cdot B$",
+        "si": "$Y = A \\cdot B$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$Y = \\overline{A \\oplus B}$",
+        "si": "$Y = \\overline{A \\oplus B}$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "XOR symbol is $\\oplus$. The expanded expression is $Y = A\\bar{B} + \\bar{A}B$.",
+    "explanationSi": "XOR සංකේතය $\\oplus$ වේ. එහි විස්තරාත්මක බූලියානු ප්‍රකාශනය $Y = A\\bar{B} + \\bar{A}B$ වේ.",
+    "syllabusRef": "G10-U4.21"
+  },
+  {
+    "id": "g10-u4-q22",
+    "lessonId": "g10-u4",
+    "questionNumber": 22,
+    "promptEn": "What is the output of a 2-input XOR gate when inputs are $A=1$ and $B=1$?",
+    "promptSi": "$A=1$ සහ $B=1$ වන විට ආදාන 2 ක XOR ද්වාරයක ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "2",
+        "si": "2"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Undefined",
+        "si": "අර්ථ දක්වා නැත"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "XOR yields HIGH only when inputs are *different*. When inputs are identical ($1,1$ or $0,0$), XOR output is 0.",
+    "explanationSi": "XOR ද්වාරයකින් 1 ලබා දෙන්නේ ආදානයන් එකිනෙකට වෙනස් වූ විට පමණි. ආදාන සමාන වන විට ($1,1$ හෝ $0,0$) XOR ප්‍රතිදානය 0 වේ.",
+    "syllabusRef": "G10-U4.22"
+  },
+  {
+    "id": "g10-u4-q23",
+    "lessonId": "g10-u4",
+    "questionNumber": 23,
+    "promptEn": "What is the output of a 2-input XOR gate when inputs are $A=0$ and $B=1$?",
+    "promptSi": "$A=0$ සහ $B=1$ වන විට ආදාන 2 ක XOR ද්වාරයක ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Null",
+        "si": "Null"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Since $A \\neq B$ ($0$ and $1$), the XOR gate produces an output of 1 ($0 \\oplus 1 = 1$).",
+    "explanationSi": "$A$ සහ $B$ ආදානයන් වෙනස් නිසා ($0$ සහ $1$), XOR ද්වාරයේ ප්‍රතිදානය 1 වේ ($0 \\oplus 1 = 1$).",
+    "syllabusRef": "G10-U4.23"
+  },
+  {
+    "id": "g10-u4-q24",
+    "lessonId": "g10-u4",
+    "questionNumber": 24,
+    "promptEn": "Which logic gate acts as an \"Equivalence Gate\" (outputs 1 when inputs are equal)?",
+    "promptSi": "ආදානයන් සමාන වන විට 1 ලබා දෙන \"සමතුලිත ද්වාරය\" (Equivalence Gate) ලෙස හඳුන්වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "XOR Gate",
+        "si": "XOR ද්වාරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "XNOR Gate",
+        "si": "XNOR ද්වාරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "NAND Gate",
+        "si": "NAND ද්වාරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "OR Gate",
+        "si": "OR ද්වාරය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "XNOR is the inverted XOR gate. It outputs 1 when both inputs are equal ($0,0 \\rightarrow 1$ and $1,1 \\rightarrow 1$).",
+    "explanationSi": "XNOR යනු XOR හි අනුපූරකයයි. ආදාන දෙකම සමාන වන විට ($0,0$ සහ $1,1$) XNOR ප්‍රතිදානය 1 වේ.",
+    "syllabusRef": "G10-U4.24"
+  },
+  {
+    "id": "g10-u4-q25",
+    "lessonId": "g10-u4",
+    "questionNumber": 25,
+    "promptEn": "What is the output sequence of a 2-input NAND gate truth table for input rows $(0,0), (0,1), (1,0), (1,1)$?",
+    "promptSi": "$(0,0), (0,1), (1,0), (1,1)$ ආදාන පේළි සඳහා ආදාන 2 ක NAND ද්වාරයක ප්‍රතිදාන අනුක්‍රමය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "0, 0, 0, 1",
+        "si": "0, 0, 0, 1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "1, 1, 1, 0",
+        "si": "1, 1, 1, 0"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "1, 0, 0, 0",
+        "si": "1, 0, 0, 0"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "0, 1, 1, 1",
+        "si": "0, 1, 1, 1"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "AND outputs are $0, 0, 0, 1$. Inverting them gives $1, 1, 1, 0$.",
+    "explanationSi": "AND හි ප්‍රතිදානයන් $0, 0, 0, 1$ වේ. ඒවා අනුපූරණය කළ විට $1, 1, 1, 0$ ලැබේ.",
+    "syllabusRef": "G10-U4.25"
+  },
+  {
+    "id": "g10-u4-q26",
+    "lessonId": "g10-u4",
+    "questionNumber": 26,
+    "promptEn": "What is the output sequence of a 2-input NOR gate truth table for input rows $(0,0), (0,1), (1,0), (1,1)$?",
+    "promptSi": "$(0,0), (0,1), (1,0), (1,1)$ ආදාන පේළි සඳහා ආදාන 2 ක NOR ද්වාරයක ප්‍රතිදාන අනුක්‍රමය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1, 0, 0, 0",
+        "si": "1, 0, 0, 0"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "0, 1, 1, 1",
+        "si": "0, 1, 1, 1"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "1, 1, 1, 0",
+        "si": "1, 1, 1, 0"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "0, 0, 0, 1",
+        "si": "0, 0, 0, 1"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "OR outputs are $0, 1, 1, 1$. Inverting them gives $1, 0, 0, 0$.",
+    "explanationSi": "OR හි ප්‍රතිදානයන් $0, 1, 1, 1$ වේ. ඒවා අනුපූරණය කළ විට $1, 0, 0, 0$ ලැබේ.",
+    "syllabusRef": "G10-U4.26"
+  },
+  {
+    "id": "g10-u4-q27",
+    "lessonId": "g10-u4",
+    "questionNumber": 27,
+    "promptEn": "What is the result of connecting both inputs of a 2-input NAND gate together to a single signal $A$?",
+    "promptSi": "ආදාන 2 ක NAND ද්වාරයක ආදාන දෙකම එකට එකතු කර $A$ තනි සංඥාවට සම්බන්ධ කළ විට ලැබෙන ප්‍රතිඵලය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "AND Gate",
+        "si": "AND ද්වාරයක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "OR Gate",
+        "si": "OR ද්වාරයක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "NOT Gate",
+        "si": "NOT ද්වාරයක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Buffer",
+        "si": "බෆරයක්"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "$Y = \\overline{A \\cdot A} = \\bar{A}$. Thus, tying inputs together converts a NAND gate into a NOT gate (Inverter).",
+    "explanationSi": "$Y = \\overline{A \\cdot A} = \\bar{A}$ වේ. එබැවින් ආදාන දෙකම එකතු කළ විට NAND ද්වාරයක් NOT ද්වාරයක් (ආවර්තකයක්) ලෙස ක්‍රියා කරයි.",
+    "syllabusRef": "G10-U4.27"
+  },
+  {
+    "id": "g10-u4-q28",
+    "lessonId": "g10-u4",
+    "questionNumber": 28,
+    "promptEn": "What is the result of connecting both inputs of a 2-input NOR gate together to a single signal $A$?",
+    "promptSi": "ආදාන 2 ක NOR ද්වාරයක ආදාන දෙකම එකට එකතු කර $A$ තනි සංඥාවට සම්බන්ධ කළ විට ලැබෙන ප්‍රතිඵලය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "NOT Gate",
+        "si": "NOT ද්වාරයක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "OR Gate",
+        "si": "OR ද්වාරයක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "AND Gate",
+        "si": "AND ද්වාරයක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "XOR Gate",
+        "si": "XOR ද්වාරයක්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$Y = \\overline{A + A} = \\bar{A}$. Tying inputs together converts a NOR gate into a NOT gate.",
+    "explanationSi": "$Y = \\overline{A + A} = \\bar{A}$ වේ. ආදාන දෙකම එකතු කළ විට NOR ද්වාරයද NOT ද්වාරයක් බවට පත්වේ.",
+    "syllabusRef": "G10-U4.28"
+  },
+  {
+    "id": "g10-u4-q29",
+    "lessonId": "g10-u4",
+    "questionNumber": 29,
+    "promptEn": "Why are NAND and NOR gates classified as \"Universal Logic Gates\"?",
+    "promptSi": "NAND සහ NOR ද්වාර \"සර්වත්‍ර තර්ක ද්වාර\" (Universal Logic Gates) ලෙස වර්ගීකරණය කරන්නේ ඇයි?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "They are sold everywhere in the world",
+        "si": "ඒවා ලෝකයේ සෑම තැනකම විකිණීමට ඇති බැවින්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Any digital logic gate or complex circuit can be implemented using ONLY NAND or ONLY NOR gates",
+        "si": "ඕනෑම තර්ක ද්වාරයක් හෝ පරිපථයක් NAND පමණක් හෝ NOR පමණක් භාවිතයෙන් නිර්මාණය කළ හැකි බැවින්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "They require zero power supply",
+        "si": "ඒවාට විදුලි සැපයුමක් අවශ්‍ය නොවන බැවින්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "They have infinite inputs",
+        "si": "ඒවායේ අසීමිත ආදාන සංඛ්‍යාවක් ඇති බැවින්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "NAND and NOR gates are called universal because basic operations (AND, OR, NOT) can be entirely built out of them.",
+    "explanationSi": "මූලික තර්ක මෙහෙයුම් (AND, OR, NOT) සියල්ලම NAND පමණක් හෝ NOR පමණක් භාවිතයෙන් ගොඩනැගිය හැකි බැවින් ඒවා සර්වත්‍ර ද්වාර නම් වේ.",
+    "syllabusRef": "G10-U4.29"
+  },
+  {
+    "id": "g10-u4-q30",
+    "lessonId": "g10-u4",
+    "questionNumber": 30,
+    "promptEn": "How many 2-input NAND gates are required to construct a basic NOT gate?",
+    "promptSi": "තනි NOT ද්වාරයක් තැනීමට ආදාන 2 ක NAND ද්වාර කීයක් අවශ්‍ය වේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "2",
+        "si": "2"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "3",
+        "si": "3"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "4",
+        "si": "4"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Tie both inputs of 1 NAND gate together ($Y = \\overline{A \\cdot A} = \\bar{A}$).",
+    "explanationSi": "තනි NAND ද්වාරයක ආදාන දෙක එකට සම්බන්ධ කිරීමෙන් NOT ද්වාරයක් සෑදේ.",
+    "syllabusRef": "G10-U4.30"
+  },
+  {
+    "id": "g10-u4-q31",
+    "lessonId": "g10-u4",
+    "questionNumber": 31,
+    "promptEn": "What is De Morgan's First Law for the complement of a product: $\\overline{A \\cdot B}$?",
+    "promptSi": "ඩි මොර්ගන්ගේ පළමු නියමයට අනුව गुणनผลයක අනුපූරකය වන $\\overline{A \\cdot B}$ සඳහා සමාන වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$\\bar{A} \\cdot \\bar{B}$",
+        "si": "$\\bar{A} \\cdot \\bar{B}$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$\\bar{A} + \\bar{B}$",
+        "si": "$\\bar{A} + \\bar{B}$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$A + B$",
+        "si": "$A + B$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$\\overline{A + B}$",
+        "si": "$\\overline{A + B}$"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "De Morgan's 1st Law states that the complement of a product is equal to the sum of the complements: $\\overline{A \\cdot B} = \\bar{A} + \\bar{B}$.",
+    "explanationSi": "ඩි මොර්ගන්ගේ 1 වන නියමයට අනුව, ගුණිතයක අනුපූරකය වෙන වෙනම අනුපූරකයන්ගේ එකතුවට සමාන වේ: $\\overline{A \\cdot B} = \\bar{A} + \\bar{B}$.",
+    "syllabusRef": "G10-U4.31"
+  },
+  {
+    "id": "g10-u4-q32",
+    "lessonId": "g10-u4",
+    "questionNumber": 32,
+    "promptEn": "What is De Morgan's Second Law for the complement of a sum: $\\overline{A + B}$?",
+    "promptSi": "ඩි මොර්ගන්ගේ දෙවන නියමයට අනුව එකතුවක අනුපූරකය වන $\\overline{A + B}$ සඳහා සමාන වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$\\bar{A} \\cdot \\bar{B}$",
+        "si": "$\\bar{A} \\cdot \\bar{B}$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$\\bar{A} + \\bar{B}$",
+        "si": "$\\bar{A} + \\bar{B}$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$A \\cdot B$",
+        "si": "$A \\cdot B$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$\\overline{A \\cdot B}$",
+        "si": "$\\overline{A \\cdot B}$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "De Morgan's 2nd Law states that the complement of a sum is equal to the product of the complements: $\\overline{A + B} = \\bar{A} \\cdot \\bar{B}$.",
+    "explanationSi": "ඩි මොර්ගන්ගේ 2 වන නියමයට අනුව, එකතුවක අනුපූරකය වෙන වෙනම අනුපූරකයන්ගේ ගුණිතයට සමාන වේ: $\\overline{A + B} = \\bar{A} \\cdot \\bar{B}$.",
+    "syllabusRef": "G10-U4.32"
+  },
+  {
+    "id": "g10-u4-q33",
+    "lessonId": "g10-u4",
+    "questionNumber": 33,
+    "promptEn": "According to the Idempotent Law, what is $A + A$?",
+    "promptSi": "ස්වයංසම නියමයට (Idempotent Law) අනුව, $A + A$ හි අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$2A$",
+        "si": "$2A$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$A^2$",
+        "si": "$A^2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$A$",
+        "si": "$A$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "1",
+        "si": "1"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "In Boolean algebra, logical addition of a variable to itself yields the variable: $A + A = A$.",
+    "explanationSi": "බූලියානු වීජ ගණිතයේදී විචල්‍යයක් තමාටම එකතු කළ විට නැවත එම විචල්‍යයම ලැබේ: $A + A = A$.",
+    "syllabusRef": "G10-U4.33"
+  },
+  {
+    "id": "g10-u4-q34",
+    "lessonId": "g10-u4",
+    "questionNumber": 34,
+    "promptEn": "According to the Idempotent Law, what is $A \\cdot A$?",
+    "promptSi": "ස්වයංසම නියමයට අනුව $A \\cdot A$ හි අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$A$",
+        "si": "$A$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$A^2$",
+        "si": "$A^2$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$2A$",
+        "si": "$2A$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "1",
+        "si": "1"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Logical multiplication of a variable by itself yields the variable: $A \\cdot A = A$.",
+    "explanationSi": "බූලියානු වීජ ගණිතයේදී විචල්‍යයක් තමාගෙන්ම ගුණ කළ විට නැවත එම විචල්‍යයම ලැබේ: $A \\cdot A = A$.",
+    "syllabusRef": "G10-U4.34"
+  },
+  {
+    "id": "g10-u4-q35",
+    "lessonId": "g10-u4",
+    "questionNumber": 35,
+    "promptEn": "According to the Complement Law, what is $A + \\bar{A}$?",
+    "promptSi": "අනුපූරක නියමයට අනුව $A + \\bar{A}$ හි අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$A$",
+        "si": "$A$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$\\bar{A}$",
+        "si": "$\\bar{A}$"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A variable ORed with its complement is always 1 ($0+1=1$ or $1+0=1$).",
+    "explanationSi": "විචල්‍යයක් සහ එහි අනුපූරකය OR කළ විට සැමවිටම පිළිතුර 1 වේ ($0+1=1$ හෝ $1+0=1$).",
+    "syllabusRef": "G10-U4.35"
+  },
+  {
+    "id": "g10-u4-q36",
+    "lessonId": "g10-u4",
+    "questionNumber": 36,
+    "promptEn": "According to the Complement Law, what is $A \\cdot \\bar{A}$?",
+    "promptSi": "අනුපූරක නියමයට අනුව $A \\cdot \\bar{A}$ හි අගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$A$",
+        "si": "$A$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$\\bar{A}$",
+        "si": "$\\bar{A}$"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A variable ANDed with its complement is always 0 ($0 \\cdot 1 = 0$ or $1 \\cdot 0 = 0$).",
+    "explanationSi": "විචල්‍යයක් සහ එහි අනුපූරකය AND කළ විට සැමවිටම පිළිතුර 0 වේ ($0 \\cdot 1 = 0$).",
+    "syllabusRef": "G10-U4.36"
+  },
+  {
+    "id": "g10-u4-q37",
+    "lessonId": "g10-u4",
+    "questionNumber": 37,
+    "promptEn": "Which Boolean law states that $A + B = B + A$ and $A \\cdot B = B \\cdot A$?",
+    "promptSi": "$A + B = B + A$ සහ $A \\cdot B = B \\cdot A$ යන්න දක්වන බූලියානු නියමය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Commutative Law",
+        "si": "පරිවර්ත්‍ය නියමය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Associative Law",
+        "si": "සංයෝජන නියමය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Distributive Law",
+        "si": "ව්‍යාප්ති නියමය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Absorption Law",
+        "si": "අවශෝෂණ නියමය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "The Commutative Law states that changing the order of operands does not change the result.",
+    "explanationSi": "පරිවර්ත්‍ය නියමයට අනුව ආදානවල අනුක්‍රමය වෙනස් කිරීමෙන් ප්‍රතිඵලය වෙනස් නොවේ.",
+    "syllabusRef": "G10-U4.37"
+  },
+  {
+    "id": "g10-u4-q38",
+    "lessonId": "g10-u4",
+    "questionNumber": 38,
+    "promptEn": "Which Boolean law states that $A + (B + C) = (A + B) + C$?",
+    "promptSi": "$A + (B + C) = (A + B) + C$ යන්න දක්වන බූලියානු නියමය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Associative Law",
+        "si": "සංයෝජන නියමය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Commutative Law",
+        "si": "පරිවර්ත්‍ය නියමය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Distributive Law",
+        "si": "ව්‍යාප්ති නියමය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Identity Law",
+        "si": "අනන්‍යතා නියමය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "The Associative Law states that grouping of variables in OR/AND operations does not alter the result.",
+    "explanationSi": "සංයෝජන නියමයට අනුව OR හෝ AND මෙහෙයුම්වලදී විචල්‍යයන් කාණ්ඩගත කිරීම වෙනස් කළද පිළිතුර වෙනස් නොවේ.",
+    "syllabusRef": "G10-U4.38"
+  },
+  {
+    "id": "g10-u4-q39",
+    "lessonId": "g10-u4",
+    "questionNumber": 39,
+    "promptEn": "Simplify the Boolean expression $A + AB$.",
+    "promptSi": "$A + AB$ බූලියානු ප්‍රකාශනය සරල කරන්න.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$B$",
+        "si": "$B$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$A$",
+        "si": "$A$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$A+B$",
+        "si": "$A+B$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$AB$",
+        "si": "$AB$"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "By Absorption Law: $A + AB = A(1 + B) = A(1) = A$.",
+    "explanationSi": "අවශෝෂණ නියමයට අනුව: $A + AB = A(1 + B) = A(1) = A$ වේ.",
+    "syllabusRef": "G10-U4.39"
+  },
+  {
+    "id": "g10-u4-q40",
+    "lessonId": "g10-u4",
+    "questionNumber": 40,
+    "promptEn": "Simplify the Boolean expression $A + \\bar{A}B$.",
+    "promptSi": "$A + \\bar{A}B$ බූලියානු ප්‍රකාශනය සරල කරන්න.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$A$",
+        "si": "$A$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$B$",
+        "si": "$B$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$A + B$",
+        "si": "$A + B$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$A \\cdot B$",
+        "si": "$A \\cdot B$"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "By Redundancy/Distributive Law: $A + \\bar{A}B = (A + \\bar{A})(A + B) = (1)(A + B) = A + B$.",
+    "explanationSi": "$A + \\bar{A}B = (A + \\bar{A})(A + B) = (1)(A + B) = A + B$ වේ.",
+    "syllabusRef": "G10-U4.40"
+  },
+  {
+    "id": "g10-u4-q41",
+    "lessonId": "g10-u4",
+    "questionNumber": 41,
+    "promptEn": "What is the Boolean expression for a circuit where input $A$ passes through a NOT gate, and its output is ANDed with input $B$?",
+    "promptSi": "$A$ ආදානය NOT ද්වාරයක් හරහා යවා, එහි ප්‍රතිදානය $B$ ආදානය සමග AND ද්වාරයකට දුන් විට ලැබෙන පරිපථයේ බූලියානු ප්‍රකාශනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$Y = \\bar{A} + B$",
+        "si": "$Y = \\bar{A} + B$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$Y = \\bar{A} \\cdot B$",
+        "si": "$Y = \\bar{A} \\cdot B$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$Y = A \\cdot \\bar{B}$",
+        "si": "$Y = A \\cdot \\bar{B}$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$Y = \\overline{A \\cdot B}$",
+        "si": "$Y = \\overline{A \\cdot B}$"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The NOT gate produces $\\bar{A}$. This is then input into an AND gate alongside $B$, yielding $Y = \\bar{A} \\cdot B$.",
+    "explanationSi": "NOT ද්වාරයෙන් $\\bar{A}$ ලබා දේ. එය $B$ සමග AND කළ විට $Y = \\bar{A} \\cdot B$ ලැබේ.",
+    "syllabusRef": "G10-U4.41"
+  },
+  {
+    "id": "g10-u4-q42",
+    "lessonId": "g10-u4",
+    "questionNumber": 42,
+    "promptEn": "Evaluate the output $Y$ for expression $Y = (A + B) \\cdot C$ when $A=1, B=0, C=0$.",
+    "promptSi": "$A=1, B=0, C=0$ වන විට $Y = (A + B) \\cdot C$ හි ප්‍රතිදානය $Y$ ගණනය කරන්න.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "2",
+        "si": "2"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Undefined",
+        "si": "අර්ථ දක්වා නැත"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "$A + B = 1 + 0 = 1$. Then, $(1) \\cdot C = 1 \\cdot 0 = 0$.",
+    "explanationSi": "$A + B = 1 + 0 = 1$ වේ. පසුව, $1 \\cdot C = 1 \\cdot 0 = 0$ වේ.",
+    "syllabusRef": "G10-U4.42"
+  },
+  {
+    "id": "g10-u4-q43",
+    "lessonId": "g10-u4",
+    "questionNumber": 43,
+    "promptEn": "Evaluate the output $Y$ for expression $Y = \\overline{A \\cdot B} + C$ when $A=1, B=1, C=0$.",
+    "promptSi": "$A=1, B=1, C=0$ වන විට $Y = \\overline{A \\cdot B} + C$ හි ප්‍රතිදානය $Y$ ගණනය කරන්න.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "2",
+        "si": "2"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Null",
+        "si": "Null"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "$A \\cdot B = 1 \\cdot 1 = 1$. $\\overline{1} = 0$. Then $0 + C = 0 + 0 = 0$.",
+    "explanationSi": "$A \\cdot B = 1 \\cdot 1 = 1$ වේ. එහි අනුපූරකය $\\bar{1} = 0$ වේ. පසුව $0 + C = 0 + 0 = 0$ වේ.",
+    "syllabusRef": "G10-U4.43"
+  },
+  {
+    "id": "g10-u4-q44",
+    "lessonId": "g10-u4",
+    "questionNumber": 44,
+    "promptEn": "What is the output of the Boolean function $Y = A\\bar{B} + \\bar{A}B$ when $A=0$ and $B=0$?",
+    "promptSi": "$A=0$ සහ $B=0$ වන විට $Y = A\\bar{B} + \\bar{A}B$ බූලියානු ශ්‍රිතයේ ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "2",
+        "si": "2"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "$Y = (0 \\cdot 1) + (1 \\cdot 0) = 0 + 0 = 0$.",
+    "explanationSi": "$Y = (0 \\cdot 1) + (1 \\cdot 0) = 0 + 0 = 0$ වේ.",
+    "syllabusRef": "G10-U4.44"
+  },
+  {
+    "id": "g10-u4-q45",
+    "lessonId": "g10-u4",
+    "questionNumber": 45,
+    "promptEn": "What is the output of the Boolean function $Y = A\\bar{B} + \\bar{A}B$ when $A=1$ and $B=0$?",
+    "promptSi": "$A=1$ සහ $B=0$ වන විට $Y = A\\bar{B} + \\bar{A}B$ බූලියානු ශ්‍රිතයේ ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "0",
+        "si": "0"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "2",
+        "si": "2"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Null",
+        "si": "Null"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "$Y = (1 \\cdot \\bar{0}) + (\\bar{1} \\cdot 0) = (1 \\cdot 1) + (0 \\cdot 0) = 1 + 0 = 1$.",
+    "explanationSi": "$Y = (1 \\cdot 1) + (0 \\cdot 0) = 1 + 0 = 1$ වේ.",
+    "syllabusRef": "G10-U4.45"
+  },
+  {
+    "id": "g10-u4-q46",
+    "lessonId": "g10-u4",
+    "questionNumber": 46,
+    "promptEn": "Which gate is represented by the expression $Y = \\overline{A + B}$?",
+    "promptSi": "$Y = \\overline{A + B}$ ප්‍රකාශනය මගින් නිරූපණය වන තර්ක ද්වාරය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "NAND",
+        "si": "NAND"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "NOR",
+        "si": "NOR"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "XOR",
+        "si": "XOR"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "XNOR",
+        "si": "XNOR"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "NOR gate performs OR followed by NOT: $Y = \\overline{A + B}$.",
+    "explanationSi": "NOR ද්වාරය මගින් OR මෙහෙයුමෙන් පසු NOT සිදු කරයි: $Y = \\overline{A + B}$.",
+    "syllabusRef": "G10-U4.46"
+  },
+  {
+    "id": "g10-u4-q47",
+    "lessonId": "g10-u4",
+    "questionNumber": 47,
+    "promptEn": "Which gate is represented by the expression $Y = \\overline{A \\cdot B}$?",
+    "promptSi": "$Y = \\overline{A \\cdot B}$ ප්‍රකාශනය මගින් නිරූපණය වන තර්ක ද්වාරය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "NOR",
+        "si": "NOR"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "NAND",
+        "si": "NAND"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "XOR",
+        "si": "XOR"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "AND",
+        "si": "AND"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "NAND gate performs AND followed by NOT: $Y = \\overline{A \\cdot B}$.",
+    "explanationSi": "NAND ද්වාරය මගින් AND මෙහෙයුමෙන් පසු NOT සිදු කරයි: $Y = \\overline{A \\cdot B}$.",
+    "syllabusRef": "G10-U4.47"
+  },
+  {
+    "id": "g10-u4-q48",
+    "lessonId": "g10-u4",
+    "questionNumber": 48,
+    "promptEn": "Consider a safety alarm system that sounds ($Y=1$) if Temperature is High ($T=1$) AND Smoke is Detected ($S=1$). Which logic gate models this system?",
+    "promptSi": "උෂ්ණත්වය ඉහළ ගියහොත් ($T=1$) සහ දුම හඳුනාගතහොත් ($S=1$) පමණක් නාද වන ($Y=1$) ආරක්ෂිත අනතුරු ඇඟවීමේ පද්ධතියක් ආකෘතිකරණය කිරීමට සුදුසු තර්ක ද්වාරය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "OR Gate",
+        "si": "OR ද්වාරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "AND Gate",
+        "si": "AND ද්වාරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "NOT Gate",
+        "si": "NOT ද්වාරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "NOR Gate",
+        "si": "NOR ද්වාරය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The alarm requires BOTH conditions to be true ($T=1$ AND $S=1$), which is an AND operation ($Y = T \\cdot S$).",
+    "explanationSi": "අනතුරු ඇඟවීම නාද වීමට කරුණු දෙකම සත්‍ය විය යුතුය ($T=1$ සහ $S=1$). එය AND මෙහෙයුමකි ($Y = T \\cdot S$).",
+    "syllabusRef": "G10-U4.48"
+  },
+  {
+    "id": "g10-u4-q49",
+    "lessonId": "g10-u4",
+    "questionNumber": 49,
+    "promptEn": "Consider a room lighting circuit where the bulb lights ($Y=1$) if Switch A is ON ($A=1$) OR Switch B is ON ($B=1$). Which logic gate models this circuit?",
+    "promptSi": "A ස්විචය ක්‍රියාත්මක කළ විට ($A=1$) හෝ B ස්විචය ක්‍රියාත්මක කළ විට ($B=1$) දැල්වෙන ($Y=1$) විදුලි බුබුලක පරිපථය ආකෘතිකරණය කරන්නේ කිනම් ද්වාරයකින්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "AND Gate",
+        "si": "AND ද්වාරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "OR Gate",
+        "si": "OR ද්වාරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "NAND Gate",
+        "si": "NAND ද්වාරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "XOR Gate",
+        "si": "XOR ද්වාරය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The light turns ON if at least one switch is closed ($A=1$ OR $B=1$), which is an OR operation ($Y = A + B$).",
+    "explanationSi": "අවම වශයෙන් එක් ස්විචයක් හෝ ක්‍රියාත්මක කළ විට බුබුල දැල්වේ. එය OR මෙහෙයුමකි ($Y = A + B$).",
+    "syllabusRef": "G10-U4.49"
+  },
+  {
+    "id": "g10-u4-q50",
+    "lessonId": "g10-u4",
+    "questionNumber": 50,
+    "promptEn": "A staircase light switch allows controlling a lamp from two different locations. The lamp toggles when either switch is changed. Which logic gate models this?",
+    "promptSi": "පඩිපෙළක විදුලි බුබුලක් ස්ථාන දෙකකින් පාලනය කිරීමට යොදන ස්විච පරිපථයක් (එක් ස්විචයක් වෙනස් කළ විට බුබුල දැල්වේ/නිවේ) ආකෘතිකරණය කරන්නේ කුමන ද්වාරයෙන්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "AND Gate",
+        "si": "AND ද්වාරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "XOR Gate",
+        "si": "XOR ද්වාරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "NOR Gate",
+        "si": "NOR ද්වාරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "NOT Gate",
+        "si": "NOT ද්වාරය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Dual staircase switching uses XOR logic because changing any one switch state causes the inputs to differ, changing the output state.",
+    "explanationSi": "ස්ථාන දෙකක පඩිපෙළ ස්විච පරිපථ XOR තාර්කික මෙහෙයුම භාවිත කරයි. ඕනෑම එක් ස්විචයක් වෙනස් කළ විට ආදාන එකිනෙකට වෙනස් වී බුබුලේ තත්ත්වය වෙනස් වේ.",
+    "syllabusRef": "G10-U4.50"
+  },
+  {
+    "id": "g10-u4-q51",
+    "lessonId": "g10-u4",
+    "questionNumber": 51,
+    "promptEn": "What is the result of simplifying $A(A + B)$ using Boolean laws?",
+    "promptSi": "$A(A + B)$ බූලියානු නියම භාවිතයෙන් සරල කළ විට ලැබෙන පිළිතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$A + B$",
+        "si": "$A + B$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$A$",
+        "si": "$A$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$AB$",
+        "si": "$AB$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$B$",
+        "si": "$B$"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Expand: $A \\cdot A + A \\cdot B = A + AB = A(1 + B) = A(1) = A$. This is the Absorption Law.",
+    "explanationSi": "ව්‍යාප්ත කළ විට: $A \\cdot A + A \\cdot B = A + AB = A(1 + B) = A(1) = A$ වේ. මෙය අවශෝෂණ නියමයයි.",
+    "syllabusRef": "G10-U4.51"
+  },
+  {
+    "id": "g10-u4-q52",
+    "lessonId": "g10-u4",
+    "questionNumber": 52,
+    "promptEn": "What is the result of simplifying $(A + B)(A + C)$ using the Distributive Law?",
+    "promptSi": "ව්‍යාප්ති නියමය භාවිතයෙන් $(A + B)(A + C)$ සරල කළ විට ලැබෙන පිළිතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$A + BC$",
+        "si": "$A + BC$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$AB + C$",
+        "si": "$AB + C$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$A + B + C$",
+        "si": "$A + B + C$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$ABC$",
+        "si": "$ABC$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Expand: $AA + AC + AB + BC = A + AC + AB + BC = A(1 + C + B) + BC = A(1) + BC = A + BC$.",
+    "explanationSi": "ව්‍යාප්ත කළ විට: $AA + AC + AB + BC = A(1 + C + B) + BC = A + BC$ වේ.",
+    "syllabusRef": "G10-U4.52"
+  },
+  {
+    "id": "g10-u4-q53",
+    "lessonId": "g10-u4",
+    "questionNumber": 53,
+    "promptEn": "Convert the expression $\\overline{A + B + C}$ using De Morgan's Law.",
+    "promptSi": "ඩි මොර්ගන්ගේ නියමය භාවිතයෙන් $\\overline{A + B + C}$ ප්‍රකාශනය පරිවර්තනය කරන්න.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$\\bar{A} + \\bar{B} + \\bar{C}$",
+        "si": "$\\bar{A} + \\bar{B} + \\bar{C}$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$\\bar{A} \\cdot \\bar{B} \\cdot \\bar{C}$",
+        "si": "$\\bar{A} \\cdot \\bar{B} \\cdot \\bar{C}$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$A \\cdot B \\cdot C$",
+        "si": "$A \\cdot B \\cdot C$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$\\overline{A \\cdot B \\cdot C}$",
+        "si": "$\\overline{A \\cdot B \\cdot C}$"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The complement of a multi-variable sum equals the product of their individual complements: $\\overline{A + B + C} = \\bar{A} \\cdot \\bar{B} \\cdot \\bar{C}$.",
+    "explanationSi": "බහු-විචල්‍ය එකතුවක අනුපූරකය ඒවායේ වෙන වෙනම අනුපූරකයන්ගේ ගුණිතයට සමාන වේ: $\\overline{A + B + C} = \\bar{A} \\cdot \\bar{B} \\cdot \\bar{C}$.",
+    "syllabusRef": "G10-U4.53"
+  },
+  {
+    "id": "g10-u4-q54",
+    "lessonId": "g10-u4",
+    "questionNumber": 54,
+    "promptEn": "Convert the expression $\\overline{A \\cdot B \\cdot C}$ using De Morgan's Law.",
+    "promptSi": "ඩි මොර්ගන්ගේ නියමය භාවිතයෙන් $\\overline{A \\cdot B \\cdot C}$ ප්‍රකාශනය පරිවර්තනය කරන්න.",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$\\bar{A} \\cdot \\bar{B} \\cdot \\bar{C}$",
+        "si": "$\\bar{A} \\cdot \\bar{B} \\cdot \\bar{C}$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$\\bar{A} + \\bar{B} + \\bar{C}$",
+        "si": "$\\bar{A} + \\bar{B} + \\bar{C}$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$A + B + C$",
+        "si": "$A + B + C$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$\\overline{A + B + C}$",
+        "si": "$\\overline{A + B + C}$"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The complement of a multi-variable product equals the sum of their individual complements: $\\overline{A \\cdot B \\cdot C} = \\bar{A} + \\bar{B} + \\bar{C}$.",
+    "explanationSi": "බහු-විචල්‍ය ගුණිතයක අනුපූරකය ඒවායේ වෙන වෙනම අනුපූරකයන්ගේ එකතුවට සමාන වේ: $\\overline{A \\cdot B \\cdot C} = \\bar{A} + \\bar{B} + \\bar{C}$.",
+    "syllabusRef": "G10-U4.54"
+  },
+  {
+    "id": "g10-u4-q55",
+    "lessonId": "g10-u4",
+    "questionNumber": 55,
+    "promptEn": "How many 2-input NAND gates are required to construct a 2-input AND gate?",
+    "promptSi": "ආදාන 2 ක AND ද්වාරයක් සෑදීමට ආදාන 2 ක NAND ද්වාර කීයක් අවශ්‍ය වේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "2",
+        "si": "2"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "3",
+        "si": "3"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "4",
+        "si": "4"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Pass $A$ and $B$ into a NAND gate to get $\\overline{A \\cdot B}$. Then pass this output through a second NAND gate configured as an Inverter (NOT) to get $\\overline{\\overline{A \\cdot B}} = A \\cdot B$. Total = 2 NAND gates.",
+    "explanationSi": "පළමු NAND ද්වාරයෙන් $\\overline{A \\cdot B}$ ලබාගෙන, එය NOT ලෙස සකස් කළ දෙවන NAND ද්වාරයක් හරහා යැවීමෙන් $A \\cdot B$ (AND) ලැබේ. මුළු NAND ගණන = 2 කි.",
+    "syllabusRef": "G10-U4.55"
+  },
+  {
+    "id": "g10-u4-q56",
+    "lessonId": "g10-u4",
+    "questionNumber": 56,
+    "promptEn": "How many 2-input NOR gates are required to construct a 2-input OR gate?",
+    "promptSi": "ආදාන 2 ක OR ද්වාරයක් සෑදීමට ආදාන 2 ක NOR ද්වාර කීයක් අවශ්‍ය වේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1",
+        "si": "1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "2",
+        "si": "2"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "3",
+        "si": "3"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "4",
+        "si": "4"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "First NOR gate gives $\\overline{A + B}$. Second NOR gate acting as NOT inverts it to $\\overline{\\overline{A + B}} = A + B$. Total = 2 NOR gates.",
+    "explanationSi": "පළමු NOR ද්වාරයෙන් $\\overline{A + B}$ ලබාගෙන, දෙවන NOR ද්වාරයෙන් එය අනුපූරණය කිරීමෙන් $A + B$ (OR) ලැබේ. මුළු NOR ගණන = 2 කි.",
+    "syllabusRef": "G10-U4.56"
+  },
+  {
+    "id": "g10-u4-q57",
+    "lessonId": "g10-u4",
+    "questionNumber": 57,
+    "promptEn": "What is the boolean function for a Half Adder's Sum ($S$) output with inputs $A$ and $B$?",
+    "promptSi": "$A$ සහ $B$ ආදාන සහිත අර්ධ එකතුකරණයක (Half Adder) එකතුව ($S$) සඳහා වන බූලියානු ශ්‍රිතය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$S = A \\cdot B$",
+        "si": "$S = A \\cdot B$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$S = A \\oplus B$",
+        "si": "$S = A \\oplus B$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$S = A + B$",
+        "si": "$S = A + B$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$S = \\overline{A \\cdot B}$",
+        "si": "$S = \\overline{A \\cdot B}$"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In a Half Adder circuit, the Sum bit is computed using an XOR gate ($S = A \\oplus B$), while the Carry bit is computed using an AND gate ($C = A \\cdot B$).",
+    "explanationSi": "අර්ධ එකතුකරණ පරිපථයක එකතු කිරීමේ බිටුව ($S$) XOR ද්වාරයකින්ද ($S = A \\oplus B$), ශේෂ බිටුව ($C$) AND ද්වාරයකින්ද ($C = A \\cdot B$) ගණනය කරයි.",
+    "syllabusRef": "G10-U4.57"
+  },
+  {
+    "id": "g10-u4-q58",
+    "lessonId": "g10-u4",
+    "questionNumber": 58,
+    "promptEn": "What is the boolean function for a Half Adder's Carry ($C$) output with inputs $A$ and $B$?",
+    "promptSi": "$A$ සහ $B$ ආදාන සහිත අර්ධ එකතුකරණයක (Half Adder) ශේෂය ($C$) සඳහා වන බූලියානු ශ්‍රිතය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$C = A \\cdot B$",
+        "si": "$C = A \\cdot B$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$C = A \\oplus B$",
+        "si": "$C = A \\oplus B$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$C = A + B$",
+        "si": "$C = A + B$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$C = \\bar{A}B$",
+        "si": "$C = \\bar{A}B$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Carry occurs only when both bits are 1 ($1+1 = 10_2 \\rightarrow \\text{Sum}=0, \\text{Carry}=1$), modeled by an AND gate ($C = A \\cdot B$).",
+    "explanationSi": "බිටු දෙකම 1 වන විට පමණක් ශේෂයක් ($C=1$) ජනනය වේ ($1+1 = 10_2$). එය AND ද්වාරයකින් ආකෘතිකරණය වේ ($C = A \\cdot B$).",
+    "syllabusRef": "G10-U4.58"
+  },
+  {
+    "id": "g10-u4-q59",
+    "lessonId": "g10-u4",
+    "questionNumber": 59,
+    "promptEn": "Which logic circuit combination represents the expression $Y = \\bar{A}\\bar{B}$?",
+    "promptSi": "$Y = \\bar{A}\\bar{B}$ ප්‍රකාශනය නිරූපණය කරන පරිපථ සංයෝජනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Inputs $A$ and $B$ passed through NOT gates, then into an AND gate",
+        "si": "$A$ සහ $B$ ආදානයන් NOT ද්වාර හරහා යවා පසුව AND ද්වාරයකට දීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Inputs $A$ and $B$ passed into a NOR gate",
+        "si": "$A$ සහ $B$ ආදානයන් NOR ද්වාරයකට දීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Both (A) and (B) according to De Morgan's Law",
+        "si": "ඩි මොර්ගන්ගේ නියමයට අනුව (A) සහ (B) දෙකම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Neither (A) nor (B)",
+        "si": "(A) හෝ (B) දෙකම නොවේ"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "By De Morgan's Law, $\\overline{A + B} = \\bar{A} \\cdot \\bar{B}$. A NOR gate is equivalent to an AND gate with inverted inputs (Active-Low AND).",
+    "explanationSi": "ඩි මොර්ගන්ගේ නියමයට අනුව $\\overline{A + B} = \\bar{A} \\cdot \\bar{B}$ වේ. එනම් NOR ද්වාරයක් යනු ආදානයන් ප්‍රතිලෝම කළ AND ද්වාරයකට සමාන වේ.",
+    "syllabusRef": "G10-U4.59"
+  },
+  {
+    "id": "g10-u4-q60",
+    "lessonId": "g10-u4",
+    "questionNumber": 60,
+    "promptEn": "What is the simplified expression for $Y = A\\bar{B}C + A\\bar{B}\\bar{C}$?",
+    "promptSi": "$Y = A\\bar{B}C + A\\bar{B}\\bar{C}$ සඳහා සරල කළ ප්‍රකාශනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "$A\\bar{B}$",
+        "si": "$A\\bar{B}$"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "$AC$",
+        "si": "$AC$"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "$A + B$",
+        "si": "$A + B$"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "$ABC$",
+        "si": "$ABC$"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Factor out $A\\bar{B}$: $Y = A\\bar{B}(C + \\bar{C})$. Since $C + \\bar{C} = 1$, $Y = A\\bar{B}(1) = A\\bar{B}$.",
+    "explanationSi": "$A\\bar{B}$ පොදුවේ පිටතට ගත් විට: $Y = A\\bar{B}(C + \\bar{C})$ වේ. $C + \\bar{C} = 1$ බැවින්, $Y = A\\bar{B}(1) = A\\bar{B}$ වේ.",
+    "syllabusRef": "G10-U4.60"
+  }
+]

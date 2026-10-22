@@ -2,13 +2,47 @@
 
 import React, { useState } from 'react';
 import { Cpu, ToggleLeft, ToggleRight, CheckCircle2 } from 'lucide-react';
+import { sound } from '@/utils/soundEffects';
+import { triggerHaptic } from '@/utils/haptics';
 
-type GateType = 'AND' | 'OR' | 'NOT' | 'NAND' | 'NOR' | 'XOR';
+export type GateType = 'AND' | 'OR' | 'NOT' | 'NAND' | 'NOR' | 'XOR';
 
-export function LogicGateSimulator() {
-  const [gate, setGate] = useState<GateType>('AND');
+export interface LogicGateSimulatorProps {
+  hideInternalTabs?: boolean;
+  defaultSubMode?: GateType | string;
+}
+
+export function LogicGateSimulator({
+  hideInternalTabs = false,
+  defaultSubMode = 'AND',
+}: LogicGateSimulatorProps = {}) {
+  const validGates: GateType[] = ['AND', 'OR', 'NOT', 'NAND', 'NOR', 'XOR'];
+  const initialGate = validGates.includes(String(defaultSubMode).toUpperCase() as GateType)
+    ? (String(defaultSubMode).toUpperCase() as GateType)
+    : 'AND';
+  const [gate, setGate] = useState<GateType>(initialGate);
   const [inA, setInA] = useState<number>(1);
   const [inB, setInB] = useState<number>(0);
+
+  const toggleInputA = () => {
+    const nextA = inA === 1 ? 0 : 1;
+    sound.playClick(nextA === 1 ? 750 : 400);
+    triggerHaptic('light');
+    setInA(nextA);
+  };
+
+  const toggleInputB = () => {
+    const nextB = inB === 1 ? 0 : 1;
+    sound.playClick(nextB === 1 ? 750 : 400);
+    triggerHaptic('light');
+    setInB(nextB);
+  };
+
+  const handleGateSelect = (g: GateType) => {
+    sound.playClick(650);
+    triggerHaptic('light');
+    setGate(g);
+  };
 
   const computeOutput = (g: GateType, a: number, b: number): number => {
     switch (g) {
@@ -52,21 +86,23 @@ export function LogicGateSimulator() {
         </div>
 
         {/* Gate Selector */}
-        <div className="flex flex-wrap gap-1">
-          {(['AND', 'OR', 'NOT', 'NAND', 'NOR', 'XOR'] as GateType[]).map((g) => (
-            <button
-              key={g}
-              onClick={() => setGate(g)}
-              className={`text-xs px-2.5 py-1 rounded-lg font-bold transition-all ${
-                gate === g
-                  ? 'bg-purple-600 text-white shadow-sm'
-                  : 'bg-white dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-purple-50'
-              }`}
-            >
-              {g}
-            </button>
-          ))}
-        </div>
+        {!hideInternalTabs && (
+          <div data-testid="logic-gate-tabs" className="flex flex-wrap gap-1">
+            {(['AND', 'OR', 'NOT', 'NAND', 'NOR', 'XOR'] as GateType[]).map((g) => (
+              <button
+                key={g}
+                onClick={() => handleGateSelect(g)}
+                className={`text-xs px-2.5 py-1 rounded-lg font-bold transition-all ${
+                  gate === g
+                    ? 'bg-purple-600 text-white shadow-sm'
+                    : 'bg-white dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-purple-50'
+                }`}
+              >
+                {g}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
@@ -81,7 +117,7 @@ export function LogicGateSimulator() {
             <div className="text-center space-y-1">
               <span className="text-xs font-bold text-slate-700 dark:text-slate-300">Input A</span>
               <button
-                onClick={() => setInA(inA === 1 ? 0 : 1)}
+                onClick={toggleInputA}
                 className={`w-14 h-14 rounded-xl font-mono text-xl font-black flex items-center justify-center transition-all shadow-sm ${
                   inA === 1 ? 'bg-emerald-500 text-white ring-4 ring-emerald-200 dark:ring-emerald-900' : 'bg-slate-200 dark:bg-slate-800 text-slate-600 dark:text-slate-400'
                 }`}
@@ -104,7 +140,7 @@ export function LogicGateSimulator() {
               <div className="text-center space-y-1">
                 <span className="text-xs font-bold text-slate-700 dark:text-slate-300">Input B</span>
                 <button
-                  onClick={() => setInB(inB === 1 ? 0 : 1)}
+                  onClick={toggleInputB}
                   className={`w-14 h-14 rounded-xl font-mono text-xl font-black flex items-center justify-center transition-all shadow-sm ${
                     inB === 1 ? 'bg-emerald-500 text-white ring-4 ring-emerald-200 dark:ring-emerald-900' : 'bg-slate-200 dark:bg-slate-800 text-slate-600 dark:text-slate-400'
                   }`}

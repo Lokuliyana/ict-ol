@@ -6,7 +6,7 @@ export interface PastPaperQuestion {
   topicId: string; // e.g. "1.1", "1.2", "1.5", "1.7"
   subtopicTitleEn: string;
   subtopicTitleSi: string;
-  type: 'mcq' | 'structured';
+  type: 'mcq' | 'structured' | 'essay';
   badgeText: string; // e.g. "2020 O/L Paper I - Q02"
   
   // Question texts

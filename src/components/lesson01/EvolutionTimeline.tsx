@@ -166,9 +166,26 @@ const PIONEERS = [
   },
 ];
 
-export function EvolutionTimeline() {
-  const [activeTab, setActiveTab] = useState<'generations' | 'pioneers'>('generations');
-  const [currentGenIdx, setCurrentGenIdx] = useState(0);
+export interface EvolutionTimelineProps {
+  hideInternalTabs?: boolean;
+  defaultSubMode?: 'generations' | 'pioneers' | number | string;
+}
+
+export function EvolutionTimeline({
+  hideInternalTabs = false,
+  defaultSubMode = 'generations',
+}: EvolutionTimelineProps = {}) {
+  const initialTab: 'generations' | 'pioneers' =
+    String(defaultSubMode).toLowerCase() === 'pioneers' ? 'pioneers' : 'generations';
+  const parsedGenIdx =
+    typeof defaultSubMode === 'number'
+      ? Math.max(0, Math.min(4, defaultSubMode))
+      : !isNaN(Number(defaultSubMode)) && defaultSubMode !== ''
+      ? Math.max(0, Math.min(4, Number(defaultSubMode)))
+      : 0;
+
+  const [activeTab, setActiveTab] = useState<'generations' | 'pioneers'>(initialTab);
+  const [currentGenIdx, setCurrentGenIdx] = useState(parsedGenIdx);
   const [selectedPioneer, setSelectedPioneer] = useState(PIONEERS[0]);
   
   // Pascal gear micro-toy state
@@ -197,54 +214,56 @@ export function EvolutionTimeline() {
   return (
     <div className="space-y-6">
       {/* Station Navigation Header */}
-      <div className="flex items-center justify-between flex-wrap gap-3">
-        <div className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-xl bg-indigo-600/30 border border-indigo-400/40 flex items-center justify-center text-indigo-400">
-            <History className="w-5 h-5" />
+      {!hideInternalTabs && (
+        <div data-testid="evolution-timeline-header" className="flex items-center justify-between flex-wrap gap-3">
+          <div className="flex items-center gap-2">
+            <div className="w-9 h-9 rounded-xl bg-indigo-600/30 border border-indigo-400/40 flex items-center justify-center text-indigo-400">
+              <History className="w-5 h-5" />
+            </div>
+            <div>
+              <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2">
+                Station 4: The Time Machine
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-600 dark:text-amber-400 border border-amber-500/30 font-mono">
+                  Pioneers & 5 Generations
+                </span>
+              </h3>
+              <p className="text-xs text-slate-500 dark:text-slate-400 font-sinhala">
+                පරිගණකයේ පරිණාමය සහ පරම්පරා 5 හි තාක්ෂණික වෙනස්කම්
+              </p>
+            </div>
           </div>
-          <div>
-            <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2">
-              Station 4: The Time Machine
-              <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-600 dark:text-amber-400 border border-amber-500/30 font-mono">
-                Pioneers & 5 Generations
-              </span>
-            </h3>
-            <p className="text-xs text-slate-500 dark:text-slate-400 font-sinhala">
-              පරිගණකයේ පරිණාමය සහ පරම්පරා 5 හි තාක්ෂණික වෙනස්කම්
-            </p>
-          </div>
-        </div>
 
-        {/* Tab Switcher */}
-        <div className="flex bg-slate-100 dark:bg-slate-800 p-1 rounded-xl text-xs font-bold">
-          <button
-            onClick={() => {
-              sound.playClick();
-              setActiveTab('generations');
-            }}
-            className={`px-3.5 py-1.5 rounded-lg transition-all ${
-              activeTab === 'generations'
-                ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-sm'
-                : 'text-slate-600 dark:text-slate-400'
-            }`}
-          >
-            ⚡ 5-Generation Morphing Computer
-          </button>
-          <button
-            onClick={() => {
-              sound.playClick();
-              setActiveTab('pioneers');
-            }}
-            className={`px-3.5 py-1.5 rounded-lg transition-all ${
-              activeTab === 'pioneers'
-                ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-sm'
-                : 'text-slate-600 dark:text-slate-400'
-            }`}
-          >
-            ⚙️ Pioneer Gearbox (Babbage & Ada)
-          </button>
+          {/* Tab Switcher */}
+          <div className="flex bg-slate-100 dark:bg-slate-800 p-1 rounded-xl text-xs font-bold">
+            <button
+              onClick={() => {
+                sound.playClick();
+                setActiveTab('generations');
+              }}
+              className={`px-3.5 py-1.5 rounded-lg transition-all ${
+                activeTab === 'generations'
+                  ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400'
+              }`}
+            >
+              ⚡ 5-Generation Morphing Computer
+            </button>
+            <button
+              onClick={() => {
+                sound.playClick();
+                setActiveTab('pioneers');
+              }}
+              className={`px-3.5 py-1.5 rounded-lg transition-all ${
+                activeTab === 'pioneers'
+                  ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400'
+              }`}
+            >
+              ⚙️ Pioneer Gearbox (Babbage & Ada)
+            </button>
+          </div>
         </div>
-      </div>
+      )}
 
       {/* ========================================================================= */}
       {/* 1. 5-GENERATION MORPHING SCRUBBER */}

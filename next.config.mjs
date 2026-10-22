@@ -11,6 +11,30 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/revision-sheet/:grade/:lessonId',
+        destination: '/lesson/:grade/:lessonId',
+        permanent: true,
+      },
+      {
+        source: '/revision-sheet/:path*',
+        destination: '/lesson/10/g10-u1',
+        permanent: true,
+      },
+      {
+        source: '/study/:path*',
+        destination: '/lesson/10/g10-u1',
+        permanent: true,
+      },
+      {
+        source: '/quiz/:path*',
+        destination: '/lesson/10/g10-u1',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

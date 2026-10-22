@@ -110,9 +110,18 @@ const TRACE_STEPS: TraceStep[] = [
   },
 ];
 
-export function TraceTableScrubber() {
+export interface TraceTableScrubberProps {
+  hideInternalTabs?: boolean;
+  defaultSubMode?: 'while_do' | 'repeat_until' | string;
+}
+
+export function TraceTableScrubber({
+  hideInternalTabs = false,
+  defaultSubMode = 'while_do',
+}: TraceTableScrubberProps = {}) {
+  const initialLoop = defaultSubMode === 'repeat_until' ? 'repeat_until' : 'while_do';
   const [currentStep, setCurrentStep] = useState<number>(0);
-  const [loopType, setLoopType] = useState<'while_do' | 'repeat_until'>('while_do');
+  const [loopType, setLoopType] = useState<'while_do' | 'repeat_until'>(initialLoop);
 
   const step = TRACE_STEPS[currentStep];
 
@@ -141,48 +150,50 @@ export function TraceTableScrubber() {
   return (
     <div className="space-y-6">
       {/* Top Station Header */}
-      <div className="bg-slate-900/90 border border-slate-800 rounded-3xl p-6 backdrop-blur-xl relative overflow-hidden">
-        <div className="absolute -right-16 -top-16 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl pointer-events-none" />
-        
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 relative z-10">
-          <div>
-            <div className="flex items-center gap-2 text-purple-400 text-xs font-mono font-bold uppercase tracking-wider mb-1">
-              <Table className="w-4 h-4" />
-              <span>STATION 03 • TRACE TABLE TIME MACHINE (හෝඩුවා වගු කාල යන්ත්‍රය)</span>
+      {!hideInternalTabs && (
+        <div data-testid="trace-table-header" className="bg-slate-900/90 border border-slate-800 rounded-3xl p-6 backdrop-blur-xl relative overflow-hidden">
+          <div className="absolute -right-16 -top-16 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl pointer-events-none" />
+          
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 relative z-10">
+            <div>
+              <div className="flex items-center gap-2 text-purple-400 text-xs font-mono font-bold uppercase tracking-wider mb-1">
+                <Table className="w-4 h-4" />
+                <span>STATION 03 • TRACE TABLE TIME MACHINE (හෝඩුවා වගු කාල යන්ත්‍රය)</span>
+              </div>
+              <h2 className="text-xl md:text-2xl font-black text-white">
+                Variable Tracking & Loop Scrubber (හෝඩුවා වගුව හා ලූප් ලුහුබැඳීම)
+              </h2>
+              <p className="text-xs md:text-sm text-slate-300 max-w-2xl mt-1">
+                Dry-run code line-by-line, inspect memory register canisters (Count, Sum), and contrast Pre-test (WHILE..DO) with Post-test (REPEAT..UNTIL) minimum execution mechanics.
+              </p>
             </div>
-            <h2 className="text-xl md:text-2xl font-black text-white">
-              Variable Tracking & Loop Scrubber (හෝඩුවා වගුව හා ලූප් ලුහුබැඳීම)
-            </h2>
-            <p className="text-xs md:text-sm text-slate-300 max-w-2xl mt-1">
-              Dry-run code line-by-line, inspect memory register canisters (Count, Sum), and contrast Pre-test (WHILE..DO) with Post-test (REPEAT..UNTIL) minimum execution mechanics.
-            </p>
-          </div>
 
-          {/* Loop Type Switcher */}
-          <div className="flex bg-slate-950/80 p-1.5 rounded-2xl border border-slate-800 self-start md:self-auto">
-            <button
-              onClick={() => { sound.playClick(600); setLoopType('while_do'); }}
-              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
-                loopType === 'while_do'
-                  ? 'bg-purple-600 text-white shadow-md shadow-purple-600/30'
-                  : 'text-slate-400 hover:text-white'
-              }`}
-            >
-              Pre-test (WHILE..DO)
-            </button>
-            <button
-              onClick={() => { sound.playClick(600); setLoopType('repeat_until'); }}
-              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
-                loopType === 'repeat_until'
-                  ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
-                  : 'text-slate-400 hover:text-white'
-              }`}
-            >
-              Post-test (REPEAT..UNTIL)
-            </button>
+            {/* Loop Type Switcher */}
+            <div className="flex bg-slate-950/80 p-1.5 rounded-2xl border border-slate-800 self-start md:self-auto">
+              <button
+                onClick={() => { sound.playClick(600); setLoopType('while_do'); }}
+                className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                  loopType === 'while_do'
+                    ? 'bg-purple-600 text-white shadow-md shadow-purple-600/30'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                Pre-test (WHILE..DO)
+              </button>
+              <button
+                onClick={() => { sound.playClick(600); setLoopType('repeat_until'); }}
+                className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                  loopType === 'repeat_until'
+                    ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                Post-test (REPEAT..UNTIL)
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Main Split-Screen HUD */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">

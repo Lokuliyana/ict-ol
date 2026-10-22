@@ -16,8 +16,20 @@ import {
 } from 'lucide-react';
 import { sound } from '@/utils/soundEffects';
 
-export function HtmlTableMason() {
-  const [activeTab, setActiveTab] = useState<'merger' | 'inspector' | 'spacing'>('merger');
+export interface HtmlTableMasonProps {
+  hideInternalTabs?: boolean;
+  defaultSubMode?: 'merger' | 'inspector' | 'spacing' | string;
+}
+
+export function HtmlTableMason({
+  hideInternalTabs = false,
+  defaultSubMode = 'merger',
+}: HtmlTableMasonProps = {}) {
+  const validTabs: Array<'merger' | 'inspector' | 'spacing'> = ['merger', 'inspector', 'spacing'];
+  const initialTab = validTabs.includes(defaultSubMode as any)
+    ? (defaultSubMode as 'merger' | 'inspector' | 'spacing')
+    : 'merger';
+  const [activeTab, setActiveTab] = useState<'merger' | 'inspector' | 'spacing'>(initialTab);
 
   // Interactive Table Grid Merge States (2021 P1 Q22 & 2020 P2 Q05)
   const [hasColspan, setHasColspan] = useState<boolean>(false);
@@ -48,52 +60,54 @@ export function HtmlTableMason() {
   return (
     <div className="space-y-6">
       {/* Subtab Navigation */}
-      <div className="flex bg-slate-900/90 p-1.5 rounded-2xl border border-blue-500/20 max-w-lg mx-auto shadow-lg">
-        <button
-          onClick={() => {
-            sound.playClick(550);
-            setActiveTab('merger');
-          }}
-          className={`flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-xl font-bold text-xs sm:text-sm transition-all ${
-            activeTab === 'merger'
-              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md shadow-blue-500/25'
-              : 'text-slate-400 hover:text-white'
-          }`}
-        >
-          <Grid className="w-4 h-4" />
-          <span>colspan & rowspan</span>
-        </button>
+      {!hideInternalTabs && (
+        <div data-testid="html-table-mason-tabs" className="flex bg-slate-900/90 p-1.5 rounded-2xl border border-blue-500/20 max-w-lg mx-auto shadow-lg">
+          <button
+            onClick={() => {
+              sound.playClick(550);
+              setActiveTab('merger');
+            }}
+            className={`flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-xl font-bold text-xs sm:text-sm transition-all ${
+              activeTab === 'merger'
+                ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md shadow-blue-500/25'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            <Grid className="w-4 h-4" />
+            <span>colspan & rowspan</span>
+          </button>
 
-        <button
-          onClick={() => {
-            sound.playClick(550);
-            setActiveTab('inspector');
-          }}
-          className={`flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-xl font-bold text-xs sm:text-sm transition-all ${
-            activeTab === 'inspector'
-              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md shadow-blue-500/25'
-              : 'text-slate-400 hover:text-white'
-          }`}
-        >
-          <Table className="w-4 h-4" />
-          <span>Table Inspector</span>
-        </button>
+          <button
+            onClick={() => {
+              sound.playClick(550);
+              setActiveTab('inspector');
+            }}
+            className={`flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-xl font-bold text-xs sm:text-sm transition-all ${
+              activeTab === 'inspector'
+                ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md shadow-blue-500/25'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            <Table className="w-4 h-4" />
+            <span>Table Inspector</span>
+          </button>
 
-        <button
-          onClick={() => {
-            sound.playClick(550);
-            setActiveTab('spacing');
-          }}
-          className={`flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-xl font-bold text-xs sm:text-sm transition-all ${
-            activeTab === 'spacing'
-              ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md shadow-blue-500/25'
-              : 'text-slate-400 hover:text-white'
-          }`}
-        >
-          <Columns className="w-4 h-4" />
-          <span>Spacing & Padding</span>
-        </button>
-      </div>
+          <button
+            onClick={() => {
+              sound.playClick(550);
+              setActiveTab('spacing');
+            }}
+            className={`flex-1 flex items-center justify-center gap-2 py-2 px-3 rounded-xl font-bold text-xs sm:text-sm transition-all ${
+              activeTab === 'spacing'
+                ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md shadow-blue-500/25'
+                : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            <Columns className="w-4 h-4" />
+            <span>Spacing & Padding</span>
+          </button>
+        </div>
+      )}
 
       {activeTab === 'merger' && (
         <div className="bg-slate-950/80 rounded-3xl p-6 sm:p-8 border border-blue-500/30 shadow-2xl space-y-6">

@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "g10-u5-q1",
+    "lessonId": "g10-u5",
+    "questionNumber": 1,
+    "promptEn": "Which of the following best defines an Operating System (OS)?",
+    "promptSi": "පහත දැක්වෙන ප්‍රකාශ අතුරින් මෙහෙයුම් පද්ධතියක් (Operating System) වඩාත්ම හොඳින් අර්ථ දක්වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Application software designed to create text documents and spreadsheets.",
+        "si": "ලේඛන සහ පැතුරුම්පත් සැකසීමට භාවිත කරන යෙදවුම් මෘදුකාංගයකි."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "System software that manages computer hardware, software resources, and provides common services for computer programs.",
+        "si": "පරිගණක දෘඩාංග, මෘදුකාංග සම්පත් කළමනාකරණය කරන සහ වැඩසටහන් සඳහා පොදු සේවාවන් සපයන පද්ධති මෘදුකාංගයකි."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Hardware component that processes binary arithmetic calculations.",
+        "si": "ද්විමය ගණිතමය ගණනය කිරීම් සිදු කරන දෘඩාංග සංරචකයකි."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A network protocol used to connect computers to the Internet.",
+        "si": "පරිගණක අන්තර්ජාලයට සම්බන්ධ කිරීමට භාවිත කරන ජාල ප්‍රොටෝකෝලයකි."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Operating System (OS). An Operating System is the master system software acting as an interface between the user/applications and the physical computer hardware. Without an OS, computer hardware cannot function or execute application software. Example: Windows 11, Ubuntu Linux, Android.",
+    "explanationSi": "ප්‍රධාන පදය: මෙහෙයුම් පද්ධතිය (OS). මෙහෙයුම් පද්ධතියක් යනු පරිශීලකයා/යෙදවුම් මෘදුකාංග සහ පරිගණකයේ භෞතික දෘඩාංග අතර මාධ්‍යස්ථයක් ලෙස ක්‍රියා කරන ප්‍රධාන පද්ධති මෘදුකාංගයයි. මෙහෙයුම් පද්ධතියක් නොමැතිව පරිගණක දෘඩාංග පණගැන්වීමට හෝ යෙදවුම් මෘදුකාංග ධාවනය කිරීමට නොහැක. උදාහරණ: Windows 11, Ubuntu Linux, Android.",
+    "syllabusRef": "G10-U5.1"
+  },
+  {
+    "id": "g10-u5-q2",
+    "lessonId": "g10-u5",
+    "questionNumber": 2,
+    "promptEn": "Which of the following is classified as System Software?",
+    "promptSi": "පහත දැක්වෙන මෘදුකාංග අතුරින් පද්ධති මෘදුකාංග (System Software) ලෙස වර්ගීකරණය වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Microsoft Word",
+        "si": "මයික්‍රොසොෆ්ට් වර්ඩ්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Google Chrome",
+        "si": "ගූගල් ක්‍රෝම්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Ubuntu Linux",
+        "si": "උබුන්ටු ලිනක්ස්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "VLC Media Player",
+        "si": "VLC මීඩියා ප්ලේයර්"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Key Term: System Software. Ubuntu Linux is an Operating System, which is a type of System Software. MS Word, Google Chrome, and VLC Media Player are Application Software designed for specific user tasks. Example: Ubuntu Linux, macOS, Device Drivers.",
+    "explanationSi": "ප්‍රධාන පදය: පද්ධති මෘදුකාංග. උබුන්ටු ලිනක්ස් (Ubuntu Linux) යනු මෙහෙයුම් පද්ධතියක් වන අතර එය පද්ධති මෘදුකාංග වර්ගයකි. MS Word, Google Chrome සහ VLC යනු යම් නිශ්චිත කාර්යයන් සඳහා භාවිත වන යෙදවුම් මෘදුකාංග (Application Software) වේ. උදාහරණ: Ubuntu Linux, macOS, උපාංග ධාවක.",
+    "syllabusRef": "G10-U5.2"
+  },
+  {
+    "id": "g10-u5-q3",
+    "lessonId": "g10-u5",
+    "questionNumber": 3,
+    "promptEn": "Which system software loads the Operating System from the hard disk into RAM when the computer is turned on?",
+    "promptSi": "පරිගණකය පණගන්වන විට (Booting) දෘඩ තැටියේ ඇති මෙහෙයුම් පද්ධතිය RAM මතකයට පූරණය කරනු ලබන්නේ කුමන වැඩසටහන මගින්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Device Driver",
+        "si": "උපාංග ධාවකය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Bootstrap Loader (BIOS",
+        "si": "UEFI) / බූට්ස්ට්‍රැප් ලෝඩරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Disk Defragmenter",
+        "si": "ඩිස්ක් ඩීෆ්‍රැග්මන්ටර්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Utility Software",
+        "si": "උපයෝගිතා මෘදුකාංගය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Bootstrap Loader. When a computer boots up, the Bootstrap Loader program stored in non-volatile ROM (BIOS/UEFI) executes, performs POST (Power-On Self-Test), locates the OS on secondary storage, and loads it into primary RAM. Example: BIOS/UEFI firmware chip on motherboard.",
+    "explanationSi": "ප්‍රධාන පදය: බූට්ස්ට්‍රැප් ලෝඩරය. පරිගණකය පණගැන්වීමේදී, ROM මතකයේ තැන්පත් කර ඇති Bootstrap Loader වැඩසටහන මගින් POST පරික්ෂාව සිදුකර, දෘඩ තැටියේ ඇති මෙහෙයුම් පද්ධතිය RAM මතකයට පූරණය කරයි. උදාහරණ: මවුපුවරුවේ BIOS/UEFI ස්ථීරාංග චිපය.",
+    "syllabusRef": "G10-U5.3"
+  },
+  {
+    "id": "g10-u5-q4",
+    "lessonId": "g10-u5",
+    "questionNumber": 4,
+    "promptEn": "Which of the following is a Mobile Operating System?",
+    "promptSi": "පහත දැක්වෙන මෘදුකාංග අතුරින් ජංගම දුරකථන මෙහෙයුම් පද්ධතියක් (Mobile OS) වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Windows 11",
+        "si": "වින්ඩෝස් 11"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "macOS Sonoma",
+        "si": "මැක් OS"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Android",
+        "si": "ඇන්ඩ්‍රොයිඩ්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "MS-DOS",
+        "si": "එම්.එස්. ඩොස්"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Key Term: Mobile Operating System. Android (developed by Google) and iOS (developed by Apple) are operating systems specifically designed for mobile devices like smartphones and tablets. Example: Android (Google), iOS (Apple).",
+    "explanationSi": "ප්‍රධාන පදය: ජංගම මෙහෙයුම් පද්ධති. ඇන්ඩ්‍රොයිඩ් (Android) සහ iOS යනු ස්මාර්ට් ජංගම දුරකථන සහ ටැබ්ලට් පරිගණක සඳහා විශේෂයෙන් නිර්මාණය කරන ලද ජංගම මෙහෙයුම් පද්ධති වේ. උදාහරණ: Android (ගූගල්), iOS (ඇපල්).",
+    "syllabusRef": "G10-U5.4"
+  },
+  {
+    "id": "g10-u5-q5",
+    "lessonId": "g10-u5",
+    "questionNumber": 5,
+    "promptEn": "Which category of software license allows users to access, modify, and redistribute the source code freely?",
+    "promptSi": "මෘදුකාංගයක මූලාශ්‍ර කේතය (Source Code) නිදහසේ අධ්‍යයනය කිරීමට, වෙනස් කිරීමට සහ නැවත බෙදා හැරීමට පරිශීලකයන්ට ඉඩ සලසන මෘදුකාංග බලපත්‍ර වර්ගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Proprietary Software",
+        "si": "හිමිකාර මෘදුකාංග"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Free and Open Source Software (FOSS)",
+        "si": "නිදහස් හා විවෘත මූලාශ්‍ර මෘදුකාංග"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Shareware",
+        "si": "කොන්දේසි සහිත නොමිලේ මෘදුකාංග"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Commercial Software",
+        "si": "වාණිජ මෘදුකාංග"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Free and Open Source Software (FOSS). FOSS (e.g., Linux, Boss Linux, LibreOffice) grants users freedom to inspect, modify, and redistribute the source code. Proprietary software keeps source code closed. Example: Linux kernel, LibreOffice, Apache.",
+    "explanationSi": "ප්‍රධාන පදය: නිදහස් හා විවෘත මූලාශ්‍ර මෘදුකාංග (FOSS). FOSS (උදා: Linux, Boss Linux, LibreOffice) මගින් පරිශීලකයාට මූලාශ්‍ර කේතය (Source code) නැරඹීමට, වෙනස් කිරීමට සහ බෙදා හැරීමට පූර්ණ නිදහස ලබා දෙයි. හිමිකාර මෘදුකාංගවල මූලාශ්‍ර කේත වසා ඇත. උදාහරණ: ලිනක්ස් කර්නලය, LibreOffice, ඇපෑචි.",
+    "syllabusRef": "G10-U5.5"
+  },
+  {
+    "id": "g10-u5-q6",
+    "lessonId": "g10-u5",
+    "questionNumber": 6,
+    "promptEn": "Which of the following Operating Systems is a Proprietary (Closed-Source) OS?",
+    "promptSi": "පහත දැක්වෙන මෙහෙයුම් පද්ධති අතරින් හිමිකාර (Proprietary / Closed-Source) මෙහෙයුම් පද්ධතියක් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Fedora Linux",
+        "si": "ෆෙඩෝරා ලිනක්ස්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Ubuntu",
+        "si": "උබුන්ටු"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Microsoft Windows 10",
+        "si": "මයික්‍රොසොෆ්ට් වින්ඩෝස් 10"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Debian",
+        "si": "ඩෙබියන්"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Key Term: Proprietary Software. Microsoft Windows is a commercial, proprietary operating system developed by Microsoft Corporation whose source code is protected and closed to the public. Example: Microsoft Windows 10/11, macOS.",
+    "explanationSi": "ප්‍රධාන පදය: හිමිකාර (Closed-Source) මෘදුකාංග. මයික්‍රොසොෆ්ට් වින්ඩෝස් යනු මයික්‍රොසොෆ්ට් සමාගම විසින් නිකුත් කරන ලද හිමිකාර (Proprietary) මෙහෙයුම් පද්ධතියකි. එහි මූලාශ්‍ර කේතය සංවෘත (Closed-Source) වේ. උදාහරණ: Microsoft Windows 10/11, macOS.",
+    "syllabusRef": "G10-U5.6"
+  },
+  {
+    "id": "g10-u5-q7",
+    "lessonId": "g10-u5",
+    "questionNumber": 7,
+    "promptEn": "What type of user interface requires the user to type text commands at a prompt to perform operations?",
+    "promptSi": "පරිගණක මෙහෙයුම් සිදු කිරීම සඳහා පරිශීලකයා විසින් යතුරුපුවරුව මගින් පෙළ විධානයන් (Text Commands) ටයිප් කළ යුතු පරිශීලක අතුරුමුහුණත කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Graphical User Interface (GUI)",
+        "si": "ප්‍රස්ථාරික පරිශීලක අතුරුමුහුණත"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Command Line Interface (CLI)",
+        "si": "විධාන පේළි අතුරුමුහුණත"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Menu-Driven Interface",
+        "si": "මෙනු මෙහෙයවන අතුරුමුහුණත"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Touch User Interface",
+        "si": "ස්පර්ශ පරිශීලක අතුරුමුහුණත"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Command Line Interface (CLI). CLI (e.g., MS-DOS, Linux Terminal) relies solely on typed text commands. It uses less system RAM and CPU resources compared to GUI but requires remembering complex command syntaxes. Example: MS-DOS prompt, Linux Bash Terminal.",
+    "explanationSi": "ප්‍රධාන පදය: විධාන පේළි අතුරුමුහුණත (CLI). CLI (උදා: MS-DOS, ලිනක්ස් ටර්මිනලය) පරිශීලක අතුරුමුහුණතේදී විධානයන් ටයිප් කළ යුතුය. මෙය අඩු RAM ප්‍රමාණයක් භාවිත කළද විධානයන් මතක තබා ගත යුතුය. උදාහරණ: MS-DOS, ලිනක්ස් Bash ටර්මිනලය.",
+    "syllabusRef": "G10-U5.7"
+  },
+  {
+    "id": "g10-u5-q8",
+    "lessonId": "g10-u5",
+    "questionNumber": 8,
+    "promptEn": "What does the acronym WIMP stand for in Graphical User Interfaces (GUI)?",
+    "promptSi": "ප්‍රස්ථාරික පරිශීලක අතුරුමුහුණත් (GUI) සම්බන්ධයෙන් WIMP යන්නෙන් අදහස් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Windows, Icons, Menus, Pointer",
+        "si": "වින්ඩෝස්, අයිකන, මෙනු, පොයින්ටරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Words, Images, Media, Programs",
+        "si": "වචන, රූප, මාධ්‍ය, වැඩසටහන්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Web, Internet, Mail, Protocols",
+        "si": "වෙබ්, අන්තර්ජාලය, තැපෑල, ප්‍රොටෝකෝල"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Workstation, Input, Memory, Processing",
+        "si": "වැඩපොළ, ආදානය, මතකය, සැකසීම"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: WIMP Interface. WIMP represents the core visual components of a modern Graphical User Interface (GUI): Windows (screen areas), Icons (visual symbols), Menus (lists of options), and Pointers (mouse cursor). Example: Windows, Icons, Menus, Pointer in Windows 11 / macOS.",
+    "explanationSi": "ප්‍රධාන පදය: WIMP අතුරුමුහුණත. GUI අතුරුමුහුණතක ප්‍රධාන සංරචක 4 WIMP මගින් නිරූපණය වේ: Windows (කවුළු), Icons (සංකේත රූප), Menus (මෙනු ලැයිස්තු), සහ Pointer (මූසික දර්ශකය). උදාහරණ: වින්ඩෝස් 11 සහ macOS හි කවුළු, අයිකන, මෙනු සහ දර්ශක.",
+    "syllabusRef": "G10-U5.8"
+  },
+  {
+    "id": "g10-u5-q9",
+    "lessonId": "g10-u5",
+    "questionNumber": 9,
+    "promptEn": "Which of the following is an advantage of a Command Line Interface (CLI) over a Graphical User Interface (GUI)?",
+    "promptSi": "ප්‍රස්ථාරික පරිශීලක අතුරුමුහුණතකට (GUI) සාපේක්ෂව විධාන පේළි අතුරුමුහුණතක (CLI) ඇති වාසියක් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Easier to learn for beginners.",
+        "si": "ආධුනිකයන්ට ඉගෙන ගැනීමට පහසු වීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Consumes much less memory (RAM) and system resources.",
+        "si": "ඉතා අඩු මතක (RAM) සහ පද්ධති සම්පත් ප්‍රමාණයක් වැය වීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Uses attractive icons and windows for selection.",
+        "si": "තේරීම් සඳහා ආකර්ෂණීය සංකේත රූප සහ කවුළු භාවිත කිරීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Allows performing tasks without typing commands.",
+        "si": "විධානයන් ටයිප් කිරීමකින් තොරව කාර්යයන් කිරීමට ඉඩ සැලසීම."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: CLI Resource Efficiency. CLI does not require heavy graphics processing or window rendering, making it much faster and lightweight on RAM and CPU compared to a resource-intensive GUI. Example: Headless Linux server administration over SSH.",
+    "explanationSi": "ප්‍රධාන පදය: CLI සම්පත් කාර්යක්ෂමතාව. CLI හි ග්‍රැෆික්ස් හෝ කවුළු ප්‍රතිබිම්බනය නොමැති බැවින් එය ඉතා වේගවත් වන අතර පරිගණකයේ RAM සහ CPU සම්පත් ඉතා අඩුවෙන් භාවිත කරයි. උදාහරණ: SSH හරහා ලිනක්ස් සර්වර් පාලනය කිරීම.",
+    "syllabusRef": "G10-U5.9"
+  },
+  {
+    "id": "g10-u5-q10",
+    "lessonId": "g10-u5",
+    "questionNumber": 10,
+    "promptEn": "An Operating System that allows multiple users to access computer resources concurrently from different terminals is called a:",
+    "promptSi": "එකිනෙකට වෙනස් පර්යන්ත (Terminals) මගින් පරිශීලකයන් කිහිප දෙනෙකුට එකවර පරිගණක සම්පත් වෙත ප්‍රවේශ වීමට ඉඩ සලසන මෙහෙයුම් පද්ධතියක් හඳුන්වන්නේ:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Single-User OS",
+        "si": "තනි-පරිශීලක මෙහෙයුම් පද්ධතියක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Multi-User OS",
+        "si": "බහු-පරිශීලක මෙහෙයුම් පද්ධතියක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Real-Time OS",
+        "si": "තථ්‍ය-කාලීන මෙහෙයුම් පද්ධතියක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Single-Tasking OS",
+        "si": "තනි-කාර්ය මෙහෙයුම් පද්ධතියක්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Multi-User Operating System. Multi-User Operating Systems (e.g., Linux Server, UNIX, Windows Server) allow multiple users to log in, execute programs, and utilize server resources simultaneously. Example: Linux Server, Windows Server, UNIX mainframe.",
+    "explanationSi": "ප්‍රධාන පදය: බහු-පරිශීලක මෙහෙයුම් පද්ධති. බහු-පරිශීලක මෙහෙයුම් පද්ධතියක් (උදා: Linux Server, Windows Server) මගින් පරිශීලකයන් කිහිප දෙනෙකුට එකම අවස්ථාවේදී සේවාදායක සම්පත් භාවිත කිරීමට ඉඩ සලසයි. උදාහරණ: Linux Server, Windows Server, UNIX.",
+    "syllabusRef": "G10-U5.10"
+  },
+  {
+    "id": "g10-u5-q11",
+    "lessonId": "g10-u5",
+    "questionNumber": 11,
+    "promptEn": "Which Operating System type is designed to respond to input data within strict, guaranteed time constraints (e.g., in aircraft control or medical life support)?",
+    "promptSi": "ගුවන් යානා පාලන පද්ධති හෝ වෛද්‍ය ජීවාධාරක පද්ධති වැනි දැඩි කාල රාමු තුළ තථ්‍ය කාලීනව ප්‍රතිචාර දැක්විය යුතු පද්ධති සඳහා භාවිත කරන මෙහෙයුම් පද්ධති වර්ගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Batch Processing OS",
+        "si": "ඛණ්ඩ සැකසුම් මෙහෙයුම් පද්ධතිය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Real-Time Operating System (RTOS)",
+        "si": "තථ්‍ය-කාලීන මෙහෙයුම් පද්ධතිය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Single-User OS",
+        "si": "තනි-පරිශීලක මෙහෙයුම් පද්ධතිය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Network OS",
+        "si": "ජාල මෙහෙයුම් පද්ධතිය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Real-Time Operating System (RTOS). An RTOS (Real-Time Operating System) guarantees processing and response within critical microsecond deadlines. Failure to respond within the deadline can result in system failure. Example: Aircraft flight control, ICU life support, VxWorks.",
+    "explanationSi": "ප්‍රධාන පදය: තත්‍ය කාල මෙහෙයුම් පද්ධති (RTOS). තථ්‍ය-කාලීන මෙහෙයුම් පද්ධතියක් (RTOS) මගින් ලබාදෙන ආදානයන්ට ඉතා නිශ්චිත හා ක්ෂණික (Microseconds) කාලයක් තුළ ප්‍රතිචාර දැක්වීම සහතික කරයි. උදාහරණ: ගුවන් යානා පියාසර පාලනය, දැඩි සත්කාර ජීවාධාරක, VxWorks.",
+    "syllabusRef": "G10-U5.11"
+  },
+  {
+    "id": "g10-u5-q12",
+    "lessonId": "g10-u5",
+    "questionNumber": 12,
+    "promptEn": "MS-DOS (Microsoft Disk Operating System) is an example of a:",
+    "promptSi": "MS-DOS (මයික්‍රොසොෆ්ට් ඩිස්ක් ඔපරේටින් සිස්ටම්) යනු කුමන ආකාරයේ මෙහෙයුම් පද්ධතියකට උදාහරණයකිද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Multi-user, GUI-based OS",
+        "si": "බහු-පරිශීලක, GUI පදනම් වූ OS"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Single-user, Single-tasking, CLI-based OS",
+        "si": "තනි-පරිශීලක, තනි-කාර්ය, CLI පදනම් වූ OS"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Multi-tasking, GUI-based OS",
+        "si": "බහු-කාර්ය, GUI පදනම් වූ OS"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Real-time, Multi-user OS",
+        "si": "තථ්‍ය-කාලීන, බහු-පරිශීලක OS"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Single-User Single-Tasking OS. MS-DOS is a historic command-line operating system that allows only one user to run a single task at any given time. Example: MS-DOS 6.22.",
+    "explanationSi": "ප්‍රධාන පදය: තනි-පරිශීලක තනි-කාර්ය මෙහෙයුම් පද්ධති. MS-DOS යනු එක් අවස්ථාවකදී එක පරිශීලකයෙකුට එක කාර්යයක් පමණක් විධාන පේළියක් (CLI) මගින් සිදු කිරීමට ඉඩ ලබා දුන් පැරණි මෙහෙයුම් පද්ධතියකි. උදාහරණ: MS-DOS.",
+    "syllabusRef": "G10-U5.12"
+  },
+  {
+    "id": "g10-u5-q13",
+    "lessonId": "g10-u5",
+    "questionNumber": 13,
+    "promptEn": "Which of the following is NOT an Operating System function?",
+    "promptSi": "පහත දැක්වෙන දෑ අතරින් මෙහෙයුම් පද්ධතියක ප්‍රධාන කාර්යයක් නොවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Process Management",
+        "si": "ක්‍රියාවලි කළමනාකරණය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Memory Management",
+        "si": "මතක කළමනාකරණය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Creating Presentations and Graphics",
+        "si": "සමර්පණ සහ ග්‍රැෆික් නිර්මාණය කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "File and Device Management",
+        "si": "ගොනු සහ උපාංග කළමනාකරණය"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Key Term: Scope of Operating System. Creating presentations or editing graphics is the function of Application Software (like MS PowerPoint or Photoshop), not an Operating System function. Example: Word processors and slide graphics are Application Software.",
+    "explanationSi": "ප්‍රධාන පදය: මෙහෙයුම් පද්ධතියක කාර්ය පථය. සමර්පණ සකස් කිරීම හෝ ග්‍රැෆික් නිර්මාණය යනු යෙදවුම් මෘදුකාංගවල (MS PowerPoint, Photoshop) කාර්යයක් වන අතර එය මෙහෙයුම් පද්ධතියේ කාර්යයක් නොවේ. උදාහරණ: ලේඛන සකසුම් සහ සමර්පණ යනු යෙදුම් මෘදුකාංග වේ.",
+    "syllabusRef": "G10-U5.13"
+  },
+  {
+    "id": "g10-u5-q14",
+    "lessonId": "g10-u5",
+    "questionNumber": 14,
+    "promptEn": "Which software component acts as a translator between the Operating System and a specific hardware peripheral (such as a printer or graphics card)?",
+    "promptSi": "මෙහෙයුම් පද්ධතිය සහ නිශ්චිත පරිගණක බාහිර උපාංගයක් (මුද්‍රණ යන්ත්‍රයක් හෝ ග්‍රැෆික් කාඩ්පතක් වැනි) අතර සන්නිවේදනය සලසන මෘදුකාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Compiler",
+        "si": "කම්පයිලරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Device Driver",
+        "si": "උපාංග ධාවකය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Utility Software",
+        "si": "උපයෝගිතා මෘදුකාංගය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Disk Defragmenter",
+        "si": "ඩිස්ක් ඩීෆ්‍රැග්මන්ටර්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Device Driver. A Device Driver is specialized system software that enables the OS to communicate with and control a specific hardware device. Example: HP LaserJet printer driver, NVIDIA GPU display driver.",
+    "explanationSi": "ප්‍රධාන පදය: උපාංග ධාවකය (Device Driver). උපාංග ධාවකයක් (Device Driver) මගින් මෙහෙයුම් පද්ධතියට අදාළ දෘඩාංග උපාංගය නිවැරදිව හඳුනාගෙන එය පාලනය කිරීමට අවශ්‍ය මෘදුකාංග උපදෙස් සපයයි. උදාහරණ: HP මුද්‍රණ යන්ත්‍ර ධාවකය, NVIDIA ග්‍රැෆික් ධාවකය.",
+    "syllabusRef": "G10-U5.14"
+  },
+  {
+    "id": "g10-u5-q15",
+    "lessonId": "g10-u5",
+    "questionNumber": 15,
+    "promptEn": "The capability of an Operating System to execute multiple processes/programs seemingly at the same time by sharing CPU time is known as:",
+    "promptSi": "CPU කාලය බෙදා ගනිමින් එකවර ක්‍රියාවලි/වැඩසටහන් කිහිපයක් ධාවනය කිරීමට මෙහෙයුම් පද්ධතියකට ඇති හැකියාව හඳුන්වන්නේ:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Multitasking",
+        "si": "බහු-කාර්යතාව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Multi-threading",
+        "si": "බහු-තන්තුකරණය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Spooling",
+        "si": "ස්පූලිං"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Formatting",
+        "si": "ෆෝමැට් කිරීම"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Multitasking. Multitasking allows a computer user to run multiple applications (e.g., listening to music while typing a document in Word) concurrently. Example: Typing an ICT assignment in Word while listening to music.",
+    "explanationSi": "ප්‍රධාන පදය: බහු-කාර්යතාව (Multitasking). බහු-කාර්යතාව (Multitasking) මගින් පරිශීලකයෙකුට එකවර වැඩසටහන් කිහිපයක් (උදා: සිංදු අසමින් MS Word හි ලේඛනයක් සැකසීම) ධාවනය කිරීමට ඉඩ සලසයි. උදාහරණ: සංගීතයට සවන් දෙන අතරතුර Word හි ලේඛනයක් සකස් කිරීම.",
+    "syllabusRef": "G10-U5.15"
+  },
+  {
+    "id": "g10-u5-q16",
+    "lessonId": "g10-u5",
+    "questionNumber": 16,
+    "promptEn": "What is a 'Process' in Operating System terminology?",
+    "promptSi": "මෙහෙයුම් පද්ධති පාරිභාෂිතයේ 'ක්‍රියාවලියක්' (Process) යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A program saved on the secondary storage device.",
+        "si": "දෘඩ තැටියේ තැන්පත් කර ඇති මෘදුකාංග ගොනුවකි."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A program currently in execution loaded into RAM.",
+        "si": "දැනට ධාවනය වෙමින් RAM මතකයට පූරණය වී ඇති වැඩසටහනකි."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A physical component inside the CPU.",
+        "si": "CPU එක තුළ ඇති භෞතික සංරචකයකි."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A folder structure on the hard disk.",
+        "si": "දෘඩ තැටියේ ඇති ෆෝල්ඩර ව්‍යුහයකි."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Process. A passive program becomes an active 'Process' when loaded into RAM and allocated CPU execution time. Example: An active instance of Google Chrome running in RAM.",
+    "explanationSi": "ප්‍රධාන පදය: ක්‍රියාවලියක් (Process). දෘඩ තැටියේ තැන්පත් කර ඇති අක්‍රිය වැඩසටහනක් ධාවනය සඳහා RAM මතකයට පූරණය වූ විට එය සක්‍රිය 'ක්‍රියාවලියක්' (Process) බවට පත්වේ. උදාහරණ: RAM හි සක්‍රියව ධාවනය වන Google Chrome කවුළුව.",
+    "syllabusRef": "G10-U5.16"
+  },
+  {
+    "id": "g10-u5-q17",
+    "lessonId": "g10-u5",
+    "questionNumber": 17,
+    "promptEn": "Which OS function allocates primary memory (RAM) space to active programs and reclaims memory when programs close?",
+    "promptSi": "සක්‍රිය වැඩසටහන් සඳහා ප්‍රාථමික මතකයෙන් (RAM) ඉඩ වෙන් කිරීම සහ වැඩසටහන් වැසූ පසු එම මතක ඉඩ නිදහස් කිරීම සිදු කරන්නේ කුමන OS කාර්යය මගින්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "File Management",
+        "si": "ගොනු කළමනාකරණය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Memory Management",
+        "si": "මතක කළමනාකරණය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Device Management",
+        "si": "උපාංග කළමනාකරණය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "User Management",
+        "si": "පරිශීලක කළමනාකරණය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Memory Management. Memory Management keeps track of every byte in RAM, handles allocation to running processes, and cleans up memory upon process termination. Example: Allocating 2 GB RAM to Photoshop and freeing it upon close.",
+    "explanationSi": "ප්‍රධාන පදය: මතක කළමනාකරණය. මතක කළමනාකරණය (Memory Management) මගින් RAM මතකයේ භාවිත වන සහ නොවන කොටස් නිරීක්ෂණය කරමින් ධාවනය වන වැඩසටහන්වලට ඉඩ වෙන් කිරීම හා නිදහස් කිරීම සිදු කරයි. උදාහරණ: Photoshop සඳහා 2 GB RAM වෙන් කර වැසූ පසු නිදහස් කිරීම.",
+    "syllabusRef": "G10-U5.17"
+  },
+  {
+    "id": "g10-u5-q18",
+    "lessonId": "g10-u5",
+    "questionNumber": 18,
+    "promptEn": "What is 'Virtual Memory'?",
+    "promptSi": "'අතථ්‍ය මතකය' (Virtual Memory) යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A high-speed ROM chip located on the motherboard.",
+        "si": "මවුපුවරුවේ ඇති අධිවේගී ROM චිපයකි."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A section of secondary storage (hard disk) used by the OS as an extension of primary RAM when RAM is full.",
+        "si": "RAM මතකය පිරීගිය විට OS එක මගින් ප්‍රාථමික මතකයේ දිගුවක් ලෙස භාවිත කරන දෘඩ තැටියේ කොටසකි."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The cloud storage allocation provided over the Internet.",
+        "si": "අන්තර්ජාලය ඔස්සේ ලැබෙන ක්ලවුඩ් ගබඩා ඉඩයි."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Cache memory built inside the CPU core.",
+        "si": "CPU එක තුළ ඇති කැෂ් මතකයයි."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Virtual Memory. Virtual Memory allows computers to compensate for physical RAM shortages by temporarily transferring data pages from RAM to secondary disk storage (swap space/paging file). Example: Windows paging file (pagefile.sys) on secondary drive.",
+    "explanationSi": "ප්‍රධාන පදය: අතථ්‍ය මතකය (Virtual Memory). භෞතික RAM මතකය පිරීගිය විට, පද්ධතිය අක්‍රිය නොවී පවත්වා ගැනීමට මෙහෙයුම් පද්ධතිය මගින් දෘඩ තැටියේ කොටසක් RAM මතකය ලෙස තාවකාලිකව භාවිත කිරීම අතථ්‍ය මතකය (Virtual Memory) ලෙස හැඳින්වේ. උදාහරණ: දෘඩ තැටියේ ඇති Windows pagefile.sys ගොනුව.",
+    "syllabusRef": "G10-U5.18"
+  },
+  {
+    "id": "g10-u5-q19",
+    "lessonId": "g10-u5",
+    "questionNumber": 19,
+    "promptEn": "The process of moving inactive data blocks between RAM and Virtual Memory on the hard disk is called:",
+    "promptSi": "RAM මතකය සහ දෘඩ තැටියේ අතථ්‍ය මතකය අතර අක්‍රිය දත්ත කොටස් එහා මෙහා හුවමාරු කිරීමේ ක්‍රියාවලිය හඳුන්වන්නේ:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Formatting",
+        "si": "ෆෝමැට් කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Swapping",
+        "si": "Paging / ස්වැපිං හෝ පේජිං"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Defragmentation",
+        "si": "ඩිෆ්‍රැග්මන්ටේෂන්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Compression",
+        "si": "කම්ප්‍රෙෂන්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Paging and Swapping. Swapping or Paging moves memory pages between physical RAM and the Virtual Memory paging file on the hard disk to maximize multi-program execution. Example: Moving inactive background browser tabs to disk pagefile.",
+    "explanationSi": "ප්‍රධාන පදය: පේජිං සහ ස්වැපිං (Paging & Swapping). Swapping/Paging යනු physical RAM සහ දෘඩ තැටියේ paging file එක අතර දත්ත පිටු මාරු කරමින් වැඩි වැඩසටහන් ප්‍රමාණයක් ධාවනය කිරීමට ඉඩ සැලසීමයි. උදාහරණ: අක්‍රිය බ්‍රවුසර් ටැබ් දෘඩ තැටියට මාරු කිරීම.",
+    "syllabusRef": "G10-U5.19"
+  },
+  {
+    "id": "g10-u5-q20",
+    "lessonId": "g10-u5",
+    "questionNumber": 20,
+    "promptEn": "Which Operating System function manages hierarchical directory/folder structures, file naming, and file access permissions?",
+    "promptSi": "ගොනු නාමකරණය, ෆෝල්ඩර/නාමාවලි ව්‍යුහයන් සහ ගොනු ප්‍රවේශ අවසර කළමනාකරණය කරනු ලබන්නේ කුමන OS කාර්යය මගින්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Process Management",
+        "si": "ක්‍රියාවලි කළමනාකරණය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "File Management",
+        "si": "ගොනු කළමනාකරණය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Power Management",
+        "si": "බලශක්ති කළමනාකරණය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Network Management",
+        "si": "ජාල කළමනාකරණය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: File Management. File Management organizes data stored on secondary storage into logical files and folders, tracks their physical locations, and controls access security. Example: Organizing documents into folders and assigning security attributes.",
+    "explanationSi": "ප්‍රධාන පදය: ගොනු කළමනාකරණය. ගොනු කළමනාකරණය (File Management) මගින් ද්විතීයික ගබඩාවල ඇති දත්ත ගොනු හා ෆෝල්ඩර ලෙස සංවිධානය කිරීම, සෙවීම, සහ ආරක්ෂිත ප්‍රවේශ ලබා දීම සිදු කරයි. උදාහරණ: ගොනු ෆෝල්ඩරවලට වර්ග කර ආරක්ෂණ අවසර ලබා දීම.",
+    "syllabusRef": "G10-U5.20"
+  },
+  {
+    "id": "g10-u5-q21",
+    "lessonId": "g10-u5",
+    "questionNumber": 21,
+    "promptEn": "In file management, what does a File Extension (e.g., `.docx`, `.xlsx`, `.jpg`) indicate?",
+    "promptSi": "ගොනු කළමනාකරණයේදී ගොනු දිගුවක් (File Extension - උදා: `.docx`, `.xlsx`, `.jpg`) මගින් නිරූපණය වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The physical size of the hard disk sector.",
+        "si": "දෘඩ තැටියේ භෞතික සෙක්ටරයේ විශාලත්වය."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The file format and the application software associated with opening it.",
+        "si": "ගොනුවේ ආකෘතිය සහ එය විවෘත කිරීමට අදාළ යෙදවුම් මෘදුකාංගය."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The date and time the file was printed.",
+        "si": "ගොනුව මුද්‍රණය කළ දිනය සහ වේලාව."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The hardware CPU model of the computer.",
+        "si": "පරිගණකයේ CPU මාදිලිය."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: File Extension. File extensions tell the Operating System which application program should be launched to open and process that specific file type (e.g., `.docx` launches Word). Example: .docx launches MS Word, .xlsx launches MS Excel.",
+    "explanationSi": "ප්‍රධාන පදය: ගොනු දිගුව (File Extension). ගොනු දිගුව මගින් අදාළ ගොනුවේ වර්ගය සහ එය විවෘත කිරීම සඳහා මෙහෙයුම් පද්ධතිය විසින් භාවිතා කළ යුතු යෙදවුම් මෘදුකාංගය හඳුනා ගනී. උදාහරණ: .docx මගින් MS Word ද, .xlsx මගින් MS Excel ද විවෘත වේ.",
+    "syllabusRef": "G10-U5.21"
+  },
+  {
+    "id": "g10-u5-q22",
+    "lessonId": "g10-u5",
+    "questionNumber": 22,
+    "promptEn": "What techniques does the OS use to manage slow I/O devices (like printers) so the CPU doesn't wait for them to finish?",
+    "promptSi": "මුද්‍රණ යන්ත්‍ර වැනි මන්දගාමී ආදාන/ප්‍රදාන උපාංග සකසනය (CPU) විසින් රඳවා තබා ගැනීම වැළැක්වීමට OS එක භාවිත කරන තාක්ෂණය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Formatting",
+        "si": "ෆෝමැට් කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Spooling and Buffering",
+        "si": "ස්පූලිං සහ බෆරින්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Defragmentation",
+        "si": "ඩිෆ්‍රැග්මන්ටේෂන්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Encryption",
+        "si": "එන්ක්‍රිප්ෂන්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: SPOOLING and Buffering. SPOOLING (Simultaneous Peripheral Operations On-Line) holds print jobs in a secondary storage queue (spool buffer) so the CPU can immediately return to other tasks. Example: Simultaneous Peripheral Operations On-Line print spooler queue.",
+    "explanationSi": "ප්‍රධාන පදය: ස්පූලිං සහ බෆරින් (SPOOLING). Spooling මගින් මුද්‍රණ කාර්යයන් (Print jobs) දෘඩ තැටියේ තාවකාලික පෝලිමක (Queue) තබාගෙන CPU එකට නිදහසේ වෙනත් කාර්යයන් කිරීමට ඉඩ සලසයි. උදාහරණ: මුද්‍රණ කාර්යයන් පෝලිමක තබාගෙන පසුබිමින් මුද්‍රණය කිරීම.",
+    "syllabusRef": "G10-U5.22"
+  },
+  {
+    "id": "g10-u5-q23",
+    "lessonId": "g10-u5",
+    "questionNumber": 23,
+    "promptEn": "User authentication mechanisms in an Operating System (such as Passwords, PINs, and Biometrics) belong to:",
+    "promptSi": "මුරපද (Passwords), PIN අංක සහ බයෝමෙට්‍රික්ස් වැනි පරිශීලක අනන්‍යතා පරික්ෂාවන් අයත් වන්නේ කුමන OS කළමනාකරණ කාර්යයටද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Security and User Management",
+        "si": "ආරක්ෂාව සහ පරිශීලක කළමනාකරණය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "File Formatting",
+        "si": "ගොනු ෆෝමැට් කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Disk Defragmentation",
+        "si": "ඩිස්ක් ඩීෆ්‍රැග්මන්ටේෂන්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Process Scheduling",
+        "si": "ක්‍රියාවලි කාලසටහන්කරණය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Security & User Authentication. User Management prevents unauthorized system access, protects personal data, and provides distinct user profiles and access rights. Example: Windows Hello PIN, fingerprint scanner, user passwords.",
+    "explanationSi": "ප්‍රධාන පදය: ආරක්ෂාව සහ පරිශීලක අනන්‍යතාව. ආරක්ෂාව සහ පරිශීලක කළමනාකරණය මගින් අනවසරයෙන් පද්ධතියට පිවිසීම වළක්වා පරිශීලක දත්තවල රහස්‍යභාවය සහ ආරක්ෂාව තහවුරු කරයි. උදාහරණ: Windows Hello PIN, ඇඟිලි සලකුණු සහ පරිශීලක මුරපද.",
+    "syllabusRef": "G10-U5.23"
+  },
+  {
+    "id": "g10-u5-q24",
+    "lessonId": "g10-u5",
+    "questionNumber": 24,
+    "promptEn": "Which OS process state describes a program that is currently being executed by the CPU core?",
+    "promptSi": "ක්‍රියාවලියක් (Process) මේ මොහොතේ CPU එක මගින් සක්‍රියව ක්‍රියාත්මක වන අවස්ථාව නිරූපණය වන OS අවස්ථාව (State) කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Ready State",
+        "si": "සූදානම් අවස්ථාව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Running State",
+        "si": "ධාවන අවස්ථාව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Blocked",
+        "si": "Waiting State / රැඳවුම් අවස්ථාව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Terminated State",
+        "si": "අවසන් වූ අවස්ථාව"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Running State. In the process lifecycle: New \\(\\rightarrow\\) Ready (waiting for CPU) \\(\\rightarrow\\) Running (executing on CPU) \\(\\rightarrow\\) Waiting/Blocked (waiting for I/O) \\(\\rightarrow\\) Terminated. Example: CPU core currently executing process program counter instructions.",
+    "explanationSi": "ප්‍රධාන පදය: ධාවන අවස්ථාව (Running State). ක්‍රියාවලියක ජීවන චක්‍රය: නව (New) \\(\\rightarrow\\) සූදානම් (Ready) \\(\\rightarrow\\) ධාවන (Running - CPU එක මත) \\(\\rightarrow\\) රැඳවුම් (Waiting) \\(\\rightarrow\\) අවසන් (Terminated). උදාහරණ: CPU හරය මගින් ක්‍රියාවලි උපදෙස් සක්‍රියව ක්‍රියාත්මක කිරීම.",
+    "syllabusRef": "G10-U5.24"
+  },
+  {
+    "id": "g10-u5-q25",
+    "lessonId": "g10-u5",
+    "questionNumber": 25,
+    "promptEn": "When a running process requests input from a keyboard and pauses CPU execution, it transitions into the:",
+    "promptSi": "ධාවනය වන ක්‍රියාවලියක් යතුරුපුවරුවෙන් ආදානයක් ලැබෙන තෙක් CPU ධාවනය නවතා බලා සිටින විට එය මාරු වන අවස්ථාව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Running State",
+        "si": "ධාවන අවස්ථාව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Waiting",
+        "si": "Blocked State / රැඳවුම් / බ්ලොක් වූ අවස්ථාව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "New State",
+        "si": "නව අවස්ථාව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Ready State",
+        "si": "සූදානම් අවස්ථාව"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Waiting / Blocked State. When an executing process requires input/output operations, it enters the Waiting/Blocked state so the CPU can switch to other ready processes. Example: Waiting for user to click OK or enter input from keyboard.",
+    "explanationSi": "ප්‍රධාන පදය: රැඳවුම් අවස්ථාව (Waiting State). ක්‍රියාවලියකට ආදාන/ප්‍රදාන (I/O) මෙහෙයුමක් අවශ්‍ය වූ විට, එය රැඳවුම් (Waiting) අවස්ථාවට පත්වී CPU එක වෙනත් සූදානම් ක්‍රියාවලියකට නිදහස් කරයි. උදාහරණ: පරිශීලකයා යතුරුපුවරුවෙන් ආදානයක් ලබා දෙන තෙක් බලා සිටීම.",
+    "syllabusRef": "G10-U5.25"
+  },
+  {
+    "id": "g10-u5-q26",
+    "lessonId": "g10-u5",
+    "questionNumber": 26,
+    "promptEn": "What is the main function of the Process Scheduler in an Operating System?",
+    "promptSi": "මෙහෙයුම් පද්ධතියක ක්‍රියාවලි කාලසටහන්කරුගේ (Process Scheduler) ප්‍රධාන කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To scan files for computer viruses.",
+        "si": "පරිගණක වෛරස සඳහා ගොනු පරීක්ෂා කිරීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To decide which process in the Ready Queue gets CPU execution time next.",
+        "si": "සූදානම් පෝලිමේ ඇති ක්‍රියාවලි අතුරින් ඊළඟට CPU කාලය ලැබිය යුත්තේ කුමන ක්‍රියාවලියටදැයි තීරණය කිරීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To format hard disk drives.",
+        "si": "දෘඩ තැටි ෆෝමැට් කිරීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To design web page layouts.",
+        "si": "වෙබ් පිටු සැකසීම."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Process Scheduler. The Process Scheduler uses scheduling algorithms (e.g. Round Robin, First-Come First-Served) to optimize CPU utilization and fairness among active programs. Example: OS dispatcher picking next ready process via Round Robin algorithm.",
+    "explanationSi": "ප්‍රධාන පදය: ක්‍රියාවලි කාලසටහන්කරු (Process Scheduler). ක්‍රියාවලි කාලසටහන්කරු මගින් CPU භාවිතය උපරිම වන සේ ඊළඟට ධාවනය විය යුතු ක්‍රියාවලිය තෝරා ගනී. උදාහරණ: සූදානම් පෝලිමෙන් ඊළඟ ක්‍රියාවලිය තෝරා CPU වෙත යැවීම.",
+    "syllabusRef": "G10-U5.26"
+  },
+  {
+    "id": "g10-u5-q27",
+    "lessonId": "g10-u5",
+    "questionNumber": 27,
+    "promptEn": "Which file system attribute determines whether a user can only read a file but cannot modify or delete it?",
+    "promptSi": "පරිශීලකයෙකුට ගොනුවක් නැරඹීමට පමණක් හැකි අතර එය වෙනස් කිරීමට හෝ මකා දැමීමට නොහැකි වන සේ සකසන ගොනු ගුණාංගය (Attribute) කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Hidden",
+        "si": "සඟවන ලද"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Read-Only",
+        "si": "කියවීමට පමණක් ඇති (Read-Only)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "System",
+        "si": "පද්ධති"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Archive",
+        "si": "සංරක්ෂිත"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Read-Only File Attribute. Setting a file attribute to 'Read-Only' protects its contents from accidental modification or erasure by users or applications. Example: Protecting legal document or contract from accidental editing.",
+    "explanationSi": "ප්‍රධාන පදය: කියවීමට පමණක් ඇති ගුණාංගය (Read-Only). ගොනුවකට 'Read-Only' ගුණාංගය ලබා දුන් විට එය කියවීමට පමණක් හැකි අතර වෙනස් කිරීමට හෝ මකා දැමීමට ඉඩ නොදේ. උදාහරණ: නෛතික ලේඛනයක් අත්වැරදීමකින් වෙනස් වීම වැළැක්වීම.",
+    "syllabusRef": "G10-U5.27"
+  },
+  {
+    "id": "g10-u5-q28",
+    "lessonId": "g10-u5",
+    "questionNumber": 28,
+    "promptEn": "What happens during Hard Disk Formatting?",
+    "promptSi": "දෘඩ තැටියක් ෆෝමැට් (Formatting) කිරීමේදී සිදුවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The computer's CPU speed is doubled.",
+        "si": "CPU වේගය දෙගුණ වේ."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "File allocation tables and directory structures are recreated, erasing existing file indexing.",
+        "si": "පැවැති ගොනු දර්ශක මකා දමා නව ගොනු වෙන්කිරීමේ වගු හා සෙක්ටර ව්‍යුහයන් නැවත සකස් වේ."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Hard disk physical size expands.",
+        "si": "දෘඩ තැටියේ භෞතික ප්‍රමාණය විශාල වේ."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The monitor display resolution increases.",
+        "si": "මොනිටරයේ දර්ශන පෙනුම වැඩි වේ."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Disk Formatting. Formatting prepares a magnetic or solid-state storage drive for initial file storage by creating a clean file system structure (e.g., NTFS, FAT32). Example: Creating fresh NTFS or FAT32 sectors on a new USB flash drive.",
+    "explanationSi": "ප්‍රධාන පදය: තැටි ආකෘතිකරණය (Formatting). ෆෝමැට් කිරීමේදී ගබඩා මාධ්‍යයේ ඇති පැරණි ගොනු සටහන් මකා දමා නව ගොනු පද්ධතියක් (NTFS, FAT32) ස්ථාපනය කරයි. උදාහරණ: නව USB ධාවකයක නව NTFS හෝ FAT32 ගොනු පද්ධතියක් පිහිටුවීම.",
+    "syllabusRef": "G10-U5.28"
+  },
+  {
+    "id": "g10-u5-q29",
+    "lessonId": "g10-u5",
+    "questionNumber": 29,
+    "promptEn": "Which of the following file extensions represents an Executable Program in Windows OS?",
+    "promptSi": "වින්ඩෝස් මෙහෙයුම් පද්ධතියේ ධාවනය කළ හැකි වැඩසටහන් ගොනුවක් (Executable Program) නිරූපණය වන ගොනු දිගුව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`.txt`",
+        "si": "`.txt`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`.exe`",
+        "si": "`.exe`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`.mp3`",
+        "si": "`.mp3`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`.png`",
+        "si": "`.png`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Executable File (.exe). `.exe` stands for Executable File in Windows. Double-clicking a `.exe` file commands the OS to load and run the application in memory. Example: chrome.exe or setup.exe binary program files.",
+    "explanationSi": "ප්‍රධාන පදය: ධාවනය කළ හැකි ගොනු (.exe). `.exe` යනු ධාවනය වන වැඩසටහන් ගොනුවකි (Executable). මෙය මත දෙවරක් ක්ලික් කළ විට OS මගින් වැඩසටහන ධාවනය කරයි. උදාහරණ: chrome.exe හෝ setup.exe වැනි වැඩසටහන් ගොනු.",
+    "syllabusRef": "G10-U5.29"
+  },
+  {
+    "id": "g10-u5-q30",
+    "lessonId": "g10-u5",
+    "questionNumber": 30,
+    "promptEn": "What is a Hierarchical Directory Structure in file management?",
+    "promptSi": "ගොනු කළමනාකරණයේදී 'ධුරාවලි නාමාවලි ව්‍යුහයක්' (Hierarchical Directory Structure) යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A tree-like structure starting from a Root Directory containing Subdirectories and Files.",
+        "si": "මුල් නාමාවලියෙන් (Root Directory) ආරම්භ වී උප-ෆෝල්ඩර හා ගොනු අඩංගු වන රුක් ව්‍යුහයකි (Tree structure)."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A single flat list of files without folders.",
+        "si": "ෆෝල්ඩර නොමැති තනි තලයේ ගොනු ලැයිස්තුවකි."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Storing all files inside RAM memory permanently.",
+        "si": "සියලු ගොනු RAM මතකයේ තැන්පත් කිරීමයි."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Converting files into zip format.",
+        "si": "ගොනු Zip කිරීමයි."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Hierarchical Directory Tree. Operating systems organize files into nested folders (e.g., `C:\\Users\\Student\\Documents\\ICT.docx`) forming an inverted tree hierarchy. Example: C:\\Users\\Student\\Documents\\ICT\\Lesson05.docx.",
+    "explanationSi": "ප්‍රධාන පදය: ධූරාවලි ගොනු ව්‍යුහය. ගොනු පද්ධතිය මුල් ෆෝල්ඩරයේ (Root Folder) සිට අතු බෙදී යන රුක් ව්‍යුහයක් (Tree structure) ලෙස සකස් කර ඇත. උදාහරණ: C:\\Users\\Student\\Documents\\ICT\\Lesson05.docx.",
+    "syllabusRef": "G10-U5.30"
+  },
+  {
+    "id": "g10-u5-q31",
+    "lessonId": "g10-u5",
+    "questionNumber": 31,
+    "promptEn": "Which term refers to the maximum volume of work completed by the CPU process scheduler per unit time?",
+    "promptSi": "මෙහෙයුම් පද්ධති සැකසුම් කාලසටහන මගින් ඒකක කාලයකදී නිම කරනු ලබන උපරිම කාර්ය ප්‍රමාණය හඳුන්වන්නේ කුමන පදයෙන්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Latency",
+        "si": "ප්‍රමාදය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Throughput",
+        "si": "ඵලදායිතාව (Throughput)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Response Time",
+        "si": "ප්‍රතිචාර කාලය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Turnaround Time",
+        "si": "නිමවන කාලය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: System Throughput. Throughput is the number of completed processes per unit of time (e.g., 50 processes/second). High throughput indicates an efficient OS process scheduling algorithm. Example: A high-speed database server completing 500 queries/sec.",
+    "explanationSi": "ප්‍රධාන පදය: පද්ධති ඵලදායිතාව (Throughput). ඵලදායිතාව (Throughput) යනු ඒකක කාලයක් තුළ සකසා නිමකරනු ලබන ක්‍රියාවලි සංඛ්‍යාවයි. උදාහරණ: තත්පරයකට ක්‍රියාවලි 500 ක් සකසා නිම කරන දත්ත සමුදා සේවාදායකය.",
+    "syllabusRef": "G10-U5.31"
+  },
+  {
+    "id": "g10-u5-q32",
+    "lessonId": "g10-u5",
+    "questionNumber": 32,
+    "promptEn": "In multi-user operating systems, what prevents User A from altering or viewing User B's private files?",
+    "promptSi": "බහු-පරිශීලක මෙහෙයුම් පද්ධතිවල, A පරිශීලකයාට B පරිශීලකයාගේ පෞද්ගලික ගොනු වෙනස් කිරීම හෝ නැරඹීම වළක්වන්නේ කුමක් මගින්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Disk Defragmenter",
+        "si": "ඩිස්ක් ඩීෆ්‍රැග්මන්ටර්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "File Access Permissions and Access Control Lists (ACL)",
+        "si": "ගොනු ප්‍රවේශ අවසර සහ ප්‍රවේශ පාලන ලැයිස්තු"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Clock speed setting",
+        "si": "ඔරලෝසු වේගය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Screen Saver settings",
+        "si": "ස්ක්‍රීන් සේවර්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Access Control Lists (ACL). OS Access Control lists specify Read, Write, and Execute permissions for distinct user groups and accounts to ensure security and privacy. Example: Setting Read/Write for Teacher account and Read-Only for Student.",
+    "explanationSi": "ප්‍රධාන පදය: ප්‍රවේශ පාලන ලැයිස්තු (ACL). OS ප්‍රවේශ පාලන ලැයිස්තු (ACL) මගින් පරිශීලකයන්ට අදාළ ගොනු කියවීමේ (Read), ලිවීමේ (Write) සහ ධාවන (Execute) අවසරයන් වෙන් වෙන්ව පාලනය කරයි. උදාහරණ: ගුරුවරයාට ලිවීමේ අවසර සහ ශිෂ්‍යයාට කියවීමේ පමණක් අවසර දීම.",
+    "syllabusRef": "G10-U5.32"
+  },
+  {
+    "id": "g10-u5-q33",
+    "lessonId": "g10-u5",
+    "questionNumber": 33,
+    "promptEn": "What type of software is responsible for organizing optical disc burning (writing data to CD/DVD)?",
+    "promptSi": "CD/DVD තැටි වෙත ඉලෙක්ට්‍රොනික දත්ත ලිවීම (Disc Burning) සඳහා භාවිත වන උපයෝගිතා මෘදුකාංග වර්ගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Optical Disc Burning Utility",
+        "si": "ඔප්ටිකල් ඩිස්ක් බර්නිං මෘදුකාංගය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Word Processor",
+        "si": "වචන සකසුම් මෘදුකාංගය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Spreadsheet Software",
+        "si": "පැතුරුම්පත් මෘදුකාංගය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Presentation Software",
+        "si": "සමර්පණ මෘදුකාංගය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Optical Disc Burning Utility. Disc burning utilities (e.g., Nero, Brasero, Windows Disc Image Burner) format and write binary data lasers onto optical storage media. Example: Nero Express, Brasero burning an ISO image to DVD-R.",
+    "explanationSi": "ප්‍රධාන පදය: ඔප්ටිකල් තැටි බර්නිං මෘදුකාංග. බර්නිං මෘදුකාංග (Disc burning utilities) මගින් CD හෝ DVD තැටි මතට දත්ත ලේසර් කිරණ මගින් සටහන් කරනු ලබයි. උදාහරණ: DVD තැටියකට දත්ත ලිවීම සඳහා Nero හෝ Brasero භාවිතය.",
+    "syllabusRef": "G10-U5.33"
+  },
+  {
+    "id": "g10-u5-q34",
+    "lessonId": "g10-u5",
+    "questionNumber": 34,
+    "promptEn": "Which OS memory management component breaks physical memory into fixed-size blocks called 'Frames' and logical memory into 'Pages'?",
+    "promptSi": "භෞතික මතකය 'රාමු' (Frames) ලෙසද, තර්කානුකූල මතකය 'පිටු' (Pages) ලෙසද ස්ථාවර ප්‍රමාණයේ කොටස්වලට බෙදනු ලබන මතක කළමනාකරණ ක්‍රමවේදය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Paging",
+        "si": "පේජිං"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Fragmentation",
+        "si": "ඛණ්ඩනය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Defragmentation",
+        "si": "විඛණ්ඩනය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Compression",
+        "si": "සංකෝචනය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Memory Paging (Frames & Pages). Paging divides memory into uniform blocks to eliminate external memory fragmentation and enable virtual memory implementation. Example: Dividing physical RAM into 4KB frames and virtual space into pages.",
+    "explanationSi": "ප්‍රධාන පදය: මතක පේජිං (Frames & Pages). Paging මගින් මතකය සමාන ප්‍රමාණයේ පිටු (Pages) සහ රාමු (Frames) ලෙස බෙදා මතක කළමනාකරණය කාර්යක්ෂම කරයි. උදාහරණ: භෞතික RAM එක 4KB රාමුවලට බෙදා ක්‍රියාවලි පිටු ඒවාට පැවරීම.",
+    "syllabusRef": "G10-U5.34"
+  },
+  {
+    "id": "g10-u5-q35",
+    "lessonId": "g10-u5",
+    "questionNumber": 35,
+    "promptEn": "What is the term for a situation where two processes are unable to proceed because each is waiting for the other to release a resource?",
+    "promptSi": "ක්‍රියාවලීන් දෙකක් එකිනෙකා විසින් ලබාගෙන ඇති සම්පත් නිදහස් කරන තෙක් බලා සිටීම නිසා ක්‍රියාවලීන් දෙකම අක්‍රිය වන අසමතුලිත අවස්ථාව හඳුන්වන්නේ:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Deadlock",
+        "si": "ඩෙඩ්ලොක් (Deadlock)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Multitasking",
+        "si": "බහු-කාර්යතාව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Swapping",
+        "si": "ස්වැපිං"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Spooling",
+        "si": "ස්පූලිං"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Deadlock. Deadlock occurs when Process 1 holds Resource A and waits for Resource B, while Process 2 holds Resource B and waits for Resource A. The OS must detect and resolve deadlocks. Example: Process 1 holds Drive and needs Printer; Process 2 holds Printer and needs Drive.",
+    "explanationSi": "ප්‍රධාන පදය: ඩෙඩ්ලොක් (Deadlock). ඩෙඩ්ලොක් (Deadlock) යනු එකිනෙකට බද්ධ වූ සම්පත් නිදහස් නොවීම නිසා පද්ධති ක්‍රියාවලීන් සිරවී නතර වන අවස්ථාවයි. උදාහරණ: ක්‍රියාවලීන් දෙකක් එකිනෙකාගේ සම්පත් නිදහස් වනතුරු සිරවී සිටීම.",
+    "syllabusRef": "G10-U5.35"
+  },
+  {
+    "id": "g10-u5-q36",
+    "lessonId": "g10-u5",
+    "questionNumber": 36,
+    "promptEn": "What is the main purpose of the Disk Defragmenter utility program?",
+    "promptSi": "ඩිස්ක් ඩීෆ්‍රැග්මන්ටර් (Disk Defragmenter) උපයෝගිතා වැඩසටහනේ ප්‍රධාන අරමුණ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To clean viruses from the hard disk.",
+        "si": "දෘඩ තැටියෙන් වෛරස ඉවත් කිරීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To reorganize scattered file fragments into contiguous clusters on the hard disk to speed up file access.",
+        "si": "දෘඩ තැටියේ විසිරී ඇති ගොනු කොටස් (Fragments) එකලස් කර අනුක්‍රමික ක්ලස්ටර බවට පත්කිරීම මගින් ගොනු කියවීමේ වේගය වැඩි කිරීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To compress images and audio files.",
+        "si": "පින්තූර සහ ශ්‍රව්‍ය ගොනු කුඩා කිරීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To connect the PC to the Wi-Fi network.",
+        "si": "Wi-Fi ජාලයට සම්බන්ධ කිරීම."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Disk Defragmentation. Over time, files stored on mechanical hard disks become fragmented across non-adjacent tracks/sectors. Disk Defragmenter gathers these pieces into continuous blocks, reducing read/write head movement time. Example: Reorganizing scattered clusters on mechanical HDD to restore speed.",
+    "explanationSi": "ප්‍රධාන පදය: තැටි ප්‍රතිභාගීකරණය (Defragmentation). දෘඩ තැටියේ තැනින් තැන විසිරී පවතින ගොනු කොටස් (Fragments) එක ළඟ ක්ලස්ටරවලට එකතු කිරීම මගින් ඩිස්ක් එකෙන් දත්ත කියවීමේ වේගය සැලකිය යුතු ලෙස ඉහළ නංවයි. උදාහරණ: දෘඩ තැටියේ විසිරුණු ගොනු කොටස් එකට එක්කර කියවීමේ වේගය වැඩි කිරීම.",
+    "syllabusRef": "G10-U5.36"
+  },
+  {
+    "id": "g10-u5-q37",
+    "lessonId": "g10-u5",
+    "questionNumber": 37,
+    "promptEn": "Which utility software scans secondary storage to delete temporary files, clear browser caches, and empty the Recycle Bin to free up space?",
+    "promptSi": "තාවකාලික ගොනු (Temporary files), බ්‍රවුසර් කැෂ් සහ Recycle Bin හි ඇති දත්ත ඉවත් කර ඉඩ නිදහස් කරගැනීමට භාවිත කරන උපයෝගිතා මෘදුකාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Disk Cleanup",
+        "si": "ඩිස්ක් ක්ලීන්අප්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Device Driver",
+        "si": "උපාංග ධාවකය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Compiler",
+        "si": "කම්පයිලරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Disk Partitioning Tool",
+        "si": "ඩිස්ක් පාටිෂන් ටූල්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Disk Cleanup Utility. Disk Cleanup identifies unnecessary system files, temporary Internet files, and trash items that can be safely deleted to recover disk storage. Example: Purging temporary cache, log dumps, and emptying Recycle Bin.",
+    "explanationSi": "ප්‍රධාන පදය: ඩිස්ක් ක්ලීන්අප් (Disk Cleanup). Disk Cleanup මගින් පද්ධතියට අනවශ්‍ය තාවකාලික ගොනු සොයාගෙන ඒවා මකා දමා දෘඩ තැටියේ ඉඩ නිදහස් කරයි. උදාහරණ: තාවකාලික ගොනු සහ Recycle Bin මකා දමා දෘඩ තැටියේ ඉඩ නිදහස් කිරීම.",
+    "syllabusRef": "G10-U5.37"
+  },
+  {
+    "id": "g10-u5-q38",
+    "lessonId": "g10-u5",
+    "questionNumber": 38,
+    "promptEn": "What type of Utility Software reduces the physical storage size of files by eliminating redundancy without losing critical data?",
+    "promptSi": "අතිරික්ත දත්ත ඉවත් කරමින් ගොනුවක අඩංගු දත්ත හානියකින් තොරව එහි භෞතික ගොනු විශාලත්වය කුඩා කරනු ලබන උපයෝගිතා මෘදුකාංග වර්ගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "File Compression Utility (e.g., WinRAR, 7-Zip)",
+        "si": "ගොනු සංකෝචන මෘදුකාංග (WinRAR, 7-Zip)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Disk Defragmenter",
+        "si": "ඩිස්ක් ඩීෆ්‍රැග්මන්ටර්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Antivirus Software",
+        "si": "ඇන්ටීවෛරස් මෘදුකාංග"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Text Editor",
+        "si": "පෙළ සංස්කාරක"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: File Compression Utility. File Compression tools (WinRAR, 7-Zip, WinZip) pack files into compressed archives (like `.zip` or `.rar`) to save storage space and reduce email attachment transmission time. Example: Compressing a 100 MB folder into a 35 MB archive.zip file.",
+    "explanationSi": "ප්‍රධාන පදය: ගොනු සංකෝචන මෘදුකාංග (Compression). WinRAR, 7-Zip වැනි ගොනු සංකෝචන මෘදුකාංග මගින් ගොනුවේ ප්‍රමාණය කුඩා කර ගබඩා ඉඩ ඉතිරි කර ගැනීමට හා හුවමාරුව පහසු කිරීමට ඉඩ සලසයි. උදාහරණ: 100 MB ෆෝල්ඩරයක් 35 MB .zip ගොනුවක් බවට කුඩා කිරීම.",
+    "syllabusRef": "G10-U5.38"
+  },
+  {
+    "id": "g10-u5-q39",
+    "lessonId": "g10-u5",
+    "questionNumber": 39,
+    "promptEn": "Which utility software monitors, detects, quarentines, and removes malicious code (such as viruses, worms, and Trojans) from computer storage?",
+    "promptSi": "පරිගණක ගබඩා මාධ්‍යයන්හි ඇති අනිෂ්ට මෘදුකාංග (වෛරස, පණුවන්, ට්‍රෝජන්) හඳුනාගෙන, නිරෝධායනය කර ඉවත් කරනු ලබන උපයෝගිතා මෘදුකාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Antivirus Utility",
+        "si": "ඇන්ටීවෛරස් මෘදුකාංගය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Disk Formatter",
+        "si": "ඩිස්ක් ෆෝමැටරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "File Explorer",
+        "si": "ෆයිල් එක්ස්ප්ලෝරර්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Backup Utility",
+        "si": "බුකප් මෘදුකාංගය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Antivirus Utility. Antivirus utilities scan RAM and storage drives against virus signatures and heuristic behavior to prevent malicious software execution. Example: Windows Defender scanning downloaded files for trojans.",
+    "explanationSi": "ප්‍රධාන පදය: ප්‍රතිවෛරස් මෘදුකාංග (Antivirus). ඇන්ටීවෛරස් මෘදුකාංග මගින් පරිගණක පද්ධතිය අනිෂ්ට මෘදුකාංගවලින් (Malware) ආරක්ෂා කරයි. උදාහරණ: Windows Defender මගින් බාගත කළ ගොනු වෛරස් සඳහා පරීක්ෂා කිරීම.",
+    "syllabusRef": "G10-U5.39"
+  },
+  {
+    "id": "g10-u5-q40",
+    "lessonId": "g10-u5",
+    "questionNumber": 40,
+    "promptEn": "What is the primary purpose of a Backup Utility program?",
+    "promptSi": "බැකප් (Backup Utility) මෘදුකාංගයක ප්‍රධාන කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To create duplicate copies of critical files on a separate storage media to prevent data loss in case of system failure.",
+        "si": "පද්ධති බිඳවැටීමකදී දත්ත හානිවීම වැළැක්වීමට වැදගත් ගොනුවල අතිරේක පිටපත් වෙනත් ගබඩා මාධ්‍යයක සුරක්ෂිතව තැන්පත් කිරීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To increase the CPU processor clock speed.",
+        "si": "CPU එකේ ඔරලෝසු වේගය වැඩි කිරීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To format hard drives automatically every week.",
+        "si": "සෑම සතියකම දෘඩ තැටිය ෆෝමැට් කිරීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To display web pages on the Internet.",
+        "si": "අන්තර්ජාලයේ වෙබ් පිටු පෙන්වීම."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Backup Utility. Backup utilities create scheduled compressed/encrypted copies of important database or user files on external drives or cloud storage for disaster recovery. Example: Automated daily backup of school records to an external SSD.",
+    "explanationSi": "ප්‍රධාන පදය: බැකප් මෘදුකාංග (Backup Utility). Backup මෘදුකාංග මගින් අත්‍යවශ්‍ය දත්තවල පිටපත් වෙනත් බාහිර ගබඩා මාධ්‍යයක සුරැකිව තබාගෙන පද්ධති අක්‍රිය වීමකදී දත්ත නැවත ලබා ගැනීමට (Recovery) ඉඩ සලසයි. උදාහරණ: පාසල් දත්ත දිනපතා බාහිර SSD ධාවකයකට ස්වයංක්‍රීයව පිටපත් කිරීම.",
+    "syllabusRef": "G10-U5.40"
+  },
+  {
+    "id": "g10-u5-q41",
+    "lessonId": "g10-u5",
+    "questionNumber": 41,
+    "promptEn": "A File Management Utility tool built into Windows OS used for browsing folders, copying, moving, and deleting files is called:",
+    "promptSi": "වින්ඩෝස් මෙහෙයුම් පද්ධතියේ ඇති, ෆෝල්ඩර පිරික්සීමට, ගොනු පිටපත් කිරීමට, ගෙන යාමට සහ මකා දැමීමට භාවිත කරන ගොනු කළමනාකරණ මෙවලම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "File Explorer (Windows Explorer)",
+        "si": "ෆයිල් එක්ස්ප්ලෝරර්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Task Manager",
+        "si": "ටාස්ක් මැනේජර්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Control Panel",
+        "si": "කන්ට්‍රෝල් පැනලය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Device Manager",
+        "si": "ඩිවයිස් මැනේජර්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: File Explorer (Windows Explorer). File Explorer is the primary GUI file management application in Windows OS for navigating drive structures and managing user files. Example: Navigating drives, folders, creating new folders and moving files.",
+    "explanationSi": "ප්‍රධාන පදය: ගොනු ගවේෂකය (File Explorer). File Explorer යනු වින්ඩෝස් OS හි ෆෝල්ඩර සහ ගොනු පාලනය කරන ප්‍රධාන GUI ගොනු කළමනාකරණ යෙදවුමයි. උදාහරණ: වින්ඩෝස් හි ෆෝල්ඩර සහ ගොනු කළමනාකරණය කරන ප්‍රධාන මෘදුකාංගය.",
+    "syllabusRef": "G10-U5.41"
+  },
+  {
+    "id": "g10-u5-q42",
+    "lessonId": "g10-u5",
+    "questionNumber": 42,
+    "promptEn": "Which utility program in Windows OS allows users to view active processes, monitor CPU and RAM utilization in real-time, and force-close unresponsive frozen applications?",
+    "promptSi": "වින්ඩෝස් හි සක්‍රිය ක්‍රියාවලි, CPU/RAM භාවිතය නිරීක්ෂණය කිරීමට සහ හිරවූ (Frozen) මෘදුකාංග බලහත්කාරයෙන් වසා දැමීමට (Force Close) භාවිත කරන මෙවලම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Task Manager",
+        "si": "ටාස්ක් මැනේජර් (Task Manager)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Disk Defragmenter",
+        "si": "ඩිස්ක් ඩීෆ්‍රැග්මන්ටර්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Paint",
+        "si": "පේන්ට්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Notepad",
+        "si": "නෝට්පෑඩ්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Task Manager. Task Manager (`Ctrl + Shift + Esc`) gives detailed system performance analytics and allows terminating unresponsive processes (`End Task`). Example: Pressing Ctrl+Shift+Esc to End Task on an unresponsive program.",
+    "explanationSi": "ප්‍රධාන පදය: කාර්ය කළමනාකරු (Task Manager). Task Manager මගින් පද්ධතියේ ක්‍රියාවලි, CPU/RAM භාවිතය පෙන්වන අතර අක්‍රිය වූ යෙදවුම් වසා දැමීමට (End Task) ඉඩ දෙයි. උදාහරණ: Ctrl+Shift+Esc මගින් හිරවූ වැඩසටහන් බලහත්කාරයෙන් වසා දැමීම.",
+    "syllabusRef": "G10-U5.42"
+  },
+  {
+    "id": "g10-u5-q43",
+    "lessonId": "g10-u5",
+    "questionNumber": 43,
+    "promptEn": "Which of the following is an example of an Open Source Utility tool for file archiving and compression?",
+    "promptSi": "ගොනු සංකෝචනය සඳහා භාවිත වන විවෘත මූලාශ්‍ර (Open Source) උපයෝගිතා මෘදුකාංගයකට උදාහරණයක් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "7-Zip",
+        "si": "7-Zip"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "WinRAR",
+        "si": "WinRAR"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "MS Word",
+        "si": "MS Word"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Photoshop",
+        "si": "Photoshop"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Open-Source File Archiver (7-Zip). 7-Zip is a free and open-source file archiver utility, whereas WinRAR is proprietary shareware. Example: 7-Zip open-source utility extracting .7z and .zip archives.",
+    "explanationSi": "ප්‍රධාන පදය: විවෘත මූලාශ්‍ර ගොනු සංකෝචකය (7-Zip). 7-Zip යනු නොමිලේ ලබාගත හැකි නිදහස් හා විවෘත මූලාශ්‍ර (FOSS) ගොනු සංකෝචන මෘදුකාංගයකි. WinRAR යනු Shareware මෘදුකාංගයකි. උදාහරණ: නොමිලේ ලබාගත හැකි 7-Zip FOSS ගොනු සංකෝචන මෘදුකාංගය.",
+    "syllabusRef": "G10-U5.43"
+  },
+  {
+    "id": "g10-u5-q44",
+    "lessonId": "g10-u5",
+    "questionNumber": 44,
+    "promptEn": "Disk Partitioning refers to:",
+    "promptSi": "'ඩිස්ක් පාටිෂන් කිරීම' (Disk Partitioning) යනු:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Dividing a single physical hard drive into multiple logical storage drives (e.g., C:, D:, E: drives).",
+        "si": "තනි භෞතික දෘඩ තැටියක් තර්කානුකූල ගබඩා ධාවක කිහිපයකට (C:, D:, E: ලෙස) වෙන් කිරීමයි."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Cleaning dust inside the hard disk drive casing.",
+        "si": "දෘඩ තැටිය ඇතුළත දූවිලි පිසදැමීමයි."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Formatting the RAM memory module.",
+        "si": "RAM මතකය ෆෝමැට් කිරීමයි."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Splitting a keyboard into two physical halves.",
+        "si": "යතුරුපුවරුව කොටස් දෙකකට වෙන් කිරීමයි."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Disk Partitioning. Partitioning allows separating Operating System system files (on `C:`) from personal user data (on `D:`), improving backup ease and security. Example: Partitioning a 1 TB HDD into 250 GB C: (OS) and 750 GB D: (Data).",
+    "explanationSi": "ප්‍රධාන පදය: තැටි පංගු කිරීම (Partitioning). තනි දෘඩ තැටියක් තර්කානුකූල ධාවක කොටස්වලට (C:, D:) වෙන් කිරීම මගින් මෙහෙයුම් පද්ධතිය සහ පරිශීලක දත්ත වෙන් වෙන්ව තබා ගැනීමට ඉඩ සලසයි. උදාහරණ: 1 TB දෘඩ තැටියක් OS එක සඳහා C: සහ දත්ත සඳහා D: ලෙස වෙන් කිරීම.",
+    "syllabusRef": "G10-U5.44"
+  },
+  {
+    "id": "g10-u5-q45",
+    "lessonId": "g10-u5",
+    "questionNumber": 45,
+    "promptEn": "Why is Disk Defragmentation NOT necessary or recommended for Solid State Drives (SSDs)?",
+    "promptSi": "Solid State Drives (SSD) සඳහා ඩිස්ක් ඩීෆ්‍රැග්මන්ටේෂන් සිදුකිරීම නිර්දේශ නොකරන්නේ හෝ අවශ්‍ය නොවන්නේ මන්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "SSDs have no moving mechanical read heads, offer uniform flash access times, and defragmentation causes unnecessary write-wear on flash memory cells.",
+        "si": "SSD වල යාන්ත්‍රික කියවීම් හිස් නොමැත, ක්ෂණික ෆ්ලෑෂ් ප්‍රවේශ වේගයක් ඇත, සහ ඩිෆ්‍රැග්මන්ට් කිරීමෙන් ෆ්ලෑෂ් සෛලවල ආයු කාලය අඩුවේ."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "SSDs cannot store files larger than 1 MB.",
+        "si": "SSD වල 1 MB ට වැඩි ගොනු තැන්පත් කළ නොහැක."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "SSDs do not use Operating Systems.",
+        "si": "SSD සඳහා OS එකක් අවශ්‍ය නොවේ."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "SSDs automatically format themselves every day.",
+        "si": "SSD ස්වයංක්‍රීයව ෆෝමැට් වේ."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: SSD Defragmentation Risks. Unlike mechanical Hard Disk Drives (HDDs), SSDs use electronic flash memory with zero seek time latency. Defragmenting an SSD writes unnecessary data, shortening flash chip lifespan. Example: SSDs use electronic NAND flash cells with zero seek latency; defrag causes write wear.",
+    "explanationSi": "ප්‍රධාන පදය: SSD ප්‍රතිභාගීකරණයෙන් වැළකීම. SSD මතක තැටි ෆ්ලෑෂ් මතක තාක්ෂණයෙන් ක්‍රියා කරන අතර ඒවායේ යාන්ත්‍රික කොටස් නැත. ඩිෆ්‍රැග්මන්ට් කිරීම මගින් SSD හි ආයු කාලය අඩුවේ. උදාහරණ: SSD වල යාන්ත්‍රික කියවීම් හිස් නැති බැවින් defrag කිරීමෙන් ආයු කාලය අඩුවේ.",
+    "syllabusRef": "G10-U5.45"
+  },
+  {
+    "id": "g10-u5-q46",
+    "lessonId": "g10-u5",
+    "questionNumber": 46,
+    "promptEn": "Which utility software component in Windows protects a PC by filtering incoming and outgoing network traffic based on predefined security rules?",
+    "promptSi": "කලින් අර්ථ දැක්වූ ආරක්ෂක රීති මත පදනම්ව ජාල තදබදය (Network Traffic) පරීක්ෂා කර පරිගණකය ආරක්ෂා කරන වින්ඩෝස් උපයෝගිතා සංරචකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Windows Firewall",
+        "si": "වින්ඩෝස් ෆයර්වෝල් (Firewall)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Disk Defragmenter",
+        "si": "ඩිස්ක් ඩීෆ්‍රැග්මන්ටර්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Calculator",
+        "si": "කැල්කියුලේටරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Notepad",
+        "si": "නෝට්පෑඩ්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Firewall Utility. A Firewall filters network data packets to block unauthorized external hackers or malware network intrusions. Example: Windows Firewall blocking unauthorized inbound port scan attempts.",
+    "explanationSi": "ප්‍රධාන පදය: ගිනිපවුර (Firewall). ෆයර්වෝල් (Firewall) මගින් ජාලය ඔස්සේ සිදුවන අනවසර පිවිසීම් සහ හැකර් ප්‍රහාර වළක්වයි. උදාහරණ: අන්තර්ජාලය හරහා සිදුවන අනවසර පිවිසීම් වළක්වන ගිනිපවුර.",
+    "syllabusRef": "G10-U5.46"
+  },
+  {
+    "id": "g10-u5-q47",
+    "lessonId": "g10-u5",
+    "questionNumber": 47,
+    "promptEn": "What happens to files when you delete them in Windows OS using the standard `Delete` key?",
+    "promptSi": "වින්ඩෝස් හිදී සාමාන්‍ය `Delete` යතුර මගින් ගොනුවක් මකා දැමූ විට සිදුවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "They are permanently erased immediately from the hard disk.",
+        "si": "දෘඩ තැටියෙන් සදාකාලිකවම මකා දැමෙයි."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "They are moved to the Recycle Bin and can be restored if needed.",
+        "si": "Recycle Bin වෙත මාරු වන අතර අවශ්‍ය නම් නැවත යථා තත්ත්වයට (Restore) පත් කරගත හැක."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "They are sent via email to Microsoft.",
+        "si": "මයික්‍රොසොෆ්ට් වෙත විද්‍යුත් තැපෑලෙන් යැවේ."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "They are converted into compressed zip files.",
+        "si": "Zip ගොනු බවට පත්වේ."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Recycle Bin Soft Deletion. Standard deletion moves file pointers to the Recycle Bin safety zone. Pressing `Shift + Delete` bypasses the Recycle Bin for permanent deletion. Example: Pressing Delete moves file to Recycle Bin with Restore option.",
+    "explanationSi": "ප්‍රධාන පදය: Recycle Bin මගින් තාවකාලික මකා දැමීම. සාමාන්‍ය Delete කිරීමේදී ගොනුව Recycle Bin එකට යන අතර `Shift + Delete` මගින් Recycle Bin මගහැර ස්ථිරවම මකා දැමිය හැක. උදාහරණ: Delete කළ ගොනුවක් Recycle Bin එකෙන් Restore කර නැවත ලබා ගැනීම.",
+    "syllabusRef": "G10-U5.47"
+  },
+  {
+    "id": "g10-u5-q48",
+    "lessonId": "g10-u5",
+    "questionNumber": 48,
+    "promptEn": "Which key combination permanently deletes a selected file in Windows without sending it to the Recycle Bin?",
+    "promptSi": "වින්ඩෝස් හිදී Recycle Bin වෙත යැවීමකින් තොරව ගොනුවක් ස්ථිරවම මකා දැමීමට භාවිත කරන යතුරු සංයෝජනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Ctrl + Delete`",
+        "si": "`Ctrl + Delete`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Shift + Delete`",
+        "si": "`Shift + Delete`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Alt + Delete`",
+        "si": "`Alt + Delete`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`Tab + Delete`",
+        "si": "`Tab + Delete`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Permanent Deletion (Shift + Delete). `Shift + Delete` bypasses the Recycle Bin folder and marks the disk sectors occupied by the file as free space immediately. Example: Shift + Delete permanently frees sectors without Recycle Bin storage.",
+    "explanationSi": "ප්‍රධාන පදය: ස්ථිර මකා දැමීම (Shift + Delete). `Shift + Delete` භාවිත කළ විට ගොනුව Recycle Bin වෙත නොගොස් ස්ථිරවම මකා දැමෙයි. උදාහරණ: Recycle Bin වෙත නොයවා ක්ෂණිකව ස්ථිරවම මකා දැමීම.",
+    "syllabusRef": "G10-U5.48"
+  },
+  {
+    "id": "g10-u5-q49",
+    "lessonId": "g10-u5",
+    "questionNumber": 49,
+    "promptEn": "Which OS system tool allows configuring hardware settings, changing display resolutions, managing user accounts, and uninstalling programs?",
+    "promptSi": "පරිගණකයේ දෘඩාංග සැකසුම්, තිර විභේදනය, පරිශීලක ගිණුම් සහ මෘදුකාංග ඉවත් කිරීම (Uninstall) සිදුකිරීමට වින්ඩෝස් හි ඇති පද්ධති මෙවලම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Control Panel",
+        "si": "Settings / කන්ට්‍රෝල් පැනලය (Control Panel)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Paint",
+        "si": "පේන්ට්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Windows Media Player",
+        "si": "වින්ඩෝස් මීඩියා ප්ලේයර්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "WordPad",
+        "si": "වර්ඩ්පෑඩ්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Control Panel / Windows Settings. Control Panel / Settings provides centralized system management applets for administrative control of Windows. Example: Uninstalling programs, configuring network adapters and sound devices.",
+    "explanationSi": "ප්‍රධාන පදය: කන්ට්‍රෝල් පැනලය (Control Panel). Control Panel / Settings මගින් පද්ධතියේ ප්‍රධාන සැකසුම් (Hardware, Software, Users) පාලනය කිරීමට පහසුකම් සපයයි. උදාහරණ: මෘදුකාංග ඉවත් කිරීම සහ දෘඩාංග සැකසුම් වෙනස් කිරීමේ මධ්‍යස්ථානය.",
+    "syllabusRef": "G10-U5.49"
+  },
+  {
+    "id": "g10-u5-q50",
+    "lessonId": "g10-u5",
+    "questionNumber": 50,
+    "promptEn": "What is a System Restore Point in an Operating System?",
+    "promptSi": "මෙහෙයුම් පද්ධතියක 'පද්ධති ප්‍රත්‍යාගමන ලක්ෂ්‍යයක්' (System Restore Point) යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A saved snapshot of system files and registry settings at a specific time used to roll back the OS if a system failure occurs.",
+        "si": "පද්ධති දෝෂයක් වූ විට OS එක මීට පෙර පැවැති යහපත් තත්ත්වයට ආපසු හැරවීම සඳහා සුරැකූ පද්ධති ගොනු ඡායාරූපයකි."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Formatting the hard disk to factory settings.",
+        "si": "දෘඩ තැටිය ෆෝමැට් කිරීමයි."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Restarting the monitor screen.",
+        "si": "තිරය නැවත ආරම්භ කිරීමයි."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Changing the desktop wallpaper.",
+        "si": "ඩෙස්ක්ටොප් පසුබිම් රූපය වෙනස් කිරීමයි."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: System Restore Point. System Restore allows undoing harmful system changes (like bad driver updates or registry corruption) without losing personal user documents. Example: Rolling back registry and drivers to yesterday after faulty driver crash.",
+    "explanationSi": "ප්‍රධාන පදය: පද්ධති ප්‍රත්‍යාගමන ලක්ෂ්‍යය (System Restore Point). System Restore Point මගින් පද්ධතියට අහිතකර වෙනසක් වූ විට (උදා: වැරදි ධාවක ස්ථාපනයක්) පුද්ගලික දත්තවලට හානි නොකර OS එක මීට පෙර පැවැති හොඳ තත්ත්වයට පත්කරයි. උදාහරණ: දෝෂ සහගත ධාවකයක් නිසා පද්ධතිය බිඳවැටුණු විට පෙර තත්ත්වයට හැරවීම.",
+    "syllabusRef": "G10-U5.50"
+  },
+  {
+    "id": "g10-u5-q51",
+    "lessonId": "g10-u5",
+    "questionNumber": 51,
+    "promptEn": "Which software layer sits directly on top of the computer hardware and below all application software?",
+    "promptSi": "පරිගණක දෘඩාංගවලට සෘජුවම ඉහළින් සහ සියලු යෙදවුම් මෘදුකාංගවලට පහළින් පිහිටන මෘදුකාංග ස්තරය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Application Software",
+        "si": "යෙදවුම් මෘදුකාංග"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Operating System",
+        "si": "මෙහෙයුම් පද්ධතිය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Web Browser",
+        "si": "වෙබ් බ්‍රවුසරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "User Interface Layer",
+        "si": "පරිශීලක අතුරුමුහුණත"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: Operating System Layer Architecture. Architecture stack: Hardware \\(\\rightarrow\\) Operating System (Kernel) \\(\\rightarrow\\) Utility/Application Software \\(\\rightarrow\\) User. Example: Hardware -> OS Kernel -> Device Drivers/Services -> Application Software -> User.",
+    "explanationSi": "ප්‍රධාන පදය: මෙහෙයුම් පද්ධති ස්තර ව්‍යුහය. පද්ධති ව්‍යුහය: දෘඩාංග \\(\\rightarrow\\) මෙහෙයුම් පද්ධතිය \\(\\rightarrow\\) යෙදවුම් මෘදුකාංග \\(\\rightarrow\\) පරිශීලකයා. උදාහරණ: දෘඩාංග -> මෙහෙයුම් පද්ධතිය -> යෙදුම් මෘදුකාංග -> පරිශීලකයා.",
+    "syllabusRef": "G10-U5.51"
+  },
+  {
+    "id": "g10-u5-q52",
+    "lessonId": "g10-u5",
+    "questionNumber": 52,
+    "promptEn": "What is the core central component of an Operating System that stays in RAM memory continuously and manages CPU, memory, and hardware calls?",
+    "promptSi": "මෙහෙයුම් පද්ධතියේ ප්‍රධානතම මධ්‍යම සංරචකය (Core) ලෙස හැඳින්වෙන, නොකඩවා RAM හි රැඳී සිටිමින් CPU සහ මතකය පාලනය කරන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Shell",
+        "si": "ෂෙල් (Shell)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Kernel",
+        "si": "කර්නලය (Kernel)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "File Extension",
+        "si": "ගොනු දිගුව"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "GUI Palette",
+        "si": "GUI පලකයන්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: OS Kernel and Shell. The Kernel is the low-level core of the OS that bridges software requests with physical hardware processing. The Shell is the outer user interface wrapper around the Kernel. Example: Linux monolithic kernel interacting with Bash shell or GNOME GUI.",
+    "explanationSi": "ප්‍රධාන පදය: කර්නලය සහ ෂෙල් (Kernel vs Shell). කර්නලය (Kernel) යනු මෙහෙයුම් පද්ධතියේ ප්‍රධානම අභ්‍යන්තර සංරචකයයි. Shell යනු කර්නලය වටා ඇති පරිශීලක අතුරුමුහුණතයි. උදාහරණ: නොකඩවා RAM හි රැඳෙන කර්නලය (Kernel) සහ පිටත අතුරුමුහුණත (Shell).",
+    "syllabusRef": "G10-U5.52"
+  },
+  {
+    "id": "g10-u5-q53",
+    "lessonId": "g10-u5",
+    "questionNumber": 53,
+    "promptEn": "What type of file system formatting is standard for modern Windows hard disk drives to support large files (> 4 GB) and file security permissions?",
+    "promptSi": "4 GB ට වැඩි විශාල ගොනු සහ ගොනු ආරක්ෂණ අවසරයන්ට සහාය දක්වන වින්ඩෝස් හි සම්මත ගොනු පද්ධතිය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "FAT16",
+        "si": "FAT16"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "FAT32",
+        "si": "FAT32"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "NTFS (New Technology File System)",
+        "si": "NTFS (New Technology File System)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "ASCII",
+        "si": "ASCII"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Key Term: NTFS File System. NTFS supports large individual file sizes, file encryption, journaling, and granular access control lists, unlike older FAT32 which caps single files at 4 GB. Example: Formatting modern Windows hard drive to support 100 GB 4K video files.",
+    "explanationSi": "ප්‍රධාන පදය: NTFS ගොනු පද්ධතිය. NTFS ගොනු පද්ධතිය මගින් 4 GB ට වැඩි විශාල ගොනු සහ ගොනු ආරක්ෂණ ක්‍රමවේදයන් සඳහා සහාය දක්වයි. පැරණි FAT32 හි 4 GB සීමාවක් තිබුණි. උදාහරණ: 4 GB ට වැඩි විශාල ගොනු සහ ආරක්ෂණ පහසුකම් සපයන NTFS ගොනු පද්ධතිය.",
+    "syllabusRef": "G10-U5.53"
+  },
+  {
+    "id": "g10-u5-q54",
+    "lessonId": "g10-u5",
+    "questionNumber": 54,
+    "promptEn": "Which command line command in Windows is used to test network connectivity to another host IP address?",
+    "promptSi": "වින්ඩෝස් විධාන පේළියේදී වෙනත් IP ලිපිනයක් සහිත පරිගණකයක ජාල සම්බන්ධතාව පරීක්ෂා කිරීමට (Network Connectivity Test) භාවිත කරන විධානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`DIR`",
+        "si": "`DIR`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`PING`",
+        "si": "`PING`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`FORMAT`",
+        "si": "`FORMAT`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`COPY`",
+        "si": "`COPY`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: PING Network Diagnostic Tool. `ping ` sends ICMP echo packets to test network connectivity and measure round-trip latency. Example: CLI command: ping 192.168.1.1 to verify local router gateway connectivity.",
+    "explanationSi": "ප්‍රධාන පදය: PING ජාල පරීක්ෂණ විධානය. `ping` විධානය මගින් වෙනත් පරිගණකයක ජාල සම්බන්ධතාව සහ සංඥා ප්‍රමාදය (Latency) පරීක්ෂා කරයි. උදාහරණ: ping 192.168.1.1 මගින් රවුටරය සමග ජාල සම්බන්ධතාව පරීක්ෂා කිරීම.",
+    "syllabusRef": "G10-U5.54"
+  },
+  {
+    "id": "g10-u5-q55",
+    "lessonId": "g10-u5",
+    "questionNumber": 55,
+    "promptEn": "Which OS scheduling algorithm processes execution requests strictly in the order of their arrival time?",
+    "promptSi": "පැමිණි පිළිවෙළටම සකසන (First-Come) ක්‍රියාවලි කාලසටහන්කරණ ඇල්ගොරිතමය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Round Robin (RR)",
+        "si": "Round Robin (RR)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "First-Come, First-Served (FCFS)",
+        "si": "පළමුව පැමිණි පිළිවෙළට පළමුව සැකසීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Shortest Job First (SJF)",
+        "si": "Shortest Job First (SJF)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Priority Scheduling",
+        "si": "Priority Scheduling"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Key Term: First-Come First-Served (FCFS) Scheduling. FCFS is a simple non-preemptive queue algorithm where the process that enters the Ready State first gets executed first. Example: Non-preemptive queue processing bank customer transactions in order.",
+    "explanationSi": "ප්‍රධාන පදය: පළමුව පැමිණි පිළිවෙළට පළමුව සැකසීම (FCFS). FCFS ඇල්ගොරිතමයේදී සූදානම් පෝලිමට ප්‍රථමයෙන් පැමිණෙන ක්‍රියාවලිය ප්‍රථමයෙන්ම CPU මගින් සකසනු ලබයි. උදාහරණ: පෝලිමට ප්‍රථමයෙන් පැමිණි ක්‍රියාවලියට මුලින්ම CPU ලබා දෙන ඇල්ගොරිතමය.",
+    "syllabusRef": "G10-U5.55"
+  },
+  {
+    "id": "g10-u5-q56",
+    "lessonId": "g10-u5",
+    "questionNumber": 56,
+    "promptEn": "In Round Robin (RR) CPU scheduling algorithm, what is the fixed time slice allocated to each process called?",
+    "promptSi": "රවුන්ඩ් රොබින් (Round Robin) CPU කාලසටහන් ඇල්ගොරිතමයේදී සෑම ක්‍රියාවලියකටම වෙන්කර දෙන ස්ථාවර කාල සීමාව හඳුන්වන්නේ කුමන නමකින්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Time Quantum",
+        "si": "Time Slice / ටයිම් ක්වාන්ටම් (Time Quantum)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Clock Speed",
+        "si": "ඔරලෝසු වේගය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Delay Time",
+        "si": "ප්‍රමාද කාලය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Throughput",
+        "si": "ඵලදායිතාව"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Round Robin (RR) Time Quantum. Time Quantum is the small equal time unit (e.g., 10 milliseconds) assigned to each process in turn to enable fair multitasking. Example: Allocating 20 ms time slices circularly to all active processes.",
+    "explanationSi": "ප්‍රධාන පදය: රවුන්ඩ් රොබින් ටයිම් ක්වාන්ටම් (Time Quantum). Time Quantum යනු රවුන්ඩ් රොබින් ඇල්ගොරිතමයේදී සෑම ක්‍රියාවලියකටම ලැබෙන කුඩා ස්ථාවර කාල කොටසයි (උදා: 10ms). උදාහරණ: සෑම ක්‍රියාවලියකටම වෙන්කර දෙන 10ms - 20ms ස්ථාවර කාල ඛණ්ඩය.",
+    "syllabusRef": "G10-U5.56"
+  },
+  {
+    "id": "g10-u5-q57",
+    "lessonId": "g10-u5",
+    "questionNumber": 57,
+    "promptEn": "Which of the following is an example of an Operating System designed for Embedded Systems (like smart TVs, cars, and IoT devices)?",
+    "promptSi": "කාවැද්දූ පද්ධති (Embedded Systems - උදා: ස්මාර්ට් ටීවී, මෝටර් රථ, IoT) සඳහා භාවිත වන මෙහෙයුම් පද්ධතියකට උදාහරණයක් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Embedded Linux",
+        "si": "FreeRTOS / ඇම්බඩඩ් ලිනක්ස්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "MS-DOS",
+        "si": "MS-DOS"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Windows Server 2022",
+        "si": "Windows Server 2022"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Oracle Solaris",
+        "si": "Oracle Solaris"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Embedded Operating System. Embedded OSs are lightweight, compact operating systems optimized for microcontrollers and specialized hardware appliances. Example: FreeRTOS / Embedded Linux running in automotive ABS systems and smart TVs.",
+    "explanationSi": "ප්‍රධාන පදය: කාවැද්දූ මෙහෙයුම් පද්ධති (Embedded OS). ඇම්බඩඩ් මෙහෙයුම් පද්ධති ඉතා කුඩා හා වේගවත් වන අතර මයික්‍රොකොන්ට්‍රෝලර් සහ ස්මාර්ට් ගෘහ උපකරණ සඳහා භාවිත කරයි. උදාහරණ: ස්මාර්ට් රූපවාහිනී සහ මෝටර් රථ පද්ධතිවල ක්‍රියා කරන ඇම්බඩඩ් OS.",
+    "syllabusRef": "G10-U5.57"
+  },
+  {
+    "id": "g10-u5-q58",
+    "lessonId": "g10-u5",
+    "questionNumber": 58,
+    "promptEn": "What happens during CPU Thrashing in an Operating System?",
+    "promptSi": "මෙහෙයුම් පද්ධතියක 'CPU Thrashing' තත්ත්වයකදී සිදුවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The CPU spends more time swapping pages between RAM and Virtual Memory than actually executing user instructions, causing extreme system slowdown.",
+        "si": "CPU එක මගින් ප්‍රායෝගික ගණනය කිරීම් සිදු කිරීමට වඩා RAM සහ අතථ්‍ය මතකය අතර පේජිං (Swapping) කිරීමට වැඩි කාලයක් වැය කිරීම නිසා පද්ධතිය ඉතා මන්දගාමී වීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The CPU burns out physically.",
+        "si": "CPU එක ගිනි ගැනීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The hard disk turns into a CD drive.",
+        "si": "දෘඩ තැටිය CD එකක් බවට පත්වීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The monitor displays high-resolution graphics.",
+        "si": "මොනිටරයේ පෙනුම වැඩිවීම."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Virtual Memory Thrashing. Thrashing occurs when physical RAM is severely insufficient for active processes, forcing constant page faults and continuous hard disk swapping. Example: Excessive page swapping between RAM and HDD grinding PC to a halt.",
+    "explanationSi": "ප්‍රධාන පදය: මතක ත්‍රැෂිං (CPU Thrashing). Thrashing යනු RAM මතකය මදිවීම නිසා දත්ත පිටු මාරු කිරීමට (Swapping) මුළු CPU කාලයම වැයවී පරිගණකය අතිශයින් මන්දගාමී වන තත්ත්වයයි. උදාහරණ: RAM මදිවීම නිසා දත්ත පිටු මාරු කිරීමට (Swapping) මුළු CPU කාලයම වැය වීම.",
+    "syllabusRef": "G10-U5.58"
+  },
+  {
+    "id": "g10-u5-q59",
+    "lessonId": "g10-u5",
+    "questionNumber": 59,
+    "promptEn": "Which of the following describes Plug and Play (PnP) technology supported by modern Operating Systems?",
+    "promptSi": "නවීන මෙහෙයුම් පද්ධතිවල ඇති Plug and Play (PnP) තාක්ෂණය මගින් විස්තර වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Automatically detecting, configuring, and assigning drivers to new hardware peripherals as soon as they are plugged in.",
+        "si": "අලුතින් සම්බන්ධ කරන දෘඩාංග සක්‍රිය කළ වහාම OS එක මගින් ස්වයංක්‍රීයව හඳුනාගෙන ධාවක මෘදුකාංග (Drivers) සකස් කිරීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Playing video games without electricity.",
+        "si": "විදුලිය නොමැතිව පරිගණක ක්‍රීඩා කිරීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Printing documents without paper.",
+        "si": "කඩදාසි නැතිව මුද්‍රණය කිරීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Buying hardware online.",
+        "si": "අන්තර්ජාලයෙන් බඩු මිලදී ගැනීම."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Plug and Play (PnP). Plug and Play allows users to connect devices (like USB flash drives or mice) and use them immediately without manual driver configuration. Example: Plugging in a new USB mouse and using it within seconds without manual driver setup.",
+    "explanationSi": "ප්‍රධාන පදය: පේනුගත කර ධාවනය (Plug and Play). Plug and Play (PnP) මගින් USB පෙන් ඩ්‍රයිව් හෝ මූසිකයක් සවි කළ වහාම අතින් ධාවක ඇතුළත් නොකර භාවිතයට සූදානම් කරයි. උදාහරණ: USB මූසිකයක් සම්බන්ධ කළ වහාම ස්වයංක්‍රීයව හඳුනාගෙන ක්‍රියාත්මක වීම.",
+    "syllabusRef": "G10-U5.59"
+  },
+  {
+    "id": "g10-u5-q60",
+    "lessonId": "g10-u5",
+    "questionNumber": 60,
+    "promptEn": "What is the main difference between Dual-Booting and Virtual Machines (VMs) for running two Operating Systems on one computer?",
+    "promptSi": "එක පරිගණකයක මෙහෙයුම් පද්ධති දෙකක් ධාවනය කිරීමේදී Dual-Booting සහ Virtual Machines (VM) අතර ප්‍රධාන වෙනස කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Dual-Booting requires selecting one OS at computer startup, whereas Virtual Machines allow running a guest OS inside an application window while the host OS is running.",
+        "si": "Dual-Booting හිදී පරිගණකය පණගන්වන විට එක් OS එකක් තෝරාගත යුතු අතර, Virtual Machine මගින් ප්‍රධාන OS එක ධාවනය වන අතරතුර වෙනත් OS එකක් කවුළුවක් තුළ ධාවනය කළ හැක."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Dual-Booting does not use a hard disk.",
+        "si": "Dual-Booting සඳහා දෘඩ තැටියක් අවශ්‍ය නැත."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Virtual Machines erase all user data permanently.",
+        "si": "Virtual Machine මගින් දත්ත මකා දමයි."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Dual-Booting works only on mobile phones.",
+        "si": "Dual-Booting ජංගම දුරකථනවලට පමණි."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Key Term: Dual-Booting vs Virtual Machines. Dual-boot allocates separate disk partitions for two OSs (e.g. Windows and Linux) selected at startup. Virtualization software (e.g. VirtualBox) runs a secondary OS concurrently as a guest VM inside the main OS. Example: Dual-booting Windows 11 & Ubuntu on disk partitions vs running VirtualBox.",
+    "explanationSi": "ප්‍රධාන පදය: ද්විත්ව පණගැන්වීම සහ අතථ්‍ය යන්ත්‍ර (Dual-Boot vs VM). Dual-Boot හිදී පණගන්වන අවස්ථාවේදී එක් OS එකක් තෝරාගත යුතුය. Virtual Machine එකකදී ප්‍රධාන OS එක මත තවත් OS එකක් කවුළුවක් තුළ එකවර ධාවනය කළ හැක. උදාහරණ: පරිගණකය පණගැන්වීමේදී OS තේරීම (Dual-boot) සහ කවුළුවක් තුළ OS ධාවනය (VM).",
+    "syllabusRef": "G10-U5.60"
+  }
+]

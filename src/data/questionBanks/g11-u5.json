@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "g11-u5-q1",
+    "lessonId": "g11-u5",
+    "questionNumber": 1,
+    "promptEn": "Which of the following best defines a \"Website\"?",
+    "promptSi": "\"වෙබ් අඩවියක් (Website)\" යන්න වඩාත්ම නිවැරදිව අර්ථ දක්වන්නේ පහත සඳහන් කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A single digital document containing HTML code only.",
+        "si": "HTML කේත පමණක් අඩංගු තනි ඩිජිටල් ලේඛනයක්."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A collection of related web pages hosted under a single domain name on a web server.",
+        "si": "එක් වසම් නාමයක් (Domain Name) යටතේ වෙබ් සේවාදායකයක ගබඩා කර ඇති එකිනෙකට සම්බන්ධිත වෙබ් පිටු සමූහයකි."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A software program used to search the internet.",
+        "si": "අන්තර්ජාලය සෙවීම සඳහා භාවිත වන මෘදුකාංග වැඩසටහනක්."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A physical storage device storing media files.",
+        "si": "මාධ්‍ය ගොනු ගබඩා කරන භෞතික ආචයන උපකරණයක්."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A website is a structured collection of interlinked web pages managed under one unique domain name (e.g. `www.e-thaksalawa.moe.gov.lk`). A single page is a \"Web Page\", while the initial landing page is the \"Home Page\".",
+    "explanationSi": "වෙබ් අඩවියක් යනු එක් වසම් නාමයක් යටතේ එකිනෙකට සම්බන්ධ කර සේවාදායක පරිගණකයක (Web Server) ස්ථාපනය කර ඇති වෙබ් පිටු එකතුවකි. එහි මුලින්ම හමුවන ප්‍රධාන පිටුව මුල් පිටුව (Home Page) ලෙස හැඳින්වේ.",
+    "syllabusRef": "G11-U5.1"
+  },
+  {
+    "id": "g11-u5-q2",
+    "lessonId": "g11-u5",
+    "questionNumber": 2,
+    "promptEn": "What is the main characteristic of a **Static Web Page** compared to a Dynamic Web Page?",
+    "promptSi": "ගතික වෙබ් පිටුවකට (Dynamic Web Page) සාපේක්ෂව **ස්ථිතික වෙබ් පිටුවක (Static Web Page)** ප්‍රධාන ලක්ෂණය වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Content changes automatically based on database queries and time.",
+        "si": "දත්ත සමුදා විමසුම් සහ වේලාව මත අන්තර්ගතය ස්වයංක්‍රීයව වෙනස් වේ."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Content remains fixed for all users until manually edited in code.",
+        "si": "කේතය අතින් වෙනස් කරන තෙක් සියලු පරිශීලකයන්ට එකම අන්තර්ගතයක් ස්ථාවරව පෙනේ."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "It requires complex server-side scripting languages like PHP or ASP.NET.",
+        "si": "ඊට PHP හෝ ASP.NET වැනි සංකීර්ණ සේවාදායක පස මෘදුකාංග කේත අවශ්‍ය වේ."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "It allows users to create user profiles and process online payments.",
+        "si": "පරිශීලක ගිණුම් සෑදීමට සහ මාර්ගගත ගෙවීම් කිරීමට ඉඩ සලසයි."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Static web pages are built using plain HTML/CSS. Every visitor sees identical content because there is no backend database connection. Dynamic web pages (e.g. Facebook, Online Banking) generate personalized content using server-side databases (PHP/MySQL).",
+    "explanationSi": "ස්ථිතික වෙබ් පිටුවල අන්තර්ගතය HTML/CSS මගින් සකසන අතර කේතය වෙනස් කරන තෙක් සෑම පරිශීලකයෙකුටම පෙනෙන්නේ එකම අන්තර්ගතයයි. දත්ත සමුදා හා සම්බන්ධ නොවෙයි.",
+    "syllabusRef": "G11-U5.2"
+  },
+  {
+    "id": "g11-u5-q3",
+    "lessonId": "g11-u5",
+    "questionNumber": 3,
+    "promptEn": "Which of the following technologies is primarily used for **client-side web page styling and design**?",
+    "promptSi": "වෙබ් පිටුවක අතුරුමුහුණතේ විලාසිතා සහ හැඩතල ගැන්වීම් (Styling) සඳහා මූලිකවම භාවිත වන තාක්ෂණය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "HTML",
+        "si": "HTML"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "CSS (Cascading Style Sheets)",
+        "si": "CSS (Cascading Style Sheets)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "PHP",
+        "si": "PHP"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "SQL",
+        "si": "SQL"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "HTML provides the structure and content of a web page, CSS controls visual styling (colors, fonts, layouts), and JavaScript provides interactive behavior.",
+    "explanationSi": "HTML මගින් වෙබ් පිටුවේ ව්‍යුහය සාදන අතර, CSS (Cascading Style Sheets) මගින් එහි වර්ණ, අකුරු විලාස සහ පෙනුම (Styling) හැඩගස්වනු ලබයි.",
+    "syllabusRef": "G11-U5.3"
+  },
+  {
+    "id": "g11-u5-q4",
+    "lessonId": "g11-u5",
+    "questionNumber": 4,
+    "promptEn": "The first introductory or main index page encountered when visiting a website is termed the:",
+    "promptSi": "වෙබ් අඩවියකට පිවිසෙන විට පළමුවෙන්ම දර්ශනය වන ප්‍රධාන හෝ හඳුන්වාදීමේ පිටුව හඳුන්වන්නේ:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Web Portal",
+        "si": "වෙබ් පෝටලය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Home Page",
+        "si": "මුල් පිටුව (හොම් පේජ්)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Master Page",
+        "si": "මාස්ටර් පේජ්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hyperlink Page",
+        "si": "හයිපර්ලින්ක් පේජ්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Home Page (usually named `index.html`) serves as the entry point and primary navigation index for an entire website.",
+    "explanationSi": "වෙබ් අඩවියක ආරම්භක ප්‍රධාන පිටුව මුල් පිටුව (Home Page) වන අතර, එය සාමාන්‍යයෙන් `index.html` ලෙස සුරකිනු ලැබේ.",
+    "syllabusRef": "G11-U5.4"
+  },
+  {
+    "id": "g11-u5-q5",
+    "lessonId": "g11-u5",
+    "questionNumber": 5,
+    "promptEn": "What does the acronym **HTML** stand for?",
+    "promptSi": "HTML** යන්නෙහි සම්පූර්ණ නාමය වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "HyperText Markup Language",
+        "si": "HyperText Markup Language"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "High-Tech Transfer Markup Language",
+        "si": "High-Tech Transfer Markup Language"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Hyperlink Text Management Language",
+        "si": "Hyperlink Text Management Language"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Home Text Markup Logic",
+        "si": "Home Text Markup Logic"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "HTML stands for **HyperText Markup Language**. \"Hypertext\" refers to interlinked text (links), and \"Markup Language\" refers to using tags (``) to structure content.",
+    "explanationSi": "HTML යනු **HyperText Markup Language** යන්නයි. බ්‍රවුසර මගින් පෙන්වන වෙබ් පිටු ව්‍යුහගත කිරීම සඳහා භාවිත වන සම්මත මාර්කප් භාෂාව මෙයයි.",
+    "syllabusRef": "G11-U5.5"
+  },
+  {
+    "id": "g11-u5-q6",
+    "lessonId": "g11-u5",
+    "questionNumber": 6,
+    "promptEn": "Which software application is responsible for reading HTML code and rendering it visually for users?",
+    "promptSi": "HTML කේත කියවා ඒවා පරිශීලකයාට දෘශ්‍යමාන වෙබ් පිටුවක් ලෙස නිරූපණය කරන්නේ කුමන මෘදුකාංගයද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Text Editor",
+        "si": "පෙළ සංස්කාරකය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Web Browser",
+        "si": "වෙබ් බ්‍රවුසරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Web Server",
+        "si": "වෙබ් සේවාදායකය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Operating System Kernel",
+        "si": "මෙහෙයුම් පද්ධති කර්නලය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Web browsers (e.g. Google Chrome, Mozilla Firefox, MS Edge) parse HTML tags and render text, images, tables, and links on screen.",
+    "explanationSi": "වෙබ් බ්‍රවුසරයක් (උදා: Google Chrome, Firefox) මගින් HTML කේත පරිශීලකයාට පෙනෙන රූප, පෙළ සහ වගු බවට පරිවර්තනය (Render) කර පෙන්වයි.",
+    "syllabusRef": "G11-U5.6"
+  },
+  {
+    "id": "g11-u5-q7",
+    "lessonId": "g11-u5",
+    "questionNumber": 7,
+    "promptEn": "Which of the following is a **Free and Open Source Software (FOSS)** Web Browser?",
+    "promptSi": "පහත සඳහන් දැයින් **නිදහස් හා විවෘත මූලාශ්‍ර (FOSS)** වෙබ් බ්‍රවුසරයක් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Microsoft Edge",
+        "si": "Microsoft Edge"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Apple Safari",
+        "si": "Apple Safari"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Mozilla Firefox",
+        "si": "Mozilla Firefox"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Internet Explorer",
+        "si": "Internet Explorer"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Mozilla Firefox is community-developed FOSS software. MS Edge and Apple Safari are proprietary web browsers.",
+    "explanationSi": "Mozilla Firefox යනු නිදහස් හා විවෘත මූලාශ්‍ර (FOSS) මෘදුකාංගයකි.",
+    "syllabusRef": "G11-U5.7"
+  },
+  {
+    "id": "g11-u5-q8",
+    "lessonId": "g11-u5",
+    "questionNumber": 8,
+    "promptEn": "What protocol is used by web browsers to request and receive web pages securely over the Internet?",
+    "promptSi": "අන්තර්ජාලය ඔස්සේ වෙබ් පිටු ආරක්ෂිතව ලබා ගැනීම සඳහා වෙබ් බ්‍රවුසර භාවිත කරන ප්‍රොටෝකෝලය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "FTP",
+        "si": "FTP"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "HTTPS",
+        "si": "HTTPS"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "SMTP",
+        "si": "SMTP"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "IP",
+        "si": "IP"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "HTTPS (HyperText Transfer Protocol Secure) encrypts communication between the client browser and the web server using SSL/TLS.",
+    "explanationSi": "HTTPS (HyperText Transfer Protocol Secure) මගින් සේවාදායකයා සහ බ්‍රවුසරය අතර දත්ත හුවමාරුව පූර්ණ ලෙස සංකේතනය (Encryption) කර ආරක්ෂා කරයි.",
+    "syllabusRef": "G11-U5.8"
+  },
+  {
+    "id": "g11-u5-q9",
+    "lessonId": "g11-u5",
+    "questionNumber": 9,
+    "promptEn": "Which of the following is an example of a **Server-Side** scripting language used for dynamic web development?",
+    "promptSi": "ගතික වෙබ් අඩවි නිර්මාණයේදී **සේවාදායක පස (Server-Side)** කේතනය සඳහා භාවිත වන භාෂාවක් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "HTML",
+        "si": "HTML"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "CSS",
+        "si": "CSS"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "PHP",
+        "si": "PHP"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "XML",
+        "si": "XML"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "PHP, Python, Node.js, and ASP.NET execute on the web server to process database logic. HTML, CSS, and Client JavaScript execute inside the browser.",
+    "explanationSi": "PHP යනු සේවාදායක පරිගණකයේ ක්‍රියාත්මක වන (Server-Side) ගතික වෙබ් ක්‍රමලේඛන භාෂාවකි.",
+    "syllabusRef": "G11-U5.9"
+  },
+  {
+    "id": "g11-u5-q10",
+    "lessonId": "g11-u5",
+    "questionNumber": 10,
+    "promptEn": "A computer connected to the Internet that continuously stores web pages and responds to user browser requests is known as a:",
+    "promptSi": "වෙබ් පිටු ගබඩා කර තබා ගනිමින් අන්තර්ජාලය හරහා පරිශීලක බ්‍රවුසර් ඉල්ලීම්වලට පිළිතුරු සපයන පරිගණකය හඳුන්වන්නේ:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Web Client",
+        "si": "වෙබ් ක්ලයන්ට්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Web Server",
+        "si": "වෙබ් සේවාදායකය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Proxy Switch",
+        "si": "ප්‍රොක්සි ස්විචය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Domain Name System",
+        "si": "ඩොමේන් නේම් සිස්ටම්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Web Server hosts web files and serves them via HTTP/HTTPS protocols upon receiving client requests.",
+    "explanationSi": "වෙබ් සේවාදායකයක් (Web Server) යනු වෙබ් අඩවි ගොනු ගබඩා කර අන්තර්ජාලය ඔස්සේ ලෝකයටම ලබා දෙන විශේෂ පරිගණකයකි.",
+    "syllabusRef": "G11-U5.10"
+  },
+  {
+    "id": "g11-u5-q11",
+    "lessonId": "g11-u5",
+    "questionNumber": 11,
+    "promptEn": "What is the purpose of the `` declaration at the very top of an HTML file?",
+    "promptSi": "HTML ගොනුවක ඉහළින්ම ඇති `` ප්‍රකාශනයේ කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "It creates the title bar text for the browser.",
+        "si": "බ්‍රවුසරයේ මාතෘකාව තීරණය කරයි."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "It tells the web browser that the document is written in HTML5.",
+        "si": "ලේඛනය සකසා ඇත්තේ HTML5 සම්මතයෙන් බව බ්‍රවුසරයට දැනුම් දෙයි."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "It connects the HTML file to a MySQL database.",
+        "si": "HTML ගොනුව MySQL දත්ත සමුදායකට සම්බන්ධ කරයි."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "It closes the HTML document session.",
+        "si": "HTML ලේඛන සැසිය අවසන් කරයි."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` is an instruction to the web browser about the document type and HTML version (specifically HTML5).",
+    "explanationSi": "`` යනු බ්‍රවුසරයට අදාළ ලේඛනය HTML5 අනුවාදයෙන් යුක්ත බව දන්වන විශේෂ ප්‍රකාශනයයි.",
+    "syllabusRef": "G11-U5.11"
+  },
+  {
+    "id": "g11-u5-q12",
+    "lessonId": "g11-u5",
+    "questionNumber": 12,
+    "promptEn": "Which HTML tag encloses all other visible and structural elements of an HTML document?",
+    "promptSi": "HTML ලේඛනයක අඩංගු අනෙකුත් සියලුම කේතයන් තමා තුළ ආවරණය කරගන්නා මූලිකම ටැගය (Root element) කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "The `` tag is the root container tag that holds the `` and `` sections.",
+    "explanationSi": "` ... ` යනු මුළු HTML ලේඛනයම ආවරණය කර සිටින මූලිකම මුල (Root) ටැගයයි.",
+    "syllabusRef": "G11-U5.12"
+  },
+  {
+    "id": "g11-u5-q13",
+    "lessonId": "g11-u5",
+    "questionNumber": 13,
+    "promptEn": "Where must the `` tag be placed inside an HTML document?",
+    "promptSi": "HTML ලේඛනයක් තුළ `` ටැගය ස්ථානගත කළ යුත්තේ කුමන කොටස තුළද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Inside the ` ... ` section",
+        "si": "`` කොටස තුළ"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Inside the ` ... ` section",
+        "si": "`` කොටස තුළ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Inside the `` section",
+        "si": "`` කොටස තුළ"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "After the `` tag",
+        "si": "`` ටැගයට පසුව"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Metadata including document title (``), character sets, and stylesheets must reside inside the `` section.",
+    "explanationSi": "මාතෘකාව සටහන් කරන `` ටැගය අනිවාර්යයෙන්ම තිබිය යුත්තේ ලේඛනයේ ශීර්ෂය වන ` ... ` කොටස තුළය.",
+    "syllabusRef": "G11-U5.13"
+  },
+  {
+    "id": "g11-u5-q14",
+    "lessonId": "g11-u5",
+    "questionNumber": 14,
+    "promptEn": "Text placed inside the `My Webpage` tag will be displayed:",
+    "promptSi": "`My Webpage` ටැගය තුළ ඇති පෙළ දර්ශනය වන්නේ:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "As a large heading on the web page body.",
+        "si": "වෙබ් පිටුවේ ප්‍රධාන මාතෘකාව ලෙස."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "On the browser's tab or title bar.",
+        "si": "බ්‍රවුසර් ටැබයේ හෝ මාතෘකා තීරුවේ."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "At the bottom footer of the page.",
+        "si": "පිටුවේ යටම අඩෝලයේ (Footer)."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Inside the web browser search bar.",
+        "si": "බ්‍රවුසරයේ සෙවුම් තීරුවේ (Address bar)."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The `` content appears on the browser window's title tab and bookmark lists, NOT on the actual visible webpage body.",
+    "explanationSi": "`` ටැගයේ ලියන අකුරු පෙනෙන්නේ බ්‍රවුසර් කවුළුවේ උඩම ඇති ටැබය මත (Browser Tab) පමණි.",
+    "syllabusRef": "G11-U5.14"
+  },
+  {
+    "id": "g11-u5-q15",
+    "lessonId": "g11-u5",
+    "questionNumber": 15,
+    "promptEn": "Which section of an HTML document contains all the visible content (headings, paragraphs, images, tables) rendered on screen?",
+    "promptSi": "වෙබ් පිටුවේ තිරය මත දර්ශනය වන සියලුම අන්තර්ගතයන් (පෙළ, පින්තූර, වගු) අඩංගු වන්නේ HTML ලේඛනයේ කුමන කොටසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Everything displayed inside the browser viewport must be coded within ` ... `.",
+    "explanationSi": "පරිශීලකයාට වෙබ් පිටුවේ දර්ශනය වන සියලුම දේවල් ලියනු ලබන්නේ ` ... ` ටැග් යුගල තුළය.",
+    "syllabusRef": "G11-U5.15"
+  },
+  {
+    "id": "g11-u5-q16",
+    "lessonId": "g11-u5",
+    "questionNumber": 16,
+    "promptEn": "What is the difference between a **Container Tag** and an **Empty (Void) Tag** in HTML?",
+    "promptSi": "HTML හි **කන්ටේනර් ටැග් (Container Tag)** සහ **හිස් / එක්කල ටැග් (Empty / Void Tag)** අතර වෙනස කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Container tags do not need opening tags, but Empty tags do.",
+        "si": "කන්ටේනර් ටැග්වලට ආරම්භක ටැග් නැත."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Container tags have both opening `` and closing `` tags, whereas Empty tags have NO closing tag.",
+        "si": "කන්ටේනර් ටැග් සඳහා ආරම්භක සහ අවසාන ටැග් දෙකම පවතින අතර, හිස් ටැග් සඳහා අවසාන ටැගයක් නැත."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Empty tags can store text, but Container tags cannot.",
+        "si": "හිස් ටැග් තුළ පෙළ ගබඩා කළ හැක."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Container tags are only used inside the `` section.",
+        "si": "කන්ටේනර් ටැග් භාවිත වන්නේ `` තුළ පමණි."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Container tags enclose content (`Hello`). Empty tags stand alone without closing tags (``, ``, ``).",
+    "explanationSi": "කන්ටේනර් / යුගල ටැග් සඳහා ආරම්භක (``) සහ අවසාන (``) ටැග් දෙකම අවශ්‍ය වේ. හිස් ටැග් සඳහා අවසාන ටැගයක් නොමැත (උදා: ``, ``, ``).",
+    "syllabusRef": "G11-U5.16"
+  },
+  {
+    "id": "g11-u5-q17",
+    "lessonId": "g11-u5",
+    "questionNumber": 17,
+    "promptEn": "Which of the following is an example of an **Empty / Void Tag** in HTML?",
+    "promptSi": "පහත සඳහන් ඒවායින් **හිස් / එක්කල ටැගයක් (Empty / Void Tag)** සඳහා උදාහරණයක් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "`` (line break) is an empty tag with no closing tag. ``, ``, and `` are container tags requiring closing tags.",
+    "explanationSi": "`` ටැගයට අවසාන ටැගයක් නැති බැවින් එය හිස් (Empty) ටැගයකි.",
+    "syllabusRef": "G11-U5.17"
+  },
+  {
+    "id": "g11-u5-q18",
+    "lessonId": "g11-u5",
+    "questionNumber": 18,
+    "promptEn": "What is the correct standard file extension for saving HTML files?",
+    "promptSi": "HTML ගොනුවක් සුරැකීම සඳහා භාවිත වන සම්මත ගොනු දිගුව (File extension) කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`.txt`",
+        "si": "`.txt`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`.doc`",
+        "si": "`.doc`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`.html` or `.htm`",
+        "si": "`.html` or `.htm`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`.web`",
+        "si": "`.web`"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Web pages must be saved with `.html` or `.htm` extensions so the operating system and web browsers recognize them as HTML documents.",
+    "explanationSi": "බ්‍රවුසර මගින් හඳුනා ගැනීම සඳහා HTML ගොනුවක් `.html` හෝ `.htm` ලෙස සුරැකිය යුතුය.",
+    "syllabusRef": "G11-U5.18"
+  },
+  {
+    "id": "g11-u5-q19",
+    "lessonId": "g11-u5",
+    "questionNumber": 19,
+    "promptEn": "Which HTML tag is used to specify the background color of a web page using traditional attributes?",
+    "promptSi": "සම්ප්‍රදායික ගුණාංග භාවිතයෙන් වෙබ් පිටුවේ පසුබිම් වර්ණය වෙනස් කිරීමට `` ටැගය තුළ යොදන ගුණාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The `bgcolor` attribute inside the `` tag sets the document background color (e.g. `` or Hex code ``).",
+    "explanationSi": "`` ටැගය තුළ `bgcolor` ගුණාංගය යෙදීමෙන් මුළු පිටුවේම පසුබිම් වර්ණය වෙනස් කළ හැක.",
+    "syllabusRef": "G11-U5.19"
+  },
+  {
+    "id": "g11-u5-q20",
+    "lessonId": "g11-u5",
+    "questionNumber": 20,
+    "promptEn": "How do you insert an HTML comment in source code that will NOT be displayed by the browser?",
+    "promptSi": "බ්‍රවුසරයේ දර්ශනය නොවන පරිදි HTML කේතය තුළ සටහනක් (Comment) ඇතුළත් කරන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`",
+        "si": "/ This is a comment`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`",
+        "si": "This is a comment * / `"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`# This is a comment`",
+        "si": "`# This is a comment`"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "HTML comments start with ``. They are ignored during browser rendering.",
+    "explanationSi": "HTML හි සටහනක් (Comment) ලිවීමට `` සංකේත භාවිත කරයි. බ්‍රවුසරය මෙය නිරූපණය නොකරයි.",
+    "syllabusRef": "G11-U5.20"
+  },
+  {
+    "id": "g11-u5-q21",
+    "lessonId": "g11-u5",
+    "questionNumber": 21,
+    "promptEn": "How many levels of headings does HTML support, and which tag creates the **largest** heading?",
+    "promptSi": "HTML මගින් ලබා දෙන මාතෘකා මට්ටම් (Headings) ගණන කීයද? සහ **විශාලතම** මාතෘකාව සාදන ටැගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "5 levels, `` is largest",
+        "si": "මට්ටම් 5 යි, `` විශාලතම වේ"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "6 levels, `` is largest",
+        "si": "මට්ටම් 6 යි, `` විශාලතම වේ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "6 levels, `` is largest",
+        "si": "මට්ටම් 6 යි, `` විශාලතම වේ"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "4 levels, `` is largest",
+        "si": "මට්ටම් 4 යි, `` විශාලතම වේ"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "HTML provides 6 heading levels: `` (Largest) down to `` (Smallest).",
+    "explanationSi": "HTML හි මාතෘකා මට්ටම් 6 ක් ඇත. `` මගින් විශාලතම මාතෘකාව ද `` මගින් කුඩාම මාතෘකාව ද සාදයි.",
+    "syllabusRef": "G11-U5.21"
+  },
+  {
+    "id": "g11-u5-q22",
+    "lessonId": "g11-u5",
+    "questionNumber": 22,
+    "promptEn": "Which tag is used to define a standard text paragraph in HTML?",
+    "promptSi": "HTML හි සම්මත ඡේදයක් (Paragraph) සෑදීමට භාවිත වන ටැගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "` ... ` creates a structural text paragraph and automatically adds space before and after the element.",
+    "explanationSi": "`` ටැගය මගින් ඡේදයක් අර්ථ දක්වන අතර, එය ඉහළින් සහ පහළින් ඉඩ තබයි.",
+    "syllabusRef": "G11-U5.22"
+  },
+  {
+    "id": "g11-u5-q23",
+    "lessonId": "g11-u5",
+    "questionNumber": 23,
+    "promptEn": "What is the function of the `` tag in HTML?",
+    "promptSi": "HTML හි `` ටැගයේ කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Makes text bold",
+        "si": "අකුරු තද පැහැ කරයි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Inserts a horizontal dividing line",
+        "si": "තිරස් ඉරක් අඳියි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Forces a line break without starting a new paragraph",
+        "si": "නව ඡේදයක් ආරම්භ නොකර නව පේළියකට ගෙන යයි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Changes background color",
+        "si": "පසුබිම් වර්ණය වෙනස් කරයි"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "`` inserts a single line break. It does not add the extra margin spacing that `` creates.",
+    "explanationSi": "`` (Line break) මගින් පෙළ ඊළඟ පේළියට කඩා දමයි.",
+    "syllabusRef": "G11-U5.23"
+  },
+  {
+    "id": "g11-u5-q24",
+    "lessonId": "g11-u5",
+    "questionNumber": 24,
+    "promptEn": "Which HTML tag inserts a horizontal dividing line across the webpage?",
+    "promptSi": "වෙබ් පිටුව හරහා තිරස් බෙදුම් රේඛාවක් ඇතුළත් කිරීමට භාවිත වන ටැගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` (Horizontal Rule) draws a horizontal line. Attributes include `width`, `size` (thickness), and `color`.",
+    "explanationSi": "`` (Horizontal Rule) මගින් තිරස් බෙදුම් රේඛාවක් ඇතුළත් කරයි.",
+    "syllabusRef": "G11-U5.24"
+  },
+  {
+    "id": "g11-u5-q25",
+    "lessonId": "g11-u5",
+    "questionNumber": 25,
+    "promptEn": "Which HTML tag combination is used to display chemical formulas like $H_2O$ (subscript text)?",
+    "promptSi": "$H_2O$ වැනි රසායනික සූත්‍රවල යටි ලකුණු (Subscript) ලිවීම සඳහා භාවිත වන ටැගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`H2O`",
+        "si": "`H2O`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`H2O`",
+        "si": "`H2O`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`H2O`",
+        "si": "`H2O`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`H2O`",
+        "si": "`H2O`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` lowers text below baseline (Subscript for $H_2O$). `` raises text above baseline (Superscript for $X^2$).",
+    "explanationSi": "යටි ලකුණු සඳහා `` (Subscript) ද, උඩ ලකුණු සඳහා `` (Superscript) ද භාවිත කරයි. (උදා: `H2O`).",
+    "syllabusRef": "G11-U5.25"
+  },
+  {
+    "id": "g11-u5-q26",
+    "lessonId": "g11-u5",
+    "questionNumber": 26,
+    "promptEn": "Which tag renders mathematical powers like $X^2$ (superscript text)?",
+    "promptSi": "$X^2$ වැනි ගණිතමය බල උඩ ලකුණක් (Superscript) ලෙස පෙන්වීමට භාවිත වන ටැගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`X2`",
+        "si": "`X2`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`X2`",
+        "si": "`X2`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`X2`",
+        "si": "`X2`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`X2`",
+        "si": "`X2`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` renders superscript text raised above the normal line.",
+    "explanationSi": "උඩ ලකුණු (Superscript) සඳහා `` භාවිත කරයි (උදා: `X2`).",
+    "syllabusRef": "G11-U5.26"
+  },
+  {
+    "id": "g11-u5-q27",
+    "lessonId": "g11-u5",
+    "questionNumber": 27,
+    "promptEn": "Which pair of tags can both be used to make text **Bold** in HTML?",
+    "promptSi": "HTML හි අකුරු **තද පැහැ (Bold)** කිරීම සඳහා භාවිත කළ හැකි ටැග් යුගලය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`` and ``",
+        "si": "`` and ``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`` and ``",
+        "si": "`` and ``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`` and ``",
+        "si": "`` and ``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`` and ``",
+        "si": "`` and ``"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "`` provides visual bolding, while `` indicates strong semantic importance (rendered as bold).",
+    "explanationSi": "අකුරු තද පැහැ කිරීමට `` හෝ `` භාවිත කළ හැක.",
+    "syllabusRef": "G11-U5.27"
+  },
+  {
+    "id": "g11-u5-q28",
+    "lessonId": "g11-u5",
+    "questionNumber": 28,
+    "promptEn": "Which pair of tags is used to make text *Italicized*?",
+    "promptSi": "පෙළ *ඇල අකුරු (Italic)* කිරීම සඳහා භාවිත වන ටැග් යුගලය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`` and ``",
+        "si": "`` and ``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`` and ``",
+        "si": "`` and ``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`` and ``",
+        "si": "`` and ``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`` and ``",
+        "si": "`` and ``"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "`` styles text in italic, and `` provides semantic emphasis (rendered as italic).",
+    "explanationSi": "ඇල අකුරු සඳහා `` (Italic) හෝ `` (Emphasized) භාවිත කරයි.",
+    "syllabusRef": "G11-U5.28"
+  },
+  {
+    "id": "g11-u5-q29",
+    "lessonId": "g11-u5",
+    "questionNumber": 29,
+    "promptEn": "What are the valid attributes used inside the traditional `` tag?",
+    "promptSi": "සම්ප්‍රදායික `` ටැගය තුළ භාවිත වන නිවැරදි ගුණාංග (Attributes) තුන කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`type`, `size`, `bgcolor`",
+        "si": "`type`, `size`, `bgcolor`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`face`, `size`, `color`",
+        "si": "`face`, `size`, `color`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`family`, `weight`, `style`",
+        "si": "`family`, `weight`, `style`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`font-name`, `font-size`, `font-color`",
+        "si": "`font-name`, `font-size`, `font-color`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Syntax: `Text`. `face` specifies font family, `size` specifies scale (1-7), and `color` sets text color.",
+    "explanationSi": "`` ටැගයේ ගුණාංග වන්නේ `face` (අකුරු වර්ගය), `size` (අකුරු ප්‍රමාණය 1-7), සහ `color` (වර්ණය) යි.",
+    "syllabusRef": "G11-U5.29"
+  },
+  {
+    "id": "g11-u5-q30",
+    "lessonId": "g11-u5",
+    "questionNumber": 30,
+    "promptEn": "What is the default font size scale range for the HTML `` attribute?",
+    "promptSi": "`` ගුණාංගයේ ප්‍රමාණ පරිමාණය පවතින්නේ කුමන පරාසයකද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1 to 100",
+        "si": "1 to 100"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "1 to 7 (Default is 3)",
+        "si": "1 to 7 (Default is 3)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "8 to 72",
+        "si": "8 to 72"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "0 to 10",
+        "si": "0 to 10"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In HTML font sizing, `size=\"1\"` is smallest, `size=\"3\"` is default, and `size=\"7\"` is largest.",
+    "explanationSi": "HTML font size අගයන් 1 සිට 7 දක්වා පවතින අතර, සාමාන්‍ය අගය (Default) 3 වේ.",
+    "syllabusRef": "G11-U5.30"
+  },
+  {
+    "id": "g11-u5-q31",
+    "lessonId": "g11-u5",
+    "questionNumber": 31,
+    "promptEn": "Which tag pair is used to create an **Ordered (Numbered) List** in HTML?",
+    "promptSi": "HTML හි **අංකිත ලැයිස්තුවක් (Ordered List)** සෑදීමට භාවිත වන ටැග් යුගලය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "` ... `",
+        "si": "` ... `"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "` ... `",
+        "si": "` ... `"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "` ... `",
+        "si": "` ... `"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "` ... `",
+        "si": "` ... `"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` creates an Ordered List (1, 2, 3 or A, B, C). `` creates an Unordered List (bullets).",
+    "explanationSi": "අංකිත ලැයිස්තු සඳහා `` (Ordered List) ද, බුලට් ලැයිස්තු සඳහා `` (Unordered List) ද භාවිත කෙරේ.",
+    "syllabusRef": "G11-U5.31"
+  },
+  {
+    "id": "g11-u5-q32",
+    "lessonId": "g11-u5",
+    "questionNumber": 32,
+    "promptEn": "Which tag is required to define each individual item inside an `` or `` list?",
+    "promptSi": "`` හෝ `` ලැයිස්තුවක් තුළ ඇති සෑම තනි අයිතමයක්ම අර්ථ දැක්වීමට යොදන ටැගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` stands for List Item and must nest inside `` or ``.",
+    "explanationSi": "ලැයිස්තුවේ සෑම අයිතමයක්ම ` ... ` (List Item) ටැගය තුළ ලියනු ලැබේ.",
+    "syllabusRef": "G11-U5.32"
+  },
+  {
+    "id": "g11-u5-q33",
+    "lessonId": "g11-u5",
+    "questionNumber": 33,
+    "promptEn": "What is the result of the HTML code ``?",
+    "promptSi": "`` යන කේතයේ ප්‍රතිඵලය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "List numbered with lowercase letters (a, b, c)",
+        "si": "කුඩා ඉංග්‍රීසි අකුරු"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "List numbered with uppercase Roman numerals (I, II, III)",
+        "si": "විශාල රෝම ඉලක්කම්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "List numbered with numbers starting from 10",
+        "si": "10 න් පටන් ගන්නා ඉලක්කම්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Unordered list with square bullets",
+        "si": "කොටු හැඩති බුලට්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Valid `type` attributes for ``: `1` (Numbers), `A` (Uppercase Letters), `a` (Lowercase Letters), `I` (Uppercase Roman), `i` (Lowercase Roman).",
+    "explanationSi": "`` මගින් විශාල රෝම ඉලක්කම් (I, II, III) සහිත ලැයිස්තුවක් සාදයි.",
+    "syllabusRef": "G11-U5.33"
+  },
+  {
+    "id": "g11-u5-q34",
+    "lessonId": "g11-u5",
+    "questionNumber": 34,
+    "promptEn": "How do you make an ordered list start numbering from number **5** instead of 1?",
+    "promptSi": "අංකිත ලැයිස්තුවක් 1 වෙනුවට **5** අංකයෙන් ආරම්භ කිරීමට කේතය ලියන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "The `start` attribute defines the starting numerical index for an ordered list (``).",
+    "explanationSi": "ලැයිස්තුව ආරම්භ වන අංකය වෙනස් කිරීමට `start` ගුණාංගය යොදයි (උදා: ``).",
+    "syllabusRef": "G11-U5.34"
+  },
+  {
+    "id": "g11-u5-q35",
+    "lessonId": "g11-u5",
+    "questionNumber": 35,
+    "promptEn": "Which HTML tag pair is used to create a **Bullet (Unordered) List**?",
+    "promptSi": "බුලට් (ලකුණු කළ) ලැයිස්තුවක් (Unordered List)** සෑදීමට භාවිත වන ටැග් යුගලය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "` ... `",
+        "si": "` ... `"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "` ... `",
+        "si": "` ... `"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "` ... `",
+        "si": "` ... `"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "` ... `",
+        "si": "` ... `"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` defines an Unordered List. Bullet styles are specified using `type=\"disc|circle|square\"`.",
+    "explanationSi": "බුලට් ලැයිස්තු සඳහා `` (Unordered List) ටැගය භාවිත කරයි.",
+    "syllabusRef": "G11-U5.35"
+  },
+  {
+    "id": "g11-u5-q36",
+    "lessonId": "g11-u5",
+    "questionNumber": 36,
+    "promptEn": "What are the valid values for the `type` attribute in an Unordered List (``)?",
+    "promptSi": "Unordered List (``) එකක `type` ගුණාංගය සඳහා යෙදිය හැකි නිවැරදි අගයන් තුන කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`1`, `A`, `I`",
+        "si": "`1`, `A`, `I`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`disc`, `circle`, `square`",
+        "si": "`disc`, `circle`, `square`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`bold`, `italic`, `underline`",
+        "si": "`bold`, `italic`, `underline`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`round`, `box`, `arrow`",
+        "si": "`round`, `box`, `arrow`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`type=\"disc\"` (filled circle - default), `type=\"circle\"` (empty circle), and `type=\"square\"` (filled square).",
+    "explanationSi": "`` සඳහා ඇති බුලට් වර්ග තුන වන්නේ `disc` (කළු රවුම), `circle` (හිස් රවුම), සහ `square` (කොටුව) වේ.",
+    "syllabusRef": "G11-U5.36"
+  },
+  {
+    "id": "g11-u5-q37",
+    "lessonId": "g11-u5",
+    "questionNumber": 37,
+    "promptEn": "Which tag combination is used to construct a **Definition / Description List** in HTML?",
+    "promptSi": "අර්ථ දැක්වීම් ලැයිස්තුවක් (Definition List) සෑදීමට භාවිත වන ටැග් ත්‍රිත්වය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``, ``, ``",
+        "si": "``, ``, ``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``, ``, ``",
+        "si": "``, ``, ``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``, ``, ``",
+        "si": "``, ``, ``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``, ``, ``",
+        "si": "``, ``, ``"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "`` (Definition List container), `` (Definition Term), and `` (Definition Description).",
+    "explanationSi": "අර්ථ දැක්වීම් ලැයිස්තු සඳහා `` (ලැයිස්තුව), `` (වචනය/පදය), සහ `` (විස්තරය) භාවිත කරයි.",
+    "syllabusRef": "G11-U5.37"
+  },
+  {
+    "id": "g11-u5-q38",
+    "lessonId": "g11-u5",
+    "questionNumber": 38,
+    "promptEn": "In a Definition List, which tag defines the specific **Term** being explained?",
+    "promptSi": "Definition List එකක පැහැදිලි කරනු ලබන **වචනය/පදය (Term)** සටහන් කරන්නේ කුමන ටැගය තුළද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` stands for Definition Term (e.g. `HTML`), and `` holds the description text.",
+    "explanationSi": "පැහැදිලි කරන වචනය/මාතෘකාව ලියන්නේ `` (Definition Term) ටැගය තුළය.",
+    "syllabusRef": "G11-U5.38"
+  },
+  {
+    "id": "g11-u5-q39",
+    "lessonId": "g11-u5",
+    "questionNumber": 39,
+    "promptEn": "What is a **Nested List** in HTML?",
+    "promptSi": "HTML හි **කූඩු කළ ලැයිස්තුවක් (Nested List)** යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A list created inside a table cell only.",
+        "si": "වගු කෝෂයක් තුළ පමණක් සාදන ලැයිස්තුවක්."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A list inserted inside a `` item of another parent list.",
+        "si": "තවත් ලැයිස්තුවක `` අයිතමයක් තුළ ඇතුළත් කළ ලැයිස්තුවක්."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A list with no HTML tags.",
+        "si": "HTML ටැග් නැති ලැයිස්තුවක්."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A list having both text and video elements.",
+        "si": "පෙළ සහ වීඩියෝ සහිත ලැයිස්තුවක්."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Nesting occurs when a child `` or `` list is placed completely inside an `` element of a parent list.",
+    "explanationSi": "එක් ලැයිස්තුවක `` අංගයක් තුළ තවත් ලැයිස්තුවක් සෑදීම කූඩු කළ ලැයිස්තුවක් (Nested List) ලෙස හැඳින්වේ.",
+    "syllabusRef": "G11-U5.39"
+  },
+  {
+    "id": "g11-u5-q40",
+    "lessonId": "g11-u5",
+    "questionNumber": 40,
+    "promptEn": "What is the rendered output of the code `AppleOrange`?",
+    "promptSi": "`AppleOrange` කේතයේ බ්‍රවුසර් ප්‍රතිදානය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Numbered list: 1. Apple, 2. Orange",
+        "si": "අංකිත ලැයිස්තුවක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Bulleted list with Apple and Orange",
+        "si": "බුලට් සහිත ලැයිස්තුවක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Table with 2 rows",
+        "si": "පේළි 2 ක වගුවක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Single line text \"Apple Orange\"",
+        "si": "තනි පේළියේ පෙළ"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` generates disc bullets by default for each `` item.",
+    "explanationSi": "`` මගින් සාමාන්‍ය බුලට් ලකුණු (Disc) සහිත ලැයිස්තුවක් පෙන්වයි.",
+    "syllabusRef": "G11-U5.40"
+  },
+  {
+    "id": "g11-u5-q41",
+    "lessonId": "g11-u5",
+    "questionNumber": 41,
+    "promptEn": "Which combination of tags is required to build a basic **HTML Table with 1 Row and 2 Cells**?",
+    "promptSi": "පේළි 1 ක් සහ තීරු/කෝෂ 2 ක්** සහිත HTML වගුවක් සෑදීමට අනිවාර්ය ටැග් සංකලනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`Cell 1Cell 2`",
+        "si": "`Cell 1Cell 2`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`Cell 1Cell 2`",
+        "si": "`Cell 1Cell 2`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`Cell 1Cell 2`",
+        "si": "`Cell 1Cell 2`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`Cell 1Cell 2`",
+        "si": "`Cell 1Cell 2`"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Table hierarchy: `` (Container) $",
+    "explanationSi": "වගු ව්‍යුහය: `` (වගුව) $",
+    "syllabusRef": "G11-U5.41"
+  },
+  {
+    "id": "g11-u5-q42",
+    "lessonId": "g11-u5",
+    "questionNumber": 42,
+    "promptEn": "What is the difference between `` and `` tags in HTML tables?",
+    "promptSi": "HTML වගුවක `` සහ `` ටැග් අතර වෙනස කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`` creates a row",
+        "si": "`` creates a column. / `` මගින් පේළි ද `` මගින් තීරු ද සාදයි."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`` defines Header cells (centered & bold text)",
+        "si": "`` defines standard Data cells. / `` මගින් ශීර්ෂ කෝෂ (මධ්‍යගත හා තද අකුරු) ද `` මගින් සාමාන්‍ය දත්ත කෝෂ ද සාදයි."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`` is used only for numeric data.",
+        "si": "`` භාවිත කරන්නේ සංඛ්‍යා සඳහා පමණි."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`` can merge columns, but `` cannot.",
+        "si": "`` මගින් තීරු එකතු කළ හැක."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` (Table Header) renders text centered and bold by default. `` (Table Data) renders normal left-aligned text.",
+    "explanationSi": "`` (Table Header) මගින් අකුරු තද කර මැදට (Centered & Bold) ගනී. `` මගින් සාමාන්‍ය දත්ත ලියයි.",
+    "syllabusRef": "G11-U5.42"
+  },
+  {
+    "id": "g11-u5-q43",
+    "lessonId": "g11-u5",
+    "questionNumber": 43,
+    "promptEn": "Which attribute is used to display visible border lines around an HTML table?",
+    "promptSi": "HTML වගුවක් වටා මායිම් රේඛා (Borders) දර්ශනය කිරීමට යොදන ගුණාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "By default, HTML tables have no visible border (`border=\"0\"`). Setting `border=\"1\"` shows border lines.",
+    "explanationSi": "වගුවේ මායිම් ඉරි පෙන්වීම සඳහා `border=\"1\"` ගුණාංගය යෙදිය යුතුය.",
+    "syllabusRef": "G11-U5.43"
+  },
+  {
+    "id": "g11-u5-q44",
+    "lessonId": "g11-u5",
+    "questionNumber": 44,
+    "promptEn": "Which attribute is used to **merge two or more horizontal COLUMNS** in a table row?",
+    "promptSi": "වගුවක **තිරස් තීරු (Columns) දෙකක් හෝ වැඩි ගණනක් එකතු කිරීම (Merge)** සඳහා භාවිත වන ගුණාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`rowspan`",
+        "si": "`rowspan`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`colspan`",
+        "si": "`colspan`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`mergecol`",
+        "si": "`mergecol`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`cellspan`",
+        "si": "`cellspan`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`colspan=\"N\"` merges $N$ adjacent horizontal columns together into one cell. `rowspan=\"N\"` merges vertical rows.",
+    "explanationSi": "තිරස් තීරු එකතු කිරීමට `colspan` (e.g. ``) ද, සිරස් පේළි එකතු කිරීමට `rowspan` ද භාවිත කරයි.",
+    "syllabusRef": "G11-U5.44"
+  },
+  {
+    "id": "g11-u5-q45",
+    "lessonId": "g11-u5",
+    "questionNumber": 45,
+    "promptEn": "Which attribute is used to **merge two or more vertical ROWS** in a table?",
+    "promptSi": "වගුවක **සිරස් පේළි (Rows) දෙකක් හෝ වැඩි ගණනක් එකතු කිරීම (Merge)** සඳහා භාවිත වන ගුණාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`colspan`",
+        "si": "`colspan`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`rowspan`",
+        "si": "`rowspan`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`mergerow`",
+        "si": "`mergerow`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`vspan`",
+        "si": "`vspan`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`rowspan=\"N\"` spans a cell vertically across $N$ rows (e.g., ``).",
+    "explanationSi": "සිරස් පේළි එකතු කිරීම සඳහා `rowspan` ගුණාංගය යොදයි.",
+    "syllabusRef": "G11-U5.45"
+  },
+  {
+    "id": "g11-u5-q46",
+    "lessonId": "g11-u5",
+    "questionNumber": 46,
+    "promptEn": "What does the `cellspacing` attribute in `` control?",
+    "promptSi": "`` හි ඇති `cellspacing` ගුණාංගයෙන් පාලනය වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Space inside the cell between text and cell border",
+        "si": "කෝෂයේ මායිම සහ පෙළ අතර ඉඩ"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Space outside between adjacent table cells",
+        "si": "එකිනෙකට යාබද කෝෂ අතර ඇති ඉඩ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Font size inside the table",
+        "si": "වගුවේ අකුරු ප්‍රමාණය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Table width percentage",
+        "si": "වගුවේ පළල"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`cellspacing` sets space *between* cells. `cellpadding` sets space *inside* a cell between content and border.",
+    "explanationSi": "`cellspacing` මගින් කෝෂ දෙකක් අතර ඉඩ ද, `cellpadding` මගින් කෝෂය තුළ දත්ත සහ මායිම අතර ඉඩ ද පාලනය කරයි.",
+    "syllabusRef": "G11-U5.46"
+  },
+  {
+    "id": "g11-u5-q47",
+    "lessonId": "g11-u5",
+    "questionNumber": 47,
+    "promptEn": "What does the `cellpadding` attribute in `` control?",
+    "promptSi": "`` හි ඇති `cellpadding` ගුණාංගයෙන් පාලනය වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Space between table cells",
+        "si": "කෝෂ අතර ඉඩ"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Distance between cell content and the cell border",
+        "si": "කෝෂයේ අන්තර්ගතය සහ කෝෂ මායිම අතර ඉඩ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Number of columns",
+        "si": "තීරු ගණන"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Border line thickness",
+        "si": "මායිම් රේඛාවේ ගණකම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`cellpadding` defines the inner boundary margin surrounding content inside table cells.",
+    "explanationSi": "`cellpadding` මගින් කෝෂය තුළ අකුරු/දත්ත සහ කෝෂයේ මායිම් රේඛාව අතර පරතරය තීරණය කරයි.",
+    "syllabusRef": "G11-U5.47"
+  },
+  {
+    "id": "g11-u5-q48",
+    "lessonId": "g11-u5",
+    "questionNumber": 48,
+    "promptEn": "How do you set a specific background color for a single table cell (``)?",
+    "promptSi": "වගුවක එක තනි කෝෂයක (``) පසුබිම් වර්ණය පමණක් වෙනස් කරන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The `bgcolor` attribute can be applied to ``, ``, or `` elements individually.",
+    "explanationSi": "`` තුළ `bgcolor` යෙදීමෙන් අදාළ කෝෂයේ පසුබිම් වර්ණය වෙනස් කළ හැක.",
+    "syllabusRef": "G11-U5.48"
+  },
+  {
+    "id": "g11-u5-q49",
+    "lessonId": "g11-u5",
+    "questionNumber": 49,
+    "promptEn": "Which tag adds a descriptive title/caption to an HTML table?",
+    "promptSi": "HTML වගුවකට මාතෘකාවක්/විස්තරයක් (Caption) ඇතුළත් කිරීමට යොදන ටැගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "` ... ` must be placed directly after `` to display a table caption.",
+    "explanationSi": "`` ටැගය මගින් වගුවට උඩින් විස්තරාත්මක මාතෘකාවක් එක් කරයි.",
+    "syllabusRef": "G11-U5.49"
+  },
+  {
+    "id": "g11-u5-q50",
+    "lessonId": "g11-u5",
+    "questionNumber": 50,
+    "promptEn": "What is the result of the code `Total`?",
+    "promptSi": "`Total` යන කේතයේ ප්‍රතිඵලය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Merges 3 rows with left-aligned text \"Total\"",
+        "si": "පේළි 3 ක් එකතු කරයි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Merges 3 columns into one cell with centered text \"Total\"",
+        "si": "තීරු 3 ක් එකතු කර \"Total\" පෙළ මැදට ගනී"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Creates 3 separate table cells",
+        "si": "වෙනස් කෝෂ 3 ක් සාදයි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Sets font size to 3",
+        "si": "අකුරු ප්‍රමාණය 3 කරයි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`colspan=\"3\"` combines 3 horizontal columns into 1 cell, and `align=\"center\"` centers the text.",
+    "explanationSi": "`colspan=\"3\"` මගින් තීරු 3 ක් එකතු කර තනි කෝෂයක් සාදන අතර `align=\"center\"` මගින් පෙළ මැදට ගනී.",
+    "syllabusRef": "G11-U5.50"
+  },
+  {
+    "id": "g11-u5-q51",
+    "lessonId": "g11-u5",
+    "questionNumber": 51,
+    "promptEn": "Which tag and attribute pair is used to create a **Hyperlink** in HTML?",
+    "promptSi": "HTML හි **හයිපර්ලින්ක් (Hyperlink)** එකක් සෑදීමට භාවිත වන ටැගය සහ ගුණාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` (Anchor Tag) creates links, and `href` (Hypertext Reference) specifies the destination URL (`Click Here`).",
+    "explanationSi": "හයිපර්ලින්ක් සෑදීමට `` (Anchor) ටැගය සහ `href` (Hypertext Reference) ගුණාංගය භාවිත කරයි.",
+    "syllabusRef": "G11-U5.51"
+  },
+  {
+    "id": "g11-u5-q52",
+    "lessonId": "g11-u5",
+    "questionNumber": 52,
+    "promptEn": "How do you make a hyperlink open in a **New Browser Tab**?",
+    "promptSi": "හයිපර්ලින්ක් එකක් මත ක්ලික් කළ විට එය **නව බ්‍රවුසර් ටැබයක (New Tab)** විවෘත වන සේ සකසන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "`target=\"_blank\"` forces the browser to open the linked URL in a new window or tab.",
+    "explanationSi": "`target=\"_blank\"` යෙදීමෙන් අදාළ පිටුව නව ටැබයක විවෘත වේ.",
+    "syllabusRef": "G11-U5.52"
+  },
+  {
+    "id": "g11-u5-q53",
+    "lessonId": "g11-u5",
+    "questionNumber": 53,
+    "promptEn": "Which HTML tag is used to insert an image into a web page?",
+    "promptSi": "වෙබ් පිටුවකට පින්තූරයක් ඇතුළත් කිරීමට භාවිත වන ටැගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` is an empty/void tag used to display images. The image file path is set using the `src` attribute.",
+    "explanationSi": "පින්තූර ඇතුළත් කිරීමට `` ටැගය භාවිත කරයි. ගොනු පථය `src` තුළ ලියනු ලැබේ.",
+    "syllabusRef": "G11-U5.53"
+  },
+  {
+    "id": "g11-u5-q54",
+    "lessonId": "g11-u5",
+    "questionNumber": 54,
+    "promptEn": "What is the purpose of the `alt` attribute in the `` tag?",
+    "promptSi": "`` ටැගයේ ඇති `alt` ගුණාංගයේ කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Sets image alignment",
+        "si": "පින්තූරයේ මලැයිම තීරණය කරයි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Displays alternative text if the image fails to load",
+        "si": "පින්තූරය දර්ශනය නොවන්නේ නම් විකල්ප පෙළක් පෙන්වයි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Changes image brightness",
+        "si": "පින්තූරයේ දීප්තිය වෙනස් කරයි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Sets image animation speed",
+        "si": "සජීවීකරණ වේගය පාලනය කරයි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`alt` (Alternative Text) displays descriptive text if the image path is broken or for visually impaired screen readers (``).",
+    "explanationSi": "පින්තූරය ලෝඩ් වීමට අපොහොසත් වුවහොත් පෙන්වීමට විකල්ප පෙළක් (Alternative Text) `alt` මගින් සපයයි.",
+    "syllabusRef": "G11-U5.54"
+  },
+  {
+    "id": "g11-u5-q55",
+    "lessonId": "g11-u5",
+    "questionNumber": 55,
+    "promptEn": "Which HTML code correctly resizes an image to 200 pixels width and 150 pixels height?",
+    "promptSi": "පින්තූරයක පළල පික්සල 200 ක් සහ උස පික්සල 150 ක් ලෙස වෙනස් කරන නිවැරදි කේතය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Image dimensions are set using `width` and `height` attributes in pixels or percentages.",
+    "explanationSi": "`width=\"200\"` සහ `height=\"150\"` ගුණාංග මගින් පින්තූරයේ ප්‍රමාණය වෙනස් කරයි.",
+    "syllabusRef": "G11-U5.55"
+  },
+  {
+    "id": "g11-u5-q56",
+    "lessonId": "g11-u5",
+    "questionNumber": 56,
+    "promptEn": "How do you turn an Image into a **Clickable Hyperlink** in HTML?",
+    "promptSi": "පින්තූරයක් **ක්ලික් කළ හැකි හයිපර්ලින්ක් (Clickable Link)** එකක් බවට පත් කරන්නේ කෙසේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Nest the `` tag inside the ` ... ` container.",
+        "si": "`` ටැගය ` ... ` ටැගය තුළ ඇතුළත් කිරීමෙන්."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Add `href` attribute inside `` tag.",
+        "si": "`` ටැගය තුළ `href` යෙදීමෙන්."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Use ``.",
+        "si": "Use ``."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Add `target=\"link\"` inside ``.",
+        "si": "Add `target=\"link\"` inside ``."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Example: ``.",
+    "explanationSi": "`` ටැග් යුගලය තුළට `` ටැගය ඇතුළත් කිරීමෙන් පින්තූරය ලින්ක් එකක් බවට පත්වේ.",
+    "syllabusRef": "G11-U5.56"
+  },
+  {
+    "id": "g11-u5-q57",
+    "lessonId": "g11-u5",
+    "questionNumber": 57,
+    "promptEn": "Which HTML5 tag is used to embed audio files (like MP3 or WAV) on a webpage with playback controls?",
+    "promptSi": "වෙබ් පිටුවකට සූක්ෂමව ශ්‍රව්‍ය ගොනුවක් (Audio file) පාලක (Controls) සහිතව ඇතුළත් කිරීමට භාවිත කරන HTML5 ටැගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "HTML5 `` embeds an audio player with play/pause/volume controls.",
+    "explanationSi": "HTML5 හි `` ටැගය මගින් ශ්‍රව්‍ය ප්ලේයරයක් වෙබ් පිටුවට එක් කරයි.",
+    "syllabusRef": "G11-U5.57"
+  },
+  {
+    "id": "g11-u5-q58",
+    "lessonId": "g11-u5",
+    "questionNumber": 58,
+    "promptEn": "Which HTML5 tag is used to embed video clips on a web page?",
+    "promptSi": "වෙබ් පිටුවකට දෘශ්‍ය ගොනු (Video clips) ඇතුළත් කිරීමට භාවිත වන HTML5 ටැගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "``",
+        "si": "``"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "``",
+        "si": "``"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`` embeds videos.",
+    "explanationSi": "HTML5 හි `` ටැගය මගින් වීඩියෝ ගොනු එක් කරයි.",
+    "syllabusRef": "G11-U5.58"
+  },
+  {
+    "id": "g11-u5-q59",
+    "lessonId": "g11-u5",
+    "questionNumber": 59,
+    "promptEn": "What is a **WYSIWYG** Web Editor?",
+    "promptSi": "WYSIWYG** වෙබ් සංස්කාරක මෘදුකාංගයක් යනු කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "An editor where you write raw HTML assembly code only.",
+        "si": "කේත පමණක් ලියන සංස්කාරකයකි."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "\"What You See Is What You Get\" editor allowing visual web design without typing raw HTML code manually.",
+        "si": "\"ඔබ දකින දේ ඔබ ලබා ගනී\" - කේත නොලියා දෘශ්‍යමය ලෙස වෙබ් පිටු සැලසුම් කිරීමට ඉඩ සලසන මෘදුකාංගයකි."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A database management system.",
+        "si": "දත්ත සමුදා කළමනාකරණ පද්ධතියකි."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A browser plugin.",
+        "si": "බ්‍රවුසර් ඇඩෝනයකි."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "WYSIWYG stands for \"What You See Is What You Get\" (e.g. Adobe Dreamweaver, KompoZer). Designers drag/drop elements while the software generates HTML automatically.",
+    "explanationSi": "WYSIWYG යනු **What You See Is What You Get** යන්නයි. කේත නොලියා දෘශ්‍යමය ලෙස (Visual interface) වෙබ් පිටු නිර්මාණය කිරීමට ඉඩ සලසයි (උදා: Adobe Dreamweaver, KompoZer).",
+    "syllabusRef": "G11-U5.59"
+  },
+  {
+    "id": "g11-u5-q60",
+    "lessonId": "g11-u5",
+    "questionNumber": 60,
+    "promptEn": "Which of the following is an example of a **WYSIWYG Web Editor** software?",
+    "promptSi": "පහත සඳහන් දැයින් **WYSIWYG වෙබ් සංස්කාරක මෘදුකාංගයකට** උදාහරණයක් වන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Notepad",
+        "si": "Notepad"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "KompoZer",
+        "si": "Adobe Dreamweaver"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "GIMP",
+        "si": "GIMP"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Audacity",
+        "si": "Audacity"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "KompoZer and Adobe Dreamweaver are WYSIWYG web authoring software. Notepad is a plain text editor.",
+    "explanationSi": "KompoZer සහ Adobe Dreamweaver යනු WYSIWYG වෙබ් සංස්කාරක මෘදුකාංග සඳහා උදාහරණ වේ. Notepad යනු සාමාන්‍ය පෙළ සංස්කාරකයකි.",
+    "syllabusRef": "G11-U5.60"
+  }
+]

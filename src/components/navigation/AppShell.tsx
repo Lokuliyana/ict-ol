@@ -2,9 +2,9 @@
 
 import React from 'react';
 import { usePathname } from 'next/navigation';
-import { TopHud } from '@/components/hud/TopHud';
+import { WorkspaceNavbar } from '@/components/navigation/WorkspaceNavbar';
 import { MobileBottomNav } from '@/components/navigation/MobileBottomNav';
-import { DesktopSidebar } from '@/components/navigation/DesktopSidebar';
+import { WorkspaceSidebar } from '@/components/navigation/WorkspaceSidebar';
 import { useGameStore } from '@/lib/store';
 
 export interface AppShellProps {
@@ -12,13 +12,17 @@ export interface AppShellProps {
 }
 
 export function AppShell({ children }: AppShellProps) {
-  const pathname = usePathname();
+  const rawPathname = usePathname();
+  const currentPath = rawPathname || '';
   const isSidebarCollapsed = useGameStore((s) => s.isSidebarCollapsed);
 
-  // Check if route requires immersive full-screen focus (e.g. flashcards or quizzes)
+  // Routes that require completely isolated, full-screen distraction-free immersion or print layout
   const isImmersive =
-    pathname.startsWith('/study/') ||
-    pathname.startsWith('/quiz/');
+    currentPath.startsWith('/study/') ||
+    currentPath.startsWith('/quiz/') ||
+    currentPath.startsWith('/revision-sheet/') ||
+    currentPath.startsWith('/lesson/') ||
+    currentPath === '/lesson';
 
   if (isImmersive) {
     return <main className="min-h-screen bg-canvas">{children}</main>;
@@ -26,16 +30,18 @@ export function AppShell({ children }: AppShellProps) {
 
   return (
     <div className="min-h-screen bg-canvas text-slate-900 dark:text-slate-100 flex flex-col">
-      {/* Persistent Top HUD */}
-      <TopHud />
+      {/* 56px Unified Top Workspace Navbar */}
+      <WorkspaceNavbar />
 
-      {/* Desktop Left Rail (>= 1024px) */}
-      <DesktopSidebar />
+      {/* Left Syllabus Rail (Desktop >= 1024px) & Off-Canvas Drawer (Mobile < 1024px) */}
+      <WorkspaceSidebar />
 
       {/* Main Content Area */}
       <div
-        className={`flex-1 transition-all duration-300 pb-20 lg:pb-8 ${
-          isSidebarCollapsed ? 'lg:pl-20' : 'lg:pl-64'
+        className={`flex-1 transition-all duration-300 ${
+          isSidebarCollapsed
+            ? 'lg:pl-20 pb-20 lg:pb-8'
+            : 'lg:pl-80 pb-20 lg:pb-8'
         }`}
       >
         <div className="w-full max-w-full overflow-x-hidden">

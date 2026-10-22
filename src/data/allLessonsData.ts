@@ -2,10 +2,11 @@ import { GlossaryTerm } from './lesson01Data';
 import { G10_U2_DATA } from './lessons/g10u2';
 import { G10_U3_DATA } from './lessons/g10u3';
 import { G10_U4_DATA } from './lessons/g10u4';
+import { G10_U5_OS_DATA } from './lessons/g10u5_os';
 import { G10_U5_DATA } from './lessons/g10u5';
 import { G10_U6_DATA } from './lessons/g10u6';
-import { G10_U7_DATA } from './lessons/g10u7';
 import { G10_U8_DATA } from './lessons/g10u8';
+import { G10_U9_DATA } from './lessons/g10u9';
 import { G11_U1_DATA } from './lessons/g11u1';
 import { G11_U2_DATA } from './lessons/g11u2';
 import { G11_U3_DATA } from './lessons/g11u3';
@@ -31,6 +32,7 @@ export interface GeneralLessonData {
       en: string;
       si: string;
       highlightTerm?: string;
+      highlightTermSi?: string;
     }[];
     examples?: {
       id: string;
@@ -38,7 +40,7 @@ export interface GeneralLessonData {
       titleSi: string;
       contentEn?: string;
       contentSi?: string;
-      isInteractiveWidget?: 'nic-decoder' | 'system-diagram' | 'timeline-slider' | 'number-converter' | 'logic-gate';
+      isInteractiveWidget?: string;
     }[];
     tableData?: {
       headers: { en: string; si: string }[];
@@ -61,13 +63,25 @@ export interface GeneralLessonData {
     badgeText: string;
     questionEn: string;
     questionSi: string;
-    type: 'mcq' | 'structured';
+    type: 'mcq' | 'structured' | 'essay';
     options?: { id: string; en: string; si: string }[];
     correctOptionId?: string;
     sampleAnswerEn?: string;
     sampleAnswerSi?: string;
     explanationEn: string;
     explanationSi: string;
+    unitId?: string;
+    unitNumber?: number;
+    unitTitleEn?: string;
+    unitTitleSi?: string;
+    topicId?: string;
+    subtopicTitleEn?: string;
+    subtopicTitleSi?: string;
+    contextEn?: string;
+    contextSi?: string;
+    markingRubricEn?: string[];
+    markingRubricSi?: string[];
+    [key: string]: any;
   }[];
   glossary?: GlossaryTerm[];
 }
@@ -95,21 +109,9 @@ export const G10_U3_DATA_REP: GeneralLessonData = {
   pastPaperQuestions: dataRepQuestions.length > 0 ? dataRepQuestions : G10_U3_DATA.pastPaperQuestions,
 };
 
-export const G10_U4_LOGIC: GeneralLessonData = {
-  ...G10_U3_DATA,
-  id: 'g10-u4',
-  unitNumber: 4,
-  titleEn: 'Fundamental Logic Gates & Boolean Logic',
-  titleSi: 'මූලික ලොජික් ද්වාර සහ බූලීය තර්කනය',
-  subtopics: logicGateSubtopics.length > 0 ? logicGateSubtopics : G10_U3_DATA.subtopics,
-  pastPaperQuestions: logicGateQuestions.length > 0 ? logicGateQuestions : G10_U3_DATA.pastPaperQuestions,
-};
+export const G10_U4_LOGIC: GeneralLessonData = G10_U4_DATA;
 
-export const G10_U5_OS: GeneralLessonData = {
-  ...G10_U4_DATA,
-  id: 'g10-u5',
-  unitNumber: 5,
-};
+export const G10_U5_OS: GeneralLessonData = G10_U5_OS_DATA;
 
 export const G10_U6_WORD: GeneralLessonData = {
   ...G10_U5_DATA,
@@ -123,17 +125,9 @@ export const G10_U7_SHEET: GeneralLessonData = {
   unitNumber: 7,
 };
 
-export const G10_U8_PRES: GeneralLessonData = {
-  ...G10_U7_DATA,
-  id: 'g10-u8',
-  unitNumber: 8,
-};
+export const G10_U8_PRES: GeneralLessonData = G10_U8_DATA;
 
-export const G10_U9_DBMS: GeneralLessonData = {
-  ...G10_U8_DATA,
-  id: 'g10-u9',
-  unitNumber: 9,
-};
+export const G10_U9_DBMS: GeneralLessonData = G10_U9_DATA;
 
 export const ALL_LESSONS_DATA: Record<string, GeneralLessonData> = {
   'g10-u2': G10_U2_DATA,

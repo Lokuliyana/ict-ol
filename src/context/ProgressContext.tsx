@@ -10,7 +10,7 @@ export interface ProgressState {
   languageMode: LanguageMode;
   userGrade: '10' | '11';
   onboardingCompleted: boolean;
-  colorMode: 'light' | 'dark';
+  colorMode: 'light' | 'dark' | 'amber';
   completedBlocks: string[];
   completedCheckpoints: Record<string, boolean>;
   completedStations: Record<string, boolean>;
@@ -34,6 +34,11 @@ export interface ProgressState {
   completedNodes: Record<string, NodeProgress>;
   unlockedUnits: string[];
   badges: string[];
+  isAudioMuted?: boolean;
+  isMobileDrawerOpen?: boolean;
+  studyIntent: import('@/types/store').StudyIntent;
+  activeGrade: GradeLevel;
+  completedParts: Record<string, boolean>;
 }
 
 export interface ProgressContextType {
@@ -54,6 +59,13 @@ export interface ProgressContextType {
   refillHearts?: () => void;
   completeNode?: (nodeId: string, accuracy: number) => { stars: number; xpAwarded: number };
   setActiveNode?: (nodeId: string) => void;
+  toggleAudioMuted?: () => void;
+  setAudioMuted?: (muted: boolean) => void;
+  toggleMobileDrawer?: () => void;
+  setMobileDrawerOpen?: (open: boolean) => void;
+  setStudyIntent: (intent: import('@/types/store').StudyIntent) => void;
+  setActiveGrade: (grade: GradeLevel) => void;
+  markPartComplete: (unitId: string, part: number | string) => void;
 }
 
 const ProgressContext = createContext<ProgressContextType | null>(null);
@@ -89,11 +101,16 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       nextHeartRechargeInSeconds: store.nextHeartRechargeInSeconds,
       xp: store.xp,
       grade: store.grade,
+      activeGrade: store.activeGrade || store.grade,
       language: store.language,
       activeNodeId: store.activeNodeId,
       completedNodes: store.completedNodes,
       unlockedUnits: store.unlockedUnits,
       badges: store.badges,
+      isAudioMuted: store.isAudioMuted,
+      isMobileDrawerOpen: store.isMobileDrawerOpen,
+      studyIntent: store.studyIntent || 'journey',
+      completedParts: store.completedParts || {},
     };
 
     return {
@@ -113,6 +130,13 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
       refillHearts: store.refillHearts,
       completeNode: store.completeNode,
       setActiveNode: store.setActiveNode,
+      toggleAudioMuted: store.toggleAudioMuted,
+      setAudioMuted: store.setAudioMuted,
+      toggleMobileDrawer: store.toggleMobileDrawer,
+      setMobileDrawerOpen: store.setMobileDrawerOpen,
+      setStudyIntent: store.setStudyIntent,
+      setActiveGrade: store.setActiveGrade,
+      markPartComplete: store.markPartComplete,
     };
   }, [store]);
 
@@ -123,10 +147,54 @@ export function ProgressProvider({ children }: { children: React.ReactNode }) {
   );
 }
 
-export function useProgress() {
+export function useProgress(): ProgressContextType {
   const context = useContext(ProgressContext);
   if (!context) {
-    throw new Error('useProgress must be used within a ProgressProvider');
+    const store = useGameStore.getState();
+    return {
+      state: {
+        languageMode: store.languageMode || 'dual',
+        userGrade: store.grade || '10',
+        onboardingCompleted: store.onboardingCompleted,
+        colorMode: store.colorMode,
+        completedBlocks: store.completedBlocks,
+        completedCheckpoints: store.completedCheckpoints,
+        completedStations: store.completedStations,
+        questStars: store.questStars,
+        pastPaperAnswers: store.pastPaperAnswers,
+        points: store.points || store.xp,
+        streak: store.streak,
+        mediumTracker: store.mediumTracker,
+        hearts: store.hearts,
+        lastHeartLossTime: store.lastHeartLossTime,
+        nextHeartRechargeInSeconds: store.nextHeartRechargeInSeconds,
+        xp: store.xp,
+        grade: store.grade,
+        language: store.language,
+        activeNodeId: store.activeNodeId,
+        completedNodes: store.completedNodes,
+        unlockedUnits: store.unlockedUnits,
+        badges: store.badges,
+        isAudioMuted: store.isAudioMuted,
+        isMobileDrawerOpen: store.isMobileDrawerOpen,
+        studyIntent: store.studyIntent,
+        activeGrade: store.activeGrade || store.grade,
+        completedParts: store.completedParts,
+      } as ProgressState,
+      setLanguageMode: (m: LanguageMode) => useGameStore.getState().setLanguageMode(m),
+      setUserGrade: (g: '10' | '11') => useGameStore.getState().setGrade(g),
+      setOnboardingCompleted: (c: boolean) => useGameStore.getState().setOnboardingCompleted(c),
+      toggleColorMode: () => useGameStore.getState().toggleColorMode(),
+      markBlockRead: () => {},
+      markStationComplete: () => {},
+      recordCheckpointAttempt: () => {},
+      recordPastPaperAttempt: () => {},
+      resetProgress: () => {},
+      getLessonMastery: () => 0,
+      setStudyIntent: () => {},
+      setActiveGrade: (g: GradeLevel) => useGameStore.getState().setActiveGrade(g),
+      markPartComplete: () => {},
+    };
   }
   return context;
 }

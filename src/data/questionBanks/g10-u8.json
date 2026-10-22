@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "g10-u8-q1",
+    "lessonId": "g10-u8",
+    "questionNumber": 1,
+    "promptEn": "Which of the following software is classified as a Free and Open Source Software (FOSS) for electronic presentations?",
+    "promptSi": "ඉලෙක්ට්‍රොනික සමර්පණ සඳහා භාවිත වන නිදහස් හා විවෘත මූලාශ්‍ර මෘදුකාංගයක් (FOSS) වන්නේ පහත සඳහන් කවරක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Microsoft PowerPoint",
+        "si": "Microsoft PowerPoint"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Apple Keynote",
+        "si": "Apple Keynote"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "LibreOffice Impress",
+        "si": "LibreOffice Impress"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Google Slides",
+        "si": "Google Slides"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "LibreOffice Impress is a Free and Open Source Software (FOSS) presentation tool whose source code is freely accessible, editable, and redistributable. Microsoft PowerPoint and Apple Keynote are proprietary commercial software, while Google Slides is cloud-based freeware.",
+    "explanationSi": "LibreOffice Impress යනු මූලාශ්‍ර කේතය (Source code) නොමිලේ ලබා ගත හැකි, වෙනස් කළ හැකි සහ බෙදා හැරිය හැකි නිදහස් හා විවෘත මූලාශ්‍ර මෘදුකාංගයකි (FOSS). MS PowerPoint සහ Apple Keynote හිමිකාර (Proprietary) මෘදුකාංග වන අතර Google Slides වලාකුළු ආශ්‍රිත (Cloud-based) මෘදුකාංගයකි.",
+    "syllabusRef": "G10-U8.1"
+  },
+  {
+    "id": "g10-u8-q2",
+    "lessonId": "g10-u8",
+    "questionNumber": 2,
+    "promptEn": "According to standard textbook slide design guidelines, what is the recommended number of text lines per slide?",
+    "promptSi": "සම්මත පෙළපොත් ස්ලයිඩ සැලසුම් මාර්ගෝපදේශවලට අනුව, එක් ස්ලයිඩයක තිබිය යුතු නිර්දේශිත පෙළ පේළි ගණන කොපමණද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "3 to 4 lines",
+        "si": "3 to 4 lines"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "6 to 9 lines",
+        "si": "6 to 9 lines"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "12 to 15 lines",
+        "si": "12 to 15 lines"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Unlimited lines",
+        "si": "Unlimited lines"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "To maintain visual clarity, readability, and prevent clutter, the official NIE syllabus recommends restricting text to 6 to 9 lines per slide with concise bullet points rather than dense paragraphs.",
+    "explanationSi": "ස්ලයිඩයේ පැහැදිලි බව පවත්වා ගැනීමට සහ තදබදය වැළැක්වීමට, එක් ස්ලයිඩයක අඩංගු පෙළ පේළි ගණන 6 සිට 9 දක්වා සීමා කිරීම සහ ඡේද වෙනුවට කෙටි බුලට් පොයින්ට්ස් භාවිත කිරීම නිල විෂය නිර්දේශයේ නිර්දේශ කෙරේ.",
+    "syllabusRef": "G10-U8.2"
+  },
+  {
+    "id": "g10-u8-q3",
+    "lessonId": "g10-u8",
+    "questionNumber": 3,
+    "promptEn": "What are the recommended minimum font sizes for Slide Titles and Main Body Text in an electronic presentation?",
+    "promptSi": "සමර්පණයක ස්ලයිඩ මාතෘකා (Slide Titles) සහ ප්‍රධාන අන්තර්ගත පෙළ (Body Text) සඳහා නිර්දේශිත අවම අකුරු ප්‍රමාණ (Font sizes) මොනවාද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Title: 18 pt | Body Text: 12 pt",
+        "si": "Title: 18 pt | Body Text: 12 pt"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Title: 24 pt | Body Text: 14 pt",
+        "si": "Title: 24 pt | Body Text: 14 pt"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Title: 32 pt or more | Body Text: 24 pt or more",
+        "si": "Title: 32 pt or more | Body Text: 24 pt or more"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Title: 48 pt | Body Text: 36 pt",
+        "si": "Title: 48 pt | Body Text: 36 pt"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Slide Titles should be at least 32 pt (or larger) to ensure legibility from the back of an auditorium, while Main Body Text should be at least 24 pt.",
+    "explanationSi": "ශාලාවක පිටුපස සිටින පිරිසට පවා පැහැදිලිව පෙනීම සඳහා ස්ලයිඩ මාතෘකා අවම වශයෙන් 32 pt හෝ ඊට වැඩි ද, ප්‍රධාන අන්තර්ගත පෙළ අවම වශයෙන් 24 pt හෝ ඊට වැඩි ද විය යුතුය.",
+    "syllabusRef": "G10-U8.3"
+  },
+  {
+    "id": "g10-u8-q4",
+    "lessonId": "g10-u8",
+    "questionNumber": 4,
+    "promptEn": "Which presentation view displays all slides as small thumbnail images on a single screen, allowing easy reordering?",
+    "promptSi": "ස්ලයිඩවල අනුපිළිවෙල පහසුවෙන් වෙනස් කිරීමට හැකි වන සේ, සියලුම ස්ලයිඩ කුඩා සිඟිති රූ (Thumbnails) ලෙස එකම තිරයක පෙන්වන දර්ශනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Normal View",
+        "si": "Normal View"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Slide Sorter View",
+        "si": "Slide Sorter View"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Reading View",
+        "si": "Reading View"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Slide Show View",
+        "si": "Slide Show View"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Slide Sorter View displays all slides horizontally as thumbnails in a single window, making it effortless to rearrange slide sequence by dragging and dropping.",
+    "explanationSi": "Slide Sorter View මගින් සියලුම ස්ලයිඩ සිඟිති රූ ලෙස එකම තිරයක පෙන්වන අතර, ඇදගෙන ගොස් දැමීමෙන් (Drag and drop) ස්ලයිඩ අනුපිළිවෙල පහසුවෙන් වෙනස් කිරීමට ඉඩ සලසයි.",
+    "syllabusRef": "G10-U8.4"
+  },
+  {
+    "id": "g10-u8-q5",
+    "lessonId": "g10-u8",
+    "questionNumber": 5,
+    "promptEn": "What is the primary function of the 'Slide Master' feature in presentation software?",
+    "promptSi": "සමර්පණ මෘදුකාංගයක 'Slide Master' (ප්‍රධාන කදාව) විශේෂාංගයේ ප්‍රධාන කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To run an automated full-screen slide show",
+        "si": "To run an automated full-screen slide show"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To apply consistent formatting, background, logos, and fonts across all slides automatically",
+        "si": "To apply consistent formatting, background, logos, and fonts across all slides automatically"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To automatically proofread spelling and grammar mistakes",
+        "si": "To automatically proofread spelling and grammar mistakes"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To compress the file size of inserted video clips",
+        "si": "To compress the file size of inserted video clips"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Slide Master controls the overall formatting, themes, fonts, backgrounds, and recurring graphics (e.g. logos) across all slides in the presentation from a single template.",
+    "explanationSi": "Slide Master (ප්‍රධාන කදාව) මගින් සමර්පණයේ සියලුම ස්ලයිඩ සඳහා අදාළ වන පසුබිම, අකුරු විලාස, වර්ණ සහ ලාංඡන (Logos) එකවර පාලනය කරමින් ඒකාකාරී බව තහවුරු කරයි.",
+    "syllabusRef": "G10-U8.5"
+  },
+  {
+    "id": "g10-u8-q6",
+    "lessonId": "g10-u8",
+    "questionNumber": 6,
+    "promptEn": "What is the key technical difference between a 'Slide Transition' and a 'Custom Animation'?",
+    "promptSi": "'Slide Transition' (ස්ලයිඩ සංක්‍රාන්තිය) සහ 'Custom Animation' (අභිමත සජීවීකරණය) අතර ඇති ප්‍රධාන තාක්ෂණික වෙනස කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Slide Transition applies to text only, while Custom Animation applies to full slides",
+        "si": "Slide Transition applies to text only, while Custom Animation applies to full slides"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Slide Transition is the motion effect when advancing between slides, while Custom Animation applies motion to individual objects on a single slide",
+        "si": "Slide Transition is the motion effect when advancing between slides, while Custom Animation applies motion to individual objects on a single slide"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Slide Transition only plays audio, while Custom Animation only plays video",
+        "si": "Slide Transition only plays audio, while Custom Animation only plays video"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Slide Transition works only in online presentations, while Custom Animation works offline",
+        "si": "Slide Transition works only in online presentations, while Custom Animation works offline"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Slide Transition occurs during the screen advance from one slide to the next slide, whereas Custom Animation animates individual objects (text, shapes, pictures, charts) situated inside a slide.",
+    "explanationSi": "Slide Transition යනු එක් ස්ලයිඩයක සිට ඊළඟ ස්ලයිඩයට මාරු වීමේදී තිරය මත සිදුවන දෘශ්‍ය චලන ප්‍රයෝගයයි. Custom Animation යනු එක් ස්ලයිඩයක් තුළ ඇති තනි තනි අංග (පෙළ, පින්තූර, හැඩතල) සඳහා ලබා දෙන චලන ප්‍රයෝගයයි.",
+    "syllabusRef": "G10-U8.6"
+  },
+  {
+    "id": "g10-u8-q7",
+    "lessonId": "g10-u8",
+    "questionNumber": 7,
+    "promptEn": "Which category of Custom Animation determines how an object enters or appears onto a slide canvas?",
+    "promptSi": "ස්ලයිඩයක් තුළට යම් වස්තුවක් ප්‍රවේශ වන ආකාරය තීරණය කරන්නේ Custom Animation හි කුමන කාණ්ඩය මගින්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Emphasis Effects",
+        "si": "Emphasis Effects"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Exit Effects",
+        "si": "Exit Effects"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Entrance Effects",
+        "si": "Entrance Effects"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Motion Paths",
+        "si": "Motion Paths"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Entrance Effects (green icons) govern how an object appears or flies into view on a slide (e.g., Fly In, Appear, Fade In, Float In).",
+    "explanationSi": "Entrance Effects (ප්‍රවේශ බලපෑම්) මගින් යම් වස්තුවක් ස්ලයිඩය තුළට ඇතුළු වන හෝ දර්ශනය වන ආකාරය පාලනය කරයි (උදා: Fly In, Appear, Zoom).",
+    "syllabusRef": "G10-U8.7"
+  },
+  {
+    "id": "g10-u8-q8",
+    "lessonId": "g10-u8",
+    "questionNumber": 8,
+    "promptEn": "What is the keyboard shortcut to insert a NEW SLIDE into an active presentation in Microsoft PowerPoint?",
+    "promptSi": "Microsoft PowerPoint හි සක්‍රිය සමර්පණයකට නව ස්ලයිඩයක් (New Slide) ඇතුළත් කිරීමේ යතුරුපුවරු කෙටිමඟ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Ctrl + N",
+        "si": "Ctrl + N"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Ctrl + M",
+        "si": "Ctrl + M"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Ctrl + S",
+        "si": "Ctrl + S"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Ctrl + D",
+        "si": "Ctrl + D"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In presentation software, 'Ctrl + M' inserts a new slide into the existing presentation. 'Ctrl + N' opens a brand new presentation file.",
+    "explanationSi": "සමර්පණ මෘදුකාංගවල පවතින ගොනුවට නව ස්ලයිඩයක් ඇතුළත් කිරීමේ කෙටිමඟ 'Ctrl + M' වේ. 'Ctrl + N' මගින් සම්පූර්ණයෙන්ම නව ගොනුවක් විවෘත වේ.",
+    "syllabusRef": "G10-U8.8"
+  },
+  {
+    "id": "g10-u8-q9",
+    "lessonId": "g10-u8",
+    "questionNumber": 9,
+    "promptEn": "Which function key or keyboard shortcut starts the Slide Show from the VERY FIRST slide?",
+    "promptSi": "සමර්පණයක පළමු ස්ලයිඩයේ සිටම (From Beginning) ස්ලයිඩ දර්ශනය ආරම්භ කිරීමේ යතුරුපුවරු කෙටිමඟ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "F5",
+        "si": "F5"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Shift + F5",
+        "si": "Shift + F5"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "F7",
+        "si": "F7"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Esc",
+        "si": "Esc"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "'F5' starts the presentation from Slide 1 (Beginning). 'Shift + F5' starts from the current active slide, while 'F7' triggers spell-check.",
+    "explanationSi": "'F5' යතුර මගින් පළමු ස්ලයිඩයේ සිටම ස්ලයිඩ දර්ශනය ආරම්භ වේ. 'Shift + F5' මගින් මේ මොහොතේ තෝරාගෙන ඇති ස්ලයිඩයේ සිට දර්ශනය ආරම්භ වේ.",
+    "syllabusRef": "G10-U8.9"
+  },
+  {
+    "id": "g10-u8-q10",
+    "lessonId": "g10-u8",
+    "questionNumber": 10,
+    "promptEn": "Which print layout allows printing multiple miniature slide thumbnails (e.g., 3 or 6 slides) on a single sheet of paper for audience distribution?",
+    "promptSi": "ශ්‍රාවකයන්ට බෙදා හැරීම සඳහා එකම කඩදාසි පිටුවක ස්ලයිඩ කිහිපයක් (උදා: ස්ලයිඩ 3ක් හෝ 6ක්) ඇතුළත් වන පරිදි මුද්‍රණය කිරීමට භාවිත වන විකල්පය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Full Page Slides",
+        "si": "Full Page Slides"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Notes Pages",
+        "si": "Notes Pages"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Handouts",
+        "si": "Handouts"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Outline View",
+        "si": "Outline View"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "The 'Handouts' printing option prints 1, 2, 3, 4, 6, or 9 miniature slides per page. When 3 slides per page is chosen, ruled lines for note-taking are automatically provided.",
+    "explanationSi": "'Handouts' (අත්පත්‍රිකා) මුද්‍රණ විකල්පය මගින් එක් කඩදාසි පිටුවක ස්ලයිඩ 1, 2, 3, 4, 6 හෝ 9 බැගින් ශ්‍රාවකයන්ගේ පරිශීලනය සඳහා මුද්‍රණය කළ හැක.",
+    "syllabusRef": "G10-U8.10"
+  },
+  {
+    "id": "g10-u8-q11",
+    "lessonId": "g10-u8",
+    "questionNumber": 11,
+    "promptEn": "What happens when you select 'After Previous' as the start condition for an animation timing?",
+    "promptSi": "සජීවීකරණ ආරම්භක කොන්දේසිය සඳහා 'After Previous' ලෙස තෝරාගත් විට සිදුවන්නේ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The animation plays only when the user clicks the mouse",
+        "si": "The animation plays only when the user clicks the mouse"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The animation plays simultaneously at the exact same moment as the preceding animation",
+        "si": "The animation plays simultaneously at the exact same moment as the preceding animation"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The animation starts automatically immediately after the preceding animation finishes playing",
+        "si": "The animation starts automatically immediately after the preceding animation finishes playing"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The animation is permanently disabled",
+        "si": "The animation is permanently disabled"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "'After Previous' automatically triggers the animation immediately once the previous animation has concluded its playback, without needing any manual mouse click.",
+    "explanationSi": "'After Previous' මගින් පෙර සජීවීකරණය වාදනය වී අවසන් වූ සැණින් කිසිදු ක්ලික් කිරීමකින් තොරව ස්වයංක්‍රීයව ඊළඟ සජීවීකරණය ක්‍රියාත්මක කරයි.",
+    "syllabusRef": "G10-U8.11"
+  },
+  {
+    "id": "g10-u8-q12",
+    "lessonId": "g10-u8",
+    "questionNumber": 12,
+    "promptEn": "Which view is designed for the presenter to view upcoming slides, speaker notes, and an elapsed timer on a private screen while the audience sees only the full-screen slide on the projector?",
+    "promptSi": "ශ්‍රාවකයන්ට පූර්ණ තිර ස්ලයිඩ පමණක් ප්‍රක්ෂේපකයේ පෙනෙන අතරතුර, කථිකයාගේ පරිගණක තිරයේ ඊළඟ ස්ලයිඩය, සටහන් සහ ධාවන කාල ගණකය පෙන්වන විශේෂිත දර්ශනය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Reading View",
+        "si": "Reading View"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Presenter View",
+        "si": "Presenter View"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Slide Sorter View",
+        "si": "Slide Sorter View"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Outline View",
+        "si": "Outline View"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Presenter View allows the presenter to see the current slide, upcoming preview slide, private speaker notes, and a timer on their monitor while the audience sees only full-screen slides on the projector.",
+    "explanationSi": "Presenter View මගින් ඉදිරිපත් කරන්නාට ඉදිරි ස්ලයිඩය, තමන් ලියූ සටහන් (Notes) සහ කාල ගණකය පෙන්වන අතර ශ්‍රාවකයන්ට ප්‍රක්ෂේපකය හරහා සම්පූර්ණ ස්ලයිඩය පමණක් ප්‍රදර්ශනය කරයි.",
+    "syllabusRef": "G10-U8.12"
+  },
+  {
+    "id": "g10-u8-q13",
+    "lessonId": "g10-u8",
+    "questionNumber": 13,
+    "promptEn": "Which key immediately terminates an active slide show and returns to the normal editing workspace?",
+    "promptSi": "ධාවනය වන ස්ලයිඩ දර්ශනයක් වහාම නවත්වා නැවත සාමාන්‍ය සංස්කරණ කවුළුවට පිවිසීමට භාවිත කරන යතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Enter",
+        "si": "Enter"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Spacebar",
+        "si": "Spacebar"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Esc (Escape)",
+        "si": "Esc (Escape)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Tab",
+        "si": "Tab"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Pressing the 'Esc' (Escape) key immediately halts a full-screen slide show and returns to the Normal View editing interface.",
+    "explanationSi": "'Esc' (Escape) යතුර එබීමෙන් ක්‍රියාත්මක වන ස්ලයිඩ දර්ශනය වහාම නවත්වා Normal View සංස්කරණ කවුළුවට ආපසු පැමිණේ.",
+    "syllabusRef": "G10-U8.13"
+  },
+  {
+    "id": "g10-u8-q14",
+    "lessonId": "g10-u8",
+    "questionNumber": 14,
+    "promptEn": "Which color combination principle adheres to the textbook recommendation for high-contrast, visually comfortable slides?",
+    "promptSi": "දෘශ්‍යමය වශයෙන් සුවපහසු සහ ඉහළ වර්ණ ප්‍රභේදනයක් (High Contrast) සහිත ස්ලයිඩ නිර්මාණය කිරීම සඳහා පෙළපොත් නිර්දේශය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Dark text on a dark background",
+        "si": "Dark text on a dark background"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Light text on a light background",
+        "si": "Light text on a light background"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Dark text on a light background OR Light text on a dark background",
+        "si": "Dark text on a light background OR Light text on a dark background"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Using dark red color for all paragraphs across the entire slide",
+        "si": "Using dark red color for all paragraphs across the entire slide"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Effective presentations use high contrast between text and background (e.g. dark blue/black on white, or white on dark charcoal). Using dark red throughout the slide causes severe optical fatigue.",
+    "explanationSi": "පසුබිම සහ අකුරු අතර ඉහළ වර්ණ ප්‍රභේදනයක් (High Contrast) පැවතිය යුතුය (ලා පසුබිමක තද අකුරු හෝ තද පසුබිමක ලා අකුරු). රතු වර්ණය ස්ලයිඩය පුරා යෙදීමෙන් ඇසට අපහසුතා ඇති වේ.",
+    "syllabusRef": "G10-U8.14"
+  },
+  {
+    "id": "g10-u8-q15",
+    "lessonId": "g10-u8",
+    "questionNumber": 15,
+    "promptEn": "What is the primary function of inserting a 'Hyperlink' into an electronic presentation slide?",
+    "promptSi": "ඉලෙක්ට්‍රොනික සමර්පණ ස්ලයිඩයකට 'Hyperlink' (අධිසබැඳියක්) ඇතුළත් කිරීමේ ප්‍රධාන කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To compress the presentation file size",
+        "si": "To compress the presentation file size"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To jump directly to another slide, an external web page, or another document when clicked",
+        "si": "To jump directly to another slide, an external web page, or another document when clicked"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To run an automated spell check",
+        "si": "To run an automated spell check"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To change font styles automatically",
+        "si": "To change font styles automatically"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Hyperlink connects a selected text or image to another slide within the same presentation, an external website URL, an email address, or an external file.",
+    "explanationSi": "Hyperlink එකක් මගින් යම් පෙළක් හෝ රූපයක් මත ක්ලික් කළ විට එම සමර්පණයේම වෙනත් ස්ලයිඩයකට, බාහිර වෙබ් අඩවියකට හෝ බාහිර ගොනුවකට ක්ෂණිකව පිවිසීමට ඉඩ සලසයි.",
+    "syllabusRef": "G10-U8.15"
+  },
+  {
+    "id": "g10-u8-q16",
+    "lessonId": "g10-u8",
+    "questionNumber": 16,
+    "promptEn": "Which of the following is the standard native file extension for presentations saved in LibreOffice Impress?",
+    "promptSi": "LibreOffice Impress මෘදුකාංගයේ සුරකින ලද සමර්පණ ගොනුවක සම්මත ස්වදේශීය ගොනු දිගුව (File extension) කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": ".docx",
+        "si": ".docx"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": ".pptx",
+        "si": ".pptx"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": ".odp",
+        "si": ".odp"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": ".xlsx",
+        "si": ".xlsx"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "LibreOffice Impress saves files in the OpenDocument Presentation format with the '.odp' extension. '.pptx' is Microsoft PowerPoint, '.docx' is Word, and '.xlsx' is Excel.",
+    "explanationSi": "LibreOffice Impress මෘදුකාංගය OpenDocument Presentation ආකෘතිය භාවිත කරන අතර එහි ගොනු දිගුව '.odp' වේ. '.pptx' යනු MS PowerPoint ආකෘතියයි.",
+    "syllabusRef": "G10-U8.16"
+  },
+  {
+    "id": "g10-u8-q17",
+    "lessonId": "g10-u8",
+    "questionNumber": 17,
+    "promptEn": "Which toolbar in presentation software contains tools for drawing geometric shapes, block arrows, flowcharts, and callouts?",
+    "promptSi": "ජ්‍යාමිතික හැඩතල, ඊතල, ගැලීම් සටහන් සහ කෝල්අවුට් (Callouts) ඇඳීම සඳහා මෙවලම් අඩංගු වන්නේ කුමන මෙවලම් තීරුවේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Standard Toolbar",
+        "si": "Standard Toolbar"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Drawing Toolbar",
+        "si": "Drawing Toolbar"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Formatting Toolbar",
+        "si": "Formatting Toolbar"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Status Bar",
+        "si": "Status Bar"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Drawing Toolbar provides tools to draw lines, rectangles, ellipses, flowchart symbols, callouts, and custom shapes onto slides.",
+    "explanationSi": "Drawing Toolbar (හැඩසවි මෙවලම් තීරුව) මගින් රේඛා, ඍජුකෝණාස්‍ර, ඉලිප්ස, ගැලීම් සටහන් සහ විවිධ හැඩතල ස්ලයිඩය තුළ ඇඳීමට අවශ්‍ය මෙවලම් සපයයි.",
+    "syllabusRef": "G10-U8.17"
+  },
+  {
+    "id": "g10-u8-q18",
+    "lessonId": "g10-u8",
+    "questionNumber": 18,
+    "promptEn": "What is the maximum recommended number of images, drawings, tables, or graphs that should be placed on a single slide?",
+    "promptSi": "තනි ස්ලයිඩයක් තුළ ඇතුළත් කිරීමට නිර්දේශ කරනු ලබන උපරිම පින්තූර, චිත්‍රක, වගු හෝ ප්‍රස්ථාර සංඛ්‍යාව කොපමණද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Maximum 1",
+        "si": "Maximum 1"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Maximum 2",
+        "si": "Maximum 2"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Maximum 5",
+        "si": "Maximum 5"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Maximum 8",
+        "si": "Maximum 8"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Official syllabus design standards state that inserting more than two images, drawings, tables, or graphs per slide creates confusion and clutter; therefore, a maximum of 2 is recommended.",
+    "explanationSi": "පෙළපොත් මාර්ගෝපදේශවලට අනුව එක් ස්ලයිඩයක ඇතුළත් කිරීමට වඩාත් සුදුසු වන්නේ උපරිම වශයෙන් පින්තූර, වගු හෝ ප්‍රස්ථාර 2ක් පමණි.",
+    "syllabusRef": "G10-U8.18"
+  },
+  {
+    "id": "g10-u8-q19",
+    "lessonId": "g10-u8",
+    "questionNumber": 19,
+    "promptEn": "Which key on the keyboard can a presenter press during a live slide show to temporarily turn the entire screen solid BLACK to refocus audience attention?",
+    "promptSi": "ස්ලයිඩ දර්ශනයක් ධාවනය වන අතරතුර ප්‍රේක්ෂක අවධානය කථිකයා වෙත යොමු කර ගැනීම සඳහා තිරය තාවකාලිකව සම්පූර්ණයෙන්ම කළු (Black) කිරීමට එබිය හැකි යතුර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "B",
+        "si": "B"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "D",
+        "si": "D"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Delete",
+        "si": "Delete"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "F1",
+        "si": "F1"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "During a slide show, pressing 'B' turns the display black (pressing 'W' turns it white), and pressing any key returns to the slide show.",
+    "explanationSi": "ස්ලයිඩ දර්ශනයක් අතරතුර 'B' යතුර එබූ විට තිරය සම්පූර්ණයෙන්ම කළු වන අතර 'W' එබූ විට සුදු පැහැ වේ. නැවත ඕනෑම යතුරක් එබීමෙන් සාමාන්‍ය දසුනට පැමිණේ.",
+    "syllabusRef": "G10-U8.19"
+  },
+  {
+    "id": "g10-u8-q20",
+    "lessonId": "g10-u8",
+    "questionNumber": 20,
+    "promptEn": "Which component in presentation software displays the slide file name and application name at the very top of the window?",
+    "promptSi": "සමර්පණ මෘදුකාංග කවුළුවේ ඉහළින්ම පිහිටා ඇති, ගොනු නාමය සහ මෘදුකාංගයේ නම පෙන්වන සංරචකය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Status Bar",
+        "si": "Status Bar"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Title Bar",
+        "si": "Title Bar"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Formula Bar",
+        "si": "Formula Bar"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Menu Bar",
+        "si": "Menu Bar"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Title Bar at the top of the window displays the active presentation name and the software application title.",
+    "explanationSi": "කවුළුවේ ඉහළින්ම පිහිටි Title Bar (මාතෘකා තීරුව) මගින් විවෘත කර ඇති ගොනුවේ නම සහ මෘදුකාංගයේ නම පෙන්වයි.",
+    "syllabusRef": "G10-U8.20"
+  },
+  {
+    "id": "g10-u8-q21",
+    "lessonId": "g10-u8",
+    "questionNumber": 21,
+    "promptEn": "A student needs to compare 'Traditional Agriculture' and 'Smart Agriculture' with text bullet points on the left and a diagram on the right. Which slide layout is MOST SUITABLE?",
+    "promptSi": "සිසුවෙකුට 'සාම්ප්‍රදායික කෘෂිකර්මාන්තය' සහ 'ස්මාර්ට් කෘෂිකර්මාන්තය' සංසන්දනය කිරීම සඳහා වම් පසින් පෙළ කරුණු ද දකුණු පසින් රූප සටහනක් ද ඇතුළත් කිරීමට අවශ්‍ය වේ. වඩාත්ම සුදුසු Slide Layout එක කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Title Slide",
+        "si": "Title Slide"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Title and Two Content",
+        "si": "Title and Two Content"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Title Only",
+        "si": "Title Only"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Blank",
+        "si": "Blank"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The 'Title and Two Content' (Comparison) layout provides two side-by-side placeholders beneath a title banner, perfectly suited for comparing two concepts side-by-side.",
+    "explanationSi": "'Title and Two Content' (මාතෘකාව සහ අන්තර්ගතයන් දෙකක්) පරිසැලසුම මගින් දෙපස අන්තර්ගතයන් දෙකක් (සසඳා බැලීම්, පෙළ සහ රූප) තැබීමට ඉඩ සලසයි.",
+    "syllabusRef": "G10-U8.21"
+  },
+  {
+    "id": "g10-u8-q22",
+    "lessonId": "g10-u8",
+    "questionNumber": 22,
+    "promptEn": "A presenter wants the company logo to appear in the exact same top-right corner on every single slide of a 50-slide presentation. What is the most efficient method?",
+    "promptSi": "ස්ලයිඩ 50කින් යුත් සමර්පණයක සෑම ස්ලයිඩයකම ඉහළ දකුණු කෙළවරේ ආයතනික ලාංඡනය එකම ආකාරයෙන් දිස්වීමට අවශ්‍ය වේ. වඩාත්ම කාර්යක්ෂම ක්‍රමය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Manually insert and align the logo on all 50 slides one by one",
+        "si": "Manually insert and align the logo on all 50 slides one by one"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Insert the logo once on the Slide Master",
+        "si": "Insert the logo once on the Slide Master"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Add the logo only to the Title Slide and duplicate Slide 1 50 times",
+        "si": "Add the logo only to the Title Slide and duplicate Slide 1 50 times"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Set the logo as a desktop background image",
+        "si": "Set the logo as a desktop background image"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Inserting recurring graphics or logos onto the Slide Master guarantees that the element is positioned consistently across every slide automatically.",
+    "explanationSi": "Slide Master (ප්‍රධාන කදාව) වෙත ලාංඡනය එක් කළ විට, සමර්පණයේ පවතින සහ ඉදිරියට එකතු කරන සියලුම ස්ලයිඩයන්හි එම ලාංඡනය ස්වයංක්‍රීයව ඒකාකාරීව සටහන් වේ.",
+    "syllabusRef": "G10-U8.22"
+  },
+  {
+    "id": "g10-u8-q23",
+    "lessonId": "g10-u8",
+    "questionNumber": 23,
+    "promptEn": "During a presentation on Physics, a teacher wants a diagram of an electric car to drive horizontally across the screen from left to right. Which Custom Animation effect category must be selected?",
+    "promptSi": "භෞතික විද්‍යා පාඩමකදී විදුලි මෝටර් රථයක රූපයක් තිරයේ වමේ සිට දකුණට තිරස් අතට ගමන් කරවීමට ගුරුවරයාට අවශ්‍ය වේ. මේ සඳහා තෝරාගත යුතු Custom Animation කාණ්ඩය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Entrance Effects",
+        "si": "Entrance Effects"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Emphasis Effects",
+        "si": "Emphasis Effects"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Exit Effects",
+        "si": "Exit Effects"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Motion Paths",
+        "si": "Motion Paths"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "Motion Paths allow an object to travel along a user-specified directional path (e.g. Line, Arc, Turn, or Custom curve) across the slide canvas.",
+    "explanationSi": "Motion Paths (චලන මාර්ග) මගින් වස්තුවක් ස්ලයිඩය මත නියමිත රේඛාවක් හෝ මාර්ගයක් ඔස්සේ චලනය කරවීම සිදු කරයි.",
+    "syllabusRef": "G10-U8.23"
+  },
+  {
+    "id": "g10-u8-q24",
+    "lessonId": "g10-u8",
+    "questionNumber": 24,
+    "promptEn": "A student inserts two separate video clips with sound onto the same slide and configures both to play automatically 'With Previous'. What technical issue will arise?",
+    "promptSi": "සිසුවෙකු එකම ස්ලයිඩයක ශබ්දය සහිත වීඩියෝ පට දෙකක් ඇතුළත් කර දෙකම 'With Previous' ලෙස සකසයි. මෙහිදී ඇතිවන තාක්ෂණික ගැටලුව කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The presentation software will crash and delete the file",
+        "si": "The presentation software will crash and delete the file"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Audio tracks will overlap simultaneously, creating noise and confusing the audience",
+        "si": "Audio tracks will overlap simultaneously, creating noise and confusing the audience"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The slides will automatically convert into a spreadsheet",
+        "si": "The slides will automatically convert into a spreadsheet"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The colors of the text will invert automatically",
+        "si": "The colors of the text will invert automatically"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The textbook explicitly cautions that inserting more than one video or animation per slide can cause overlapping sounds that confuse the audience.",
+    "explanationSi": "එක් ස්ලයිඩයකට එකකට වඩා වැඩි වීඩියෝ හෝ සජීවීකරණ ඇතුළත් කළ විට ශබ්ද මිශ්‍ර වීමෙන් (Overlap of sounds) නැරඹීමට බාධා ඇති වන බව පෙළපොතේ පැහැදිලිව දක්වා ඇත.",
+    "syllabusRef": "G10-U8.24"
+  },
+  {
+    "id": "g10-u8-q25",
+    "lessonId": "g10-u8",
+    "questionNumber": 25,
+    "promptEn": "In a school exhibition, a presentation must run continuously in a display booth without any human operator present. Which transition setting must be enabled?",
+    "promptSi": "පාසල් ප්‍රදර්ශනයකදී කිසිදු පුද්ගලයෙකුගේ මැදිහත්වීමකින් තොරව ස්වයංක්‍රීයව අඛණ්ඩව ධාවනය වන සමර්පණයක් සඳහා සක්‍රිය කළ යුතු Transition සැකසුම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Advance Slide: On Mouse Click",
+        "si": "Advance Slide: On Mouse Click"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Advance Slide: Automatically After [X seconds] and Loop continuously",
+        "si": "Advance Slide: Automatically After [X seconds] and Loop continuously"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Slide Show: Presenter View",
+        "si": "Slide Show: Presenter View"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Print Handouts: 9 per page",
+        "si": "Print Handouts: 9 per page"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "For autonomous kiosk presentations, the slides must advance automatically after a set time delay ('Automatically After') and loop until stopped.",
+    "explanationSi": "ස්වයංක්‍රීය කුටි (Kiosks) සඳහා 'Automatically After' මගින් නියමිත තත්පර ගණනකට පසු ස්වයංක්‍රීයව ඊළඟ ස්ලයිඩයට මාරු වීම සහ අඛණ්ඩව නැවත ධාවනය (Loop) සැකසිය යුතුය.",
+    "syllabusRef": "G10-U8.25"
+  },
+  {
+    "id": "g10-u8-q26",
+    "lessonId": "g10-u8",
+    "questionNumber": 26,
+    "promptEn": "A teacher wants students to take notes during a lecture. When printing the presentation slides as Handouts, which layout provides pre-printed ruled lines beside each slide?",
+    "promptSi": "දේශනයක් අතරතුර සිසුන්ට සටහන් තබා ගැනීම සඳහා Handouts ලෙස මුද්‍රණය කිරීමේදී, එක් එක් ස්ලයිඩය පසෙකින් සටහන් ලිවීමට ඉරි සහිතව මුද්‍රණය වන ආකාරය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "1 Slide per page",
+        "si": "1 Slide per page"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "2 Slides per page",
+        "si": "2 Slides per page"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "3 Slides per page",
+        "si": "3 Slides per page"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "9 Slides per page",
+        "si": "9 Slides per page"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "The '3 Slides per page' handout layout uniquely formats three slide miniatures along the left with lined spaces along the right for audience note-taking.",
+    "explanationSi": "'3 Slides per page' අත්පත්‍රිකා විකල්පය තෝරාගත් විට වම් පසින් ස්ලයිඩ 3ක් ද, දකුණු පසින් අතින් සටහන් ලිවීම සඳහා ඉරි සහිත රූල් (Ruled lines) ද මුද්‍රණය වේ.",
+    "syllabusRef": "G10-U8.26"
+  },
+  {
+    "id": "g10-u8-q27",
+    "lessonId": "g10-u8",
+    "questionNumber": 27,
+    "promptEn": "Which of the following actions can be assigned to an 'Action Button' placed on an electronic presentation slide?",
+    "promptSi": "ඉලෙක්ට්‍රොනික සමර්පණ ස්ලයිඩයක තබන 'Action Button' (ක්‍රියාකාරී බොත්තමක්) සඳහා ලබා දිය හැකි විධානයක් වන්නේ පහත කවරක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Jump to the Next Slide, Previous Slide, or First Slide",
+        "si": "Jump to the Next Slide, Previous Slide, or First Slide"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Format the hard drive of the computer",
+        "si": "Format the hard drive of the computer"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Shut down the power supply of the school building",
+        "si": "Shut down the power supply of the school building"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Change the hardware processor speed of the CPU",
+        "si": "Change the hardware processor speed of the CPU"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Action Buttons are built-in shapes programmed with hyperlinks to navigate to Next Slide, Previous Slide, Home/First Slide, play audio, or launch a URL.",
+    "explanationSi": "Action Buttons මගින් ඊළඟ ස්ලයිඩයට, පෙර ස්ලයිඩයට, මුල් ස්ලයිඩයට ගමන් කිරීම, ශබ්ද වාදනය කිරීම වැනි අන්තර්ක්‍රියාකාරී මෙහෙයුම් සිදු කළ හැක.",
+    "syllabusRef": "G10-U8.27"
+  },
+  {
+    "id": "g10-u8-q28",
+    "lessonId": "g10-u8",
+    "questionNumber": 28,
+    "promptEn": "A student is creating a presentation using Google Slides on an Android tablet. Where is the presentation file automatically saved?",
+    "promptSi": "සිසුවෙකු Android ටැබ්ලට් පරිගණකයක Google Slides මගින් සමර්පණයක් සකස් කරයි. මෙම ගොනුව ස්වයංක්‍රීයව සුරැකෙන්නේ කොහේද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "In Google Drive cloud storage",
+        "si": "In Google Drive cloud storage"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Inside the ROM BIOS chip",
+        "si": "Inside the ROM BIOS chip"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "On a floppy disk drive",
+        "si": "On a floppy disk drive"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "In the computer cache memory permanently",
+        "si": "In the computer cache memory permanently"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Google Slides is a cloud-based web application that automatically saves and synchronizes presentation changes directly to Google Drive cloud storage.",
+    "explanationSi": "Google Slides යනු වලාකුළු ආශ්‍රිත (Cloud-based) මෘදුකාංගයක් වන අතර එය සකස් කරන විට ස්වයංක්‍රීයව Google Drive තුළ ගබඩා වේ.",
+    "syllabusRef": "G10-U8.28"
+  },
+  {
+    "id": "g10-u8-q29",
+    "lessonId": "g10-u8",
+    "questionNumber": 29,
+    "promptEn": "When designing a presentation slide, what is the consequence of adding more than 9 lines of paragraph text with font size set to 14 pt?",
+    "promptSi": "ස්ලයිඩයක් සැලසුම් කිරීමේදී, අකුරු ප්‍රමාණය 14 pt කර පේළි 9කට වඩා වැඩි දීර්ඝ ඡේද ඇතුළත් කිරීමෙන් සිදුවන ප්‍රතිඵලය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The presentation will automatically win an award",
+        "si": "The presentation will automatically win an award"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Audience members seated at the back cannot read the text, and slide readability is ruined",
+        "si": "Audience members seated at the back cannot read the text, and slide readability is ruined"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The projector lamp will immediately explode",
+        "si": "The projector lamp will immediately explode"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The software will convert the text into binary machine code",
+        "si": "The software will convert the text into binary machine code"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Exceeding 9 lines and using small fonts (14 pt) violates the textbook rules, making slides cluttered and illegible to the audience.",
+    "explanationSi": "පේළි 9කට වඩා වැඩි වීම සහ කුඩා අකුරු භාවිතය නිසා කියවීමට අපහසු වී ප්‍රේක්ෂක අවධානය ගිලිහී යයි.",
+    "syllabusRef": "G10-U8.29"
+  },
+  {
+    "id": "g10-u8-q30",
+    "lessonId": "g10-u8",
+    "questionNumber": 30,
+    "promptEn": "Which feature in presentation software allows grouping multiple individual geometric shapes and icons together into a single combined object?",
+    "promptSi": "සමර්පණ මෘදුකාංගයක ඇති තනි තනි ජ්‍යාමිතික හැඩතල සහ රූප කිහිපයක් එකම වස්තුවක් ලෙස ඒකාබද්ධ කිරීම සඳහා භාවිත කරන විශේෂාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Group (කණ්ඩායම්ගත කිරීම)",
+        "si": "Group (කණ්ඩායම්ගත කිරීම)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Split (වෙන් කිරීම)",
+        "si": "Split (වෙන් කිරීම)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Delete (මැකීම)",
+        "si": "Delete (මැකීම)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Transition (සංක්‍රාන්තිය)",
+        "si": "Transition (සංක්‍රාන්තිය)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "The 'Group' feature bundles multiple individual shapes, lines, or images together into a single composite object so they can be moved, resized, or animated together.",
+    "explanationSi": "'Group' (කණ්ඩායම්ගත කිරීම) විධානය මගින් වෙන වෙනම ඇති හැඩතල කිහිපයක් එකක් බවට පත් කර එකවර ප්‍රමාණය වෙනස් කිරීමට හෝ චලනය කිරීමට හැකි වේ.",
+    "syllabusRef": "G10-U8.30"
+  },
+  {
+    "id": "g10-u8-q31",
+    "lessonId": "g10-u8",
+    "questionNumber": 31,
+    "promptEn": "A student wants to remove the background of a photograph inserted onto a slide to blend it smoothly with the slide design. Which image formatting tool is used?",
+    "promptSi": "ස්ලයිඩයකට ඇතුළත් කළ ඡායාරූපයක අනවශ්‍ය පසුබිම ඉවත් කර ස්ලයිඩයට මනාව ගලපා ගැනීමට භාවිත කළ හැකි මෙවලම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Remove Background",
+        "si": "Set Transparent Color"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Mail Merge",
+        "si": "Mail Merge"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "AutoSum",
+        "si": "AutoSum"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Data Sorting",
+        "si": "Data Sorting"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "'Remove Background' or 'Set Transparent Color' allows presenters to eliminate distracting solid backgrounds from inserted pictures.",
+    "explanationSi": "'Remove Background' හෝ 'Set Transparent Color' මගින් රූපයක ඇති අනවශ්‍ය පසුබිම ඉවත් කර පාරදෘශ්‍ය කළ හැක.",
+    "syllabusRef": "G10-U8.31"
+  },
+  {
+    "id": "g10-u8-q32",
+    "lessonId": "g10-u8",
+    "questionNumber": 32,
+    "promptEn": "Consider the following animation settings on a bulleted list: 1st bullet is set to 'On Click', 2nd bullet is set to 'After Previous' (Delay 2s), and 3rd bullet is set to 'With Previous'. When the user clicks the mouse ONCE, which bullets will appear?",
+    "promptSi": "බුලට් ලැයිස්තුවක සජීවීකරණ සැකසුම් සලකන්න: 1 වන බුලටය 'On Click', 2 වන බුලටය 'After Previous' (තත්පර 2ක ප්‍රමාදයක් සහිතව), 3 වන බුලටය 'With Previous' ලෙස සකසා ඇත. පරිශීලකයා එක් වරක් මූසිකය ක්ලික් කළ විට දිස්වන්නේ කුමන බුලට්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Only the 1st bullet appears and the show stops completely",
+        "si": "Only the 1st bullet appears and the show stops completely"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The 1st bullet appears on the click, then after 2 seconds both the 2nd and 3rd bullets appear automatically together",
+        "si": "The 1st bullet appears on the click, then after 2 seconds both the 2nd and 3rd bullets appear automatically together"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "None of the bullets appear",
+        "si": "None of the bullets appear"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All three bullets disappear immediately",
+        "si": "All three bullets disappear immediately"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The click triggers bullet 1. Then bullet 2 triggers automatically after 2s ('After Previous'), and bullet 3 plays simultaneously with bullet 2 ('With Previous').",
+    "explanationSi": "ක්ලික් කළ විට 1 වන බුලටය දිස්වේ. ඊට තත්පර 2කට පසු 2 වන බුලටය ස්වයංක්‍රීයව දිස්වන අතර, 3 වන බුලටය 'With Previous' නිසා 2 වැන්න සමගම එකවර දිස්වේ.",
+    "syllabusRef": "G10-U8.32"
+  },
+  {
+    "id": "g10-u8-q33",
+    "lessonId": "g10-u8",
+    "questionNumber": 33,
+    "promptEn": "Which presentation feature allows rehearsing a speech and automatically recording the precise amount of time spent speaking on each slide for automated delivery?",
+    "promptSi": "සමර්පණයක් පුහුණු වීමේදී (Rehearse) එක් එක් ස්ලයිඩය සඳහා කථිකයා ගත කරන කාලය නිවැරදිව පටිගත කර ස්වයංක්‍රීයව ධාවනයට සකසන විශේෂාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Rehearse Timings",
+        "si": "Rehearse Timings"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Spelling Check",
+        "si": "Spelling Check"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Formula Bar",
+        "si": "Formula Bar"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Mail Merge",
+        "si": "Mail Merge"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "'Rehearse Timings' allows the speaker to rehearse their presentation while the software records the seconds spent on each slide to set automated slide advance timings.",
+    "explanationSi": "'Rehearse Timings' මගින් ඉදිරිපත් කිරීම පුහුණු වන අතරතුර එක් එක් ස්ලයිඩයට වැය වන කාලය සටහන් කරගෙන ස්වයංක්‍රීය ධාවනයට යොදාගත හැක.",
+    "syllabusRef": "G10-U8.33"
+  },
+  {
+    "id": "g10-u8-q34",
+    "lessonId": "g10-u8",
+    "questionNumber": 34,
+    "promptEn": "A student wishes to change the overall color theme and background style across all slides in a presentation with a single click. Which ribbon tab contains pre-designed slide Themes?",
+    "promptSi": "සමර්පණයක සියලුම ස්ලයිඩයන්හි වර්ණ තේමාව සහ පසුබිම් විලාසය එකවර වෙනස් කිරීම සඳහා පෙර සැලසුම් කළ තේමා (Themes) අඩංගු වන්නේ කුමන පටත්තේ (Tab) ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Design Tab",
+        "si": "Design Tab"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Review Tab",
+        "si": "Review Tab"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Help Tab",
+        "si": "Help Tab"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Mailings Tab",
+        "si": "Mailings Tab"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "The 'Design' tab houses pre-built presentation Themes, color palettes, font pairings, and background formatting options.",
+    "explanationSi": "Design පටත්ත (Tab) තුළ පෙර සැකසූ තේමාවන් (Themes), වර්ණ මාලාවන් සහ පසුබිම් විලාස අඩංගු වේ.",
+    "syllabusRef": "G10-U8.34"
+  },
+  {
+    "id": "g10-u8-q35",
+    "lessonId": "g10-u8",
+    "questionNumber": 35,
+    "promptEn": "What is the primary difference between saving a presentation as a standard presentation file (.pptx) versus saving it as a PowerPoint Show file (.ppsx)?",
+    "promptSi": "සමර්පණයක් සාමාන්‍ය ගොනුවක් (.pptx) ලෙස සුරැකීම සහ PowerPoint Show (.ppsx) ගොනුවක් ලෙස සුරැකීම අතර ප්‍රධාන වෙනස කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": ".ppsx opens directly in full-screen Slide Show mode when double-clicked, bypassing the editing window",
+        "si": ".ppsx opens directly in full-screen Slide Show mode when double-clicked, bypassing the editing window"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": ".pptx contains audio while .ppsx cannot contain audio",
+        "si": ".pptx contains audio while .ppsx cannot contain audio"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": ".ppsx can only be printed on paper and cannot be displayed on a screen",
+        "si": ".ppsx can only be printed on paper and cannot be displayed on a screen"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "There is no difference between them",
+        "si": "There is no difference between them"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "A PowerPoint Show file (.ppsx) immediately launches directly into full-screen presentation mode when opened, whereas .pptx opens in the Normal editing window.",
+    "explanationSi": ".ppsx ගොනුවක් විවෘත කළ සැණින් සෘජුවම පූර්ණ තිර ස්ලයිඩ දර්ශනය (Slide Show) ආරම්භ වන අතර සාමාන්‍ය සංස්කරණ අතුරුමුහුණත මඟ හැරේ.",
+    "syllabusRef": "G10-U8.35"
+  },
+  {
+    "id": "g10-u8-q36",
+    "lessonId": "g10-u8",
+    "questionNumber": 36,
+    "promptEn": "Which of the following is an unacceptable presentation design practice according to textbook standards?",
+    "promptSi": "පෙළපොත් සම්මතයන්ට අනුව නුසුදුසු සමර්පණ සැලසුම් ක්‍රමයක් වන්නේ පහත කවරක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Using consistent bullet point hierarchy",
+        "si": "Using consistent bullet point hierarchy"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Using bright red text across entire paragraphs on every slide",
+        "si": "Using bright red text across entire paragraphs on every slide"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Maintaining title font sizes at 32 pt or larger",
+        "si": "Maintaining title font sizes at 32 pt or larger"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Limiting text lines per slide to 6–9 lines",
+        "si": "Limiting text lines per slide to 6–9 lines"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The textbook explicitly states that using red throughout slides strains the audience's eyes; red should only be used sparingly for specific words requiring emphasis.",
+    "explanationSi": "ස්ලයිඩය පුරා දීර්ඝ ඡේද සඳහා රතු වර්ණය යෙදීම නුසුදුසු බවත්, එය නැරඹීමට බාධා ඇති කරන බවත් පෙළපොතේ පැහැදිලිව සඳහන් වේ.",
+    "syllabusRef": "G10-U8.36"
+  },
+  {
+    "id": "g10-u8-q37",
+    "lessonId": "g10-u8",
+    "questionNumber": 37,
+    "promptEn": "A student wishes to embed a video from the computer into a presentation slide. Which menu pathway is correct?",
+    "promptSi": "පරිගණකයේ ඇති වීඩියෝ පටයක් ස්ලයිඩයකට ඇතුළත් කිරීමට නිවැරදි මෙනු පියවර කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Insert -> Media -> Video -> Video on My PC",
+        "si": "Video from File"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "View -> Zoom -> Video",
+        "si": "View -> Zoom -> Video"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "File -> Print -> Video",
+        "si": "File -> Print -> Video"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Design -> Colors -> Video",
+        "si": "Design -> Colors -> Video"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Videos are inserted using the 'Insert' tab, selecting 'Video' from the Media group, and choosing 'Video from File' / 'Video on My PC'.",
+    "explanationSi": "වීඩියෝ ඇතුළත් කරන්නේ 'Insert' පටත්තේ ඇති 'Media' කාණ්ඩයෙන් 'Video' තෝරා 'Video from File' මගිනි.",
+    "syllabusRef": "G10-U8.37"
+  },
+  {
+    "id": "g10-u8-q38",
+    "lessonId": "g10-u8",
+    "questionNumber": 38,
+    "promptEn": "What is the function of the 'Notes Pane' located beneath the main slide editing area?",
+    "promptSi": "ප්‍රධාන ස්ලයිඩ සංස්කරණ වැඩතලයට පහළින් පිහිටි 'Notes Pane' (සටහන් තීරුවේ) කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To calculate spreadsheet formulas",
+        "si": "To calculate spreadsheet formulas"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To type speaker reference notes for the presenter that do not appear to the audience on the main screen",
+        "si": "To type speaker reference notes for the presenter that do not appear to the audience on the main screen"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To insert computer viruses",
+        "si": "To insert computer viruses"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To compile Pascal programming code",
+        "si": "To compile Pascal programming code"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Notes Pane allows presenters to type private speaker notes for each slide. During the slide show, these notes are only visible on Presenter View.",
+    "explanationSi": "Notes Pane තුළ කථිකයාට ඉදිරිපත් කිරීමේදී මතක තබා ගැනීමට අවශ්‍ය සටහන් ලිවිය හැකි අතර, ප්‍රේක්ෂකයන්ට ප්‍රක්ෂේපකය හරහා ඒවා නොපෙනේ.",
+    "syllabusRef": "G10-U8.38"
+  },
+  {
+    "id": "g10-u8-q39",
+    "lessonId": "g10-u8",
+    "questionNumber": 39,
+    "promptEn": "A presenter wants to start the Slide Show immediately from the 4th slide which is currently open on screen, rather than starting from Slide 1. Which keyboard shortcut should be used?",
+    "promptSi": "කථිකයෙකුට පළමු ස්ලයිඩයේ සිට නොව, දැනට තිරයේ විවෘතව ඇති 4 වන ස්ලයිඩයේ සිටම Slide Show ආරම්භ කිරීමට අවශ්‍ය වේ. මේ සඳහා භාවිත කළ යුතු කෙටිමඟ කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "F5",
+        "si": "F5"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Shift + F5",
+        "si": "Shift + F5"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Ctrl + F5",
+        "si": "Ctrl + F5"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Alt + F5",
+        "si": "Alt + F5"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "'Shift + F5' launches the slide show directly from the currently active slide, whereas 'F5' always starts from Slide 1.",
+    "explanationSi": "'Shift + F5' මගින් දැනට විවෘතව පවතින සක්‍රීය ස්ලයිඩයේ සිට Slide Show ආරම්භ වේ.",
+    "syllabusRef": "G10-U8.39"
+  },
+  {
+    "id": "g10-u8-q40",
+    "lessonId": "g10-u8",
+    "questionNumber": 40,
+    "promptEn": "Which custom animation category should be applied to make an already visible bullet point change its text color to bright orange when mentioned by the speaker?",
+    "promptSi": "දැනටමත් ස්ලයිඩයේ දර්ශනය වී ඇති පෙළ කරුණක් කථිකයා සඳහන් කරන විට එහි වර්ණය තැඹිලි පාටට වෙනස් කර අවධානය යොමු කරවීමට යෙදිය යුතු සජීවීකරණ කාණ්ඩය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Entrance Effects",
+        "si": "Entrance Effects"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Emphasis Effects",
+        "si": "Emphasis Effects"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Exit Effects",
+        "si": "Exit Effects"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Motion Paths",
+        "si": "Motion Paths"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Emphasis Effects (yellow icons) modify the appearance, color, size, or spin of an object that is already present on the slide to emphasize it to the audience.",
+    "explanationSi": "Emphasis Effects (අවධානය/ඉස්මතු කිරීමේ බලපෑම්) මගින් දැනටමත් ස්ලයිඩයේ ඇති වස්තුවක වර්ණය වෙනස් කිරීම, විශාල කිරීම හෝ කැරකැවීම සිදු කර ප්‍රේක්ෂක අවධානය දිනා ගනී.",
+    "syllabusRef": "G10-U8.40"
+  },
+  {
+    "id": "g10-u8-q41",
+    "lessonId": "g10-u8",
+    "questionNumber": 41,
+    "promptEn": "Consider the following statements regarding electronic presentations:",
+    "promptSi": "ඉලෙක්ට්‍රොනික සමර්පණ සම්බන්ධයෙන් පහත ප්‍රකාශ සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) and (ii) only",
+        "si": "(i) and (ii) only"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (iii) only",
+        "si": "(i) and (iii) only"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) and (iii) only"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii) and (iii)",
+        "si": "All (i), (ii) and (iii)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Statements (i) and (ii) are factually correct. Statement (iii) is incorrect because Slide Transitions apply to the whole slide when changing between slides, not to individual letters.",
+    "explanationSi": "(i) සහ (ii) ප්‍රකාශ නිවැරදිය. (iii) ප්‍රකාශය වැරදිය, මන්ද Slide transition බලපාන්නේ එක් ස්ලයිඩයක සිට ඊළඟ ස්ලයිඩයට මාරු වීමේදී මුළු ස්ලයිඩයටමය.",
+    "syllabusRef": "G10-U8.41"
+  },
+  {
+    "id": "g10-u8-q42",
+    "lessonId": "g10-u8",
+    "questionNumber": 42,
+    "promptEn": "Consider the following software:",
+    "promptSi": "පහත මෘදුකාංග සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A, B and C only",
+        "si": "A, B and C only"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "B, C and D only",
+        "si": "B, C and D only"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A, C and D only",
+        "si": "A, C and D only"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All A, B, C and D",
+        "si": "All A, B, C and D"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "PowerPoint, Keynote, and LibreOffice Impress are presentation software. Microsoft Word is a Word Processing software and cannot create electronic slide presentations.",
+    "explanationSi": "PowerPoint, Keynote සහ LibreOffice Impress යනු සමර්පණ මෘදුකාංග වේ. Microsoft Word යනු වචන සකසනයක් (Word Processor) බැවින් එයින් ස්ලයිඩ සමර්පණ සෑදිය නොහැක.",
+    "syllabusRef": "G10-U8.42"
+  },
+  {
+    "id": "g10-u8-q43",
+    "lessonId": "g10-u8",
+    "questionNumber": 43,
+    "promptEn": "Consider the following statements regarding presentation guidelines:",
+    "promptSi": "සමර්පණ මාර්ගෝපදේශ පිළිබඳ පහත ප්‍රකාශ සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) and (ii) only",
+        "si": "(i) and (ii) only"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (iii) only",
+        "si": "(i) and (iii) only"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) and (iii) only"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii) and (iii)",
+        "si": "All (i), (ii) and (iii)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Statements (i) and (iii) reflect syllabus rules. Statement (ii) is false because textbooks stipulate a maximum of two images/graphs per slide to avoid clutter.",
+    "explanationSi": "(i) සහ (iii) පෙළපොත් නීති වේ. එක් ස්ලයිඩයකට සුදුසු වන්නේ උපරිම වශයෙන් පින්තූර 2ක් පමණක් බැවින් (ii) ප්‍රකාශය අසත්‍ය වේ.",
+    "syllabusRef": "G10-U8.43"
+  },
+  {
+    "id": "g10-u8-q44",
+    "lessonId": "g10-u8",
+    "questionNumber": 44,
+    "promptEn": "Match the Custom Animation Category with its corresponding effect description:",
+    "promptSi": "Custom Animation කාණ්ඩය නිවැරදි විස්තරය හා ගැලපෙන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "X-3, Y-1, Z-2",
+        "si": "X-3, Y-1, Z-2"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "X-1, Y-2, Z-3",
+        "si": "X-1, Y-2, Z-3"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "X-2, Y-1, Z-3",
+        "si": "X-2, Y-1, Z-3"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "X-3, Y-2, Z-1",
+        "si": "X-3, Y-2, Z-1"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Entrance brings objects into view (X-3), Emphasis animates objects already on slide (Y-1), and Motion Path moves objects along designated lines (Z-2).",
+    "explanationSi": "Entrance මගින් වස්තුව ස්ලයිඩය තුළට ගෙන එයි (X-3), Emphasis මගින් ඇති වස්තුව ඉස්මතු කරයි (Y-1), Motion Path මගින් නියමිත මාර්ගයක චලනය කරයි (Z-2).",
+    "syllabusRef": "G10-U8.44"
+  },
+  {
+    "id": "g10-u8-q45",
+    "lessonId": "g10-u8",
+    "questionNumber": 45,
+    "promptEn": "Consider the following statements regarding slide layout selection:",
+    "promptSi": "ස්ලයිඩ පරිසැලසුම් (Layouts) තෝරාගැනීම පිළිබඳ පහත ප්‍රකාශ සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) and (ii) only",
+        "si": "(i) and (ii) only"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (iii) only",
+        "si": "(i) and (iii) only"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) and (iii) only"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii) and (iii)",
+        "si": "All (i), (ii) and (iii)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Statements (i) and (ii) are true. Statement (iii) is false because Blank layout has NO default placeholders, giving complete freehand design flexibility.",
+    "explanationSi": "(i) සහ (ii) සත්‍ය වේ. (iii) අසත්‍ය වේ, මන්ද Blank ස්ලයිඩයක කිසිදු පෙරනිමි පෙළ කොටුවක් නොමැති අතර එය සම්පූර්ණයෙන්ම හිස් කැන්වසයකි.",
+    "syllabusRef": "G10-U8.45"
+  },
+  {
+    "id": "g10-u8-q46",
+    "lessonId": "g10-u8",
+    "questionNumber": 46,
+    "promptEn": "Consider the following statements about presentation delivery:",
+    "promptSi": "සමර්පණ ඉදිරිපත් කිරීම පිළිබඳ පහත ප්‍රකාශ සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) and (ii) only",
+        "si": "(i) and (ii) only"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (iii) only",
+        "si": "(i) and (iii) only"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) and (iii) only"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii) and (iii)",
+        "si": "All (i), (ii) and (iii)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "F5 starts from beginning, Shift+F5 starts from current slide. Esc terminates the slide show entirely, rather than advancing to the next slide.",
+    "explanationSi": "F5 මගින් මුල සිට ද, Shift+F5 මගින් වත්මන් ස්ලයිඩයේ සිට ද ආරම්භ වේ. Esc මගින් Slide Show එක නවතා දමන අතර ඊළඟ ස්ලයිඩයට නොයයි.",
+    "syllabusRef": "G10-U8.46"
+  },
+  {
+    "id": "g10-u8-q47",
+    "lessonId": "g10-u8",
+    "questionNumber": 47,
+    "promptEn": "Consider the following animation timing triggers:",
+    "promptSi": "පහත සජීවීකරණ කාල ප්‍රේරක සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "P only",
+        "si": "P only"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Q and R only",
+        "si": "Q and R only"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "P and Q only",
+        "si": "P and Q only"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All P, Q and R",
+        "si": "All P, Q and R"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "'With Previous' (runs simultaneously with earlier effect) and 'After Previous' (runs automatically when earlier effect finishes) execute without mouse clicks. 'On Click' requires manual interaction.",
+    "explanationSi": "'With Previous' සහ 'After Previous' යන දෙකම පරිශීලක ක්ලික් කිරීමකින් තොරව ස්වයංක්‍රීයව ධාවනය වේ. 'On Click' සඳහා පරිශීලකයා ක්ලික් කළ යුතුය.",
+    "syllabusRef": "G10-U8.47"
+  },
+  {
+    "id": "g10-u8-q48",
+    "lessonId": "g10-u8",
+    "questionNumber": 48,
+    "promptEn": "Which of the following describes the correct order of phases when planning and building an effective school presentation?",
+    "promptSi": "ඵලදායී පාසල් සමර්පණයක් සැලසුම් කිරීමේ සහ නිර්මාණය කිරීමේ නිවැරදි පියවර අනුපිළිවෙල කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Add animations -> Present to audience -> Decide purpose -> Gather content",
+        "si": "Add animations -> Present to audience -> Decide purpose -> Gather content"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Determine purpose and audience -> Gather content -> Select slide layout -> Design slides -> Rehearse and deliver",
+        "si": "Determine purpose and audience -> Gather content -> Select slide layout -> Design slides -> Rehearse and deliver"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Print handouts -> Add sound effects -> Write slide title -> Collect data",
+        "si": "Print handouts -> Add sound effects -> Write slide title -> Collect data"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Apply transitions -> Deliver show -> Delete slides -> Choose colors",
+        "si": "Apply transitions -> Deliver show -> Delete slides -> Choose colors"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Professional presentation development always follows: (1) Define Purpose & Audience -> (2) Collect Data -> (3) Choose Layouts -> (4) Design & Format -> (5) Rehearse -> (6) Deliver.",
+    "explanationSi": "නිවැරදි ක්‍රමවේදය වන්නේ: අරමුණ හා ප්‍රේක්ෂකයා හඳුනා ගැනීම -> කරුණු රැස් කිරීම -> පරිසැලසුම් තෝරා ස්ලයිඩ සැකසීම -> පුහුණු වී ඉදිරිපත් කිරීමයි.",
+    "syllabusRef": "G10-U8.48"
+  },
+  {
+    "id": "g10-u8-q49",
+    "lessonId": "g10-u8",
+    "questionNumber": 49,
+    "promptEn": "A presenter notices that during their slide show, clicking the mouse does not advance to the next slide. Which transition setting was most likely disabled?",
+    "promptSi": "ස්ලයිඩ දර්ශනයක් අතරතුර මූසිකය ක්ලික් කළද ඊළඟ ස්ලයිඩයට මාරු නොවන බව කථිකයෙකුට පෙනී යයි. මේ සඳහා බොහෝ දුරට අක්‍රිය කර ඇත්තේ කුමන Transition සැකසුමද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Advance Slide: On Mouse Click",
+        "si": "Advance Slide: On Mouse Click"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Apply to All",
+        "si": "Apply to All"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Slide Master Logo",
+        "si": "Slide Master Logo"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Drawing Toolbar",
+        "si": "Drawing Toolbar"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "If 'On Mouse Click' is unchecked under Advance Slide, clicking the mouse will not progress the presentation (the show will advance only via timer or hyperlinked action buttons).",
+    "explanationSi": "Advance Slide යටතේ ඇති 'On Mouse Click' විකල්පය අක්‍රිය (Uncheck) කර ඇත්නම්, මූසිකය ක්ලික් කිරීමෙන් ඊළඟ ස්ලයිඩයට මාරු නොවේ.",
+    "syllabusRef": "G10-U8.49"
+  },
+  {
+    "id": "g10-u8-q50",
+    "lessonId": "g10-u8",
+    "questionNumber": 50,
+    "promptEn": "Consider the following statements:",
+    "promptSi": "පහත ප්‍රකාශ සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Statement 1 is true, Statement 2 is false",
+        "si": "Statement 1 is true, Statement 2 is false"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Statement 1 is false, Statement 2 is true",
+        "si": "Statement 1 is false, Statement 2 is true"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Both Statement 1 and 2 are true",
+        "si": "Both Statement 1 and 2 are true"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Both Statement 1 and 2 are false",
+        "si": "Both Statement 1 and 2 are false"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Statement 1 is false (LibreOffice Impress is FOSS developed by The Document Foundation; Apple owns Keynote). Statement 2 is true.",
+    "explanationSi": "ප්‍රකාශය 1 අසත්‍ය වේ (LibreOffice Impress යනු Document Foundation හි FOSS මෘදුකාංගයකි). ප්‍රකාශය 2 සත්‍ය වේ.",
+    "syllabusRef": "G10-U8.50"
+  },
+  {
+    "id": "g10-u8-q51",
+    "lessonId": "g10-u8",
+    "questionNumber": 51,
+    "promptEn": "What is the primary benefit of saving a presentation in OpenDocument Presentation (.odp) format?",
+    "promptSi": "සමර්පණයක් OpenDocument Presentation (.odp) ආකෘතියෙන් සුරැකීමේ ප්‍රධාන වාසිය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "It requires no computer processor to display",
+        "si": "It requires no computer processor to display"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "It is an open international standard that can be opened across diverse open-source and commercial software without vendor lock-in",
+        "si": "It is an open international standard that can be opened across diverse open-source and commercial software without vendor lock-in"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "It automatically translates the presentation into Spanish",
+        "si": "It automatically translates the presentation into Spanish"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "It prevents anyone from printing the presentation forever",
+        "si": "It prevents anyone from printing the presentation forever"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "OpenDocument (.odp) is a vendor-neutral open standard ISO format ensuring long-term compatibility across open-source and proprietary software platforms.",
+    "explanationSi": ".odp යනු විවෘත ජාත්‍යන්තර සම්මතයක් (Open Standard) වන අතර එය එක් නිශ්චිත සමාගමකට සීමා නොවී විවිධ මෘදුකාංග අතර නිදහසේ භාවිත කළ හැක.",
+    "syllabusRef": "G10-U8.51"
+  },
+  {
+    "id": "g10-u8-q52",
+    "lessonId": "g10-u8",
+    "questionNumber": 52,
+    "promptEn": "A student wants an audio track of national instrumental music to play continuously in the background across all 15 slides during a cultural presentation. Which audio setting must be enabled?",
+    "promptSi": "සංස්කෘතික සමර්පණයක ස්ලයිඩ 15 පුරාම පසුබිමින් ජාතික සංගීත ඛණ්ඩයක් අඛණ්ඩව වාදනය වීමට අවශ්‍ය වේ. මේ සඳහා සක්‍රිය කළ යුතු ශ්‍රව්‍ය සැකසුම කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Play Across Slides",
+        "si": "Play Across Slides"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Play on Click Only",
+        "si": "Play on Click Only"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Mute Audio",
+        "si": "Mute Audio"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hide Slide",
+        "si": "Hide Slide"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "'Play Across Slides' allows an audio file inserted on Slide 1 to continue playing seamlessly across subsequent slides until the presentation ends or the track finishes.",
+    "explanationSi": "'Play Across Slides' මගින් පළමු ස්ලයිඩයේ ඇතුළත් කළ ශ්‍රව්‍ය ගොනුවක් ඊළඟ ස්ලයිඩයන්ට මාරු වීමේදී නොනැවතී අඛණ්ඩව වාදනය වීමට සලස්වයි.",
+    "syllabusRef": "G10-U8.52"
+  },
+  {
+    "id": "g10-u8-q53",
+    "lessonId": "g10-u8",
+    "questionNumber": 53,
+    "promptEn": "Consider the following statements regarding slide formatting:",
+    "promptSi": "ස්ලයිඩ හැඩසැසීම පිළිබඳ පහත ප්‍රකාශ සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) only",
+        "si": "(i) only"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(ii) only",
+        "si": "(ii) only"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(iii) only",
+        "si": "(iii) only"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "None of the statements",
+        "si": "None of the statements"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Statement (ii) is correct: each individual slide can be assigned a unique layout (Title, Two Content, Blank, etc.). (i) is false unless changed in Master Slide. (iii) is false as tables can be inserted.",
+    "explanationSi": "(ii) ප්‍රකාශය සත්‍ය වේ: එකම සමර්පණයේ විවිධ ස්ලයිඩ සඳහා විවිධ Layouts යෙදිය හැක. (i) අසත්‍ය වේ. (iii) අසත්‍ය වන්නේ වගු ඇතුළත් කළ හැකි බැවිනි.",
+    "syllabusRef": "G10-U8.53"
+  },
+  {
+    "id": "g10-u8-q54",
+    "lessonId": "g10-u8",
+    "questionNumber": 54,
+    "promptEn": "Which feature allows a presenter to hide a specific slide from appearing during the live Slide Show without permanently deleting it from the presentation file?",
+    "promptSi": "සමර්පණ ගොනුවෙන් ස්ථිරවම මකා දැමීමකින් තොරව, සජීවී Slide Show එක අතරතුර යම් නිශ්චිත ස්ලයිඩයක් ප්‍රදර්ශනය වීම වැළැක්වීම සඳහා භාවිත කරන විශේෂාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Delete Slide",
+        "si": "Delete Slide"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Hide Slide",
+        "si": "Hide Slide"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Cut Slide",
+        "si": "Cut Slide"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Duplicate Slide",
+        "si": "Duplicate Slide"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "'Hide Slide' skips the designated slide during the Slide Show presentation while preserving its content in the editing file.",
+    "explanationSi": "'Hide Slide' (ස්ලයිඩය සැඟවීම) මගින් අදාළ ස්ලයිඩය ගොනුව තුළ සුරැකිව තබා ගනිමින් ඉදිරිපත් කිරීමේදී (Slide Show) පමණක් නොපෙනී මඟ හැරීමට සලස්වයි.",
+    "syllabusRef": "G10-U8.54"
+  },
+  {
+    "id": "g10-u8-q55",
+    "lessonId": "g10-u8",
+    "questionNumber": 55,
+    "promptEn": "What is the primary purpose of the 'Slide Outline Pane' in Microsoft PowerPoint?",
+    "promptSi": "Microsoft PowerPoint හි 'Slide Outline Pane' (සැකිලි කවුළුවේ) ප්‍රධාන කාර්යය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To display only the text titles and bullet content of slides in an editable hierarchical tree without images",
+        "si": "To display only the text titles and bullet content of slides in an editable hierarchical tree without images"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To calculate spreadsheet totals",
+        "si": "To calculate spreadsheet totals"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To record video clips using a webcam",
+        "si": "To record video clips using a webcam"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To convert presentations into audio files",
+        "si": "To convert presentations into audio files"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "The Outline Pane displays the pure text structure (titles and bullet lists) of the presentation, facilitating rapid text editing and organization without visual clutter.",
+    "explanationSi": "Outline Pane මගින් පින්තූර හෝ හැඩතල නොමැතිව ස්ලයිඩවල පෙළ (මාතෘකා සහ ලැයිස්තු) පමණක් පෙළගස්වා පෙන්වන අතර ඉක්මනින් පෙළ සංස්කරණයට උපකාරී වේ.",
+    "syllabusRef": "G10-U8.55"
+  },
+  {
+    "id": "g10-u8-q56",
+    "lessonId": "g10-u8",
+    "questionNumber": 56,
+    "promptEn": "A user wants an animation effect to play 3 seconds after a mouse click occurs. Which animation property must be configured?",
+    "promptSi": "පරිශීලකයා මූසිකය ක්ලික් කර තත්පර 3කට පසුව සජීවීකරණ බලපෑම ආරම්භ වීමට අවශ්‍ය වේ. මේ සඳහා සකස් කළ යුතු සජීවීකරණ ගුණාංගය කුමක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Duration",
+        "si": "Duration"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Delay",
+        "si": "Delay"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Color Fill",
+        "si": "Color Fill"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Font Style",
+        "si": "Font Style"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "'Delay' sets a waiting interval in seconds before an animation begins its execution after being triggered. 'Duration' controls how fast or slow the animation plays.",
+    "explanationSi": "'Delay' (ප්‍රමාදය) මගින් ප්‍රේරකය ක්‍රියාත්මක වූ පසු සජීවීකරණය ආරම්භ වීමට ගතවන කාල පරතරය තත්පර වලින් නියම කරයි. 'Duration' මගින් සජීවීකරණය වාදනය වන වේගය පාලනය කරයි.",
+    "syllabusRef": "G10-U8.56"
+  },
+  {
+    "id": "g10-u8-q57",
+    "lessonId": "g10-u8",
+    "questionNumber": 57,
+    "promptEn": "Which of the following is classified as a proprietary presentation software developed by Apple Inc.?",
+    "promptSi": "Apple සමාගම විසින් සංවර්ධනය කරන ලද හිමිකාර (Proprietary) ඉලෙක්ට්‍රොනික සමර්පණ මෘදුකාංගය වන්නේ පහත කවරක්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Apple Keynote",
+        "si": "Apple Keynote"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Microsoft PowerPoint",
+        "si": "Microsoft PowerPoint"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "LibreOffice Impress",
+        "si": "LibreOffice Impress"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Google Slides",
+        "si": "Google Slides"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Apple Keynote is the proprietary presentation tool developed by Apple Inc. for macOS and iOS.",
+    "explanationSi": "Apple Keynote යනු Apple සමාගම විසින් macOS සහ iOS සඳහා නිර්මාණය කරන ලද හිමිකාර සමර්පණ මෘදුකාංගයකි.",
+    "syllabusRef": "G10-U8.57"
+  },
+  {
+    "id": "g10-u8-q58",
+    "lessonId": "g10-u8",
+    "questionNumber": 58,
+    "promptEn": "Consider the following statements regarding the 'Exit Effects' in Custom Animation:",
+    "promptSi": "Custom Animation හි 'Exit Effects' (නික්මයාමේ බලපෑම්) පිළිබඳ පහත ප්‍රකාශ සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "(i) and (ii) only",
+        "si": "(i) and (ii) only"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "(i) and (iii) only",
+        "si": "(i) and (iii) only"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "(ii) and (iii) only",
+        "si": "(ii) and (iii) only"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "All (i), (ii) and (iii)",
+        "si": "All (i), (ii) and (iii)"
+      }
+    ],
+    "correctKey": "D",
+    "correctOptionId": "opt-d",
+    "explanationEn": "All three statements are correct: Exit effects (red icons) control how objects leave the screen and can be automated with After Previous timing.",
+    "explanationSi": "ප්‍රකාශ තුනම සත්‍ය වේ: Exit effects (රතු අයිකන) මගින් වස්තුවක් ඉවත් වන ආකාරය පාලනය කරන අතර 'After Previous' මගින් ස්වයංක්‍රීය කළ හැක.",
+    "syllabusRef": "G10-U8.58"
+  },
+  {
+    "id": "g10-u8-q59",
+    "lessonId": "g10-u8",
+    "questionNumber": 59,
+    "promptEn": "Why is it important to consider the distance between the audience and the projection screen when selecting font size?",
+    "promptSi": "අකුරු ප්‍රමාණය තීරණය කිරීමේදී ශ්‍රාවකයා සහ ප්‍රක්ෂේපක තිරය අතර ඇති දුර පිළිබඳව සැලකිලිමත් වීම වැදගත් වන්නේ මන්ද?",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Larger distances require larger font sizes (e.g., 32 pt or more) so that participants in the rear rows can clearly read the information",
+        "si": "Larger distances require larger font sizes (e.g., 32 pt or more) so that participants in the rear rows can clearly read the information"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Larger distances require smaller font sizes to save screen space",
+        "si": "Larger distances require smaller font sizes to save screen space"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Font size has no relationship with screen distance",
+        "si": "Font size has no relationship with screen distance"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Projectors automatically enlarge all fonts to 100 pt regardless of settings",
+        "si": "Projectors automatically enlarge all fonts to 100 pt regardless of settings"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Textbook principle: The distance between screen and audience determines font legibility; titles should be 32 pt or more so viewers in the back can read effortlessly.",
+    "explanationSi": "පෙළපොත් මූලධර්මය: තිරයේ සිට ප්‍රේක්ෂකයාට ඇති දුර අනුව අකුරුවල ප්‍රමාණය තීරණය කළ යුතුය. පිටුපස සිටින අයට පෙනීම සඳහා මාතෘකා 32 pt හෝ ඊට වැඩි අගයක තබා ගැනීම සම්මත පිළිගැනීමයි.",
+    "syllabusRef": "G10-U8.59"
+  },
+  {
+    "id": "g10-u8-q60",
+    "lessonId": "g10-u8",
+    "questionNumber": 60,
+    "promptEn": "Consider the following comprehensive scenario:",
+    "promptSi": "පහත සවිස්තරාත්මක අවස්ථාව සලකා බලන්න:",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The presentation violates all syllabus design rules and is completely defective",
+        "si": "The presentation violates all syllabus design rules and is completely defective"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The presentation perfectly adheres to all official NIE slide design principles: 6–9 lines of text, >=24 pt body text, appropriate layouts, and <=2 media objects per slide",
+        "si": "The presentation perfectly adheres to all official NIE slide design principles: 6–9 lines of text, >=24 pt body text, appropriate layouts, and <=2 media objects per slide"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Slide 2 should contain 15 tables to be considered good quality",
+        "si": "Slide 2 should contain 15 tables to be considered good quality"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Slide 3 should use 8 pt font size to save space",
+        "si": "Slide 3 should use 8 pt font size to save space"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The student strictly observed every textbook guideline: Title Slide for intro, Two Content layout for comparison, 7 lines (within 6–9 rule), 28 pt font (>= 24 pt rule), and 1 image (within <= 2 media rule).",
+    "explanationSi": "මෙම සමර්පණය පෙළපොත් මාර්ගෝපදේශ සියල්ල (පේළි 6–9, >=24 pt අකුරු, සුදුසු Layouts, සහ <=2 පින්තූර) මනාව අනුගමනය කර නිර්මාණය කර ඇත.",
+    "syllabusRef": "G10-U8.60"
+  }
+]

@@ -2,9 +2,7 @@
 
 import React, { Suspense } from 'react';
 import { useParams } from 'next/navigation';
-import { Header } from '@/components/Header';
 import { LinearLessonRunner } from '@/components/LinearLessonRunner';
-import { MobileBottomDock } from '@/components/MobileBottomDock';
 import { CURRICULUM_DATA } from '@/data/curriculum';
 import { LESSON_01_DATA } from '@/data/lesson01Data';
 import { PAST_PAPER_QUESTIONS } from '@/data/pastPapersData';
@@ -79,12 +77,12 @@ function LessonPageContent() {
       case 'g10-u1': return <Lesson01Playground />;
       case 'g10-u2': return <MotherboardWorkbench />;
       case 'g10-u3': return <DataRepresentationFoundry />;
-      case 'g10-u4': return <OsEngineWorkbench />;
-      case 'g10-u5': return <WordProcessingStudio />;
-      case 'g10-u6': return <SpreadsheetStudio />;
-      case 'g10-u7':
-      case 'g10-u9': return <StageDirectorStudio />;
-      case 'g10-u8': return <RelationalWarehouse />;
+      case 'g10-u4': return <LogicWorkbench />;
+      case 'g10-u5': return <OsEngineWorkbench />;
+      case 'g10-u6': return <WordProcessingStudio />;
+      case 'g10-u7': return <SpreadsheetStudio />;
+      case 'g10-u8': return <StageDirectorStudio />;
+      case 'g10-u9': return <RelationalWarehouse />;
       case 'g11-u1': return <ProgrammingStudio />;
       case 'g11-u2': return <SdlcLaunchpad />;
       case 'g11-u3': return <NetworkPacketStudio />;
@@ -96,25 +94,15 @@ function LessonPageContent() {
   };
 
   return (
-    <div className="min-h-screen bg-canvas">
-      <Header 
-        currentGrade={grade} 
-        currentLessonTitle={lessonMeta.titleEn}
-        currentLessonId={lessonId}
+    <div className="w-full min-h-screen">
+      <LinearLessonRunner
+        lessonMeta={lessonMeta}
+        grade={grade}
+        subtopics={subtopics}
+        glossary={glossary}
+        pastPapers={pastPapers}
+        renderPlayground={renderPlayground}
       />
-
-      <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <LinearLessonRunner
-          lessonMeta={lessonMeta}
-          grade={grade}
-          subtopics={subtopics}
-          glossary={glossary}
-          pastPapers={pastPapers}
-          renderPlayground={renderPlayground}
-        />
-      </main>
-
-      <MobileBottomDock />
     </div>
   );
 }

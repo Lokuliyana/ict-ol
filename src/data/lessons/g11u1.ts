@@ -13,81 +13,57 @@ export const G11_U1_DATA: GeneralLessonData = {
       "number": "1.1",
       "titleEn": "Analysis of a Problem",
       "titleSi": "ගැටලුවක් විශ්ලේෂණය කිරීම",
-      "summaryEn": "Analysis of a Problem concepts, definitions, and examination competencies.",
-      "summarySi": "ගැටලුවක් විශ්ලේෂණය කිරීම සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
+      "summaryEn": "Problem analysis concepts: identification of Inputs, Processes, Outputs (IPO), and selecting optimal solutions from the solution space.",
+      "summarySi": "ගැටලු විශ්ලේෂණ සංකල්ප: ආදානය, සැකසීම, ප්‍රතිදානය (IPO) හඳුනාගැනීම සහ විසඳුම් අවකාශයෙන් සුදුසුම විසඳුම තෝරාගැනීම.",
       "blocks": [
         {
           "id": "b-g11-u1-1-1",
-          "en": "#### 1.1.1 Core Definitions: Input, Process, Output (මූලික අර්ථ දැක්වීම්: ආදානය, ක්‍රියාවලිය, ප්‍රතිදානය)",
-          "si": "#### 1.1.1 Core Definitions: Input, Process, Output (මූලික අර්ථ දැක්වීම්: ආදානය, ක්‍රියාවලිය, ප්‍රතිදානය)",
-          "highlightTerm": "Core Definitions: Input, Process, Output"
-        },
-        {
-          "id": "b-g11-u1-1-2",
-          "en": "Problem Analysis Concept:\nBefore solving a problem using a computer, it is necessary to identify the components of the problem. Analyzing a problem means identifying the Inputs, Process and Outputs.",
-          "si": "ගැටලුවක් විශ්ලේෂණය කිරීමේ සංකල්පය:\nපරිගණකයක් මගින් ගැටලුවක් විසඳීමට ප්‍රථම එම ගැටලුවේ අඩංගු සංරචක හඳුනා ගැනීම අවශ්‍ය වේ. ගැටලුවක් විශ්ලේෂණය කිරීම යනු එහි ආදානය (Input), ක්‍රියාවලිය (Process) සහ ප්‍රතිදානය (Output) හඳුනා ගැනීමයි.",
+          "en": "Problem Analysis Concept:\nBefore solving a problem using a computer, it is necessary to identify the fundamental components of the problem. Analyzing a problem means systematically identifying its Inputs, Processes, and Outputs.\n\n* **Core IPO Components:**\n  * **Input (දත්ත ආදානය):** The data or raw items required from the user or external sources to solve the problem.\n  * **Process (ක්‍රියාවලිය / ප්‍රක්‍රියාව):** The step-by-step calculations, logic decisions, or transformations performed on inputs to obtain the desired result.\n  * **Output (ප්‍රතිදානය):** The final required result, calculated answer, or meaningful information obtained after processing.\n\n* **IPO Processing Pipeline:**\n[Input (Data)] ➔ [Process (Algorithm / CPU)] ➔ [Output (Information)]",
+          "si": "ගැටලුවක් විශ්ලේෂණය කිරීමේ සංකල්පය:\nපරිගණකයක් මගින් ගැටලුවක් විසඳීමට ප්‍රථම එම ගැටලුවේ අඩංගු සංරචක හඳුනා ගැනීම අවශ්‍ය වේ. ගැටලුවක් විශ්ලේෂණය කිරීම යනු එහි ආදානය (Input), ක්‍රියාවලිය (Process) සහ ප්‍රතිදානය (Output) හඳුනා ගැනීමයි.\n\n* **මූලික ආදාන-සැකසුම්-ප්‍රතිදාන සංරචක:**\n  * **ආදානය (Input):** ගැටලුව විසඳීම සඳහා ලබා දෙන දත්ත හෝ අමුද්‍රව්‍ය ආදානය වේ.\n  * **ක්‍රියාවලිය / ප්‍රක්‍රියාව (Process):** ප්‍රතිදානය ලබා ගැනීම සඳහා ආදාන මත සිදු කරන පියවර, ගණනය කිරීම් හෝ රූපාන්තරණයන් ක්‍රියාවලිය වේ.\n  * **ප්‍රතිදානය (Output):** සැකසීමෙන් පසුව ලබා ගන්නා අවසාන අවශ්‍ය ප්‍රතිඵලය හෝ තොරතුරු ප්‍රතිදානය වේ.\n\n* **ආදාන-සැකසුම්-ප්‍රතිදාන ගැලීමේ ආකෘතිය:**\n[ආදානය (දත්ත)] ➔ [ක්‍රියාවලිය (ඇල්ගොරිතමය / CPU)] ➔ [ප්‍රතිදානය (තොරතුරු)]",
           "highlightTerm": "Problem Analysis Concept"
         },
         {
-          "id": "b-g11-u1-1-3",
-          "en": "Definitions of Components:\nThe data or raw items required to solve the problem.",
-          "si": "සංරචකවල අර්ථ දැක්වීම්:\nගැටලුව විසඳීම සඳහා ලබා දෙන දත්ත හෝ අමුද්‍රව්‍ය ආදානය වේ.\"\n  2. **Process (ක්‍රියාවලිය / ප්‍රක්‍රියාව):**\n     * **[English Medium Text]:** \"The steps, calculations, or transformations performed on inputs to obtain the output.\"\n     * **[Sinhala Medium Text]:** \"ප්‍රතිදානය ලබා ගැනීම සඳහා ආදාන මත සිදු කරන පියවර, ගණනය කිරීම් හෝ රූපාන්තරණයන් ක්‍රියාවලිය වේ.\"\n  3. **Output (ප්‍රතිදානය):**\n     * **[English Medium Text]:** \"The final required result or information obtained after processing.\"\n     * **[Sinhala Medium Text]:** \"සැකසීමෙන් පසුව ලබා ගන්නා අවසාන අවශ්‍ය ප්‍රතිඵලය හෝ තොරතුරු ප්‍රතිදානය වේ.",
-          "highlightTerm": "Definitions of Components"
-        },
-        {
-          "id": "b-g11-u1-1-4",
-          "en": "#### 1.1.2 Textbook Examples of Problem Analysis (පෙළපොත් උදාහරණ විශ්ලේෂණය)",
-          "si": "#### 1.1.2 Textbook Examples of Problem Analysis (පෙළපොත් උදාහරණ විශ්ලේෂණය)",
+          "id": "b-g11-u1-1-2",
+          "en": "Textbook Examples of Problem Analysis:\n\n* **Example 1: Calculating the Area of a Rectangle**\n  * **Input:** Length (`L`), Width (`W`)\n  * **Process:** Area = Length × Width\n  * **Output:** Area\n\n* **Example 2: Calculating Total and Average Marks of a Student**\n  * **Input:** Marks for 3 subjects (`M1`, `M2`, `M3`)\n  * **Process:**\n    - Total = M1 + M2 + M3\n    - Average = Total / 3\n  * **Output:** Total, Average",
+          "si": "පෙළපොත් ගැටලු විශ්ලේෂණ උදාහරණ:\n\n* **උදාහරණය 1: සෘජුකෝණාස්‍රයක වර්ගඵලය ගණනය කිරීම**\n  * **ආදානය (Input):** දිග (`L`), පළල (`W`)\n  * **ක්‍රියාවලිය (Process):** වර්ගඵලය = දිග × පළල\n  * **ප්‍රතිදානය (Output):** වර්ගඵලය\n\n* **උදාහරණය 2: ශිෂ්‍යයෙකුගේ එකතුව සහ සාමාන්‍ය ලකුණු ගණනය කිරීම**\n  * **ආදානය (Input):** විෂයයන් 3 හි ලකුණු (`M1`, `M2`, `M3`)\n  * **ක්‍රියාවලිය (Process):**\n    - එකතුව = M1 + M2 + M3\n    - සාමාන්‍යය = එකතුව / 3\n  * **ප්‍රතිදානය (Output):** එකතුව, සාමාන්‍යය",
           "highlightTerm": "Textbook Examples of Problem Analysis"
         },
         {
-          "id": "b-g11-u1-1-5",
-          "en": "Example 1: Calculating the Area of a Rectangle (සෘජුකෝණාස්‍රයක වර්ගඵලය ගණනය කිරීම)**\n* **Input (ආදානය):** Length ($L$), Width ($W$) / දිග ($L$), පළල ($W$)\n* **Process (ක්‍රියාවලිය):** $\text{Area} = \text{Length} \times \text{Width}$ / $\text{වර්ගඵලය} = \text{දිග} \times \text{පළල}$\n* **Output (ප්‍රතිදානය):** Area / වර්ගඵලය",
-          "si": "Example 1: Calculating the Area of a Rectangle (සෘජුකෝණාස්‍රයක වර්ගඵලය ගණනය කිරීම)**\n* **Input (ආදානය):** Length ($L$), Width ($W$) / දිග ($L$), පළල ($W$)\n* **Process (ක්‍රියාවලිය):** $\text{Area} = \text{Length} \times \text{Width}$ / $\text{වර්ගඵලය} = \text{දිග} \times \text{පළල}$\n* **Output (ප්‍රතිදානය):** Area / වර්ගඵලය",
-          "highlightTerm": "Example 1: Calculating the Area of a Rectangle"
-        },
-        {
-          "id": "b-g11-u1-1-6",
-          "en": "Example 2: Calculating Total and Average Marks of a Student (ශිෂ්‍යයෙකුගේ එකතුව සහ සාමාන්‍ය ලකුණු ගණනය කිරීම)**\n* **Input (ආදානය):** Marks for 3 subjects ($M1, M2, M3$) / විෂයයන් 3 හි ලකුණු ($M1, M2, M3$)\n* **Process (ක්‍රියාවලිය):**\n- $\text{Total} = M1 + M2 + M3$ / $\text{එකතුව} = M1 + M2 + M3$\n- $\text{Average} = \frac{\text{Total}}{3}$ / $\text{සාමාන්‍යය} = \frac{\text{එකතුව}}{3}$\n* **Output (ප්‍රතිදානය):** Total, Average / එකතුව, සාමාන්‍යය",
-          "si": "Example 2: Calculating Total and Average Marks of a Student (ශිෂ්‍යයෙකුගේ එකතුව සහ සාමාන්‍ය ලකුණු ගණනය කිරීම)**\n* **Input (ආදානය):** Marks for 3 subjects ($M1, M2, M3$) / විෂයයන් 3 හි ලකුණු ($M1, M2, M3$)\n* **Process (ක්‍රියාවලිය):**\n- $\text{Total} = M1 + M2 + M3$ / $\text{එකතුව} = M1 + M2 + M3$\n- $\text{Average} = \frac{\text{Total}}{3}$ / $\text{සාමාන්‍යය} = \frac{\text{එකතුව}}{3}$\n* **Output (ප්‍රතිදානය):** Total, Average / එකතුව, සාමාන්‍යය",
-          "highlightTerm": "Example 2: Calculating Total and Average Marks of a Student"
-        },
-        {
-          "id": "b-g11-u1-1-7",
-          "en": "Identification of Alternative Solutions & Solution Space:\nA problem can have more than one solution. The collection of all possible solutions to a given problem is called the Solution Space. Choosing the most suitable and efficient solution from the solution space is an important step in problem solving.",
-          "si": "විකල්ප විසඳුම් හඳුනාගැනීම සහ විසඳුම් අවකාශය:\nඑක් ගැටලුවක් විසඳීම සඳහා විසඳුම් එකකට වඩා පැවතිය හැක. දී ඇති ගැටලුවක් සඳහා පැවතිය හැකි සියලුම විසඳුම්වල එකතුව 'විසඳුම් අවකාශය' (Solution Space) ලෙස හැඳින්වේ. විසඳුම් අවකාශය අතුරින් වඩාත් සුදුසු සහ කාර්යක්ෂම විසඳුම තෝරා ගැනීම ගැටලු විසඳීමේ දී ඉතා වැදගත් පියවරකි.\"\n\n---",
-          "highlightTerm": "Identification of Alternative Solutions & Solution Space"
+          "id": "b-g11-u1-1-3",
+          "en": "Alternative Solutions & Solution Space:\nA problem can often have more than one valid solution.\n\n* **Solution Space (විසඳුම් අවකාශය):**\n  * The collection of all possible valid solutions to a given problem is known as the **Solution Space**.\n  * Solving a problem effectively involves evaluating the alternatives and selecting the most suitable, resource-friendly, and computationally efficient solution from the solution space.",
+          "si": "විකල්ප විසඳුම් සහ විසඳුම් අවකාශය:\nඑක් ගැටලුවක් විසඳීම සඳහා විසඳුම් එකකට වඩා පැවතිය හැක.\n\n* **විසඳුම් අවකාශය (Solution Space):**\n  * දී ඇති ගැටලුවක් සඳහා පැවතිය හැකි සියලුම විසඳුම්වල එකතුව **විසඳුම් අවකාශය** ලෙස හැඳින්වේ.\n  * විසඳුම් අවකාශය අතුරින් අඩු සම්පත් ප්‍රමාණයක් වැයවන, වඩාත්ම සුදුසු සහ කාර්යක්ෂම විසඳුම තෝරා ගැනීම ගැටලු විසඳීමේ දී තීරණාත්මක පියවරකි.",
+          "highlightTerm": "Solution Space"
         }
       ],
       "checkpointQuiz": {
         "id": "q-g11-u1-1",
-        "questionEn": "Which of the following is the most accurate concept regarding Analysis of a Problem?",
-        "questionSi": "ගැටලුවක් විශ්ලේෂණය කිරීම පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
+        "questionEn": "What are the three main components identified when analyzing a problem before developing a computer solution?",
+        "questionSi": "පරිගණකයක් මඟින් ගැටලුවක් විසඳීමට පෙර එය විශ්ලේෂණය කිරීමේදී හඳුනාගන්නා ප්‍රධාන සංරචක තුන කුමක්ද?",
         "options": [
           {
             "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Analysis of a Problem",
-            "si": "ගැටලුවක් විශ්ලේෂණය කිරීම පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
+            "en": "Input, Process, Output",
+            "si": "ආදානය, ක්‍රියාවලිය, ප්‍රතිදානය"
           },
           {
             "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
+            "en": "Hardware, Software, Firmware",
+            "si": "දෘඩාංග, මෘදුකාංග, ස්ථිරාංග"
           },
           {
             "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
+            "en": "Compiler, Interpreter, Assembler",
+            "si": "සම්පාදකය, අර්ථවින්‍යාසකය, ඇසෙම්බ්ලරය"
           },
           {
             "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
+            "en": "Bit, Byte, Character",
+            "si": "බිටු, බයිට, අක්ෂර"
           }
         ],
         "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Analysis of a Problem.",
-        "explanationSi": "1 වන වරණය මගින් ගැටලුවක් විශ්ලේෂණය කිරීම පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
+        "explanationEn": "Analyzing any computational problem requires identifying its Input (data needed), Process (operations performed), and Output (result obtained).",
+        "explanationSi": "ඕනෑම පරිගණක ගැටලුවක් විසඳීමට පෙර එහි ආදානය (අවශ්‍ය දත්ත), ක්‍රියාවලිය (සිදුකරන ගණනය කිරීම්) සහ ප්‍රතිදානය (අවසාන ප්‍රතිඵලය) හඳුනාගත යුතුය."
       }
     },
     {
@@ -95,164 +71,134 @@ export const G11_U1_DATA: GeneralLessonData = {
       "number": "1.2",
       "titleEn": "Algorithms & Control Structures",
       "titleSi": "ඇල්ගොරිතම සහ පාලන ව්‍යුහ",
-      "summaryEn": "Algorithms & Control Structures concepts, definitions, and examination competencies.",
-      "summarySi": "ඇල්ගොරිතම සහ පාලන ව්‍යුහ සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
+      "summaryEn": "Algorithm characteristics (Definiteness, Finiteness, Input/Output, Effectiveness) and the 3 control structures (Sequence, Selection, Repetition).",
+      "summarySi": "ඇල්ගොරිතම ලක්ෂණ (පැහැදිලි බව, නිමා වන බව, ආදාන/ප්‍රතිදාන, ඵලදායී බව) සහ ප්‍රධාන පාලන ව්‍යුහ 3 (අනුක්‍රමය, තේරීම, පුනරාවර්තනය).",
       "blocks": [
         {
           "id": "b-g11-u1-2-1",
-          "en": "What is an Algorithm?:\nAn algorithm is a step-by-step sequence of instructions designed to solve a specific problem in a finite amount of time.",
-          "si": "ඇල්ගොරිතමයක් යනු කුමක්ද?:\nඇල්ගොරිතමයක් යනු යම් ගැටලුවක් විසඳීම සඳහා අනුගමනය කළ යුතු පියවරෙන් පියවර උපදෙස් සමූහයක පිළිවෙළයි.",
-          "highlightTerm": "What is an Algorithm?"
+          "en": "What is an Algorithm?:\nAn algorithm is a step-by-step sequence of unambiguous instructions designed to solve a specific problem in a finite amount of time.\n\n* **The 4 Fundamental Characteristics of a Good Algorithm:**\n  * **Definiteness (පැහැදිලි බව):** Each step must be precise, clear, and unambiguous with no room for confusion.\n  * **Finiteness (සන්තතික බව / නිමා වන බව):** The algorithm must terminate after a finite, countable number of steps.\n  * **Input & Output (ආදානය හා ප්‍රතිදානය):** Accepts zero or more clearly defined inputs and produces at least one meaningful output.\n  * **Effectiveness (ඵලදායී බව):** Every instruction must be feasible and simple enough to be executed accurately using basic operations.",
+          "si": "ඇල්ගොරිතමයක් යනු කුමක්ද?:\nඇල්ගොරිතමයක් යනු යම් නිශ්චිත ගැටලුවක් විසඳීම සඳහා අනුගමනය කළ යුතු පියවරෙන් පියවර උපදෙස් සමූහයක පිළිවෙළයි.\n\n* **හොඳ ඇල්ගොරිතමයක මූලික ලක්ෂණ 4:**\n  * **පැහැදිලි බව (Definiteness):** සෑම පියවරක්ම අපැහැදිලි බවකින් තොරව ඉතා නිශ්චිත හා පැහැදිලි විය යුතුය.\n  * **නිමා වන බව / සන්තතික බව (Finiteness):** ඇල්ගොරිතමය සීමිත පියවර සංඛ්‍යාවකින් අවසන් (Terminate) විය යුතුය.\n  * **ආදාන හා ප්‍රතිදාන (Input & Output):** ශුන්‍යයක් හෝ ඊට වැඩි ආදාන ප්‍රමාණයක් ලබාගෙන අවම වශයෙන් එක් ප්‍රතිදානයක් හෝ නිපදවිය යුතුය.\n  * **ඵලදායී බව (Effectiveness):** සෑම උපදෙසක්ම ප්‍රායෝගිකව ක්‍රියාත්මක කළ හැකි සරල එකක් විය යුතුය.",
+          "highlightTerm": "Algorithm & Characteristics"
         },
         {
           "id": "b-g11-u1-2-2",
-          "en": "Key Characteristics of a Good Algorithm (හොඳ ඇල්ගොරිතමයක ලක්ෂණ):**\n1. **Definiteness (පැහැදිලි බව):** Each step must be clear and unambiguous. / සෑම පියවරක්ම පැහැදිලි විය යුතුය.\n2. **Finiteness (සන්තතික බව / නිමා වන බව):** Must terminate after a finite number of steps. / පියවර සීමිත සංඛ්‍යාවකින් අවසන් විය යුතුය.\n3. **Input & Output (ආදානය හා ප්‍රතිදානය):** Must accept zero or more inputs and produce at least one output. / ආදාන ලබාගෙන අවම වශයෙන් එක් ප්‍රතිදානයක්වත් ලබා දිය යුතුය.\n4. **Effectiveness (ඵලදායී බව):** Each instruction must be basic enough to be carried out effectively. / සෑම උපදෙසක්ම ක්‍රියාත්මක කළ හැකි ප්‍රායෝගික එකක් විය යුතුය.",
-          "si": "Key Characteristics of a Good Algorithm (හොඳ ඇල්ගොරිතමයක ලක්ෂණ):**\n1. **Definiteness (පැහැදිලි බව):** Each step must be clear and unambiguous. / සෑම පියවරක්ම පැහැදිලි විය යුතුය.\n2. **Finiteness (සන්තතික බව / නිමා වන බව):** Must terminate after a finite number of steps. / පියවර සීමිත සංඛ්‍යාවකින් අවසන් විය යුතුය.\n3. **Input & Output (ආදානය හා ප්‍රතිදානය):** Must accept zero or more inputs and produce at least one output. / ආදාන ලබාගෙන අවම වශයෙන් එක් ප්‍රතිදානයක්වත් ලබා දිය යුතුය.\n4. **Effectiveness (ඵලදායී බව):** Each instruction must be basic enough to be carried out effectively. / සෑම උපදෙසක්ම ක්‍රියාත්මක කළ හැකි ප්‍රායෝගික එකක් විය යුතුය.",
-          "highlightTerm": "Key Characteristics of a Good Algorithm"
-        },
-        {
-          "id": "b-g11-u1-2-3",
-          "en": "The 3 Fundamental Control Structures:\nInstructions are executed one after another in the exact order they appear, from top to bottom.",
-          "si": "ප්‍රධාන පාලන ව්‍යුහ 3:\nඋපදෙස් ලියා ඇති අනුපිළිවෙළටම ඉහළ සිට පහළට එකින් එක පිළිවෙළින් ක්‍රියාත්මක වීම අනුක්‍රමය නම් වේ.\"\n\n2. **Selection / Decision (තේරීම / තීරණය):**\n   * **[English Medium Text]:** \"A condition is evaluated; if the condition is True, one path is taken, and if False, an alternative path is taken.\"\n   * **[Sinhala Medium Text]:** \"යම් කොන්දේසියක් පරීක්ෂා කර, එම කොන්දේසිය සත්‍ය (True) නම් එක් මගක්ද, අසත්‍ය (False) නම් වෙනත් මගක්ද තෝරාගෙන ක්‍රියාත්මක වීම තේරීම නම් වේ.\"\n\n3. **Repetition / Iteration / Loop (පුනරාවර්තනය / ලූප):**\n   * **[English Medium Text]:** \"A block of instructions is executed repeatedly as long as a specified condition remains True or until a condition becomes True.\"\n   * **[Sinhala Medium Text]:** \"යම් කොන්දේසියක් සත්‍ය වන තෙක් හෝ සත්‍යව පවතින තාක් යම් උපදෙස් සමූහයක් නැවත නැවතත් ක්‍රියාත්මක වීම පුනරාවර්තනය (ලූප) නම් වේ.\"\n\n---",
-          "highlightTerm": "The 3 Fundamental Control Structures"
+          "en": "The 3 Fundamental Control Structures:\nAll computer programs and algorithms can be constructed using three basic control structures:\n\n* **1. Sequence (අනුක්‍රමය):**\n  * Instructions are executed one after another in the exact linear order in which they appear, from top to bottom.\n  * *Example:* Read marks ➔ Calculate sum ➔ Print result.\n\n* **2. Selection / Decision (තේරීම / තීරණය):**\n  * A logical condition is evaluated; if the condition is True, one execution path is taken; if False, an alternative path is taken.\n  * *Example:* If marks >= 50, Print \"Pass\", else Print \"Fail\".\n\n* **3. Repetition / Iteration / Loop (පුනරාවර්තනය / ලූප):**\n  * A block of instructions is executed repeatedly as long as a specified condition remains True (or until a condition is satisfied).\n  * *Example:* Repeat reading 10 student marks using a counter loop.",
+          "si": "ප්‍රධාන පාලන ව්‍යුහ 3:\nඕනෑම පරිගණක වැඩසටහනක් හෝ ඇල්ගොරිතමයක් මූලික පාලන ව්‍යුහ තුනක් භාවිතයෙන් ගොඩනැගිය හැක:\n\n* **1. අනුක්‍රමය (Sequence):**\n  * උපදෙස් ලියා ඇති අනුපිළිවෙළටම ඉහළ සිට පහළට එකින් එක පිළිවෙළින් ක්‍රියාත්මක වීම.\n  * *උදාහරණ:* ලකුණු ලබාගැනීම ➔ එකතුව සෙවීම ➔ මුද්‍රණය කිරීම.\n\n* **2. තේරීම / තීරණය (Selection / Decision):**\n  * යම් කොන්දේසියක් පරීක්ෂා කර, එම කොන්දේසිය සත්‍ය (True) නම් එක් මඟක්ද, අසත්‍ය (False) නම් වෙනත් විකල්ප මඟක්ද තෝරාගෙන ක්‍රියාත්මක වීම.\n  * *උදාහරණ:* ලකුණු 50 හෝ වැඩි නම් \"Pass\", නැතහොත් \"Fail\" මුද්‍රණය කිරීම.\n\n* **3. පුනරාවර්තනය / ලූප (Repetition / Iteration / Loop):**\n  * යම් කොන්දේසියක් සත්‍යව පවතින තාක් හෝ සත්‍ය වන තෙක් යම් උපදෙස් සමූහයක් නැවත නැවතත් ක්‍රියාත්මක වීම.\n  * *උදාහරණ:* ශිෂ්‍යයන් 10 දෙනෙකුගේ ලකුණු එකතු කිරීම සඳහා ලූපයක් ක්‍රියාත්මක කිරීම.",
+          "highlightTerm": "Control Structures"
         }
       ],
       "checkpointQuiz": {
         "id": "q-g11-u1-2",
-        "questionEn": "Which of the following is the most accurate concept regarding Algorithms & Control Structures?",
-        "questionSi": "ඇල්ගොරිතම සහ පාලන ව්‍යුහ පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
+        "questionEn": "Which characteristic ensures that an algorithm will terminate after a countable number of steps?",
+        "questionSi": "ඇල්ගොරිතමයක් සීමිත පියවර සංඛ්‍යාවකින් අවසන් වන බව තහවුරු කරන ලක්ෂණය කුමක්ද?",
         "options": [
           {
             "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Algorithms & Control Structures",
-            "si": "ඇල්ගොරිතම සහ පාලන ව්‍යුහ පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
+            "en": "Finiteness",
+            "si": "සන්තතික බව (Finiteness)"
           },
           {
             "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
+            "en": "Definiteness",
+            "si": "පැහැදිලි බව (Definiteness)"
           },
           {
             "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
+            "en": "Effectiveness",
+            "si": "ඵලදායී බව (Effectiveness)"
           },
           {
             "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
+            "en": "Versatility",
+            "si": "බහුකාර්ය බව (Versatility)"
           }
         ],
         "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Algorithms & Control Structures.",
-        "explanationSi": "1 වන වරණය මගින් ඇල්ගොරිතම සහ පාලන ව්‍යුහ පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
+        "explanationEn": "Finiteness guarantees that an algorithm will not run forever and must stop after completing a finite number of steps.",
+        "explanationSi": "සන්තතික බව (Finiteness) මඟින් ඇල්ගොරිතමය අසීමිතව නොයන බවත්, සීමිත පියවර ගණනකින් නිමාවට පත්වන බවත් තහවුරු කරයි."
       }
     },
     {
       "id": "g11-u1-st-3",
       "number": "1.3",
       "titleEn": "Representation of Algorithms: Flowcharts & Pseudocode",
-      "titleSi": "ඇල්ගොරිතම නිරූපණය",
-      "summaryEn": "Representation of Algorithms: Flowcharts & Pseudocode concepts, definitions, and examination competencies.",
-      "summarySi": "ඇල්ගොරිතම නිරූපණය සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
+      "titleSi": "ඇල්ගොරිතම නිරූපණය: ගැලීම් සටහන් සහ පූර්ව කේත",
+      "summaryEn": "Visual flowchart symbols (Terminal, I/O, Process, Decision, Connector, Flow Line) and structured pseudocode rules and standard keywords.",
+      "summarySi": "ගැලීම් සටහන් සංකේත (ආරම්භය/අවසානය, ආදාන/ප්‍රතිදාන, ක්‍රියාවලිය, තීරණය, සම්බන්ධකය) සහ පූර්ව කේත රීති හා සම්මත මූලපද.",
       "blocks": [
         {
           "id": "b-g11-u1-3-1",
-          "en": "#### 1.3.1 Standard Flowchart Symbols (ගැලීම් සටහන් සංකේත)",
-          "si": "#### 1.3.1 Standard Flowchart Symbols (ගැලීම් සටහන් සංකේත)",
-          "highlightTerm": "Standard Flowchart Symbols"
+          "en": "Flowchart Representation:\nA flowchart is a graphical representation of an algorithm using standard geometric symbols connected by directional flowlines.\n\n* **Standard Flowchart Symbols:**\n  * **Terminal (Oval / Rounded Rectangle):** Indicates the Start or End of an algorithm.\n  * **Input / Output (Parallelogram):** Represents reading data input or printing output.\n  * **Process (Rectangle):** Represents arithmetic calculations, data transformations, or variable assignments.\n  * **Decision (Diamond / Rhombus):** Evaluates a condition with multiple exit paths (typically True/False).\n  * **Connector (Circle):** Connects separated flowchart segments without intersecting lines.\n  * **Flow Line (Arrowed Line):** Indicates the sequential direction of execution flow.",
+          "si": "ගැලීම් සටහන් නිරූපණය:\nගැලීම් සටහනක් යනු සම්මත ජ්‍යාමිතික හැඩතල සහ දිශානතික රේඛා භාවිතයෙන් ඇල්ගොරිතමයක් රූපමය ආකාරයෙන් නිරූපණය කිරීමයි.\n\n* **සම්මත ගැලීම් සටහන් සංකේත:**\n  * **ප්‍රාරම්භය / අන්තය (Terminal - ඉලිප්සය):** ඇල්ගොරිතමයක ආරම්භය (Start) හෝ අවසානය (Stop/End) සලකුණු කරයි.\n  * **ආදාන / ප්‍රතිදාන (Input/Output - සමාන්තරාස්‍රය):** දත්ත ලබා ගැනීම (Read/Input) හෝ තොරතුරු ප්‍රදර්ශනය (Print/Output) නිරූපණය කරයි.\n  * **ක්‍රියාවලිය (Process - සෘජුකෝණාස්‍රය):** ගණනය කිරීම්, අගයන් පැවරීම් හෝ දත්ත සැකසුම් නිරූපණය කරයි.\n  * **තීරණය (Decision - රොම්බසය):** කොන්දේසි පරීක්ෂා කර True/False මගින් ගැලීමේ දිශාව තීරණය කරයි.\n  * **සම්බන්ධකය (Connector - කුඩා වෘත්තය):** ගැලීම් සටහනක විවිධ කොටස් යා කිරීමට භාවිත කරයි.\n  * **ගැලීම් රේඛාව (Flow Line - ඊතල රේඛාව):** උපදෙස් ක්‍රියාත්මක වන දිශාව පෙන්වයි.",
+          "highlightTerm": "Flowchart Symbols"
         },
         {
           "id": "b-g11-u1-3-2",
-          "en": "#### 1.3.2 Pseudocode Rules & Keywords (පූර්ව කේත නීති සහ මූලපද)",
-          "si": "#### 1.3.2 Pseudocode Rules & Keywords (පූර්ව කේත නීති සහ මූලපද)",
-          "highlightTerm": "Pseudocode Rules & Keywords"
-        },
-        {
-          "id": "b-g11-u1-3-3",
-          "en": "Pseudocode Rules (පූර්ව කේත නීති):**\n- Written in plain English / Sinhala resembling programming structure without strict syntax constraints.\n- Capitalized standard keywords: `BEGIN`, `END`, `READ`, `INPUT`, `PRINT`, `WRITE`, `IF`, `THEN`, `ELSE`, `ENDIF`, `WHILE`, `DO`, `ENDWHILE`, `FOR`, `TO`, `REPEAT`, `UNTIL`.\n- Proper indentation must be used to show control block scope.",
-          "si": "Pseudocode Rules (පූර්ව කේත නීති):**\n- Written in plain English / Sinhala resembling programming structure without strict syntax constraints.\n- Capitalized standard keywords: `BEGIN`, `END`, `READ`, `INPUT`, `PRINT`, `WRITE`, `IF`, `THEN`, `ELSE`, `ENDIF`, `WHILE`, `DO`, `ENDWHILE`, `FOR`, `TO`, `REPEAT`, `UNTIL`.\n- Proper indentation must be used to show control block scope.",
+          "en": "Pseudocode Rules & Standard Keywords:\nPseudocode is an informal, high-level description of an algorithm written in structured natural language resembling programming code without strict syntax rules.\n\n* **Standard Keywords (Capitalized):**\n  * **Start & End:** `BEGIN`, `END`\n  * **Input & Output:** `READ`, `INPUT`, `PRINT`, `WRITE`, `DISPLAY`\n  * **Selection:** `IF`, `THEN`, `ELSE`, `ENDIF`\n  * **Repetition:** `WHILE`, `DO`, `ENDWHILE`, `FOR`, `TO`, `ENDFOR`, `REPEAT`, `UNTIL`\n\n* **Key Formatting Rule:**\n  * Proper indentation must be used to show the scope of control structures and nested logic blocks.",
+          "si": "පූර්ව කේත නීති සහ මූලපද:\nපූර්ව කේතයක් (Pseudocode) යනු පරිගණක ක්‍රමලේඛන භාෂාවක ව්‍යුහයට සමාන වන පරිදි සරල භාෂාවෙන් ඇල්ගොරිතමයක් ලිවීමේ ක්‍රමයකි.\n\n* **සම්මත ප්‍රධාන වචන (Keywords):**\n  * **ආරම්භය සහ අවසානය:** `BEGIN`, `END`\n  * **ආදානය සහ ප්‍රතිදානය:** `READ`, `INPUT`, `PRINT`, `WRITE`\n  * **තේරීම:** `IF`, `THEN`, `ELSE`, `ENDIF`\n  * **පුනරාවර්තනය:** `WHILE`, `DO`, `ENDWHILE`, `FOR`, `TO`, `ENDFOR`, `REPEAT`, `UNTIL`\n\n* **ප්‍රධාන රීතිය:**\n  * පාලන ව්‍යුහවල සීමාවන් පැහැදිලිව පෙන්වීම සඳහා නිවැරදිව පේළි ඇතුළට ගැනීම (Indentation) සිදු කළ යුතුය.",
           "highlightTerm": "Pseudocode Rules"
         }
       ],
       "examples": [
         {
           "id": "ex-11-1-3-1",
-          "titleEn": "Schematic / Code Diagram 1",
-          "titleSi": "පරිපථ / කේත සටහන 1",
-          "contentEn": "┌─────────────────────────┬──────────────────────────┬────────────────────────────────────────────────────────┐\n│ Symbol Name (සංකේතය)    │ Graphical Shape (හැඩය)   │ Function / Meaning (කාර්යය)                            │\n├─────────────────────────┼──────────────────────────┼────────────────────────────────────────────────────────┤\n│ Terminal (ප්‍රාරම්භය/අන්තය)│ Oval / Rounded Rectangle │ Indicates Start or End of an algorithm (ආරම්භය/අවසානය)│\n│ Input / Output (ආදාන/ප්‍රතිදාන)│ Parallelogram (සමාන්තරාස්‍රය)│ Represents Reading Input or Printing Output (දත්ත ලබාගැනීම/ප්‍රතිදානය)│\n│ Process (ක්‍රියාවලිය)      │ Rectangle (සෘජුකෝණාස්‍රය) │ Represents Calculations or Data Assignment (ගණනය කිරීම්/අගයන් පැවරුම)│\n│ Decision (තීරණය)        │ Diamond (රොම්බසය)        │ Represents Condition Evaluation with True/False paths (කොන්දේසි පරීක්ෂාව)│\n│ Connector (සම්බන්ධකය)   │ Circle (කාල සලකුණ/වෘත්තය)│ Connects different sections of a flowchart (විවිධ කොටස් යා කිරීම)│\n│ Flow Line (ගැලීම් රේඛාව) │ Arrow Line (ඊතල රේඛාව)  │ Shows the direction of execution flow (ක්‍රියාත්මක වීමේ දිශාව) │\n└─────────────────────────┴──────────────────────────┴────────────────────────────────────────────────────────┘",
-          "contentSi": "┌─────────────────────────┬──────────────────────────┬────────────────────────────────────────────────────────┐\n│ Symbol Name (සංකේතය)    │ Graphical Shape (හැඩය)   │ Function / Meaning (කාර්යය)                            │\n├─────────────────────────┼──────────────────────────┼────────────────────────────────────────────────────────┤\n│ Terminal (ප්‍රාරම්භය/අන්තය)│ Oval / Rounded Rectangle │ Indicates Start or End of an algorithm (ආරම්භය/අවසානය)│\n│ Input / Output (ආදාන/ප්‍රතිදාන)│ Parallelogram (සමාන්තරාස්‍රය)│ Represents Reading Input or Printing Output (දත්ත ලබාගැනීම/ප්‍රතිදානය)│\n│ Process (ක්‍රියාවලිය)      │ Rectangle (සෘජුකෝණාස්‍රය) │ Represents Calculations or Data Assignment (ගණනය කිරීම්/අගයන් පැවරුම)│\n│ Decision (තීරණය)        │ Diamond (රොම්බසය)        │ Represents Condition Evaluation with True/False paths (කොන්දේසි පරීක්ෂාව)│\n│ Connector (සම්බන්ධකය)   │ Circle (කාල සලකුණ/වෘත්තය)│ Connects different sections of a flowchart (විවිධ කොටස් යා කිරීම)│\n│ Flow Line (ගැලීම් රේඛාව) │ Arrow Line (ඊතල රේඛාව)  │ Shows the direction of execution flow (ක්‍රියාත්මක වීමේ දිශාව) │\n└─────────────────────────┴──────────────────────────┴────────────────────────────────────────────────────────┘"
+          "titleEn": "Flowchart Symbols Reference Table",
+          "titleSi": "ගැලීම් සටහන් සංකේත සාරාංශය",
+          "contentEn": "┌─────────────────────────┬──────────────────────────┬────────────────────────────────────────────────────────┐\n│ Symbol Name             │ Graphical Shape          │ Function / Meaning                                     │\n├─────────────────────────┼──────────────────────────┼────────────────────────────────────────────────────────┤\n│ Terminal                │ Oval / Rounded Rectangle │ Indicates Start or End of an algorithm                 │\n│ Input / Output          │ Parallelogram            │ Reading Input or Printing Output                       │\n│ Process                 │ Rectangle                │ Calculations or Data Assignment                        │\n│ Decision                │ Diamond (Rhombus)        │ Condition Evaluation with True/False paths             │\n│ Connector               │ Circle                   │ Connects sections of a flowchart without line overlap  │\n│ Flow Line               │ Arrow Line               │ Direction of execution flow                            │\n└─────────────────────────┴──────────────────────────┴────────────────────────────────────────────────────────┘",
+          "contentSi": "┌─────────────────────────┬──────────────────────────┬────────────────────────────────────────────────────────┐\n│ සංකේතයේ නම             │ ජ්‍යාමිතික හැඩය           │ කාර්යය / අර්ථය                                          │\n├─────────────────────────┼──────────────────────────┼────────────────────────────────────────────────────────┤\n│ ප්‍රාරම්භය / අන්තය       │ ඉලිප්සය                  │ ඇල්ගොරිතමයේ ආරම්භය හෝ අවසානය සලකුණු කරයි               │\n│ ආදාන / ප්‍රතිදාන         │ සමාන්තරාස්‍රය            │ දත්ත ලබාගැනීම හෝ ප්‍රතිඵල ප්‍රදර්ශනය                    │\n│ ක්‍රියාවලිය              │ සෘජුකෝණාස්‍රය             │ ගණනය කිරීම් හෝ අගයන් පැවරීම                            │\n│ තීරණය                  │ රොම්බසය                  │ කොන්දේසි පරීක්ෂාව (True / False)                       │\n│ සම්බන්ධකය               │ කුඩා වෘත්තය              │ ගැලීම් සටහනේ විවිධ කොටස් යා කිරීම                       │\n│ ගැලීම් රේඛාව            │ ඊතල රේඛාව                │ ක්‍රියාත්මක වීමේ දිශාව පෙන්වීම                          │\n└─────────────────────────┴──────────────────────────┴────────────────────────────────────────────────────────┘"
         }
       ],
       "checkpointQuiz": {
         "id": "q-g11-u1-3",
-        "questionEn": "Which of the following is the most accurate concept regarding Representation of Algorithms: Flowcharts & Pseudocode?",
-        "questionSi": "ඇල්ගොරිතම නිරූපණය පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
+        "questionEn": "Which flowchart symbol is used to represent condition evaluation with branching paths?",
+        "questionSi": "කොන්දේසි පරීක්ෂා කර මාර්ග තීරණය කිරීම නිරූපණය කිරීමට භාවිත කරන ගැලීම් සටහන් සංකේතය කුමක්ද?",
         "options": [
           {
             "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Representation of Algorithms: Flowcharts & Pseudocode",
-            "si": "ඇල්ගොරිතම නිරූපණය පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
+            "en": "Diamond / Rhombus (Decision)",
+            "si": "රොම්බසය (තීරණය)"
           },
           {
             "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
+            "en": "Parallelogram (Input/Output)",
+            "si": "සමාන්තරාස්‍රය (ආදාන/ප්‍රතිදාන)"
           },
           {
             "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
+            "en": "Rectangle (Process)",
+            "si": "සෘජුකෝණාස්‍රය (ක්‍රියාවලිය)"
           },
           {
             "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
+            "en": "Oval (Terminal)",
+            "si": "ඉලිප්සය (ප්‍රාරම්භය/අන්තය)"
           }
         ],
         "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Representation of Algorithms: Flowcharts & Pseudocode.",
-        "explanationSi": "1 වන වරණය මගින් ඇල්ගොරිතම නිරූපණය පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
+        "explanationEn": "The Diamond (Rhombus) symbol represents Decision points where conditions are tested, resulting in True/False branch paths.",
+        "explanationSi": "රොම්බසය (තීරණය) සංකේතය මඟින් කොන්දේසි පරීක්ෂා කර සත්‍ය (True) හෝ අසත්‍ය (False) දිශාවන් ඔස්සේ පාලනය යොමු කරනු ලැබේ."
       }
     },
     {
       "id": "g11-u1-st-4",
       "number": "1.4",
       "titleEn": "Trace Tables / Variable Tracking",
-      "titleSi": "හෝඩුවා වගු / ලුහුබැඳීමේ වගු",
-      "summaryEn": "Trace Tables / Variable Tracking concepts, definitions, and examination competencies.",
-      "summarySi": "හෝඩුවා වගු / ලුහුබැඳීමේ වගු සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
+      "titleSi": "හෝඩුවා වගු / විචල්‍ය ලුහුබැඳීමේ වගු",
+      "summaryEn": "Trace table structure, variable tracking techniques, step-by-step loop dry-run execution, and logic error detection.",
+      "summarySi": "හෝඩුවා වගු ව්‍යුහය, විචල්‍ය ලුහුබැඳීම, පියවරෙන් පියවර ලූප් ධාවනය සහ තර්කන දෝෂ හඳුනාගැනීම.",
       "blocks": [
         {
           "id": "b-g11-u1-4-1",
-          "en": "What is a Trace Table?:\nA trace table is a technique used to test algorithms, in order to make sure that no logic errors occur during the algorithm execution. It tracks the step-by-step changes of variable values.",
-          "si": "හෝඩුවා වගුවක් යනු කුමක්ද?:\nහෝඩුවා වගුවක් (Trace Table) යනු ඇල්ගොරිතමයක තර්කන දෝෂ පවතීදැයි පරීක්ෂා කිරීම සඳහාත්, ක්‍රියාත්මක වීමේදී විචල්‍යයන්ගේ අගයන් පියවරෙන් පියවර වෙනස් වන ආකාරය නිරීක්ෂණය කිරීම සඳහාත් භාවිත කරන සටහනකි.",
-          "highlightTerm": "What is a Trace Table?"
-        },
-        {
-          "id": "b-g11-u1-4-2",
-          "en": "#### Trace Table Example (උදාහරණය):",
-          "si": "#### Trace Table Example (උදාහරණය):",
-          "highlightTerm": "Trace Table Example"
-        },
-        {
-          "id": "b-g11-u1-4-3",
-          "en": "Algorithm:",
-          "si": "Algorithm:",
-          "highlightTerm": "Algorithm"
-        },
-        {
-          "id": "b-g11-u1-4-4",
-          "en": "Trace Table Execution Step-by-Step (හෝඩුවා වගු පියවර):",
-          "si": "Trace Table Execution Step-by-Step (හෝඩුවා වගු පියවර):",
-          "highlightTerm": "Trace Table Execution Step-by-Step"
+          "en": "What is a Trace Table?:\nA trace table is a structured testing and debugging technique used to verify algorithm correctness and ensure that no logic errors exist.\n\n* **Purpose & Mechanism:**\n  * It records step-by-step state changes of all variables throughout each iteration or sequential line.\n  * Helps identify off-by-one errors, infinite loops, and incorrect condition statements before writing actual code.\n\n* **Key Tracking Steps:**\n  1. List all variables and loop conditions as table column headers.\n  2. Follow code line by line and update variable values upon assignment.\n  3. Evaluate conditions as True or False to determine loop entry or exit.\n  4. Record final output values displayed upon termination.",
+          "si": "හෝඩුවා වගුවක් යනු කුමක්ද?:\nහෝඩුවා වගුවක් (Trace Table) යනු ඇල්ගොරිතමයක තර්කන දෝෂ (Logic Errors) පවතීදැයි පරීක්ෂා කිරීමට සහ නිවැරදි බව තහවුරු කිරීමට භාවිත කරන සටහනකි.\n\n* **අරමුණ සහ ක්‍රියාකාරීත්වය:**\n  * ක්‍රියාත්මක වීමේදී සෑම පියවරකදීම විචල්‍යයන්ගේ අගයන් සිදුවන වෙනස්වීම් පියවරෙන් පියවර ලුහුබඳියි.\n  * කේත ලිවීමට පෙර අසීමිත ලූප (Infinite Loops) හෝ වැරදි කොන්දේසි හඳුනා ගැනීමට උපකාරී වේ.\n\n* **ප්‍රධාන ලුහුබැඳීමේ පියවර:**\n  1. සියලුම විචල්‍යයන් සහ කොන්දේසි වගුවේ තීරු ශීර්ෂ ලෙස සටහන් කිරීම.\n  2. කේතය පේළියෙන් පේළිය කියවා විචල්‍යයන්ගේ අගයන් යාවත්කාලීන කිරීම.\n  3. කොන්දේසි True ද False ද යන්න පරීක්ෂා කර ලූපයෙන් ඉවත් වීම හෝ නැවතීම තීරණය කිරීම.\n  4. තිරය මත දිස්වන අවසාන ප්‍රතිදානය සටහන් කිරීම.",
+          "highlightTerm": "Trace Table Concept"
         }
       ],
       "examples": [
         {
           "id": "ex-11-1-4-1",
-          "titleEn": "Schematic / Code Diagram 1",
-          "titleSi": "පරිපථ / කේත සටහන 1",
+          "titleEn": "Trace Table Algorithm Execution Example",
+          "titleSi": "හෝඩුවා වගු ඇල්ගොරිතම ධාවන උදාහරණය",
           "contentEn": "BEGIN\n    Count = 1\n    Sum = 0\n    WHILE Count <= 3 DO\n      Sum = Sum + Count\n      Count = Count + 1\n    ENDWHILE\n    PRINT Sum\n  END",
           "contentSi": "BEGIN\n    Count = 1\n    Sum = 0\n    WHILE Count <= 3 DO\n      Sum = Sum + Count\n      Count = Count + 1\n    ENDWHILE\n    PRINT Sum\n  END"
         }
@@ -261,7 +207,7 @@ export const G11_U1_DATA: GeneralLessonData = {
         "headers": [
           {
             "en": "Step",
-            "si": "Step"
+            "si": "පියවර"
           },
           {
             "en": "Count",
@@ -273,26 +219,26 @@ export const G11_U1_DATA: GeneralLessonData = {
           },
           {
             "en": "Condition: `Count <= 3`",
-            "si": "Condition: `Count <= 3`"
+            "si": "කොන්දේසිය: `Count <= 3`"
           },
           {
             "en": "Output",
-            "si": "Output"
+            "si": "ප්‍රතිදානය"
           }
         ],
         "rows": [
           {
             "col0": {
               "en": "Initial",
-              "si": "Initial"
+              "si": "ආරම්භක"
             },
             "col1": {
               "en": "1",
-              "si": ""
+              "si": "1"
             },
             "col2": {
               "en": "0",
-              "si": ""
+              "si": "0"
             },
             "col3": {
               "en": "-",
@@ -306,19 +252,19 @@ export const G11_U1_DATA: GeneralLessonData = {
           {
             "col0": {
               "en": "Loop 1",
-              "si": "Loop 1"
+              "si": "ලූපය 1"
             },
             "col1": {
               "en": "1",
-              "si": ""
+              "si": "1"
             },
             "col2": {
               "en": "0",
-              "si": ""
+              "si": "0"
             },
             "col3": {
-              "en": "True ($1 \\le 3$)",
-              "si": "$1 \\le 3$"
+              "en": "True (1 <= 3)",
+              "si": "True (1 <= 3)"
             },
             "col4": {
               "en": "-",
@@ -328,15 +274,15 @@ export const G11_U1_DATA: GeneralLessonData = {
           {
             "col0": {
               "en": "Update 1",
-              "si": "Update 1"
+              "si": "යාවත්කාලීනය 1"
             },
             "col1": {
               "en": "2",
-              "si": ""
+              "si": "2"
             },
             "col2": {
               "en": "1",
-              "si": ""
+              "si": "1"
             },
             "col3": {
               "en": "-",
@@ -350,19 +296,19 @@ export const G11_U1_DATA: GeneralLessonData = {
           {
             "col0": {
               "en": "Loop 2",
-              "si": "Loop 2"
+              "si": "ලූපය 2"
             },
             "col1": {
               "en": "2",
-              "si": ""
+              "si": "2"
             },
             "col2": {
               "en": "1",
-              "si": ""
+              "si": "1"
             },
             "col3": {
-              "en": "True ($2 \\le 3$)",
-              "si": "$2 \\le 3$"
+              "en": "True (2 <= 3)",
+              "si": "True (2 <= 3)"
             },
             "col4": {
               "en": "-",
@@ -372,15 +318,15 @@ export const G11_U1_DATA: GeneralLessonData = {
           {
             "col0": {
               "en": "Update 2",
-              "si": "Update 2"
+              "si": "යාවත්කාලීනය 2"
             },
             "col1": {
               "en": "3",
-              "si": ""
+              "si": "3"
             },
             "col2": {
               "en": "3",
-              "si": ""
+              "si": "3"
             },
             "col3": {
               "en": "-",
@@ -394,19 +340,19 @@ export const G11_U1_DATA: GeneralLessonData = {
           {
             "col0": {
               "en": "Loop 3",
-              "si": "Loop 3"
+              "si": "ලූපය 3"
             },
             "col1": {
               "en": "3",
-              "si": ""
+              "si": "3"
             },
             "col2": {
               "en": "3",
-              "si": ""
+              "si": "3"
             },
             "col3": {
-              "en": "True ($3 \\le 3$)",
-              "si": "$3 \\le 3$"
+              "en": "True (3 <= 3)",
+              "si": "True (3 <= 3)"
             },
             "col4": {
               "en": "-",
@@ -416,15 +362,15 @@ export const G11_U1_DATA: GeneralLessonData = {
           {
             "col0": {
               "en": "Update 3",
-              "si": "Update 3"
+              "si": "යාවත්කාලීනය 3"
             },
             "col1": {
               "en": "4",
-              "si": ""
+              "si": "4"
             },
             "col2": {
               "en": "6",
-              "si": ""
+              "si": "6"
             },
             "col3": {
               "en": "-",
@@ -438,19 +384,19 @@ export const G11_U1_DATA: GeneralLessonData = {
           {
             "col0": {
               "en": "Loop 4",
-              "si": "Loop 4"
+              "si": "ලූපය 4"
             },
             "col1": {
               "en": "4",
-              "si": ""
+              "si": "4"
             },
             "col2": {
               "en": "6",
-              "si": ""
+              "si": "6"
             },
             "col3": {
-              "en": "False ($4 \\le 3$ - Loop Exits)",
-              "si": "$4 \\le 3$ - Loop Exits"
+              "en": "False (4 <= 3 - Loop Exits)",
+              "si": "False (4 <= 3 - ලූපයෙන් ඉවත් වේ)"
             },
             "col4": {
               "en": "-",
@@ -459,16 +405,16 @@ export const G11_U1_DATA: GeneralLessonData = {
           },
           {
             "col0": {
-              "en": "Print",
-              "si": "Print"
+              "en": "Print Output",
+              "si": "ප්‍රතිදානය"
             },
             "col1": {
               "en": "4",
-              "si": ""
+              "si": "4"
             },
             "col2": {
               "en": "6",
-              "si": ""
+              "si": "6"
             },
             "col3": {
               "en": "-",
@@ -483,33 +429,33 @@ export const G11_U1_DATA: GeneralLessonData = {
       },
       "checkpointQuiz": {
         "id": "q-g11-u1-4",
-        "questionEn": "Which of the following is the most accurate concept regarding Trace Tables / Variable Tracking?",
-        "questionSi": "හෝඩුවා වගු / ලුහුබැඳීමේ වගු පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
+        "questionEn": "What is the primary purpose of constructing a trace table?",
+        "questionSi": "හෝඩුවා වගුවක් (Trace Table) ගොඩනැගීමේ ප්‍රධාන අරමුණ කුමක්ද?",
         "options": [
           {
             "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Trace Tables / Variable Tracking",
-            "si": "හෝඩුවා වගු / ලුහුබැඳීමේ වගු පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
+            "en": "To track variable value changes and detect logic errors in an algorithm",
+            "si": "විචල්‍යයන්ගේ අගයන් ලුහුබැඳ ඇල්ගොරිතමයක තර්කන දෝෂ හඳුනා ගැනීම"
           },
           {
             "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
+            "en": "To compile high-level code into machine executable binary",
+            "si": "උසස් පෙළ කේත යන්ත්‍ර භාෂාව බවට පරිවර්තනය කිරීම"
           },
           {
             "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
+            "en": "To design graphical user interfaces for desktop systems",
+            "si": "පරිශීලක අතුරුමුහුණත් සැලසුම් කිරීම"
           },
           {
             "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
+            "en": "To format the database schema into normalized relations",
+            "si": "දත්ත සමුදා වගු ප්‍රමිතිකරණය කිරීම"
           }
         ],
         "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Trace Tables / Variable Tracking.",
-        "explanationSi": "1 වන වරණය මගින් හෝඩුවා වගු / ලුහුබැඳීමේ වගු පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
+        "explanationEn": "A trace table records variable state changes at each step, helping developers detect logic errors and ensure algorithm correctness.",
+        "explanationSi": "හෝඩුවා වගුවක් මඟින් සෑම පියවරකදීම විචල්‍යයන්ගේ අගයයන් වෙනස් වන ආකාරය නිරීක්ෂණය කර තර්කන දෝෂ හඳුනාගැනීම සිදු කරයි."
       }
     },
     {
@@ -517,33 +463,27 @@ export const G11_U1_DATA: GeneralLessonData = {
       "number": "1.5",
       "titleEn": "Evolution of Programming Languages & Translators",
       "titleSi": "ක්‍රමලේඛන භාෂාවල පරිණාමය සහ පරිවර්තක",
-      "summaryEn": "Evolution of Programming Languages & Translators concepts, definitions, and examination competencies.",
-      "summarySi": "ක්‍රමලේඛන භාෂාවල පරිණාමය සහ පරිවර්තක සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
+      "summaryEn": "The 5 generations of programming languages (1GL to 5GL) and comparison of translators (Assembler, Compiler, Interpreter).",
+      "summarySi": "ක්‍රමලේඛන භාෂා පරම්පරා 5 (1GL සිට 5GL දක්වා) සහ භාෂා පරිවර්තක සංසන්දනය (ඇසෙම්බ්ලරය, සම්පාදකය, අර්ථවින්‍යාසකය).",
       "blocks": [
         {
           "id": "b-g11-u1-5-1",
-          "en": "#### 1.5.1 The 5 Generations of Programming Languages (ක්‍රමලේඛන භාෂාවල පරම්පරා 5)\n1. **1st Generation - First Generation Language (1GL - පළමු පරම්පරාව):**\n* **Machine Language (යන්ත්‍ර භාෂාව):** Written purely in Binary (`0`s and `1`s). Machine dependent, direct CPU execution without translation, extremely difficult for humans to program or debug.\n2. **2nd Generation - Second Generation Language (2GL - දෙවන පරම්පරාව):**\n* **Assembly Language (ඇසෙම්බ්ලි භාෂාව):** Uses short symbolic codes called **Mnemonics** (e.g. `ADD`, `SUB`, `MOV`, `LOAD`). Requires a translator called an **Assembler** to convert into machine code.\n3. **3rd Generation - Third Generation Language (3GL - තෙවන පරම්පරාව):**\n* **High-Level Languages (උසස් පෙළ භාෂා):** English-like statements, machine-independent. Examples: **Pascal**, **C**, **C++**, **Java**, **FORTRAN**, **COBOL**. Requires **Compilers** or **Interpreters**.\n4. **4th Generation - Fourth Generation Language (4GL - සිව්වන පරම්පරාව):**\n* **Very High-Level / Non-Procedural Languages (ඉතා උසස් පෙළ භාෂා):** Users specify *what* output is required rather than *how* to compute it. Example: **SQL** (Structured Query Language) for databases.\n5. **5th Generation - Fifth Generation Language (5GL - පස්වන පරම්පරාව):**\n* **Natural Languages & AI (ස්වාභාවික භාෂා හා කෘත්‍රිම බුද්ධිය):** Solves problems using constraints rather than algorithms; used in Artificial Intelligence, Expert Systems, and Neural Networks. Examples: **PROLOG**, **LISP**.",
-          "si": "#### 1.5.1 The 5 Generations of Programming Languages (ක්‍රමලේඛන භාෂාවල පරම්පරා 5)\n1. **1st Generation - First Generation Language (1GL - පළමු පරම්පරාව):**\n* **Machine Language (යන්ත්‍ර භාෂාව):** Written purely in Binary (`0`s and `1`s). Machine dependent, direct CPU execution without translation, extremely difficult for humans to program or debug.\n2. **2nd Generation - Second Generation Language (2GL - දෙවන පරම්පරාව):**\n* **Assembly Language (ඇසෙම්බ්ලි භාෂාව):** Uses short symbolic codes called **Mnemonics** (e.g. `ADD`, `SUB`, `MOV`, `LOAD`). Requires a translator called an **Assembler** to convert into machine code.\n3. **3rd Generation - Third Generation Language (3GL - තෙවන පරම්පරාව):**\n* **High-Level Languages (උසස් පෙළ භාෂා):** English-like statements, machine-independent. Examples: **Pascal**, **C**, **C++**, **Java**, **FORTRAN**, **COBOL**. Requires **Compilers** or **Interpreters**.\n4. **4th Generation - Fourth Generation Language (4GL - සිව්වන පරම්පරාව):**\n* **Very High-Level / Non-Procedural Languages (ඉතා උසස් පෙළ භාෂා):** Users specify *what* output is required rather than *how* to compute it. Example: **SQL** (Structured Query Language) for databases.\n5. **5th Generation - Fifth Generation Language (5GL - පස්වන පරම්පරාව):**\n* **Natural Languages & AI (ස්වාභාවික භාෂා හා කෘත්‍රිම බුද්ධිය):** Solves problems using constraints rather than algorithms; used in Artificial Intelligence, Expert Systems, and Neural Networks. Examples: **PROLOG**, **LISP**.",
-          "highlightTerm": "The 5 Generations of Programming Languages"
+          "en": "The 5 Generations of Programming Languages:\n\n* **1GL - Machine Language (1 වන පරම්පරාව - යන්ත්‍ර භාෂාව):**\n  * Written purely in Binary code (`0`s and `1`s). Machine-dependent and directly executed by the CPU without translation; extremely difficult to write and debug.\n\n* **2GL - Assembly Language (2 වන පරම්පරාව - ඇසෙම්බ්ලි භාෂාව):**\n  * Uses symbolic short codes called **Mnemonics** (e.g., `ADD`, `SUB`, `MOV`, `LOAD`). Requires an **Assembler** to translate into machine code.\n\n* **3GL - High-Level Languages (3 වන පරම්පරාව - උසස් පෙළ භාෂා):**\n  * English-like statements and machine-independent. Examples: **Pascal**, **C**, **C++**, **Java**, **Python**. Requires **Compilers** or **Interpreters**.\n\n* **4GL - Very High-Level / Declarative (4 වන පරම්පරාව - ඉතා උසස් පෙළ භාෂා):**\n  * Non-procedural: programmers specify *what* result is required rather than *how* to compute it. Example: **SQL** for database queries.\n\n* **5GL - Natural Languages & AI (5 වන පරම්පරාව - කෘත්‍රිම බුද්ධි භාෂා):**\n  * Designed for problem-solving using constraints and knowledge bases rather than algorithmic steps. Used in Artificial Intelligence and Neural Networks. Examples: **PROLOG**, **LISP**.",
+          "si": "ක්‍රමලේඛන භාෂාවල පරම්පරා 5:\n\n* **1GL - යන්ත්‍ර භාෂාව (Machine Language):**\n  * ද්විමය කේත (`0` සහ `1`) මඟින් පමණක් ලියනු ලැබේ. පරිගණකයේ CPU එකට සෘජුවම තේරුම් ගත හැකි අතර පරිවර්තක අවශ්‍ය නොවේ. මිනිසාට ක්‍රමලේඛනය කිරීම හා දෝෂ සෙවීම ඉතා අපහසුය.\n\n* **2GL - ඇසෙම්බ්ලි භාෂාව (Assembly Language):**\n  * ද්විමය කේත වෙනුවට කෙටි සංකේතාත්මක වචන (**Mnemonics** - උදා: `ADD`, `SUB`, `MOV`) භාවිත කරයි. යන්ත්‍ර කේත බවට පත් කිරීමට **ඇසෙම්බ්ලරයක් (Assembler)** අවශ්‍ය වේ.\n\n* **3GL - උසස් පෙළ භාෂා (High-Level Languages):**\n  * ඉංග්‍රීසි භාෂාවට සමාන, පරිගණක දෘඩාංග මත රඳා නොපවතින භාෂා වේ. උදාහරණ: **Pascal**, **C**, **C++**, **Java**, **Python**. පරිවර්තනය සඳහා **සම්පාදක (Compilers)** හෝ **අර්ථවින්‍යාසක (Interpreters)** අවශ්‍ය වේ.\n\n* **4GL - ඉතා උසස් පෙළ භාෂා (Very High-Level Languages):**\n  * පරිගණකයට කරන්නේ *කෙසේද* යන්න වෙනුවට අවශ්‍ය ප්‍රතිඵලය *කුමක්ද* යන්න පමණක් දක්වයි. උදාහරණ: දත්ත සමුදා විමසුම් සඳහා භාවිත වන **SQL**.\n\n* **5GL - කෘත්‍රිම බුද්ධි භාෂා (AI & Natural Languages):**\n  * කෘත්‍රිම බුද්ධිය සහ විශේෂඥ පද්ධති (Expert Systems) සඳහා භාවිත වේ. ඇල්ගොරිතම වෙනුවට කොන්දේසි හා සීමා මත පදනම්ව ගැටලු විසඳයි. උදාහරණ: **PROLOG**, **LISP**.",
+          "highlightTerm": "5 Generations of Languages"
         },
         {
           "id": "b-g11-u1-5-2",
-          "en": "#### 1.5.2 Language Translators (භාෂා පරිවර්තක)",
-          "si": "#### 1.5.2 Language Translators (භාෂා පරිවර්තක)",
+          "en": "Language Translators & Comparison:\nTranslators convert human-readable source code into binary machine code executable by the processor.\n\n* **The 3 Translator Types:**\n  * **Assembler (ඇසෙම්බ්ලරය):** Translates 2GL Assembly mnemonic code into 1GL Machine Code.\n  * **Compiler (කම්පයිලරය / සම්පාදකය):** Translates entire high-level program source code into an independent machine executable file (`.exe`) all at once before execution. Fast execution speed; reports all errors together. (e.g., Pascal, C, C++).\n  * **Interpreter (අන්තර්භාෂකය / අර්ථවින්‍යාසකය):** Translates and executes high-level source code line-by-line in real time. Slower execution; halts immediately on the first error encountered; creates no separate object file. (e.g., Python, JavaScript).",
+          "si": "භාෂා පරිවර්තක සහ සංසන්දනය:\nමිනිසාට තේරුම් ගත හැකි ක්‍රමලේඛන කේත පරිගණකයට ක්‍රියාත්මක කළ හැකි ද්විමය යන්ත්‍ර කේත බවට හරවන මෘදුකාංග භාෂා පරිවර්තක නම් වේ.\n\n* **පරිවර්තක වර්ග 3:**\n  * **ඇසෙම්බ්ලරය (Assembler):** ඇසෙම්බ්ලි භාෂා විධාන (Mnemonics) යන්ත්‍ර භාෂාවට පරිවර්තනය කරයි.\n  * **සම්පාදකය / කම්පයිලරය (Compiler):** සම්පූර්ණ උසස් පෙළ වැඩසටහනම එකවර යන්ත්‍ර කේත බවට පරිවර්තනය කර වෙනම ස්වාධීන වස්තු ගොනුවක් (`.exe`) සාදයි. ධාවන වේගය ඉහළය; සියලු දෝෂ එකවර වාර්තා කරයි. (උදා: Pascal, C, C++).\n  * **අර්ථවින්‍යාසකය / අන්තර්භාෂකය (Interpreter):** මූල කේතය පේළියෙන් පේළිය කියවා පරිවර්තනය කර ක්ෂණිකව ක්‍රියාත්මක කරයි. වෙනම වස්තු ගොනුවක් නොසාදයි; දෝෂයක් හමු වූ වහාම ක්‍රියාත්මක වීම නතර වේ. (උදා: Python, JavaScript).",
           "highlightTerm": "Language Translators"
-        },
-        {
-          "id": "b-g11-u1-5-3",
-          "en": "Detailed Comparison between Compiler and Interpreter (කම්පයිලරය සහ අන්තර්භාෂකය අතර වෙනස):",
-          "si": "Detailed Comparison between Compiler and Interpreter (කම්පයිලරය සහ අන්තර්භාෂකය අතර වෙනස):",
-          "highlightTerm": "Detailed Comparison between Compiler and Interpreter"
         }
       ],
       "examples": [
         {
           "id": "ex-11-1-5-1",
-          "titleEn": "Schematic / Code Diagram 1",
-          "titleSi": "පරිපථ / කේත සටහන 1",
+          "titleEn": "Translator Architecture Diagram",
+          "titleSi": "භාෂා පරිවර්තක වර්ගීකරණ සටහන",
           "contentEn": "Language Translators (භාෂා පරිවර්තක)\n                                              │\n          +───────────────────────────────────┼───────────────────────────────────+\n          │                                   │                                   │\n      Assembler                           Compiler                            Interpreter\n    (ඇසෙම්බ්ලරය)                        (කම්පයිලරය)                          (අන්තර්භාෂකය)\n          │                                   │                                   │\n  Converts Assembly                Converts entire High-Level           Converts High-Level code\n  Mnemonics to Machine Code        source code to Machine Code          line-by-line into Machine\n  (ඇසෙම්බ්ලි කේත යන්ත්‍ර              all at once before execution         Code and executes line-by-line\n   කේත බවට හරවයි)                   (මුළු කේතයම එකවර පරිවර්තනය කරයි)      (පේළියෙන් පේළිය පරිවර්තනය කරයි)",
           "contentSi": "Language Translators (භාෂා පරිවර්තක)\n                                              │\n          +───────────────────────────────────┼───────────────────────────────────+\n          │                                   │                                   │\n      Assembler                           Compiler                            Interpreter\n    (ඇසෙම්බ්ලරය)                        (කම්පයිලරය)                          (අන්තර්භාෂකය)\n          │                                   │                                   │\n  Converts Assembly                Converts entire High-Level           Converts High-Level code\n  Mnemonics to Machine Code        source code to Machine Code          line-by-line into Machine\n  (ඇසෙම්බ්ලි කේත යන්ත්‍ර              all at once before execution         Code and executes line-by-line\n   කේත බවට හරවයි)                   (මුළු කේතයම එකවර පරිවර්තනය කරයි)      (පේළියෙන් පේළිය පරිවර්තනය කරයි)"
         }
@@ -556,74 +496,74 @@ export const G11_U1_DATA: GeneralLessonData = {
           },
           {
             "en": "Compiler",
-            "si": "කම්පයිලරය"
+            "si": "කම්පයිලරය / සම්පාදකය"
           },
           {
             "en": "Interpreter",
-            "si": "අන්තර්භාෂකය"
+            "si": "අන්තර්භාෂකය / අර්ථවින්‍යාසකය"
           }
         ],
         "rows": [
           {
             "col0": {
-              "en": "Translation Mode (පරිවර්තන ක්‍රමය)",
-              "si": "Translation Mode (පරිවර්තන ක්‍රමය)"
+              "en": "Translation Mode",
+              "si": "පරිවර්තන ක්‍රමය"
             },
             "col1": {
-              "en": "Translates the entire program source code into machine object code at once. (සම්පූර්ණ වැඩසටහනම එකවර පරිවර්තනය කරයි.)",
-              "si": "සම්පූර්ණ වැඩසටහනම එකවර පරිවර්තනය කරයි."
+              "en": "Translates the entire program source code into machine object code at once.",
+              "si": "සම්පූර්ණ වැඩසටහනම එකවර යන්ත්‍ර කේත බවට පරිවර්තනය කරයි."
             },
             "col2": {
-              "en": "Translates source code line-by-line and executes immediately. (පේළියෙන් පේළිය පරිවර්තනය කර ක්‍රියාත්මක කරයි.)",
-              "si": "පේළියෙන් පේළිය පරිවර්තනය කර ක්‍රියාත්මක කරයි."
+              "en": "Translates source code line-by-line and executes immediately.",
+              "si": "පේළියෙන් පේළිය කියවා පරිවර්තනය කර ක්‍රියාත්මක කරයි."
             }
           },
           {
             "col0": {
-              "en": "Execution Speed (ක්‍රියාත්මක වීමේ වේගය)",
-              "si": "Execution Speed (ක්‍රියාත්මක වීමේ වේගය)"
+              "en": "Execution Speed",
+              "si": "ක්‍රියාත්මක වීමේ වේගය"
             },
             "col1": {
-              "en": "Fast execution after initial compilation. (පරිවර්තනයෙන් පසු ධාවනය වේගවත්ය.)",
-              "si": "පරිවර්තනයෙන් පසු ධාවනය වේගවත්ය."
+              "en": "Fast execution after initial compilation.",
+              "si": "පරිවර්තනයෙන් පසු ධාවනය ඉතා වේගවත්ය."
             },
             "col2": {
-              "en": "Slower execution because each line is translated every time it runs. (මන්දගාමී වේ.)",
-              "si": "මන්දගාමී වේ."
+              "en": "Slower execution because each line is translated every time it runs.",
+              "si": "ධාවනය මන්දගාමී වේ (සෑම අවස්ථාවකම පරිවර්තනය වේ)."
             }
           },
           {
             "col0": {
-              "en": "Error Reporting (දෝෂ වාර්තා කිරීම)",
-              "si": "Error Reporting (දෝෂ වාර්තා කිරීම)"
+              "en": "Error Reporting",
+              "si": "දෝෂ වාර්තා කිරීම"
             },
             "col1": {
-              "en": "Reports all syntax errors together after analyzing the entire program. (සම්පූර්ණ වැඩසටහනම අවසානයේ සියලු දෝෂ පෙන්වයි.)",
-              "si": "සම්පූර්ණ වැඩසටහනම අවසානයේ සියලු දෝෂ පෙන්වයි."
+              "en": "Reports all syntax errors together after analyzing the entire program.",
+              "si": "සම්පූර්ණ වැඩසටහනම අවසානයේ සියලු දෝෂ එකවර පෙන්වයි."
             },
             "col2": {
-              "en": "Stops execution at the exact line containing the error. (දෝෂයක් ඇති පේළියේදී ක්‍රියාත්මක වීම නතර වේ.)",
-              "si": "දෝෂයක් ඇති පේළියේදී ක්‍රියාත්මක වීම නතර වේ."
+              "en": "Stops execution at the exact line containing the first error.",
+              "si": "දෝෂයක් ඇති පේළියේදී ක්‍රියාත්මක වීම වහාම නතර වේ."
             }
           },
           {
             "col0": {
-              "en": "Object Code Creation (වස්තු කේත සෑදීම)",
-              "si": "Object Code Creation (වස්තු කේත සෑදීම)"
+              "en": "Object Code Creation",
+              "si": "වස්තු කේත සෑදීම"
             },
             "col1": {
-              "en": "Generates an independent object file (`.exe`). (වෙනම `.exe` ගොනුවක් සාදයි.)",
-              "si": "`.exe`). (වෙනම `.exe` ගොනුවක් සාදයි."
+              "en": "Generates an independent object file (`.exe`).",
+              "si": "ස්වාධීන `.exe` වස්තු ගොනුවක් සාදයි."
             },
             "col2": {
-              "en": "Does NOT generate an intermediate object file. (වෙනම ගොනුවක් නොසාදයි.)",
-              "si": "වෙනම ගොනුවක් නොසාදයි."
+              "en": "Does NOT generate an intermediate object file.",
+              "si": "වෙනම වස්තු ගොනුවක් නොසාදයි."
             }
           },
           {
             "col0": {
-              "en": "Example Languages (උදාහරණ භාෂා)",
-              "si": "Example Languages (උදාහරණ භාෂා)"
+              "en": "Example Languages",
+              "si": "උදාහරණ භාෂා"
             },
             "col1": {
               "en": "Pascal, C, C++, FORTRAN",
@@ -638,33 +578,33 @@ export const G11_U1_DATA: GeneralLessonData = {
       },
       "checkpointQuiz": {
         "id": "q-g11-u1-5",
-        "questionEn": "Which of the following is the most accurate concept regarding Evolution of Programming Languages & Translators?",
-        "questionSi": "ක්‍රමලේඛන භාෂාවල පරිණාමය සහ පරිවර්තක පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
+        "questionEn": "Which language translator converts the entire high-level program source code into machine object code at once before execution?",
+        "questionSi": "සම්පූර්ණ උසස් පෙළ වැඩසටහනම එකවර යන්ත්‍ර භාෂා වස්තු කේතයක් බවට පරිවර්තනය කරන්නේ කවරක්ද?",
         "options": [
           {
             "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Evolution of Programming Languages & Translators",
-            "si": "ක්‍රමලේඛන භාෂාවල පරිණාමය සහ පරිවර්තක පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
+            "en": "Compiler",
+            "si": "සම්පාදකය (Compiler)"
           },
           {
             "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
+            "en": "Interpreter",
+            "si": "අර්ථවින්‍යාසකය (Interpreter)"
           },
           {
             "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
+            "en": "Assembler",
+            "si": "ඇසෙම්බ්ලරය (Assembler)"
           },
           {
             "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
+            "en": "Linker",
+            "si": "සම්බන්ධකය (Linker)"
           }
         ],
         "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Evolution of Programming Languages & Translators.",
-        "explanationSi": "1 වන වරණය මගින් ක්‍රමලේඛන භාෂාවල පරිණාමය සහ පරිවර්තක පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
+        "explanationEn": "A Compiler translates all instructions of a high-level source code at once into an executable object file before execution.",
+        "explanationSi": "සම්පාදකය (Compiler) මඟින් උසස් පෙළ කේතයේ සියලුම උපදෙස් එකවර යන්ත්‍ර භාෂාවට පරිවර්තනය කර වෙනම වස්තු ගොනුවක් සාදයි."
       }
     },
     {
@@ -672,174 +612,85 @@ export const G11_U1_DATA: GeneralLessonData = {
       "number": "1.6",
       "titleEn": "Pascal Programming Language Syntax & Rules",
       "titleSi": "පැස්කල් ක්‍රමලේඛන භාෂා රීති",
-      "summaryEn": "Pascal Programming Language Syntax & Rules concepts, definitions, and examination competencies.",
-      "summarySi": "පැස්කල් ක්‍රමලේඛන භාෂා රීති සංකල්ප, අර්ථ දැක්වීම් සහ විභාග නිපුණතා.",
+      "summaryEn": "Pascal program structure, 5 basic data types, arithmetic/relational/assignment operators, control statements (if..else, for, while, repeat), and 1D arrays.",
+      "summarySi": "පැස්කල් වැඩසටහන් ව්‍යුහය, දත්ත වර්ග 5, මෙහෙයුම්කාරක, පාලන ප්‍රකාශන (if..else, for, while, repeat) සහ ඒකමාන ඇරේ.",
       "blocks": [
         {
           "id": "b-g11-u1-6-1",
-          "en": "#### 1.6.1 Standard Structure of a Pascal Program (පැස්කල් වැඩසටහනක ව්‍යුහය)",
-          "si": "#### 1.6.1 Standard Structure of a Pascal Program (පැස්කල් වැඩසටහනක ව්‍යුහය)",
-          "highlightTerm": "Standard Structure of a Pascal Program"
+          "en": "Standard Structure of a Pascal Program:\nA Pascal program consists of three main sections: Program Header, Declaration Section, and Program Body.\n\n* **Program Header:** Starts with keyword `program` followed by program name and semicolon (e.g., `program CalculateArea;`).\n* **Declaration Section:** Declares constants (`const`), variables (`var`), and custom types before the main body.\n* **Execution Body:** Enclosed between `begin` and `end.` (ends with a period/dot). Every statement inside ends with a semicolon (`;`).\n\n* **Variable Declaration Syntax:**\n`var variable_name : data_type;` (e.g., `var radius, area : real; count : integer;`)",
+          "si": "පැස්කල් වැඩසටහනක සම්මත ව්‍යුහය:\nපැස්කල් වැඩසටහනක් ප්‍රධාන කොටස් තුනකින් සමන්විත වේ: වැඩසටහන් ශීර්ෂය, ප්‍රකාශන කොටස සහ ප්‍රධාන විධාන කොටස.\n\n* **වැඩසටහන් ශීර්ෂය (Program Header):** `program` මූලපදයෙන් ආරම්භ වී වැඩසටහනේ නම සහ තනි තිත් කොමාවකින් (`;`) අවසන් වේ (උදා: `program CalculateArea;`).\n* **ප්‍රකාශන කොටස (Declaration Section):** විචල්‍යයන් (`var`), නියතයන් (`const`) ප්‍රධාන කොටසට ඉහළින් ප්‍රකාශ කෙරේ.\n* **ප්‍රධාන විධාන කොටස (Program Body):** `begin` මඟින් ආරම්භ වී තිතක් සහිත `end.` මඟින් අවසන් වේ. ඇතුළත ඇති උපදෙස් තනි තිත් කොමාවකින් (`;`) අවසන් වේ.\n\n* **විචල්‍ය ප්‍රකාශන ව්‍යුහය:**\n`var විචල්‍ය_නම : දත්ත_වර්ගය;` (උදා: `var radius, area : real; count : integer;`)",
+          "highlightTerm": "Pascal Structure"
         },
         {
           "id": "b-g11-u1-6-2",
-          "en": "#### 1.6.2 Pascal Data Types (පැස්කල් දත්ත වර්ග 5)\n1. **`integer`:** Whole numbers (e.g. `-15, 0, 100`).\n2. **`real`:** Floating-point numbers with decimal parts (e.g. `3.14, -0.05, 78.5`).\n3. **`char`:** Single character enclosed in single quotes (e.g. `'A', 'y', '5'`).\n4. **`string`:** Sequence of text characters in single quotes (e.g. `'Sri Lanka', 'Grade 11 ICT'`).\n5. **`boolean`:** Logical condition values (`true` or `false`).",
-          "si": "#### 1.6.2 Pascal Data Types (පැස්කල් දත්ත වර්ග 5)\n1. **`integer`:** Whole numbers (e.g. `-15, 0, 100`).\n2. **`real`:** Floating-point numbers with decimal parts (e.g. `3.14, -0.05, 78.5`).\n3. **`char`:** Single character enclosed in single quotes (e.g. `'A', 'y', '5'`).\n4. **`string`:** Sequence of text characters in single quotes (e.g. `'Sri Lanka', 'Grade 11 ICT'`).\n5. **`boolean`:** Logical condition values (`true` or `false`).",
+          "en": "Pascal Data Types (පැස්කල් දත්ත වර්ග 5):\nPascal enforces strong data typing across variables:\n\n* **`integer`:** Whole numbers without decimal points (e.g., `-15`, `0`, `100`).\n* **`real`:** Numbers with fractional or decimal parts (e.g., `3.14`, `-0.05`, `78.5`).\n* **`char`:** A single character enclosed in single quotation marks (e.g., `'A'`, `'y'`, `'5'`).\n* **`string`:** A sequence of characters/text enclosed in single quotation marks (e.g., `'Sri Lanka'`, `'Grade 11 ICT'`).\n* **`boolean`:** Logical truth values, strictly either `true` or `false`.",
+          "si": "පැස්කල් දත්ත වර්ග 5:\nපැස්කල් භාෂාවේ ප්‍රධාන සම්මත දත්ත වර්ග 5ක් භාවිත වේ:\n\n* **`integer`:** දශමස්ථාන රහිත පූර්ණ සංඛ්‍යා (උදා: `-15`, `0`, `100`).\n* **`real`:** දශමස්ථාන සහිත තාත්වික සංඛ්‍යා (උදා: `3.14`, `-0.05`, `78.5`).\n* **`char`:** තනි උද්ධෘත පාඨ තුළ ඇති තනි අක්ෂරයක් (උදා: `'A'`, `'y'`, `'5'`).\n* **`string`:** තනි උද්ධෘත පාඨ තුළ ඇති අක්ෂර මාලාවක් හෝ වචන (උදා: `'Sri Lanka'`, `'Grade 11 ICT'`).\n* **`boolean`:** තාර්කික අගයන් (`true` හෝ `false` පමණි).",
           "highlightTerm": "Pascal Data Types"
         },
         {
           "id": "b-g11-u1-6-3",
-          "en": "#### 1.6.3 Pascal Operators (පැස්කල් මෙහෙයුම්කාරක)",
-          "si": "#### 1.6.3 Pascal Operators (පැස්කල් මෙහෙයුම්කාරක)",
+          "en": "Pascal Operators:\n\n* **Arithmetic Operators:**\n  * `+` (Addition), `-` (Subtraction), `*` (Multiplication)\n  * `/` (Real Division): Returns a `real` result (e.g., `7 / 2 = 3.5`)\n  * **`div` (Integer Division):** Returns the whole integer quotient (e.g., `19 div 4 = 4`)\n  * **`mod` (Modulus):** Returns the integer remainder (e.g., `19 mod 4 = 3`)\n\n* **Relational Operators:**\n  * `=` (Equal), `<>` (Not Equal), `<` (Less than), `>` (Greater than), `<=` (Less or equal), `>=` (Greater or equal)\n\n* **Assignment Operator:**\n  * `:=` (Assigns evaluated value on right to variable on left, e.g., `total := total + mark;`)",
+          "si": "පැස්කල් මෙහෙයුම්කාරක:\n\n* **අංක ගණිතමය මෙහෙයුම්කාරක:**\n  * `+` (එකතු කිරීම), `-` (අඩු කිරීම), `*` (ගුණ කිරීම)\n  * `/` (තාත්වික බෙදීම): දශම සහිත ප්‍රතිඵලයක් ලබාදෙයි (උදා: `7 / 2 = 3.5`)\n  * **`div` (පූර්ණ සංඛ්‍යාත්මක බෙදීම):** බෙදීමේ පූර්ණ සංඛ්‍යා ලබ්ධිය ලබාදෙයි (උදා: `19 div 4 = 4`)\n  * **`mod` (ශේෂය සෙවීම):** බෙදීමේ පූර්ණ සංඛ්‍යා ශේෂය ලබාදෙයි (උදා: `19 mod 4 = 3`)\n\n* **සම්බන්ධතා මෙහෙයුම්කාරක:**\n  * `=` (සමානයි), `<>` (අසමානයි), `<` (කුඩායි), `>` (විශාලයි), `<=` (කුඩා හෝ සමානයි), `>=` (විශාල හෝ සමානයි)\n\n* **පැවරුම් මෙහෙයුම්කාරකය:**\n  * `:=` (දකුණු පස ඇති අගය වම් පස ඇති විචල්‍යයට පවරයි, උදා: `total := total + mark;`)",
           "highlightTerm": "Pascal Operators"
         },
         {
           "id": "b-g11-u1-6-4",
-          "en": "Arithmetic Operators (අංක ගණිතමය):**\n- `+` (Addition), `-` (Subtraction), `*` (Multiplication), `/` (Real Division resulting in `real`).\n- **`div` (Integer Division / පූර්ණ සංඛ්‍යාත්මක බෙදීම):** Returns the integer quotient. e.g., `17 div 5 = 3`.\n- **`mod` (Modulus / ශේෂය බෙදීම):** Returns the integer remainder. e.g., `17 mod 5 = 2`.",
-          "si": "Arithmetic Operators (අංක ගණිතමය):**\n- `+` (Addition), `-` (Subtraction), `*` (Multiplication), `/` (Real Division resulting in `real`).\n- **`div` (Integer Division / පූර්ණ සංඛ්‍යාත්මක බෙදීම):** Returns the integer quotient. e.g., `17 div 5 = 3`.\n- **`mod` (Modulus / ශේෂය බෙදීම):** Returns the integer remainder. e.g., `17 mod 5 = 2`.",
-          "highlightTerm": "Arithmetic Operators"
+          "en": "Pascal Control Statements Syntax:\n\n* **Selection (`if..then..else`):**\n  * *Syntax Note:* Never put a semicolon before `else`!\n  * *Example:*\n    `if (marks >= 50) then`\n    `  writeln('Pass')`\n    `else`\n    `  writeln('Fail');`\n\n* **Loop 1 (`for..to..do` - Counter-Controlled Loop):**\n  * Used when iteration count is known beforehand.\n  * `for i := 1 to 5 do writeln(i);`\n\n* **Loop 2 (`while..do` - Pre-Test Loop):**\n  * Tests condition at the beginning. If false initially, loop body executes 0 times.\n  * `while (count <= 5) do begin count := count + 1; end;`\n\n* **Loop 3 (`repeat..until` - Post-Test Loop):**\n  * Tests condition at the end. Loop body executes at least once! Loop stops when condition becomes True.",
+          "si": "පැස්කල් පාලන ප්‍රකාශන ව්‍යුහ:\n\n* **තේරීම (`if..then..else`):**\n  * *විශේෂ විභාග රීතිය:* `else` ට පෙර පේළියේ කිසි විටෙකත් තනි තිත් කොමාව (`;`) නොයොදන්න!\n  * *උදාහරණ:*\n    `if (marks >= 50) then`\n    `  writeln('Pass')`\n    `else`\n    `  writeln('Fail');`\n\n* **ලූපය 1 (`for..to..do` - ගණක පාලිත ලූපය):**\n  * ධාවනය විය යුතු වාර ගණන කලින් දන්නා විට භාවිත වේ.\n  * `for i := 1 to 5 do writeln(i);`\n\n* **ලූපය 2 (`while..do` - පූර්ව පරීක්ෂා ලූපය):**\n  * කොන්දේසිය මුලින් පරීක්ෂා කෙරේ. කොන්දේසිය මුලින්ම අසත්‍ය නම් ලූපය ශුන්‍ය වාරයක් ක්‍රියාත්මක වේ.\n\n* **ලූපය 3 (`repeat..until` - පසු පරීක්ෂා ලූපය):**\n  * කොන්දේසිය අවසානයේ පරීක්ෂා කෙරේ. ලූපයේ කඳ අවම වශයෙන් එක් වරක් හෝ ක්‍රියාත්මක වේ! කොන්දේසිය සත්‍ය (True) වූ විට ලූපය නවතී.",
+          "highlightTerm": "Pascal Control Statements"
         },
         {
           "id": "b-g11-u1-6-5",
-          "en": "Relational Operators (සම්බන්ධතාව):**\n- `=` (Equal), `<>` (Not Equal), `<` (Less than), `>` (Greater than), `<=` (Less or equal), `>=` (Greater or equal).",
-          "si": "Relational Operators (සම්බන්ධතාව):**\n- `=` (Equal), `<>` (Not Equal), `<` (Less than), `>` (Greater than), `<=` (Less or equal), `>=` (Greater or equal).",
-          "highlightTerm": "Relational Operators"
-        },
-        {
-          "id": "b-g11-u1-6-6",
-          "en": "Assignment Operator (පැවරුම් මෙහෙයුම්කාරකය):**\n- `:=` (Assigns value on the right to variable on the left. e.g. `x := 10;`).",
-          "si": "Assignment Operator (පැවරුම් මෙහෙයුම්කාරකය):**\n- `:=` (Assigns value on the right to variable on the left. e.g. `x := 10;`).",
-          "highlightTerm": "Assignment Operator"
-        },
-        {
-          "id": "b-g11-u1-6-7",
-          "en": "#### 1.6.4 Pascal Control Statements Syntax (පාලන ප්‍රකාශන ව්‍යුහ)",
-          "si": "#### 1.6.4 Pascal Control Statements Syntax (පාලන ප්‍රකාශන ව්‍යුහ)",
-          "highlightTerm": "Pascal Control Statements Syntax"
-        },
-        {
-          "id": "b-g11-u1-6-8",
-          "en": "Selection (`if..then..else`):",
-          "si": "Selection (`if..then..else`):",
-          "highlightTerm": "Selection"
-        },
-        {
-          "id": "b-g11-u1-6-9",
-          "en": "Loop 1 (`for..to..do` - Fixed Iteration Loop):",
-          "si": "Loop 1 (`for..to..do` - Fixed Iteration Loop):",
-          "highlightTerm": "Loop 1"
-        },
-        {
-          "id": "b-g11-u1-6-10",
-          "en": "Loop 2 (`while..do` - Pre-test Loop):",
-          "si": "Loop 2 (`while..do` - Pre-test Loop):",
-          "highlightTerm": "Loop 2"
-        },
-        {
-          "id": "b-g11-u1-6-11",
-          "en": "Loop 3 (`repeat..until` - Post-test Loop):",
-          "si": "Loop 3 (`repeat..until` - Post-test Loop):",
-          "highlightTerm": "Loop 3"
-        },
-        {
-          "id": "b-g11-u1-6-12",
-          "en": "#### 1.6.5 One-Dimensional Arrays in Pascal (ඒකමාන ඇරේ / 1D Arrays)",
-          "si": "#### 1.6.5 One-Dimensional Arrays in Pascal (ඒකමාන ඇරේ / 1D Arrays)",
-          "highlightTerm": "One-Dimensional Arrays in Pascal"
-        },
-        {
-          "id": "b-g11-u1-6-13",
-          "en": "Declaration Syntax (ප්‍රකාශන ව්‍යුහය):",
-          "si": "Declaration Syntax (ප්‍රකාශන ව්‍යුහය):",
-          "highlightTerm": "Declaration Syntax"
-        },
-        {
-          "id": "b-g11-u1-6-14",
-          "en": "Reading & Accessing Array Elements (ඇරේ දත්ත ඇතුළත් කිරීම සහ භාවිතය):",
-          "si": "Reading & Accessing Array Elements (ඇරේ දත්ත ඇතුළත් කිරීම සහ භාවිතය):",
-          "highlightTerm": "Reading & Accessing Array Elements"
+          "en": "One-Dimensional Arrays in Pascal:\nAn array is a data structure that stores a fixed-size sequential collection of elements of the same data type under a single identifier name.\n\n* **Array Declaration Syntax:**\n  `var marks : array[1..5] of integer;`\n\n* **Array Storage & Access:**\n  * Each element is accessed using an integer index in square brackets: `marks[1]`, `marks[2]`, ... `marks[5]`.\n  * Elements are typically populated and traversed using a `for` loop.",
+          "si": "පැස්කල් ඒකමාන ඇරේ (1D Arrays):\nඇරේ (Array) එකක් යනු එකම දත්ත වර්ගයට අයත් දත්ත සමූහයක් තනි නමකින් ගබඩා කර තබා ගත හැකි දත්ත ව්‍යුහයකි.\n\n* **ඇරේ ප්‍රකාශන ව්‍යුහය:**\n  `var marks : array[1..5] of integer;`\n\n* **ඇරේ දත්ත ඇතුළත් කිරීම සහ භාවිතය:**\n  * කොටු වරහන් තුළ ඇති දර්ශකය (Index) මඟින් එක් එක් අගය වෙත ළඟා වේ: `marks[1]`, `marks[2]`, ... `marks[5]`.\n  * ඇරේ එකකට දත්ත ලබා ගැනීමට සහ මුද්‍රණය කිරීමට සාමාන්‍යයෙන් `for` ලූපයක් භාවිත කරයි.",
+          "highlightTerm": "Pascal 1D Arrays"
         }
       ],
       "examples": [
         {
           "id": "ex-11-1-6-1",
-          "titleEn": "Schematic / Code Diagram 1",
-          "titleSi": "පරිපථ / කේත සටහන 1",
-          "contentEn": "program ProgramName;          { Program Header / වැඩසටහන් ශීර්ෂය }\nconst                         { Constant Declaration / නියත ප්‍රකාශනය }\n  PI = 3.14159;\nvar                           { Variable Declaration / විචල්‍ය ප්‍රකාශනය }\n  radius, area : real;\n  count : integer;\nbegin                         { Main Program Body Starts / ප්‍රධාන කොටස ආරම්භය }\n  writeln('Enter radius:');\n  readln(radius);\n  area := PI * radius * radius;\n  writeln('Area = ', area:0:2);\nend.                          { Main Program Body Ends with DOT / තිතෙන් අවසන් වේ }",
-          "contentSi": "program ProgramName;          { Program Header / වැඩසටහන් ශීර්ෂය }\nconst                         { Constant Declaration / නියත ප්‍රකාශනය }\n  PI = 3.14159;\nvar                           { Variable Declaration / විචල්‍ය ප්‍රකාශනය }\n  radius, area : real;\n  count : integer;\nbegin                         { Main Program Body Starts / ප්‍රධාන කොටස ආරම්භය }\n  writeln('Enter radius:');\n  readln(radius);\n  area := PI * radius * radius;\n  writeln('Area = ', area:0:2);\nend.                          { Main Program Body Ends with DOT / තිතෙන් අවසන් වේ }"
+          "titleEn": "Complete Pascal Program Example",
+          "titleSi": "සම්පූර්ණ පැස්කල් වැඩසටහන් උදාහරණය",
+          "contentEn": "program CalculateArea;\nconst\n  PI = 3.14159;\nvar\n  radius, area : real;\nbegin\n  writeln('Enter radius:');\n  readln(radius);\n  area := PI * radius * radius;\n  writeln('Area = ', area:0:2);\nend.",
+          "contentSi": "program CalculateArea;\nconst\n  PI = 3.14159;\nvar\n  radius, area : real;\nbegin\n  writeln('Enter radius:');\n  readln(radius);\n  area := PI * radius * radius;\n  writeln('Area = ', area:0:2);\nend."
         },
         {
           "id": "ex-11-1-6-2",
-          "titleEn": "Schematic / Code Diagram 2",
-          "titleSi": "පරිපථ / කේත සටහන 2",
-          "contentEn": "if (marks >= 50) then\n    writeln('Pass')\n  else\n    writeln('Fail');  { Note: No semicolon before 'else'! }",
-          "contentSi": "if (marks >= 50) then\n    writeln('Pass')\n  else\n    writeln('Fail');  { Note: No semicolon before 'else'! }"
-        },
-        {
-          "id": "ex-11-1-6-3",
-          "titleEn": "Schematic / Code Diagram 3",
-          "titleSi": "පරිපථ / කේත සටහන 3",
-          "contentEn": "for i := 1 to 10 do\n  begin\n    writeln('Count: ', i);\n  end;",
-          "contentSi": "for i := 1 to 10 do\n  begin\n    writeln('Count: ', i);\n  end;"
-        },
-        {
-          "id": "ex-11-1-6-4",
-          "titleEn": "Schematic / Code Diagram 4",
-          "titleSi": "පරිපථ / කේත සටහන 4",
-          "contentEn": "count := 1;\n  while (count <= 5) do\n  begin\n    writeln(count);\n    count := count + 1;\n  end;",
-          "contentSi": "count := 1;\n  while (count <= 5) do\n  begin\n    writeln(count);\n    count := count + 1;\n  end;"
-        },
-        {
-          "id": "ex-11-1-6-5",
-          "titleEn": "Schematic / Code Diagram 5",
-          "titleSi": "පරිපථ / කේත සටහන 5",
-          "contentEn": "count := 1;\n  repeat\n    writeln(count);\n    count := count + 1;\n  until (count > 5);",
-          "contentSi": "count := 1;\n  repeat\n    writeln(count);\n    count := count + 1;\n  until (count > 5);"
-        },
-        {
-          "id": "ex-11-1-6-6",
-          "titleEn": "Schematic / Code Diagram 6",
-          "titleSi": "පරිපථ / කේත සටහන 6",
-          "contentEn": "var\n    marks : array[1..5] of integer;\n    i, sum : integer;",
-          "contentSi": "var\n    marks : array[1..5] of integer;\n    i, sum : integer;"
-        },
-        {
-          "id": "ex-11-1-6-7",
-          "titleEn": "Schematic / Code Diagram 7",
-          "titleSi": "පරිපථ / කේත සටහන 7",
-          "contentEn": "sum := 0;\n  for i := 1 to 5 do\n  begin\n    readln(marks[i]);\n    sum := sum + marks[i];\n  end;",
-          "contentSi": "sum := 0;\n  for i := 1 to 5 do\n  begin\n    readln(marks[i]);\n    sum := sum + marks[i];\n  end;"
+          "titleEn": "Pascal Array & Loop Example",
+          "titleSi": "පැස්කල් ඇරේ සහ ලූප උදාහරණය",
+          "contentEn": "program ArraySum;\nvar\n  marks : array[1..5] of integer;\n  i, sum : integer;\nbegin\n  sum := 0;\n  for i := 1 to 5 do\n  begin\n    readln(marks[i]);\n    sum := sum + marks[i];\n  end;\n  writeln('Sum = ', sum);\nend.",
+          "contentSi": "program ArraySum;\nvar\n  marks : array[1..5] of integer;\n  i, sum : integer;\nbegin\n  sum := 0;\n  for i := 1 to 5 do\n  begin\n    readln(marks[i]);\n    sum := sum + marks[i];\n  end;\n  writeln('Sum = ', sum);\nend."
         }
       ],
       "checkpointQuiz": {
         "id": "q-g11-u1-6",
-        "questionEn": "Which of the following is the most accurate concept regarding Pascal Programming Language Syntax & Rules?",
-        "questionSi": "පැස්කල් ක්‍රමලේඛන භාෂා රීති පිළිබඳව වඩාත්ම නිවැරදි කරුණ කුමක්ද?",
+        "questionEn": "What are the results of the Pascal arithmetic operations `19 div 4` and `19 mod 4`?",
+        "questionSi": "`19 div 4` සහ `19 mod 4` යන පැස්කල් මෙහෙයුම්වල ප්‍රතිඵල පිළිවෙළින් කුමක්ද?",
         "options": [
           {
             "id": "1",
-            "en": "Key official syllabus competency and textbook definition of Pascal Programming Language Syntax & Rules",
-            "si": "පැස්කල් ක්‍රමලේඛන භාෂා රීති පිළිබඳ නිල විෂය නිර්දේශ නිර්වචනය සහ සංකල්පය"
+            "en": "4 and 3",
+            "si": "4 සහ 3"
           },
           {
             "id": "2",
-            "en": "Temporary bypass without hardware or software processing",
-            "si": "දෘඩාංග හෝ මෘදුකාංග සැකසීමකින් තොර තාවකාලික මගහැරීමක්"
+            "en": "4.75 and 3",
+            "si": "4.75 සහ 3"
           },
           {
             "id": "3",
-            "en": "Incompatible legacy instruction rejected by the system architecture",
-            "si": "පද්ධති ව්‍යුහය මගින් ප්‍රතික්ෂේප කරනු ලබන නොගැලපෙන පැරණි උපදෙසක්"
+            "en": "3 and 4",
+            "si": "3 සහ 4"
           },
           {
             "id": "4",
-            "en": "Unverified transmission noise discarded during transmission",
-            "si": "සන්නිවේදනයේ දී ඉවතලන තහවුරු නොකළ සම්ප්‍රේෂණ ඝෝෂාවක්"
+            "en": "4 and 0",
+            "si": "4 සහ 0"
           }
         ],
         "correctOptionId": "1",
-        "explanationEn": "Option 1 correctly presents the primary curriculum concept for Pascal Programming Language Syntax & Rules.",
-        "explanationSi": "1 වන වරණය මගින් පැස්කල් ක්‍රමලේඛන භාෂා රීති පිළිබඳ නිල පෙළපොත් නිර්දේශය නිවැරදිව දක්වයි."
+        "explanationEn": "In Pascal, `div` computes integer quotient (19 div 4 = 4) and `mod` computes remainder (19 mod 4 = 3).",
+        "explanationSi": "පැස්කල් හි `div` මඟින් පූර්ණ සංඛ්‍යා ලබ්ධියද (19 div 4 = 4), `mod` මඟින් ශේෂයද (19 mod 4 = 3) ලබා දෙයි."
       }
     }
   ],
@@ -909,8 +760,8 @@ export const G11_U1_DATA: GeneralLessonData = {
       "year": 2022,
       "paperType": "Paper II",
       "badgeText": "2022 O/L Paper II - Question 04",
-      "questionEn": "4. An algorithm is required to calculate the Body Mass Index (BMI) of a person using weight in kg ($W$) and height in meters ($H$). The formula is $\text{BMI} = \frac{W}{H^2}$.\n  If $\text{BMI} \\ge 25$, output 'Overweight', else output 'Normal'.\n  (i) Draw a flowchart for this algorithm.\n  (ii) Write the pseudocode.\n  (iii) Complete the Pascal code snippet.",
-      "questionSi": "4. පුද්ගලයෙකුගේ බර කිලෝග්‍රෑම් වලින් ($W$) සහ උස මීටර් වලින් ($H$) භාවිත කර ශරීර ස්කන්ධ දර්ශකය (BMI) ගණනය කිරීමට ඇල්ගොරිතමයක් අවශ්‍ය වේ. සූත්‍රය වන්නේ $\text{BMI} = \frac{W}{H^2}$ වේ.\n  $\text{BMI} \\ge 25$ නම් 'Overweight' ලෙසද, නැතහොත් 'Normal' ලෙසද මුද්‍රණය කළ යුතුය.\n  (i) මෙම ඇල්ගොරිතමය සඳහා ගැලීම් සටහන අඳින්න.\n  (ii) පූර්ව කේතය ලියන්න.\n  (iii) පැස්කල් කේතය සම්පූර්ණ කරන්න.",
+      "questionEn": "4. An algorithm is required to calculate the Body Mass Index (BMI) of a person using weight in kg ($W$) and height in meters ($H$). The formula is BMI = W / (H * H).\n  If BMI >= 25, output 'Overweight', else output 'Normal'.\n  (i) Draw a flowchart for this algorithm.\n  (ii) Write the pseudocode.\n  (iii) Complete the Pascal code snippet.",
+      "questionSi": "4. පුද්ගලයෙකුගේ බර කිලෝග්‍රෑම් වලින් ($W$) සහ උස මීටර් වලින් ($H$) භාවිත කර ශරීර ස්කන්ධ දර්ශකය (BMI) ගණනය කිරීමට ඇල්ගොරිතමයක් අවශ්‍ය වේ. සූත්‍රය වන්නේ BMI = W / (H * H) වේ.\n  BMI >= 25 නම් 'Overweight' ලෙසද, නැතහොත් 'Normal' ලෙසද මුද්‍රණය කළ යුතුය.\n  (i) මෙම ඇල්ගොරිතමය සඳහා ගැලීම් සටහන අඳින්න.\n  (ii) පූර්ව කේතය ලියන්න.\n  (iii) පැස්කල් කේතය සම්පූර්ණ කරන්න.",
       "type": "structured",
       "sampleAnswerEn": "Loop control structures:\n(a) Pre-test loop: while (condition is checked before loop execution).\n(b) Post-test loop: repeat..until (body executes at least once before check).\n(c) Counter-controlled loop: for loop with fixed iteration count.",
       "sampleAnswerSi": "පුනරාවර්තන පාලන ව්‍යුහ:\n(a) පූර්ව-පරීක්ෂා ලූප: while (කොන්දේසිය මුලින් පරීක්ෂා කෙරේ).\n(b) පසු-පරීක්ෂා ලූප: repeat..until (අවම වශයෙන් එක් වරක් හෝ ක්‍රියාත්මක වේ).\n(c) ගණක පාලිත ලූප: for loop (නියමිත වාර ගණනක් ක්‍රියාත්මක වේ).",
@@ -947,9 +798,9 @@ export const G11_U1_DATA: GeneralLessonData = {
           "si": "පෙළ සකසනය"
         }
       ],
-      "correctOptionId": "1",
-      "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 39.",
-      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 39."
+      "correctOptionId": "2",
+      "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 39: The compiler converts entire source code at once.",
+      "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 39: කම්පයිලරය මගින් මුළු කේතයම එකවර පරිවර්තනය කරයි."
     },
     {
       "id": "pp-g11-u1-2023-6",

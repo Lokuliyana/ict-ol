@@ -3,6 +3,7 @@ import { LESSON_01_DATA } from '../src/data/lesson01Data.js';
 import { PAST_PAPER_QUESTIONS } from '../src/data/pastPapersData.js';
 import { ALL_LESSONS_DATA } from '../src/data/allLessonsData.js';
 import { decodeSriLankanNIC } from '../src/utils/nicDecoder.js';
+import { getAllUnitTreeManifests } from '../src/data/adapters/treeSyllabusAdapter.js';
 
 let passed = 0;
 let failed = 0;
@@ -120,7 +121,116 @@ assert(!!invalidFormat.error, 'Invalid NIC string yields error');
 const invalidDay = decodeSriLankanNIC('854990123V'); // day 499 male is > 366
 assert(!!invalidDay.error, 'Invalid day sequence (499 > 366) yields error');
 
+// 7. Tree-Down Living Syllabus Adapter & 3-Tier Recall Generator (Phase 1)
+console.log("\n=== 7. VERIFYING PHASE 1 TREE-DOWN LIVING SYLLABUS ADAPTER ===");
+const manifests = getAllUnitTreeManifests();
+assert(manifests.length === 15, `Generated manifests for all 15 authentic curriculum units (found ${manifests.length})`);
+
+for (const m of manifests) {
+  assert(m.rootNode && m.rootNode.depth === 0, `[${m.unitId}] Root node is at Depth 0`);
+  assert(m.branchIds.length > 0, `[${m.unitId}] Has ${m.branchIds.length} branches`);
+  assert(m.rootNode.childIds.length === m.branchIds.length, `[${m.unitId}] Root node links to all branches`);
+
+  let leavesCount = 0;
+  for (const bId of m.branchIds) {
+    const branch = m.nodes[bId];
+    assert(branch && branch.depth === 1, `[${m.unitId}] Branch ${bId} is at Depth 1`);
+    assert(branch.parentId === m.rootNode.id, `[${m.unitId}] Branch ${bId} parent is root`);
+    assert(branch.childIds.length > 0, `[${m.unitId}] Branch ${bId} links to concept leaves`);
+
+    for (const lId of branch.childIds) {
+      leavesCount++;
+      const leaf = m.nodes[lId];
+      assert(leaf && leaf.depth === 2, `[${m.unitId}] Leaf ${lId} is at Depth 2`);
+      assert(leaf.parentId === bId, `[${m.unitId}] Leaf ${lId} parent is branch ${bId}`);
+      assert(leaf.childIds.includes(m.checkpointNodeId), `[${m.unitId}] Leaf ${lId} links to checkpoint gate`);
+
+      const card = leaf.leafPayload?.activeRecallCard;
+      assert(
+        card &&
+          card.termEn.length > 0 &&
+          card.termSi.length > 0 &&
+          card.departmentKeywordsEn.length > 0 &&
+          card.departmentKeywordsSi.length > 0 &&
+          typeof card.mnemonicEn === 'string' &&
+          card.mnemonicEn.length > 0 &&
+          typeof card.mnemonicSi === 'string' &&
+          card.mnemonicSi.length > 0 &&
+          card.definitionEn.length > 0 &&
+          card.definitionSi.length > 0,
+        `[${m.unitId}] Leaf ${lId} active recall card has complete keywords, mnemonics, and definitions`
+      );
+    }
+  }
+
+  const cp = m.nodes[m.checkpointNodeId];
+  assert(cp && cp.depth === 3 && cp.type === 'checkpoint', `[${m.unitId}] Checkpoint gate is at Depth 3`);
+  assert(
+    cp.checkpointPayload && cp.checkpointPayload.questions.length >= 3,
+    `[${m.unitId}] Checkpoint has at least 3 verification questions`
+  );
+}
+
+// 7. Phase 2: Tree-Down Canvas & Bezier SVG Layer Assertions
+console.log("\n=== PHASE 2: TREE-DOWN CANVAS & BEZIER SVG LAYER VERIFICATION ===");
+import {
+  calculateCubicBezierPath,
+  getConnectorStyle,
+} from '../src/components/learning-engine/connectors/TreeSvgConnector.js';
+
+const bezierTest1 = calculateCubicBezierPath(100, 50, 100, 250);
+assert(bezierTest1.startsWith('M 100 50 C') && bezierTest1.endsWith('100 250'), 'calculateCubicBezierPath generates valid vertical S-curve SVG string');
+
+const bezierZero = calculateCubicBezierPath(100, 100, 100, 100);
+assert(!bezierZero.includes('NaN'), 'calculateCubicBezierPath handles zero delta safely without NaN');
+
+const completedStyle = getConnectorStyle('completed', 'chk1');
+assert(completedStyle.stroke === '#10b981' && completedStyle.strokeWidth === 3 && !!completedStyle.filter, 'Connector completed style has 3px emerald stroke and glow filter');
+
+const activeStyle = getConnectorStyle('active', 'chk2');
+assert(activeStyle.stroke.includes('gradient-active-chk2') && activeStyle.strokeWidth === 3, 'Connector active style has dynamic gradient pulse');
+
+const lockedStyle = getConnectorStyle('locked', 'chk3');
+assert(lockedStyle.strokeDasharray === '6 6' && lockedStyle.strokeWidth === 2, 'Connector locked style has dashed 2px stroke');
+
+// 8. Phase 3: Embedded Active Recall Engine Assertions
+console.log("\n=== PHASE 3: EMBEDDED ACTIVE RECALL ENGINE VERIFICATION ===");
+import { EmbeddedRecallCheck } from '../src/components/learning-engine/nodes/EmbeddedRecallCheck.js';
+import { LeafNodeView } from '../src/components/learning-engine/nodes/LeafNodeView.js';
+
+assert(typeof EmbeddedRecallCheck === 'function', 'EmbeddedRecallCheck is a valid callable React component');
+assert(typeof LeafNodeView === 'function', 'LeafNodeView is a valid callable React component');
+
+// Check that every manifest has activeRecallCards with zero static MCQs
+let totalRecallLeaves = 0;
+manifests.forEach(m => {
+  const leaves = Object.values(m.nodes).filter(n => n.type === 'leaf');
+  leaves.forEach(leaf => {
+    totalRecallLeaves++;
+    const card = leaf.leafPayload?.activeRecallCard;
+    assert(!!card, `[${m.unitId}] Leaf ${leaf.id} has activeRecallCard payload`);
+    assert(!card.options, `[${m.unitId}] Leaf ${leaf.id} ActiveRecallCard contains ZERO static MCQ options`);
+  });
+});
+assert(totalRecallLeaves >= 45, `Verified active recall cards across all ${totalRecallLeaves} leaves in syllabus`);
+
+// 9. Phase 4: Atomic Tactile Widget Embedding Assertions
+console.log("\n=== PHASE 4: ATOMIC TACTILE WIDGET EMBEDDING VERIFICATION ===");
+import { getAtomicTactileWidget, isAtomicTactileWidgetRegistered } from '../src/components/learning-engine/registry/AtomicTactileRegistry.js';
+import { EmbeddedTactileWidget } from '../src/components/learning-engine/nodes/EmbeddedTactileWidget.js';
+import { TACTILE_WIDGET_CATALOG } from '../src/data/adapters/treeSyllabusAdapter.js';
+
+assert(typeof EmbeddedTactileWidget === 'function', 'EmbeddedTactileWidget is a valid callable React component');
+assert(typeof getAtomicTactileWidget === 'function', 'getAtomicTactileWidget is a valid callable function');
+
+Object.keys(TACTILE_WIDGET_CATALOG).forEach(key => {
+  const widget = getAtomicTactileWidget(key);
+  assert(typeof widget === 'function', `Catalog widget [${key}] resolves to callable React component`);
+  assert(isAtomicTactileWidgetRegistered(key), `isAtomicTactileWidgetRegistered('${key}') is true`);
+});
+
 console.log(`\n========================================`);
 console.log(`Verification Complete! Total Passed: ${passed}, Total Failed: ${failed}`);
 console.log(`========================================`);
 if (failed > 0) process.exit(1);
+

@@ -22,11 +22,20 @@ const TEXTBOOK_PRESETS = [
   { name: 'Pure Green Swatch', r: 0, g: 255, b: 0, hex: '#00FF00' },
 ];
 
-export function HexColorVat() {
+export interface HexColorVatProps {
+  hideInternalTabs?: boolean;
+  defaultSubMode?: 'mixer' | 'reverse' | string | number;
+}
+
+export function HexColorVat({
+  hideInternalTabs = false,
+  defaultSubMode = 'mixer',
+}: HexColorVatProps = {}) {
+  const initialTab = defaultSubMode === 'reverse' ? 'reverse' : 'mixer';
   const [red, setRed] = useState(135);
   const [green, setGreen] = useState(31);
   const [blue, setBlue] = useState(120);
-  const [activeTab, setActiveTab] = useState<'mixer' | 'reverse'>('mixer');
+  const [activeTab, setActiveTab] = useState<'mixer' | 'reverse'>(initialTab);
 
   // Reverse challenge target
   const [targetIdx, setTargetIdx] = useState(3);
@@ -64,38 +73,40 @@ export function HexColorVat() {
   return (
     <div className="space-y-6">
       {/* Station Header */}
-      <div className="flex items-center justify-between flex-wrap gap-3">
-        <div className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-xl bg-fuchsia-600/30 border border-fuchsia-400/40 flex items-center justify-center text-fuchsia-400">
-            <Pipette className="w-5 h-5" />
+      {!hideInternalTabs && (
+        <div data-testid="hex-vat-header" className="flex items-center justify-between flex-wrap gap-3">
+          <div className="flex items-center gap-2">
+            <div className="w-9 h-9 rounded-xl bg-fuchsia-600/30 border border-fuchsia-400/40 flex items-center justify-center text-fuchsia-400">
+              <Pipette className="w-5 h-5" />
+            </div>
+            <div>
+              <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2">
+                Station 3: The Hex Color Vat
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-fuchsia-500/20 text-fuchsia-600 dark:text-fuchsia-400 border border-fuchsia-500/30 font-mono">
+                  RGB ➔ #RRGGBB
+                </span>
+              </h3>
+              <p className="text-xs text-slate-500 dark:text-slate-400 font-sinhala">
+                ඩිජිටල් වර්ණ සංකලනය (Red, Green, Blue) ෂඩ්දශමය කේතයක් (#RRGGBB) බවට හැරවීම
+              </p>
+            </div>
           </div>
-          <div>
-            <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2">
-              Station 3: The Hex Color Vat
-              <span className="text-[10px] px-2 py-0.5 rounded-full bg-fuchsia-500/20 text-fuchsia-600 dark:text-fuchsia-400 border border-fuchsia-500/30 font-mono">
-                RGB ➔ #RRGGBB
-              </span>
-            </h3>
-            <p className="text-xs text-slate-500 dark:text-slate-400 font-sinhala">
-              ඩිජිටල් වර්ණ සංකලනය (Red, Green, Blue) ෂඩ්දශමය කේතයක් (#RRGGBB) බවට හැරවීම
-            </p>
-          </div>
-        </div>
 
-        {/* Presets */}
-        <div className="flex items-center gap-1.5 flex-wrap">
-          <span className="text-xs text-slate-400">Textbook Examples:</span>
-          {TEXTBOOK_PRESETS.map((p) => (
-            <button
-              key={p.hex}
-              onClick={() => loadPreset(p)}
-              className="px-2.5 py-1 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-indigo-600 hover:text-white text-slate-700 dark:text-slate-300 text-xs font-mono font-bold transition-all border border-slate-200 dark:border-slate-700"
-            >
-              {p.name} ({p.hex})
-            </button>
-          ))}
+          {/* Presets */}
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <span className="text-xs text-slate-400">Textbook Examples:</span>
+            {TEXTBOOK_PRESETS.map((p) => (
+              <button
+                key={p.hex}
+                onClick={() => loadPreset(p)}
+                className="px-2.5 py-1 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-indigo-600 hover:text-white text-slate-700 dark:text-slate-300 text-xs font-mono font-bold transition-all border border-slate-200 dark:border-slate-700"
+              >
+                {p.name} ({p.hex})
+              </button>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         {/* ========================================================================= */}

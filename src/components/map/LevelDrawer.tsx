@@ -63,7 +63,7 @@ export function LevelDrawer({
   const handleStartLesson = () => {
     sound.playClick(750);
     onClose();
-    router.push(`/study/${node.id}`);
+    router.push(`/lesson/${grade}/${node.unitId}`);
   };
 
   const handleStartQuiz = () => {
@@ -78,13 +78,13 @@ export function LevelDrawer({
     }
     sound.playClick(750);
     onClose();
-    router.push(`/quiz/${node.id}`);
+    router.push(`/lesson/${grade}/${node.unitId}`);
   };
 
   const handlePracticeSandbox = () => {
     sound.playClick(700);
     onClose();
-    router.push(`/study/${node.id}?sandbox=true`);
+    router.push(`/lesson/${grade}/${node.unitId}`);
   };
 
   return (

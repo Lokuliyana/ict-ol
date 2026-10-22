@@ -135,11 +135,20 @@ const SCENARIOS: Scenario[] = [
   },
 ];
 
-export function QualityRadar() {
+export interface QualityRadarProps {
+  hideInternalTabs?: boolean;
+  defaultSubMode?: 'sabotage' | 'sandbox' | string | number;
+}
+
+export function QualityRadar({
+  hideInternalTabs = false,
+  defaultSubMode = 'sabotage',
+}: QualityRadarProps = {}) {
+  const initialMode = defaultSubMode === 'sandbox' ? 'sandbox' : 'sabotage';
   const [activeScenarioIdx, setActiveScenarioIdx] = useState(0);
   const [selectedOptionId, setSelectedOptionId] = useState<string | null>(null);
   const [isAnswerSubmitted, setIsAnswerSubmitted] = useState(false);
-  const [mode, setMode] = useState<'sabotage' | 'sandbox'>('sabotage');
+  const [mode, setMode] = useState<'sabotage' | 'sandbox'>(initialMode);
 
   // Custom sandbox scores
   const [customScores, setCustomScores] = useState({
@@ -218,54 +227,56 @@ export function QualityRadar() {
   return (
     <div className="space-y-6">
       {/* Top Mode Header */}
-      <div className="flex items-center justify-between flex-wrap gap-3">
-        <div className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-xl bg-indigo-600/30 border border-indigo-400/40 flex items-center justify-center text-indigo-400">
-            <Radar className="w-5 h-5" />
+      {!hideInternalTabs && (
+        <div data-testid="quality-radar-header" className="flex items-center justify-between flex-wrap gap-3">
+          <div className="flex items-center gap-2">
+            <div className="w-9 h-9 rounded-xl bg-indigo-600/30 border border-indigo-400/40 flex items-center justify-center text-indigo-400">
+              <Radar className="w-5 h-5" />
+            </div>
+            <div>
+              <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2">
+                Station 2: The Quality Radar
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-600 dark:text-indigo-400 border border-indigo-500/30 font-mono">
+                  5 Quality Hallmarks
+                </span>
+              </h3>
+              <p className="text-xs text-slate-500 dark:text-slate-400 font-sinhala">
+                ගුණාත්මක තොරතුරක මූලික ලක්ෂණ 5 සහ එහි අත්‍යවශ්‍යතාවය
+              </p>
+            </div>
           </div>
-          <div>
-            <h3 className="font-bold text-sm sm:text-base text-slate-900 dark:text-white flex items-center gap-2">
-              Station 2: The Quality Radar
-              <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-600 dark:text-indigo-400 border border-indigo-500/30 font-mono">
-                5 Quality Hallmarks
-              </span>
-            </h3>
-            <p className="text-xs text-slate-500 dark:text-slate-400 font-sinhala">
-              ගුණාත්මක තොරතුරක මූලික ලක්ෂණ 5 සහ එහි අත්‍යවශ්‍යතාවය
-            </p>
-          </div>
-        </div>
 
-        {/* Mode Switcher */}
-        <div className="flex bg-slate-100 dark:bg-slate-800 p-1 rounded-xl text-xs font-bold">
-          <button
-            onClick={() => {
-              sound.playClick();
-              setMode('sabotage');
-            }}
-            className={`px-3.5 py-1.5 rounded-lg transition-all ${
-              mode === 'sabotage'
-                ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-sm'
-                : 'text-slate-600 dark:text-slate-400'
-            }`}
-          >
-            🎯 Spot the Sabotage (Challenges)
-          </button>
-          <button
-            onClick={() => {
-              sound.playClick();
-              setMode('sandbox');
-            }}
-            className={`px-3.5 py-1.5 rounded-lg transition-all ${
-              mode === 'sandbox'
-                ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-sm'
-                : 'text-slate-600 dark:text-slate-400'
-            }`}
-          >
-            🎛️ Interactive Sliders (Sandbox)
-          </button>
+          {/* Mode Switcher */}
+          <div className="flex bg-slate-100 dark:bg-slate-800 p-1 rounded-xl text-xs font-bold">
+            <button
+              onClick={() => {
+                sound.playClick();
+                setMode('sabotage');
+              }}
+              className={`px-3.5 py-1.5 rounded-lg transition-all ${
+                mode === 'sabotage'
+                  ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400'
+              }`}
+            >
+              🎯 Spot the Sabotage (Challenges)
+            </button>
+            <button
+              onClick={() => {
+                sound.playClick();
+                setMode('sandbox');
+              }}
+              className={`px-3.5 py-1.5 rounded-lg transition-all ${
+                mode === 'sandbox'
+                  ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400'
+              }`}
+            >
+              🎛️ Interactive Sliders (Sandbox)
+            </button>
+          </div>
         </div>
-      </div>
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         {/* ========================================================================= */}

@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "g11-u3-q1",
+    "lessonId": "g11-u3",
+    "questionNumber": 1,
+    "promptEn": "01",
+    "promptSi": "01",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A single supercomputer connected to multiple monitors",
+        "si": "බහු මොනිටරවලට සම්බන්ධ කළ තනි සුපිරි පරිගණකයක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Two or more computers connected together to share resources and data",
+        "si": "සම්පත් සහ දත්ත හුවමාරු කර ගැනීම සඳහා එකිනෙකට සම්බන්ධ කළ පරිගණක දෙකක් හෝ වැඩි ගණනක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A software program that manages internal computer files",
+        "si": "පරිගණකයේ අභ්‍යන්තර ගොනු කළමනාකරණය කරන මෘදුකාංග වැඩසටහනක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "An electrical circuit that powers computer hardware",
+        "si": "පරිගණක දෘඩාංග සඳහා බලය සපයන විදුලි පරිපථයක්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A computer network is an interconnected collection of autonomous computers and devices that communicate via transmission media (guided or unguided) to share data, software, hardware resources (e.g. printers, storage), and services.",
+    "explanationSi": "පරිගණක ජාලයක් යනු දත්ත, මෘදුකාංග, දෘඩාංග සම්පත් (උදා: මුද්‍රණ යන්ත්‍ර, ආචයන මෙවලම්) සහ සේවාවන් හුවමාරු කර ගැනීම සඳහා සම්ප්‍රේෂණ මාධ්‍ය ඔස්සේ එකිනෙකට සම්බන්ධ කරන ලද ස්වාධීන පරිගණක සහ උපාංග සමූහයකි.",
+    "syllabusRef": "G11-U3.1"
+  },
+  {
+    "id": "g11-u3-q2",
+    "lessonId": "g11-u3",
+    "questionNumber": 2,
+    "promptEn": "02",
+    "promptSi": "02",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Wide Area Network (WAN)",
+        "si": "පුළුල් ප්‍රදේශ ජාලය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Metropolitan Area Network (MAN)",
+        "si": "නගර ප්‍රදේශ ජාලය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Local Area Network (LAN)",
+        "si": "දේශීය ප්‍රදේශ ජාලය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Personal Area Network (PAN)",
+        "si": "පෞද්ගලික ප්‍රදේශ ජාලය"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "A Local Area Network (LAN) connects computers and network devices within a limited geographical area such as a single room, building, or school campus. PAN covers a personal space (~10m), MAN spans a city, and WAN spans countries or continents.",
+    "explanationSi": "දේශීය ප්‍රදේශ ජාලයක් (LAN) යනු තනි කාමරයක්, ගොඩනැගිල්ලක් හෝ පාසල් පරිශ්‍රයක් වැනි සීමිත භූගෝලීය ප්‍රදේශයක් තුළ පරිගණක සහ ජාල උපාංග එකිනෙක සම්බන්ධ කරන ජාලයකි. PAN පෞද්ගලික ඉඩකඩක් (~10m) ද, MAN නගරයක් ද, WAN රටවල් හෝ මහද්වීප ද ආවරණය කරයි.",
+    "syllabusRef": "G11-U3.2"
+  },
+  {
+    "id": "g11-u3-q3",
+    "lessonId": "g11-u3",
+    "questionNumber": 3,
+    "promptEn": "03",
+    "promptSi": "03",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Bus Topology",
+        "si": "බස් ටොපොලොජිය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Star Topology",
+        "si": "ස්ටාර් (තාරකා) ටොපොලොජිය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Ring Topology",
+        "si": "රින්ග් (මුදු) ටොපොලොජිය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Mesh Topology",
+        "si": "මෙෂ් (දැලකාර) ටොපොලොජිය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In a Star Topology, all individual workstation nodes are independently connected to a central device (Hub or Switch). If one cable fails, only that workstation is disconnected, leaving the rest of the network operational.",
+    "explanationSi": "ස්ටාර් (තාරකා) ටොපොලොජියේදී, සියලුම සේවා මධ්‍යස්ථාන නෝඩ් මධ්‍යම උපාංගයකට (Hub හෝ Switch) ස්වාධීනව සම්බන්ධ වේ. එක් කේබලයක් අක්‍රිය වුවද, එම පරිගණකය පමණක් ජාලයෙන් වෙන් වන අතර ජාලයේ අන් කොටස් සාමාන්‍ය පරිදි ක්‍රියාත්මක වේ.",
+    "syllabusRef": "G11-U3.3"
+  },
+  {
+    "id": "g11-u3-q4",
+    "lessonId": "g11-u3",
+    "questionNumber": 4,
+    "promptEn": "04",
+    "promptSi": "04",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Unshielded Twisted Pair (UTP) Cable",
+        "si": "ආවරණය නොකළ ඇඹරි යුගල කේබලය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Coaxial Cable",
+        "si": "කොඇක්සියල් කේබලය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Fiber Optic Cable",
+        "si": "ෆයිබර් ඔප්ටික් (දෘශ්‍ය තන්තු) කේබලය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Shielded Twisted Pair (STP) Cable",
+        "si": "ආවරණය කළ ඇඹරි යුගල කේබලය"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Fiber Optic cables transmit data as light pulses through thin glass or plastic strands. Because light is used instead of electrical signals, it provides ultra-high bandwidth and is completely immune to electromagnetic interference.",
+    "explanationSi": "ෆයිබර් ඔප්ටික් කේබල් මගින් දත්ත සම්ප්‍රේෂණය කරනු ලබන්නේ සිහින් වීදුරු හෝ ප්ලාස්ටික් තන්තු තුලින් ආලෝක ස්පන්ද (Light Pulses) ලෙසිනි. විදුලි සංඥා වෙනුවට ආලෝකය භාවිත කරන බැවින්, එය ඉහළම කලාප පළලක් (Bandwidth) ලබා දෙන අතර විද්‍යුත් චුම්බක බාධාවලට සම්පූර්ණයෙන්ම ප්‍රතිරෝධී වේ.",
+    "syllabusRef": "G11-U3.4"
+  },
+  {
+    "id": "g11-u3-q5",
+    "lessonId": "g11-u3",
+    "questionNumber": 5,
+    "promptEn": "05",
+    "promptSi": "05",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Network Interface Card (NIC)",
+        "si": "ජාල අතුරුමුහුණත් කාඩ්පත"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Gateway",
+        "si": "ගේට්වේ (Gateway)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Repeater",
+        "si": "රිපීටරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hub",
+        "si": "හබ් එක"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Gateway is a network node that connects two networks with different architecture and communication protocols (e.g. connecting a private LAN to the global Internet). A Router routes packets based on IP, while a Gateway translates protocol differences.",
+    "explanationSi": "ගේට්වේ (Gateway) එකක් යනු විවිධ ගෘහනිර්මාණ ශිල්පයන් සහ සන්නිවේදන ප්‍රොටෝකෝල සහිත ජාල දෙකක් එකිනෙකට සම්බන්ධ කරන ජාල නෝඩ් එකකි (උදා: පෞද්ගලික LAN ජාලයක් ගෝලීය අන්තර්ජාලයට සම්බන්ධ කිරීම).",
+    "syllabusRef": "G11-U3.5"
+  },
+  {
+    "id": "g11-u3-q6",
+    "lessonId": "g11-u3",
+    "questionNumber": 6,
+    "promptEn": "06",
+    "promptSi": "06",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The Internet is a collection of web pages, while WWW is the physical cables",
+        "si": "අන්තර්ජාලය යනු වෙබ් පිටු එකතුවක් වන අතර WWW යනු භෞතික කේබල් වේ"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The Internet is the global hardware network infrastructure, while WWW is a service of interlinked hypertext documents accessed via the Internet",
+        "si": "අන්තර්ජාලය යනු ගෝලීය දෘඩාංග ජාල යටිතල පහසුකම වන අතර WWW යනු අන්තර්ජාලය ඔස්සේ පිවිසෙන හයිපර්ටෙක්ස් ලේඛන සේවාවයි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The Internet was created in 2010, while WWW was created in 1950",
+        "si": "අන්තර්ජාලය 2010 දී ද, WWW 1950 දී ද නිර්මාණය විය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "There is no difference",
+        "si": "both terms mean exactly the same thing / කිසිදු වෙනසක් නැත / පද දෙකෙන්ම එකම දෙයක් අදහස් වේ"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The Internet is the global physical infrastructure of interconnected computer networks. The World Wide Web (WWW), invented by Tim Berners-Lee in 1989, is a software service built on top of the Internet that uses HTTP to deliver web pages.",
+    "explanationSi": "අන්තර්ජාලය යනු එකිනෙකට සම්බන්ධ වූ පරිගණක ජාලවල ගෝලීය භෞතික යටිතල පහසුකමයි. ලෝක ව්‍යාප්ත ජාලය (WWW) යනු ටිම් බර්නර්ස්-ලී විසින් 1989 දී සොයා ගන්නා ලද, HTTP භාවිතයෙන් වෙබ් පිටු ලබා දෙන අන්තර්ජාලය මත ක්‍රියාත්මක වන මෘදුකාංග සේවාවකි.",
+    "syllabusRef": "G11-U3.6"
+  },
+  {
+    "id": "g11-u3-q7",
+    "lessonId": "g11-u3",
+    "questionNumber": 7,
+    "promptEn": "07",
+    "promptSi": "07",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Modem",
+        "si": "මොඩම් යන්ත්‍රය (Modem)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Switch",
+        "si": "ස්විචය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Access Point",
+        "si": "ඇක්සස් පොයින්ට් එක"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Network Card",
+        "si": "ජාල කාඩ්පත"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "MODEM stands for MOdulator-DEModulator. It converts computer digital signals to analog signals (Modulation) for transmission over telephone/coaxial lines and converts incoming analog signals back to digital signals (Demodulation).",
+    "explanationSi": "MODEM යන්න MOdulator-DEModulator යන්නෙහි කෙටි යෙදුමයි. එය පරිගණක අංකිත සංඥා දුරකථන රැහැන් ඔස්සේ යැවීමට ප්‍රතිසම සංඥා බවටත් (Modulation), පැමිණෙන ප්‍රතිසම සංඥා නැවත අංකිත සංඥා බවටත් (Demodulation) පරිවර්තනය කරයි.",
+    "syllabusRef": "G11-U3.7"
+  },
+  {
+    "id": "g11-u3-q8",
+    "lessonId": "g11-u3",
+    "questionNumber": 8,
+    "promptEn": "08",
+    "promptSi": "08",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Client-Server Architecture",
+        "si": "ක්ලයන්ට්-සේවාදායක ගෘහනිර්මාණ ශිල්පය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Peer-to-Peer (P2P) Architecture",
+        "si": "පියර්-ටු-පියර් (P2P) ගෘහනිර්මාණ ශිල්පය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Master-Slave Architecture",
+        "si": "මාස්ටර්-ස්ලේව් ගෘහනිර්මාණ ශිල්පය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Mainframe Architecture",
+        "si": "මේන්ෆ්‍රේම් ගෘහනිර්මාණ ශිල්පය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In a Peer-to-Peer (P2P) network, every computer (peer) acts as both a client and a server. There is no central server managing the network, making it cost-effective for small homes or offices (up to 10 computers).",
+    "explanationSi": "පියර්-ටු-පියර් (P2P) ජාලයක, සෑම පරිගණකයක්ම (Peer) ක්ලයන්ට් සහ සේවාදායකයෙකු ලෙස එකවර ක්‍රියා කරයි. ජාලය පාලනය කරන මධ්‍යම සේවාදායකයක් නොමැති අතර, එය කුඩා නිවාස හෝ කාර්යාල සඳහා (පරිගණක 10 දක්වා) පිරිවැය-කාර්යක්ෂම වේ.",
+    "syllabusRef": "G11-U3.8"
+  },
+  {
+    "id": "g11-u3-q9",
+    "lessonId": "g11-u3",
+    "questionNumber": 9,
+    "promptEn": "09",
+    "promptSi": "09",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Web Server",
+        "si": "වෙබ් සේවාදායකය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Web Browser",
+        "si": "වෙබ් බ්‍රවුසරය (Web Browser)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Search Engine",
+        "si": "සෙවුම් යන්ත්‍රය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Operating System Kernel",
+        "si": "මෙහෙයුම් පද්ධති කර්නලය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Web Browser (e.g. Google Chrome, Mozilla Firefox, Microsoft Edge, Apple Safari) is an application software used to request, retrieve, render HTML content, and display web pages from web servers.",
+    "explanationSi": "වෙබ් බ්‍රවුසරයක් (උදා: Google Chrome, Mozilla Firefox, Microsoft Edge) යනු වෙබ් සේවාදායකවලින් HTML අන්තර්ලෝකනය කර වෙබ් පිටු ප්‍රදර්ශනය කිරීමට භාවිත කරන යෙදුම් මෘදුකාංගයකි.",
+    "syllabusRef": "G11-U3.9"
+  },
+  {
+    "id": "g11-u3-q10",
+    "lessonId": "g11-u3",
+    "questionNumber": 10,
+    "promptEn": "10",
+    "promptSi": "10",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Bluetooth",
+        "si": "බ්ලූටූත්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Wi-Fi (Wireless Fidelity)",
+        "si": "වයි-ෆයි (Wi-Fi)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Infrared",
+        "si": "අධෝරක්ත"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Fiber Optics",
+        "si": "ෆයිබර් ඔප්ටික්ස්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Wi-Fi (IEEE 802.11 standard) uses high-frequency radio waves to provide wireless high-speed Internet and network connections within a local area. Bluetooth is intended for short-range Personal Area Networks (~10 meters).",
+    "explanationSi": "Wi-Fi (IEEE 802.11 සම්මතය) මගින් උසස් සංඛ්‍යාත රේඩියෝ තරංග භාවිත කරමින් දේශීය ප්‍රදේශයක් තුළ රැහැන් රහිත අධිවේගී අන්තර්ජාල සබඳතා ලබා දෙයි. බ්ලූටූත් භාවිත වන්නේ කෙටි පරාසයක (~මීටර් 10) පෞද්ගලික ජාල (PAN) සඳහාය.",
+    "syllabusRef": "G11-U3.10"
+  },
+  {
+    "id": "g11-u3-q11",
+    "lessonId": "g11-u3",
+    "questionNumber": 11,
+    "promptEn": "11",
+    "promptSi": "11",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To display graphics on the user's screen",
+        "si": "පරිශීලක තිරයේ ග්‍රැෆික්ස් දර්ශනය කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To provide centralized resources, databases, and services to client computers upon request",
+        "si": "ක්ලයන්ට් පරිගණකවල ඉල්ලීම් මත මධ්‍යගත සම්පත්, දත්ත සමුදායන් සහ සේවාවන් සැපයීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To enter raw data into client computers",
+        "si": "ක්ලයන්ට් පරිගණකවලට අමු දත්ත ඇතුළත් කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To physically power down network workstations",
+        "si": "ජාලයේ සේවා මධ්‍යස්ථාන භෞතිකව අක්‍රිය කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Server is a powerful central computer that manages network security, hosts files/databases, and handles service requests sent by Client computers (workstations) across the network.",
+    "explanationSi": "සේවාදායකයක් (Server) යනු ජාල ආරක්ෂාව පාලනය කරන, ගොනු/දත්ත සමුදායන් සටහන් කරගන්නා සහ ජාලය ඔස්සේ ක්ලයන්ට් පරිගණක මගින් යොමු කරන සේවා ඉල්ලීම් ඉටු කරන බලවත් මධ්‍යම පරිගණකයකි.",
+    "syllabusRef": "G11-U3.11"
+  },
+  {
+    "id": "g11-u3-q12",
+    "lessonId": "g11-u3",
+    "questionNumber": 12,
+    "promptEn": "12",
+    "promptSi": "12",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Hub",
+        "si": "හබ් එක"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Switch",
+        "si": "ස්විචය (Switch)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Repeater",
+        "si": "රිපීටරය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Coaxial Cable",
+        "si": "කොඇක්සියල් කේබලය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Switch is an intelligent Layer 2 device that inspects incoming data frames, learns MAC addresses, and directs traffic specifically to the intended destination node. In contrast, a Hub is a passive device that broadcasts data to ALL ports.",
+    "explanationSi": "ස්විචයක් (Switch) යනු පැමිණෙන දත්ත රාමු පරීක්ෂා කර, MAC ලිපින හඳුනාගෙන, අදාළ ගමනාන්ත නෝඩ් එකට පමණක් දත්ත යොමු කරන බුද්ධිමත් උපාංගයකි. මීට පටහැණිව, හබ් (Hub) එකක් මගින් සියලුම පෝට් වෙත දත්ත විකාශය (Broadcast) කරයි.",
+    "syllabusRef": "G11-U3.12"
+  },
+  {
+    "id": "g11-u3-q13",
+    "lessonId": "g11-u3",
+    "questionNumber": 13,
+    "promptEn": "13",
+    "promptSi": "13",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To convert digital signals to sound waves",
+        "si": "අංකිත සංඥා ශබ්ද තරංග බවට පරිවර්තනය කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To amplify or regenerate weak signals distorted over long cable distances",
+        "si": "දිගු කේබල් දුර ප්‍රමාණ නිසා දුර්වල වන සංඥා නැවත බලගන්වා (Amplify / Regenerate) සම්ප්‍රේෂණය කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To block authorized users from entering the network",
+        "si": "බලයලත් පරිශීලකයන් ජාලයට පිවිසීම වැළැක්වීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To store long-term database tables",
+        "si": "දීර්ඝකාලීන දත්ත සමුදා වගු ගබඩා කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "As electrical/optical signals travel long distances over network media, they suffer attenuation (weakening). A Repeater receives attenuated signals, cleans noise, regenerates their original strength, and retransmits them.",
+    "explanationSi": "ජාල මාධ්‍ය ඔස්සේ සංඥා දිගු දුරක් ගමන් කිරීමේදී ඒවා දුර්වල (Attenuation) වේ. රිපීටරයක් මගින් මෙසේ දුර්වල වූ සංඥා ලබාගෙන, ඒවායේ මුල් ශක්තිය නැවත ජනනය කර (Regenerate) ඉදිරියට සම්ප්‍රේෂණය කරයි.",
+    "syllabusRef": "G11-U3.13"
+  },
+  {
+    "id": "g11-u3-q14",
+    "lessonId": "g11-u3",
+    "questionNumber": 14,
+    "promptEn": "14",
+    "promptSi": "14",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Complete immunity to computer viruses",
+        "si": "පරිගණක වෛරසවලින් පූර්ණ ආරක්ෂාව ලැබීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Hardware and resource sharing (e.g. sharing a single printer among 20 users)",
+        "si": "දෘඩාංග සහ සම්පත් හුවමාරුව (උදා: පරිශීලකයන් 20 දෙනෙකු අතර තනි මුද්‍රණ යන්ත්‍රයක් හුවමාරු කර ගැනීම)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Elimination of the need for password security",
+        "si": "මුරපද ආරක්ෂාවේ අවශ්‍යතාවය නැතිවීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Guaranteed zero cost of maintenance",
+        "si": "නඩත්තු පිරිවැය සම්පූර්ණයෙන්ම ශූන්‍ය වීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Network resource sharing allows expensive peripherals (printers, storage arrays), software licenses, and centralized files to be shared among multiple users, drastically reducing organizational hardware and administrative costs.",
+    "explanationSi": "ජාල සම්පත් හුවමාරුව මගින් අධික පිරිවැයක් සහිත පර්යන්ත උපාංග (මුද්‍රණ යන්ත්‍ර, ගබඩා ඒකක), මෘදුකාංග බලපත්‍ර සහ මධ්‍යගත ගොනු පරිශීලකයන් කිහිප දෙනෙකු අතර හුවමාරු කර ගැනීමට ඉඩ සලසයි.",
+    "syllabusRef": "G11-U3.14"
+  },
+  {
+    "id": "g11-u3-q15",
+    "lessonId": "g11-u3",
+    "questionNumber": 15,
+    "promptEn": "15",
+    "promptSi": "15",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Ring Topology",
+        "si": "රින්ග් (මුදු) ටොපොලොජිය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Star Topology",
+        "si": "ස්ටාර් ටොපොලොජිය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Bus Topology",
+        "si": "බස් ටොපොලොජිය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Tree Topology",
+        "si": "ට්‍රී ටොපොලොජිය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "In a Ring Topology, every computer is connected to exactly two neighboring nodes in a circular pathway. Data travels in one direction using a special frame called a 'Token'. If one workstation fails, the ring break disables the network unless redundant loops exist.",
+    "explanationSi": "රින්ග් (මුදු) ටොපොලොජියේදී, සෑම පරිගණකයක්ම වටකුරු මාර්ගයක අසල්වැසි නෝඩ් දෙකකට සම්බන්ධ වේ. 'Token' නමැති විශේෂ දත්ත රාමුවක් භාවිතයෙන් දත්ත එකම දිශාවකට ගමන් කරයි.",
+    "syllabusRef": "G11-U3.15"
+  },
+  {
+    "id": "g11-u3-q16",
+    "lessonId": "g11-u3",
+    "questionNumber": 16,
+    "promptEn": "16",
+    "promptSi": "16",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "16 bits",
+        "si": "බිටු 16"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "32 bits",
+        "si": "බිටු 32"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "64 bits",
+        "si": "බිටු 64"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "128 bits",
+        "si": "බිටු 128"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "An IPv4 address is a 32-bit binary numerical label formatted into 4 decimal octets separated by dots (e.g. `192.248.16.2`). Each octet represents 8 bits ($4 \times 8 = 32\text{ bits}$). IPv6 uses 128 bits.",
+    "explanationSi": "IPv4 ලිපිනයක් යනු තිත් මගින් වෙන් කරන ලද දශම ඔක්ටෙට් (Octets) 4 කින් සමන්විත බිටු 32 ක ද්විමය සංඛ්‍යාත්මක ලිපිනයකි (උදා: `192.248.16.2`). එක් ඔක්ටෙට් එකක් බිටු 8 ක් නිරූපණය කරයි ($4 \times 8 = 32\text{ bits}$). IPv6 ලිපිනයක් බිටු 128 කින් සමන්විත වේ.",
+    "syllabusRef": "G11-U3.16"
+  },
+  {
+    "id": "g11-u3-q17",
+    "lessonId": "g11-u3",
+    "questionNumber": 17,
+    "promptEn": "17",
+    "promptSi": "17",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`192.168.1.300`",
+        "si": "`192.168.1.300`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`192.168.1.55`",
+        "si": "`192.168.1.55`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`192.168.1`",
+        "si": "`192.168.1`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`192.168.1.256.1`",
+        "si": "`192.168.1.256.1`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In IPv4 dotted-decimal notation, there must be exactly 4 octets, and each octet value must fall strictly within the 8-bit integer range of $0$ to $255$. Option (A) has 300 ($>255$) and option (D) has 5 octets, making them invalid.",
+    "explanationSi": "IPv4 දශම සටහනේ ඔක්ටෙට් 4 ක් තිබිය යුතු අතර, සෑම ඔක්ටෙට් එකකම අගය 0 සිට 255 දක්වා සීමාවේ පැවතිය යුතුය. (A) හි 300 පැවතීමත් (D) හි ඔක්ටෙට් 5 ක් පැවතීමත් නිසා ඒවා වැරදි වේ.",
+    "syllabusRef": "G11-U3.17"
+  },
+  {
+    "id": "g11-u3-q18",
+    "lessonId": "g11-u3",
+    "questionNumber": 18,
+    "promptEn": "18",
+    "promptSi": "18",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To translate human-readable domain names into numeric IP addresses",
+        "si": "මිනිසාට කියවිය හැකි වසම් නාම, සංඛ්‍යාත්මක IP ලිපින බවට පරිවර්තනය කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To compress video files on the web",
+        "si": "වෙබ් අඩවිවල ඇති වීඩියෝ ගොනු සම්පීඩනය කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To protect computers from physical dust",
+        "si": "පරිගණක භෞතික දූවිලිවලින් ආරක්ෂා කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To physically route electrical cables",
+        "si": "විදුලි කේබල් භෞතිකව මාර්ගගත කිරීම"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "DNS acts as the \"phonebook of the Internet\". Humans remember textual names like `www.moe.gov.lk`, but network routers require numeric IP addresses (`192.248.16.2`) to route packets. DNS resolves domain names into their corresponding IP addresses.",
+    "explanationSi": "DNS යනු \"අන්තර්ජාලයේ දුරකථන නාමාවලිය\" යි. මිනිසුන්ට `www.moe.gov.lk` වැනි පෙළ නාම මතක තබා ගැනීම පහසු වුවද, ජාල රවුටරවලට පැකට් යැවීමට සංඛ්‍යාත්මක IP ලිපින (`192.248.16.2`) අවශ්‍ය වේ. DNS මගින් වසම් නාම අදාළ IP ලිපින බවට පරිවර්තනය කරයි.",
+    "syllabusRef": "G11-U3.18"
+  },
+  {
+    "id": "g11-u3-q19",
+    "lessonId": "g11-u3",
+    "questionNumber": 19,
+    "promptEn": "19",
+    "promptSi": "19",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`www.e-thaksalawa.moe.gov.lk`",
+        "si": "`www.e-thaksalawa.moe.gov.lk`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`https`",
+        "si": "`https`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`main`",
+        "si": "`main`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`index.html`",
+        "si": "`index.html`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "In a Uniform Resource Locator (URL):",
+    "explanationSi": "URL එකක සංරචක:",
+    "syllabusRef": "G11-U3.19"
+  },
+  {
+    "id": "g11-u3-q20",
+    "lessonId": "g11-u3",
+    "questionNumber": 20,
+    "promptEn": "20",
+    "promptSi": "20",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`.gov.lk`",
+        "si": "`.gov.lk`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`.com.lk`",
+        "si": "`.com.lk`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`.edu.lk` or `.ac.lk`",
+        "si": "`.edu.lk` or `.ac.lk`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`.org.lk`",
+        "si": "`.org.lk`"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Second-level Country Code TLDs in Sri Lanka (`.lk`):",
+    "explanationSi": "ශ්‍රී ලංකාවේ දෙවන මට්ටමේ රටේ කේත TLDs:",
+    "syllabusRef": "G11-U3.20"
+  },
+  {
+    "id": "g11-u3-q21",
+    "lessonId": "g11-u3",
+    "questionNumber": 21,
+    "promptEn": "21",
+    "promptSi": "21",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Universal Record Locator",
+        "si": "Universal Record Locator"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Uniform Resource Locator",
+        "si": "Uniform Resource Locator"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Unified Redundant Link",
+        "si": "Unified Redundant Link"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "User Resource Language",
+        "si": "User Resource Language"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "URL stands for **Uniform Resource Locator**. It is a standardized web address format used to locate and identify a specific resource (web page, image, document) on the Internet.",
+    "explanationSi": "URL යන්නෙහි සම්පූර්ණ අර්ථය **Uniform Resource Locator** යන්නයි. එය අන්තර්ජාලයේ ඇති යම් නිශ්චිත සම්පතක් (වෙබ් පිටුවක්, රූපයක්, ලේඛනයක්) පිහිටි ස්ථානය හඳුනා ගැනීමට භාවිත කරන සම්මත වෙබ් ලිපින ආකෘතියයි.",
+    "syllabusRef": "G11-U3.21"
+  },
+  {
+    "id": "g11-u3-q22",
+    "lessonId": "g11-u3",
+    "questionNumber": 22,
+    "promptEn": "22",
+    "promptSi": "22",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "32 bits",
+        "si": "32 bits"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "64 bits",
+        "si": "64 bits"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "128 bits",
+        "si": "128 bits"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "256 bits",
+        "si": "256 bits"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "IPv6 uses 128 bits ($2^{128}$ unique addresses) represented as 8 groups of 4 hexadecimal digits separated by colons (e.g. `2001:0db8:85a3:0000:0000:8a2e:0370:7334`) to overcome IPv4 address exhaustion.",
+    "explanationSi": "IPv6 ලිපිනයක් බිටු 128 කින් සමන්විත වන අතර, එය මහා බඩවැලෙන් (Colons) වෙන් කරන ලද 16 යේ පද්ධතියේ (Hexadecimal) කාණ්ඩ 8 කින් දැක්වේ. මෙය IPv4 ලිපින හිඟයට විසඳුමක් ලෙස හඳුන්වා දෙන ලදී.",
+    "syllabusRef": "G11-U3.22"
+  },
+  {
+    "id": "g11-u3-q23",
+    "lessonId": "g11-u3",
+    "questionNumber": 23,
+    "promptEn": "23",
+    "promptSi": "23",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "An IP address that permanently stays fixed forever",
+        "si": "සදාකාලිකවම ස්ථිරව පවතින IP ලිපිනයක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "An IP address automatically and temporarily assigned by a DHCP server each time a device connects to the network",
+        "si": "උපාංගයක් ජාලයට සම්බන්ධ වන සෑම අවස්ථාවකම DHCP සේවාදායකයක් මගින් ස්වයංක්‍රීයව සහ තාවකාලිකව පවරන IP ලිපිනයක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "An IP address written using Roman numerals",
+        "si": "රෝම ඉලක්කම් භාවිතයෙන් ලියන ලද IP ලිපිනයක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "An IP address encrypted with password security",
+        "si": "මුරපද ආරක්ෂාවෙන් කේතනය කරන ලද IP ලිපිනයක්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Dynamic IP address is temporarily leased to a device by a DHCP (Dynamic Host Configuration Protocol) server. When the device disconnects, the IP address returns to the pool and can be assigned to another device.",
+    "explanationSi": "ගතික IP ලිපිනයක් යනු DHCP සේවාදායකයක් මගින් උපාංගයකට තාවකාලිකව පවරන ලිපිනයකි. උපාංගය ජාලයෙන් වෙන් වූ විට එම IP ලිපිනය වෙනත් උපාංගයකට පැවරිය හැක.",
+    "syllabusRef": "G11-U3.23"
+  },
+  {
+    "id": "g11-u3-q24",
+    "lessonId": "g11-u3",
+    "questionNumber": 24,
+    "promptEn": "24",
+    "promptSi": "24",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "`.com`",
+        "si": "`.com`"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "`.org`",
+        "si": "`.org`"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "`.gov`",
+        "si": "`.gov`"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "`.net`",
+        "si": "`.net`"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "`.org` stands for **Organization**, traditionally designated for non-profit entities (e.g. `wikipedia.org`, `unicef.org`). `.com` is for commercial, `.gov` for government, and `.net` for network infrastructure providers.",
+    "explanationSi": "`.org` යන්න **Organization** යන්නෙන් පැවත එන අතර, එය ලාභ නොලබන සංවිධාන (Non-profit organizations) සඳහා වෙන් කර ඇත. `.com` වාණිජමය ද, `.gov` රාජ්‍ය ආයතන සඳහා ද භාවිත වේ.",
+    "syllabusRef": "G11-U3.24"
+  },
+  {
+    "id": "g11-u3-q25",
+    "lessonId": "g11-u3",
+    "questionNumber": 25,
+    "promptEn": "25",
+    "promptSi": "25",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A temporary logical IP address assigned by an Internet Service Provider",
+        "si": "අන්තර්ජාල සේවා සැපයුම්කරු විසින් පවරන ලද තාවකාලික තර්කානුකූල IP ලිපිනයක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A permanent, unique 48-bit physical hardware address burned into the Network Interface Card (NIC) during manufacturing",
+        "si": "නිෂ්පාදනයේදී ජාල අතුරුමුහුණත් කාඩ්පතට (NIC) ස්ථිරවම ඇතුළත් කරන ලද අනන්‍ය බිටු 48 ක භෞතික දෘඩාංග ලිපිනයක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The email address of the system administrator",
+        "si": "පද්ධති පරිපාලකගේ විද්‍යුත් තැපැල් ලිපිනය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The web page title string",
+        "si": "වෙබ් පිටුවේ මාතෘකා පේළිය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A MAC address is a 48-bit (6-byte) hexadecimal physical identifier (e.g. `00:1A:2B:3C:4D:5E`) permanently assigned to a Network Interface Card (NIC) by its manufacturer. While IP addresses change by location, MAC addresses remain static.",
+    "explanationSi": "MAC ලිපිනයක් යනු නිෂ්පාදකයා විසින් ජාල අතුරුමුහුණත් කාඩ්පතට (NIC) ස්ථිරවම ඇතුළත් කර ඇති බිටු 48 ක (බයිට 6 ක) 16 යේ පද්ධතියේ භෞතික ලිපිනයකි (උදා: `00:1A:2B:3C:4D:5E`).",
+    "syllabusRef": "G11-U3.25"
+  },
+  {
+    "id": "g11-u3-q26",
+    "lessonId": "g11-u3",
+    "questionNumber": 26,
+    "promptEn": "26",
+    "promptSi": "26",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Top Level Domain name for Sri Lanka (Country Code TLD)",
+        "si": "ශ්‍රී ලංකාව සඳහා වන රටේ කේත TLD එක"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Name of the web server manufacturer",
+        "si": "වෙබ් සේවාදායක නිෂ්පාදකයාගේ නම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Local computer password",
+        "si": "දේශීය පරිගණක මුරපදය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Type of database file",
+        "si": "දත්ත සමුදා ගොනු වර්ගය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "`.lk` is the Country Code Top-Level Domain (ccTLD) assigned to Sri Lanka. Other examples include `.uk` for United Kingdom, `.jp` for Japan, and `.in` for India.",
+    "explanationSi": "`.lk` යනු ශ්‍රී ලංකාව සඳහා වෙන් කර ඇති රටේ කේත ඉහළ මට්ටමේ වසම (ccTLD) යි. එක්සත් රාජධානියට `.uk` ද, ජපානයට `.jp` ද භාවිත වේ.",
+    "syllabusRef": "G11-U3.26"
+  },
+  {
+    "id": "g11-u3-q27",
+    "lessonId": "g11-u3",
+    "questionNumber": 27,
+    "promptEn": "27",
+    "promptSi": "27",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Protocol",
+        "si": "ප්‍රොටෝකෝලය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "File Name",
+        "si": "ගොනු නාමය (File Name)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Port Number",
+        "si": "පෝට් අංකය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Subdomain",
+        "si": "උප-වසම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The last portion of a full URL string (e.g. `syllabus.pdf` in `https://www.moe.gov.lk/docs/syllabus.pdf`) specifies the exact target file name being requested from the web server directory.",
+    "explanationSi": "පූර්ණ URL එකක අවසාන කොටසින් (උදා: `https://www.moe.gov.lk/docs/syllabus.pdf` හි `syllabus.pdf`) වෙබ් සේවාදායකයෙන් ඉල්ලා සිටින නිශ්චිත ගොනුවේ නම නිරූපණය කරයි.",
+    "syllabusRef": "G11-U3.27"
+  },
+  {
+    "id": "g11-u3-q28",
+    "lessonId": "g11-u3",
+    "questionNumber": 28,
+    "promptEn": "28",
+    "promptSi": "28",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The computer immediately turns off",
+        "si": "පරිගණකය වහාම අක්‍රිය වේ"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The browser queries a DNS server to convert `www.google.com` into its IP address, then sends an HTTP request to that IP",
+        "si": "බ්‍රවුසරය මගින් DNS සේවාදායකයකින් `www.google.com` හි IP ලිපිනය ලබාගෙන, එම IP ලිපිනයට HTTP ඉල්ලීමක් යොමු කරයි"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The computer reformats its hard drive",
+        "si": "පරිගණකයේ හාඩ් ඩිස්ක් එක රීෆෝමැට් වේ"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The ISP sends a printed letter to the user",
+        "si": "අන්තර්ජාල සේවා සැපයුම්කරු මගින් මුද්‍රිත ලිපියක් පරිශීලකයාට එවයි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "When a domain name is typed into a browser, a DNS lookup converts the text name into an IP address. Once the IP address is obtained, the browser sends an HTTP/HTTPS GET request to the target web server to fetch the web page.",
+    "explanationSi": "බ්‍රවුසරයක වසම් නාමයක් ටයිප් කළ විට, DNS පරීක්ෂාවක් මගින් එම නම IP ලිපිනයක් බවට හරවයි. ඉන්පසු බ්‍රවුසරය අදාළ වෙබ් සේවාදායකය වෙත HTTP/HTTPS ඉල්ලීමක් යොමු කර වෙබ් පිටුව ලබා ගනී.",
+    "syllabusRef": "G11-U3.28"
+  },
+  {
+    "id": "g11-u3-q29",
+    "lessonId": "g11-u3",
+    "questionNumber": 29,
+    "promptEn": "29",
+    "promptSi": "29",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "HTTP",
+        "si": "HTTP"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "HTTPS",
+        "si": "HTTPS"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "FTP",
+        "si": "FTP"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "SMTP",
+        "si": "SMTP"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "HTTPS (HyperText Transfer Protocol Secure) encrypts all communication between the web browser and web server using SSL/TLS protocols, protecting passwords and credit card details from eavesdropping.",
+    "explanationSi": "HTTPS (HyperText Transfer Protocol Secure) මගින් SSL/TLS ප්‍රොටෝකෝල භාවිත කරමින් වෙබ් බ්‍රවුසරය සහ වෙබ් සේවාදායකය අතර සියලු සන්නිවේදනයන් කේතනය (Encrypt) කරයි.",
+    "syllabusRef": "G11-U3.29"
+  },
+  {
+    "id": "g11-u3-q30",
+    "lessonId": "g11-u3",
+    "questionNumber": 30,
+    "promptEn": "30",
+    "promptSi": "30",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "IEEE",
+        "si": "IEEE"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "ICANN",
+        "si": "ICANN"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "UNESCO",
+        "si": "UNESCO"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "ISO",
+        "si": "ISO"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "ICANN (Internet Corporation for Assigned Names and Numbers) is a non-profit organization responsible for coordinating the global Domain Name System, allocating IP address spaces, and managing root server operations.",
+    "explanationSi": "ICANN (Internet Corporation for Assigned Names and Numbers) යනු ගෝලීය වසම් නාම පද්ධතිය සම්බන්ධීකරණය කිරීම, IP ලිපින වෙන් කිරීම සහ මූල සේවාදායක (Root servers) කළමනාකරණය කරන නොමිලේ ක්‍රියාත්මක වන ජාත්‍යන්තර සංවිධානයකි.",
+    "syllabusRef": "G11-U3.30"
+  },
+  {
+    "id": "g11-u3-q31",
+    "lessonId": "g11-u3",
+    "questionNumber": 31,
+    "promptEn": "31",
+    "promptSi": "31",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Simple Mail Transfer Protocol (SMTP)",
+        "si": "Simple Mail Transfer Protocol (SMTP)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "File Transfer Protocol (FTP)",
+        "si": "File Transfer Protocol (FTP)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "HyperText Transfer Protocol (HTTP)",
+        "si": "HyperText Transfer Protocol (HTTP)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Post Office Protocol (POP3)",
+        "si": "Post Office Protocol (POP3)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "File Transfer Protocol (FTP) is a standard network protocol used to upload files to a remote web server or download large files from a server to a local client computer.",
+    "explanationSi": "File Transfer Protocol (FTP) යනු දුරස්ථ වෙබ් සේවාදායකයකට ගොනු උඩුගත කිරීමට (Upload) හෝ සේවාදායකයකින් දේශීය පරිගණකයකට විශාල ගොනු බාගත කිරීමට (Download) භාවිත වන සම්මත ප්‍රොටෝකෝලයයි.",
+    "syllabusRef": "G11-U3.31"
+  },
+  {
+    "id": "g11-u3-q32",
+    "lessonId": "g11-u3",
+    "questionNumber": 32,
+    "promptEn": "32",
+    "promptSi": "32",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Transmission Control Protocol",
+        "si": "Internet Protocol"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Telecommunication Connection Process",
+        "si": "Internal Protocol"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Transfer Control Program",
+        "si": "Information Path"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Terminal Computing Protocol",
+        "si": "Interconnect Process"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "TCP/IP (Transmission Control Protocol / Internet Protocol) is the foundational suite of communication protocols used to interconnect network devices on the Internet. TCP breaks data into packets and ensures reliable delivery; IP routes packet addressing.",
+    "explanationSi": "TCP/IP (Transmission Control Protocol / Internet Protocol) යනු අන්තර්ජාලයේ උපාංග සන්නිවේදනය සඳහා භාවිත වන මූලික ප්‍රොටෝකෝල කට්ටලයයි. TCP මගින් දත්ත පැකට්වලට කඩා විශ්වාසනීයව යවන අතර IP මගින් ලිපින මාර්ගගත කරයි.",
+    "syllabusRef": "G11-U3.32"
+  },
+  {
+    "id": "g11-u3-q33",
+    "lessonId": "g11-u3",
+    "questionNumber": 33,
+    "promptEn": "33",
+    "promptSi": "33",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Infrastructure as a Service (IaaS)",
+        "si": "Infrastructure as a Service (IaaS)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Platform as a Service (PaaS)",
+        "si": "Platform as a Service (PaaS)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Software as a Service (SaaS)",
+        "si": "Software as a Service (SaaS)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Storage as a Service (STaaS)",
+        "si": "Storage as a Service (STaaS)"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "Software as a Service (SaaS) delivers fully functional software applications over the Internet on a subscription or free basis. Users access applications via browsers without managing local installation or hardware maintenance.",
+    "explanationSi": "Software as a Service (SaaS) මගින් පූර්ණ මෘදුකාංග යෙදුම් අන්තර්ජාලය ඔස්සේ සපයයි. පරිශීලකයන්ට මෘදුකාංග පරිගණකයේ ස්ථාපනය නොකර වෙබ් බ්‍රවුසරයක් හරහා සෘජුවම භාවිත කළ හැක.",
+    "syllabusRef": "G11-U3.33"
+  },
+  {
+    "id": "g11-u3-q34",
+    "lessonId": "g11-u3",
+    "questionNumber": 34,
+    "promptEn": "34",
+    "promptSi": "34",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Business-to-Business (B2B)",
+        "si": "Business-to-Business (B2B)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Business-to-Consumer (B2C)",
+        "si": "Business-to-Consumer (B2C)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Consumer-to-Consumer (C2C)",
+        "si": "Consumer-to-Consumer (C2C)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Consumer-to-Business (C2B)",
+        "si": "Consumer-to-Business (C2B)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Business-to-Consumer (B2C) describes e-commerce transactions where a business sells goods or services directly to individual consumers. C2C is individual-to-individual (e.g. Ikman.lk sales), and B2B is business-to-business wholesale.",
+    "explanationSi": "Business-to-Consumer (B2C) යනු ව්‍යාපාරයක් විසින් සෘජුවම තනි පාරිභෝගිකයන් වෙත භාණ්ඩ හෝ සේවාවන් අලෙවි කරන ඉලෙක්ට්‍රොනික වාණිජ්‍ය ගනුදෙනු වේ.",
+    "syllabusRef": "G11-U3.34"
+  },
+  {
+    "id": "g11-u3-q35",
+    "lessonId": "g11-u3",
+    "questionNumber": 35,
+    "promptEn": "35",
+    "promptSi": "35",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To print search results on physical paper",
+        "si": "සෙවුම් ප්‍රතිඵල කඩදාසිවල මුද්‍රණය කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To systematically browse the World Wide Web, follow hyperlinks, and collect web page content for indexing",
+        "si": "ලෝක ව්‍යාප්ත ජාලයේ සැරිසරමින්, හයිපර්ලින්ක් ඔස්සේ ගොස් වෙබ් පිටු අන්තර්ගතය දර්ශකගත කිරීම (Indexing) සඳහා රැස් කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To physically clean computer monitors",
+        "si": "පරිගණක තිර භෞතිකව පිරිසිදු කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To send email newsletters to all internet users",
+        "si": "සියලු අන්තර්ජාල පරිශීලකයන්ට විද්‍යුත් තැපැල් යැවීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Web Crawler/Spider (e.g. Googlebot) is an automated bot that traverses the web by following links, downloading web pages, and passing the text data to search engine databases for indexing and ranking.",
+    "explanationSi": "වෙබ් ක්‍රෝලර්/ස්පයිඩර් (උදා: Googlebot) යනු ලින්ක් ඔස්සේ යමින් වෙබ් පිටු බාගත කර, සෙවුම් යන්ත්‍ර දත්ත සමුදායේ දර්ශකගත කිරීම (Indexing) සඳහා දත්ත රැස් කරන ස්වයංක්‍රීය මෘදුකාංගයකි.",
+    "syllabusRef": "G11-U3.35"
+  },
+  {
+    "id": "g11-u3-q36",
+    "lessonId": "g11-u3",
+    "questionNumber": 36,
+    "promptEn": "36",
+    "promptSi": "36",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Voice over Internet Protocol (VoIP)",
+        "si": "Voice over Internet Protocol (VoIP)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "File Transfer Protocol (FTP)",
+        "si": "File Transfer Protocol (FTP)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Simple Mail Transfer Protocol (SMTP)",
+        "si": "Simple Mail Transfer Protocol (SMTP)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Domain Name System (DNS)",
+        "si": "Domain Name System (DNS)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Voice over IP (VoIP) converts analog voice signals into digital data packets and transmits them over broadband Internet connections (e.g. WhatsApp calls, Skype, Zoom audio).",
+    "explanationSi": "Voice over IP (VoIP) මගින් කටහඬ සංඥා අංකිත දත්ත පැකට් බවට හරවා බ්‍රෝඩ්බෑන්ඩ් අන්තර්ජාල සබඳතා ඔස්සේ සම්ප්‍රේෂණය කරයි (උදා: WhatsApp ඇමතුම්, Skype, Zoom).",
+    "syllabusRef": "G11-U3.36"
+  },
+  {
+    "id": "g11-u3-q37",
+    "lessonId": "g11-u3",
+    "questionNumber": 37,
+    "promptEn": "37",
+    "promptSi": "37",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "HTTP",
+        "si": "HTTP"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "HTTPS",
+        "si": "HTTPS"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "FTP",
+        "si": "FTP"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Telnet",
+        "si": "Telnet"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "HTTPS operates by default on port 443, using TLS/SSL encryption to secure HTTP communication. Standard unencrypted HTTP operates on port 80.",
+    "explanationSi": "HTTPS ප්‍රොටෝකෝලය සම්මතයක් ලෙස පෝට් 443 ඔස්සේ TLS/SSL කේතනය භාවිත කරමින් ක්‍රියාත්මක වේ. කේතනය නොකළ සාමාන්‍ය HTTP ක්‍රියාත්මක වන්නේ පෝට් 80 ඔස්සේය.",
+    "syllabusRef": "G11-U3.37"
+  },
+  {
+    "id": "g11-u3-q38",
+    "lessonId": "g11-u3",
+    "questionNumber": 38,
+    "promptEn": "38",
+    "promptSi": "38",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "An organization or company that provides access and services to the Internet for individuals and businesses",
+        "si": "පුද්ගලයන්ට සහ ව්‍යාපාර සඳහා අන්තර්ජාල ප්‍රවේශය සහ සේවාවන් සපයන ආයතනයක් හෝ සමාගමක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A physical computer monitor",
+        "si": "භෞතික පරිගණක තිරයක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A antivirus software program",
+        "si": "වෛරස් විරෝධී මෘදුකාංග වැඩසටහනක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A type of network cable connector",
+        "si": "ජාල කේබල් සම්බන්ධක වර්ගයක්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "An Internet Service Provider (ISP) (e.g. SLT Mobitel, Dialog, Hutch) connects users to the global Internet infrastructure via broadband, fiber optic, or mobile 4G/5G connections.",
+    "explanationSi": "අන්තර්ජාල සේවා සැපයුම්කරුවෙකු (ISP) (උදා: SLT Mobitel, Dialog, Hutch) මගින් බ්‍රෝඩ්බෑන්ඩ්, ෆයිබර් ඔප්ටික් හෝ මොබයිල් 4G/5G ඔස්සේ පරිශීලකයන් ගෝලීය අන්තර්ජාලයට සම්බන්ධ කරයි.",
+    "syllabusRef": "G11-U3.38"
+  },
+  {
+    "id": "g11-u3-q39",
+    "lessonId": "g11-u3",
+    "questionNumber": 39,
+    "promptEn": "39",
+    "promptSi": "39",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Ready-made social media accounts",
+        "si": "සූදානම් කළ සමාජ මාධ්‍ය ගිණුම්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Virtualized fundamental computing resources such as virtual servers, storage space, and network firewalls",
+        "si": "තථ්‍ය සේවාදායක (Virtual servers), ගබඩා ඉඩකඩ සහ ජාල ෆයර්වෝල් වැනි පදනම් තොරතුරු තාක්ෂණ යටිතල පහසුකම්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Printed paper documents",
+        "si": "මුද්‍රිත කඩදාසි ලේඛන"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Manual typewriter hardware",
+        "si": "අතින් ක්‍රියාත්මක කරන යතුරුලියන දෘඩාංග"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Infrastructure as a Service (IaaS) provides raw computing power, virtual machines, cloud storage, and virtual routers on demand (e.g. Amazon Web Services EC2, Microsoft Azure VMs), allowing businesses to run custom operating systems.",
+    "explanationSi": "Infrastructure as a Service (IaaS) මගින් තථ්‍ය පරිගණක (VMs), ක්ලවුඩ් ගබඩා ඉඩකඩ සහ ජාල යටිතල පහසුකම් සපයයි (උදා: AWS, Azure).",
+    "syllabusRef": "G11-U3.39"
+  },
+  {
+    "id": "g11-u3-q40",
+    "lessonId": "g11-u3",
+    "questionNumber": 40,
+    "promptEn": "40",
+    "promptSi": "40",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Enclosing phrase in double quotation marks (`\"...\"`)",
+        "si": "වචන සමූහය ඉරට්ටේ උද්ධෘත ලකුණු (`\"...\"`) තුළ ඇතුළත් කිරීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Placing an asterisk (`*`) before every word",
+        "si": "සෑම වචනයකටම පෙර තරුවක් (`*`) යෙදීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Typing in ALL CAPS",
+        "si": "සියලු අකුරු කැපිටල්වලින් ටයිප් කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Adding exclamation marks (`!`)",
+        "si": "විස්මයාදී ලකුණු (`!`) එකතු කිරීම"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Placing double quotes around search words (e.g. `\"Grade 11 ICT Syllabus\"`) forces the search engine to return pages containing that exact sequence of words without splitting them up.",
+    "explanationSi": "සෙවුම් පද වටා ඉරට්ටේ උද්ධෘත ලකුණු යෙදීමෙන් (උදා: `\"Grade 11 ICT Syllabus\"`), එම වචන පෙළ වෙනස් නොවී එලෙසම අඩංගු වන වෙබ් පිටු පමණක් සෙවුම් යන්ත්‍රය මගින් ලබා දෙයි.",
+    "syllabusRef": "G11-U3.40"
+  },
+  {
+    "id": "g11-u3-q41",
+    "lessonId": "g11-u3",
+    "questionNumber": 41,
+    "promptEn": "41",
+    "promptSi": "41",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "HTTP",
+        "si": "HTTP"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "SMTP",
+        "si": "SMTP"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "SSH",
+        "si": "SSH"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "SNMP",
+        "si": "SNMP"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "HyperText Transfer Protocol (HTTP) is an application-layer protocol used for requesting and transmitting web documents across port 80 in plain unencrypted text.",
+    "explanationSi": "HyperText Transfer Protocol (HTTP) යනු පෝට් 80 ඔස්සේ සරල පෙළ (Plain text) ලෙස වෙබ් ලේඛන ඉල්ලා සිටීමට සහ සම්ප්‍රේෂණය කිරීමට භාවිත කරන යෙදුම් මට්ටමේ ප්‍රොටෝකෝලයයි.",
+    "syllabusRef": "G11-U3.41"
+  },
+  {
+    "id": "g11-u3-q42",
+    "lessonId": "g11-u3",
+    "questionNumber": 42,
+    "promptEn": "42",
+    "promptSi": "42",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "An online portal where citizens pay government taxes",
+        "si": "පුරවැසියන් රාජ්‍ය බදු ගෙවන වෙබ් අඩවියක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "An online classified site where an individual sells a used bicycle directly to another individual (e.g. Ikman.lk or eBay)",
+        "si": "තනි පුද්ගලයෙකු විසින් වෙනත් පුද්ගලයෙකුට භාවිත කළ පාපැදියක් අලෙවි කරන වෙබ් අඩවියක් (උදා: Ikman.lk හෝ eBay)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A wholesale factory selling raw materials to a garment manufacturing company",
+        "si": "ඇඟලුම් කර්මාන්තශාලාවකට අමුද්‍රව්‍ය අලෙවි කරන තොග වෙළඳසැලක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A bank issuing monthly credit card bills",
+        "si": "බැංකුවක් මගින් මාසික ණය පත් බිල්පත් නිකුත් කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Consumer-to-Consumer (C2C) involves transactions between private individuals acting as buyers and sellers, mediated by an online platform like Ikman.lk, eBay, or Facebook Marketplace.",
+    "explanationSi": "C2C ගනුදෙනු යනු තනි පුද්ගලයන් දෙදෙනෙකු අතර ඔන්ලයින් ප්ලැට්ෆෝම් එකක් (උදා: Ikman.lk, eBay) හරහා සෘජුවම සිදුවන ගනුදෙනු වේ.",
+    "syllabusRef": "G11-U3.42"
+  },
+  {
+    "id": "g11-u3-q43",
+    "lessonId": "g11-u3",
+    "questionNumber": 43,
+    "promptEn": "43",
+    "promptSi": "43",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Post Office Protocol 3 (POP3)",
+        "si": "Post Office Protocol 3 (POP3)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Internet Message Access Protocol (IMAP)",
+        "si": "Internet Message Access Protocol (IMAP)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Simple Mail Transfer Protocol (SMTP)",
+        "si": "Simple Mail Transfer Protocol (SMTP)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "File Transfer Protocol (FTP)",
+        "si": "File Transfer Protocol (FTP)"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "SMTP (Simple Mail Transfer Protocol) is an outgoing email protocol responsible for pushing/sending email messages from the sender's client to the mail server and relaying them across servers. POP3 and IMAP are INCOMING/RETRIEVAL protocols.",
+    "explanationSi": "SMTP (Simple Mail Transfer Protocol) යනු පිටතට යන (Outgoing) විද්‍යුත් තැපැල් යැවීම සඳහා භාවිත වන ප්‍රොටෝකෝලයයි. POP3 සහ IMAP භාවිත වන්නේ පැමිණෙන (Incoming) විද්‍යුත් තැපැල් ලබා ගැනීමටය.",
+    "syllabusRef": "G11-U3.43"
+  },
+  {
+    "id": "g11-u3-q44",
+    "lessonId": "g11-u3",
+    "questionNumber": 44,
+    "promptEn": "44",
+    "promptSi": "44",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Bcc recipients' email addresses are visible to everyone, while Cc addresses are hidden",
+        "si": "Bcc ලිපින සැමටම පෙනෙන අතර Cc ලිපින සැඟව පවතී"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Bcc recipients' email addresses are hidden from all other recipients, while Cc recipients' addresses are visible to all",
+        "si": "Bcc හි ඇතුළත් ලිපින අනෙකුත් කිසිදු ලබන්නෙකුට නොපෙනෙන අතර Cc හි ඇතුළත් ලිපින සියලු දෙනාටම පෙනේ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Cc is used for attaching files, while Bcc is used for adding subjects",
+        "si": "Cc භාවිත වන්නේ ගොනු ඇමිණීමට වන අතර Bcc මාතෘකා එකතු කිරීමට භාවිත වේ"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "There is no difference in visibility",
+        "si": "දෘශ්‍යතාවයේ කිසිදු වෙනසක් නැත"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Addresses placed in the **Cc** (Carbon Copy) field receive a copy of the email, and their addresses are visible to all recipients. Addresses in **Bcc** (Blind Carbon Copy) receive a copy, but their addresses are completely hidden from all 'To' and 'Cc' recipients for privacy.",
+    "explanationSi": "Cc** (Carbon Copy) හි ඇති විද්‍යුත් තැපැල් ලිපින අනෙකුත් සියලුම ලබන්නන්ට දර්ශනය වේ. නමුත් **Bcc** (Blind Carbon Copy) හි ඇති ලිපින පෞද්ගලිකත්වය ආරක්ෂා කරමින් අනෙකුත් කිසිදු ලබන්නෙකුට නොපෙනෙන සේ සඟවනු ලැබේ.",
+    "syllabusRef": "G11-U3.44"
+  },
+  {
+    "id": "g11-u3-q45",
+    "lessonId": "g11-u3",
+    "questionNumber": 45,
+    "promptEn": "45",
+    "promptSi": "45",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "POP3 (Post Office Protocol version 3)",
+        "si": "POP3 (Post Office Protocol version 3)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "SMTP (Simple Mail Transfer Protocol)",
+        "si": "SMTP (Simple Mail Transfer Protocol)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "IMAP (Internet Message Access Protocol)",
+        "si": "IMAP (Internet Message Access Protocol)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "HTTP (HyperText Transfer Protocol)",
+        "si": "HTTP (HyperText Transfer Protocol)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "POP3 downloads emails to a single device and deletes them from the server by default. In contrast, IMAP syncs emails across multiple devices while keeping the master copy stored on the remote server.",
+    "explanationSi": "POP3 මගින් විද්‍යුත් තැපැල් තනි උපාංගයකට බාගත කර සාම්ප්‍රදායිකව සේවාදායකයෙන් ඉවත් කරයි. නමුත් IMAP මගින් විද්‍යුත් තැපැල් සේවාදායකයේ තබා ගනිමින් උපාංග කිහිපයක් අතර සමමුහුර්ත (Sync) කරයි.",
+    "syllabusRef": "G11-U3.45"
+  },
+  {
+    "id": "g11-u3-q46",
+    "lessonId": "g11-u3",
+    "questionNumber": 46,
+    "promptEn": "46",
+    "promptSi": "46",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Hash (`#`)",
+        "si": "Hash (`#`)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "At sign (`@`)",
+        "si": "At sign (`@`)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Ampersand (`&`)",
+        "si": "Ampersand (`&`)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Dollar sign (`$`)",
+        "si": "Dollar sign (`$`)"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Every valid email address consists of two parts separated by the `@` symbol: `username@domain_name`. Ray Tomlinson selected the `@` symbol in 1971 to designate user location at a specific computer domain.",
+    "explanationSi": "සෑම නිවැරදි විද්‍යුත් තැපැල් ලිපිනයකම `@` සංකේතයෙන් වෙන් කළ කොටස් දෙකක් පවතී: `පරිශීලක_නාමය@වසම්_නාමය`.",
+    "syllabusRef": "G11-U3.46"
+  },
+  {
+    "id": "g11-u3-q47",
+    "lessonId": "g11-u3",
+    "questionNumber": 47,
+    "promptEn": "47",
+    "promptSi": "47",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "IMAP (Internet Message Access Protocol)",
+        "si": "IMAP (Internet Message Access Protocol)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "POP3",
+        "si": "POP3"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "FTP",
+        "si": "FTP"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "ARP",
+        "si": "ARP"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "IMAP keeps all messages and folder structures stored on the central mail server. When you read, delete, or flag an email on one device, IMAP updates the changes across all other synchronized devices instantly.",
+    "explanationSi": "IMAP මගින් සියලුම පණිවිඩ සහ ෆෝල්ඩර ව්‍යුහයන් මධ්‍යම සේවාදායකයේ ගබඩා කර තබයි. එක් උපාංගයකින් විද්‍යුත් තැපෑලක් කියවූ විට හෝ මකා දැමූ විට, අනිත් සියලුම උපාංගවලද එය ස්වයංක්‍රීයව යාවත්කාලීන වේ.",
+    "syllabusRef": "G11-U3.47"
+  },
+  {
+    "id": "g11-u3-q48",
+    "lessonId": "g11-u3",
+    "questionNumber": 48,
+    "promptEn": "48",
+    "promptSi": "48",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To",
+        "si": "To"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Bcc",
+        "si": "Bcc"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Subject",
+        "si": "Subject"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Attachment",
+        "si": "Attachment"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "The **Subject** line gives the recipient a quick overview of the email's topic or purpose before they open the full message body.",
+    "explanationSi": "Subject** (මාතෘකාව) තීරුව මගින් ලබන්නා පණිවිඩය විවෘත කිරීමට පෙර එහි අඩංගු කරුණ පිළිබඳ කෙටි සාරාංශයක් ලබා දෙයි.",
+    "syllabusRef": "G11-U3.48"
+  },
+  {
+    "id": "g11-u3-q49",
+    "lessonId": "g11-u3",
+    "questionNumber": 49,
+    "promptEn": "49",
+    "promptSi": "49",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "High-priority official emails from teachers",
+        "si": "ගුරුවරුන්ගෙන් ලැබෙන ඉහළ ප්‍රමුඛතාවක් සහිත නිල ලිපි"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Unsolicited, unwanted bulk commercial or advertisement emails sent to large numbers of users",
+        "si": "විශාල පරිශීලකයන් සංඛ්‍යාවකට නොඉල්ලූවද සමූහ වශයෙන් යවන නීති විරෝධී හෝ වෙළඳ දැන්වීම් විද්‍යුත් තැපැල්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Emails containing compressed zip archives",
+        "si": "සම්පීඩිත zip ගොනු අඩංගු ලිපි"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Draft emails saved for later editing",
+        "si": "පසුව සංස්කරණය කිරීමට සුරැකි ලිපි"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Spam (Junk Mail) refers to unwanted mass marketing emails sent automatically to millions of recipients. Email services use spam filters to automatically detect and move these messages into a separate Spam folder.",
+    "explanationSi": "ස්පෑම් (Spam) යනු පාරිභෝගිකයා නොඉල්ලූ, සමූහ වශයෙන් ස්වයංක්‍රීයව යවන අනවශ්‍ය වෙළඳ දැන්වීම් විද්‍යුත් තැපැල් වේ.",
+    "syllabusRef": "G11-U3.49"
+  },
+  {
+    "id": "g11-u3-q50",
+    "lessonId": "g11-u3",
+    "questionNumber": 50,
+    "promptEn": "50",
+    "promptSi": "50",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Scissors icon ✂️",
+        "si": "කතුරේ අයිකනය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Paperclip icon 📎",
+        "si": "පේපර්ක්ලිප් අයිකනය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Magnifying glass icon 🔍",
+        "si": "විශාලක වීදුරු අයිකනය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Trash can icon 🗑️",
+        "si": "කුණු කූඩයේ අයිකනය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "The **Paperclip icon** 📎 represents the file attachment feature in all major email clients (Gmail, Outlook, Yahoo). Clicking it opens a file browser dialog to select documents or media to send along with the text.",
+    "explanationSi": "සියලුම විද්‍යුත් තැපැල් මෘදුකාංගවල ගොනු අමුණා යැවීමේ (Attachment) විශේෂාංගය නිරූපණය කරන්නේ **පේපර්ක්ලිප් 📎 අයිකනය** මගිනි.",
+    "syllabusRef": "G11-U3.50"
+  },
+  {
+    "id": "g11-u3-q51",
+    "lessonId": "g11-u3",
+    "questionNumber": 51,
+    "promptEn": "51",
+    "promptSi": "51",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To send a reply ONLY to the original sender",
+        "si": "මුල් යවන්නාට පමණක් පිළිතුරක් යැවීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To send a copy of the received email message and its attachments to a new third-party email address",
+        "si": "ලැබුණු විද්‍යුත් තැපැල් පණිවිඩය සහ එහි ඇමුණුම්වල පිටපතක් අලුත් තුන්වන පාර්ශවයකට යොමු කිරීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To permanently delete the message",
+        "si": "පණිවිඩය ස්ථිරවම මකා දැමීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To report the message as phishing",
+        "si": "පණිවිඩය ෆිෂින් එකක් ලෙස වාර්තා කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Forward** resends an existing incoming email message (including its original history and attached files) to a brand new email address that was not part of the original thread.",
+    "explanationSi": "Forward** මගින් ලැබුණු විද්‍යුත් තැපැල් පණිවිඩය (එහි මුල් සංවාද ඉතිහාසය සහ ඇමුණුම් සමග) මුල් සන්නිවේදනයට අයත් නොවූ අලුත් විද්‍යුත් තැපැල් ලිපිනයකට යොමු කරයි.",
+    "syllabusRef": "G11-U3.51"
+  },
+  {
+    "id": "g11-u3-q52",
+    "lessonId": "g11-u3",
+    "questionNumber": 52,
+    "promptEn": "52",
+    "promptSi": "52",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The email is sent to everyone in your contact book",
+        "si": "විද්‍යුත් තැපෑල ඔබේ ලිපින පොතේ සිටින සියලු දෙනාටම යැවේ"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The reply is sent to the original sender AND all other recipients listed in the \"To\" and \"Cc\" fields",
+        "si": "මුල් යවන්නාට මෙන්ම \"To\" සහ \"Cc\" තීරුවල සිටි අනෙකුත් සියලුම ලබන්නන්ට පිළිතුර යැවේ"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The email is printed on all network printers",
+        "si": "ජාලයේ ඇති සියලුම මුද්‍රණ යන්ත්‍රවලින් ලිපිය මුද්‍රණය වේ"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The email is saved as a draft",
+        "si": "ලිපිය ඩ්‍රාෆ්ට් එකක් ලෙස සුරැකේ"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Reply** sends your response solely to the original sender. **Reply All** sends your response to the original sender as well as every single person included in the 'To' and 'Cc' recipient lists.",
+    "explanationSi": "Reply** මගින් පිළිතුර මුල් යවන්නාට පමණක් යවන අතර, **Reply All** මගින් මුල් යවන්නා ඇතුළුව 'To' සහ 'Cc' හි සිටි සියලු දෙනා වෙතම පිළිතුර යවයි.",
+    "syllabusRef": "G11-U3.52"
+  },
+  {
+    "id": "g11-u3-q53",
+    "lessonId": "g11-u3",
+    "questionNumber": 53,
+    "promptEn": "53",
+    "promptSi": "53",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Domain name",
+        "si": "වසම් නාමය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Top-level domain",
+        "si": "ඉහළ මට්ටමේ වසම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "User account name",
+        "si": "පරිශීලක ගිණුම් නාමය (Username / Mailbox name)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Server protocol",
+        "si": "සේවාදායක ප්‍රොටෝකෝලය"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "In an email address, the string preceding the `@` symbol (`info`) is the local username or mailbox identifier. The string following the `@` symbol (`customs.gov.lk`) is the domain name hosting the mail server.",
+    "explanationSi": "විද්‍යුත් තැපැල් ලිපිනයක, `@` සංකේතයට පෙර ඇති කොටස (`info`) දේශීය පරිශීලක ගිණුම් නාමය වේ. `@` සංකේතයට පසුව ඇති කොටස වසම් නාමය වේ.",
+    "syllabusRef": "G11-U3.53"
+  },
+  {
+    "id": "g11-u3-q54",
+    "lessonId": "g11-u3",
+    "questionNumber": 54,
+    "promptEn": "54",
+    "promptSi": "54",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "An email service accessed directly through a web browser without installing specialized client software (e.g. Gmail, Yahoo Mail)",
+        "si": "විශේෂිත මෘදුකාංග ස්ථාපනය නොකර වෙබ් බ්‍රවුසරයක් හරහා සෘජුවම පිවිසෙන විද්‍යුත් තැපැල් සේවාව (උදා: Gmail, Yahoo Mail)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A physical paper mail delivery service",
+        "si": "භෞතික කඩදාසි තැපැල් සේවාවක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A hardware router component",
+        "si": "දෘඩාංග රවුටර සංරචකයක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A game played over the internet",
+        "si": "අන්තර්ජාලය ඔස්සේ සෙල්ලම් කරන ක්‍රීඩාවක්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Webmail allows users to compose, send, and receive emails using a web page inside any standard browser. Unlike desktop clients (MS Outlook), webmail requires no local software setup and is accessible from any internet-connected device.",
+    "explanationSi": "Webmail මගින් ඕනෑම වෙබ් බ්‍රවුසරයක් භාවිතයෙන් විද්‍යුත් තැපැල් ලිවීම, යැවීම සහ ලබා ගැනීම සිදු කළ හැක (උදා: Gmail). මෘදුකාංග ස්ථාපනය කිරීම අවශ්‍ය නොවේ.",
+    "syllabusRef": "G11-U3.54"
+  },
+  {
+    "id": "g11-u3-q55",
+    "lessonId": "g11-u3",
+    "questionNumber": 55,
+    "promptEn": "55",
+    "promptSi": "55",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Inbox",
+        "si": "Inbox"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Trash",
+        "si": "Trash"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Drafts (ඩ්‍රාෆ්ට්ස්)",
+        "si": "Drafts (ඩ්‍රාෆ්ට්ස්)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Spam",
+        "si": "Spam"
+      }
+    ],
+    "correctKey": "C",
+    "correctOptionId": "opt-c",
+    "explanationEn": "The **Drafts** folder automatically saves work-in-progress emails. If you close your browser or get disconnected while typing, the message remains safely stored in Drafts for future editing and sending.",
+    "explanationSi": "Drafts** ෆෝල්ඩරයේ සූදානම් කරමින් පවතින විද්‍යුත් තැපැල් ලිපි ස්වයංක්‍රීයව සුරැකේ. පසුව නැවත සංස්කරණය කර යැවීමට මෙය උපකාරී වේ.",
+    "syllabusRef": "G11-U3.55"
+  },
+  {
+    "id": "g11-u3-q56",
+    "lessonId": "g11-u3",
+    "questionNumber": 56,
+    "promptEn": "56",
+    "promptSi": "56",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A physical snack eaten near computers",
+        "si": "පරිගණකය අසලදී කන කෑමක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A small text file stored on the user's computer by a web server to remember browsing preferences, login sessions, and shopping cart items",
+        "si": "පරිශීලකයාගේ බ්‍රවුසිං මනාප, ලොගින් සෙෂන් සහ සාප්පු සවාරි අයිතම මතක තබා ගැනීමට වෙබ් සේවාදායකයක් මගින් පරිශීලක පරිගණකයේ ගබඩා කරන කුඩා පෙළ ගොනුවක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A computer virus that destroys hard drives",
+        "si": "හාඩ් ඩිස්ක් විනාශ කරන පරිගණක වෛරසයක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A type of network optical cable",
+        "si": "ජාල ඔප්ටිකල් කේබල් වර්ගයක්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A HTTP Cookie is a small piece of data sent from a website and stored on the user's computer by the web browser. Cookies allow websites to remember stateful information (such as items added in an online cart or logged-in status).",
+    "explanationSi": "කුකී (Cookie) එකක් යනු වෙබ් අඩවියක් මගින් පරිශීලකයාගේ පරිගණකයේ ගබඩා කරන කුඩා පෙළ ගොනුවකි. එමගින් පරිශීලකයාගේ ලොගින් තොරතුරු, සාප්පු සවාරි කාඩ්පත් අයිතම ආදිය මතක තබා ගනී.",
+    "syllabusRef": "G11-U3.56"
+  },
+  {
+    "id": "g11-u3-q57",
+    "lessonId": "g11-u3",
+    "questionNumber": 57,
+    "promptEn": "57",
+    "promptSi": "57",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A legitimate technique for cleaning computer viruses",
+        "si": "පරිගණක වෛරස් පිරිසිදු කිරීමේ නීත්‍යානුකූල තාක්ෂණයක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A cyber attack technique using fraudulent emails or fake websites that masquerade as trustworthy institutions to trick users into revealing sensitive passwords or credit card numbers",
+        "si": "මුරපද සහ බැංකු තොරතුරු ලබා ගැනීම සඳහා විශ්වාසදායක ආයතනයක් ලෙස පෙනී සිටිමින් ව්‍යාජ විද්‍යුත් තැපැල් හෝ වෙබ් අඩවි හරහා සිදු කරන සයිබර් ප්‍රහාරයක්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Catching real fish using a electronic rod",
+        "si": "ඉලෙක්ට්‍රොනික බිලී පිත්තක් භාවිතයෙන් මාළු බෑම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Downloading music files legally",
+        "si": "නීත්‍යානුකූලව සංගීත ගොනු බාගත කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Phishing is a social engineering attack where attackers impersonate reputable organizations (e.g. banks, PayPal) via email or fake login pages to steal user credentials, credit card details, or sensitive personal data.",
+    "explanationSi": "ෆිෂින් (Phishing) යනු විශ්වාසදායක ආයතනයක් (උදා: බැංකු) ලෙස පෙනී සිටිමින් ව්‍යාජ ලොගින් පිටු හෝ විද්‍යුත් තැපැල් මගින් පරිශීලකයන් රවටා මුරපද සහ බැංකු තොරතුරු සොරාගැනීමේ සයිබර් ප්‍රහාරයකි.",
+    "syllabusRef": "G11-U3.57"
+  },
+  {
+    "id": "g11-u3-q58",
+    "lessonId": "g11-u3",
+    "questionNumber": 58,
+    "promptEn": "58",
+    "promptSi": "58",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To put out physical electrical fires in server rooms",
+        "si": "සේවාදායක කාමරවල ඇතිවන භෞතික ගිනි නිවීම"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To monitor and filter incoming and outgoing network traffic based on predetermined security rules to block unauthorized network access",
+        "si": "පූර්ව නිර්ණිත ආරක්ෂක රීති මත පදනම්ව පැමිණෙන සහ පිටතට යන ජාල ගමනාගමනය නිරීක්ෂණය කරමින් අනුමත නොකළ පිවිසුම් වැළැක්වීම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To increase the physical speed of the CPU",
+        "si": "CPU හි භෞතික වේගය වැඩි කිරීම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To clean dust from network router ports",
+        "si": "ජාල රවුටර පෝට්වලින් දූවිලි ඉවත් කිරීම"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Firewall (hardware or software) acts as a protective barrier between a trusted internal network and untrusted external networks (like the Internet), inspecting data packets and blocking malicious traffic.",
+    "explanationSi": "ෆයර්වෝල් (Firewall) එකක් යනු විශ්වාසදායක අභ්‍යන්තර ජාලය සහ අන්තර්ජාලය වැනි බාහිර ජාල අතර ආරක්ෂිත පවුරක් ලෙස ක්‍රියා කරමින්, අනිෂ්ට ජාල ගමනාගමනය සහ අනවසර පිවිසුම් වළක්වන පද්ධතියකි.",
+    "syllabusRef": "G11-U3.58"
+  },
+  {
+    "id": "g11-u3-q59",
+    "lessonId": "g11-u3",
+    "questionNumber": 59,
+    "promptEn": "59",
+    "promptSi": "59",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The physical price of purchasing network routers",
+        "si": "ජාල රවුටර මිලදී ගැනීමේ භෞතික මිල"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A set of informal rules and acceptable ethical behavior guidelines for courteous communication on the Internet",
+        "si": "අන්තර්ජාලය ඔස්සේ සන්නිවේදනයේදී අනුගමනය කළ යුතු පිළිගත් ආචාරධර්ම සහ සුහදශීලී හැසිරීම් සමූහය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A computer programming language",
+        "si": "පරිගණක ක්‍රමලේඛන භාෂාවක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "A type of network fiber cable",
+        "si": "ජාල ෆයිබර් කේබල් වර්ගයක්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Netiquette (Network Etiquette) includes rules like avoiding ALL CAPS (which implies shouting), respecting privacy, avoiding offensive language, and not spamming in public forums or emails.",
+    "explanationSi": "නෙටිකට් (Netiquette) යනු අන්තර්ජාලය තුළ සන්නිවේදනය කිරීමේදී සියලුම අකුරු කැපිටල්වලින් ටයිප් කිරීමෙන් වැළකීම (කෑගැසීමක් ලෙස සැලකේ), පෞද්ගලිකත්වයට ගරු කිරීම සහ සුහදශීලීව හැසිරීම වැනි ආචාරධර්ම සමූහයකි.",
+    "syllabusRef": "G11-U3.59"
+  },
+  {
+    "id": "g11-u3-q60",
+    "lessonId": "g11-u3",
+    "questionNumber": 60,
+    "promptEn": "60",
+    "promptSi": "60",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The size of a laptop keyboard key",
+        "si": "ලැප්ටොප් යතුරුපුවරු යතුරක ප්‍රමාණය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The unique trail of data and online activity left behind by a user when performing digital actions on the Internet",
+        "si": "පරිශීලකයෙකු අන්තර්ජාලය තුළ සිදු කරන ක්‍රියාකාරකම්වලදී ඉතිරි වන දත්ත සහ සබැඳි ක්‍රියාකාරකම් පිළිබඳ අද්විතීය සඩුව / සටහන"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A computer mouse pad design",
+        "si": "පරිගණක මවුස් පෑඩ් සැලසුමක්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Physical footprints on a server room floor",
+        "si": "සේවාදායක කාමරයේ පොළවේ ඇති භෞතික පා සටහන්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "A Digital Footprint consists of all data left behind when using the Internet, including active footprints (social media posts, emails, submitted forms) and passive footprints (IP logs, browsing history, cookies).",
+    "explanationSi": "ඩිජිටල් පා සටහනක් (Digital Footprint) යනු පුද්ගලයෙකු අන්තර්ජාලය භාවිත කිරීමේදී ඉතිරි වන සක්‍රිය (සමාජ මාධ්‍ය සටහන්, විද්‍යුත් තැපැල්) සහ අක්‍රිය (IP ලොග, බ්‍රවුසිං ඉතිහාසය, කුකීස්) දත්ත සඩුවයි.",
+    "syllabusRef": "G11-U3.60"
+  }
+]

@@ -35,6 +35,10 @@ const config: Config = {
           highlight: "#3b82f6",
           light: "#eff6ff",
           border: "#bfdbfe",
+        },
+        slate: {
+          750: "#243044",
+          850: "#172033",
         }
       },
       boxShadow: {

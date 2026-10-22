@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "g11-u6-q1",
+    "lessonId": "g11-u6",
+    "questionNumber": 1,
+    "promptEn": "01",
+    "promptSi": "ප්‍රශ්නය 01",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Legal laws passed by parliament to punish computer hackers.",
+        "si": "පරිගණක හැකර්වරුන්ට දඬුවම් කිරීම සඳහා පාර්ලිමේන්තුව විසින් සම්මත කරන ලද නීති."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Moral principles and values that govern responsible ICT usage.",
+        "si": "තොරතුරු තාක්ෂණය වගකීම් සහගතව භාවිත කිරීම සඳහා වන ආචාරධාර්මික ප්‍රතිපත්ති සහ අගයන් පද්ධතිය."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Hardware components designed to prevent electrical shocks.",
+        "si": "විදුලි සැර වැදීම වැළැක්වීම සඳහා සැලසුම් කරන ලද යන්ත්‍ර අංග."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Password encryption algorithms used in cloud banking.",
+        "si": "වලාකුළු බැංකුකරණයේ දී භාවිත වන මුරපද කේතනය කිරීමේ ඇල්ගොරිතම."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.1"
+  },
+  {
+    "id": "g11-u6-q2",
+    "lessonId": "g11-u6",
+    "questionNumber": 2,
+    "promptEn": "02",
+    "promptSi": "ප්‍රශ්නය 02",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Environmental Sustainability",
+        "si": "පාරිසරික තිරසාරභාවය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Privacy and Confidentiality",
+        "si": "පෞද්ගලිකත්වය සහ රහස්‍යභාවය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Open Source Licensing",
+        "si": "විවෘත මූලාශ්‍ර බලපත්‍රකරණය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Hardware Interoperability",
+        "si": "යන්ත්‍රෝපකරණ අන්තර්-ක්‍රියාකාරීත්වය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.2"
+  },
+  {
+    "id": "g11-u6-q3",
+    "lessonId": "g11-u6",
+    "questionNumber": 3,
+    "promptEn": "03",
+    "promptSi": "ප්‍රශ්නය 03",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Digital Divide",
+        "si": "ඩිජිටල් පරතරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Copyright",
+        "si": "ප්‍රකාශන අයිතිය (කතුහිමිකම)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Ergonomic Standard",
+        "si": "එර්ගොනොමික් සම්මතය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Public Domain License",
+        "si": "පොදු ජන සංචිත බලපත්‍රය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.3"
+  },
+  {
+    "id": "g11-u6-q4",
+    "lessonId": "g11-u6",
+    "questionNumber": 4,
+    "promptEn": "04",
+    "promptSi": "ප්‍රශ්නය 04",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Phishing",
+        "si": "ෆිෂින්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Plagiarism",
+        "si": "ව්‍යාජ උපුටා ගැනීම (Plagiarism)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Defragmentation",
+        "si": "ඩීෆ්‍රැග්මෙන්ටේෂන්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Virtualization",
+        "si": "වර්චුවලයිසේෂන්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.4"
+  },
+  {
+    "id": "g11-u6-q5",
+    "lessonId": "g11-u6",
+    "questionNumber": 5,
+    "promptEn": "05",
+    "promptSi": "ප්‍රශ්නය 05",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Green Computing",
+        "si": "හරිත පරිගණකකරණය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Software Piracy",
+        "si": "මෘදුකාංග කොල්ලකෑම"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Data Redundancy",
+        "si": "දත්ත පුනරාවර්තනය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "System Maintenance",
+        "si": "පද්ධති නඩත්තුව"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.5"
+  },
+  {
+    "id": "g11-u6-q6",
+    "lessonId": "g11-u6",
+    "questionNumber": 6,
+    "promptEn": "06",
+    "promptSi": "ප්‍රශ්නය 06",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Free and Open Source Software (FOSS)",
+        "si": "නිදහස් හා විවෘත මූලාශ්‍ර මෘදුකාංග"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Proprietary Software",
+        "si": "හිමිකාර මෘදුකාංග"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Public Domain Software",
+        "si": "පොදු ජන සංචිත මෘදුකාංග"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Freeware",
+        "si": "ප්‍රීවෙයාර්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.6"
+  },
+  {
+    "id": "g11-u6-q7",
+    "lessonId": "g11-u6",
+    "questionNumber": 7,
+    "promptEn": "07",
+    "promptSi": "ප්‍රශ්නය 07",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Microsoft Windows 11",
+        "si": "Microsoft Windows 11"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "LibreOffice Writer",
+        "si": "Ubuntu Linux"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Adobe Photoshop",
+        "si": "Adobe Photoshop"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "macOS Sonoma",
+        "si": "macOS Sonoma"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.7"
+  },
+  {
+    "id": "g11-u6-q8",
+    "lessonId": "g11-u6",
+    "questionNumber": 8,
+    "promptEn": "08",
+    "promptSi": "ප්‍රශ්නය 08",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Freeware",
+        "si": "ප්‍රීවෙයාර්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Shareware",
+        "si": "ෂෙයාර්වෙයාර්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Firmware",
+        "si": "ෆර්ම්වෙයාර්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Open Source",
+        "si": "විවෘත මූලාශ්‍ර"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.8"
+  },
+  {
+    "id": "g11-u6-q9",
+    "lessonId": "g11-u6",
+    "questionNumber": 9,
+    "promptEn": "09",
+    "promptSi": "ප්‍රශ්නය 09",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Open Source Software",
+        "si": "විවෘත මූලාශ්‍ර මෘදුකාංග"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Freeware",
+        "si": "ප්‍රීවෙයාර්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Commercial Software",
+        "si": "වාණිජ මෘදුකාංග"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Shareware",
+        "si": "ෂෙයාර්වෙයාර්"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.9"
+  },
+  {
+    "id": "g11-u6-q10",
+    "lessonId": "g11-u6",
+    "questionNumber": 10,
+    "promptEn": "10",
+    "promptSi": "ප්‍රශ්නය 10",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "A strict copyright that prohibits any viewing of digital art.",
+        "si": "ඩිජිටල් කලා නිර්මාණ නැරඹීම සම්පූර්ණයෙන්ම තහනම් කරන දැඩි කතුහිමිකමකි."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "A flexible license allowing creators to share work with specified permissions.",
+        "si": "නිර්මාණකරුවන්ට නියමිත කොන්දේසි සහිතව තම නිර්මාණ බෙදා හැරීමට ඉඩ සලසන නම්‍යශීලී බලපත්‍රයකි."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "A legal fine imposed on illegal music downloaders.",
+        "si": "නීති විරෝධී ලෙස සංගීතය බාගත කරන්නන්ට පනවන නීතිමය දඩයකි."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "An antivirus engine used in server infrastructure.",
+        "si": "සේවාදායක යටිතල පහසුකම්වල භාවිත වන ඇන්ටිවයිරස් එන්ජිමකි."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.10"
+  },
+  {
+    "id": "g11-u6-q11",
+    "lessonId": "g11-u6",
+    "questionNumber": 11,
+    "promptEn": "11",
+    "promptSi": "ප්‍රශ්නය 11",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To prevent any new inventions from entering the country.",
+        "si": "රට තුළට අලුත් සොයාගැනීම් පැමිණීම වැළැක්වීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To encourage innovation and protect creators' financial",
+        "si": "legal interests. / නව නිපැයුම් දිරිමත් කිරීම සහ නිර්මාණකරුවන්ගේ ආර්ථික / නීතිමය අයිතීන් ආරක්ෂා කිරීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To force all software companies to become non-profit entities.",
+        "si": "සියලුම මෘදුකාංග සමාගම් ලාභ නොලබන ආයතන බවට පත් කිරීමට බල කිරීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To make all software source code public domain by law.",
+        "si": "සියලුම මෘදුකාංග කේත නීතියෙන්ම මහජන සංචිතයට එක් කිරීම."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.11"
+  },
+  {
+    "id": "g11-u6-q12",
+    "lessonId": "g11-u6",
+    "questionNumber": 12,
+    "promptEn": "12",
+    "promptSi": "ප්‍රශ්නය 12",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Delete the original author's name and insert their own name.",
+        "si": "මුල් කතුවරයාගේ නම මකා තම නම ඇතුළත් කිරීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Provide accurate citations and source references.",
+        "si": "නිවැරදි ලෙස උපුටා දැක්වීම් (Citations) සහ මූලාශ්‍ර යොමු කිරීම් සිදු කිරීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Sell the PDF files online to make personal profit.",
+        "si": "පෞද්ගලික ලාභ ලැබීමට එම PDF ගොනු අන්තර්ජාලයේ විකිණීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Claim the research data was collected by themselves.",
+        "si": "පර්යේෂණ දත්ත තමන් විසින් රැස් කළ බව ප්‍රකාශ කිරීම."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.12"
+  },
+  {
+    "id": "g11-u6-q13",
+    "lessonId": "g11-u6",
+    "questionNumber": 13,
+    "promptEn": "13",
+    "promptSi": "ප්‍රශ්නය 13",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "UNESCO",
+        "si": "UNESCO"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "ICANN (Internet Corporation for Assigned Names and Numbers)",
+        "si": "ICANN (Internet Corporation for Assigned Names and Numbers)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "IEEE",
+        "si": "IEEE"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "ISO",
+        "si": "ISO"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.13"
+  },
+  {
+    "id": "g11-u6-q14",
+    "lessonId": "g11-u6",
+    "questionNumber": 14,
+    "promptEn": "14",
+    "promptSi": "ප්‍රශ්නය 14",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Registered Trademark ®",
+        "si": "Registered Trademark ®"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Copyright Symbol ©",
+        "si": "Copyright Symbol ©"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Creative Commons Zero",
+        "si": "Creative Commons Zero"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Open Source Hardware Logo",
+        "si": "Open Source Hardware Logo"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.14"
+  },
+  {
+    "id": "g11-u6-q15",
+    "lessonId": "g11-u6",
+    "questionNumber": 15,
+    "promptEn": "15",
+    "promptSi": "ප්‍රශ්නය 15",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Automatic deletion of the user's email account.",
+        "si": "පරිශීලකයාගේ විද්‍යුත් තැපැල් ගිණුම ස්වයංක්‍රීයව මකා දැමීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Legal prosecution under Intellectual Property Act No. 36 of 2003 resulting in fines or imprisonment.",
+        "si": "2003 අංක 36 දරන බුද්ධිමය දේපළ පනත යටතේ අධිකරණමය දඩ හෝ බන්ධනාගාර දඬුවම් ලැබීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Free upgrade to proprietary enterprise software.",
+        "si": "හිමිකාර මෘදුකාංග සඳහා නොමිලේ උත්ශ්‍රේණි කිරීමක් ලැබීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Permanent disconnection of local electricity supply.",
+        "si": "විදුලි සැපයුම ස්ථිරවම විසන්ධි කිරීම."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.15"
+  },
+  {
+    "id": "g11-u6-q16",
+    "lessonId": "g11-u6",
+    "questionNumber": 16,
+    "promptEn": "16",
+    "promptSi": "ප්‍රශ්නය 16",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Hacking",
+        "si": "Cracking / හැකිං / ක්‍රැකිං"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Social Engineering Audit",
+        "si": "සමාජ ඉංජිනේරු විගණනය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "System Defragmentation",
+        "si": "පද්ධති ඩීෆ්‍රැග්මෙන්ටේෂන්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Data Normalization",
+        "si": "දත්ත ප්‍රමතකරණය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.16"
+  },
+  {
+    "id": "g11-u6-q17",
+    "lessonId": "g11-u6",
+    "questionNumber": 17,
+    "promptEn": "17",
+    "promptSi": "ප්‍රශ්නය 17",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Phishing",
+        "si": "ෆිෂින්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Spooling",
+        "si": "ස්පූලිං"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Formatting",
+        "si": "ෆෝමැටින්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Rasterization",
+        "si": "රැස්ටරයිසේෂන්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.17"
+  },
+  {
+    "id": "g11-u6-q18",
+    "lessonId": "g11-u6",
+    "questionNumber": 18,
+    "promptEn": "18",
+    "promptSi": "ප්‍රශ්නය 18",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Spyware",
+        "si": "ස්පයිවෙයාර්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Ransomware",
+        "si": "කප්පම් මෘදුකාංග (Ransomware)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Adware",
+        "si": "ඇඩ්වෙයාර්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Utility Software",
+        "si": "උපයෝගිතා මෘදුකාංග"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.18"
+  },
+  {
+    "id": "g11-u6-q19",
+    "lessonId": "g11-u6",
+    "questionNumber": 19,
+    "promptEn": "19",
+    "promptSi": "ප්‍රශ්නය 19",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Computer Virus",
+        "si": "පරිගණක වෛරසය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Computer Worm",
+        "si": "පරිගණක පණුවා (Computer Worm)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Macro Virus",
+        "si": "මැක්‍රෝ වෛරසය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Keylogger",
+        "si": "කීලොගරය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.19"
+  },
+  {
+    "id": "g11-u6-q20",
+    "lessonId": "g11-u6",
+    "questionNumber": 20,
+    "promptEn": "20",
+    "promptSi": "ප්‍රශ්නය 20",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Trojan Horse",
+        "si": "ට්‍රෝජන් අශ්වයා (Trojan Horse)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Firewall",
+        "si": "ෆයර්වෝල්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Root Directory",
+        "si": "රූට් ඩිරෙක්ටරිය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Patch Update",
+        "si": "පැච් යාවත්කාලීනය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.20"
+  },
+  {
+    "id": "g11-u6-q21",
+    "lessonId": "g11-u6",
+    "questionNumber": 21,
+    "promptEn": "21",
+    "promptSi": "ප්‍රශ්නය 21",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Denial of Service (DoS",
+        "si": "DDoS) Attack / සේවා වාරණ ප්‍රහාරය (DoS / DDoS)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Defragmentation Attack",
+        "si": "ඩීෆ්‍රැග්මෙන්ටේෂන් ප්‍රහාරය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "SQL Injection",
+        "si": "SQL ඉන්ජෙක්ෂන්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Cross-Site Scripting",
+        "si": "ක්‍රොස්-සයිට් ස්ක්‍රිප්ටින්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.21"
+  },
+  {
+    "id": "g11-u6-q22",
+    "lessonId": "g11-u6",
+    "questionNumber": 22,
+    "promptEn": "22",
+    "promptSi": "ප්‍රශ්නය 22",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Spyware",
+        "si": "Keylogger / ස්පයිවෙයාර් / කීලොගරය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "System Utility",
+        "si": "පද්ධති උපයෝගිතා"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Firmware",
+        "si": "ෆර්ම්වෙයාර්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Device Driver",
+        "si": "උපාංග ධාවකය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.22"
+  },
+  {
+    "id": "g11-u6-q23",
+    "lessonId": "g11-u6",
+    "questionNumber": 23,
+    "promptEn": "23",
+    "promptSi": "ප්‍රශ්නය 23",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Computer Crimes Act No. 24 of 2007",
+        "si": "2007 අංක 24 දරන පරිගණක අපරාධ පනත"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Telecommunications Act of 1990",
+        "si": "1990 විදුලි සංදේශ පනත"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Electronic Transactions Act of 1985",
+        "si": "1985 ඉලෙක්ට්‍රොනික ගනුදෙනු පනත"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Information Technology Act of 2015",
+        "si": "2015 තොරතුරු තාක්ෂණ පනත"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.23"
+  },
+  {
+    "id": "g11-u6-q24",
+    "lessonId": "g11-u6",
+    "questionNumber": 24,
+    "promptEn": "24",
+    "promptSi": "ප්‍රශ්නය 24",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Sri Lanka CERT|CC (Computer Emergency Readiness Team | Coordination Centre)",
+        "si": "Sri Lanka CERT|CC (Computer Emergency Readiness Team | Coordination Centre)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Central Bank of Sri Lanka",
+        "si": "Central Bank of Sri Lanka"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Sri Lanka Standards Institution (SLSI)",
+        "si": "Sri Lanka Standards Institution (SLSI)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Sri Lanka Telecom (SLT)",
+        "si": "Sri Lanka Telecom (SLT)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.24"
+  },
+  {
+    "id": "g11-u6-q25",
+    "lessonId": "g11-u6",
+    "questionNumber": 25,
+    "promptEn": "25",
+    "promptSi": "ප්‍රශ්නය 25",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Network Firewall",
+        "si": "ජාල ෆයර්වෝල් (Firewall)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Disk Defragmenter",
+        "si": "ඩිස්ක් ඩීෆ්‍රැග්මන්ටර්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Backup Drive",
+        "si": "බැකප් ඩ්‍රයිව්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Screen Saver",
+        "si": "ස්ක්‍රීන් සේවර්"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.25"
+  },
+  {
+    "id": "g11-u6-q26",
+    "lessonId": "g11-u6",
+    "questionNumber": 26,
+    "promptEn": "26",
+    "promptSi": "ප්‍රශ්නය 26",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Identity Theft",
+        "si": "අනන්‍යතා සොරකම (Identity Theft)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Data Redundancy",
+        "si": "දත්ත පුනරාවර්තනය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Green Computing",
+        "si": "හරිත පරිගණකකරණය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "System Maintenance",
+        "si": "පද්ධති නඩත්තුව"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.26"
+  },
+  {
+    "id": "g11-u6-q27",
+    "lessonId": "g11-u6",
+    "questionNumber": 27,
+    "promptEn": "27",
+    "promptSi": "ප්‍රශ්නය 27",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Using one's birth date or telephone number.",
+        "si": "තම උපන්දින දිනය හෝ දුරකථන අංකය භාවිත කිරීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Combining uppercase",
+        "si": "lowercase letters, numbers, and special symbols (@, #, $). / ලොකු / කුඩා අකුරු, සංඛ්‍යා සහ විශේෂ සංකේත (@, #, $) මිශ්‍ර කර භාවිත කිරීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Using the word \"password123\" for all user accounts.",
+        "si": "සියලුම ගිණුම් සඳහා \"password123\" යන වචනය භාවිත කිරීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Writing the password on a note stuck to the monitor screen.",
+        "si": "මොනිටර් තිරයේ අලවන ලද කොළයක මුරපදය ලියා තැබීම."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.27"
+  },
+  {
+    "id": "g11-u6-q28",
+    "lessonId": "g11-u6",
+    "questionNumber": 28,
+    "promptEn": "28",
+    "promptSi": "ප්‍රශ්නය 28",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Biometric Authentication",
+        "si": "බයෝමෙට්‍රික් සත්‍යාපනය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "CAPTCHA Challenge",
+        "si": "කැප්චා පරීක්ෂාව"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Symmetric Key Cryptography",
+        "si": "සමමිතික කේතනය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "PIN Number Lookup",
+        "si": "පින් අංක සෙවීම"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.28"
+  },
+  {
+    "id": "g11-u6-q29",
+    "lessonId": "g11-u6",
+    "questionNumber": 29,
+    "promptEn": "29",
+    "promptSi": "ප්‍රශ්නය 29",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The web server is located in Sri Lanka.",
+        "si": "වෙබ් සේවාදායකය ශ්‍රී ලංකාවේ පිහිටා ඇති බව."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Communication between browser and server is encrypted (SSL",
+        "si": "TLS). / බ්‍රවුසරය සහ සේවාදායකය අතර සන්නිවේදනය කේතනය කර (Encrypted) ආරක්ෂිත කර ඇති බව."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The web page contains only static text.",
+        "si": "වෙබ් පිටුවේ ඇත්තේ ස්ථිතික පෙළ පමණක් බව."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "The site offers free open source software downloads.",
+        "si": "අඩවිය මගින් නිදහස් මෘදුකාංග බාගත කිරීම් ලබා දෙන බව."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.29"
+  },
+  {
+    "id": "g11-u6-q30",
+    "lessonId": "g11-u6",
+    "questionNumber": 30,
+    "promptEn": "30",
+    "promptSi": "ප්‍රශ්නය 30",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To check if the internet connection speed is high.",
+        "si": "අන්තර්ජාල වේගය වැඩිදැයි පරීක්ෂා කිරීමට."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To distinguish between human users and automated spam bots.",
+        "si": "සැබෑ මානව පරිශීලකයන් සහ ස්වයංක්‍රීය බොට් වැඩසටහන් (Bots) වෙන්කර හඳුනා ගැනීමට."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To calculate student term test average marks.",
+        "si": "සිසුන්ගේ වාර විභාග සාමාන්‍ය ලකුණු ගණනය කිරීමට."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To compress high-resolution image files.",
+        "si": "උසස් විෆේඛන රූප ගොනු සංකෝචනය කිරීමට."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.30"
+  },
+  {
+    "id": "g11-u6-q31",
+    "lessonId": "g11-u6",
+    "questionNumber": 31,
+    "promptEn": "31",
+    "promptSi": "ප්‍රශ්නය 31",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The study of computer programming language syntax.",
+        "si": "පරිගණක ක්‍රමලේඛන භාෂා කේතනය පිළිබඳ අධ්‍යයනය."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Designing tools, equipment, and workplaces to fit human physical comfort and capabilities.",
+        "si": "මිනිසාගේ ශාරීරික පහසුවට හා හැකියාවන්ට ගැලපෙන පරිදි සේවා ස්ථානය සහ උපකරණ සැලසුම් කිරීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The process of recycling plastic computer components.",
+        "si": "ප්ලාස්ටික් පරිගණක කොටස් ප්‍රතිචක්‍රීකරණය කිරීමේ ක්‍රියාවලිය."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Formulating database validation rules.",
+        "si": "දත්ත සමුදා වලංගු කිරීමේ රීති සකස් කිරීම."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.31"
+  },
+  {
+    "id": "g11-u6-q32",
+    "lessonId": "g11-u6",
+    "questionNumber": 32,
+    "promptEn": "32",
+    "promptSi": "ප්‍රශ්නය 32",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Repetitive Strain Injury (RSI)",
+        "si": "පුනරාවර්තී ආයාස ආබාධය (RSI)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Computer Crimes Act Violation",
+        "si": "පරිගණක අපරාධ පනත උල්ලංඝනය"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Digital Divide Effect",
+        "si": "ඩිජිටල් පරතරයේ බලපෑම"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "System Failure",
+        "si": "පද්ධති අක්‍රිය වීම"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.32"
+  },
+  {
+    "id": "g11-u6-q33",
+    "lessonId": "g11-u6",
+    "questionNumber": 33,
+    "promptEn": "33",
+    "promptSi": "ප්‍රශ්නය 33",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Carpal Tunnel Syndrome (CTS)",
+        "si": "කාපල් ටනල් සහලක්ෂණය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Computer Vision Syndrome (CVS)",
+        "si": "පරිගණක දෘශ්‍ය සහලක්ෂණය (CVS)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Defragmentation Syndrome",
+        "si": "ඩීෆ්‍රැග්මෙන්ටේෂන් සහලක්ෂණය"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Ransomware Attack",
+        "si": "රන්සම්වෙයාර් ප්‍රහාරය"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.33"
+  },
+  {
+    "id": "g11-u6-q34",
+    "lessonId": "g11-u6",
+    "questionNumber": 34,
+    "promptEn": "34",
+    "promptSi": "ප්‍රශ්නය 34",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Carpal Tunnel Syndrome (CTS)",
+        "si": "කාපල් ටනල් සහලක්ෂණය (CTS)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Phishing",
+        "si": "ෆිෂින්"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Plagiarism",
+        "si": "ප්ලැජියරිසම්"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Green Computing",
+        "si": "හරිත පරිගණකකරණය"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.34"
+  },
+  {
+    "id": "g11-u6-q35",
+    "lessonId": "g11-u6",
+    "questionNumber": 35,
+    "promptEn": "35",
+    "promptSi": "ප්‍රශ්නය 35",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "5 to 10 cm",
+        "si": "5 to 10 cm"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "45 to 60 cm (18 to 24 inches)",
+        "si": "සෙන්ටිමීටර 45 සිට 60 දක්වා (අඟල් 18 - 24)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "2 to 3 meters",
+        "si": "2 to 3 meters"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Touch the screen with noses",
+        "si": "Touch the screen with noses"
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.35"
+  },
+  {
+    "id": "g11-u6-q36",
+    "lessonId": "g11-u6",
+    "questionNumber": 36,
+    "promptEn": "36",
+    "promptSi": "ප්‍රශ්නය 36",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Every 20 minutes, look at an object 20 feet away for at least 20 seconds.",
+        "si": "සෑම මිනිත්තු 20 කට වරක්ම අඩි 20 ක් දුරින් ඇති වස්තුවක් දෙස තත්පර 20 ක් බලා සිටීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Work for 20 hours, rest for 20 minutes, drink 20 glasses of water.",
+        "si": "පැය 20 ක් වැඩ කර මිනිත්තු 20 ක් විවේක ගැනීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Blink 20 times every 20 seconds with 20% brightness.",
+        "si": "සෑම තත්පර 20 කට වරක්ම 20 වතාවක් ඇසිපිය හෙළීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Turn off monitor every 20 days for 20 hours.",
+        "si": "සෑම දින 20 කට වරක්ම පැය 20 කට මොනිටරය නිවා තැබීම."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.36"
+  },
+  {
+    "id": "g11-u6-q37",
+    "lessonId": "g11-u6",
+    "questionNumber": 37,
+    "promptEn": "37",
+    "promptSi": "ප්‍රශ්නය 37",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Top edge of monitor at or slightly below eye level.",
+        "si": "මොනිටරයේ ඉහළ දාරය ඇස් මට්ටමට හෝ ඊට තරමක් පහළින් සිටින සේ."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Placed on the floor looking down vertically.",
+        "si": "බිම තබා සෘජුවම පහළ බලන සේ."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Fixed 1 meter above head level looking upwards.",
+        "si": "හිසට වඩා මීටරයක් ඉහළින් තබා ඉහළ බලන සේ."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Tilted at 90 degrees pointing to the left wall.",
+        "si": "වම් බිත්තියට මුහුණ ලා සකස් කිරීම."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.37"
+  },
+  {
+    "id": "g11-u6-q38",
+    "lessonId": "g11-u6",
+    "questionNumber": 38,
+    "promptEn": "38",
+    "promptSi": "ප්‍රශ්නය 38",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Adjustable seat height and proper Lumbar Support for lower spine.",
+        "si": "සකස් කළ හැකි උස සහ කොන්දේ පහළ ප්‍රදේශයට ආධාරකයක් (Lumbar Support)."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Rigid metal backrest with zero padding.",
+        "si": "පෑඩින් නොමැති තද ලෝහ පිටුපසක්."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Wheels that spin continuously without stopping.",
+        "si": "නතර කළ නොහැකි ලෙස කැරකෙන රෝද."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Seat tilted forward at a 45-degree angle.",
+        "si": "අංශක 45 ක් ඉදිරියට නැඹුරු වූ අසුනක්."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.38"
+  },
+  {
+    "id": "g11-u6-q39",
+    "lessonId": "g11-u6",
+    "questionNumber": 39,
+    "promptEn": "39",
+    "promptSi": "ප්‍රශ්නය 39",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "90 degrees (right angle) relaxed position",
+        "si": "අංශක 90 ක සුවපහසු කෝණයක්"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Fully extended at 180 degrees",
+        "si": "Fully extended at 180 degrees"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Bent fully at 15 degrees touching shoulders",
+        "si": "Bent fully at 15 degrees touching shoulders"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Raised above head level",
+        "si": "Raised above head level"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.39"
+  },
+  {
+    "id": "g11-u6-q40",
+    "lessonId": "g11-u6",
+    "questionNumber": 40,
+    "promptEn": "40",
+    "promptSi": "ප්‍රශ්නය 40",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Ergonomic Wrist Rest Pad",
+        "si": "එර්ගොනොමික් මැණික් කටු ආධාරකය (Wrist Rest)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Anti-glare Screen Filter",
+        "si": "Anti-glare Screen Filter"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Footrest Pedal",
+        "si": "Footrest Pedal"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "High DPI Gaming Mouse",
+        "si": "High DPI Gaming Mouse"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.40"
+  },
+  {
+    "id": "g11-u6-q41",
+    "lessonId": "g11-u6",
+    "questionNumber": 41,
+    "promptEn": "41",
+    "promptSi": "ප්‍රශ්නය 41",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Footrest",
+        "si": "පාද ආධාරකය (Footrest)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Headrest",
+        "si": "Headrest"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Mouse Pad",
+        "si": "Mouse Pad"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "CPU Stand",
+        "si": "CPU Stand"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.41"
+  },
+  {
+    "id": "g11-u6-q42",
+    "lessonId": "g11-u6",
+    "questionNumber": 42,
+    "promptEn": "42",
+    "promptSi": "ප්‍රශ්නය 42",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Placing screen directly facing an unshaded open window.",
+        "si": "ආවරණය නොකළ කවුළුවකට සෘජුවම මුහුණ ලා මොනිටරය තැබීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Using LED ceiling bulbs.",
+        "si": "Using LED ceiling bulbs."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Air conditioning set to 24 degrees Celsius.",
+        "si": "Air conditioning set to 24 degrees Celsius."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Carpeted flooring.",
+        "si": "Carpeted flooring."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.42"
+  },
+  {
+    "id": "g11-u6-q43",
+    "lessonId": "g11-u6",
+    "questionNumber": 43,
+    "promptEn": "43",
+    "promptSi": "ප්‍රශ්නය 43",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Short 5-minute active stretching breaks every hour.",
+        "si": "සෑම පැයකට වරක්ම මිනිත්තු 5 ක කුඩා විවේකයක් ගෙන ඇඟ මැඩීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Drinking 10 cups of energy drinks continuously.",
+        "si": "Drinking 10 cups of energy drinks continuously."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Working 12 hours non-stop without speaking.",
+        "si": "Working 12 hours non-stop without speaking."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Staring at the screen during lunch break.",
+        "si": "Staring at the screen during lunch break."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.43"
+  },
+  {
+    "id": "g11-u6-q44",
+    "lessonId": "g11-u6",
+    "questionNumber": 44,
+    "promptEn": "44",
+    "promptSi": "ප්‍රශ්නය 44",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Physical Workplace Safety",
+        "si": "භෞතික සේවා ස්ථාන ආරක්ෂාව"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Open Source Software Standards",
+        "si": "Open Source Software Standards"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Database Normalization",
+        "si": "Database Normalization"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Computer Vision Syndrome",
+        "si": "Computer Vision Syndrome"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.44"
+  },
+  {
+    "id": "g11-u6-q45",
+    "lessonId": "g11-u6",
+    "questionNumber": 45,
+    "promptEn": "45",
+    "promptSi": "ප්‍රශ්නය 45",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "To prevent electrical short-circuits and fire hazards.",
+        "si": "විදුලි කෙටි පරිපථ සහ ගිනි ඇවිලීම් වැළැක්වීමට."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "To increase internet downloading bandwidth.",
+        "si": "To increase internet downloading bandwidth."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "To prevent virus infection on hard drives.",
+        "si": "To prevent virus infection on hard drives."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "To shorten software compilation time.",
+        "si": "To shorten software compilation time."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.45"
+  },
+  {
+    "id": "g11-u6-q46",
+    "lessonId": "g11-u6",
+    "questionNumber": 46,
+    "promptEn": "46",
+    "promptSi": "ප්‍රශ්නය 46",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Discarded, obsolete, or broken electrical and electronic equipment.",
+        "si": "භාවිතයෙන් ඉවත් කරන ලද, කල් ඉකුත් වූ හෝ අලුත්වැඩියා කළ නොහැකි විද්‍යුත් හා ඉලෙක්ට්‍රොනික උපකරණ."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Organic kitchen food waste.",
+        "si": "මුළුතැන්ගෙයි කාබනික ආහාර අපද්‍රව්‍ය."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Paper printouts generated in offices.",
+        "si": "කාර්යාලවල මුද්‍රණය කරන ලද කඩදාසි."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Plastic drinking bottles.",
+        "si": "ප්ලාස්ටික් බෝතල්."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.46"
+  },
+  {
+    "id": "g11-u6-q47",
+    "lessonId": "g11-u6",
+    "questionNumber": 47,
+    "promptEn": "47",
+    "promptSi": "ප්‍රශ්නය 47",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Lead (Pb)",
+        "si": "ලෙඩ් (ඊයම්)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Aluminum (Al)",
+        "si": "Aluminum (Al)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Sodium (Na)",
+        "si": "Sodium (Na)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Silicon (Si)",
+        "si": "Silicon (Si)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.47"
+  },
+  {
+    "id": "g11-u6-q48",
+    "lessonId": "g11-u6",
+    "questionNumber": 48,
+    "promptEn": "48",
+    "promptSi": "ප්‍රශ්නය 48",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Mercury (Hg)",
+        "si": "මද්‍යසාර / රසදිය (Mercury)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Gold (Au)",
+        "si": "Gold (Au)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Iron (Fe)",
+        "si": "Iron (Fe)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Copper (Cu)",
+        "si": "Copper (Cu)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.48"
+  },
+  {
+    "id": "g11-u6-q49",
+    "lessonId": "g11-u6",
+    "questionNumber": 49,
+    "promptEn": "49",
+    "promptSi": "ප්‍රශ්නය 49",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Cadmium (Cd)",
+        "si": "කැඩ්මියම් (Cadmium)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Magnesium (Mg)",
+        "si": "Magnesium (Mg)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Carbon (C)",
+        "si": "Carbon (C)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Nitrogen (N)",
+        "si": "Nitrogen (N)"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.49"
+  },
+  {
+    "id": "g11-u6-q50",
+    "lessonId": "g11-u6",
+    "questionNumber": 50,
+    "promptEn": "50",
+    "promptSi": "ප්‍රශ්නය 50",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Reduce, Reuse, Recycle",
+        "si": "අඩු කිරීම, නැවත භාවිතය, ප්‍රතිචක්‍රීකරණය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Remove, Reform, Restore",
+        "si": "Remove, Reform, Restore"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Read, Rewrite, Reformat",
+        "si": "Read, Rewrite, Reformat"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Run, Restart, Reboot",
+        "si": "Run, Restart, Reboot"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.50"
+  },
+  {
+    "id": "g11-u6-q51",
+    "lessonId": "g11-u6",
+    "questionNumber": 51,
+    "promptEn": "51",
+    "promptSi": "ප්‍රශ්නය 51",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Reuse",
+        "si": "නැවත භාවිතය (Reuse)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "E-Waste Incineration",
+        "si": "E-Waste Incineration"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Data Encryption",
+        "si": "Data Encryption"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Defragmentation",
+        "si": "Defragmentation"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.51"
+  },
+  {
+    "id": "g11-u6-q52",
+    "lessonId": "g11-u6",
+    "questionNumber": 52,
+    "promptEn": "52",
+    "promptSi": "ප්‍රශ්නය 52",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Painting all computer plastic casings in green color.",
+        "si": "පරිගණක ආවරණ කොළ පාටින් තීන්ත ගෑම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Eco-friendly and energy-efficient manufacture, use, and disposal of IT resources.",
+        "si": "තොරතුරු තාක්ෂණ සම්පත් පරිසර හිතකාමී හා බලශක්ති කාර්යක්ෂම ලෙස භාවිතය හා බැහැර කිරීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Growing plants inside computer monitor casings.",
+        "si": "මොනිටර් තුළ පැළෑටි වගා කිරීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Running computer power directly from fruit batteries.",
+        "si": "පලතුරු බැටරිවලින් පරිගණක ක්‍රියා කරවීම."
+      }
+    ],
+    "correctKey": "B",
+    "correctOptionId": "opt-b",
+    "explanationEn": "Option (B) is the correct official syllabus answer.",
+    "explanationSi": "(B) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.52"
+  },
+  {
+    "id": "g11-u6-q53",
+    "lessonId": "g11-u6",
+    "questionNumber": 53,
+    "promptEn": "53",
+    "promptSi": "ප්‍රශ්නය 53",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Enabling \"Sleep Mode\" or Power Management on PCs when idle.",
+        "si": "භාවිතයේ නොමැති විට පරිගණකයේ \"Sleep Mode\" සක්‍රිය කිරීම."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Leaving all lab computers running 24",
+        "si": "7 overnight. / සියලුම පරිගණක රාත්‍රිය පුරා නොනවත්වා පණගන්වා තැබීම."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Printing every email received on paper.",
+        "si": "ලැබෙන සියලුම ඉමේල් කඩදාසිවල මුද්‍රණය කිරීම."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Burning old computer circuit boards in open fires.",
+        "si": "පැරණි සර්කිට් බෝඩ් එළිමහනේ ගිනි තැබීම."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.53"
+  },
+  {
+    "id": "g11-u6-q54",
+    "lessonId": "g11-u6",
+    "questionNumber": 54,
+    "promptEn": "54",
+    "promptSi": "ප්‍රශ්නය 54",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Green Computing & Resource Conservation",
+        "si": "හරිත පරිගණකකරණය සහ සම්පත් සංරක්ෂණය"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Increased E-Waste toxicity",
+        "si": "Increased E-Waste toxicity"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Higher Phishing vulnerabilities",
+        "si": "Higher Phishing vulnerabilities"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Musculoskeletal Injury",
+        "si": "Musculoskeletal Injury"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.54"
+  },
+  {
+    "id": "g11-u6-q55",
+    "lessonId": "g11-u6",
+    "questionNumber": 55,
+    "promptEn": "55",
+    "promptSi": "ප්‍රශ්නය 55",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Toxic metals (Lead",
+        "si": "Mercury) leach into groundwater and soil. / විෂ සහිත ලෝහ (ඊයම් / රසදිය) භූගත ජලයට හා පසට එකතු වීම නිසා."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "CRT glass explodes upon touching rain.",
+        "si": "CRT glass explodes upon touching rain."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "It steals bandwidth from Wi-Fi routers.",
+        "si": "It steals bandwidth from Wi-Fi routers."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "It creates automatic computer viruses.",
+        "si": "It creates automatic computer viruses."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.55"
+  },
+  {
+    "id": "g11-u6-q56",
+    "lessonId": "g11-u6",
+    "questionNumber": 56,
+    "promptEn": "56",
+    "promptSi": "ප්‍රශ්නය 56",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "The gap between social groups who have access to ICT and those who do not.",
+        "si": "තොරතුරු තාක්ෂණය භාවිතයට පහසුකම් ඇති සහ නැති ප්‍රජාවන් අතර පවතින පරතරය."
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "The physical distance between a CPU and RAM module.",
+        "si": "CPU සහ RAM අතර භෞතික දුර."
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "The difference between binary 0 and binary 1.",
+        "si": "බිටු 0 සහ 1 අතර වෙනස."
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Division operator in Pascal language.",
+        "si": "පැස්කල් භාෂාවේ බෙදීමේ සංකේතය."
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.56"
+  },
+  {
+    "id": "g11-u6-q57",
+    "lessonId": "g11-u6",
+    "questionNumber": 57,
+    "promptEn": "57",
+    "promptSi": "ප්‍රශ්නය 57",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Nenasala Centers",
+        "si": "නෙනසල මධ්‍යස්ථාන"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "WinRAR Distribution Project",
+        "si": "WinRAR Distribution Project"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Commercial Banking Portal",
+        "si": "Commercial Banking Portal"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Computer Crimes Court",
+        "si": "Computer Crimes Court"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.57"
+  },
+  {
+    "id": "g11-u6-q58",
+    "lessonId": "g11-u6",
+    "questionNumber": 58,
+    "promptEn": "58",
+    "promptSi": "ප්‍රශ්නය 58",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Internet of Things (IoT)",
+        "si": "වස්තු අන්තර්ජාලය (IoT)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Disk Cleanup",
+        "si": "Disk Cleanup"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Relational Database Management System (RDBMS)",
+        "si": "Relational Database Management System (RDBMS)"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Pascal Array Indexing",
+        "si": "Pascal Array Indexing"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.58"
+  },
+  {
+    "id": "g11-u6-q59",
+    "lessonId": "g11-u6",
+    "questionNumber": 59,
+    "promptEn": "59",
+    "promptSi": "ප්‍රශ්නය 59",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Artificial Intelligence (AI)",
+        "si": "කෘතිම බුද්ධිය (AI)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "ASCII Encoding",
+        "si": "ASCII Encoding"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Repetitive Strain Injury",
+        "si": "Repetitive Strain Injury"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Spooling Manager",
+        "si": "Spooling Manager"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.59"
+  },
+  {
+    "id": "g11-u6-q60",
+    "lessonId": "g11-u6",
+    "questionNumber": 60,
+    "promptEn": "60",
+    "promptSi": "ප්‍රශ්නය 60",
+    "options": [
+      {
+        "id": "opt-a",
+        "key": "A",
+        "en": "Cloud Computing",
+        "si": "වලාකුළු පරිගණකකරණය (Cloud Computing)"
+      },
+      {
+        "id": "opt-b",
+        "key": "B",
+        "en": "Local Area Network (LAN)",
+        "si": "Local Area Network (LAN)"
+      },
+      {
+        "id": "opt-c",
+        "key": "C",
+        "en": "Manual Database Filing",
+        "si": "Manual Database Filing"
+      },
+      {
+        "id": "opt-d",
+        "key": "D",
+        "en": "Defragmentation Process",
+        "si": "Defragmentation Process"
+      }
+    ],
+    "correctKey": "A",
+    "correctOptionId": "opt-a",
+    "explanationEn": "Option (A) is the correct official syllabus answer.",
+    "explanationSi": "(A) යනු විෂය නිර්දේශයේ නිවැරදි පිළිතුර වේ.",
+    "syllabusRef": "G11-U6.60"
+  }
+]

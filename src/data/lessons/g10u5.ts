@@ -1,5 +1,4 @@
-// Verbatim dual-medium syllabus data extracted from public/lessons
-import { GeneralLessonData } from '../allLessonsData';
+import { GeneralLessonData } from "../allLessonsData";
 
 export const G10_U5_DATA: GeneralLessonData = {
   "id": "g10-u5",
@@ -24,14 +23,14 @@ export const G10_U5_DATA: GeneralLessonData = {
         },
         {
           "id": "b-g10-u5-1-2",
-          "en": "Examples of Word Processing Software:\nProprietary software: Microsoft Word. Free and Open Source software: LibreOffice Writer, OpenOffice Writer. Cloud-based software: Google Docs.",
-          "si": "වචන සකසුම් මෘදුකාංග සඳහා උදාහරණ:\nහිමිකාර මෘදුකාංග: Microsoft Word. නිදහස් හා විවෘත මෘදුකාංග: LibreOffice Writer, OpenOffice Writer. වලාකුළු ආශ්‍රිත (Cloud) මෘදුකාංග: Google Docs.",
+          "en": "Examples of Word Processing Software:\n* **Proprietary Software:** Microsoft Word, Apple Pages\n* **Free and Open Source Software (FOSS):** LibreOffice Writer, OpenOffice Writer\n* **Cloud-based Web Applications:** Google Docs, Microsoft Word Online",
+          "si": "වචන සකසුම් මෘදුකාංග සඳහා උදාහරණ:\n* **හිමිකාර මෘදුකාංග (Proprietary):** Microsoft Word, Apple Pages\n* **නිදහස් හා විවෘත මූලාශ්‍ර මෘදුකාංග (FOSS):** LibreOffice Writer, OpenOffice Writer\n* **වලාකුළු ආශ්‍රිත මාර්ගගත මෘදුකාංග (Cloud-based):** Google Docs, Microsoft Word Online",
           "highlightTerm": "Examples of Word Processing Software"
         },
         {
           "id": "b-g10-u5-1-3",
-          "en": "Advantages over Traditional Typewriters:\n1. Easy to edit text without retyping the entire page.\n    2. Ability to format text (fonts, colors, sizes, alignment).\n    3. Ability to check spelling and grammar automatically.\n    4. Ability to insert tables, pictures, diagrams, and charts.\n    5. Ability to store electronically and take printouts whenever required.\n    6. Mail Merge facility to send letters to multiple recipients efficiently.",
-          "si": "සාම්ප්‍රදායික ටයිප් රයිටර් හා සසඳන විට පවතින වාසි:\n1. මුළු පිටුවම නැවත ටයිප් කිරීමකින් තොරව ලේඛන පහසුවෙන් සංස්කරණය කළ හැකි වීම.\n    2. අකුරු රටා, ප්‍රමාණ, වර්ණ සහ පෙළගැස්වීම් ඇතුළත් කරමින් ලේඛනය හැඩසැසීමේ හැකියාව.\n    3. අක්ෂර වින්‍යාසය සහ ව්‍යාකරණ දෝෂ සෙවීමේ පහසුකම පැවතීම.\n    4. වගු, රූප සටහන් සහ ප්‍රස්ථාර ලේඛනයට පහසුවෙන් ඇතුළත් කළ හැකි වීම.\n    5. විද්‍යුත් මාධ්‍යයෙන් ගබඩා කර තබාගෙන අවශ්‍ය විටෙක මුද්‍රණය කර ගත හැකි වීම.\n    6. තැපැල් ඒකාබද්ධ කිරීමේ පහසුකම (Mail Merge) මගින් එකම ලිපිය ලබන්නන් රාශියකට පහසුවෙන් යැවීමට හැකි වීම.\n\n---",
+          "en": "Advantages over Traditional Mechanical Typewriters:\n* **Easy Editing:** Fix mistakes instantly on screen without retyping the entire page or using correction fluid.\n* **Rich Formatting:** Change font styles, sizes, colors, margins, and alignments freely.\n* **Automated Proofing:** Automatic spelling and grammar checking with built-in dictionary suggestions.\n* **Graphics & Tables:** Insert and arrange tables, images, shapes, diagrams, and charts.\n* **Electronic Storage:** Save files on digital storage and print multiple copies whenever needed.\n* **Mail Merge Facility:** Rapidly generate hundreds of personalized letters from a recipient data source.",
+          "si": "සාම්ප්‍රදායික ටයිප් රයිටර් හා සසඳන විට පවතින වාසි:\n* **පහසු සංස්කරණය:** මුළු පිටුවම නැවත ටයිප් කිරීමකින් හෝ දියර භාවිතයකින් තොරව තිරය මතම ක්ෂණිකව දෝෂ නිවැරදි කිරීම.\n* **විවිධ හැඩසැසීම්:** අකුරු රටා, ප්‍රමාණ, වර්ණ, මායිම් සහ පෙළගැස්වීම් නිදහසේ වෙනස් කිරීමේ හැකියාව.\n* **ස්වයංක්‍රීය දෝෂ සෙවීම:** අක්ෂර වින්‍යාසය සහ ව්‍යාකරණ දෝෂ සෙවීමේ සහ නිවැරදි කිරීමේ පහසුකම.\n* **වගු සහ රූප සටහන්:** ලේඛනයට වගු, පින්තූර, හැඩතල සහ ප්‍රස්ථාර පහසුවෙන් ඇතුළත් කිරීම.\n* **විද්‍යුත් ගබඩාකරණය:** ගොනු විද්‍යුත් මාධ්‍යයක සුරැකීම සහ අවශ්‍ය ඕනෑම අවස්ථාවක මුද්‍රණය කර ගැනීම.\n* **තැපැල් ඒකාබද්ධ කිරීම (Mail Merge):** එකම ලිපිය ලබන්නන් සිය ගණනකට ක්ෂණිකව වෙන් වෙන්ව ජනනය කිරීමේ හැකියාව.",
           "highlightTerm": "Advantages over Traditional Typewriters"
         }
       ],
@@ -76,8 +75,8 @@ export const G10_U5_DATA: GeneralLessonData = {
       "blocks": [
         {
           "id": "b-g10-u5-2-1",
-          "en": "#### Key Interface Components (ප්‍රධාන අතුරුමුහුණත් සංරචක):\n1. **Title Bar (මාතෘකා තීරුව):** Displays the document name and application title.\n2. **Quick Access Toolbar (ඉක්මන් පිවිසුම් මෙවලම් තීරුව):** Contains quick buttons for Save, Undo, Redo.\n3. **Ribbon / Menu Bar (රිබන් පටිය / මෙනු තීරුව):** Tabbed interface (Home, Insert, Page Layout, Mailings, Review, View) organizing formatting commands.\n4. **Ruler (රූල / මිනුම් දණ්ඩ):** Displays margins, tab stops, and indentations (Horizontal & Vertical Rulers).\n5. **Work Area / Document Window (වැඩපොළ / ලේඛන කවුළුව):** The blank page space where text and graphics are entered.\n6. **Insertion Point / Cursor (කර්සරය):** Blinking vertical line indicating where typed characters will appear.\n7. **Status Bar (තත්ත්ව තීරුව):** Displays current page number, total pages, word count, and language.\n8. **Zoom Slider (විශාලන පාලකය):** Adjusts document viewing scale on screen.",
-          "si": "#### Key Interface Components (ප්‍රධාන අතුරුමුහුණත් සංරචක):\n1. **Title Bar (මාතෘකා තීරුව):** Displays the document name and application title.\n2. **Quick Access Toolbar (ඉක්මන් පිවිසුම් මෙවලම් තීරුව):** Contains quick buttons for Save, Undo, Redo.\n3. **Ribbon / Menu Bar (රිබන් පටිය / මෙනු තීරුව):** Tabbed interface (Home, Insert, Page Layout, Mailings, Review, View) organizing formatting commands.\n4. **Ruler (රූල / මිනුම් දණ්ඩ):** Displays margins, tab stops, and indentations (Horizontal & Vertical Rulers).\n5. **Work Area / Document Window (වැඩපොළ / ලේඛන කවුළුව):** The blank page space where text and graphics are entered.\n6. **Insertion Point / Cursor (කර්සරය):** Blinking vertical line indicating where typed characters will appear.\n7. **Status Bar (තත්ත්ව තීරුව):** Displays current page number, total pages, word count, and language.\n8. **Zoom Slider (විශාලන පාලකය):** Adjusts document viewing scale on screen.",
+          "en": "#### Key Interface Components (ප්‍රධාන අතුරුමුහුණත් සංරචක):\n1. **Title Bar (මාතෘකා තීරුව):** Displays the document name and application title at the top of the window.\n2. **Quick Access Toolbar (ඉක්මන් පිවිසුම් මෙවලම් තීරුව):** Contains quick buttons for Save, Undo, Redo for 1-click access.\n3. **Ribbon / Menu Bar (රිබන් පටිය / මෙනු තීරුව):** Tabbed interface (Home, Insert, Page Layout, Mailings, Review, View) organizing formatting commands into logical functional groups.\n4. **Ruler (රූල / මිනුම් දණ්ඩ):** Displays margins, tab stops, and indentations (Horizontal & Vertical Rulers).\n5. **Work Area / Document Window (වැඩපොළ / ලේඛන කවුළුව):** The blank page space where text and graphics are entered and edited.\n6. **Insertion Point / Cursor (කර්සරය):** Blinking vertical line indicating where typed characters will appear.\n7. **Status Bar (තත්ත්ව තීරුව):** Displays current page number, total pages, word count, proofing status, and language at the bottom.\n8. **Zoom Slider (විශාලන පාලකය):** Adjusts document viewing scale on screen (located on the bottom-right corner of the status bar).",
+          "si": "#### Key Interface Components (ප්‍රධාන අතුරුමුහුණත් සංරචක):\n1. **Title Bar (මාතෘකා තීරුව):** Displays the document name and application title at the top of the window.\n2. **Quick Access Toolbar (ඉක්මන් පිවිසුම් මෙවලම් තීරුව):** Contains quick buttons for Save, Undo, Redo for 1-click access.\n3. **Ribbon / Menu Bar (රිබන් පටිය / මෙනු තීරුව):** Tabbed interface (Home, Insert, Page Layout, Mailings, Review, View) organizing formatting commands into logical functional groups.\n4. **Ruler (රූල / මිනුම් දණ්ඩ):** Displays margins, tab stops, and indentations (Horizontal & Vertical Rulers).\n5. **Work Area / Document Window (වැඩපොළ / ලේඛන කවුළුව):** The blank page space where text and graphics are entered and edited.\n6. **Insertion Point / Cursor (කර්සරය):** Blinking vertical line indicating where typed characters will appear.\n7. **Status Bar (තත්ත්ව තීරුව):** Displays current page number, total pages, word count, proofing status, and language at the bottom.\n8. **Zoom Slider (විශාලන පාලකය):** Adjusts document viewing scale on screen (located on the bottom-right corner of the status bar).",
           "highlightTerm": "Key Interface Components"
         }
       ],
@@ -250,8 +249,8 @@ export const G10_U5_DATA: GeneralLessonData = {
               "si": "Create a new blank document"
             },
             "col2": {
-              "en": "නව්ය ලේඛනයක් තැනීම",
-              "si": "නව්ය ලේඛනයක් තැනීම"
+              "en": "නව ලේඛනයක් තැනීම",
+              "si": "නව ලේඛනයක් තැනීම"
             },
             "col3": {
               "en": "`Ctrl + N`",
@@ -354,8 +353,8 @@ export const G10_U5_DATA: GeneralLessonData = {
               "si": "Exit Software"
             },
             "col1": {
-              "en": "Close the application",
-              "si": "Close the application"
+              "en": "Close the application completely",
+              "si": "Close the application completely"
             },
             "col2": {
               "en": "මෘදුකාංගයෙන් නික්ම යාම",
@@ -427,50 +426,56 @@ export const G10_U5_DATA: GeneralLessonData = {
         },
         {
           "id": "b-g10-u5-4-4",
-          "en": "Font Style (අක්ෂර විලාස):**\n* **Bold (තද අකුරු):** `Ctrl + B` $\rightarrow$ **Example**\n* **Italic (ඇල අකුරු):** `Ctrl + I` $\rightarrow$ *Example*\n* **Underline (යටින් ඉරක් ඇඳීම):** `Ctrl + U` $\rightarrow$ <u>Example</u>",
-          "si": "Font Style (අක්ෂර විලාස):**\n* **Bold (තද අකුරු):** `Ctrl + B` $\rightarrow$ **Example**\n* **Italic (ඇල අකුරු):** `Ctrl + I` $\rightarrow$ *Example*\n* **Underline (යටින් ඉරක් ඇඳීම):** `Ctrl + U` $\rightarrow$ <u>Example</u>",
+          "en": "Font Style (අක්ෂර විලාස):**\n* **Bold (තද අකුරු):** `Ctrl + B` $\\rightarrow$ **Bold text emphasis**\n* **Italic (ඇල අකුරු):** `Ctrl + I` $\\rightarrow$ *Italic text emphasis*\n* **Underline (යටින් ඉරක් ඇඳීම):** `Ctrl + U` $\\rightarrow$ <u>Underlined text</u>",
+          "si": "Font Style (අක්ෂර විලාස):**\n* **Bold (තද අකුරු):** `Ctrl + B` $\\rightarrow$ **Bold text emphasis**\n* **Italic (ඇල අකුරු):** `Ctrl + I` $\\rightarrow$ *Italic text emphasis*\n* **Underline (යටින් ඉරක් ඇඳීම):** `Ctrl + U` $\\rightarrow$ <u>Underlined text</u>",
           "highlightTerm": "Font Style"
         },
         {
           "id": "b-g10-u5-4-5",
-          "en": "Subscript & Superscript (යටිලකුණු සහ උඩmapping/උඩලකුණු):**\n* **Subscript (යටිලකුණ):** `Ctrl + =` $\rightarrow$ Example: $H_2O$ (Chemical formulas)\n* **Superscript (උඩලකුණ):** `Ctrl + Shift + +` $\rightarrow$ Example: $X^2 + Y^2$, $1st$ (Mathematical powers and ordinal numbers)",
-          "si": "Subscript & Superscript (යටිලකුණු සහ උඩmapping/උඩලකුණු):**\n* **Subscript (යටිලකුණ):** `Ctrl + =` $\rightarrow$ Example: $H_2O$ (Chemical formulas)\n* **Superscript (උඩලකුණ):** `Ctrl + Shift + +` $\rightarrow$ Example: $X^2 + Y^2$, $1st$ (Mathematical powers and ordinal numbers)",
+          "en": "Subscript & Superscript (යටිලකුණු සහ උඩලකුණු):**\n* **Subscript (යටිලකුණ):** `Ctrl + =` $\\rightarrow$ Lowers text below the baseline: $H_2O$ (Chemical formulas).\n* **Superscript (උඩලකුණ):** `Ctrl + Shift + +` $\\rightarrow$ Raises text above the baseline: $X^2 + Y^2$, $1^{st}$ (Mathematical powers and ordinal indicators).",
+          "si": "Subscript & Superscript (යටිලකුණු සහ උඩලකුණු):**\n* **Subscript (යටිලකුණ):** `Ctrl + =` $\\rightarrow$ Lowers text below the baseline: $H_2O$ (Chemical formulas).\n* **Superscript (උඩලකුණ):** `Ctrl + Shift + +` $\\rightarrow$ Raises text above the baseline: $X^2 + Y^2$, $1^{st}$ (Mathematical powers and ordinal indicators).",
           "highlightTerm": "Subscript & Superscript"
         },
         {
           "id": "b-g10-u5-4-6",
-          "en": "Change Case (අක්ෂර කැපිටල්/සිම්පල් වෙනස් කිරීම):**\n* **Sentence case:** First letter of sentence capitalized.\n* **lowercase:** All letters small.\n* **UPPERCASE:** All letters capital.\n* **Capitalize Each Word:** First letter of every word capital.\n* **tOGGLE cASE:** Inverts current case of each character.",
-          "si": "Change Case (අක්ෂර කැපිටල්/සිම්පල් වෙනස් කිරීම):**\n* **Sentence case:** First letter of sentence capitalized.\n* **lowercase:** All letters small.\n* **UPPERCASE:** All letters capital.\n* **Capitalize Each Word:** First letter of every word capital.\n* **tOGGLE cASE:** Inverts current case of each character.",
-          "highlightTerm": "Change Case"
+          "en": "Strikethrough (මැදින් ඉර ඇඳීම):** Draws a horizontal line through the middle of the selected text (e.g., ~~Obsolete text~~).",
+          "si": "Strikethrough (මැදින් ඉර ඇඳීම):** Draws a horizontal line through the middle of the selected text (e.g., ~~Obsolete text~~).",
+          "highlightTerm": "Strikethrough"
         },
         {
           "id": "b-g10-u5-4-7",
+          "en": "Change Case (අක්ෂර කැපිටල්/සිම්පල් වෙනස් කිරීම - Shift + F3):**\n* **Sentence case:** First letter of sentence capitalized; all other letters lowercase.\n* **lowercase:** All letters converted to small characters.\n* **UPPERCASE:** All letters converted to capital characters.\n* **Capitalize Each Word:** First letter of every word capital (Title Case).\n* **tOGGLE cASE:** Inverts current case of each character (swaps lowercase and UPPERCASE).",
+          "si": "Change Case (අක්ෂර කැපිටල්/සිම්පල් වෙනස් කිරීම - Shift + F3):**\n* **Sentence case:** First letter of sentence capitalized; all other letters lowercase.\n* **lowercase:** All letters converted to small characters.\n* **UPPERCASE:** All letters converted to capital characters.\n* **Capitalize Each Word:** First letter of every word capital (Title Case).\n* **tOGGLE cASE:** Inverts current case of each character (swaps lowercase and UPPERCASE).",
+          "highlightTerm": "Change Case"
+        },
+        {
+          "id": "b-g10-u5-4-8",
           "en": "#### 6.4.2 Paragraph Formatting & Alignment (ඡේද හැඩසැසීම සහ පෙළගැස්වීම්)",
           "si": "#### 6.4.2 Paragraph Formatting & Alignment (ඡේද හැඩසැසීම සහ පෙළගැස්වීම්)",
           "highlightTerm": "Paragraph Formatting & Alignment"
         },
         {
-          "id": "b-g10-u5-4-8",
-          "en": "Text Alignment Commands (පෙළගැස්වුම් නියෝග):**\n1. **Align Left (වම් පෙළගැස්ම):** `Ctrl + L` (Standard for left-to-right languages).\n2. **Center Align (මධ්‍ය පෙළගැස්ම):** `Ctrl + E` (Used for document titles and headings).\n3. **Align Right (දකුණු පෙළගැස්ම):** `Ctrl + R` (Used for dates, addresses, and signatures).\n4. **Justify (දෙපස පෙළගැස්ම):** `Ctrl + J` (Aligns text smoothly along both left and right margins; used in newspapers, books, and formal reports).",
-          "si": "Text Alignment Commands (පෙළගැස්වුම් නියෝග):**\n1. **Align Left (වම් පෙළගැස්ම):** `Ctrl + L` (Standard for left-to-right languages).\n2. **Center Align (මධ්‍ය පෙළගැස්ම):** `Ctrl + E` (Used for document titles and headings).\n3. **Align Right (දකුණු පෙළගැස්ම):** `Ctrl + R` (Used for dates, addresses, and signatures).\n4. **Justify (දෙපස පෙළගැස්ම):** `Ctrl + J` (Aligns text smoothly along both left and right margins; used in newspapers, books, and formal reports).",
+          "id": "b-g10-u5-4-9",
+          "en": "Text Alignment Commands (පෙළගැස්වුම් නියෝග):**\n1. **Align Left (වම් පෙළගැස්ම):** `Ctrl + L` (Standard default for left-to-right languages).\n2. **Center Align (මධ්‍ය පෙළගැස්ම):** `Ctrl + E` (Used for document titles and headings).\n3. **Align Right (දකුණු පෙළගැස්ම):** `Ctrl + R` (Used for dates, addresses, and signatures).\n4. **Justify (දෙපස පෙළගැස්ම):** `Ctrl + J` (Aligns text smoothly along both left and right margins; used in newspapers, books, and formal reports).",
+          "si": "Text Alignment Commands (පෙළගැස්වුම් නියෝග):**\n1. **Align Left (වම් පෙළගැස්ම):** `Ctrl + L` (Standard default for left-to-right languages).\n2. **Center Align (මධ්‍ය පෙළගැස්ම):** `Ctrl + E` (Used for document titles and headings).\n3. **Align Right (දකුණු පෙළගැස්ම):** `Ctrl + R` (Used for dates, addresses, and signatures).\n4. **Justify (දෙපස පෙළගැස්ම):** `Ctrl + J` (Aligns text smoothly along both left and right margins; used in newspapers, books, and formal reports).",
           "highlightTerm": "Text Alignment Commands"
         },
         {
-          "id": "b-g10-u5-4-9",
-          "en": "Line & Paragraph Spacing (පේළි සහ ඡේද අතර පරතරය):**\n* **Line Spacing (පේළි පරතරය):** Vertical distance between lines of text (Single 1.0, 1.15, 1.5 lines, Double 2.0 lines).\n* **Paragraph Spacing (ඡේද පරතරය):** Distance Before (`Spacing Before`) and After (`Spacing After`) a paragraph.",
-          "si": "Line & Paragraph Spacing (පේළි සහ ඡේද අතර පරතරය):**\n* **Line Spacing (පේළි පරතරය):** Vertical distance between lines of text (Single 1.0, 1.15, 1.5 lines, Double 2.0 lines).\n* **Paragraph Spacing (ඡේද පරතරය):** Distance Before (`Spacing Before`) and After (`Spacing After`) a paragraph.",
+          "id": "b-g10-u5-4-10",
+          "en": "Line & Paragraph Spacing (පේළි සහ ඡේද අතර පරතරය):**\n* **Line Spacing (පේළි පරතරය):** Vertical distance between lines of text within a paragraph (Single 1.0, 1.15, 1.5 lines, Double 2.0 lines).\n* **Paragraph Spacing (ඡේද පරතරය):** Distance Before (`Spacing Before`) and After (`Spacing After`) a paragraph, eliminating the need to hit Enter multiple times.",
+          "si": "Line & Paragraph Spacing (පේළි සහ ඡේද අතර පරතරය):**\n* **Line Spacing (පේළි පරතරය):** Vertical distance between lines of text within a paragraph (Single 1.0, 1.15, 1.5 lines, Double 2.0 lines).\n* **Paragraph Spacing (ඡේද පරතරය):** Distance Before (`Spacing Before`) and After (`Spacing After`) a paragraph, eliminating the need to hit Enter multiple times.",
           "highlightTerm": "Line & Paragraph Spacing"
         },
         {
-          "id": "b-g10-u5-4-10",
-          "en": "Indentation (ඡේද එබුම/පරතරය):**\n* **First Line Indent (පළමු පේළි එබුම):** Indents only the first line of a paragraph to the right.\n* **Hanging Indent (එල්ලෙන එබුම):** Indents all lines EXCEPT the first line.\n* **Left & Right Indent (වම් හා දකුණු එබුම):** Shifts entire paragraph away from left or right margins.",
-          "si": "Indentation (ඡේද එබුම/පරතරය):**\n* **First Line Indent (පළමු පේළි එබුම):** Indents only the first line of a paragraph to the right.\n* **Hanging Indent (එල්ලෙන එබුම):** Indents all lines EXCEPT the first line.\n* **Left & Right Indent (වම් හා දකුණු එබුම):** Shifts entire paragraph away from left or right margins.",
+          "id": "b-g10-u5-4-11",
+          "en": "Indentation (ඡේද එබුම/පරතරය):**\n* **First Line Indent (පළමු පේළි එබුම):** Indents only the first line of a paragraph to the right while leaving remaining lines flush with the left margin.\n* **Hanging Indent (එල්ලෙන එබුම):** Indents all lines EXCEPT the first line; commonly used in bibliographies and glossaries.\n* **Left & Right Indent (වම් හා දකුණු එබුම):** Shifts entire paragraph inward away from left or right margins.",
+          "si": "Indentation (ඡේද එබුම/පරතරය):**\n* **First Line Indent (පළමු පේළි එබුම):** Indents only the first line of a paragraph to the right while leaving remaining lines flush with the left margin.\n* **Hanging Indent (එල්ලෙන එබුම):** Indents all lines EXCEPT the first line; commonly used in bibliographies and glossaries.\n* **Left & Right Indent (වම් හා දකුණු එබුම):** Shifts entire paragraph inward away from left or right margins.",
           "highlightTerm": "Indentation"
         },
         {
-          "id": "b-g10-u5-4-11",
-          "en": "Bullets and Numbering (බුලට් සහ අංකන ලැයිස්තු):**\n* **Bulleted List (බුලට් ලැයිස්තුව):** Unordered list using symbols (dots, arrows, squares).\n* **Numbered List (අංකිත ලැයිස්තුව):** Ordered sequential list using numbers (1, 2, 3) or letters (A, B, C / i, ii, iii).",
-          "si": "Bullets and Numbering (බුලට් සහ අංකන ලැයිස්තු):**\n* **Bulleted List (බුලට් ලැයිස්තුව):** Unordered list using symbols (dots, arrows, squares).\n* **Numbered List (අංකිත ලැයිස්තුව):** Ordered sequential list using numbers (1, 2, 3) or letters (A, B, C / i, ii, iii).",
+          "id": "b-g10-u5-4-12",
+          "en": "Bullets and Numbering (බුලට් සහ අංකන ලැයිස්තු):**\n* **Bulleted List (බුලට් ලැයිස්තුව):** Unordered list using symbols (dots, arrows, squares) where sequence does not matter.\n* **Numbered List (අංකිත ලැයිස්තුව):** Ordered sequential list using numbers (1, 2, 3) or letters (A, B, C / i, ii, iii) where sequence is vital.\n* **Multilevel List (බහු-මට්ටම් ලැයිස්තුව):** Hierarchical lists with nested sub-items (e.g., 1.1, 1.2).",
+          "si": "Bullets and Numbering (බුලට් සහ අංකන ලැයිස්තු):**\n* **Bulleted List (බුලට් ලැයිස්තුව):** Unordered list using symbols (dots, arrows, squares) where sequence does not matter.\n* **Numbered List (අංකිත ලැයිස්තුව):** Ordered sequential list using numbers (1, 2, 3) or letters (A, B, C / i, ii, iii) where sequence is vital.\n* **Multilevel List (බහු-මට්ටම් ලැයිස්තුව):** Hierarchical lists with nested sub-items (e.g., 1.1, 1.2).",
           "highlightTerm": "Bullets and Numbering"
         }
       ],
@@ -530,63 +535,69 @@ export const G10_U5_DATA: GeneralLessonData = {
         },
         {
           "id": "b-g10-u5-5-2",
-          "en": "Cut (කපන්න):** `Ctrl + X` $\rightarrow$ Removes selected text/object and stores it in clipboard.",
-          "si": "Cut (කපන්න):** `Ctrl + X` $\rightarrow$ Removes selected text/object and stores it in clipboard.",
-          "highlightTerm": "Cut (කපන්න):** `Ctrl + X` $\rightarrow$ Removes selected text/object and stores it in clipboard"
+          "en": "Cut (කපන්න):** `Ctrl + X` $\\rightarrow$ Removes selected text/object from document and stores it in clipboard.",
+          "si": "Cut (කපන්න):** `Ctrl + X` $\\rightarrow$ Removes selected text/object from document and stores it in clipboard.",
+          "highlightTerm": "Cut (කපන්න):** `Ctrl + X` $\\rightarrow$ Removes selected text/object from document and stores it in clipboard"
         },
         {
           "id": "b-g10-u5-5-3",
-          "en": "Copy (පිටපත් කරන්න):** `Ctrl + C` $\rightarrow$ Duplicates selected text/object into clipboard without removing original.",
-          "si": "Copy (පිටපත් කරන්න):** `Ctrl + C` $\rightarrow$ Duplicates selected text/object into clipboard without removing original.",
-          "highlightTerm": "Copy (පිටපත් කරන්න):** `Ctrl + C` $\rightarrow$ Duplicates selected text/object into clipboard without removing original"
+          "en": "Copy (පිටපත් කරන්න):** `Ctrl + C` $\\rightarrow$ Duplicates selected text/object into clipboard without removing original.",
+          "si": "Copy (පිටපත් කරන්න):** `Ctrl + C` $\\rightarrow$ Duplicates selected text/object into clipboard without removing original.",
+          "highlightTerm": "Copy (පිටපත් කරන්න):** `Ctrl + C` $\\rightarrow$ Duplicates selected text/object into clipboard without removing original"
         },
         {
           "id": "b-g10-u5-5-4",
-          "en": "Paste (අලවන්න):** `Ctrl + V` $\rightarrow$ Inserts stored text/object from clipboard into cursor position.",
-          "si": "Paste (අලවන්න):** `Ctrl + V` $\rightarrow$ Inserts stored text/object from clipboard into cursor position.",
-          "highlightTerm": "Paste (අලවන්න):** `Ctrl + V` $\rightarrow$ Inserts stored text/object from clipboard into cursor position"
+          "en": "Paste (අලවන්න):** `Ctrl + V` $\\rightarrow$ Inserts stored text/object from clipboard into current cursor position.",
+          "si": "Paste (අලවන්න):** `Ctrl + V` $\\rightarrow$ Inserts stored text/object from clipboard into current cursor position.",
+          "highlightTerm": "Paste (අලවන්න):** `Ctrl + V` $\\rightarrow$ Inserts stored text/object from clipboard into current cursor position"
         },
         {
           "id": "b-g10-u5-5-5",
-          "en": "Undo (පෙර තත්ත්වයට පත් කරන්න):** `Ctrl + Z` $\rightarrow$ Reverses the last performed action.",
-          "si": "Undo (පෙර තත්ත්වයට පත් කරන්න):** `Ctrl + Z` $\rightarrow$ Reverses the last performed action.",
-          "highlightTerm": "Undo (පෙර තත්ත්වයට පත් කරන්න):** `Ctrl + Z` $\rightarrow$ Reverses the last performed action"
+          "en": "Undo (පෙර තත්ත්වයට පත් කරන්න):** `Ctrl + Z` $\\rightarrow$ Reverses the last performed action.",
+          "si": "Undo (පෙර තත්ත්වයට පත් කරන්න):** `Ctrl + Z` $\\rightarrow$ Reverses the last performed action.",
+          "highlightTerm": "Undo (පෙර තත්ත්වයට පත් කරන්න):** `Ctrl + Z` $\\rightarrow$ Reverses the last performed action"
         },
         {
           "id": "b-g10-u5-5-6",
-          "en": "Redo / Repeat (නැවත කරන්න):** `Ctrl + Y` $\rightarrow$ Re-applies the last undone action.",
-          "si": "Redo / Repeat (නැවත කරන්න):** `Ctrl + Y` $\rightarrow$ Re-applies the last undone action.",
-          "highlightTerm": "Redo / Repeat (නැවත කරන්න):** `Ctrl + Y` $\rightarrow$ Re-applies the last undone action"
+          "en": "Redo / Repeat (නැවත කරන්න):** `Ctrl + Y` $\\rightarrow$ Re-applies the last undone action.",
+          "si": "Redo / Repeat (නැවත කරන්න):** `Ctrl + Y` $\\rightarrow$ Re-applies the last undone action.",
+          "highlightTerm": "Redo / Repeat (නැවත කරන්න):** `Ctrl + Y` $\\rightarrow$ Re-applies the last undone action"
         },
         {
           "id": "b-g10-u5-5-7",
+          "en": "Format Painter (ආකෘති සායම):** Copies only the formatting (font, size, color) from selected text and applies it to another target text.",
+          "si": "Format Painter (ආකෘති සායම):** Copies only the formatting (font, size, color) from selected text and applies it to another target text.",
+          "highlightTerm": "Format Painter (ආකෘති සායම):** Copies only the formatting (font, size, color) from selected text and applies it to another target text"
+        },
+        {
+          "id": "b-g10-u5-5-8",
           "en": "#### Search & Replacement Tools (සෙවීම් සහ ප්‍රතිස්ථාපන මෙවලම්):",
           "si": "#### Search & Replacement Tools (සෙවීම් සහ ප්‍රතිස්ථාපන මෙවලම්):",
           "highlightTerm": "Search & Replacement Tools"
         },
         {
-          "id": "b-g10-u5-5-8",
-          "en": "Find (සෙවීම):** `Ctrl + F` $\rightarrow$ Searches for specific words or phrases throughout the document.",
-          "si": "Find (සෙවීම):** `Ctrl + F` $\rightarrow$ Searches for specific words or phrases throughout the document.",
-          "highlightTerm": "Find (සෙවීම):** `Ctrl + F` $\rightarrow$ Searches for specific words or phrases throughout the document"
-        },
-        {
           "id": "b-g10-u5-5-9",
-          "en": "Replace (ප්‍රතිස්ථාපනය):** `Ctrl + H` $\rightarrow$ Finds specific words and replaces them automatically with new text.",
-          "si": "Replace (ප්‍රතිස්ථාපනය):** `Ctrl + H` $\rightarrow$ Finds specific words and replaces them automatically with new text.",
-          "highlightTerm": "Replace (ප්‍රතිස්ථාපනය):** `Ctrl + H` $\rightarrow$ Finds specific words and replaces them automatically with new text"
+          "en": "Find (සෙවීම):** `Ctrl + F` $\\rightarrow$ Searches for specific words or phrases throughout the document.",
+          "si": "Find (සෙවීම):** `Ctrl + F` $\\rightarrow$ Searches for specific words or phrases throughout the document.",
+          "highlightTerm": "Find (සෙවීම):** `Ctrl + F` $\\rightarrow$ Searches for specific words or phrases throughout the document"
         },
         {
           "id": "b-g10-u5-5-10",
-          "en": "Spelling and Grammar Check (අක්ෂර වින්‍යාසය සහ ව්‍යාකරණ පරීක්ෂාව - F7):**\n* **Red Wavy Line (රතු රැලි සහිත ඉර):** Indicates a spelling error (අක්ෂර වින්‍යාස දෝෂය).\n* **Green / Blue Wavy Line (කොළ / නිල් රැලි සහිත ඉර):** Indicates a grammatical or contextual error (ව්‍යාකරණ දෝෂය).",
-          "si": "Spelling and Grammar Check (අක්ෂර වින්‍යාසය සහ ව්‍යාකරණ පරීක්ෂාව - F7):**\n* **Red Wavy Line (රතු රැලි සහිත ඉර):** Indicates a spelling error (අක්ෂර වින්‍යාස දෝෂය).\n* **Green / Blue Wavy Line (කොළ / නිල් රැලි සහිත ඉර):** Indicates a grammatical or contextual error (ව්‍යාකරණ දෝෂය).",
-          "highlightTerm": "Spelling and Grammar Check"
+          "en": "Replace (ප්‍රතිස්ථාපනය):** `Ctrl + H` $\\rightarrow$ Finds specific words and replaces them automatically with new text.",
+          "si": "Replace (ප්‍රතිස්ථාපනය):** `Ctrl + H` $\\rightarrow$ Finds specific words and replaces them automatically with new text.",
+          "highlightTerm": "Replace (ප්‍රතිස්ථාපනය):** `Ctrl + H` $\\rightarrow$ Finds specific words and replaces them automatically with new text"
         },
         {
           "id": "b-g10-u5-5-11",
-          "en": "Thesaurus (සමානාර්ථ පද කෝෂය):** Provides synonyms (සමානාර්ථ පද) and antonyms for selected words.",
-          "si": "Thesaurus (සමානාර්ථ පද කෝෂය):** Provides synonyms (සමානාර්ථ පද) and antonyms for selected words.",
-          "highlightTerm": "Thesaurus (සමානාර්ථ පද කෝෂය):** Provides synonyms (සමානාර්ථ පද) and antonyms for selected words"
+          "en": "Spelling and Grammar Check (අක්ෂර වින්‍යාසය සහ ව්‍යාකරණ පරීක්ෂාව - F7):**\n* **Red Wavy Line (රතු රැලි සහිත ඉර):** Indicates a spelling error (අක්ෂර වින්‍යාස දෝෂය) or unrecognized word not in dictionary.\n* **Green / Blue Wavy Line (කොළ / නිල් රැලි සහිත ඉර):** Indicates a grammatical or contextual error (ව්‍යාකරණ දෝෂය).",
+          "si": "Spelling and Grammar Check (අක්ෂර වින්‍යාසය සහ ව්‍යාකරණ පරීක්ෂාව - F7):**\n* **Red Wavy Line (රතු රැලි සහිත ඉර):** Indicates a spelling error (අක්ෂර වින්‍යාස දෝෂය) or unrecognized word not in dictionary.\n* **Green / Blue Wavy Line (කොළ / නිල් රැලි සහිත ඉර):** Indicates a grammatical or contextual error (ව්‍යාකරණ දෝෂය).",
+          "highlightTerm": "Spelling and Grammar Check"
+        },
+        {
+          "id": "b-g10-u5-5-12",
+          "en": "Thesaurus (සමානාර්ථ පද කෝෂය - Shift + F7):** Provides synonyms (සමානාර්ථ පද) and antonyms for selected words.",
+          "si": "Thesaurus (සමානාර්ථ පද කෝෂය - Shift + F7):** Provides synonyms (සමානාර්ථ පද) and antonyms for selected words.",
+          "highlightTerm": "Thesaurus (සමානාර්ථ පද කෝෂය - Shift + F7):** Provides synonyms (සමානාර්ථ පද) and antonyms for selected words"
         }
       ],
       "checkpointQuiz": {
@@ -636,8 +647,8 @@ export const G10_U5_DATA: GeneralLessonData = {
         },
         {
           "id": "b-g10-u5-6-2",
-          "en": "Table Components (වගු සංරචක):** Grid made of **Rows (තෙරස් පේළි)** and **Columns (සිරස් තීරු)**. The intersection of a row and column is called a **Cell (සෛලය)**.",
-          "si": "Table Components (වගු සංරචක):** Grid made of **Rows (තෙරස් පේළි)** and **Columns (සිරස් තීරු)**. The intersection of a row and column is called a **Cell (සෛලය)**.",
+          "en": "Table Components (වගු සංරචක):** Grid made of **Rows (තිරස් පේළි)** and **Columns (සිරස් තීරු)**. The intersection of a row and column is called a **Cell (සෛලය)**.",
+          "si": "Table Components (වගු සංරචක):** Grid made of **Rows (තිරස් පේළි)** and **Columns (සිරස් තීරු)**. The intersection of a row and column is called a **Cell (සෛලය)**.",
           "highlightTerm": "Table Components"
         },
         {
@@ -654,33 +665,63 @@ export const G10_U5_DATA: GeneralLessonData = {
         },
         {
           "id": "b-g10-u5-6-5",
-          "en": "Adding / Deleting Rows & Columns (පේළි/තීරු ඇතුළත් කිරීම සහ මකා දැමීම):** Inserting rows above/below or columns to left/right.",
-          "si": "Adding / Deleting Rows & Columns (පේළි/තීරු ඇතුළත් කිරීම සහ මකා දැමීම):** Inserting rows above/below or columns to left/right.",
-          "highlightTerm": "Adding / Deleting Rows & Columns (පේළි/තීරු ඇතුළත් කිරීම සහ මකා දැමීම):** Inserting rows above/below or columns to left/right"
+          "en": "Adding / Deleting Rows & Columns (පේළි/තීරු ඇතුළත් කිරීම සහ මකා දැමීම):** Inserting rows above/below or columns to left/right; deleting unwanted rows or columns.",
+          "si": "Adding / Deleting Rows & Columns (පේළි/තීරු ඇතුළත් කිරීම සහ මකා දැමීම):** Inserting rows above/below or columns to left/right; deleting unwanted rows or columns.",
+          "highlightTerm": "Adding / Deleting Rows & Columns (පේළි/තීරු ඇතුළත් කිරීම සහ මකා දැමීම):** Inserting rows above/below or columns to left/right; deleting unwanted rows or columns"
         },
         {
           "id": "b-g10-u5-6-6",
+          "en": "Navigating Cells:** Pressing `Tab` moves cursor to the next adjacent cell; pressing `Shift + Tab` moves to previous cell. Pressing `Tab` in the very last cell adds a new row automatically.",
+          "si": "Navigating Cells:** Pressing `Tab` moves cursor to the next adjacent cell; pressing `Shift + Tab` moves to previous cell. Pressing `Tab` in the very last cell adds a new row automatically.",
+          "highlightTerm": "Navigating Cells:** Pressing `Tab` moves cursor to the next adjacent cell; pressing `Shift + Tab` moves to previous cell. Pressing `Tab` in the very last cell adds a new row automatically"
+        },
+        {
+          "id": "b-g10-u5-6-7",
           "en": "#### 6.6.2 Header, Footer & Page Numbers (ශීර්ෂකය, පාදකය සහ පිටු අංක)",
           "si": "#### 6.6.2 Header, Footer & Page Numbers (ශීර්ෂකය, පාදකය සහ පිටු අංක)",
           "highlightTerm": "Header, Footer & Page Numbers"
         },
         {
-          "id": "b-g10-u5-6-7",
+          "id": "b-g10-u5-6-8",
           "en": "Header (ශීර්ෂකය):** Area in the top margin of every page; contains document title, chapter name, or logo.",
           "si": "Header (ශීර්ෂකය):** Area in the top margin of every page; contains document title, chapter name, or logo.",
           "highlightTerm": "Header (ශීර්ෂකය):** Area in the top margin of every page; contains document title, chapter name, or logo"
         },
         {
-          "id": "b-g10-u5-6-8",
+          "id": "b-g10-u5-6-9",
           "en": "Footer (පාදකය):** Area in the bottom margin of every page; contains page numbers, author name, or date.",
           "si": "Footer (පාදකය):** Area in the bottom margin of every page; contains page numbers, author name, or date.",
           "highlightTerm": "Footer (පාදකය):** Area in the bottom margin of every page; contains page numbers, author name, or date"
         },
         {
-          "id": "b-g10-u5-6-9",
+          "id": "b-g10-u5-6-10",
           "en": "Page Numbers (පිටු අංක):** Automated page numbering placed in header, footer, or page margins.",
           "si": "Page Numbers (පිටු අංක):** Automated page numbering placed in header, footer, or page margins.",
           "highlightTerm": "Page Numbers (පිටු අංක):** Automated page numbering placed in header, footer, or page margins"
+        },
+        {
+          "id": "b-g10-u5-6-11",
+          "en": "#### 6.6.3 Graphic Elements & Text Wrapping (චිත්‍රක සහ පෙළ එතීම)",
+          "si": "#### 6.6.3 Graphic Elements & Text Wrapping (චිත්‍රක සහ පෙළ එතීම)",
+          "highlightTerm": "Graphic Elements & Text Wrapping"
+        },
+        {
+          "id": "b-g10-u5-6-12",
+          "en": "Text Wrapping (පෙළ එතීම):** Controls how document text flows around an inserted image or object:\n* **In Line with Text (පෙළ සමග එක පෙළට):** Image is treated like a text character; sits on the text baseline.\n* **Square (සමචතුරස්‍ර):** Text flows neatly in a rectangular box around the image boundaries.\n* **Tight (තදින්):** Text wraps tightly following the actual contour/outline of the graphic.\n* **Behind Text (පෙළ පිටුපසින්):** Image is placed on a background layer; text is typed directly over the image (watermark style).\n* **In Front of Text (පෙළ ඉදිරියෙන්):** Image floats above text, obscuring text underneath.",
+          "si": "Text Wrapping (පෙළ එතීම):** Controls how document text flows around an inserted image or object:\n* **In Line with Text (පෙළ සමග එක පෙළට):** Image is treated like a text character; sits on the text baseline.\n* **Square (සමචතුරස්‍ර):** Text flows neatly in a rectangular box around the image boundaries.\n* **Tight (තදින්):** Text wraps tightly following the actual contour/outline of the graphic.\n* **Behind Text (පෙළ පිටුපසින්):** Image is placed on a background layer; text is typed directly over the image (watermark style).\n* **In Front of Text (පෙළ ඉදිරියෙන්):** Image floats above text, obscuring text underneath.",
+          "highlightTerm": "Text Wrapping (පෙළ එතීම):** Controls how document text flows around an inserted image or object"
+        },
+        {
+          "id": "b-g10-u5-6-13",
+          "en": "WordArt (වර්ඩ්ආර්ට්):** Decorative text effects (shadows, outlines, 3D rotations, curves) used for titles and posters.",
+          "si": "WordArt (වර්ඩ්ආර්ට්):** Decorative text effects (shadows, outlines, 3D rotations, curves) used for titles and posters.",
+          "highlightTerm": "WordArt (වර්ඩ්ආර්ට්):** Decorative text effects (shadows, outlines, 3D rotations, curves) used for titles and posters"
+        },
+        {
+          "id": "b-g10-u5-6-14",
+          "en": "Drop Cap (ආරම්භක විශාල අකුර):** Formats the first letter of a paragraph as a large decorative capital letter spanning multiple text lines (frequently seen in newspapers and books).",
+          "si": "Drop Cap (ආරම්භක විශාල අකුර):** Formats the first letter of a paragraph as a large decorative capital letter spanning multiple text lines (frequently seen in newspapers and books).",
+          "highlightTerm": "Drop Cap"
         }
       ],
       "checkpointQuiz": {
@@ -730,15 +771,51 @@ export const G10_U5_DATA: GeneralLessonData = {
         },
         {
           "id": "b-g10-u5-7-2",
-          "en": "The 3 Key Elements of Mail Merge:\nContains the core body text that remains common for all recipients, along with Merge Fields (placeholders for data).",
-          "si": "තැපැල් ඒකාබද්ධ කිරීමේ ප්‍රධාන සංරචක 3:\nසෑම ලබන්නෙකුටම එක හා සමානව යවන පොදු තොරතුරු/ලිපි පාඨය සහ ඒකාබද්ධ ක්ෂේත්‍ර (Merge Fields) අඩංගු ප්‍රධාන ලේඛනයයි.\"\n\n2. **Data Source (දත්ත ප්‍රභවය):**\n   * **[English Medium Text]:** \"A table or database containing recipient details (e.g. Title, First Name, Last Name, Address, City) stored in columns (Field Names) and rows (Records).\"\n   * **[Sinhala Medium Text]:** \"ලබන්නන්ගේ නම, ලිපිනය වැනි වෙනස් වන තොරතුරු සිරස් තීරු (ක්ෂේත්‍ර නාම - Field Names) සහ තිරස් පේළි (වාර්තා - Records) ලෙස වගුවක හෝ දත්ත සමුදායක ගබඩා කර ඇති ලේඛනයයි.\"\n\n3. **Merged Document (ඒකාබද්ධ වූ ලේඛන):**\n   * **[English Medium Text]:** \"The final output letters or document generated after combining the Main Document with the Data Source.\"\n   * **[Sinhala Medium Text]:** \"ප්‍රධාන ලේඛනය සහ දත්ත ප්‍රභවය ඒකාබද්ධ කිරීමෙන් පසුව ජනනය වන, එක් එක් ලබන්නාට වෙන් වෙන් වශයෙන් සැකසුණු අවසාන ලිපි එකතුවයි.",
+          "en": "The 3 Key Elements of Mail Merge:\n* **1. Main Document:** Contains the common letter body text, headers, and placeholders called Merge Fields (e.g., `<<Name>>`, `<<Address>>`).\n* **2. Data Source:** A structured table (in Word, Excel, or database) containing recipient information organized into columns (Field Names) and rows (Records).\n* **3. Merged Document:** The final set of personalized output letters generated by combining the Main Document with the Data Source.",
+          "si": "තැපැල් ඒකාබද්ධ කිරීමේ ප්‍රධාන සංරචක 3:\n* **1. ප්‍රධාන ලේඛනය (Main Document):** සෑම ලබන්නෙකුටම එක හා සමාන පොදු ලිපි පාඨය සහ ඒකාබද්ධ ක්ෂේත්‍ර (Merge Fields, උදා: `<<Name>>`, `<<Address>>`) අඩංගු ලේඛනයයි.\n* **2. දත්ත ප්‍රභවය (Data Source):** ලබන්නන්ගේ නම, ලිපිනය ආදී විස්තර සිරස් තීරු (ක්ෂේත්‍ර නාම - Field Names) සහ තිරස් පේළි (වාර්තා - Records) ලෙස වගුවක ගබඩා කර ඇති ගොනුවයි.\n* **3. ඒකාබද්ධ වූ ලේඛන (Merged Document):** ප්‍රධාන ලේඛනය සහ දත්ත ප්‍රභවය ඒකාබද්ධ කිරීමෙන් එක් එක් ලබන්නා වෙනුවෙන් ජනනය වන අවසාන මුද්‍රිත ලිපි එකතුවයි.",
           "highlightTerm": "The 3 Key Elements of Mail Merge"
         },
         {
           "id": "b-g10-u5-7-3",
-          "en": "#### Sequential Steps of Mail Merge Process (තැපැල් ඒකාබද්ධ කිරීමේ පියවර):\n1. **Step 1:** Create or open the Main Document.\n2. **Step 2:** Select or create the Recipient Data Source table.\n3. **Step 3:** Insert Merge Fields (e.g. `<<Title>>`, `<<Name>>`, `<<Address>>`) into appropriate positions in the Main Document.\n4. **Step 4:** Preview Merged Results to verify data placement.\n5. **Step 5:** Complete Finish & Merge to print or generate individual merged documents.",
-          "si": "#### Sequential Steps of Mail Merge Process (තැපැල් ඒකාබද්ධ කිරීමේ පියවර):\n1. **Step 1:** Create or open the Main Document.\n2. **Step 2:** Select or create the Recipient Data Source table.\n3. **Step 3:** Insert Merge Fields (e.g. `<<Title>>`, `<<Name>>`, `<<Address>>`) into appropriate positions in the Main Document.\n4. **Step 4:** Preview Merged Results to verify data placement.\n5. **Step 5:** Complete Finish & Merge to print or generate individual merged documents.",
+          "en": "Sequential Steps of Mail Merge Process:\n* **Step 1:** Create or open the Main Document.\n* **Step 2:** Select or create the Recipient Data Source table.\n* **Step 3:** Insert Merge Fields (e.g., `<<Title>>`, `<<Name>>`, `<<Address>>`) into appropriate positions in the Main Document.\n* **Step 4:** Preview Merged Results to verify data placement.\n* **Step 5:** Complete Finish & Merge to print or generate individual merged documents.",
+          "si": "තැපැල් ඒකාබද්ධ කිරීමේ පියවර:\n* **පියවර 1:** ප්‍රධාන ලේඛනය (Main Document) සකස් කිරීම හෝ විවෘත කිරීම.\n* **පියවර 2:** ලබන්නන්ගේ දත්ත ප්‍රභවය (Data Source) තෝරා ගැනීම හෝ අලුතින් නිර්මාණය කිරීම.\n* **පියවර 3:** ප්‍රධාන ලේඛනයේ අදාළ ස්ථානවලට ඒකාබද්ධ ක්ෂේත්‍ර (Merge Fields, උදා: `<<Title>>`, `<<Name>>`, `<<Address>>`) ඇතුළත් කිරීම.\n* **පියවර 4:** ප්‍රතිඵල පෙරදසුන (Preview Results) මඟින් නිවැරදි බව පරීක්ෂා කිරීම.\n* **පියවර 5:** Finish & Merge මඟින් ලේඛන ඒකාබද්ධ කර මුද්‍රණය කිරීම හෝ සුරැකීම.",
           "highlightTerm": "Sequential Steps of Mail Merge Process"
+        },
+        {
+          "id": "b-g10-u5-7-4",
+          "en": "Comparison: Traditional Mechanical Typewriter vs Electronic Word Processor:\n* **Error Correction:** Typewriters require retyping or white-out fluid; Word Processors allow instant backspace/delete with zero paper waste.\n* **Storage:** Typewriters store only on physical paper; Word Processors store digitally on storage media and cloud.\n* **Formatting:** Typewriters have fixed single fonts; Word Processors provide unlimited fonts, colors, styles, and alignments.\n* **Graphics & Tables:** Typewriters cannot insert diagrams or tables; Word Processors seamlessly insert pictures, charts, and tables.\n* **Batch Personalization:** Typewriters require typing each copy individually; Word Processors use Mail Merge to generate hundreds of letters instantly.",
+          "si": "සාම්ප්‍රදායික ටයිප් රයිටරය සහ ඉලෙක්ට්‍රොනික වචන සකසුම අතර සංසන්දනය:\n* **දෝෂ නිවැරදි කිරීම:** ටයිප් රයිටරයේ දී මුළු පිටුවම නැවත ටයිප් කළ යුතුය; වචන සකසුමේ දී තිරය මතම ක්ෂණිකව මකා නිවැරදි කළ හැක.\n* **ගබඩා කිරීම:** ටයිප් රයිටරයේ ලිපිගොනු කඩදාසි ලෙස පමණක් තැන්පත් වේ; වචන සකසුමේ දී දෘඪ තැටි හෝ වලාකුළු ආශ්‍රිතව විද්‍යුත් ලෙස සුරැකිය හැක.\n* **හැඩසැසීම:** ටයිප් රයිටරයේ ඇත්තේ තනි අකුරු රටාවක් පමණි; වචන සකසුමේ දී විවිධ අකුරු මෝස්තර, ප්‍රමාණ, වර්ණ සහ පෙළගැස්වීම් කළ හැක.\n* **වගු සහ රූප සටහන්:** ටයිප් රයිටරයට රූප හෝ වගු ඇතුළත් කළ නොහැක; වචන සකසුමට පින්තූර, ප්‍රස්ථාර සහ වගු පහසුවෙන් එක් කළ හැක.\n* **ස්වයංක්‍රීය ලිපි ජනනය:** ටයිප් රයිටරයේ දී එක් එක් ලිපිය අතින් වෙන වෙනම ටයිප් කළ යුතුය; වචන සකසුමේ දී Mail Merge මඟින් ලිපි සිය ගණනක් ක්ෂණිකව සෑදිය හැක.",
+          "highlightTerm": "Comparison 1: Traditional Mechanical Typewriter vs Electronic Word Processor"
+        },
+        {
+          "id": "b-g10-u5-7-5",
+          "en": "Word Processing Software Classifications:\n* **Proprietary Commercial Software:** Microsoft Word, Apple Pages (Closed-source, paid licenses required).\n* **Free and Open Source Software (FOSS):** LibreOffice Writer, OpenOffice Writer (Open licenses, freely modifiable and redistributable).\n* **Cloud-Based Applications:** Google Docs, Microsoft Word Online (Run inside web browsers, auto-save to cloud, real-time collaboration).\n* **Basic Text Editors:** Notepad, WordPad (Lightweight system accessories, lacking advanced layout and Mail Merge).",
+          "si": "වචන සකසුම් මෘදුකාංග වර්ගීකරණය:\n* **හිමිකාර වාණිජ මෘදුකාංග:** Microsoft Word, Apple Pages (මුදල් ගෙවා බලපත්‍ර ලබාගත යුතු සංවෘත මූලාශ්‍ර මෘදුකාංග).\n* **නිදහස් හා විවෘත මූලාශ්‍ර මෘදුකාංග (FOSS):** LibreOffice Writer, OpenOffice Writer (නොමිලේ භාවිත කළ හැකි, වෙනස් කළ හැකි විවෘත මෘදුකාංග).\n* **වලාකුළු ආශ්‍රිත මාර්ගගත මෘදුකාංග:** Google Docs, Microsoft Word Online (වෙබ් බ්‍රවුසරය හරහා ක්‍රියාත්මක වන, සහයෝගීව සංස්කරණය කළ හැකි මෘදුකාංග).\n* **සරල පෙළ සංස්කාරක:** Notepad, WordPad (පද්ධතිය සමඟ එන සරල උපාංග; සංකීර්ණ හැඩසැසුම් හෝ Mail Merge නොමැත).",
+          "highlightTerm": "Comparison 2: Word Processing Software Classification"
+        },
+        {
+          "id": "b-g10-u5-7-6",
+          "en": "Typography & Text Formatting Pairs:\n* **Subscript (`Ctrl + =`):** Lowers characters below the baseline (e.g., chemical formulas like `H₂O`, `CO₂`, base `1011₂`).\n* **Superscript (`Ctrl + Shift + +`):** Raises characters above the baseline (e.g., mathematical powers `X²`, ordinals `1ˢᵗ`).\n* **Cut (`Ctrl + X`):** Removes selected text into Clipboard buffer.\n* **Copy (`Ctrl + C`):** Duplicates selected text into Clipboard buffer while leaving original intact.\n* **Paste (`Ctrl + V`):** Inserts contents from Clipboard at current cursor position.\n* **First Line Indent:** Indents only the first line of a paragraph.\n* **Hanging Indent:** Leaves the first line at margin and indents subsequent lines (used in bibliographies).",
+          "si": "අක්ෂර හැඩසැසුම් යුගල සංසන්දනය:\n* **යටිලකුණ (Subscript - `Ctrl + =`):** අක්ෂර සාමාන්‍ය පෙළ පේළියට පහළින් පිහිටුවයි (උදා: රසායනික සූත්‍ර `H₂O`, පාද `1011₂`).\n* **උඩලකුණ (Superscript - `Ctrl + Shift + +`):** අක්ෂර සාමාන්‍ය පෙළ පේළියට ඉහළින් පිහිටුවයි (උදා: බල `X²`, `1ˢᵗ`).\n* **කපන්න (Cut - `Ctrl + X`):** තෝරාගත් පෙළ ක්ලිප්බෝඩ් එකට ගනිමින් මුල් ස්ථානයෙන් ඉවත් කරයි.\n* **පිටපත් කරන්න (Copy - `Ctrl + C`):** මුල් පෙළ එලෙසම තබා පිටපතක් ක්ලිප්බෝඩ් එකට ගනී.\n* **අලවන්න (Paste - `Ctrl + V`):** ක්ලිප්බෝඩ් එකේ ඇති දෑ කර්සරය ඇති ස්ථානයට ඇතුළත් කරයි.\n* **පළමු පේළි එබුම (First Line Indent):** ඡේදයක පළමු පේළිය පමණක් දකුණට එබීම.\n* **එල්ලෙන එබුම (Hanging Indent):** පළමු පේළිය මායිමේ තබා දෙවන හා ඊළඟ පේළි දකුණට එබීම (ග්‍රන්ථ නාමාවලි සඳහා).",
+          "highlightTerm": "Comparison 3: Typography & Text Formatting Pairs"
+        },
+        {
+          "id": "b-g10-u5-7-7",
+          "en": "Mail Merge Core Components Matrix:\n* **Main Document:** Contains the fixed static body text along with dynamic `<<Merge Field>>` tags.\n* **Data Source:** Structured tabular file (Word table, Excel sheet, Access DB) storing recipient field data in columns and rows.\n* **Merged Document:** Output letters generated after merging, each individually personalized for each recipient.",
+          "si": "තැපැල් ඒකාබද්ධ කිරීමේ සංරචක සාරාංශය:\n* **ප්‍රධාන ලේඛනය (Main Document):** පොදු ලිපි පාඨය සහ ගතික `<<Merge Field>>` ටැග අඩංගු ලේඛනය.\n* **දත්ත ප්‍රභවය (Data Source):** සිරස් තීරු සහ තිරස් පේළි සහිත වගුවක් ලෙස ලබන්නන්ගේ තොරතුරු තබා ගන්නා ගොනුව (Word table, Excel, DB).\n* **ඒකාබද්ධ වූ ලේඛන (Merged Document):** ඒකාබද්ධ කිරීමෙන් පසු එක් එක් පුද්ගලයා වෙනුවෙන් සැකසුණු අවසාන ලිපි එකතුව.",
+          "highlightTerm": "Comparison 4: Mail Merge Core Components Matrix"
+        },
+        {
+          "id": "b-g10-u5-7-8",
+          "en": "Top O/L Exam Pitfalls & Traps:\n* **Enter Key Misconception:** Word processors use Word Wrap to push text to the next line automatically. Press `Enter` ONLY to start a new paragraph.\n* **Save (`Ctrl + S`) vs Save As (`F12`):** `Save` overwrites changes to the existing file. `Save As` prompts for a new name, location, or file type (e.g., PDF).\n* **Subscript vs Superscript:** Subscript is `Ctrl + =` (lowered, $H_2O$). Superscript is `Ctrl + Shift + +` (raised, $X^2$).\n* **Data Source Format:** A Data Source must be structured into fields and records (Word table, Excel sheet, database). Raw unstructured paragraph text cannot be used.\n* **Justify Alignment:** `Ctrl + J` aligns text evenly along BOTH left and right margins simultaneously.",
+          "si": "පසුගිය විභාග උගුල් සහ වරදින තැන්:\n* **Enter යතුර පිළිබඳ වැරදි වැටහීම:** වචන සකසුම්වල Word Wrap මඟින් ස්වයංක්‍රීයව ඊළඟ පේළියට ගමන් කරයි. `Enter` එබිය යුත්තේ නව ඡේදයක් ආරම්භ කිරීමට පමණි.\n* **Save (`Ctrl + S`) සහ Save As (`F12`):** `Save` මඟින් පවතින ගොනුවට වෙනස්කම් යාවත්කාලීන කරයි. `Save As` මඟින් නව නමකින්, වෙනත් ස්ථානයක හෝ නව ගොනු වර්ගයකින් (PDF ආදී) සුරැකීමට අසයි.\n* **යටිලකුණ සහ උඩලකුණ:** යටිලකුණ `Ctrl + =` (පහළින්, $H_2O$). උඩලකුණ `Ctrl + Shift + +` (ඉහළින්, $X^2$).\n* **දත්ත ප්‍රභවයේ ආකෘතිය:** දත්ත ප්‍රභවයක් අනිවාර්යයෙන්ම ක්ෂේත්‍ර සහ වාර්තා සහිත වගුගත ව්‍යුහයක් (වගුවක්, පැතුරුම්පතක් හෝ දත්ත සමුදායක්) විය යුතුය.\n* **දෙපස පෙළගැස්ම (Justify):** `Ctrl + J` මඟින් වම් සහ දකුණු මායිම් දෙකටම සම සේ පෙළගස්වයි.",
+          "highlightTerm": "Top O/L Exam Pitfalls & Traps"
+        },
+        {
+          "id": "b-g10-u5-7-9",
+          "en": "Master Keyboard Shortcuts Summary:\n* **`Ctrl + N`:** New blank document | **`Ctrl + O`:** Open existing file | **`Ctrl + S`:** Save changes\n* **`F12`:** Save As (new name/path) | **`Ctrl + P`:** Print dialog | **`Ctrl + W`:** Close document\n* **`Ctrl + X`:** Cut text | **`Ctrl + C`:** Copy text | **`Ctrl + V`:** Paste text\n* **`Ctrl + Z`:** Undo last action | **`Ctrl + Y`:** Redo last undone action | **`Ctrl + A`:** Select all\n* **`Ctrl + B`:** Bold | **`Ctrl + I`:** Italic | **`Ctrl + U`:** Underline\n* **`Ctrl + L`:** Align Left | **`Ctrl + E`:** Center | **`Ctrl + R`:** Align Right | **`Ctrl + J`:** Justify\n* **`Ctrl + =`:** Subscript | **`Ctrl + Shift + +`:** Superscript",
+          "si": "අත්‍යවශ්‍ය කෙටිමං යතුරු සාරාංශය:\n* **`Ctrl + N`:** නව ලේඛනයක් | **`Ctrl + O`:** ලේඛනයක් විවෘත කිරීම | **`Ctrl + S`:** සුරැකීම (Save)\n* **`F12`:** වෙනත් නමකින් සුරැකීම (Save As) | **`Ctrl + P`:** මුද්‍රණය | **`Ctrl + W`:** ලේඛනය වැසීම\n* **`Ctrl + X`:** කපන්න (Cut) | **`Ctrl + C`:** පිටපත් කරන්න (Copy) | **`Ctrl + V`:** අලවන්න (Paste)\n* **`Ctrl + Z`:** කළ පෙර ක්‍රියාව අහෝසි කිරීම (Undo) | **`Ctrl + Y`:** නැවත කිරීම (Redo) | **`Ctrl + A`:** සියල්ල තේරීම\n* **`Ctrl + B`:** තදකුරු (Bold) | **`Ctrl + I`:** ඇලකුරු (Italic) | **`Ctrl + U`:** යටිඉරි (Underline)\n* **`Ctrl + L`:** වම් පෙළගැස්ම | **`Ctrl + E`:** මධ්‍ය පෙළගැස්ම | **`Ctrl + R`:** දකුණු පෙළගැස්ම | **`Ctrl + J`:** දෙපස පෙළගැස්ම (Justify)\n* **`Ctrl + =`:** යටිලකුණ (Subscript) | **`Ctrl + Shift + +`:** උඩලකුණ (Superscript)",
+          "highlightTerm": "Master Keyboard Shortcuts Summary Table"
         }
       ],
       "examples": [
@@ -831,6 +908,596 @@ export const G10_U5_DATA: GeneralLessonData = {
               "en": "",
               "si": ""
             }
+          },
+          {
+            "col0": {
+              "en": "Feature (ලක්ෂණය)",
+              "si": "ලක්ෂණය"
+            },
+            "col1": {
+              "en": "Traditional Typewriter (සාම්ප්‍රදායික ටයිප් රයිටරය)",
+              "si": "සාම්ප්‍රදායික ටයිප් රයිටරය"
+            }
+          },
+          {
+            "col0": {
+              "en": ":---",
+              "si": ":---"
+            },
+            "col1": {
+              "en": ":---",
+              "si": ":---"
+            }
+          },
+          {
+            "col0": {
+              "en": "Correction of Errors (දෝෂ නිවැරදි කිරීම)",
+              "si": "දෝෂ නිවැරදි කිරීම"
+            },
+            "col1": {
+              "en": "Entire page must be retyped or corrected using white-out fluid.",
+              "si": "Entire page must be retyped or corrected using white-out fluid."
+            }
+          },
+          {
+            "col0": {
+              "en": "Document Storage (ලේඛන ගබඩා කිරීම)",
+              "si": "ලේඛන ගබඩා කිරීම"
+            },
+            "col1": {
+              "en": "Stored only physically as paper in file cabinets.",
+              "si": "Stored only physically as paper in file cabinets."
+            }
+          },
+          {
+            "col0": {
+              "en": "Formatting Flexibility (හැඩසැසීමේ හැකියාව)",
+              "si": "හැඩසැසීමේ හැකියාව"
+            },
+            "col1": {
+              "en": "Single fixed font style and size per typewriter ribbon.",
+              "si": "Single fixed font style and size per typewriter ribbon."
+            }
+          },
+          {
+            "col0": {
+              "en": "Graphics & Tables (රූප සහ වගු)",
+              "si": "රූප සහ වගු"
+            },
+            "col1": {
+              "en": "Cannot insert images, shapes, charts, or automated tables.",
+              "si": "Cannot insert images, shapes, charts, or automated tables."
+            }
+          },
+          {
+            "col0": {
+              "en": "Batch Personalization (ස්වයංක්‍රීය ලිපි ජනනය)",
+              "si": "ස්වයංක්‍රීය ලිපි ජනනය"
+            },
+            "col1": {
+              "en": "Every recipient letter must be manually typed individually.",
+              "si": "Every recipient letter must be manually typed individually."
+            }
+          },
+          {
+            "col0": {
+              "en": "Proofing Tools (දෝෂ සෙවීමේ මෙවලම්)",
+              "si": "දෝෂ සෙවීමේ මෙවලම්"
+            },
+            "col1": {
+              "en": "Manual proofreading only; no automated checking.",
+              "si": "Manual proofreading only; no automated checking."
+            }
+          },
+          {
+            "col0": {
+              "en": "Software Category (කාණ්ඩය)",
+              "si": "කාණ්ඩය"
+            },
+            "col1": {
+              "en": "Examples (උදාහරණ)",
+              "si": "උදාහරණ"
+            }
+          },
+          {
+            "col0": {
+              "en": ":---",
+              "si": ":---"
+            },
+            "col1": {
+              "en": ":---",
+              "si": ":---"
+            }
+          },
+          {
+            "col0": {
+              "en": "Proprietary Software (හිමිකාර මෘදුකාංග)",
+              "si": "හිමිකාර මෘදුකාංග"
+            },
+            "col1": {
+              "en": "Microsoft Word, Apple Pages",
+              "si": "Microsoft Word, Apple Pages"
+            }
+          },
+          {
+            "col0": {
+              "en": "Free & Open Source (FOSS) (නිදහස් හා විවෘත මූලාශ්‍ර)",
+              "si": "FOSS) (නිදහස් හා විවෘත මූලාශ්‍ර"
+            },
+            "col1": {
+              "en": "LibreOffice Writer, OpenOffice Writer",
+              "si": "LibreOffice Writer, OpenOffice Writer"
+            }
+          },
+          {
+            "col0": {
+              "en": "Cloud-Based Applications (වලාකුළු පදනම්)",
+              "si": "වලාකුළු පදනම්"
+            },
+            "col1": {
+              "en": "Google Docs, MS Word Online",
+              "si": "Google Docs, MS Word Online"
+            }
+          },
+          {
+            "col0": {
+              "en": "Basic Text Editors (සරල පෙළ සංස්කාරක)",
+              "si": "සරල පෙළ සංස්කාරක"
+            },
+            "col1": {
+              "en": "Notepad, WordPad",
+              "si": "Notepad, WordPad"
+            }
+          },
+          {
+            "col0": {
+              "en": "Feature Pair (හැඩසැසුම් යුගලය)",
+              "si": "හැඩසැසුම් යුගලය"
+            },
+            "col1": {
+              "en": "Technical Behavior (තාක්ෂණික හැසිරීම)",
+              "si": "තාක්ෂණික හැසිරීම"
+            }
+          },
+          {
+            "col0": {
+              "en": ":---",
+              "si": ":---"
+            },
+            "col1": {
+              "en": ":---",
+              "si": ":---"
+            }
+          },
+          {
+            "col0": {
+              "en": "Subscript (යටිලකුණ)",
+              "si": "Subscript (යටිලකුණ)"
+            },
+            "col1": {
+              "en": "Lowers selected character below the text baseline ($H_2O$).",
+              "si": "Lowers selected character below the text baseline ($H_2O$)."
+            }
+          },
+          {
+            "col0": {
+              "en": "Superscript (උඩලකුණ)",
+              "si": "Superscript (උඩලකුණ)"
+            },
+            "col1": {
+              "en": "Raises selected character above the text baseline ($X^2$).",
+              "si": "Raises selected character above the text baseline ($X^2$)."
+            }
+          },
+          {
+            "col0": {
+              "en": "Cut (කපන්න)",
+              "si": "Cut (කපන්න)"
+            },
+            "col1": {
+              "en": "Deletes selection from active document into Clipboard buffer.",
+              "si": "Deletes selection from active document into Clipboard buffer."
+            }
+          },
+          {
+            "col0": {
+              "en": "Copy (පිටපත් කරන්න)",
+              "si": "Copy (පිටපත් කරන්න)"
+            },
+            "col1": {
+              "en": "Leaves original text intact and duplicates selection to Clipboard.",
+              "si": "Leaves original text intact and duplicates selection to Clipboard."
+            }
+          },
+          {
+            "col0": {
+              "en": "First Line Indent (පළමු පේළි එබුම)",
+              "si": "First Line Indent (පළමු පේළි එබුම)"
+            },
+            "col1": {
+              "en": "Indents only the first line of the paragraph inward to the right.",
+              "si": "Indents only the first line of the paragraph inward to the right."
+            }
+          },
+          {
+            "col0": {
+              "en": "Hanging Indent (එල්ලෙන එබුම)",
+              "si": "Hanging Indent (එල්ලෙන එබුම)"
+            },
+            "col1": {
+              "en": "Leaves first line flush with margin; indents second and subsequent lines.",
+              "si": "Leaves first line flush with margin; indents second and subsequent lines."
+            }
+          },
+          {
+            "col0": {
+              "en": "Red Wavy Line (රතු රැලි සහිත ඉර)",
+              "si": "Red Wavy Line (රතු රැලි සහිත ඉර)"
+            },
+            "col1": {
+              "en": "Flags word as unrecognized by internal dictionary.",
+              "si": "Flags word as unrecognized by internal dictionary."
+            }
+          },
+          {
+            "col0": {
+              "en": "Green / Blue Wavy Line (කොළ/නිල් ඉර)",
+              "si": "Green / Blue Wavy Line (කොළ/නිල් ඉර)"
+            },
+            "col1": {
+              "en": "Flags grammatical structure or contextual usage error.",
+              "si": "Flags grammatical structure or contextual usage error."
+            }
+          },
+          {
+            "col0": {
+              "en": "Mail Merge Component (සංරචකය)",
+              "si": "සංරචකය"
+            },
+            "col1": {
+              "en": "Core Content (අඩංගු දෑ)",
+              "si": "අඩංගු දෑ"
+            }
+          },
+          {
+            "col0": {
+              "en": ":---",
+              "si": ":---"
+            },
+            "col1": {
+              "en": ":---",
+              "si": ":---"
+            }
+          },
+          {
+            "col0": {
+              "en": "Main Document (ප්‍රධාන ලේඛනය)",
+              "si": "Main Document (ප්‍රධාන ලේඛනය)"
+            },
+            "col1": {
+              "en": "Body letter text, school header, signature lines, and merge field tags.",
+              "si": "Body letter text, school header, signature lines, and merge field tags."
+            }
+          },
+          {
+            "col0": {
+              "en": "Data Source (දත්ත ප්‍රභවය)",
+              "si": "Data Source (දත්ත ප්‍රභවය)"
+            },
+            "col1": {
+              "en": "Structured tabular data stored in columns (fields) and rows (records).",
+              "si": "Structured tabular data stored in columns (fields) and rows (records)."
+            }
+          },
+          {
+            "col0": {
+              "en": "Merged Document (ඒකාබද්ධ වූ ලේඛන)",
+              "si": "Merged Document (ඒකාබද්ධ වූ ලේඛන)"
+            },
+            "col1": {
+              "en": "Complete batch of finalized individual personalized letters ready to print.",
+              "si": "Complete batch of finalized individual personalized letters ready to print."
+            }
+          },
+          {
+            "col0": {
+              "en": "Operation (මෙහෙයුම)",
+              "si": "මෙහෙයුම"
+            },
+            "col1": {
+              "en": "Shortcut Key (කෙටිමං යතුර)",
+              "si": "කෙටිමං යතුර"
+            }
+          },
+          {
+            "col0": {
+              "en": ":---",
+              "si": ":---"
+            },
+            "col1": {
+              "en": ":---",
+              "si": ":---"
+            }
+          },
+          {
+            "col0": {
+              "en": "New Document",
+              "si": "New Document"
+            },
+            "col1": {
+              "en": "`Ctrl + N`",
+              "si": "`Ctrl + N`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Open Document",
+              "si": "Open Document"
+            },
+            "col1": {
+              "en": "`Ctrl + O`",
+              "si": "`Ctrl + O`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Save Document",
+              "si": "Save Document"
+            },
+            "col1": {
+              "en": "`Ctrl + S`",
+              "si": "`Ctrl + S`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Save As",
+              "si": "Save As"
+            },
+            "col1": {
+              "en": "`F12`",
+              "si": "`F12`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Print",
+              "si": "Print"
+            },
+            "col1": {
+              "en": "`Ctrl + P`",
+              "si": "`Ctrl + P`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Close Document",
+              "si": "Close Document"
+            },
+            "col1": {
+              "en": "`Ctrl + W`",
+              "si": "`Ctrl + W`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Exit Application",
+              "si": "Exit Application"
+            },
+            "col1": {
+              "en": "`Alt + F4`",
+              "si": "`Alt + F4`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Cut Text",
+              "si": "Cut Text"
+            },
+            "col1": {
+              "en": "`Ctrl + X`",
+              "si": "`Ctrl + X`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Copy Text",
+              "si": "Copy Text"
+            },
+            "col1": {
+              "en": "`Ctrl + C`",
+              "si": "`Ctrl + C`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Paste Text",
+              "si": "Paste Text"
+            },
+            "col1": {
+              "en": "`Ctrl + V`",
+              "si": "`Ctrl + V`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Undo",
+              "si": "Undo"
+            },
+            "col1": {
+              "en": "`Ctrl + Z`",
+              "si": "`Ctrl + Z`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Redo",
+              "si": "Redo"
+            },
+            "col1": {
+              "en": "`Ctrl + Y`",
+              "si": "`Ctrl + Y`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Select All",
+              "si": "Select All"
+            },
+            "col1": {
+              "en": "`Ctrl + A`",
+              "si": "`Ctrl + A`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Find",
+              "si": "Find"
+            },
+            "col1": {
+              "en": "`Ctrl + F`",
+              "si": "`Ctrl + F`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Replace",
+              "si": "Replace"
+            },
+            "col1": {
+              "en": "`Ctrl + H`",
+              "si": "`Ctrl + H`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Bold",
+              "si": "Bold"
+            },
+            "col1": {
+              "en": "`Ctrl + B`",
+              "si": "`Ctrl + B`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Italic",
+              "si": "Italic"
+            },
+            "col1": {
+              "en": "`Ctrl + I`",
+              "si": "`Ctrl + I`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Underline",
+              "si": "Underline"
+            },
+            "col1": {
+              "en": "`Ctrl + U`",
+              "si": "`Ctrl + U`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Subscript",
+              "si": "Subscript"
+            },
+            "col1": {
+              "en": "`Ctrl + =`",
+              "si": "`Ctrl + =`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Superscript",
+              "si": "Superscript"
+            },
+            "col1": {
+              "en": "`Ctrl + Shift + +`",
+              "si": "`Ctrl + Shift + +`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Align Left",
+              "si": "Align Left"
+            },
+            "col1": {
+              "en": "`Ctrl + L`",
+              "si": "`Ctrl + L`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Center Align",
+              "si": "Center Align"
+            },
+            "col1": {
+              "en": "`Ctrl + E`",
+              "si": "`Ctrl + E`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Align Right",
+              "si": "Align Right"
+            },
+            "col1": {
+              "en": "`Ctrl + R`",
+              "si": "`Ctrl + R`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Justify",
+              "si": "Justify"
+            },
+            "col1": {
+              "en": "`Ctrl + J`",
+              "si": "`Ctrl + J`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Manual Page Break",
+              "si": "Manual Page Break"
+            },
+            "col1": {
+              "en": "`Ctrl + Enter`",
+              "si": "`Ctrl + Enter`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Spelling Check",
+              "si": "Spelling Check"
+            },
+            "col1": {
+              "en": "`F7`",
+              "si": "`F7`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Thesaurus",
+              "si": "Thesaurus"
+            },
+            "col1": {
+              "en": "`Shift + F7`",
+              "si": "`Shift + F7`"
+            }
+          },
+          {
+            "col0": {
+              "en": "Change Case",
+              "si": "Change Case"
+            },
+            "col1": {
+              "en": "`Shift + F3`",
+              "si": "`Shift + F3`"
+            }
           }
         ]
       },
@@ -897,7 +1564,7 @@ export const G10_U5_DATA: GeneralLessonData = {
           "si": "Ctrl + R"
         }
       ],
-      "correctOptionId": "1",
+      "correctOptionId": "2",
       "explanationEn": "Verbatim official examination question from 2020 O/L Paper I - Question 05.",
       "explanationSi": "නිල විභාග ප්‍රශ්නය: 2020 O/L Paper I - Question 05."
     },
@@ -931,7 +1598,7 @@ export const G10_U5_DATA: GeneralLessonData = {
           "si": "කැපිටල්/සිම්පල් වෙනස් කිරීම (Change Case)"
         }
       ],
-      "correctOptionId": "1",
+      "correctOptionId": "2",
       "explanationEn": "Verbatim official examination question from 2021 O/L Paper I - Question 06.",
       "explanationSi": "නිල විභාග ප්‍රශ්නය: 2021 O/L Paper I - Question 06."
     },
@@ -965,7 +1632,7 @@ export const G10_U5_DATA: GeneralLessonData = {
           "si": "පෙළ එතීම (Wrap Text)"
         }
       ],
-      "correctOptionId": "1",
+      "correctOptionId": "2",
       "explanationEn": "Verbatim official examination question from 2022 O/L Paper I - Question 08.",
       "explanationSi": "නිල විභාග ප්‍රශ්නය: 2022 O/L Paper I - Question 08."
     },
@@ -999,7 +1666,7 @@ export const G10_U5_DATA: GeneralLessonData = {
           "si": "දෙපස පෙළගැස්ම (Justify)"
         }
       ],
-      "correctOptionId": "1",
+      "correctOptionId": "4",
       "explanationEn": "Verbatim official examination question from 2023 O/L Paper I - Question 06.",
       "explanationSi": "නිල විභාග ප්‍රශ්නය: 2023 O/L Paper I - Question 06."
     },
@@ -1046,7 +1713,7 @@ export const G10_U5_DATA: GeneralLessonData = {
           "si": "A, B සහ C සියල්ලම"
         }
       ],
-      "correctOptionId": "1",
+      "correctOptionId": "3",
       "explanationEn": "Verbatim official examination question from 2021 O/L Paper II - Question 01 (v).",
       "explanationSi": "නිල විභාග ප්‍රශ්නය: 2021 O/L Paper II - Question 01 (v)."
     },
@@ -1106,7 +1773,7 @@ export const G10_U5_DATA: GeneralLessonData = {
           "si": "Ctrl + G"
         }
       ],
-      "correctOptionId": "1",
+      "correctOptionId": "2",
       "explanationEn": "Verbatim official examination question from 2024 O/L Paper I - Question 07.",
       "explanationSi": "නිල විභාග ප්‍රශ්නය: 2024 O/L Paper I - Question 07."
     },

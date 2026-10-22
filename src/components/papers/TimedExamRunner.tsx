@@ -31,6 +31,7 @@ interface TimedExamRunnerProps {
 export function TimedExamRunner({ questions, onExit }: TimedExamRunnerProps) {
   const language = useGameStore((s) => s.language);
   const addXp = useGameStore((s) => s.addXp);
+  const recordPastPaperAttempt = useGameStore((s) => s.recordPastPaperAttempt);
 
   // Exam Session State
   const [examStarted, setExamStarted] = useState<boolean>(false);
@@ -55,15 +56,22 @@ export function TimedExamRunner({ questions, onExit }: TimedExamRunnerProps) {
 
     let correctMcq = 0;
     for (const q of mcqs) {
-      if (selectedAnswers[q.id] === q.correctOptionId) {
+      const userChoice = selectedAnswers[q.id];
+      const isCorrect = userChoice === q.correctOptionId;
+      if (isCorrect) {
         correctMcq++;
+      }
+      if (userChoice) {
+        recordPastPaperAttempt(q.id, userChoice, isCorrect);
       }
     }
 
     let attemptedStructured = 0;
     for (const q of structured) {
-      if ((selectedAnswers[q.id] || '').trim().length > 0) {
+      const userText = (selectedAnswers[q.id] || '').trim();
+      if (userText.length > 0) {
         attemptedStructured++;
+        recordPastPaperAttempt(q.id, userText, true);
       }
     }
 
@@ -93,7 +101,7 @@ export function TimedExamRunner({ questions, onExit }: TimedExamRunnerProps) {
         // ignore
       }
     }
-  }, [activeQuestions, selectedAnswers, addXp]);
+  }, [activeQuestions, selectedAnswers, addXp, recordPastPaperAttempt]);
 
   // Countdown timer effect
   useEffect(() => {
